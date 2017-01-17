@@ -26,7 +26,7 @@ use_math: true
 -   Instructor: Dr. Walter Freeman, <wafreema@syr.edu>, Physics Building room 215
 -   Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium 
 -   Help sessions: Tuesdays, TBA, and Fridays, 9:30-11:30, in the Physics Clinic -- or just drop by my office 
--   Course website: http://walterfreeman.github.io/phy101/
+-   Course website: http://walterfreeman.github.io/phy211/
 -   Recitation TA's:
 	- Andrew Ballard, alballar@syr.edu
 	- Harris Bernstein, hcbernst@syr.edu
