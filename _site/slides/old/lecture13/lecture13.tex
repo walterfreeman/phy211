@@ -1,0 +1,221 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+\usepackage{tikz}
+
+\newcommand{\shrug}[1][]{%
+\begin{tikzpicture}[baseline,x=0.8\ht\strutbox,y=0.8\ht\strutbox,line width=0.125ex,#1]
+\def\arm{(-2.5,0.95) to (-2,0.95) (-1.9,1) to (-1.5,0) (-1.35,0) to (-0.8,0)};
+\draw \arm;
+\draw[xscale=-1] \arm;
+\def\headpart{(0.6,0) arc[start angle=-40, end angle=40,x radius=0.6,y radius=0.8]};
+\draw \headpart;
+\draw[xscale=-1] \headpart;
+\def\eye{(-0.075,0.15) .. controls (0.02,0) .. (0.075,-0.15)};
+\draw[shift={(-0.3,0.8)}] \eye;
+\draw[shift={(0,0.85)}] \eye;
+% draw mouth
+\draw (-0.1,0.2) to [out=15,in=-100] (0.4,0.95); 
+\end{tikzpicture}}
+
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Review problems]{
+  \textbf {Review problems}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2016\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\Large
+\BI
+\item{Today: just practice problems}
+\item{No office hours tomorrow morning}
+\item{Exam 2: one week after you come back from Spring Break}
+\item{Poll on practice exam and homework: would you prefer...}
+\BI
+\large
+\item{A: separate homework and practice exams, where you work the practice exam in recitation, and the homework on your own,
+or...}
+\item{B: Combined practice exam and homework, where you will turn in the practice exam at the end of recitation Friday for 
+credit}
+\EI
+(Whichever you pick will be posted today)
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: a 1D collision}}
+  \Large
+  A train car with a mass $m$ is at rest on a track. Another train car also of mass $m$ is moving toward it with a velocity $v_0$ when it is a distance $d$ away. 
+  The first car hits the second and couples to it; the cars roll together until friction brings them to a stop.
+
+\bigskip
+
+
+If the coefficient of rolling friction is $\mu_r$, how far do they roll after the collision?
+
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+
+
+Method: use conservation of momentum to understand the collision; use other methods to understand before and after!
+
+}
+
+\frame{\frametitle{\textbf{Sample problems: a rocket-powered car...}}
+\large
+If the car has mass $m$ and the fire extinguisher expels gas at a rate $\beta$ (measured in kilograms per second),
+what is the acceleration of the car?
+}
+
+
+
+\frame{\frametitle{\textbf{Sample problems: a 2D collision}}
+\large
+A sedan of mass 2000 kg is traveling north at 25 miles per hour. A Mini Cooper of mass 1000 kg is traveling east at 30 
+miles per hour, runs a stop sign, and collides with the sedan.
+
+\begin{itemize}
+\item{If the two cars stick together after the collision, what is their velocity?}
+\pause
+\item{If the coefficient of friction between the cars and the pavement is 0.6, how far do they travel?}
+\pause
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: pulling a trailer uphill}}
+\large
+A truck (with four wheel drive) has a mass of $m=2000$ kg and its tires have a coefficient of friction with the ground
+of $\mu_s$=0.8. What is the steepest hill it can drive up?
+\pause
+
+\bigskip
+
+Suppose now that it is towing a trailer of mass $M=4000$ kg. Now what is the steepest hill that it can drive up?}
+
+\frame{\frametitle{\textbf{Sample problems: traction in curves}}
+\large
+Suppose that the coefficient of static friction between a car's tires and the pavement is $\mu_s=0.8$.
+
+\begin{itemize}
+\item{If a curve has a radius of curvature $r=50$m, what is the fastest that a car can travel around it?}
+\pause
+\item{Formula 1 race cars have wings on them designed to generate an extra force pointing downward. If this
+force equals half the car's weight, what is the tightest curve that such a car can negotiate at 150 mph = 67 m/s?}
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: foom!}}
+\large
+If the table has height $h$ and the car recoils at speed $v$, how far does the cork travel, assuming that the cars 
+have a mass ten times that of the cork?
+}
+
+
+
+
+
+
+
+\end{document}

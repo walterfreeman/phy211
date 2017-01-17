@@ -1,0 +1,16 @@
+
+va 1 1 4 5 
+arcx 1 1 4 5 1
+v 1 1 4 1 1 2
+v 4 1 4 5 3 2
+v 0 0 5 0 0 1
+v 0 0 0 5 0 1
+
+#m 1 cm 0 
+#m 1
+#cm 1
+2.3 0.7 "V\sbx\eb=3"
+#cm 3
+4.2 3 "V\sby\eb=4"
+#cm 0
+0.8 3.3 "|V|\sp2\ep=V\mk\sbx\eb\rt\sp2\ep+V\mk\sby\eb\rt\sp2\ep"

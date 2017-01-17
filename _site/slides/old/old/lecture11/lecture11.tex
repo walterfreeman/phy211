@@ -1,0 +1,404 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Exam 2 Review]{
+  \textbf {Exam 2 Review}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2015\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\BI
+\large
+\item{Exam 2 next Tuesday}
+\item{Homework 5 due Friday}
+\item{No recitation next Wednesday (TA's will be grading)}
+\item{Recitation next Friday: going over exams}
+\item{Exam regrades still in progress (I've been teaching nonstop, sorry!)}
+\EI
+
+}
+
+\frame{\frametitle{\textbf{Exam details}}
+  \BI
+  \large
+\item{4 questions (+ possible extra credit)}
+\item{No detailed graphs}
+\item{More symbolic problems (no numbers) than before}
+\item{Please arrive a bit early if at all possible}
+\item{\bf{Please know your recitation section number} to get your exam back on time}
+\item{Bring a calculator and your pencil}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Extra exam preparation}}
+  \large
+  \BI
+\item{Practice exam posted}
+\BI
+\item{Solutions posted Friday after recitations}
+  \EI
+\item{Review session {\color{Red}today: 3:30-6:00, Physics Building B126}}
+\item{Review session {\color{Red}tomorrow: 10AM-4PM, Heroy Geology Building room 013}}
+\item{I'm available to answer questions by email, Facebook chat, etc. all weekend}
+  \BI
+\item{Lots of people have been Facebook-messaging me cellphone pictures of work with questions; please do this!}
+  \EI
+\item{There is a huge amount of help available to you: use it!}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Midterm evaluations}}
+  \BI
+  \large
+\item{There are midterm course evaluations at Syracuse -- you should have gotten emails about this}
+\item{Go to http://aaf-ratings.syr.edu/ and enter a passcode you were sent by mail}
+\item{I take your feedback extremely seriously}
+\item{At the end of class if you like I can give you time to complete this if you'd like}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Review: overview}}
+  \large
+  \BI
+\item{Newton's second law: $\sum \vec F = m \vec a$}
+  \BI
+  \normalsize
+\item{Forces (left hand side) cause accelerations (right hand side)}
+\item{Acceleration is not a force; it {\it results} from forces}
+  \EI
+
+  \bigskip
+  \bigskip
+  \bigskip
+
+\item{Newton's third law: Forces come in pairs. If A pushes on B, B pushes back on A}
+
+
+  \bigskip
+  \bigskip
+  \bigskip
+
+\item{Forces are things you can feel:}
+  \BI
+  \normalsize
+\item{Normal forces: one thing pushes on another}
+\item{Gravity}
+\item{Tension: a rope pulls on something}
+\item{Friction: opposes things sliding}
+\item{\color{Red}Acceleration is not a force: forces {\it cause} acceleration}
+\item{``Centripetal force'' is not a separate force: it describes one of the above}
+  \EI
+  \EI
+}
+
+\frame{\frametitle{\textbf{A few things about these forces: gravity}}
+  \large
+  \BI
+\item{On Earth: always acts downward with $F_g = mg$}
+\item{The acceleration of an object is {\it only} $g$ if there are no other forces}
+  
+  \bigskip
+  
+  \centerline{$-mg = ma_y$ : only if $\sum F_y = -mg$!}
+  \pause
+
+  \bigskip
+  \bigskip
+\item{This is only true on Earth. Elsewhere: all objects attract each other}
+\bigskip
+
+\centerline{$F_g = \frac{Gm_1 m_2}{r^2}$}
+\item{$m_1$ and $m_2$ are the masses of the two objects; $r$ is the distance between their centers.}
+\item{$G = 6.67 \times 10^{-11} \rm N \cdot \rm m^2/\rm{kg}^2$}
+\item{This distance is measured between their centers (for planets)}
+\item{On Earth: $F_g = m_1 g = \frac{GM_e m_1}{r_e^2}$, so $g = \frac{GM_e}{r_e^2}$}
+  \EI
+}
+
+\frame{\frametitle{\textbf{A few things about these forces: tension}}
+\large
+\BI
+\item{Just the force exerted by a rope}
+\item{Always goes in the direction of the rope, and is the same throughout}
+\item{Can only pull; can never push}
+\item{Force is the same on both ends (Newton's 3rd law)}
+  \EI
+}
+
+\frame{\frametitle{\textbf{A few things about these forces: normal forces}}
+\large
+\BI
+\item{Stops two things from moving through each other}
+\item{Always directed normal (perpendicular) to a surface}
+\item{Magnitude is as large as it needs to be to stop objects from ``crossing'' ($a_\perp = 0$)}
+\item{Newton's third law: if A pushes on B, B pushes back on A (the book problem)}
+\item{Can only push; can never pull (the water-in-bucket problem)}
+    \EI
+}
+
+\frame{\frametitle{\textbf{A few things about these forces: friction}}
+
+
+Friction depends on a property of the surfaces called the {\color{Red}coefficient of friction} $\mu$
+  \BI
+\item{Roughly: ``how sticky things are''.}
+\item{Force of kinetic friction = $\mu_k F_N$}
+\item{Max force of static friction = $\mu_s F_N$}
+\item{Friction points in whatever direction opposes the tendency to slide}
+\item{Static friction {\it can} make objects move (cars, people walking)}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Rotational motion}}
+  \BI
+  \large
+\item{``Uniform circular motion'': object steadily moving in a circle}
+\item{Angular velocity: how fast does the thing turn? (RPM's, degrees per second, {\bf radians per second})}
+\item{Constant speed does {\it not} mean constant velocity or zero acceleration!}
+  
+  \bigskip
+\bigskip
+ 
+\centerline{\Large $a = \omega^2 r = \frac{v^2}{r}$ toward the center of the circle}
+
+  \bigskip
+  \bigskip
+
+\pause
+
+\item{``How many force problems and how many circular motion problems will we have?''}
+  \pause
+\item{They're the same: circular motion just tells you that $a=\omega^2 r$. You do these problems in {\it exactly the same way}.}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Problem solving strategies (the important thing!)}}
+    \BI
+  \item{\Large 1. Force diagrams (``Accounting'')}
+\BI
+\item{Draw all forces and only forces (things you can feel)}
+\item{Choose a pair of axes (tilted axes are sometimes helpful, like for things on ramps)}
+\item{Break forces into components along these axes, if needed}
+  \EI
+
+  \bigskip\pause
+
+\item{\Large 2. Newton's laws (``Physics'')}
+  \BI
+\item{Write down $\sum F = ma$ for {\color{Red}each object} in {\color{Red}each direction. You can read this off your diagram. For instance:}}
+
+  \begin{align*}
+     T_1 \cos \theta - T_2 =& ma_x \\
+    T_1 \sin \theta - mg =& ma_y \\
+  \end{align*}
+\item{Forces (real things) go on the left side; acceleration goes on the right}
+\item{Put in things you know about the acceleration}
+\item{Different objects : different acceleration variables (are they related?)}
+  \BI
+\item{Sometimes $a=0$}
+\item{Circular motion: $a_r = \omega^2 r = \frac{v^2}{r}$ toward the center}
+  \EI
+\EI
+  \bigskip\pause
+
+\item{\Large 3. Algebra (``Math'')}
+\BI
+\item{Put in the stuff you have, solve for the stuff you need}
+\item{Need at least as many equations as unknowns}
+\item{``Systems of equations'': solve by substitution}
+  \EI
+  \EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: elevator}}
+\Large
+A 100 kg person stands in an elevator. What is the normal force if the elevator is accelerating upward at 3 $\rm m/\rm s^2$?
+
+\bigskip
+\bigskip
+\pause
+
+\BI
+\item{Sum of forces goes on the left, acceleration goes on the right}
+\item{We know the acceleration; we don't know one of the forces $\rightarrow$ solve for it!}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: Mass on a string}}
+  \Large
+  A 2 kg mass hangs on a string 1m long, which is being spun in a vertical circle once per second. What is the tension force at the bottom
+  of the arc?
+
+  \bigskip
+  \bigskip
+  \pause
+
+  \BI
+\item{This is the same idea as the last problem; we just know the acceleration in an indirect way}
+    \EI
+  }
+
+  \frame{\frametitle{\textbf{Sample problems: Mass on a string}}
+  \Large
+  A 2 kg mass hangs on a string 1m long, which is being spun in a vertical circle once per second. What is the tension force at the top
+  of the arc?
+
+  \bigskip
+  \bigskip
+  \pause
+
+  \BI
+\item{Remember, the acceleration goes toward the center of the circle: think about your signs!}
+    \EI
+  }
+
+  \frame{\frametitle{\textbf{Sample problems: Mass on a ramp}}
+    \Large
+    A block sits on a ramp inclined at an angle of 40 degrees. The coefficient of kinetic friction is 0.3. What is its acceleration?
+
+     \bigskip
+       \bigskip
+         \pause
+
+           \BI
+         \item{Tilted coordinate axes}
+         \item{Break gravity into components (remember how this goes!!)}
+           \EI
+         }
+
+
+  \frame{\frametitle{\textbf{Sample problems: Atwood's machine}}
+    \Large
+  Two masses of 1 kg and 1.1 kg hang from either side of a massless pulley. What is their acceleration?
+
+  \bigskip
+  \bigskip
+  \pause
+
+  \BI
+\item{Separate force diagram for each object}
+\item{How do the accelerations relate?}
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: Train problem}}
+    \Large
+    A toy locomotive of mass 4 kg tows two toy train cars of mass 2 kg each, accelerating at 2 $\rm m/\rm s^2$. Find the two tension forces and the force of static friction on the locomotive's wheels.
+
+     \bigskip
+       \bigskip
+         \pause
+
+           \BI
+         \item{Static friction = traction force}
+         \item{Separate force diagram for each object}
+         \item{Only have forces that directly connect -- don't ``guess the answer'', ask the question}
+           \EI
+         }
+
+
+\frame{\frametitle{\textbf{Sample problems: your request!}}}
+
+\frame{\frametitle{\textbf{Mid-semester evaluations}}}
+
+    \end{document}

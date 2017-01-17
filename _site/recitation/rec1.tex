@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\vs}[1]{\vspace{#1}}
+\newcommand{\BC}{\begin{center}}
+\newcommand{\EC}{\end{center}}
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{enumerate}}
+\newcommand{\EE}{\end{enumerate}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+\pagenumbering{gobble}
+\begin{document}
+\Large
+\centerline{\sc{Recitation Problems}}
+\large
+\BC
+\sc
+Wednesday, January 18
+\EC
+\normalsize
+
+
+\BC Fill out the following for your group. One member of your group should turn this page in at the end
+of recitation, so your TA knows who you are. \EC
+
+
+\BC
+
+\hspace{-1in}
+
+\begin{tabular}{|m{4cm}|m{4cm}|m{4cm}|m{4cm}|}
+\hline
+Name & & &  \\[1.5cm] \hline
+Academic year  & & & \\[1.5cm] \hline
+Major & & &  \\[1.5cm] \hline
+High school physics course (AP, IB, regular, or none)?  & & & \\[1.5cm]\hline
+Highest math class completed? & &  & \\[1.5cm]\hline
+
+\end{tabular}
+\EC
+\newpage
+
+\BE
+
+\item One cubic centimeter of water has a mass of one gram. What is the mass of a cubic meter of water?
+
+This problem is not that difficult, but I want you to establish good habits in working with units right 
+off the bat. In this problem, {\it carry the units along with every dimensionful quantity}. This may seem
+nitpicky, but it will avoid so many errors later in this course. Show your TA your work when you are done.
+
+\vs{2in}
+
+
+
+\newpage
+
+
+\item The only interstate signed in metric in the US is Interstate 19, running between Nogales on the Mexican
+border (kilometer marker 0) and Tucson, AZ (kilometer marker 101).
+
+\BE
+
+\item A car leaves Nogales driving north to Tucson at 2PM. How fast must the driver travel to reach 
+Tucson by 3PM? What about 3:10PM?
+
+\vs{1.5in}
+
+\item Draw on one graph the car's position as a function of time in both cases. You may measure distance 
+and time in any units you choose, but label your axes!
+
+\vs{3in}
+
+\item Suppose instead that the car drives at a constant 120 km/hr. How many hours will it take to reach 
+Tucson? As you solve this problem, remember to {\it carry the units along with every dimensionful quantity}.
+The distance from Nogales to Tucson is not 101, and the speed is not 120; 
+they are ``101 km'' and ``120 km/hr'', respectively.
+\EE
+\newpage
+
+\item A bus leaves Tucson headed for Mexico. One of the passengers realizes that he forgot his passport, and 
+calls his friend to bring it to him. She finds it and sets off after him, entering I-19 ten minutes after the 
+bus. If the bus drives at 80 km/hr, how fast must she drive to catch the bus before the Mexican border?
+
+\BE
+
+\item On a single set of axes, sketch graphs of the position of the bus and the position of our forgetful 
+passenger's friend if she drives just fast enough to catch him as he gets to Mexico. (You can make a 
+rough sketch before doing any mathematics; this is a good way to get an idea of how to attack the 
+problem.)
+
+\vs{3in}
+
+\item What choice did you have to make to do this problem? Would your answer to the previous question 
+change if the "zero-km" marker were on the Tucson end of the highway?
+
+\vs{1in}
+
+\EE
+\EE
+
+\end{document}

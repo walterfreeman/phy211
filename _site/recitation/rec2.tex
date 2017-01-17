@@ -1,0 +1,164 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\vs}[1]{\vspace{#1}}
+\newcommand{\BC}{\begin{center}}
+\newcommand{\EC}{\end{center}}
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{enumerate}}
+\newcommand{\EE}{\end{enumerate}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+\pagenumbering{gobble}
+\begin{document}
+\Large
+\centerline{\sc{Recitation Problems}}
+\large
+\BC
+\sc
+Friday, January 20
+\EC
+\normalsize
+
+
+In class, you learned the kinematics relations $x(t) = x_0 + vt + \frac{1}{2}at^2$ and $v(t) = v_0 + at$. 
+These relations aren't generally true, however; they are true only in a specific case. What must be true 
+for these relations to apply?
+
+\vs{1.5in}
+
+
+Two runners start at opposite ends of a $L=100m$ long soccer pitch and sprint toward each other. One runs 
+at 8 m/s and starts on the east side, while the other runs at 6 m/s and starts at the west side. The slower 
+runner has a $\tau=2$ s head start. You'd like to know where on the field they meet.
+
+%\footnote{This means ``The runner has a head start of 2 seconds, and I 
+%am suggesting that you use the letter $\tau$ for this quantity.'' This is the lowercase form of the Greek 
+%letter tau, which is usually used to mean ``a specific time that appears in the problem''.} head start. You'd like to know where they'll meet.
+
+\BE
+
+\item As with all physics problems, you should work this problem using variables, substituting numbers only
+as the very last step. In physics, we often use subscripts to give more information about a variable. 
+For instance, $x_1(t)$ means ``the position of object 1 as a function of time''. You can even combine them: ``$x_{0,1}$''
+means ``the initial position of object 1''. Choose variables to use for:
+
+\BI
+\item the initial position of each runner
+\item the velocity of each runner
+\item the length of the head start (I suggest $\tau$ for this)
+\EI
+
+\item Draw position vs. time graphs for both runners on a single set of axes.
+
+\vs{2in}
+
+\item Write position vs. time equations (of the form $x = x_0 + vt$) for both runners, using the algebraic
+variables you chose in part (1) instead of the numbers. 
+
+\vs{1.5in}
+
+\item I asked you to tell me where the runners meet. Write down an English sentence using the physical quantities in the problem (positions, times, etc.)
+that can help you answer this question.
+
+\vs{1in}
+
+\item Perform the algebra indicated by the sentence and equations you wrote.
+
+\vs{2in}
+
+\item Finally, substitute in the numerical values to find where they meet. How do you take into account the fact
+that they run in opposite directions?
+
+\EE
+
+\vs{2in}
+
+\newpage
+
+
+\newpage
+
+
+A car is traveling at 30 m/s and applies its brakes to slow down to 10 m/s. If it is able to decelerate at 5 
+$\rm m/\rm s^2$, how far does it travel during the braking period? As always, introduce these numbers as the
+very last step, along with their units; do the first steps in terms of variables only.
+
+\BE
+\item Write expressions for the car's position and velocity as a function of time.
+
+\vs{1in}
+
+\item How can you translate the question ``How far does it travel during the braking period?'' into an 
+algebraic statement? Write a sentence like the ones you have written before.
+
+\vs{1.5in}
+
+\item What intermediate quantity must you find before you find the distance traveled? Find it.
+
+\vs{2in}
+
+\item Finally, how far does the car travel during the braking period?
+
+\vs{2in}
+
+\EE
+
+
+\newpage
+
+{\bf Challenge question:} Consider a basketball bouncing on the floor.
+
+Draw position vs. time, velocity vs. time, and acceleration vs. time graphs for the ball.
+Look at your graphs carefully and make sure they are self-consistent:
+
+\BI 
+\item Regions of constant acceleration should correspond to places where the velocity graph is a 
+straight line (are there any?)
+
+\item Regions of constant velocity should correspond to places where the position graph is a straight 
+line (are there any?)
+
+\item Places where the position graph is flat should correspond to v=0
+\EI
+
+Remember, the slope of the position graph is the value of the velocity graph; the slope of the 
+velocity graph is the value of the acceleration graph
+
+How would these graphs be different for a bouncing bowling ball?
+
+{\bf Note:} This is a bit tricky! As with all problems in recitation, work together with your peers and ask 
+your TA/coach for guidance if you have questions.
+
+\end{document}

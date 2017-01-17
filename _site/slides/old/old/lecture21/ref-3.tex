@@ -1,0 +1,126 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{epsf}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+
+\Large \centerline{\sc Reference Sheet}
+
+\normalsize \rm
+
+Centripetal acceleration of an object in uniform circular motion: $a_c = \frac{v_T^2}{r}\,\, {\rm{or}}\,\, \omega^2 r$
+
+\bigskip
+
+Tangential velocity $v_T = \omega r$\\
+Tangential acceleration $a_T = \alpha r$
+
+\bigskip
+
+Newton's second law: $\vec F = m \vec a$ \\
+Newton's third law: $\vec F_{\rm{A\, on\, B}} = -\vec F_{\rm{ B\, on\, A}}$
+
+\bigskip
+
+Momentum $\vec p=m \vec v$
+
+\bigskip
+
+Maximum force of static friction: $\mu_s F_N$ \\
+Force of kinetic friction: $\mu_s F_N$
+
+\bigskip
+
+\centerline{  \begin{tabular}{| c | c |}
+      \hline
+      Translation & Rotation \\
+      \hline
+      \hline
+      \hline
+      Position $x$ & Angle $\theta$ \\
+      \hline
+      Velocity $v$ & Angular velocity $\omega$ \\
+      \hline
+      Acceleration $a$ & Angular acceleration $\alpha$ \\
+      \hline
+      \hline
+      $v(t) = v_0 + at$ & $\omega(t) = \omega_0 + \alpha t$ \\
+      \hline
+      $x(t) = x_0 + v_0 t + \frac{1}{2}at^2$ & $\theta(t) = \theta_0 + \omega_0 t + \frac{1}{2} \alpha t^2$ \\
+      \hline
+      $v_f^2 - v_0^2 = 2a \Delta x$ & $ \omega_f^2 - \omega_0^2 = 2 \alpha \Delta \theta$ \\
+      \hline
+      \hline
+      Force $\vec F$ & Torque: $\tau=F_\perp r$ or $F r_\perp$\\
+      \hline
+      Mass $m$ & Moment of Inertia: $I = \lambda MR^2$ \\
+      \hline
+      \hline
+      Newton's second law $\vec F = m \vec a$ & Newton's second law for rotation $\tau = I \alpha$ \\
+      \hline
+      \hline
+      Work = $\vec F \cdot \Delta \vec s$ & Work = $\tau \Delta \theta$ \\
+      \hline
+      Kinetic energy $\frac{1}{2} mv^2$ & Kinetic energy $\frac{1}{2} I \omega^2$ \\
+      \hline
+      Power ($\vec F$ constant) = $\vec F \cdot \vec v$ & Power ($\tau$ constant) = $\tau \omega$ \\
+      \hline
+      \hline
+      Momentum $\vec p = m \vec v$ & Angular momentum $L = I \omega$ \\
+      \hline
+  \end{tabular}}
+  Moment of inertia of...
+
+  \begin{itemize}
+    \item{Any object: $I=m \LL r^2 \RR$, where $\LL r^2 \RR$ is the average squared radius}
+    \item{A hollow cylinder or single mass a distance $r$ from the pivot: $I=mr^2$}
+    \item{A solid sphere: $I=\frac{2}{5}mr^2$}
+    \item{A cylinder or disk: $I=\frac{1}{2}mr^2$}
+  \end{itemize}
+
+\bigskip
+
+Angular momentum of a single object about a pivot: $L = mvr_\perp = m v_\perp r$
+
+
+\end{document}

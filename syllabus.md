@@ -35,7 +35,8 @@ use_math: true
 	- Julian Georg, jsgeorg@syr.edu
 	- Francesco Serafin, fserafin@syr.edu (lead TA)
 	- Kyle Spurgeon, klspurge@syr.edu
-	- Tie Zheng, tzheng01@syr.edu
+	- <p>Tie Zheng, tzheng01@syr.edu
+
 ---
 
 
@@ -65,7 +66,7 @@ This class won't be easy, of course; the difficult aspect of this course will be
 
 Physics is a science of simplicity. It is the most reductionist of the sciences; the aim of physics is to reduce the world around us to its simplest parts, understand how they work, and then put them back together to understand the things they make up. Physics is difficult because understanding how these simple pieces combine to determine the behavior of larger systems requires cleverness, ingenuity, and problem-solving skills. The most difficult aspect of this course is learning to solve problems with simple tools. It's like building things out of Legos: you're supposed to build a rocketship, or a statue of Yoda, and all you have are these little bricks!
 
-This is very different than the life sciences, where the difficulty lies in complexity: nature has built very complicated machines called ``lizard'' and ``tree'' and ``physicist'', and it is up to biology to try to make sense of the complexity behind her creations. Biology is hard because you have to understand all of the different pieces that make up lizards and trees and physicists. But physics isn't like that: in this class we have only objects and forces that act on them, and from that foundation you have to build up the solution to many different situations. That's the power of physics: simple laws in combination drive everything around us.
+This is very different than the life sciences, where the difficulty lies in complexity: nature has built very complicated machines called "lizard" and "tree" and "physicist", and it is up to biology to try to make sense of the complexity behind her creations. Biology is hard because you have to understand all of the different pieces that make up lizards and trees and physicists. But physics isn't like that: in this class we have only objects and forces that act on them, and from that foundation you have to build up the solution to many different situations. That's the power of physics: simple laws in combination drive everything around us.
 
 So, if you're stuck on a problem, think simple; that's how physics works. 
 
@@ -120,7 +121,7 @@ The mathematics you will need for this class are:
 	- You will need to know how to compute the angles of a right triangle and the length of its hypotenuse given the lengths of the legs
 
 - Calculus: 
-	- You need to know the concepts of ``derivative'' (rate of change) and ``integral'' (cumulative effect / area under curve). If you are just now in Calculus I, don't worry; it is no accident that Newton developed both mechanics and calculus, and I will teach you what you need to know. You won't have to do any difficult derivatives or integrals.
+	- You need to know the concepts of "derivative" (rate of change) and "integral" (cumulative effect / area under curve). If you are just now in Calculus I, don't worry; it is no accident that Newton developed both mechanics and calculus, and I will teach you what you need to know. You won't have to do any difficult derivatives or integrals.
 
 That's it.
 
@@ -140,7 +141,7 @@ In this class, you will learn:
 
 *2.* **How forces cause motion:** the care and feeding of Newton's second law $\vec F = m\vec a$, some of the forces that exist in nature, and how to use their properties to determine how they will make objects move
 
-*3.* **Conservation laws:** the peculiar feature of the laws of physics that certain mathematical quantities, called ``energy'' and ``momentum'', are not changed by many different processes; how to use these conservation laws to analyze systems that would otherwise be quite difficult
+*3.* **Conservation laws:** the peculiar feature of the laws of physics that certain mathematical quantities, called "energy" and "momentum", are not changed by many different processes; how to use these conservation laws to analyze systems that would otherwise be quite difficult
 
 *4.* **Rotational motion:** how to incorporate objects that rotate, as well as move from place to place, into our physical understanding
 
@@ -221,7 +222,7 @@ These help sessions are opportunities for you to interact with me and the rest o
 | Attendance and participation |   Throughout the semester | 10               |
 | Group practice exams         |                           | 15               |
 
-The lowest of your exam grades will be dropped, giving a total of 100 points. If your exam grade is lower 
+The lowest of your exam grades will be dropped, giving a total of 100 points. If your final exam grade is lower 
 than any of your three midterm exam grades, then the final exam will instead only count for 15 points.
 
 Grades will be assigned as follows:

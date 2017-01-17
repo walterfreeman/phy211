@@ -1,0 +1,440 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title{
+  \textbf {Exam 3 review}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2015\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Exam 3}}
+\Large
+Topics covered:
+\BI
+\item{The work-energy theorem}
+\item{Potential energy and conservation of energy}
+\item{Elasticity and Hooke's law}
+\item{Torque and rotational motion}
+\EI
+You may expect:
+\BI
+\item{More conceptual problems (no hard math) similar to the multiple choice questions last time}
+\item{Problems involving the work-energy theorem in combination with force diagrams or rotation}
+\item{Very few problems that require calculator-work}
+\EI
+}
+
+
+\frame{\frametitle{\textbf{Exam prep schedule}}
+\large
+\BI
+\item{Thursday: office hours 1:30-3:30, possibly extended}
+\item{Friday: office hours and/or review 10-12 (Clinic), 1-4 (Archbold Gym 210)}
+\item{Saturday: review 4-8 (Clinic/Stolkin)}
+\item{Sunday: review 2-5}
+\item{Monday: Office hours by appointment; dealing with exam printing}
+\item{Tuesday: grading all day}
+\item{Wednesday: grading all day, calculating your provisional grades}
+\item{Thursday: I hope to have provisional grades available to you after noon}
+\item{Friday: review 10-4 (location TBA)}
+\item{Saturday: review 2-6 (Physics Clinic/Stolkin)}
+\item{Monday: Exam 3 Retake}
+\item{Tuesday: GTA's have exams...}
+\item{Wednesday: Grading}
+\item{Final grades should be done by Friday, May 13}
+\EI
+
+}
+
+\frame{\frametitle{\textbf{Exam 3 preparation}}
+\Large
+\centerline{This is an enormous amount of extra help; use it!}
+}
+
+\frame{\frametitle{\textbf{Homework questions}}
+\Large
+\centerline{Any questions about HW7, HW8, or the practice exam?}
+}
+
+
+\frame{\frametitle{\textbf{Review: the work-energy theorem}}
+  \BI
+  \Large
+\item{The work-energy theorem: $\frac{1}{2} mv_f^2 - \frac{1}{2}mv_i^2 = \sum W$}
+\item{Change in kinetic energy = sum of work done by all forces}
+\item{How do we calculate work done?}
+  \BI
+\item{Most general case: $W = \int \, \vec F \cdot d\vec s$ (hard to do this -- it's a line integral!)}
+\item{Constant force: $W = \vec F \cdot \Delta \vec s$}
+\item{Two ways to compute the dot product}
+  \BI
+  \normalsize
+\item{$W = F_\parallel \Delta s$: ``Work is the distance moved, times the force in that direction''}
+\item{$W = F (\Delta s)_\parallel$: ``Work is the force, times the distance moved in the direction of the force''}
+  \EI
+\item{Forces perpendicular to the motion do no work}
+\item{Forces in the direction of motion do positive work}
+\item{Forces opposite the direction of motion do negative work}
+  \EI
+
+  \EI
+}
+
+\frame{\frametitle{\textbf{Review: potential energy}}
+  \large
+  \BI
+\item{Potential energy is an accounting device for keeping track of work done by ``conservative'' forces}
+\item{Instead of writing down the work done by certain forces, you can associate them with a potential energy}
+  \EI
+  \bigskip
+  \bigskip
+  \Large
+  \centerline{$KE_i + W_{\rm {all}} = KE_f$}
+  \pause
+  \centerline{$KE_i + U_{g,i} + W_{\rm {all\,except\,gravity}} = KE_f+U_{g,f}$}
+  \pause
+  \centerline{$KE_i + U_{g,i} + U_{e,i} + W_{\rm {others...}} = KE_f+U_{g,f}+U_{e,f}$}
+  \bigskip
+  \bigskip
+  \large
+Conservation of energy methods: useful for when you don't know and don't care about time
+}
+
+\frame{\frametitle{\textbf{Solving problems: energy methods}}
+    \large
+    \BI
+  \item{One of the easier techniques in our class}
+  \item{Ensure you have very clear pictures of ``before'' and ``after'' snapshots (draw cartoons!)}
+  \item{Figure out terms for kinetic and potential energy in each}
+  \item{Figure out the work done by other forces (friction...) in going from ``before'' to ``after''}
+  \item{Remember that, for each force, you {\bf either} include it as a potential-energy term, {\bf or} calculate the work that it does}
+  \item{Write down the conservation of energy relation and solve}
+    \EI
+}
+
+\frame{\frametitle{\textbf{How fast does the car go?}}
+\Large
+\centerline{How fast is the car traveling at each photogate?}
+\pause
+\bigskip
+\bigskip
+$$\frac{1}{2}mv_f^2 = mg(y_0-y_f)$$
+}
+
+\frame{\frametitle{\textbf{Choose a problem for me to do...}}
+\large
+\BI
+\item{A spring of spring constant $k$ is compressed a distance $d$ and used to shoot a marble at an angle $\theta$ above the horizontal. How far does it go?}
+\item{A spinning wheel has angular velocity $\omega$; it is compressed by brake pads with coefficient of friction $\mu_k$ with a force $F$ on each side. How 
+many more times does it spin before it stops?}
+\item{A mass $m$ is suspended by two springs, stretching them each a distance $d$. One of them breaks. How much further will the mass fall before it bounces back up?}
+\EI
+}
+
+
+\frame{\frametitle{\textbf{Review: rotational motion}}
+  \large
+  \BI
+\item{Most ideas in rotational motion are identical to ones you already know about}
+\item{The big new ones:}
+\item{Torque is the rotational analogue of force}
+\BI
+\item{$\tau = F_\perp r = F r_\perp$; $\vec r$ is the vector from the pivot to the point of force}
+\EI
+\item{Moment of inertia is the rotational analogue of mass}
+  \BI
+\item{$I=mr^2$ for an object that is at a uniform distance from the pivot (a ring, or a single mass)}
+\item{$I=\lambda mr^2$ for an extended object; $\lambda$ is some fraction that comes from calculus}
+  \EI
+  \EI
+}
+
+\frame{\frametitle{\textbf{The correspondence table}}
+  \centerline{  \begin{tabular}{| c | c |}
+      \hline
+      Translation & Rotation \\
+      \hline
+      \hline
+      \hline
+      Position $x$ & Angle $\theta$ \\
+      \hline
+      Velocity $v$ & Angular velocity $\omega$ \\
+      \hline
+      Acceleration $a$ & Angular acceleration $\alpha$ \\
+      \hline
+      \hline
+      $v(t) = v_0 + at$ & $\omega(t) = \omega_0 + \alpha t$ \\
+      \hline
+      $x(t) = x_0 + v_0 t + \frac{1}{2}at^2$ & $\theta(t) = \theta_0 + \omega_0 t + \frac{1}{2} \alpha t^2$ \\
+      \hline
+      $v_f^2 - v_0^2 = 2a \Delta x$ & $ \omega_f^2 - \omega_0^2 = 2 \alpha \Delta \theta$ \\
+      \hline
+      \hline
+      Force $\vec F$ & Torque: $\tau=F_\perp r$ \\
+      \hline
+      Mass $m$ & Moment of Inertia: $I = \lambda MR^2$ \\
+      \hline
+      \hline
+      $\vec F = m \vec a$ & $\tau = I \alpha$ \\
+      \hline    
+      \hline
+      Work = $\vec F \cdot \Delta \vec s$ & Work = $\tau \Delta \theta$ \\
+      \hline
+      Kinetic energy $\frac{1}{2} mv^2$ & Kinetic energy $\frac{1}{2} I \omega^2$ \\
+      \hline
+      Power ($\vec F$ constant) = $\vec F \cdot \vec v$ & Power ($\tau$ constant) = $\tau \omega$ \\
+      \hline
+      \hline
+      Momentum $\vec p = m \vec v$ & Angular momentum $L = I \omega$ \\
+      \hline
+  \end{tabular}}
+}
+ 
+
+\frame{\frametitle{\textbf{Rotational motion, overview (``torque problems'')}} 
+\BI
+\item{Draw ``extended'' force diagrams for everything}
+\BI
+\item{Draw the object, and then also label {\bf each force} at the {\bf location it acts}}
+\item{Choose a pivot point, at a location that makes the torques of forces you don't care about zero}
+\EI
+\item{$\vec F = m \vec a$ is true for all objects that move (or might move)}
+\item{$\tau = I \alpha$ is true for all objects that rotate (or might rotate)}
+\item{Sometimes you don't need $\vec F = m \vec a$}
+\item{Write down these equations for every object to which they apply}
+\item{Calculate the net torque: $\sum \tau = \sum F_\perp r$}
+\BI
+\item{Remember to find the components of each force vector perpendicular to the radius vector}
+\item{Remember signs: CCW is positive, CW is negative}
+\EI
+\item{Put in what you know, solve for what you need}
+\item{You'll often have both $a$'s and $\alpha$'s; often they're related by $a=\alpha r$, but {\bf you must think about the signs} here}
+\EI
+}
+
+
+    \frame{\frametitle{\textbf{Static equilibrium problems}}
+      \large
+     \BI
+   \item{Often we are presented with a situation where nothing moves, and we have to solve for something}
+   \item{No acceleration of the center of mass: $\sum \vec F = 0$}
+   \item{No angular acceleration: $\sum \tau = 0$ about {\it any} pivot point}
+   \item{Can generate enough equations this way to solve for all unknowns}
+     \pause
+   \item{Strategy: choose the pivot to be aligned with a force you don't know and don't care about}
+     \EI
+   }
+
+   \frame{\frametitle{\textbf{Choose a sample problem for me to do...}}
+      \large
+\BI
+\item{A solid pulley of mass $M$ and radius $r$ has a mass $m$ hanging from one side. How fast does it accelerate?}
+\item{A basketball rolls down a ramp at angle $\theta$. How fast does it accelerate?}
+\item{A basketball rolls down a ramp at angle $\theta$. How steep can the ramp be for it to roll and not skid?}
+\item{The Yo-yo problem from recitation}
+\EI
+\pause
+\normalsize
+\bigskip
+\bigskip
+
+Strategy: same as for our linear motion problems.
+
+      \BI
+    \item{1. Draw force diagrams for everything}
+    \item{2. Write $\vec F=m\vec a$ for things that have translational motion}
+    \item{3. Write $\tau = I \alpha$ for things that have rotational motion}
+      \BI
+    \item{Here, <insert variable here> is another unknown variable appearing in both equations}
+      \EI
+    \item{4. Use constraints to relate $\alpha$'s to $a$'s}
+    \item{5. Solve the system of equations}
+      \EI
+
+    }
+
+    \frame{\frametitle{\textbf{Your questions...}}
+      \Large
+      What questions on the homeworks, practice exam, and recitations would you like to review?
+
+\bigskip
+\bigskip
+
+(Don't forget the myriad review sessions I'm doing for more personal help!)
+    }
+
+\frame{\frametitle{\textbf{Beyond mechanics}}
+  \Large
+What else is there in physics?
+\bigskip
+
+\large
+\BI
+\item{Acoustics and waves: just the mechanics of flexible things...}
+\item{Electrodynamics: electricity, magnetism, light {\bf (Physics 2!)}}
+\BI
+\item{All of mechanics still applies; you're just learning about a few new forces}
+\EI
+\item{Thermodynamics: temperature, heat, phase changes, gases, pressure...}
+\BI
+\item{Ordinary mechanics, just applied to a great many particles at once, using statistics to do the math}
+\EI
+\item{Condensed matter: crystals, the structure of matter}
+\item{Quantum mechanics: atoms, very small things, chemistry}
+\item{Astrophysics and cosmology: what is the Universe and where is it going?}
+\BI
+\item{I'm teaching Astronomy 101 in the Fall (very little math involved, gen-ed course)}
+\EI
+\item{Biophysics}
+\BI
+\item{Probably the fastest-growing and one of the most promising areas of current research}
+\EI
+  \pause
+\item{Computational physics (my course for Fall 2015)}
+\EI
+}
+
+\frame{\frametitle{\textbf{And, finally...}}
+  \large
+... thank you all; you've made my second year at SU a great one already.
+
+
+\bigskip
+\bigskip
+\bigskip
+
+Feel free to contact me at wafreema@syr.edu for help in Physics 2 or anytime in the future, letters of recommendation, etc. 
+
+\Large
+}
+
+\frame{\frametitle{\textbf{Fin}}
+\large
+\it
+Poets say science takes away from the beauty of the stars - mere globs of gas atoms. I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination - stuck on this carousel my little eye can catch one - million - year - old light. A vast pattern - of which I am a part... What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined it. \rm(R. Feynman)
+
+\bigskip
+\bigskip
+
+\pause
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\centerline{\it ``Science is the belief in the ignorance of experts.'' \rm(R. Feynman)}
+
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\centerline{\it ``All science is either physics or stamp collecting.'' \rm (E. Rutherford)}
+
+}
+
+    \end{document}

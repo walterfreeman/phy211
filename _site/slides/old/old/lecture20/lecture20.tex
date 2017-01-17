@@ -1,0 +1,347 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title{
+  \textbf {Exam 3 review}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2015\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+  \Large
+\BI
+\item{Review times set for next Tuesday's exam}
+  \BI
+\item{Today: Eggers 018, 2:00 to 5:00}
+\item{Friday: Sims 337, 10:00 to 4:00}
+\item{\bf Sunday: the Clinic, moving to Stolkin if necessary, 2:00-5:00}
+  \EI
+\item{No recitation next Wednesday (we'll be grading)}
+\EI
+}
+
+\frame{\frametitle{\textbf{Exam 3}}
+  \Large
+  \BI
+\item{Topics covered:}
+  \BI
+\item{Conservation of energy and the work-energy theorem}
+\item{Conservation of momentum}
+\item{Rotational dynamics:}
+  \BI
+\item{Torque and angular acceleration}
+\item{Rolling motion}
+\item{Static equilibrium}
+\item{Angular momentum}
+  \EI
+\EI
+\item{Four or five problems}
+\item{Possibly a ``sometimes/always/never'' or ``positive/negative/zero'' section}
+\item{Extra credit}
+\EI
+}
+
+\frame{\frametitle{\textbf{Review: the work-energy theorem}}
+  \BI
+  \Large
+\item{The work-energy theorem: $\frac{1}{2} mv_f^2 - \frac{1}{2}mv_i^2 = \sum W$}
+\item{Change in kinetic energy = sum of work done by all forces}
+\item{How do we calculate work done?}
+  \BI
+\item{Most general case: $W = \int \, \vec F \cdot d\vec s$ (hard to do this -- it's a line integral!)}
+\item{Constant force: $W = \vec F \cdot \Delta \vec s$}
+\item{Two ways to compute the dot product}
+  \BI
+  \normalsize
+\item{$W = F_\parallel \Delta s$: ``Work is the distance moved, times the force in that direction''}
+\item{$W = F (\Delta s)_\parallel$: ``Work is the force, times the distance moved in the direction of the force''}
+  \EI
+\item{Forces perpendicular to the motion do no work}
+\item{Forces in the direction of motion do positive work}
+\item{Forces opposite the direction of motion do negative work}
+  \EI
+
+  \EI
+}
+
+\frame{\frametitle{\textbf{Review: potential energy}}
+  \large
+  \BI
+\item{Potential energy is an accounting device for keeping track of work done by ``conservative'' forces}
+\item{Instead of writing down the work done by certain forces, you can associate them with a potential energy}
+  \EI
+  \bigskip
+  \bigskip
+  \Large
+  \centerline{$KE_i + W_{\rm {all}} = KE_f$}
+  \pause
+  \centerline{$KE_i + U_{g,i} + W_{\rm {all\,except\,gravity}} = KE_f+U_{g,f}$}
+  \pause
+  \centerline{$KE_i + U_{g,i} + U_{e,i} + W_{\rm {others...}} = KE_f+U_{g,f}+U_{e,f}$}
+  \bigskip
+  \bigskip
+  \large
+Conservation of energy methods: useful for when you don't know and don't care about time
+}
+
+\frame{\frametitle{\textbf{Solving problems: energy methods}}
+    \large
+    \BI
+  \item{One of the easier techniques in our class}
+  \item{Ensure you have very clear pictures of ``before'' and ``after'' snapshots (draw cartoons!)}
+  \item{Figure out terms for kinetic and potential energy in each}
+  \item{Figure out the work done by other forces (friction...) in going from ``before'' to ``after''}
+  \item{Write down the conservation of energy relation and solve}
+    \EI
+}
+
+\frame{\frametitle{\textbf{Review: momentum}}
+  \large
+  \BI
+\item{Momentum: $\vec p = m \vec v$ (a vector quantity!)}
+\item{A few things to know about momentum related to its definition:}
+  \BI
+\item{Newton's second law can also be written $\vec F = m \PAR{\vec v}{t} = \PAR{\vec p}{t}$}
+\item{For constant force: $\Delta \vec p = \vec F t$ (impulse-momentum theorem)}
+  \EI
+\item{{\bf Momentum is conserved in the absence of external forces}}
+\item{Particularly common cases where we don't care about external forces: {\bf collisions and explosions}}
+  \EI
+}
+
+
+\frame{\frametitle{\textbf{Review: collisions and explosions}}
+  \large
+  \BI
+\item{Collisions and explosions happen so fast that external forces can be ignored for that instant}
+\item{``Total momentum before = total momentum after''}
+\item{Three sorts of collisions:}
+  \BI
+\item{Elastic collisions: no KE lost}
+\item{Partially inelastic collisions: some amount of KE lost, but the objects don't stick together}
+\item{Fully inelastic collisions: objects stick together}
+  \EI
+  \EI
+}
+
+\frame{\frametitle{\textbf{Solving problems: collisions and explosions}}
+  \large
+  \BI
+\item{Write down conservation of momentum in each direction (x,y) that's relevant}
+\item{For instance, for an explosion: $(m_1+m_2)v_i = m_1 v_{1,f} + m_2 v_{2,f}$}
+\item{Often we have composite problems: something happens, a collision or explosion, then something else happens}
+  \BI
+\item{Use conservation of momentum to connect ``right before the collision'' to ``right after''}
+\item{Use another technique for the other aspects of the motion (when there are external forces)}
+  \EI
+  \EI
+}
+
+\frame{\frametitle{\textbf{Review: rotational motion}}
+  \large
+  \BI
+\item{Most ideas in rotational motion are identical to ones you already know about}
+\item{The big new ones:}
+\item{Torque is the rotational analogue of force}
+\BI
+\item{$\tau = F_\perp r = F r_\perp$; $\vec r$ is the vector from the pivot to the point of force}
+\EI
+\item{Moment of inertia is the rotational analogue of mass}
+  \BI
+\item{$I=mr^2$ for an object that is at a uniform distance from the pivot (a ring, or a single mass)}
+\item{$I=\lambda mr^2$ for an extended object; $\lambda$ is some fraction that comes from calculus}
+  \EI
+  \EI
+}
+
+\frame{\frametitle{\textbf{The correspondence table}}
+  \centerline{  \begin{tabular}{| c | c |}
+      \hline
+      Translation & Rotation \\
+      \hline
+      \hline
+      \hline
+      Position $x$ & Angle $\theta$ \\
+      \hline
+      Velocity $v$ & Angular velocity $\omega$ \\
+      \hline
+      Acceleration $a$ & Angular acceleration $\alpha$ \\
+      \hline
+      \hline
+      $v(t) = v_0 + at$ & $\omega(t) = \omega_0 + \alpha t$ \\
+      \hline
+      $x(t) = x_0 + v_0 t + \frac{1}{2}at^2$ & $\theta(t) = \theta_0 + \omega_0 t + \frac{1}{2} \alpha t^2$ \\
+      \hline
+      $v_f^2 - v_0^2 = 2a \Delta x$ & $ \omega_f^2 - \omega_0^2 = 2 \alpha \Delta \theta$ \\
+      \hline
+      \hline
+      Force $\vec F$ & Torque: $\tau=F_\perp r$ \\
+      \hline
+      Mass $m$ & Moment of Inertia: $I = \lambda MR^2$ \\
+      \hline
+      \hline
+      $\vec F = m \vec a$ & $\tau = I \alpha$ \\
+      \hline    
+      \hline
+      Work = $\vec F \cdot \Delta \vec s$ & Work = $\tau \Delta \theta$ \\
+      \hline
+      Kinetic energy $\frac{1}{2} mv^2$ & Kinetic energy $\frac{1}{2} I \omega^2$ \\
+      \hline
+      Power ($\vec F$ constant) = $\vec F \cdot \vec v$ & Power ($\tau$ constant) = $\tau \omega$ \\
+      \hline
+      \hline
+      Momentum $\vec p = m \vec v$ & Angular momentum $L = I \omega$ \\
+      \hline
+  \end{tabular}}
+}
+ 
+
+\frame{\frametitle{\textbf{Rotational motion, overview (``torque problems'')}} 
+\BI
+\item{Draw ``extended'' force diagrams
+
+    \frame{\frametitle{\textbf{Static equilibrium problems}}
+      \large
+     \BI
+   \item{Often we are presented with a situation where nothing moves, and we have to solve for something}
+   \item{No acceleration of the center of mass: $\sum \vec F = 0$}
+   \item{No angular acceleration: $\sum \tau = 0$ about {\it any} pivot point}
+   \item{Can generate enough equations this way to solve for all unknowns}
+     \pause
+   \item{Strategy: choose the pivot to be aligned with a force you don't know and don't care about}
+     \EI
+   }
+
+   \frame{\frametitle{\textbf{The Atwood's machine, for real (for 9:30)}}
+      \large
+
+      A solid pulley of mass $M$ and radius $r$ has a mass $m$ hanging from one side. How fast does it accelerate?
+
+      \pause
+
+\bigskip
+\bigskip
+
+Strategy: same as for our linear motion problems.
+
+      \BI
+    \item{1. Draw force diagrams for everything}
+    \item{2. Write $\vec F=m\vec a$ for things that have translational motion}
+    \item{3. Write $\tau = I \alpha$ for things that have rotational motion}
+      \BI
+    \item{Here, the tension is another unknown variable appearing in both equations}
+      \EI
+    \item{4. Use constraints to relate $\alpha$'s to $a$'s}
+    \item{5. Solve the system of equations}
+      \EI
+
+    }
+
+    \frame{\frametitle{\textbf{Your questions...}}
+      \Large
+      What questions on the homeworks, practice exam, and recitations would you like to review?
+    }
+
+    \end{document}

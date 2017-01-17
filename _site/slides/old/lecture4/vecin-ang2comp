@@ -1,0 +1,16 @@
+
+va 1 1 4 5 
+arct 1 1 4 5 1
+v 1 1 4 1 1 2
+v 4 1 4 5 3 2
+v 0 0 5 0 0 1
+v 0 0 0 5 0 1
+
+#m 1 cm 0 
+#m 1
+#cm 1
+2.3 0.7 "V\sbx\eb=5 sin 53\spo\ep"
+#cm 3
+4.2 3 "V\sby\eb=5 cos 53\spo\ep"
+#cs 1.8 cm 0
+2.2 3.3 "5"

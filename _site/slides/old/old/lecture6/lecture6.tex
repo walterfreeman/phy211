@@ -1,0 +1,305 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Newton's Law of Motion]{
+  \textbf {Newton's Law of Motion}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2015\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\BI
+\Large
+\item{Homework 3 due next Wednesday (will be posted today}
+\item{Mastering Physics assignment due before class Tuesday (this one counts; will be posted today)}
+\item{Exams returned and recapped on Friday in recitation}
+\EI
+
+}
+
+\frame{\frametitle{\textbf{Exam 1}}
+  \Large
+ \BI
+\item{Full statistics will be posted once I get them (average around 90/150)}
+\item{You probably did better than you thought: remember the grading scheme}
+\item{Remember you can drop your lowest exam grade}
+ \EI
+}
+
+\frame{\frametitle{\textbf{Ask a Physicist: Cherenkov radiation}}
+}
+
+\frame{\frametitle{\textbf{Newton's laws}}
+    \Large
+
+    \centerline{$\vec F = m\vec a$}
+    \large
+    \BI
+  \item{Forces on an object cause it to accelerate}
+  \item{The larger the force, the larger the acceleration}
+  \item{The larger the mass, the smaller the acceleration}
+  \item{You intuitively know this already}
+    \pause
+  \item{No forces $\rightarrow$ no acceleration: {\color{Red}not necessarily no motion!}}
+    \bigskip
+    \bigskip
+\item{Forces come in pairs (Newton's third law)}
+  \BI
+\item{``If A pushes on B, B pushes back on A''}
+\item{Very important to be clear about what forces you're talking about}
+  \EI
+    \EI
+   }
+
+
+
+
+   \frame{\frametitle{\textbf{Newtons}}
+     \Large{\centerline{We need a new unit for force: the newton}}
+
+     \bigskip
+     \bigskip
+
+     \centerline{     $\vec F = m \vec a \rightarrow$ Force has dimensions kg $\rm m/\rm s^2$}
+\large
+     \bigskip
+     \bigskip
+\BI
+\item{1 N = 1 kg $\rm m/\rm s^2$: about the weight of an apple}
+
+\item{4 N is about a pound}
+     \item{9.8 N is the weight of a kilogram}
+       \EI
+   }
+
+   \frame{\frametitle{\textbf{Force is a vector}}
+     \Large
+     \centerline{$\vec F = m\vec a$}
+     \large
+     \BI
+   \item{Force is a {\it vector}}
+   \item{Multiple forces on an object add like vectors do}
+   \item{Really, we should write}
+
+     \Large
+     \centerline{$\sum \vec F = m\vec a$}
+
+     \pause
+\small
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+     \centerline{     (force table demo)}
+\EI
+   }
+
+   \frame{\frametitle{\textbf{What is a force?}}
+    A force is anything that pushes or pulls something:
+    \BI
+  \item{Gravity: $F = mg$, so $mg = ma \rightarrow a = g$}
+    \BI
+  \item{Gravity pulls down on everything (on Earth) with a force $mg$, called its weight}
+  \item{If something isn't accelerating downward, some other force must balance its weight}
+    \EI
+    \EI
+  }
+
+  \frame{\frametitle{\textbf{What is a force?}}
+    A force is anything that pushes or pulls something:
+    \BI
+  \item{Gravity: $F = mg$, so $mg = ma \rightarrow a = g$}
+  \item{``Normal force'': stops things from moving through each other}
+    \BI
+  \item{Are there normal forces on me right now?}
+ \pause
+  \item{However big it needs to be to stop objects from sliding through each other}
+  \item{Directed ``normal'' (perpendicular) to the surface}
+  \item{Really caused by electric force/Pauli exclusion principle}
+    \EI
+    \EI
+  }
+
+
+  \frame{\frametitle{\textbf{What is a force?}}
+    A force is anything that pushes or pulls something:
+    \BI
+  \item{Gravity: $F = mg$, so $mg = ma \rightarrow a = g$}
+  \item{``Normal force'': stops things from moving through each other}
+  \item{Tension: ropes pull on both sides equally}
+    \BI
+  \item{What are the forces in a contest of tug-of-war?}
+    \pause
+  \item{What about the forces on the people?}
+    \EI
+  \item{Friction: a force opposes things sliding against each other}
+    \pause
+  \item{Electromagnetic forces, nuclear forces, radiation pressure...}
+    \pause
+  \item{\color{Red}Acceleration is not a force!}
+  \item{\color{Red}... it's the {\it result} of forces}
+    \EI
+  }
+
+  \frame{\frametitle{\textbf{Force diagrams}}
+  \BI
+  \item{Lots of forces, easy to get confused}
+  \item{Draw a picture!}
+    \centerline{\includegraphics[width=0.6\textwidth]{cruise.png}}
+    \pause
+  \item{Each object feeling forces gets a separate diagram}
+  \item{Label each force and its direction}
+  \item{These are also called ``free body diagrams''}
+    \EI
+  \bigskip
+  \bigskip
+  \bigskip
+  \bigskip
+  \pause
+  \small
+  \centerline{(Examples on document camera)}
+
+  }
+
+  \frame{\frametitle{\textbf{Sample questions}}
+    \BI
+    \Large
+  \item{What forces act on a car?}
+    \pause
+  \item{Which forces are bigger or smaller if it's driving at a constant speed?}
+    \pause
+  \item{Which forces are bigger or smaller if it's slowing down?}
+    \pause
+  \item{A 1000 kg car slows from 20 m/s to a stop over 5 sec. What force is required to do this?}
+
+
+    \pause
+
+\bigskip
+\bigskip
+\bigskip
+\normalsize
+\centerline{(Use $\vec F = m \vec a$ to connect force to acceleration, and then kinematics to connect acceleration to motion)}
+
+    \EI
+  }
+
+  \frame{\frametitle{\textbf{Summary}}
+    \Large
+    \BI
+  \item{Forces: anything that pushes or pulls}
+  \item{Forces cause accelerations: $\sum \vec F = m \vec a$}
+    \BI
+  \item{If $\sum \vec F = 0$, $\vec a = 0$: motion at a constant velocity}
+  \EI
+  \item{Forces come in pairs: if A pushes on B, B pushes back on A}
+  \item{It's the vector sum $\sum \vec F$ that matters}
+  \item{Draw force diagrams to keep all of this straight}
+    \EI
+  }
+
+
+
+  \end{document}
+

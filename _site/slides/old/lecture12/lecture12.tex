@@ -1,0 +1,295 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+\usepackage{tikz}
+
+\newcommand{\shrug}[1][]{%
+\begin{tikzpicture}[baseline,x=0.8\ht\strutbox,y=0.8\ht\strutbox,line width=0.125ex,#1]
+\def\arm{(-2.5,0.95) to (-2,0.95) (-1.9,1) to (-1.5,0) (-1.35,0) to (-0.8,0)};
+\draw \arm;
+\draw[xscale=-1] \arm;
+\def\headpart{(0.6,0) arc[start angle=-40, end angle=40,x radius=0.6,y radius=0.8]};
+\draw \headpart;
+\draw[xscale=-1] \headpart;
+\def\eye{(-0.075,0.15) .. controls (0.02,0) .. (0.075,-0.15)};
+\draw[shift={(-0.3,0.8)}] \eye;
+\draw[shift={(0,0.85)}] \eye;
+% draw mouth
+\draw (-0.1,0.2) to [out=15,in=-100] (0.4,0.95); 
+\end{tikzpicture}}
+
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Impulse and momentum]{
+  \textbf {Impulse and momentum}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2015\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\BI
+\item{Computational project this week -- bring your computing things}
+\item{Links to materials on the course website}
+\item{Practice exam for Exam 2 and HW5 will be posted tomorrow}
+\item{HW5 due Wednesday after spring break}
+\pause
+\item{\color{Red}... you might want to come to class Thursday \shrug ;-)}
+\EI
+}
+
+\frame{\frametitle{\textbf{Momentum: overview}}
+  \BI
+  \large
+\item{Momentum is the time integral of force: $\vec p = \int\, \vec F\, dt$}
+\item{Momentum is a {\bf vector}, transferred from one object to another when they exchange forces}
+\item{Another way to look at it: {\bf force is the rate of change of momentum}}
+\item{Newton's 3rd law says that total momentum is constant}
+\item{Mathematically: $\vec p = m \vec v$}
+\item{Helps us understand {\bf collisions} and {\bf explosions}, among others}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Impulse}}
+  \BI
+\item{We start, as always, with Newton's law:}
+
+  \bigskip
+  
+  \centerline{\Large $\vec F = m \vec a$}
+
+\bigskip
+
+\item{Integrate both sides of this with respect to time:}
+
+  \bigskip
+  
+  \centerline{\Large $\int \, \vec F \, dt  = \int \, m \vec a \, dt $}
+\centerline{\Large ${\color{Red}\int \, \vec F \, dt}  = {\color{Blue}(m\vec v)_f - (m\vec v)_i}$}
+
+\bigskip
+
+\item{\color{Red} The quantity on the left, $\vec J \equiv \int \, \vec F \, dt$, is called ``impulse''}
+  \BI
+\item{It represents the cumulative effect of a force over time}
+\item{``Forces make things accelerate'' $\rightarrow$ ``A force applied over time makes something change velocity''}
+\item{If the force is constant, then the integral is easy, and $\vec J = \vec F t$}
+\EI
+\item{\color{Blue} The quantity on the right, $\vec p \equiv m \vec v$, is called ``momentum''}
+
+  \bigskip
+  
+  \centerline{\large \color{Green} Impulse is equal to the change in momentum: $\vec J = \Delta \vec p$}
+\EI
+}
+
+\frame{\frametitle{\textbf{Conservation of momentum}}
+    \BI
+  \item{Newton's third law: if $A$ pushes on $B$, $B$ pushes back on $A$ with an equal and opposite force}
+  \item{In symbols, $\vec F_{AB} = -\vec F_{BA}$}
+  \item{We can integrate both sides of this to get a statement about impulse: $\vec J_{AB} = -\vec J_{BA}$}
+  \item{Using the impulse-momentum theorem: $\Delta \vec p_A = -\Delta \vec p_B \rightarrow \Delta (\vec p_A + \vec p_B) = 0$}
+  \item{\color{Red}The total change in momentum is zero!}
+  \item{The force between $A$ and $B$ leaves the total momentum constant; it just gets transferred from one to the other}
+  \item{{\bf Remember momentum is a vector!}}
+  \item{Solving problems: create ``before'' and ``after'' snapshots}
+  \item{Just add up the momentum before and after and set it equal!}
+    \EI
+  }
+
+\frame{\frametitle{\textbf{When we need this idea: collisions and explosions}}
+  Often things collide or explode; we need to be able to understand this.
+  \BI
+\item{Very complicated forces between pieces often involved: can't track them all}
+\item{These forces are huge but short-lived, delivering their impulse very quickly}
+\item{Other forces usually small enough to not matter during the collision/explosion}
+\item{Use conservation of momentum to understand the collision}
+\EI
+
+\bigskip
+
+The procedure is always the same:
+
+\large
+\color{Red}
+\begin{center}
+$\sum \vec p_i = \sum \vec p_f$
+``Momentum before equals momentum after''
+\end{center} 
+\large
+}
+
+\frame{\frametitle{\textbf{Applying conservation of momentum to problems}}
+\begin{itemize}
+\large
+\item{1. Identify what process you will apply conservation of momentum to}
+\BI
+\item{Collisions}
+\item{Explosions}
+\item{Times when no external force intervenes}
+\EI
+\item{2. Draw clear pictures of the ``before'' and ``after'' situations}
+\item{3. Write expressions for the total momentum before and after, in both $x$ and $y$}
+\item{4. Set them equal: Write $\sum p_i = \sum p_f$ (in both x and y if needed), and solve}
+\EI
+}
+
+
+
+\frame{\frametitle{\textbf{Demo with carts}}
+  \Large
+
+Can we predict the final velocities here?
+
+\large
+
+\bigskip
+
+\BI
+\item{Two carts of equal mass separate}
+\pause
+\item{Two carts traveling at equal speeds with equal masses collide}
+\pause
+\item{Two carts of mass $m$ and $2m$ separate}
+\pause
+\item{Two carts of mass $m$ and $2m$ traveling at equal speeds collide}
+\EI
+}
+
+\frame{\frametitle{\textbf{Demos with students}}
+\large
+Bob and Alice sit on carts. Bob pulls Alice with a rope. Who moves?
+\pause
+Does throwing or catching a heavy ball change someone's velocity?
+\BI
+\item{A. Throwing only}
+\item{B. Catching only}
+\item{C. Both throwing and catching}
+\item{D. Only if someone then catches the ball}
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: a 1D collision}}
+  \Large
+  Two train cars moving toward each other at 5 m/s collide and couple together. One weighs 10 tons; the other weighs 20 tons. What is their final velocity?
+}
+
+\frame{\frametitle{\textbf{Sample problems: a 1D collision}}
+  \Large
+  A train car with a mass $m$ is at rest on a track. Another train car also of mass $m$ is moving toward it with a velocity $v_0$ when it is a distance $d$ away. 
+  The first car hits the second and couples to it; the cars roll together until friction brings them to a stop.
+
+\bigskip
+
+
+If the coefficient of rolling friction is $\mu_r$, how far do they roll after the collision?
+
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+
+
+Method: use conservation of momentum to understand the collision; use other methods to understand before and after!
+
+}
+
+\end{document}

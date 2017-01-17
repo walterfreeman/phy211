@@ -1,0 +1,185 @@
+%!
+%%Creator: tharizdun:wfreeman(Walter,,,)
+%%Title: Unix plot file
+%%CreationDate: Mon Jan 19 22:49:43 2015
+%%DocumentFonts: Courier
+%%EndComments
+%%BoundingBox: 0 0 4096 4096
+% Start of psplot.pro -- prolog for plot(5) translator
+% Copyright (c) 1984,1985,1987 Adobe Systems Incorporated. All Rights Reserved. 
+%              RESTRICTED RIGHTS LEGEND
+% Use, duplication or disclosure by the Government is subject to
+% restrictions as set forth in subdivision (b)(3)(ii) of the Rights in
+% Technical Data and Computer Software Clause at 252.227-7013.
+% Name of Contractor: Adobe Systems Incorporated
+% Address:  1870 Embarcadero Road
+%	  Palo Alto, California  94303
+% RCS: $Header: psplot.pro,v 2.2 87/11/17 16:41:06 byron Rel $
+save 50 dict begin /psplot exch def
+/StartPSPlot
+   {newpath 0 0 moveto 8 setlinewidth 0 setgray 1 setlinecap
+    /imtx matrix currentmatrix def /dmtx matrix defaultmatrix def
+    /fnt /Courier findfont def /smtx matrix def fnt 8 scalefont setfont}def
+/solid {{}0}def
+/dotted	{[2 nail 3.5 nail ] 0}def
+/longdashed {[10 nail] 0}def
+/shortdashed {[6 nail] 0}def
+/dotdashed {[2 nail 6 nail 10 nail 6 nail] 0}def
+/disconnected {{}0}def
+/min {2 copy lt{pop}{exch pop}ifelse}def
+/max {2 copy lt{exch pop}{pop}ifelse}def
+/len {dup mul exch dup mul add sqrt}def
+/nail {0 imtx dtransform len 0 idtransform len}def
+
+/m {newpath moveto}def
+/n {lineto currentpoint stroke moveto}def
+/p {newpath moveto gsave 1 setlinecap solid setdash
+    dmtx setmatrix .4 nail setlinewidth
+    .05 0 idtransform rlineto stroke grestore}def
+/l {moveto lineto currentpoint stroke moveto}def
+/t {smtx currentmatrix pop imtx setmatrix show smtx setmatrix}def
+/a {gsave newpath /y2 exch def /x2 exch def 
+    /y1 exch def /x1 exch def /yc exch def /xc exch def
+    /r x1 xc sub dup mul y1 yc sub dup mul add sqrt
+       x2 xc sub dup mul y2 yc sub dup mul add sqrt add 2 div def
+    /ang1 y1 yc sub x1 xc sub atan def
+    /ang2 y2 yc sub x2 xc sub atan def
+    xc yc r ang1 ang2 arc stroke grestore}def
+/c {gsave newpath 0 360 arc stroke grestore}def
+/e {gsave showpage grestore newpath 0 0 moveto}def
+/f {load exec setdash}def
+/s {/ury exch def /urx exch def /lly exch def /llx exch def
+    imtx setmatrix newpath clippath pathbbox newpath
+    /dury exch def /durx exch def /dlly exch def /dllx exch def
+    /md durx dllx sub dury dlly sub min def
+    /Mu urx llx sub ury lly sub max def
+    36 144 translate .8 .8 scale
+    dllx dlly translate md Mu div dup scale llx neg lly neg translate}def
+/EndPSPlot {clear psplot end restore}def
+StartPSPlot
+%%EndProlog
+%%Page: 1 1
+0 0 4096 4096 s
+/solid f
+1.00 1.00 0.00 0 setcmykcolor
+0 0 0 1 setcmykcolor
+1114 1064 m
+2507 2921 n
+2507 2921 m
+2168 2740 n
+2507 2921 m
+2428 2545 n
+2168 2740 m
+2396 2773 n
+2428 2545 m
+2396 2773 n
+0.00 1.00 1.00 0 setcmykcolor
+1114 1064 m
+2507 1064 n
+1.00 1.00 0.00 0 setcmykcolor
+2507 1064 m
+2507 2921 n
+650 600 m
+2971 600 n
+650 600 m
+650 2921 n
+0 0 0 1 setcmykcolor
+3204 600 m
+3168 618 m
+3217 555 n
+3173 618 m
+3222 555 n
+3222 618 m
+3168 555 n
+3159 618 m
+3186 618 n
+3204 618 m
+3231 618 n
+3159 555 m
+3186 555 n
+3204 555 m
+3231 555 n
+3204 600 m
+650 3154 m
+614 3172 m
+641 3109 n
+619 3172 m
+641 3118 n
+668 3172 m
+641 3109 n
+632 3091 n
+623 3082 n
+614 3078 n
+610 3078 n
+605 3082 n
+610 3087 n
+614 3082 n
+605 3172 m
+632 3172 n
+650 3172 m
+677 3172 n
+650 3154 m
+0.00 1.00 1.00 0 setcmykcolor
+1811 925 m
+1771 974 m
+1802 880 n
+1775 974 m
+1802 894 n
+1833 974 m
+1802 880 n
+1762 974 m
+1789 974 n
+1815 974 m
+1842 974 n
+1901 925 m
+1865 883 m
+1898 841 n
+1868 883 m
+1901 841 n
+1901 883 m
+1865 841 n
+1859 883 m
+1877 883 n
+1889 883 m
+1907 883 n
+1859 841 m
+1877 841 n
+1889 841 m
+1907 841 n
+1811 925 m
+1.00 1.00 0.00 0 setcmykcolor
+1207 1993 m
+1167 2042 m
+1198 1948 n
+1171 2042 m
+1198 1962 n
+1229 2042 m
+1198 1948 n
+1158 2042 m
+1185 2042 n
+1211 2042 m
+1238 2042 n
+1297 1993 m
+1261 1951 m
+1279 1909 n
+1264 1951 m
+1279 1915 n
+1297 1951 m
+1279 1909 n
+1273 1897 n
+1267 1891 n
+1261 1888 n
+1258 1888 n
+1255 1891 n
+1258 1894 n
+1261 1891 n
+1255 1951 m
+1273 1951 n
+1285 1951 m
+1303 1951 n
+1207 1993 m
+/solid f
+1 1 m
+e
+%%Trailer
+EndPSPlot
