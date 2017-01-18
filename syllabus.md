@@ -215,17 +215,17 @@ These help sessions are opportunities for you to interact with me and the rest o
 | Item                         |            Date           | Points           |
 |------------------------------|:-------------------------:|-----------------:|
 | Homework                     | Due throughout            |              25  |
-| Exam 1                       |        22 September       |              15  |
-| Exam 2                       |        18 October         |              15  |
-| Exam 3                       |        8 November         |              15  |
+| Exam 1                       |    7 February       |              15  |
+| Exam 2                       |    9 March         |              15  |
+| Exam 3                       |    18 April         |              15  |
 | Final Exam                   |  13 December              |              30  |
 | Attendance and participation |   Throughout the semester | 10               |
 | Group practice exams         |                           | 15               |
 
-The lowest of your exam grades will be dropped, giving a total of 100 points. If your final exam grade is lower 
+The lowest of your exam grades will be dropped, giving a total of 110 points. If your final exam grade is lower 
 than any of your three midterm exam grades, then the final exam will instead only count for 15 points.
 
-Grades will be assigned as follows:
+This value will then be converted to a percentage (by dividing by 1.1), and grades will be assigned as follows:
 
 - A : >88
 - A-: 80-88
