@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.24)  23 JAN 2017 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.24)  23 JAN 2017 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1003,12 +1003,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@snm=\write8
 \openout8 = `lecture3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 550.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 550.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
 
 (./lecture3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 550.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 550.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
 Package rerunfilecheck Info: File `lecture3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1016,7 +1016,7 @@ Package rerunfilecheck Info: File `lecture3.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 550.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 551.
  ) 
 Here is how much of TeX's memory you used:
  17503 strings out of 493029
@@ -1034,15 +1034,14 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on lecture3.pdf (34 pages, 198787 bytes).
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on lecture3.pdf (34 pages, 190702 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
+ 305 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
  69 named destinations out of 1000 (max. 500000)
  67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
