@@ -6,18 +6,10 @@ use_math: true
 
 **Announcements**
 
-Welcome to Physics 211! This is the main course website; I will post announcements, homework, preparation 
-materials, and the like here. Lecture notes will be linked from the calendar.
+The newest homework assignment is <a href="hw/hw1.pdf">Homework 2</a>, due Friday, 
+3 February.
 
-Before Thursday's class, you should:
-
-* Go to recitation, meet your groupmates, and learn your TA's name and email address
-* Read the <a href="syllabus.html">syllabus</a>, particularly the section on the course philosophy
-* Get a copy of the <a href="syllabus.html#books">textbook</a> from either an online merchant or the bookstore
-* Get a paper clicker and bring it to class on Thursday and every other day 
-
-The first homework assignment is <a href="hw/hw1.pdf">Homework 1</a>, due next Wednesday.
-
+The <a href="https://www.youtube.com/playlist?list=PLPAgEthTEIuW-5dKeYTktC06sdNGa_xFU">solutions to Homework 1</a> are posted on YouTube.
 
 
 
