@@ -6,7 +6,7 @@ use_math: true
 
 **Announcements**
 
-The newest homework assignment is <a href="hw/hw1.pdf">Homework 2</a>, due Friday, 
+The newest homework assignment is <a href="hw/hw2.pdf">Homework 2</a>, due Friday, 
 3 February.
 
 The <a href="https://www.youtube.com/playlist?list=PLPAgEthTEIuW-5dKeYTktC06sdNGa_xFU">solutions to Homework 1</a> are posted on YouTube.
