@@ -6,6 +6,14 @@ use_math: true
 
 **Announcements**
 
+Upcoming schedule:
+
+* Wednesday: recitation as normal; extra credit question. Physics practice, 7:30-9:30, Stolkin Auditorium.
+* Thursday: exam review in class.
+* Friday: Group practice exam in recitation. Homework solutions and practice exam solutions posted on YouTube.
+* Saturday (probably): Review, location and time TBA depending on vote on Facebook group
+* next Tuesday: exam 1
+
 The newest homework assignment is <a href="hw/hw2.pdf">Homework 2</a>, due Friday, 
 3 February.
 
