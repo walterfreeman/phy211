@@ -6,4 +6,5 @@ permalink: practice.html
 use_math: true
 ---
 
-Here is the PDF: <a href="practice.pdf">Physics Practice: quadratic formula</a>
+<a href="practice.pdf">Physics Practice: quadratic formula</a>
+<a href="practice2.pdf">Physics Practice: ``setting up problems''</a>
