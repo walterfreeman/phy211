@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.10.15)  25 JAN 2017 23:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.10.15)  31 JAN 2017 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -292,19 +292,19 @@ e
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+ [2] [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  (./hw2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `hw2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 5721 strings out of 493013
- 82403 string characters out of 6135681
+ 5722 strings out of 493013
+ 82409 string characters out of 6135681
  172251 words of memory out of 5000000
  9206 multiletter control sequences out of 15000+600000
  7997 words of font info for 29 fonts, out of 8000000 for 9000
@@ -318,10 +318,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on hw2.pdf (2 pages, 90652 bytes).
+Output written on hw2.pdf (3 pages, 90989 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 500000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 30 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
