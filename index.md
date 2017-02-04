@@ -8,6 +8,11 @@ use_math: true
 
 Here's the complete version of <a href="practice-exam-1-all.pdf">Practice Exam 1</a>.
 
+I am uploading video solutions to HW2, but due to technical issues I am going to have to reshoot and reupload Problem 2. Problems 1 and 3 are up now. All
+but Problem 2 should go up later tonight once rendering and processing finish.
+
+The playlist is <a href="https://www.youtube.com/playlist?list=PLPAgEthTEIuWw30B9R9TBmMkpKlg_YonJ">here</a>.
+
 Upcoming schedule:
 
 * Saturday: Review, 4-7 PM 
