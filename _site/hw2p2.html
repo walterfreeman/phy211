@@ -8,12 +8,12 @@
 
   <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 
-  <title>Lab materials</title>
+  <title>HW2P2 solution</title>
   <meta name="description" content="Spring 2017, Syracuse University 
 ">
 
   <link rel="stylesheet" href="/phy211/css/main.css">
-  <link rel="canonical" href="/phy211/labs.html">
+  <link rel="canonical" href="/phy211/hw2p2.html">
   <link rel="alternate" type="application/rss+xml" title="Physics 211" href="/phy211/feed.xml">
 
 <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
@@ -105,24 +105,50 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Lab materials</h1>
+    <h1 class="post-title">HW2P2 solution</h1>
   </header>
 
   <div class="post-content">
-    <p><strong>Note:</strong> I am not the instructor for the labs, and thus don’t know all that much about them. Please ask lab questions to Sam Sampere or your lab TA. These links are here only for your convenience.</p>
+    <h2 id="solution-to-hw2-problem-2-video-lost-due-to-a-technical-issue">Solution to HW2 Problem 2 (video lost due to a technical issue):</h2>
 
-<p><a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab1.pdf">Lab 1</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab2.pdf">Lab 2</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab3.pdf">Lab 3</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab4.pdf">Lab 4</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab5.pdf">Lab 5</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab6.pdf">Lab 6</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab7.pdf">Lab 7</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab8.pdf">Lab 8</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab9.pdf">Lab 9</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab10.pdf">Lab 10</a><br />
-<a href="http://physicscourses.syr.edu/PHY221.16F/Labs/Lab11.pdf">Lab 11</a><br /></p>
+<p>You know the cannonball travels a distance $d=2$ km and it’s elevated an angle $\theta=45^\circ$ above the horizontal.</p>
 
+<p>This means that the initial velocity vector is</p>
+
+<p>$v_{x,0} = v_0 \cos \theta$
+$v_{y,0} = v_0 \sin \theta$</p>
+
+<p>This means that the position and velocity relations become:</p>
+
+<p>$x(t) = \frac{1}{2}a_xt^2 + v_{x,0} t + x_0 = (v_0 \cos \theta)t$
+$y(t) = \frac{1}{2}a_yt^2 + v_{y,0} t + y_0 = -\frac{1}{2}gt^2 +
+ (v_0 \sin \theta)t$</p>
+
+<p>where we’ve chosen up to be positive, and the origin to be where the bombard is.</p>
+
+<p>Then we ask: “What $v_0$ makes the cannonball come down a distance $d$ away, i.e. what $v_0$ makes $x=d$ at the time $y=0$?”</p>
+
+<p>This gives us:</p>
+
+<p>$ 0 = -\frac{1}{2}gt^2 + (v_0 \sin \theta)t$</p>
+
+<p>which, after some algebra, tells us that</p>
+
+<p>$t=\frac{2 v_0 \sin \theta}{g}$.</p>
+
+<p>Substitute this into the $x$-equation to get:</p>
+
+<p>$d=\frac {2v_0^2 \cos \theta \sin \theta}{g}$</p>
+
+<p>Solve for $v_0$ to get</p>
+
+<p>$v_0 = \sqrt{\frac{gd}{2 \cos \theta \sin \theta}}$</p>
+
+<p>Observe that $\cos \theta = \sin \theta = \frac{1}{\sqrt{2}}$ for $\theta=45^\circ$, so the denominator is just unity. So</p>
+
+<p>$v_0 = \sqrt{g}{d} = 140\, \rm m/\rm s$</p>
+
+<p>for the values given in the problem.</p>
 
   </div>
 
