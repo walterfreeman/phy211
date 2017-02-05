@@ -6,12 +6,12 @@ use_math: true
 
 **Announcements**
 
-Here's the complete version of <a href="practice-exam-1-all.pdf">Practice Exam 1</a>.
+Here's the complete version of <a href="practice-exam-1-all.pdf">Practice Exam 1</a>, and its <a href="practice-exam-1-solutions.pdf">solutions</a>.
 
-I am uploading video solutions to HW2, but due to technical issues I am going to have to reshoot and reupload Problem 2. Problems 1 and 3 are up now. All
-but Problem 2 should go up later tonight once rendering and processing finish.
+Note: on the compiled PDF, the graph axes are messed up on a few of the 
+problems. They were correct on the versions you took Friday.
 
-The playlist is <a href="https://www.youtube.com/playlist?list=PLPAgEthTEIuWw30B9R9TBmMkpKlg_YonJ">here</a>.
+Video solutions to HW2: <a href="https://www.youtube.com/playlist?list=PLPAgEthTEIuWw30B9R9TBmMkpKlg_YonJ">here</a>.
 
 Upcoming schedule:
 
