@@ -10,5 +10,8 @@ use_math: true
 
 <a href="hw/hw2.pdf">Homework 2</a>; <a href="https://www.youtube.com/playlist?list=PLPAgEthTEIuWw30B9R9TBmMkpKlg_YonJ">Solutions to HW2</a>
 
+<a href="hw/hw2.pdf">Homework 3</a>, due Friday, February 17, at the beginning of recitation
+
+
 
 
