@@ -8,9 +8,8 @@ use_math: true
 
 Upcoming schedule:
 
-* HW3 posted: Friday/Saturday (most likely), due Friday, 17 Feb
-* Friday: exams returned in recitation
-* Physics practice next Wednesday: drawing force diagrams
+* HW3 is posted 
+* Physics practice next Wednesday, 7:30-9:30: drawing force diagrams
 
 ---
 
