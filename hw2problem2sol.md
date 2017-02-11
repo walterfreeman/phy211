@@ -1,6 +1,5 @@
 ---
 layout: page
-category: top
 permalink: hw2p2.html
 use_math: true
 ---

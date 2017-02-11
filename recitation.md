@@ -15,3 +15,6 @@ use_math: true
 <a href="recitation/rec4.pdf">Week 2 Friday</a><br><br>
 
 <a href="recitation/rec5.pdf">Week 3 Wednesday</a><br>
+
+<a href="recitation/recitation-forces1.pdf">Week 4 Wednesday</a><br>
+<a href="recitation/recitation-forces2.pdf">Week 4 Friday</a><br>
