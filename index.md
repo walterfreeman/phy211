@@ -8,8 +8,8 @@ use_math: true
 
 Upcoming schedule:
 
-* HW3 is posted 
-* Physics practice next Wednesday, 7:30-9:30: drawing force diagrams
+* HW4 is posted; it is due Friday, February 24.
+* Physics practice next Wednesday, 7:30-9:30 (topic TBA)
 
 ---
 
