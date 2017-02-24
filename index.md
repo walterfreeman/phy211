@@ -8,8 +8,7 @@ use_math: true
 
 Upcoming schedule:
 
-* HW4 is posted; it is due Friday, February 24.
-* Physics practice next Wednesday, 7:30-9:30 (topic TBA)
+* HW4 partially extended: problems 1-3 due Friday; problems 4-6 due next Wednesday
 
 ---
 
