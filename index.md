@@ -8,7 +8,9 @@ use_math: true
 
 Upcoming schedule:
 
-* HW4 partially extended: problems 1-3 due Friday; problems 4-6 due next Wednesday
+* HW4 partially extended: problems 4-6 due Wednesday
+* HW5 posted, due next Wednesday
+* group exam 2 this Friday
 
 ---
 
