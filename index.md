@@ -8,9 +8,9 @@ use_math: true
 
 Upcoming schedule:
 
-* HW4 partially extended: problems 4-6 due Wednesday
-* HW5 posted, due next Wednesday
-* group exam 2 this Friday
+* Review session 12-3, Stolkin Auditorium
+
+Practice exam 2 (compiled): <a href="practice-exam-2-all.pdf">[PDF]</a>
 
 ---
 
