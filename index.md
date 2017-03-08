@@ -8,7 +8,7 @@ use_math: true
 
 Upcoming schedule:
 
-Practice exam 2's reference sheet: <a href="reference2-2017.pdf>here</a>
+Practice exam 2's reference sheet: <a href="reference2-2017.pdf">here</a>
 
 Practice exam 2: <a href="practice-exam-2-all.pdf">questions</a> and <a href="practice-exam-2-solutions.pdf">solutions</a>.
 
