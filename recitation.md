@@ -14,14 +14,14 @@ use_math: true
 <a href="recitation/rec3.pdf">Week 2 Wednesday</a><br>
 <a href="recitation/rec4.pdf">Week 2 Friday</a><br><br>
 
-<a href="recitation/rec5.pdf">Week 3 Wednesday</a><br>
+<a href="recitation/rec5.pdf">Week 3 Wednesday</a><br><br>
 
 <a href="recitation/recitation-forces1.pdf">Week 4 Wednesday</a><br>
-<a href="recitation/recitation-forces2.pdf">Week 4 Friday</a><br>
+<a href="recitation/recitation-forces2.pdf">Week 4 Friday</a><br><br>
 
-<a href="recitation/recitation-circles.pdf">Week 5</a><br>
+<a href="recitation/recitation-circles.pdf">Week 5</a><br><br>
 
-<a href="recitation/recitation-momentum.pdf">Week 6 Wednesday</a><br>
+<a href="recitation/recitation-momentum.pdf">Week 6 Wednesday</a><br><br>
 
-<a href="recitation/recitation-energy-wed.pdf">Week 7 Wednesday</a>
-<a href="recitation/recitation-energy-fri.pdf">Week 7 Friday</a>
+<a href="recitation/recitation-energy-wed.pdf">Week 7 Wednesday</a><br>
+<a href="recitation/recitation-energy-fri.pdf">Week 7 Friday</a><br><br>
