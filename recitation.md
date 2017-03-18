@@ -22,3 +22,6 @@ use_math: true
 <a href="recitation/recitation-circles.pdf">Week 5</a><br>
 
 <a href="recitation/recitation-momentum.pdf">Week 6 Wednesday</a><br>
+
+<a href="recitation/recitation-energy-wed.pdf">Week 7 Wednesday</a>
+<a href="recitation/recitation-energy-fri.pdf">Week 7 Friday</a>
