@@ -8,9 +8,12 @@ use_math: true
 
 Upcoming schedule:
 
-Practice exam 2's reference sheet: <a href="reference2-2017.pdf">here</a>
+HW6 due Friday, 31 March
 
-Practice exam 2: <a href="practice-exam-2-all.pdf">questions</a> and <a href="practice-exam-2-solutions.pdf">solutions</a>.
+Physics practice resumes next week
+
+Exam 2 grades will be posted by Thursday; you'll get your exams back Wednesday or Friday (depending on 
+the TA's)
 
 ---
 
