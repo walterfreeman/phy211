@@ -27,4 +27,7 @@ use_math: true
 <a href="recitation/recitation-energy-fri.pdf">Week 7 Friday</a><br><br>
 
 <a href="recitation/recitation-energy-torque-1.pdf">Week 8 Wednesday</a><br>
-<a href="recitation/recitation-energy-torque-2.pdf">Week 8 Friday</a><br>
+<a href="recitation/recitation-energy-torque-2.pdf">Week 8 Friday</a><br><br>
+
+<a href="recitation/recitation-torque2-wed.pdf">Week 9 Wednesday</a><br>
+<a href="recitation/recitation-torque2-fri.pdf">Week 9 Friday</a><br>
