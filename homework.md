@@ -18,6 +18,8 @@ use_math: true
 
 <a href="hw/homework6.pdf">Homework 6</a>, due Friday, March 31, at the beginning of recitation
 
+<a href="hw/hw7-2017.pdf">Homework 7</a>, due Wednesday, March 31, at the beginning of recitation
+
 
 
 
