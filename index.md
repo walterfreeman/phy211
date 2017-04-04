@@ -8,12 +8,9 @@ use_math: true
 
 Upcoming schedule:
 
-HW6 due Friday, 31 March
+HW7 due Wednesday, 12 April
 
-Physics practice resumes next week
-
-Exam 2 grades will be posted by Thursday; you'll get your exams back Wednesday or Friday (depending on 
-the TA's)
+Physics practice Wednesday, 5 April, 7:30-9:30 in Stolkin Auditorium
 
 ---
 
