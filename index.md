@@ -12,6 +12,8 @@ HW7 due Wednesday, 12 April
 
 Physics practice Wednesday, 5 April, 7:30-9:30 in Stolkin Auditorium
 
+Reference information for rotational motion: <a href="ref-rotation.pdf">[PDF]</a>
+
 ---
 
 <br>
@@ -23,3 +25,4 @@ What's special about his tail that lets him keep his balance?<br>
 How did he make that hole in fifteen seconds or so?
 </em>
 </center>
+
