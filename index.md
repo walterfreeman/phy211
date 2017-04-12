@@ -8,11 +8,13 @@ use_math: true
 
 Upcoming schedule:
 
-HW7 due Wednesday, 12 April
+HW8 due Tuesday, April 18, by 1PM
 
-Physics practice Wednesday, 5 April, 7:30-9:30 in Stolkin Auditorium
+Group exam 3 on Friday, April 14, in your recitation time
 
-Reference information for rotational motion: <a href="ref-rotation.pdf">[PDF]</a>
+Exam 3 next Tuesday, April 18, at the normal class time
+
+Alternate time for Exam 3: next Wednesday, 7:30-9, in Stolkin Auditorium
 
 ---
 

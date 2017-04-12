@@ -20,6 +20,9 @@ use_math: true
 
 <a href="hw/hw7-2017.pdf">Homework 7</a>, due Wednesday, April 12, at the beginning of recitation
 
+<a href="hw/hw8.pdf">Homework 8</a>, due Tuesday, April 18, by 1PM (Students 
+taking the exam at ODS may turn it in when they get done) 
+
 
 
 
