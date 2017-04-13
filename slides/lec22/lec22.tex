@@ -133,7 +133,7 @@
 \item Review sessions:
 \BI
 \item Monday, 2PM-5PM: Physics Clinic (Walter)
-\item Saturday or Sunday: reviews run by coaches (will announce by email)
+\item Saturday or Sunday: reviews run by coaches (will announce this by email)
 \EI
 \EI
 }
@@ -197,6 +197,55 @@ Yes: $r_\perp$ (and $v$) are the same at both points.
 \EC
 \ECC
 }
+
+\frame{\frametitle{\textbf{An example problem}}
+\Large
+A child of mass $m$ runs at speed $v$ straight east and jumps onto a merry-go-round of mass $M$ and radius $R$,
+landing $2/3$ of the way toward the outside. If she lands on the south edge,
+how fast will it be turning once she lands?
+
+\BS
+
+We'll do this together on the document camera.
+
+\pause
+
+\BS\BS
+\BC\it\normalsize
+
+(The solution is on the next slide, for those studying these notes later)
+\EC
+}
+
+\frame{\frametitle{\textbf{The solution to our example}}
+\large
+
+We use conservation of angular momentum:
+
+\begin{align*}
+\sum L_i &= \sum L_f \\
+L_{\rm child,\it i}  &= L_{\rm child+disk,\it f}
+\end{align*}
+
+Model the child as a point object moving at a constant velocity:
+$$L_{\rm child,\it i} = mv_\perp r = \frac{2}{3} mvR$$
+
+This gives us $\frac{2}{3}mvR = I_{\rm total} \omega_f$. We now need $I_{\rm total}$.
+
+\medskip
+
+After the child jumps on, $I_{\rm total} = I_{\rm disk} + I_{\rm child} = \frac{1}{2}MR^2 + \frac{2}{3}mR^2$. Thus,
+
+$$\frac{2}{3}mvR = \left(\frac{1}{2}MR^2 + \frac{2}{3}mR^2\right) \omega_f$$
+
+Solve for $\omega_f$:
+
+$$
+\omega_f = \frac{\frac{2}{3}mvR}{\left(\frac{1}{2}MR^2 + \frac{2}{3}mR^2\right)}
+$$
+
+}
+
 
 \frame{\frametitle{\textbf{Angular momentum demonstrations}}
 
