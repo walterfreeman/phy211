@@ -6,6 +6,8 @@ use_math: true
 
 **Announcements**
 
+<b>Practice Test 3 available <a href="practice-test-3.pdf">here</a>
+
 Upcoming schedule:
 
 HW8 due Tuesday, April 18, by 1PM
