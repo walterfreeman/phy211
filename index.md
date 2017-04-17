@@ -6,7 +6,9 @@ use_math: true
 
 **Announcements**
 
-<b>Practice Test 3 available <a href="practice-test-3.pdf">here</a>
+<b>Practice Test 3 available <a href="practice-test-3.pdf">here</a>; the solutions are <a href="practice-test-3-solutions.pdf">here</a>.</b>
+
+<b>No recitation either day this week!</b>
 
 Upcoming schedule:
 
