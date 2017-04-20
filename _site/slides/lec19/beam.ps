@@ -1,0 +1,407 @@
+%!
+%%Creator: shemhazai:wfreeman(Walter,,,)
+%%Title: Unix plot file
+%%CreationDate: Mon Apr  3 18:04:17 2017
+%%DocumentFonts: Courier
+%%EndComments
+%%BoundingBox: 0 0 4096 4096
+% Start of psplot.pro -- prolog for plot(5) translator
+% Copyright (c) 1984,1985,1987 Adobe Systems Incorporated. All Rights Reserved. 
+%              RESTRICTED RIGHTS LEGEND
+% Use, duplication or disclosure by the Government is subject to
+% restrictions as set forth in subdivision (b)(3)(ii) of the Rights in
+% Technical Data and Computer Software Clause at 252.227-7013.
+% Name of Contractor: Adobe Systems Incorporated
+% Address:  1870 Embarcadero Road
+%	  Palo Alto, California  94303
+% RCS: $Header: psplot.pro,v 2.2 87/11/17 16:41:06 byron Rel $
+save 50 dict begin /psplot exch def
+/StartPSPlot
+   {newpath 0 0 moveto 8 setlinewidth 0 setgray 1 setlinecap
+    /imtx matrix currentmatrix def /dmtx matrix defaultmatrix def
+    /fnt /Courier findfont def /smtx matrix def fnt 8 scalefont setfont}def
+/solid {{}0}def
+/dotted	{[2 nail 3.5 nail ] 0}def
+/longdashed {[10 nail] 0}def
+/shortdashed {[6 nail] 0}def
+/dotdashed {[2 nail 6 nail 10 nail 6 nail] 0}def
+/disconnected {{}0}def
+/min {2 copy lt{pop}{exch pop}ifelse}def
+/max {2 copy lt{exch pop}{pop}ifelse}def
+/len {dup mul exch dup mul add sqrt}def
+/nail {0 imtx dtransform len 0 idtransform len}def
+
+/m {newpath moveto}def
+/n {lineto currentpoint stroke moveto}def
+/p {newpath moveto gsave 1 setlinecap solid setdash
+    dmtx setmatrix .4 nail setlinewidth
+    .05 0 idtransform rlineto stroke grestore}def
+/l {moveto lineto currentpoint stroke moveto}def
+/t {smtx currentmatrix pop imtx setmatrix show smtx setmatrix}def
+/a {gsave newpath /y2 exch def /x2 exch def 
+    /y1 exch def /x1 exch def /yc exch def /xc exch def
+    /r x1 xc sub dup mul y1 yc sub dup mul add sqrt
+       x2 xc sub dup mul y2 yc sub dup mul add sqrt add 2 div def
+    /ang1 y1 yc sub x1 xc sub atan def
+    /ang2 y2 yc sub x2 xc sub atan def
+    xc yc r ang1 ang2 arc stroke grestore}def
+/c {gsave newpath 0 360 arc stroke grestore}def
+/e {gsave showpage grestore newpath 0 0 moveto}def
+/f {load exec setdash}def
+/s {/ury exch def /urx exch def /lly exch def /llx exch def
+    imtx setmatrix newpath clippath pathbbox newpath
+    /dury exch def /durx exch def /dlly exch def /dllx exch def
+    /md durx dllx sub dury dlly sub min def
+    /Mu urx llx sub ury lly sub max def
+    36 144 translate .8 .8 scale
+    dllx dlly translate md Mu div dup scale llx neg lly neg translate}def
+/EndPSPlot {clear psplot end restore}def
+StartPSPlot
+%%EndProlog
+%%Page: 1 1
+0 0 4096 4096 s
+/solid f
+1.00 1.00 0.00 0 setcmykcolor
+0 0 0 1 setcmykcolor
+2275 1413 m
+2275 2550 n
+2275 2225 m
+2925 2225 n
+2275 2192 m
+2925 2192 n
+2925 2192 m
+2925 2225 n
+0.00 1.00 1.00 0 setcmykcolor
+2925 2225 m
+3206 2388 n
+3206 2388 m
+3137 2377 n
+3206 2388 m
+3163 2333 n
+3178 2371 m
+3137 2377 n
+3178 2371 m
+3163 2333 n
+3120 2469 m
+3107 2518 m
+3107 2424 n
+3111 2518 m
+3111 2424 n
+3080 2518 m
+3075 2491 n
+3075 2518 n
+3142 2518 n
+3142 2491 n
+3138 2518 n
+3093 2424 m
+3124 2424 n
+3120 2469 m
+2600 2209 m
+2600 1721 n
+2600 1721 m
+2639 1819 n
+2600 1721 m
+2561 1819 n
+2600 1770 m
+2639 1819 n
+2600 1770 m
+2561 1819 n
+2600 1656 m
+2569 1705 m
+2569 1611 n
+2573 1705 m
+2600 1625 n
+2569 1705 m
+2600 1611 n
+2631 1705 m
+2600 1611 n
+2631 1705 m
+2631 1611 n
+2636 1705 m
+2636 1611 n
+2555 1705 m
+2573 1705 n
+2631 1705 m
+2649 1705 n
+2555 1611 m
+2582 1611 n
+2618 1611 m
+2649 1611 n
+2712 1656 m
+2694 1674 m
+2685 1669 n
+2681 1665 n
+2676 1656 n
+2676 1647 n
+2681 1638 n
+2685 1634 n
+2694 1629 n
+2703 1629 n
+2712 1634 n
+2717 1638 n
+2721 1647 n
+2721 1656 n
+2717 1665 n
+2712 1669 n
+2703 1674 n
+2694 1674 n
+2685 1669 m
+2681 1660 n
+2681 1643 n
+2685 1634 n
+2712 1634 m
+2717 1643 n
+2717 1660 n
+2712 1669 n
+2717 1665 m
+2721 1669 n
+2730 1674 n
+2730 1669 n
+2721 1669 n
+2681 1638 m
+2676 1634 n
+2672 1625 n
+2672 1620 n
+2676 1611 n
+2690 1607 n
+2712 1607 n
+2726 1602 n
+2730 1598 n
+2672 1620 m
+2676 1616 n
+2690 1611 n
+2712 1611 n
+2726 1607 n
+2730 1598 n
+2730 1593 n
+2726 1584 n
+2712 1580 n
+2685 1580 n
+2672 1584 n
+2667 1593 n
+2667 1598 n
+2672 1607 n
+2685 1611 n
+2600 1656 m
+2275 2225 m
+1994 2388 n
+1994 2388 m
+2037 2333 n
+1994 2388 m
+2063 2377 n
+2022 2371 m
+2037 2333 n
+2022 2371 m
+2063 2377 n
+1994 2469 m
+1963 2518 m
+1963 2424 n
+1967 2518 m
+1967 2424 n
+1994 2491 m
+1994 2456 n
+1949 2518 m
+2021 2518 n
+2021 2491 n
+2016 2518 n
+1967 2473 m
+1994 2473 n
+1949 2424 m
+1981 2424 n
+2084 2469 m
+2051 2448 m
+2051 2385 n
+2054 2448 m
+2090 2391 n
+2054 2442 m
+2090 2385 n
+2090 2448 m
+2090 2385 n
+2042 2448 m
+2054 2448 n
+2081 2448 m
+2099 2448 n
+2042 2385 m
+2060 2385 n
+1994 2469 m
+1.00 1.00 0.00 0 setcmykcolor
+3088 2225 m
+3087 2235 n
+3086 2245 n
+3085 2255 n
+3082 2265 n
+3080 2275 n
+3076 2285 n
+3072 2294 n
+3067 2303 n
+/dotted f
+2925 2225 m
+3250 2225 n
+/solid f
+3169 2290 m
+3166 2323 m
+3157 2320 n
+3151 2311 n
+3148 2305 n
+3145 2296 n
+3142 2281 n
+3142 2269 n
+3145 2263 n
+3151 2260 n
+3157 2260 n
+3166 2263 n
+3172 2272 n
+3175 2278 n
+3178 2287 n
+3181 2302 n
+3181 2314 n
+3178 2320 n
+3172 2323 n
+3166 2323 n
+3166 2323 m
+3160 2320 n
+3154 2311 n
+3151 2305 n
+3148 2296 n
+3145 2281 n
+3145 2269 n
+3148 2263 n
+3151 2260 n
+3157 2260 m
+3163 2263 n
+3169 2272 n
+3172 2278 n
+3175 2287 n
+3178 2302 n
+3178 2314 n
+3175 2320 n
+3172 2323 n
+3148 2293 m
+3175 2293 n
+3226 2290 m
+3202 2296 m
+3256 2296 n
+3202 2278 m
+3256 2278 n
+3304 2290 m
+3280 2311 m
+3283 2308 n
+3280 2305 n
+3277 2308 n
+3277 2311 n
+3280 2317 n
+3283 2320 n
+3292 2323 n
+3304 2323 n
+3313 2320 n
+3316 2314 n
+3316 2305 n
+3313 2299 n
+3304 2296 n
+3295 2296 n
+3304 2323 m
+3310 2320 n
+3313 2314 n
+3313 2305 n
+3310 2299 n
+3304 2296 n
+3304 2296 m
+3310 2293 n
+3316 2287 n
+3319 2281 n
+3319 2272 n
+3316 2266 n
+3313 2263 n
+3304 2260 n
+3292 2260 n
+3283 2263 n
+3280 2266 n
+3277 2272 n
+3277 2275 n
+3280 2278 n
+3283 2275 n
+3280 2272 n
+3313 2290 m
+3316 2281 n
+3316 2272 n
+3313 2266 n
+3310 2263 n
+3304 2260 n
+3364 2290 m
+3355 2323 m
+3346 2320 n
+3340 2311 n
+3337 2296 n
+3337 2287 n
+3340 2272 n
+3346 2263 n
+3355 2260 n
+3361 2260 n
+3370 2263 n
+3376 2272 n
+3379 2287 n
+3379 2296 n
+3376 2311 n
+3370 2320 n
+3361 2323 n
+3355 2323 n
+3355 2323 m
+3349 2320 n
+3346 2317 n
+3343 2311 n
+3340 2296 n
+3340 2287 n
+3343 2272 n
+3346 2266 n
+3349 2263 n
+3355 2260 n
+3361 2260 m
+3367 2263 n
+3370 2266 n
+3373 2272 n
+3376 2287 n
+3376 2296 n
+3373 2311 n
+3370 2317 n
+3367 2320 n
+3361 2323 n
+3424 2290 m
+3410 2334 m
+3404 2332 n
+3400 2328 n
+3398 2322 n
+3398 2318 n
+3400 2312 n
+3404 2308 n
+3410 2306 n
+3414 2306 n
+3420 2308 n
+3424 2312 n
+3426 2318 n
+3426 2322 n
+3424 2328 n
+3420 2332 n
+3414 2334 n
+3410 2334 n
+3410 2334 m
+3406 2332 n
+3402 2328 n
+3400 2322 n
+3400 2318 n
+3402 2312 n
+3406 2308 n
+3410 2306 n
+3414 2306 m
+3418 2308 n
+3422 2312 n
+3424 2318 n
+3424 2322 n
+3422 2328 n
+3418 2332 n
+3414 2334 n
+3169 2290 m
+/solid f
+1 1 m
+e
+%%Trailer
+EndPSPlot

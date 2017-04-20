@@ -1,0 +1,164 @@
+
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{6 April}}
+
+\begin{enumerate}
+
+\item A bucket of mass $m$ hangs from a string wound around a pulley 
+(a solid cylinder) with mass $M$ and radius $r$. When the bucket is
+released, it falls, unwinding the string.
+
+\begin{enumerate}
+
+\item Draw force diagrams for the bucket and the pulley. Note that since the pulley rotates, you will need
+to draw an extended force diagram for it, drawing the object and labeling where each force acts.
+
+\vspace{3in}
+
+\item In terms of the forces in your force diagrams, write an expression for the net torque on the pulley.
+
+\vspace{1in}
+
+\item Write down Newton's laws of motion -- $\sum \vec F = m \vec a$ for translation, and $\sum \tau = I \alpha$
+-- for each object. (One object moves, and the other turns...)
+
+\vspace{2in}
+
+
+\newpage
+
+\item What is the relationship between the angular acceleration $\alpha$ of the pulley and the linear acceleration
+$a$ of the bucket? (The answer may be different depending on how you have drawn your pictures and your choice of
+coordinate system.)
+
+\vspace{1in}
+
+\item Calculate the acceleration of the bucket in terms of $m$ and $M$.
+
+\vspace{3in}
+
+\item Suppose that the pulley were a hollow cylinder with the same mass. How would this acceleration change?
+
+\newpage
+\end{enumerate}
+
+   \item{A Yo-Yo consists of a cylinder of mass $m$ and radius $r$. A slot is cut in the middle of the cylinder such that the inner radius is only $0.4r$, and a string is wound around the middle. (If you don't know what a Yo-Yo is, there is an animation on Wikipedia.)
+     A person holds the string and allows the Yo-Yo to fall. As it falls, it has both a linear acceleration (moving downward) and an angular acceleration (spinning faster and faster).}
+     \begin{enumerate}
+       \item{What is the relation between the linear velocity $v$ of the Yo-Yo (moving downward) and its angular velocity $\omega$?}
+
+\vspace{1in}
+       \item{What is the relation between the linear acceleration $a$ of the Yo-Yo (moving downward) and its angular acceleration $\alpha$? (Note: this is trivial once you've done the previous part...)}
+
+\vspace{1in}
+
+       \item{Draw a force diagram for the Yo-Yo, indicating the location where all forces act as well as their magnitude.}
+
+\vspace{3in}
+
+       \item{Write down Newton's second law ($F=ma$) for the Yo-Yo, putting in expressions for the various forces.}
+
+\vspace{2in}
+
+       \item{Write down ``Newton's second law for rotation'' $\tau = I \alpha$, putting in expressions for the net torque and the moment of inertia.}
+
+\vspace{2in}
+       \item{What is the acceleration of the Yo-Yo and the tension in the string?}
+
+\vspace{3in}
+       \item{Will the Yo-Yo accelerate faster or slower if the inner radius is changed to $0.2r$?}
+
+
+     \end{enumerate}
+\end{enumerate}
+\newpage
+\centerline{\sc{Reference Material - Rotational Motion}}
+
+
+Moments of Inertia:
+\begin{itemize}
+  \item{Disk or cylinder, rotating about center: $I = \frac{1}{2}MR^2$}
+  \item{Sphere, rotating about center: $I = \frac{2}{5}MR^2$}
+  \item{Ring or hollow cylinder, rotating about center: $I = MR^2$}
+\end{itemize}
+
+\bigskip
+\bigskip
+\bigskip
+
+Correspondence between linear dynamics and rotational dynamics: 
+  \scriptsize
+
+\begin{tabular}{| c | c | c | c |}
+  \hline
+  Position & $s$ & Angle & $\theta$  \\
+  Velocity & $\vec v$ & Angular velocity & $\omega$  \\
+  Acceleration & $\vec a$ & Angular acceleration & $\alpha$  \\
+  \hline
+                                   & $v(t) = v_0 + at$ & & $\omega(t) = \omega_0 + \alpha t$ \\
+                                   & $x(t) = x_0 + v_0 t + \frac{1}{2} at^2$ & & $\theta(t) = \theta_0 + \omega_0 t + \frac{1}{2} \alpha t^2$ \\
+                                   & $v_f^2 - v_0^2 = 2a \Delta x$ & & $\omega_f^2 - \omega_0^2 = 2 \alpha \Delta \theta$ \\
+  \hline
+  Mass & $m$ & Moment of inertia & $I$ \\
+  \hline
+  Force & $F$ & Torque & $\tau = F_\perp r = F r_\perp$ \\
+  \hline
+  Newton's second law & $\vec F = m \vec a$ & ``Newton's second law for rotation'' & $\tau = I \alpha$ \\
+  \hline
+  Kinetic energy & $\frac{1}{2} mv^2$ & Kinetic energy & $\frac{1}{2}I\omega^2$ \\
+  \hline
+  Momentum & $\vec p = m \vec v$ & Angular momentum & $L = I \omega$ \\
+  \hline
+\end{tabular}
+
+\bigskip
+\bigskip
+\bigskip
+
+Arc length $s=\theta r$ \\
+Tangential velocity $v=\omega r$ \\
+Tangential acceleration $a=\alpha r$
+
+
+
+
+ \end{document}

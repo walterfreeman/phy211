@@ -1,0 +1,76 @@
+#include<stdio.h>
+#include<math.h>
+#define N 2
+
+double K=1;
+double T=0.1;
+double M=1;
+
+
+int main(void)
+{
+  printf("center 0.5 0 0\nS 1\n");
+
+  int i,j;
+  double x[N+1],y[N+1],vx[N+1],vy[N+1],m[N+1],xh[N+1],yh[N+1],vxh[N+1],vyh[N+1],t;
+  double k=K*N;
+  double yegg=10;
+  double xmax=1+K*T;
+  double dt=0.01;
+  double r,r0=1./N;
+  double F,Fx,Fy;
+  for (i=0;i<N+1;i++)
+  {
+    m[i]=M/N;
+    x[i]=i*xmax/N;
+    y[i]=0;
+    vx[i]=0;
+    vy[i]=0;
+  }
+//  vy[2]=0.1;
+  for (t=0;1;t+=dt)
+  {
+    for (i=1;i<N+1;i++)
+    {
+      xh[i]=x[i]+vx[i]*dt/2;
+      yh[i]=y[i]+vy[i]*dt/2;
+      r=hypot(x[i]-x[i-1],y[i]-y[i-1]);
+      F=-k*(r-r0);
+      Fx=F*(x[i]-x[i-1])/r;
+      Fy=F*(y[i]-y[i-1])/r;
+      vxh[i]=vx[i]+Fx/m[i]*dt/2;
+      vyh[i]=vy[i]+Fy/m[i]*dt/2;
+      r=hypot(x[i]-x[i+1],y[i]-y[i+1]);
+      F=-k*(r-r0);
+      Fx=F*(x[i]-x[i-1])/r;
+      Fy=F*(y[i]-y[i-1])/r;
+      vxh[i]+=Fx/m[i]*dt/2;
+      vyh[i]+=Fy/m[i]*dt/2;
+      
+      
+      x[i]=xh[i]+vxh[i]*dt;
+      y[i]=yh[i]+vyh[i]*dt;
+      r=hypot(xh[i]-xh[i-1],yh[i]-yh[i-1]);
+      F=-k*(r-r0);
+      Fx=F*(xh[i]-xh[i-1])/r;
+      Fy=F*(yh[i]-yh[i-1])/r;
+      vx[i]=vx[i]+Fx/m[i]*dt;
+      vy[i]=vy[i]+Fy/m[i]*dt;
+      r=hypot(x[i]-x[i+1],y[i]-y[i+1]);
+      F=-k*(r-r0);
+      Fx=F*(x[i]-x[i-1])/r;
+      Fy=F*(y[i]-y[i-1])/r;
+      vxh[i]+=Fx/m[i]*dt/2;
+      vyh[i]+=Fy/m[i]*dt/2;
+       
+ }
+    }
+    printf("C 1 0 0\n");
+    for (i=0;i<N;i++)
+      printf("l %e %e %e %e\n",x[i],y[i]*yegg,x[i+1],y[i+1]*yegg);
+    printf("C 1 1 1\n");
+    for (i=0;i<N+1;i++)
+      printf("c %e %e %e\n",x[i],y[i]*yegg,0.1/N);
+  printf("F\n");
+  }
+}
