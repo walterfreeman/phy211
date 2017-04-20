@@ -1,0 +1,290 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{mwe}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+\newcommand{\vcenteredinclude}[1]{\begingroup
+  \setbox0=\hbox{\includegraphics[width=3in]{#1}}%
+\parbox{\wd0}{\box0}\endgroup}
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title{
+  \textbf {Musical instruments: strings and pipes}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2015\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+  \Large
+\BI
+\item{``Optional'' recitation section next Wednesday: more review for the final on Reading Day}
+\item{Homework 9 due next Wednesday}
+\item{Practice exam posted; 8 questions on it can be submitted for extra credit (also Wednesday)}
+\item{Daily practice questions and discussion on the Facebook group}
+\item{Tentative final exam review schedule will be emailed out tomorrow}
+\EI
+}
+
+\frame{\frametitle{\textbf{Final exam ``makeup opportunity''}}
+  \Large
+  \BI
+\item{If you do substantially better on the final than one of your other exams...}
+  \BI
+\item{That exam counts less}
+\item{The final counts more}
+\item{This can only help you}
+\item{Questions about grades: I am not curving numerical grades}
+\item{... the cutoffs between A/B/C/D/F are just different, and will be determined at the end}
+\item{Over 50\% of grades will be A's and B's}
+  \EI
+\EI
+}
+
+\frame{\frametitle{\textbf{Grade appeals for Exam 3}}
+  \Large
+  \BI
+\item{To appeal your grade, you must submit a correct solution with your appeal form}
+  \BI
+\item{(Remember recitation attendance counts toward your grade anyway!)}
+  \EI
+\item{Same procedure as before}
+ \EI
+ }
+
+
+
+\frame{\frametitle{\textbf{Standing waves, a reminder}}
+  \large
+  \BI
+\item{Only certain wavelengths can persist as standing waves in a ``one-dimensional cavity''}
+\item{1D cavity: waves on a string, sound waves in a pipe... things we make musical instruments out of!}
+\item{Waves are {\it linear} -- multiple standing waves of different wavelengths can coexist}
+  \EI
+}
+
+
+\frame{\frametitle{\textbf{Sine waves}}
+  \BI
+\item{We're particularly concerned with waves that look like sines and cosines}
+\item{These waves have two new properties: {\bf wavelength $\lambda$} and {\bf frequency $f$}}
+\BI
+\item{Wavelength: distance from crest to crest}
+\item{Frequency: how many crests go by per second, equal to $1/T$ ($T$ = period)}
+  \pause
+\item{Speed = distance $\times$ time}
+\EI
+\EI
+\Large
+  $$c=\lambda f$$
+  \BI
+\pause
+\item{What kind of sine and cosine waves can we put on our string?}
+\item{Not any wavelengths will do, since the ends have to be fixed}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Standing waves, in more detail}}
+  \Large
+  \vcenteredinclude{mode1-crop.pdf} Fundamental: $\lambda = \frac{2L}{1}$\\
+ \bigskip 
+  \vcenteredinclude{mode2-crop.pdf} 2nd harmonic: $\lambda = \frac{2L}{2}$\\
+ \bigskip 
+  
+  \vcenteredinclude{mode3-crop.pdf} 3rd harmonic: $\lambda = \frac{2L}{3}$\\
+ \bigskip 
+  
+  \vcenteredinclude{mode4-crop.pdf} 4th harmonic: $\lambda = \frac{2L}{4}$\\
+ \bigskip 
+
+  \bigskip
+  \centerline{Can we write these wavelengths in terms of $f$ using $c=f\lambda$?}
+
+}
+
+\frame{\frametitle{\textbf{Standing waves, in more detail}}
+  \Large
+  \vcenteredinclude{mode1-crop.pdf} Fundamental: $f_1 = \frac{c}{2L}$\\
+ \bigskip 
+  \vcenteredinclude{mode2-crop.pdf} 2nd harmonic: $f_2 = 2 f_1 $\\
+ \bigskip 
+  \vcenteredinclude{mode3-crop.pdf} 3rd harmonic: $f_3 = 3 f_1$ \\
+  
+ \bigskip 
+  \vcenteredinclude{mode4-crop.pdf} 4th harmonic: $f_4 = 4 f_1$ \\
+  
+ \bigskip 
+
+}
+
+
+\frame{\frametitle{\textbf{Musical instruments: in general}}
+  \large
+  \BI
+\item{Vibrating strings or columns of air inside tubes all can support all of these modes}
+  \BI
+\item{You can select for particular ones, however: what happens if you pluck a string in its center?}
+\pause
+\item{Only odd-numbered modes are excited: the even ones have a node there}
+  \EI
+\item{In general, when you excite a string or air column, you produce them all}
+\item{Often we choose to excite strings in ways that prefer some modes over others}
+\item{The unique sound of each instrument comes mostly from the relative strengths}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Controlling pitch}}
+  \large
+  \BI
+\item{Any instrument needs a way of changing $f_1$ to play different notes}
+\item{Modern piano: $f_1$ from 28.5 Hz to 4 kHz}
+\item{Human voice: $f_1$ from 65 Hz to 1 kHz}
+\item{Human hearing: sensitive from 20 Hz to 20 kHz (roughly)}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Stringed instruments}}
+  \large
+\BI
+\item{Make a string vibrate, its vibrations cause sound waves (not very efficient)}
+\item{Make a string vibrate, couple it mechanically to something bigger which makes the air vibrate: better!}
+\item{Three ways to control the fundamental frequency of sound in a string:}
+  \BI
+  \normalsize
+\item{Speed of sound on a stretched string: $c = \sqrt{T/\lambda}$}
+\item{$T$ is the tension, $\lambda$ is the linear mass density (kg per meter)}
+\item{If $c=f\lambda$, then $f_1 = \frac{\sqrt{T}}{2L\sqrt{\lambda}}$}
+  \EI
+\item{More tension makes the frequency go up (how these instruments are tuned}
+\item{A longer string makes the frequency go down (bass vs. violin)}
+\item{A thicker string makes the frequency go down (wound strings)}
+\EI
+}
+
+\frame{\frametitle{\textbf{Wind instruments}}
+\BI
+\item{Same idea, except we have a column of air instead of a string}
+\item{Here the wave speed $c$ is just the speed of sound in air}
+\item{Classic example: the pipe organ}
+  \BI
+\item{Each pipe only sounds one note}
+\item{Pipes up to 32 feet long $\rightarrow f_1 = 17$ Hz!}
+\EI
+\item{Others: use one pipe to sound multiple notes by opening and closing holes}
+\item{Excite vibrations with either a reed or something akin to a whistle (on a flute)}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Brass instruments}}
+  \large
+  \BI
+\item{Don't be fooled by the funny shapes: they (mostly) act like straight pipes}
+\item{Here there are two tricks for controlling pitch: change the length of the tube...}
+  \BI
+\item{Trombone: physically make the tube longer}
+\item{Trumpet etc.: Add/subtract lengths of tubing}
+  \EI
+\item{... or match the buzzing of the player's lips to frequencies other than $f_1$}
+\item{How does a trombonist play a scale?}
+  \EI
+}
+
+
+\end{document}
