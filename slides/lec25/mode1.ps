@@ -1,0 +1,308 @@
+%!
+%%Creator: rincon:wfreeman(Walter,,,)
+%%Title: Unix plot file
+%%CreationDate: Tue Apr 21 00:12:17 2015
+%%DocumentFonts: Courier
+%%EndComments
+%%BoundingBox: 0 0 4096 4096
+% Start of psplot.pro -- prolog for plot(5) translator
+% Copyright (c) 1984,1985,1987 Adobe Systems Incorporated. All Rights Reserved. 
+%              RESTRICTED RIGHTS LEGEND
+% Use, duplication or disclosure by the Government is subject to
+% restrictions as set forth in subdivision (b)(3)(ii) of the Rights in
+% Technical Data and Computer Software Clause at 252.227-7013.
+% Name of Contractor: Adobe Systems Incorporated
+% Address:  1870 Embarcadero Road
+%	  Palo Alto, California  94303
+% RCS: $Header: psplot.pro,v 2.2 87/11/17 16:41:06 byron Rel $
+save 50 dict begin /psplot exch def
+/StartPSPlot
+   {newpath 0 0 moveto 8 setlinewidth 0 setgray 1 setlinecap
+    /imtx matrix currentmatrix def /dmtx matrix defaultmatrix def
+    /fnt /Courier findfont def /smtx matrix def fnt 8 scalefont setfont}def
+/solid {{}0}def
+/dotted	{[2 nail 3.5 nail ] 0}def
+/longdashed {[10 nail] 0}def
+/shortdashed {[6 nail] 0}def
+/dotdashed {[2 nail 6 nail 10 nail 6 nail] 0}def
+/disconnected {{}0}def
+/min {2 copy lt{pop}{exch pop}ifelse}def
+/max {2 copy lt{exch pop}{pop}ifelse}def
+/len {dup mul exch dup mul add sqrt}def
+/nail {0 imtx dtransform len 0 idtransform len}def
+
+/m {newpath moveto}def
+/n {lineto currentpoint stroke moveto}def
+/p {newpath moveto gsave 1 setlinecap solid setdash
+    dmtx setmatrix .4 nail setlinewidth
+    .05 0 idtransform rlineto stroke grestore}def
+/l {moveto lineto currentpoint stroke moveto}def
+/t {smtx currentmatrix pop imtx setmatrix show smtx setmatrix}def
+/a {gsave newpath /y2 exch def /x2 exch def 
+    /y1 exch def /x1 exch def /yc exch def /xc exch def
+    /r x1 xc sub dup mul y1 yc sub dup mul add sqrt
+       x2 xc sub dup mul y2 yc sub dup mul add sqrt add 2 div def
+    /ang1 y1 yc sub x1 xc sub atan def
+    /ang2 y2 yc sub x2 xc sub atan def
+    xc yc r ang1 ang2 arc stroke grestore}def
+/c {gsave newpath 0 360 arc stroke grestore}def
+/e {gsave showpage grestore newpath 0 0 moveto}def
+/f {load exec setdash}def
+/s {/ury exch def /urx exch def /lly exch def /llx exch def
+    imtx setmatrix newpath clippath pathbbox newpath
+    /dury exch def /durx exch def /dlly exch def /dllx exch def
+    /md durx dllx sub dury dlly sub min def
+    /Mu urx llx sub ury lly sub max def
+    36 144 translate .8 .8 scale
+    dllx dlly translate md Mu div dup scale llx neg lly neg translate}def
+/EndPSPlot {clear psplot end restore}def
+StartPSPlot
+%%EndProlog
+%%Page: 1 1
+0 0 4096 4096 s
+/solid f
+650 3386 m
+673 3392 n
+650 3386 m
+696 3374 n
+696 3398 m
+720 3404 n
+696 3374 m
+743 3361 n
+743 3410 m
+766 3416 n
+743 3361 m
+789 3349 n
+789 3422 m
+812 3428 n
+789 3349 m
+836 3337 n
+836 3434 m
+859 3440 n
+836 3337 m
+882 3326 n
+882 3446 m
+905 3452 n
+882 3326 m
+929 3314 n
+929 3457 m
+952 3463 n
+929 3314 m
+975 3303 n
+975 3469 m
+998 3475 n
+975 3303 m
+1021 3291 n
+1021 3480 m
+1045 3486 n
+1021 3291 m
+1068 3280 n
+1068 3491 m
+1091 3496 n
+1068 3280 m
+1114 3270 n
+1114 3502 m
+1137 3507 n
+1114 3270 m
+1161 3259 n
+1161 3512 m
+1184 3517 n
+1161 3259 m
+1207 3249 n
+1207 3522 m
+1230 3527 n
+1207 3249 m
+1254 3240 n
+1254 3532 m
+1277 3536 n
+1254 3240 m
+1300 3230 n
+1300 3541 m
+1323 3546 n
+1300 3230 m
+1346 3222 n
+1346 3550 m
+1370 3554 n
+1346 3222 m
+1393 3213 n
+1393 3558 m
+1416 3562 n
+1393 3213 m
+1439 3205 n
+1439 3566 m
+1462 3570 n
+1439 3205 m
+1486 3198 n
+1486 3574 m
+1509 3577 n
+1486 3198 m
+1532 3191 n
+1532 3580 m
+1555 3584 n
+1532 3191 m
+1579 3185 n
+1579 3587 m
+1602 3590 n
+1579 3185 m
+1625 3179 n
+1625 3593 m
+1648 3595 n
+1625 3179 m
+1671 3174 n
+1671 3598 m
+1695 3600 n
+1671 3174 m
+1718 3169 n
+1718 3602 m
+1741 3605 n
+1718 3169 m
+1764 3165 n
+1764 3606 m
+1788 3608 n
+1764 3165 m
+1811 3161 n
+1811 3610 m
+1834 3611 n
+1811 3161 m
+1857 3159 n
+1857 3613 m
+1880 3614 n
+1857 3159 m
+1904 3156 n
+1904 3615 m
+1927 3616 n
+1904 3156 m
+1950 3155 n
+1950 3617 m
+1973 3617 n
+1950 3155 m
+1996 3154 n
+1996 3618 m
+2020 3618 n
+1996 3154 m
+2043 3154 n
+2043 3618 m
+2066 3618 n
+2043 3154 m
+2089 3154 n
+2089 3618 m
+2113 3617 n
+2089 3154 m
+2136 3155 n
+2136 3617 m
+2159 3616 n
+2136 3155 m
+2182 3156 n
+2182 3615 m
+2205 3614 n
+2182 3156 m
+2229 3159 n
+2229 3613 m
+2252 3611 n
+2229 3159 m
+2275 3161 n
+2275 3610 m
+2298 3608 n
+2275 3161 m
+2321 3165 n
+2321 3606 m
+2345 3605 n
+2321 3165 m
+2368 3169 n
+2368 3602 m
+2391 3600 n
+2368 3169 m
+2414 3174 n
+2414 3598 m
+2437 3595 n
+2414 3174 m
+2461 3179 n
+2461 3593 m
+2484 3590 n
+2461 3179 m
+2507 3185 n
+2507 3587 m
+2530 3584 n
+2507 3185 m
+2554 3191 n
+2554 3580 m
+2577 3577 n
+2554 3191 m
+2600 3198 n
+2600 3574 m
+2623 3570 n
+2600 3198 m
+2646 3205 n
+2646 3566 m
+2670 3562 n
+2646 3205 m
+2693 3213 n
+2693 3558 m
+2716 3554 n
+2693 3213 m
+2739 3222 n
+2739 3550 m
+2763 3546 n
+2739 3222 m
+2786 3230 n
+2786 3541 m
+2809 3536 n
+2786 3230 m
+2832 3240 n
+2832 3532 m
+2855 3527 n
+2832 3240 m
+2879 3249 n
+2879 3522 m
+2902 3517 n
+2879 3249 m
+2925 3259 n
+2925 3512 m
+2948 3507 n
+2925 3259 m
+2971 3270 n
+2971 3502 m
+2995 3496 n
+2971 3270 m
+3018 3280 n
+3018 3491 m
+3041 3486 n
+3018 3280 m
+3064 3291 n
+3064 3480 m
+3087 3475 n
+3064 3291 m
+3111 3303 n
+3111 3469 m
+3134 3463 n
+3111 3303 m
+3157 3314 n
+3157 3457 m
+3180 3452 n
+3157 3314 m
+3204 3326 n
+3204 3446 m
+3227 3440 n
+3204 3326 m
+3250 3337 n
+3250 3434 m
+3273 3428 n
+3250 3337 m
+3296 3349 n
+3296 3422 m
+3320 3416 n
+3296 3349 m
+3343 3361 n
+3343 3410 m
+3366 3404 n
+3343 3361 m
+3389 3374 n
+3389 3398 m
+3412 3392 n
+3389 3374 m
+3436 3386 n
+/solid f
+1 1 m
+e
+%%Trailer
+EndPSPlot
