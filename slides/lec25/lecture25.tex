@@ -95,7 +95,7 @@
 %AB: remove navigation icons
 \beamertemplatenavigationsymbolsempty
 \title{
-  \textbf {Musical instruments: strings and pipes}\\
+  \textbf {Resonant modes in interesting shapes}\\
 %\centerline{}
 %\centering
 %\vspace{-0.0in}
@@ -113,65 +113,32 @@
 \frame{\titlepage}
 
 \frame{\frametitle{\textbf{Announcements}}
-  \Large
-\BI
-\item{Exam 3 corrections in recitation this week -- opportunity to earn more points}
-\item{Extra credit homework posted, due next Friday}
-\item{HW9 posted, due next Tuesday}
-\item{Final exam prep schedule announced next class}
-\item{Office hours tonight as normal: 5:10-6:50 PM, in the Clinic}
-\EI
-}
-
-\frame{\frametitle{\textbf{Standing waves, a reminder}}
   \large
-  \BI
-\item{Only certain wavelengths can persist as standing waves in a ``one-dimensional cavity''}
-\item{1D cavity: waves on a string, sound waves in a pipe... things we make musical instruments out of!}
-\item{Waves are {\it linear} -- multiple standing waves of different wavelengths can coexist}
-  \EI
-}
-
-
-\frame{\frametitle{\textbf{Sine waves}}
-  \BI
-\item{We're particularly concerned with waves that look like sines and cosines}
-\item{These waves have two new properties: {\bf wavelength $\lambda$} and {\bf frequency $f$}}
 \BI
-\item{Wavelength: distance from crest to crest}
-\item{Frequency: how many crests go by per second, equal to $1/T$ ($T$ = period)}
-  \pause
-\item{Speed = distance $\times$ time}
-\EI
-\EI
-\Large
-  $$c=\lambda f$$
-  \BI
+\item{Please be patient with TA's while they process exam corrections}
+\item{If they don't get to evaluate yours in person, they can look at your written version}
+\item You must be in recitation on Friday to do exam corrections 
+\item If you have a medical or emergency reason for missing recitation Friday, you can come to office hours and do them
 \pause
-\item{What kind of sine and cosine waves can we put on our string?}
-\item{Not any wavelengths will do, since the ends have to be fixed}
-  \EI
+\BI
+\normalsize
+\item Mayfest is not an excused absence; classes are still in session Friday
+\pause
+\item Do not show up drunk to recitation (it won't end well)
+\pause
+\EI
+\item Extra clinic hours ahead of the final exam: 
+\BI
+\normalsize
+\item 10AM-4PM next Wednesday
+\item Review sessions TBD -- probably next Thursday and Sunday, at least
+\EI
+\EI
 }
 
-\frame{\frametitle{\textbf{Standing waves, in more detail}}
-  \Large
-  \vcenteredinclude{mode1-crop.pdf} Fundamental: $\lambda = \frac{2L}{1}$\\
- \bigskip 
-  \vcenteredinclude{mode2-crop.pdf} 2nd harmonic: $\lambda = \frac{2L}{2}$\\
- \bigskip 
-  
-  \vcenteredinclude{mode3-crop.pdf} 3rd harmonic: $\lambda = \frac{2L}{3}$\\
- \bigskip 
-  
-  \vcenteredinclude{mode4-crop.pdf} 4th harmonic: $\lambda = \frac{2L}{4}$\\
- \bigskip 
 
-  \bigskip
-  \centerline{Can we write these wavelengths in terms of $f$ using $c=f\lambda$?}
 
-}
-
-\frame{\frametitle{\textbf{Standing waves, in more detail}}
+\frame{\frametitle{\textbf{Standing waves, from before}}
   \Large
   \vcenteredinclude{mode1-crop.pdf} Fundamental: $f_1 = \frac{c}{2L}$\\
  \bigskip 
@@ -186,78 +153,259 @@
 
 }
 
-
-\frame{\frametitle{\textbf{Musical instruments: in general}}
+\frame{\frametitle{\textbf{Musical instruments: fun with spectroscopy}}
   \large
   \BI
-\item{Vibrating strings or columns of air inside tubes all can support all of these modes}
+\item{In general, when you excite a string or air column, you produce a combination of many standing wave modes}
+\item{The unique sound of each instrument comes mostly from the relative strengths of them}
   \BI
-\item{You can select for particular ones, however: what happens if you pluck a string in its center?}
+\item{``Dark'' or ``pure'' sound: weak higher harmonics}
+\item{``Bright'' or ``brassy'' sound: strong higher harmonics}
+  \EI
+\item{All of these pitched instruments have evenly-spaced frequencies}
+\item The unique sound of each instrument is determined by which frequencies are strongest
+\item{This is necessary for something to sound like a musical note}
+\item{Strings and uniform tubes do this naturally}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Interesting shapes}}
+\Large
+
+What frequencies do we expect from an object of a complex shape?
+
+\bigskip
+
+\BI
+\item A: An evenly-spaced set of frequencies: a fundamental and integer multiples
+\item B: Frequencies in the pattern $f,\,3f,\,5f,\,7f,\,9f...$
+\item C: Just one frequency
+\item D: Many frequencies in a complicated pattern (horizontal lines unevenly spaced)
+\item E: A continuous band of frequencies (a vertical line, or a blob)
+\EI
+}
+
+
+
+\frame{\frametitle{\textbf{A simple example: the xylophone and its cousins}}
+\large
+Instrument made from wooden bars: small ones are high notes, big ones are low notes
+
+\bigskip
+\centerline{\includegraphics[width=0.5\textwidth]{bar-modes.png}}
+\bigskip
+Our metal bar works like this. What does it sound like?
 \pause
-\item{Only odd-numbered modes are excited: the even ones have a node there}
-  \EI
-\item{In general, when you excite a string or air column, you produce them all}
-\item{Often we choose to excite strings in ways that prefer some modes over others}
-\item{The unique sound of each instrument comes mostly from the relative strengths}
+\bigskip
+
+We have a problem: the frequencies of the normal modes are {\it not harmonic!}; they don't form ratios of 1, 2, 3, 4...
+\normalsize
+\BI
+\item{If these are allowed to vibrate, the instrument won't sound like a single musical pitch}
+\pause
+\item{Solution: support the bar at the nodes of the first mode}
+\item{This allows that mode to vibrate, but damps out the others that don't have nodes there}
+\item{The peculiar sound of the marimba comes from the rapid decay of these non-harmonic modes}
   \EI
 }
 
-\frame{\frametitle{\textbf{Controlling pitch}}
-  \large
-  \BI
-\item{Any instrument needs a way of changing $f_1$ to play different notes}
-\item{Modern piano: $f_1$ from 28.5 Hz to 4 kHz}
-\item{Human voice: $f_1$ from 65 Hz to 1 kHz, with rare exceptions (oktavists, coloraturas...)}
-\item{Human hearing: sensitive from 20 Hz to 20 kHz (roughly)}
-  \EI
-}
-
-\frame{\frametitle{\textbf{Stringed instruments}}
+\frame{\frametitle{\textbf{Normal modes for other shapes}}
   \large
 \BI
-\item{Make a string vibrate, its vibrations cause sound waves (not very efficient)}
-\item{Make a string vibrate, couple it mechanically to something bigger which makes the air vibrate: better!}
-\item{Three ways to control the fundamental frequency of sound in a string:}
+\item{In general, other shapes have a huge diversity of vibrational modes!}
+\item{A few examples...}
+  \pause
+\item{Simulations:}
   \BI
-  \normalsize
-\item{Speed of sound on a stretched string: $c = \sqrt{T/\lambda}$}
-\item{$T$ is the tension, $\lambda$ is the linear mass density (kg per meter)}
-\item{If $c=f\lambda$, then $f_1 = \frac{\sqrt{T}}{2L\sqrt{\lambda}}$}
+\large
+\item{Circular membrane: like a drumhead. How does it resonate/move?}
   \EI
-\item{More tension makes the frequency go up (how these instruments are tuned}
-\item{A longer string makes the frequency go down (bass vs. violin)}
-\item{A thicker string makes the frequency go down (wound strings)}
+\item{Real examples}
+  \BI
+\large
+\item{Chladni plates}
+\item{Other fancy toys...}
+  \EI
+  \EI
+}
+
+\frame{\frametitle{\textbf{Far more than just acoustics!}}
+  \large
+  \BI
+\item{These ideas of resonance and normal modes apply to {\it anything} that can oscillate!}
+\item{Key ideas:}
+  \BI
+\large
+\item{An object can vibrate in particular ways determined by its structure}
+\item{Each of those {\bf normal modes} has a particular frequency}
+\item{It absorbs energy very readily at those frequencies}
+  \EI
+\item{Electric circuits: antennas (standing waves in a wire!), and the equivalent of masses on strings}
+\item{Mechanical designs of all sorts of things}
+  \pause
+\item{Architecture: {\color{Red} \bf resonance is very bad...}}
+  \pause
+\item{Lots of work goes into ensuring that there are no strong resonances where there shouldn't be any...}
+  \EI
+}
+
+  \frame{\frametitle{\textbf{Quantum mechanics and the connection to chemistry}}
+    \centerline{\Large\color{Red} A key idea in quantum mechanics: matter acts like a wave}
+    \large
+    \BI
+  \item{Are there normal modes for atoms, too?}
+    \pause
+  \item{You bet! These standing wave patterns (for matter waves) are the orbitals you study in chemistry!}
+\item In QM, differences in energy correspond to a frequency: $f = E / h$
+    \EI
+  \bigskip
+  \bigskip
+  \centerline{  \includegraphics[width=0.55\textwidth]{orbitals.jpg}}
+  \bigskip
+  \bigskip
+  \centerline {\normalsize  Great advances in quantum mechanics were made by people thinking about violin strings!}
+}
+
+\frame{\frametitle{\textbf{Resonance appears everywhere...}}
+  \large
+  \BI
+\item{Studying the resonant modes of molecules can tell us a great deal!}
+\item{Every molecule has certain resonant frequencies}
+  \BI
+\item{Think of the mechanics of molecular bonds flexing...}
+\item{This involves the combination of the laws of motion you learned here, plus quantum mechanics}
+  \EI
 \EI
 }
 
-\frame{\frametitle{\textbf{Wind instruments}}
+\frame{\frametitle{\textbf{Resonance appears everywhere...}}
+\Large
+You're a radio astronomer examining a cloud of dust between the stars. You detect a certain set of 
+frequencies coming from it. What do you do?
+
+\bigskip
+\centerline{Raise your hand and make suggestions!} 
+\bigskip
+
+\pause
 \BI
-\item{Same idea, except we have a column of air instead of a string}
-\item{Here the wave speed $c$ is just the speed of sound in air}
-\item{Classic example: the pipe organ}
-  \BI
-\item{Each pipe only sounds one note}
-\item{Pipes up to 32 feet long $\rightarrow f_1 = 17$ Hz!}
+\large
+\item{``Light'', too, is a wave}
+\item{We can study strings by looking at how they couple to sound waves...}
+\item{... physicists and chemists study atoms and molecules by looking at how they couple to light waves!}
+\item Previously: ``I know the shape: let me calculate the resonant frequencies''
+\item This works in reverse: if I know the resonant frequencies, maybe I can find the shape?
 \EI
-\item{Others: use one pipe to sound multiple notes by opening and closing holes}
-\item{Excite vibrations with either a reed or something akin to a whistle (on a flute)}
-\item{How does the octave key on a saxophone work}
-  \EI
+
+\large\bigskip
+
+We've measured the resonant frequencies of glycine, an amino acid, in the lab.
+
+Radio astronomers have detected that same set of frequencies coming from space...
+
+ ... with just an antenna and some math, we have found organic molecules between the stars! 
+
 }
 
-\frame{\frametitle{\textbf{Brass instruments}}
-  \large
-  \BI
-\item{Don't be fooled by the funny shapes: they (mostly) act like straight pipes}
-\item{Here there are two tricks for controlling pitch: change the length of the tube...}
-  \BI
-\item{Trombone: physically make the tube longer}
-\item{Trumpet etc.: Add/subtract lengths of tubing}
-  \EI
-\item{... or match the buzzing of the player's lips to frequencies other than $f_1$}
-\item{How does a trumpeter play a scale?}
-  \EI
+\frame{\frametitle{\textbf{Looking at the Sun}}
+\Large
+\begin{center}
+\includegraphics[width=0.9\textwidth]{sun-spectrum.jpg}
+
+\bigskip
+
+What do these lines tell you about the Sun?
+
+\end{center}
 }
 
+\frame{\frametitle{\textbf{Looking at the Sun}}
+\Large
+You discover lines in the solar spectrum that don’t correspond
+to any known element. What do you conclude?
 
+\bigskip
+\BI
+
+\item A: Something about quantum mechanics is different in the Sun
+\item B: Something about light is different in the Sun
+\item C: There's an element in the Sun that’s not on Earth -- call it
+{\bf sunium}
+\item D: The extreme temperature of the Sun causes new lines to
+appear in its gas
+\item E: All of those seem not right, and ``sunium" isn't on the periodic table
+\EI
+}
+
+\frame{\frametitle{\textbf{Resonance appears everywhere...}}
+\Large
+\BI
+\item{Going even smaller, particle physicists do the same thing: we even mix up the words!}
+\item Highly unstable particles are called ``resonances''
+\item{You might even say: most of science appears in the concert hall!}
+\EI
+}
+
+\frame{\frametitle{\textbf{The power of mechanics}}
+\large
+The things we've studied in this class are more powerful than you think. 
+
+If you call up a chemist, she'll tell you the approximate force law between two noble gas atoms:
+
+$$ F(r) = \frac{\alpha}{r^12} - \frac{\beta}{r^6} $$
+
+Put this into a computer and let it go:
+
+\pause\bigskip
+
+\centerline{\color{Red}We can understand freezing, melting, and boiling just with $\vec F = m \vec a!$}
+
+\centerline{\color{Red}... we can even get the ideal gas law for free along the way!}
+}
+
+\frame{\frametitle{\textbf{The rest of physics}}
+\large
+The other disciplines of physics are variants on what you've learned already:
+
+\BI
+\item Electromagnetism (PHY 211) introduces a new force -- just another $\vec F$
+\BI
+\item Light is just a particular manifestation of that force
+\EI
+\item Statistical mechanics uses statistics to understand 
+$\vec F = m\vec a$ acting on a great many particles at once
+\item Relativity mixes up space and time, changing the coordinates on us
+\item Quantum mechanics mixes up ``particle'' and ``wave''
+\EI
+
+Each of these disciplines is supported by a ``three-legged stool'':
+
+\BI
+\item Theory: understanding principles and using pen and paper to study them in simple situations (this class)
+\item Experiment: designing tests for these principles and building machines to carry them out (221)
+\item Computation: using computers to simulate those principles in more complicated situations and study their consequences (my field and class in the fall)
+\EI
+}
+
+\frame{\frametitle{\textbf{I leave you with two quotes...}}
+\pause
+``A poet once said, 'The whole universe is in a glass of wine.'...  [I]f we look at a glass of wine closely enough we see the entire universe. 
+There are the things of physics: the twisting liquid which evaporates depending on the wind and weather, the reflection in the glass; and our imagination adds atoms. 
+The glass is a distillation of the earth's rocks, and in its composition we see the secrets of the universe's age, and the evolution of stars. 
+What strange array of chemicals are in the wine? 
+How did they come to be?... 
+If our small minds, for some convenience, divide this glass of wine, this universe, into parts -- physics, biology, geology, astronomy, psychology, 
+and so on -- remember that nature does not know it! So let us put it all back together, not forgetting ultimately what it is for. Let it give us one more final pleasure; drink it and forget it all!''
+
+\bigskip
+\bigskip
+
+\pause
+
+``Poets say science takes away from the beauty of the stars — mere globs of gas atoms. Nothing is "mere". I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination — stuck on this carousel my little eye can catch one-million-year-old light. A vast pattern — of which I am a part... What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined!''
+
+\bigskip
+
+--Richard Feynman, from {\em Lectures on Physics}
+}
 \end{document}

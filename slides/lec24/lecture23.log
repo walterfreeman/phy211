@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.10.15)  26 APR 2017 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.10.15)  26 APR 2017 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lecture25.tex
-(./lecture25.tex
+**lecture23.tex
+(./lecture23.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -814,8 +814,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 107.
 
-(./lecture25.aux)
-\openout1 = `lecture25.aux'.
+(./lecture23.aux)
+\openout1 = `lecture23.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
@@ -912,9 +912,9 @@ LaTeX Info: Redefining \ref on input line 111.
 LaTeX Info: Redefining \pageref on input line 111.
 LaTeX Info: Redefining \nameref on input line 111.
 
-(./lecture25.out) (./lecture25.out)
+(./lecture23.out) (./lecture23.out)
 \@outlinefile=\write5
-\openout5 = `lecture25.out'.
+\openout5 = `lecture23.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
@@ -942,7 +942,7 @@ orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 111.
- (./lecture25.nav)
+ (./lecture23.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 113.
@@ -1118,21 +1118,21 @@ Missing character: There is no ” in font cmr10!
 
 ]
 \tf@nav=\write6
-\openout6 = `lecture25.nav'.
+\openout6 = `lecture23.nav'.
 
 \tf@toc=\write7
-\openout7 = `lecture25.toc'.
+\openout7 = `lecture23.toc'.
 
 \tf@snm=\write8
-\openout8 = `lecture25.snm'.
+\openout8 = `lecture23.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
 
-(./lecture25.aux)
+(./lecture23.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
-Package rerunfilecheck Info: File `lecture25.out' has not changed.
+Package rerunfilecheck Info: File `lecture23.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
@@ -1161,7 +1161,7 @@ fonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 
-Output written on lecture25.pdf (30 pages, 630954 bytes).
+Output written on lecture23.pdf (30 pages, 630958 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  230 compressed objects within 3 object streams
