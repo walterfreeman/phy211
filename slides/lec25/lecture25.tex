@@ -95,7 +95,7 @@
 %AB: remove navigation icons
 \beamertemplatenavigationsymbolsempty
 \title{
-  \textbf {Resonant modes in interesting shapes}\\
+  \textbf {Review and recap}\\
 %\centerline{}
 %\centering
 %\vspace{-0.0in}
@@ -115,234 +115,216 @@
 \frame{\frametitle{\textbf{Announcements}}
   \large
 \BI
-\item{Please be patient with TA's while they process exam corrections}
-\item{If they don't get to evaluate yours in person, they can look at your written version}
-\item You must be in recitation on Friday to do exam corrections 
-\item If you have a medical or emergency reason for missing recitation Friday, you can come to office hours and do them
-\pause
+\item{Extra office hours and reviews ahead of the exam:}
 \BI
-\normalsize
-\item Mayfest is not an excused absence; classes are still in session Friday
-\pause
-\item Do not show up drunk to recitation (it won't end well)
-\pause
+\item Today, 5-7, Physics Clinic
+\item Wednesday, 10-4, Physics Clinic (with a break for lunch)
+\item Thursday, 10-3:45, Physics Clinic (with a break for lunch)
+\item Possibly Friday (will be announced by email)
+\item Sunday, 7-9 PM, Stolkin Auditorium
 \EI
-\item Extra clinic hours ahead of the final exam: 
-\BI
-\normalsize
-\item 10AM-4PM next Wednesday
-\item Review sessions TBD -- probably next Thursday and Sunday, at least
-\EI
+\item Come see me about exam corrections (if you had an excused absence 
+last week) or anything else
 \EI
 }
 
-
-
-\frame{\frametitle{\textbf{Standing waves, from before}}
+\frame{\frametitle{\textbf{Final exam format}}
   \Large
-  \vcenteredinclude{mode1-crop.pdf} Fundamental: $f_1 = \frac{c}{2L}$\\
- \bigskip 
-  \vcenteredinclude{mode2-crop.pdf} 2nd harmonic: $f_2 = 2 f_1 $\\
- \bigskip 
-  \vcenteredinclude{mode3-crop.pdf} 3rd harmonic: $f_3 = 3 f_1$ \\
-  
- \bigskip 
-  \vcenteredinclude{mode4-crop.pdf} 4th harmonic: $f_4 = 4 f_1$ \\
-  
- \bigskip 
-
+\BI
+\item{More questions, but less time-consuming}
+\item{Expect questions like:}
+  \BI
+\item{``What concept could you use to solve this problem?''}
+\item{``Write but do not solve a system of two equations that will let you find $a$ and $T$''}
+\item{``Which of these equations would be useful here?''}
+  \EI
+\item{You may make {\bf your own reference sheets}}
+\item{Two sides of a standard piece of paper, {\bf handwritten}}
+  \EI
 }
 
-\frame{\frametitle{\textbf{Musical instruments: fun with spectroscopy}}
+\frame{\frametitle{\textbf{Kinematics concepts}}
   \large
   \BI
-\item{In general, when you excite a string or air column, you produce a combination of many standing wave modes}
-\item{The unique sound of each instrument comes mostly from the relative strengths of them}
-  \BI
-\item{``Dark'' or ``pure'' sound: weak higher harmonics}
-\item{``Bright'' or ``brassy'' sound: strong higher harmonics}
-  \EI
-\item{All of these pitched instruments have evenly-spaced frequencies}
-\item The unique sound of each instrument is determined by which frequencies are strongest
-\item{This is necessary for something to sound like a musical note}
-\item{Strings and uniform tubes do this naturally}
-  \EI
-}
+\item{First derivative of position is velocity; second derivative is acceleration}
+\item{Kinematics lets us connect acceleration, velocity, position, and time}
+\item{If $\vec a$ is constant:}
 
-\frame{\frametitle{\textbf{Interesting shapes}}
-\Large
+  \begin{align*}
+    s(t) =& s_0 + v_0 t + \frac{1}{2} a t^2 \\
+    v(t) =& v_0 + at \\
+    v_f^2 - v_0^2 =& 2a\Delta x
+  \end{align*}
 
-What frequencies do we expect from an object of a complex shape?
-
-\bigskip
-
-\BI
-\item A: An evenly-spaced set of frequencies: a fundamental and integer multiples
-\item B: Frequencies in the pattern $f,\,3f,\,5f,\,7f,\,9f...$
-\item C: Just one frequency
-\item D: Many frequencies in a complicated pattern (horizontal lines unevenly spaced)
-\item E: A continuous band of frequencies (a vertical line, or a blob)
+\item{These relations hold separately and independently in $x$ and $y$}
+\item{Acceleration is $g$ downwards {\bf if and only if} an object is in freefall}
 \EI
 }
 
+\frame{\frametitle{\textbf{Kinematics sample problem: the ball-and-table problem}}
+  \Large
 
+A ball rolls off of a table of height $h$ at speed $v$. How far does it go?
 
-\frame{\frametitle{\textbf{A simple example: the xylophone and its cousins}}
-\large
-Instrument made from wooden bars: small ones are high notes, big ones are low notes
-
-\bigskip
-\centerline{\includegraphics[width=0.5\textwidth]{bar-modes.png}}
-\bigskip
-Our metal bar works like this. What does it sound like?
-\pause
-\bigskip
-
-We have a problem: the frequencies of the normal modes are {\it not harmonic!}; they don't form ratios of 1, 2, 3, 4...
-\normalsize
-\BI
-\item{If these are allowed to vibrate, the instrument won't sound like a single musical pitch}
-\pause
-\item{Solution: support the bar at the nodes of the first mode}
-\item{This allows that mode to vibrate, but damps out the others that don't have nodes there}
-\item{The peculiar sound of the marimba comes from the rapid decay of these non-harmonic modes}
-  \EI
 }
 
-\frame{\frametitle{\textbf{Normal modes for other shapes}}
-  \large
-\BI
-\item{In general, other shapes have a huge diversity of vibrational modes!}
-\item{A few examples...}
-  \pause
-\item{Simulations:}
-  \BI
-\large
-\item{Circular membrane: like a drumhead. How does it resonate/move?}
+\frame{\frametitle{\textbf{Use kinematics when:}}
+    \Large
+    \BI
+  \item{You need to connect some combination of position, velocity, acceleration, and time}
   \EI
-\item{Real examples}
-  \BI
-\large
-\item{Chladni plates}
-\item{Other fancy toys...}
-  \EI
-  \EI
+
 }
 
-\frame{\frametitle{\textbf{Far more than just acoustics!}}
-  \large
-  \BI
-\item{These ideas of resonance and normal modes apply to {\it anything} that can oscillate!}
-\item{Key ideas:}
-  \BI
-\large
-\item{An object can vibrate in particular ways determined by its structure}
-\item{Each of those {\bf normal modes} has a particular frequency}
-\item{It absorbs energy very readily at those frequencies}
-  \EI
-\item{Electric circuits: antennas (standing waves in a wire!), and the equivalent of masses on strings}
-\item{Mechanical designs of all sorts of things}
-  \pause
-\item{Architecture: {\color{Red} \bf resonance is very bad...}}
-  \pause
-\item{Lots of work goes into ensuring that there are no strong resonances where there shouldn't be any...}
-  \EI
-}
-
-  \frame{\frametitle{\textbf{Quantum mechanics and the connection to chemistry}}
-    \centerline{\Large\color{Red} A key idea in quantum mechanics: matter acts like a wave}
+\frame{\frametitle{\textbf{Force concepts and Newton's second law}}
     \large
     \BI
-  \item{Are there normal modes for atoms, too?}
-    \pause
-  \item{You bet! These standing wave patterns (for matter waves) are the orbitals you study in chemistry!}
-\item In QM, differences in energy correspond to a frequency: $f = E / h$
+  \item{Newton's second law relates the net force $\sum \vec F$ to the acceleration $\vec a$ of the center of mass of an object}
+  \item{If an object both rotates and moves, $\vec F=m\vec a$ gives you $\vec a$ of the center of mass}
+  \item{Newton's third law: forces come in pairs}
+  \item{Some forces you should know about:}
+    \BI
+  \item{Normal forces: as big as they need to be}
+  \item{Friction: $F_{\rm{fric, static, max}} = \mu_s F_N$, $F_{\rm{fric, kinetic}}=\mu_k F_N$}
+  \item{Traction: a type of static friction, points in direction chosen by the
+vehicle}
+  \item{Elastic: $F=-k\Delta x$}
+  \item{Gravity (Earth): $F=mg$ downward}
+  \item{Gravity (general): $F=\frac{Gm_1m_2}{r^2}$}
+  \item{Tension: A rope pulls on both ends}
     \EI
-  \bigskip
-  \bigskip
-  \centerline{  \includegraphics[width=0.55\textwidth]{orbitals.jpg}}
-  \bigskip
-  \bigskip
-  \centerline {\normalsize  Great advances in quantum mechanics were made by people thinking about violin strings!}
+    \EI
+  }
+
+  \frame{\frametitle{\textbf{Force diagrams}}
+    \Large
+    \BI
+  \item{Draw all forces acting on the object, as vectors}
+  \item{If you're going to care about torque, draw them where they act}
+  \item{Gravity acts at the center of mass}
+  \item{Draw these diagrams big enough that you can read them clearly and do trig}
+    \EI
+  }
+
+\frame{\frametitle{\textbf{Uniform circular motion}}
+  \Large
+  \BI
+\item{If an object is traveling in a circle, you know its acceleration is $a_c = \omega^2 r = \frac{v_T^2}{r}$ toward the center}
+\item{Often this will ``give you'' the right side of $F=ma$, and let you conclude something about the left}
+  \EI
+}
+  \frame{\frametitle{\textbf{Use Newton's second law when:}}
+    \Large
+    \BI
+  \item{You need to connect the forces on an object to its acceleration}
+  \item{If you don't need $\vec a$ directly, and don't care about time, maybe use energy methods instead?}
+    \EI
+  }
+
+
+  \frame{\frametitle{\textbf{Sample problem: the eraser in the tube}}
+    \Large
+What angular frequency is required to make the eraser not fall?
+  }
+
+  \frame{\frametitle{\textbf{The work-energy theorem and conservation of energy}}
+    \large
+    \BI
+  \item{Work-energy theorem comes from the third kinematics relation}
+  \item{Two formulations, one with potential energy and one without:}
+    \BI
+  \item{$KE_i + W_{\rm{all}} = KE_f$}
+  \item{$KE_i + PE_i + W_{\rm{other}} = KE_f + PE_f$}
+    \EI
+  \item{Draw {\it clear} before and after snapshots}
+  \item{Figure out work done in going from one to the other}
+  \item{Work = $\vec F \cdot d\vec s$}
+    \EI
+  }
+
+ \frame{\frametitle{\textbf{Use energy methods when:}}
+      \Large
+      \BI
+    \item{You don't know and don't care about time}
+    \item{You can account for the work done by all forces involved}
+    \item{This is {\bf not} true at the instant of a collision -- use momentum instead}
+      \EI
+    }
+
+    \frame{\frametitle{\textbf{Sample problem: energy}}
+      \Large
+A ball rolls down a hill of height $h$ and across a table. 
+How fast is it moving at the 
+edge of the table?    
 }
 
-\frame{\frametitle{\textbf{Resonance appears everywhere...}}
+  \frame{\frametitle{\textbf{Conservation of momentum}}
+      \BI
+    \item{In the absence of external forces, $\vec p = m\vec v$ is conserved}
+    \item{This is a consequence of Newton's third law}
+    \item{Collisions and explosions are short enough that external forces are small}
+    \item{Momentum is a vector and is conserved separately in $x$ and $y$}
+      \EI
+    }
+
+  \frame{\frametitle{\textbf{Use conservation of momentum when:}}
+        \Large
+        \BI
+      \item{You have a collision or explosion and need to connect the velocities before to the velocities after}
+        \EI
+      }
+
+   \frame{\frametitle{\textbf{Rotation}}
+          \Large
+          Many ideas here, most analogous to translational motion:
+\large
+\BI
+\item{Torque plays the role of force: $\tau = F_\perp r = F r_\perp$}
+\item{Moment of inertia plays the role of mass: $I = \lambda mr^2$}
+\item{$\vec F = m \vec a \rightarrow \tau = I \alpha$: ``Newton's second law for rotation''}
+\item{Rolling motion is translation plus rotation: $v = \pm \omega r$, $a = \pm \alpha r$}
+\item{\bf You must think about the signs here}
+\item{Rotational kinetic energy: $KE_{\rm{rot}} = \frac{1}{2} I \omega^2$}
+\item{Angular momentum: $L = I \omega$}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Static equilibrium problems}}
+  \Large
+  \BI
+\item{Net torque is zero about any pivot}
+\item{Net force is zero (you may not need this)}
+\item{Torque due to any force applied {\bf at} the pivot is zero}
+\EI
+}
+
+\frame{\frametitle{\textbf{Standing waves in strings/tubes:}}
+  \Large
+  \vcenteredinclude{mode1-crop.pdf} Fundamental: $f_1 = \frac{c}{2L}$\\
+ \bigskip
+  \vcenteredinclude{mode2-crop.pdf} 2nd harmonic: $f_2 = 2 f_1 $\\
+ \bigskip
+  \vcenteredinclude{mode3-crop.pdf} 3rd harmonic: $f_3 = 3 f_1$ \\
+
+ \bigskip
+  \vcenteredinclude{mode4-crop.pdf} 4th harmonic: $f_4 = 4 f_1$ \\
+
+ \bigskip
+
+\begin{center}
+The relation between wavespeed, wavelength, and frequency:
+
+$$c=f\lambda$$
+\end{center}
+
+}
+
+\frame{\frametitle{\textbf{Final reminders}}
   \large
   \BI
-\item{Studying the resonant modes of molecules can tell us a great deal!}
-\item{Every molecule has certain resonant frequencies}
-  \BI
-\item{Think of the mechanics of molecular bonds flexing...}
-\item{This involves the combination of the laws of motion you learned here, plus quantum mechanics}
-  \EI
-\EI
-}
-
-\frame{\frametitle{\textbf{Resonance appears everywhere...}}
-\Large
-You're a radio astronomer examining a cloud of dust between the stars. You detect a certain set of 
-frequencies coming from it. What do you do?
-
-\bigskip
-\centerline{Raise your hand and make suggestions!} 
-\bigskip
-
-\pause
-\BI
-\large
-\item{``Light'', too, is a wave}
-\item{We can study strings by looking at how they couple to sound waves...}
-\item{... physicists and chemists study atoms and molecules by looking at how they couple to light waves!}
-\item Previously: ``I know the shape: let me calculate the resonant frequencies''
-\item This works in reverse: if I know the resonant frequencies, maybe I can find the shape?
-\EI
-
-\large\bigskip
-
-We've measured the resonant frequencies of glycine, an amino acid, in the lab.
-
-Radio astronomers have detected that same set of frequencies coming from space...
-
- ... with just an antenna and some math, we have found organic molecules between the stars! 
-
-}
-
-\frame{\frametitle{\textbf{Looking at the Sun}}
-\Large
-\begin{center}
-\includegraphics[width=0.9\textwidth]{sun-spectrum.jpg}
-
-\bigskip
-
-What do these lines tell you about the Sun?
-
-\end{center}
-}
-
-\frame{\frametitle{\textbf{Looking at the Sun}}
-\Large
-You discover lines in the solar spectrum that don’t correspond
-to any known element. What do you conclude?
-
-\bigskip
-\BI
-
-\item A: Something about quantum mechanics is different in the Sun
-\item B: Something about light is different in the Sun
-\item C: There's an element in the Sun that’s not on Earth -- call it
-{\bf sunium}
-\item D: The extreme temperature of the Sun causes new lines to
-appear in its gas
-\item E: All of those seem not right, and ``sunium" isn't on the periodic table
-\EI
-}
-
-\frame{\frametitle{\textbf{Resonance appears everywhere...}}
-\Large
-\BI
-\item{Going even smaller, particle physicists do the same thing: we even mix up the words!}
-\item Highly unstable particles are called ``resonances''
-\item{You might even say: most of science appears in the concert hall!}
+\item{Huge amounts of extra review available; use it}
+\item{Get some rest during finals week and take care of yourselves}
+\item{If you're affected by the Calc/Physics exam scheduling nonsense, tell SU!}
 \EI
 }
 
@@ -352,7 +334,7 @@ The things we've studied in this class are more powerful than you think.
 
 If you call up a chemist, she'll tell you the approximate force law between two noble gas atoms:
 
-$$ F(r) = \frac{\alpha}{r^12} - \frac{\beta}{r^6} $$
+$$ F(r) = \frac{\alpha}{r^{12}} - \frac{\beta}{r^6} $$
 
 Put this into a computer and let it go:
 
@@ -387,6 +369,30 @@ Each of these disciplines is supported by a ``three-legged stool'':
 \EI
 }
 
+\frame{\frametitle{\textbf{And, finally...}}
+  \Large
+... thank you all; you're the best Physics 211 class yet, and it shows
+in your grades.
+
+\pause
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\centerline{``Science is the belief in the ignorance of experts.'' (R. Feynman)}
+
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+
+
+\centerline{``All science is either physics or stamp collecting.'' (E. Rutherford)}
+}
 \frame{\frametitle{\textbf{I leave you with two quotes...}}
 \pause
 ``A poet once said, 'The whole universe is in a glass of wine.'...  [I]f we look at a glass of wine closely enough we see the entire universe. 
