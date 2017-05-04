@@ -6,6 +6,12 @@ use_math: true
 
 **Announcements**
 
+Upcoming clinic schedule:
+
+* Friday: Walter Freeman from 10AM-4PM, Ziqiu Chen (coach) from 10AM-12PM
+* Saturday: Ziqiu Chen from 3PM-6PM
+* Sunday: Ziqiu Chen from 2PM-5PM, Walter Freeman from 7PM-9PM
+
 <a href="final-practice-solutions.pdf">Previous final exam solutions</a>
 
 <a href="exam3-form1-solutions.pdf">Exam 3 form A solutions</a>
@@ -13,11 +19,6 @@ use_math: true
 <a href="exam3-form2-solutions.pdf">Exam 3 form A solutions</a>
 
 The extra credit assignment is available <a href="hw/xc.pdf">here</a>.
-
-Some deadlines I announced in class have been extended:
-
-* HW9 is due on the last day of class (Tuesday, May 2), to your TA's mailbox
-* The extra credit assignment is due Friday, May 5, to your TA's mailbox
 
 A previous final exam can be found <a href="final-practice.pdf">here</a>. 
 
