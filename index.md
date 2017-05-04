@@ -13,7 +13,7 @@ Some deadlines I announced in class have been extended:
 * HW9 is due on the last day of class (Tuesday, May 2), to your TA's mailbox
 * The extra credit assignment is due Friday, May 5, to your TA's mailbox
 
-In recitation this week you will have the option of earning up to ten points back per day on Exam 3.
+A previous final exam can be found <a href="final-practice.pdf">here</a>. I will post answer keys for the two forms of Exam 3 tomorrow.
 
 ---
 
