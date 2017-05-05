@@ -16,7 +16,7 @@ Upcoming clinic schedule:
 
 <a href="exam3-form1-solutions.pdf">Exam 3 form A solutions</a>
 
-<a href="exam3-form2-solutions.pdf">Exam 3 form A solutions</a>
+<a href="exam3-form2-solutions.pdf">Exam 3 form B solutions</a>
 
 The extra credit assignment is available <a href="hw/xc.pdf">here</a>.
 
