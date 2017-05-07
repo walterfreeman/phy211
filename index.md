@@ -18,6 +18,8 @@ Upcoming clinic schedule:
 
 <a href="exam3-form2-solutions.pdf">Exam 3 form B solutions</a>
 
+<a href="reference2-2017.pdf">Exam 2 practice test reference sheet</a> (by request)
+
 The extra credit assignment is available <a href="hw/xc.pdf">here</a>.
 
 A previous final exam can be found <a href="final-practice.pdf">here</a>. 
