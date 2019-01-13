@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Physics practice  
-category: top
 permalink: practice.html
 use_math: true
 ---

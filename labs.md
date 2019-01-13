@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Lab materials 
-category: top
 permalink: labs.html
 use_math: true
 ---
