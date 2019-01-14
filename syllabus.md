@@ -13,10 +13,18 @@ use_math: true
 * [Course philosophy](#philosophy)
 * [Learning objectives](#material)
 * [Activities](#activities)
-* [Homework](#homework)
+  * [Recitations](#homework)
+  * [Lectures](#lectures)
+  * [Quizzes](#quizzes)
+  * [Homework](#homework)
+  * [Labs](#labs)
 * [Grading](#grading)
-* [Course policies (students with disabilities, etc.)](#policy)
-
+  * [Exams](#exams)
+  * [Incompletes](#incompletes)
+* [Course policies](#policy)
+  * [Academic integrity](#integrity)
+  * [Students with disabilities](#disability)
+  * [Religious observances and excused absences](#excuses)
  <a id="contact"></a>
 
 ---
@@ -25,8 +33,8 @@ use_math: true
 
 -   Instructor: Dr. Walter Freeman, <wafreema@syr.edu>, Physics Building room 215
 -   Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium 
--   Help sessions: TBD 
--   Course website: http://walterfreeman.github.io/phy211/
+-   Help sessions: Friday 9:30-11:30 AM; others TBD; held in the Physics Clinic, Physics Building room 112
+-   Course website: <https://walterfreeman.github.io/phy211/>
 -   Recitation TA's:
 	- Ohana Benevides Rodrigues, <obenevide@syr.edu>, lead TA
 	- Merrill Asp, <masp01@syr.edu>
@@ -135,7 +143,7 @@ After taking this class, you will be able to:
 
 * Unit 1 (Kinematics):
   * Translate between verbal, graphical, algebraic, and numerical descriptions of an object's motion
-  * Given a description of an object's acceleration, create a description of its position and velocity, or vice versa
+  * Given a description of an object's acceleration, create a description of how its position and velocity change, or vice versa
   * Use vectors to describe motion in two and three dimensions, and use trigonometry to manipulate them
   * Incorporate physical units (meters, seconds, and so on) into algebraic and arithmetic statements
 
@@ -173,20 +181,19 @@ After taking this class, you will be able to:
 
 ### Course Activities 
 
-
+<a id="recitations"></a>
 #### Recitations
 
-Twice a week, you will have discussion sections led by one of your TA's, assisted by a few dozen students from previous years of Physics 211. These discussion sections are the most crucial 
-part of this class, since it's there that you will do the hard and crucial work of practicing the skills you learn. Physics takes practice. It's not something you learn from a lecture;
+Twice a week, you will have discussion sections led by one of your TA's, assisted by a few dozen students from previous years of Physics 211. *These discussion sections are the most crucial 
+part of this class*, since it's there that you will do the hard and crucial work of practicing the skills you learn. Physics takes practice. It's not something you only learn from a lecture;
 it's something you practice with a coach. In recitations, you'll practice your skills in groups of three -- learning from your peers, teaching them, and asking questions of the numerous
 guides that are there to help you.
 
 Recitation attendance and participation are graded. Before each in-class exam, you'll take a practice group exam in recitation with your group. These practice exams are graded as well.
-A further set of guidelines (incorporated into this syllabus) for recitation, and the homework you'll submit during them, are at <recitation/recitation-guidelines.html>.#### Readings
+A further set of guidelines (incorporated into this syllabus) for recitation, and the homework you'll submit during them, may be found at <a href="https://walterfreeman.github.io/phy211/recitation-guidelines.html">https://walterfreeman.github.io/phy211/recitation-guidelines.html</a>.
 
-It's important that you read the text in class to get a more in-depth perspective on the material. I encourage you to read the assigned sections on the [calendar](./calendar.html) ahead of time, as that way the presentation of the material in class will serve as reinforcement and enrichment rather than be the first time you see something. 
-
-#### Class Meetings
+<a id="lectures"></a>
+#### Lectures
 
 In the auditorium, we will alternate between presentation and practice. I will first introduce you to the new ideas we are studying, asking questions and getting your answers using colored cards. (These take the place of clickers.) If you have done the reading ahead of class, these presentations will serve as review and enrichment. Questions during the presentation are encouraged and welcome! I will also demonstrate for you the analytic processes involved in solving problems. I may also distribute short tutorials for you to work in class, or ask you to answer
 short questions on note cards and pass them in at the end of the class. 
@@ -194,11 +201,14 @@ short questions on note cards and pass them in at the end of the class.
 **At any time during class, feel free to interrupt me and ask questions**. If you do not understand something,
 ask. I don't care how many students are in the auditorium -- I almost certainly have time for your question.
 
+<a id="quizzes"></a>
 #### Quizzes
 
 We will have a few brief quizzes in class (probably eight during the semester) that may be done in either recitation or lecture. 
-These will also serve as a proxy for attendance if they are held during lecture.
+These will also serve as a proxy for attendance if they are held during lecture. There are no makeups for the quizzes, although 
+you may replace one quiz grade with the associated exam grade if your recitation participation average was satisfactory during that unit.
 
+<a id="homework"></a>
 #### Homework
 
 Homework in this class is designed as a tool to help you develop the problem-solving skills needed to understand physical situations on your own.
@@ -212,6 +222,7 @@ You must submit each problem on a separate side of a page; this is to help us gr
 
 Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. 
 
+<a id="labs"></a>
 #### Labs
 
 You are enrolled in a lab. It is a separate course. Do not ask me anything about the lab; I don't know anything
@@ -237,16 +248,15 @@ These help sessions are opportunities for you to interact with me and the rest o
 | Exam 3                       |    9 April                |              15  |
 | Final Exam                   |    6 May                  |              30  |
 | Attendance and participation |   Throughout the semester | 10               |
-| Group practice exams         |                           | 15               |
+| Group practice exams         | The Friday prior to each exam                          | 15               |
 | Paper on the nature of science | 29 April                | 15               |
 
-The lowest of your exam grades will be dropped, giving a total of 125 points. If your final exam grade is lower 
-than any of your three midterm exam grades, then the final exam will instead only count for 15 points.
+The lowest of your exam grades will be dropped. If your final exam grade is lower 
+than any of your three midterm exam grades, then the final exam will instead only count for 15 points. 
+Note however that students with an unusually low recitation participation grade for any given unit will not be eligible to drop the
+corresponding exam without prior permission, at our discretion. 
 
-Students with an unusually low recitation participation grade for any given unit will not be eligible to drop the
-corresponding exam without prior permission, at our discretion.
-
-This value will then be converted to a percentage (by dividing by 1.25), and grades will be assigned as follows:
+This will result in a total of 125 possible points. This value will then be converted to a percentage (by dividing by 1.25), and grades will be assigned as follows:
 
 - A : >88
 - A-: 80-88
@@ -259,12 +269,13 @@ This value will then be converted to a percentage (by dividing by 1.25), and gra
 - D : 50-55
 - F : less than 50
 
+<a id="exams"></a>
 #### Exams
 
 There will be three exams and a final on the dates shown on the course schedule. You may bring one side of 
 handwritten notes, a nonprogrammable calculator, and writing implements. (Calculators that graph functions
 or solve equations symbolically are not allowed.) 
-Students who do not speak English as their first language may bring a translation dictionary. **Cellphones,
+ **Cellphones,
 smartwatches, and the like may not be used during exams for any reason. Using these devices is presumptive 
 evidence of academic dishonesty. If, due to an emergency situation, you require an exception to this, notify
 me or a proctor before the exam starts.**
@@ -279,7 +290,11 @@ documentation. I may either:
 - replace your missed exam grade with your grade on the portion of the final corresponding to the same material
 - drop the grade for the missed exam
 
-**Incompletes:** A grade of "incomplete" may be given to any student who is unable to complete the course material by to the end of the semester due to
+<a id="incompletes"></a>
+
+#### Incompletes
+
+A grade of "incomplete" may be given to any student who is unable to complete the course material by to the end of the semester due to
 unavoidable problems outside his or her control. This is a "grade pending" status that allows you to finish up the course in the future and then
 receive a grade. In general, any student who is unable to meaningfully participate in class for a period of two weeks or more due to
 
@@ -295,16 +310,41 @@ In general, students may *only* take an incomplete if they have finished a subst
 <a id="policy"></a>
 
 ---
-
+<a id="integrity"></a>
 ### Academic integrity
 
 While you are encouraged to discuss your homework with your peers and collaborate with them on solving our problems, 
 all work you submit must reflect your own understanding and be a product of your own work. Submitting any work that you do not understand and cannot explain, or that
-is a result of wholesale copying, will be considered academic dishonesty. 
+is a result of wholesale copying, will be considered academic dishonesty. Please don't let this discourage you from working on your homework with your peers.
+That is exactly what you *should* do! But *copying someone's work* is different than *working together with them*. 
 
-Additionally, you are not allowed to post solutions to the homework to Chegg, CourseHero, or any other websites that charge students a fee or otherwise monetize access to that material.  
+Additionally, you are not allowed to post solutions to the homework on the Internet. In particular, posting solutions to Chegg, CourseHero, or any other websites that charge students a fee or otherwise monetize access to that material
+is an extremely serious breach of the Academic Integrity Policy and may result in your suspension or expulsion from SU.
 
-We reserve the right to seek a sanction of course failure for any violation of the Academic Integrity Policy. 
+We reserve the right to seek a sanction of course failure for any violation of the Academic Integrity Policy.
+
+*(The following is boilerplate from the University)*
+
+Syracuse University’s Academic Integrity Policy reflects the high value that we, as
+a university community, place on honesty in academic work. The policy defines
+our expectations for academic honesty and holds students accountable for the
+integrity of all work they submit. Students should understand that it is their
+responsibility to learn about course-specific expectations, as well as about
+university-wide academic integrity expectations. The policy governs appropriate
+citation and use of sources, the integrity of work submitted in exams and
+assignments, and the veracity of signatures on attendance sheets and other
+verification of participation in class activities. The policy also prohibits students
+from submitting the same work in more than one class without receiving written
+authorization in advance from both instructors. Under the policy, students found in
+violation are subject to grade sanctions determined by the course instructor and
+non-grade sanctions determined by the School or College where the course is
+offered as described in the Violation and Sanction Classification Rubric. SU
+students are required to read an online summary of the University’s academic
+integrity expectations and provide an electronic signature agreeing to abide by
+them twice a year during pre-term check-in on MySlice.
+
+
+<a id="disability"></a>
 
 ---
 
@@ -314,6 +354,8 @@ If you believe that you need accommodations for a disability, please contact the
 at <a href="http://disabilityservices.syr.edu">disabilityservices.syr.edu</a>, located in Room 309 of 8047 University Avenue, or call (315) 443-4498, TDD: (315) 443-1371 for an appointment to discuss your needs and the process for requesting accommodations. ODS is responsible for coordinating disability-related accommodations and will issue students with documented Disabilities Accommodation Authorization Letters, as appropriate. Since accommodations may require early planning and generally are not provided retroactively, please contact ODS as soon as possible.
 
 More generally, if there is anything I can do to help you, whether it is related to a disability, a medical condition, or anything else, please let me know. I have an excellent working relationship with ODS and will do anything in my power to make your experience in my class a good one.
+
+<a id="excuses"></a>
 
 ---
 
@@ -325,10 +367,9 @@ SU’s religious observances notification and policy, found at http://hendricks.
 
 *(The following is specific to Physics 211)*
 
-Events of equal solemnity to major religious observances, occurring on inflexible dates, will be given the same deference as religious observances. In particular, travel to Washington, DC, on the first weekend of class for the 
-purpose of participating in political activity will be given this deference.
-This includes weddings and commitment ceremonies of immediate family members, funerals, caregiving duties for sick family members, and the like. 
+Events of equal solemnity to major religious observances, occurring on inflexible dates, will be given the same deference as religious observances.
+This includes weddings and commitment ceremonies of immediate family members, funerals, caregiving duties for sick family members, and the like. Note that I consider romantic partners and exceptionally close friends to be family.
 
-As an example, attendance at political demonstrations occurring on inflexible dates, regardless of affiliation or cause, will also be treated as such an event.
+Note that attendance at political demonstrations occurring on inflexible dates or in response to ongoing events of significant gravity, regardless of affiliation or cause, will also be treated as such an event.
 
 If you need to miss class for such a reason, please notify Dr. Freeman as far in advance as practical to discuss arrangements.
