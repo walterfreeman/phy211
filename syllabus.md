@@ -159,15 +159,13 @@ After taking this class, you will be able to:
   * Use both $\vec F=m\vec a$ and $\tau = I \alpha$ in tandem to predict the motion of objects that both translate and rotate
 
 * Throughout (Process of Science)
-  
   * Describe the basics of scientific integrity and the properties of both honest scientific arguments and dishonest pseudoscientific claims
-  * Recognize (pseudo)scientific claims that are made in bad faith, and describe the problems with them
-  * Recognize sound and unsound scientific claims that reject preexisting consensus, and critically examine them. In particular:
+  * Critique (pseudo)scientific claims that are made in bad faith, and describe the problems with them
+  * Critically examine sound and unsound scientific claims that seek to overturn preexisting consensus. In particular:
     * Describe the primacy of empirical measurements in evaluating scientific claims
-    * Describe the need for consistency between claims and the broader laws of nature
-    * Recognize flawed arguments that ignore the empirical data supporting the opposing position
-    * Recognize flawed arguments that fail to acknowledge and address conflicts between their findings and physical laws
-    * Recognize flawed arguments that focus on the identities of the people involved, rather than their data and logic
+    * Critique flawed arguments that fail to address empirical data 
+    * Critique flawed arguments that fail to address the broader framework of physical laws of nature
+    * Critique flawed arguments that focus on the identities of the people involved, rather than their data and logic
   
 <a id="activities"></a>
 
