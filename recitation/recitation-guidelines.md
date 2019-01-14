@@ -1,8 +1,11 @@
 ---
 layout: page 
 permalink: recitation-guidelines.html
+title: Recitation Guidelines
 use_math: true
 ---
+
+(Modified from a document written originally by Julian Georg, a previous PHY211 TA. See, I cite my sources too!)
 
 ## General
 * In order for the recitation to be useful and effective, please come to recitation prepared.
@@ -13,8 +16,8 @@ will be working in groups, and if you have fallen too far behind you are hinderi
 both yourself and your groupmates.
 * To make the most of our time together in recitation, please ask any
 questions that you have regarding things covered in lecture, reading assignments,
-homework assignments, etc. Asking informed questions is essential to the goals we
-have set for you in this course; the ability to reason physically is a process of inquiry,
+homework assignments, etc. Asking informed questions is essential to succeeding in this course; t
+he ability to reason physically is a process of inquiry,
 and being able to ask good questions is, if anything, more important than knowing
 all of their answers.
 * Out of respect for your classmates and the course as a whole, students are expected
