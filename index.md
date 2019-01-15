@@ -7,7 +7,13 @@ title: Announcements
 
 Welcome to Physics 211!
 
-**Important note:** Recitations start *this week*. You should go to recitation tomorrow!
+**Important note:** Recitations start *this week*. You should go to recitation tomorrow! Labs start *next week*.
+
+Link to current lecture slides: <a href="Introduction">slides/lecture1.pdf</a>
+
+<a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel</a>
+
+
 
 ### Information
 
