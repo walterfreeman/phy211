@@ -41,9 +41,9 @@ Link to current lecture slides: <a href="slides/lecture1.pdf">Introduction</a>
 
 * Go to recitation Wednesday
   * Learn your TA's name and the names of your groupmates, and exchange contact information with them
-* Read the [syllabus.html](course syllabus), especially the section on [syllabus.html#philosophy](the course philosophy)
-* Check the exam dates on the [calendar.html](course calendar) and ensure you don't have any conflicts
-* Download a copy of the [https://openstax.org/details/books/university-physics-volume-1](textbook) (it's free and open-access as part of the OpenStax project)
+* Read the [course syllabus](syllabus.html), especially the section on [the course philosophy](syllabus.html#philosophy)
+* Check the exam dates on the [course calendar](calendar.html) and ensure you don't have any conflicts
+* Download a copy of the [textbook](https://openstax.org/details/books/university-physics-volume-1) (it's free and open-access as part of the OpenStax project)
 
 
 
