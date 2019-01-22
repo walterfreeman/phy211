@@ -7,9 +7,7 @@ title: Announcements
 
 Welcome to Physics 211!
 
-**Important note:** Recitations start *this week*. You should go to recitation tomorrow! Labs start *next week*.
-
-Link to current lecture slides: <a href="slides/lecture2.pdf">Introduction to kinematics</a>
+Link to current lecture slides: <a href="slides/lecture3.pdf">Solving problems: 1D kinematics</a>
 
 <a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
 
@@ -35,16 +33,7 @@ Link to current lecture slides: <a href="slides/lecture2.pdf">Introduction to ki
 ### Upcoming assignments:
 
 * <a href="hw/hw1.pdf">Homework 1</a>, due Friday, January 25, in recitation
-* <a href="https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/">Course survey</a>, due Friday, January 18, before end of day
-
-### Things you need to do before Thursday's class:
-
-* Go to recitation Wednesday
-  * Learn your TA's name and the names of your groupmates, and exchange contact information with them
-* Read the [course syllabus](syllabus.html), especially the section on [the course philosophy](syllabus.html#philosophy)
-* Check the exam dates on the [course calendar](calendar.html) and ensure you don't have any conflicts
-* Download a copy of the [textbook](https://openstax.org/details/books/university-physics-volume-1) (it's free and open-access as part of the OpenStax project)
-
+* <a href="https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/">Course survey</a>
 
 
 
