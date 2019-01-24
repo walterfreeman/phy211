@@ -7,9 +7,16 @@ title: Announcements
 
 Welcome to Physics 211!
 
-Link to current lecture slides: <a href="slides/lecture3.pdf">Solving problems: 1D kinematics</a>
+Link to current lecture slides: <a href="slides/lecture4.pdf">Vectors</a>
 
 <a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
+
+ 
+### Upcoming assignments:
+
+* <a href="hw/hw1.pdf">Homework 1</a>, due Friday, January 25, in recitation
+* HW2 will be posted shortly
+
 
 
 
@@ -29,13 +36,7 @@ Link to current lecture slides: <a href="slides/lecture3.pdf">Solving problems: 
         - Xuan Zheng, <xzhen101@syr.edu> 
    - **Undergraduate coaches:** Too many to list here :)
 - Help sessions / office hours: Friday 9:30-11:30 AM; others TBD; held in the Physics Clinic, Physics Building room 112
-   
-### Upcoming assignments:
-
-* <a href="hw/hw1.pdf">Homework 1</a>, due Friday, January 25, in recitation
-* <a href="https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/">Course survey</a>
-
-
+  
 
 ---
 
