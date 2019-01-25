@@ -1,0 +1,122 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\usepackage[left=2cm, right=2cm, top=1.5cm, bottom=1cm]{geometry}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\def\BS{\bigskip}
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Questions -- Snowball Fight}}
+\normalsize
+\centerline{\sc{30 January}}
+
+\medskip
+
+\centerline{\Large Question 1: a prankster}     
+
+A mischievous SUOC student has climbed on the roof of a snow-covered building and is trying to hit her friend with snowballs as he walks through the Quad. She throws them at an angle of $20^\circ$ above the horizontal at a speed of $v_0=5$ m/s. 
+The building has a height $h=6$ m.
+
+\begin{enumerate}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and
+labelling interesting things.
+
+\vspace{4in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, substituting in variables that you know.
+
+
+\newpage
+\item Write sentences in terms of your algebraic variables that allow you to answer the following. You  
+will need to incorporate vector language at times: for instance, you may need to use terms like ``the magnitude of the
+velocity vector'' (which will require you to solve for both $v_x$ and $v_y$.)
+
+\BI
+\item How much time does it take for the snowballs to hit the Quad?
+
+\vspace{1.5in}
+
+\item Where do the snowballs land on the Quad?
+
+\vspace{1.5in}
+\item How fast are the snowballs traveling when they hit the Quad?
+
+\vspace{1.5in}
+\item In what direction are they moving when they land on the Quad?
+\EI
+\end{enumerate}
+
+\newpage
+
+\centerline{\Large Question 2: retaliation!}     
+
+He decides to throw a snowball back at her. He's standing a distance $d$ from the side of the building, and 
+throws a snowball at an angle $\theta$ above the horizontal at a speed $v_0$. However, the snowball slips out of his hand when he throws it,
+and it doesn't go very fast -- instead of hitting her on top of the building, it hits the side of the building.
+
+\begin{enumerate}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and
+labelling interesting things.
+
+\vspace{3in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, substituting in variables that you know.
+
+\vspace{1.5in}
+
+\item Write a sentence in terms of your algebraic variables that will let you figure out how far above the ground 
+the snowball hits the side of the building.
+
+\newpage
+
+\item Based on your sentence, figure out how far above the ground the snowball hits the building. Your answer should be 
+in terms of $v_0$, $\theta$, $d$, and $g$.
+
+\vspace{3in}
+
+\item He doesn't give up, though, and throws another snowball at her -- again at an angle $\theta$ above the horizontal.
+He throws this one harder, and it hits her feet as she stands on the edge of the building. Write a sentence in terms of your algebraic variables that will let you figure out how fast he had to throw it. 
+
+\vspace{1.5in}
+
+\item Now, based on your previous sentence, figure out the initial speed of the second snowball he threw.
+
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,604 @@
+%!
+%%Creator: lantern:wfreeman(Walter,,,)
+%%Title: Unix plot file
+%%CreationDate: Sat Jan 19 14:00:38 2019
+%%DocumentFonts: Courier
+%%EndComments
+%%BoundingBox: 0 0 4096 4096
+% Start of psplot.pro -- prolog for plot(5) translator
+% Copyright (c) 1984,1985,1987 Adobe Systems Incorporated. All Rights Reserved. 
+%              RESTRICTED RIGHTS LEGEND
+% Use, duplication or disclosure by the Government is subject to
+% restrictions as set forth in subdivision (b)(3)(ii) of the Rights in
+% Technical Data and Computer Software Clause at 252.227-7013.
+% Name of Contractor: Adobe Systems Incorporated
+% Address:  1870 Embarcadero Road
+%	  Palo Alto, California  94303
+% RCS: $Header: psplot.pro,v 2.2 87/11/17 16:41:06 byron Rel $
+save 50 dict begin /psplot exch def
+/StartPSPlot
+   {newpath 0 0 moveto 8 setlinewidth 0 setgray 1 setlinecap
+    /imtx matrix currentmatrix def /dmtx matrix defaultmatrix def
+    /fnt /Courier findfont def /smtx matrix def fnt 8 scalefont setfont}def
+/solid {{}0}def
+/dotted	{[2 nail 3.5 nail ] 0}def
+/longdashed {[10 nail] 0}def
+/shortdashed {[6 nail] 0}def
+/dotdashed {[2 nail 6 nail 10 nail 6 nail] 0}def
+/disconnected {{}0}def
+/min {2 copy lt{pop}{exch pop}ifelse}def
+/max {2 copy lt{exch pop}{pop}ifelse}def
+/len {dup mul exch dup mul add sqrt}def
+/nail {0 imtx dtransform len 0 idtransform len}def
+
+/m {newpath moveto}def
+/n {lineto currentpoint stroke moveto}def
+/p {newpath moveto gsave 1 setlinecap solid setdash
+    dmtx setmatrix .4 nail setlinewidth
+    .05 0 idtransform rlineto stroke grestore}def
+/l {moveto lineto currentpoint stroke moveto}def
+/t {smtx currentmatrix pop imtx setmatrix show smtx setmatrix}def
+/a {gsave newpath /y2 exch def /x2 exch def 
+    /y1 exch def /x1 exch def /yc exch def /xc exch def
+    /r x1 xc sub dup mul y1 yc sub dup mul add sqrt
+       x2 xc sub dup mul y2 yc sub dup mul add sqrt add 2 div def
+    /ang1 y1 yc sub x1 xc sub atan def
+    /ang2 y2 yc sub x2 xc sub atan def
+    xc yc r ang1 ang2 arc stroke grestore}def
+/c {gsave newpath 0 360 arc stroke grestore}def
+/e {gsave showpage grestore newpath 0 0 moveto}def
+/f {load exec setdash}def
+/s {/ury exch def /urx exch def /lly exch def /llx exch def
+    imtx setmatrix newpath clippath pathbbox newpath
+    /dury exch def /durx exch def /dlly exch def /dllx exch def
+    /md durx dllx sub dury dlly sub min def
+    /Mu urx llx sub ury lly sub max def
+    36 144 translate .8 .8 scale
+    dllx dlly translate md Mu div dup scale llx neg lly neg translate}def
+/EndPSPlot {clear psplot end restore}def
+StartPSPlot
+%%EndProlog
+%%Page: 1 1
+0 0 4096 4096 s
+/solid f
+650 600 m
+3605 600 n
+3605 1309 n
+650 1309 n
+650 600 n
+3723 955 m
+3692 964 m
+3692 959 n
+3687 959 n
+3687 964 n
+3692 968 n
+3701 973 n
+3719 973 n
+3727 968 n
+3732 964 n
+3736 955 n
+3736 924 n
+3741 915 n
+3745 910 n
+3732 964 m
+3732 924 n
+3736 915 n
+3745 910 n
+3750 910 n
+3732 955 m
+3727 951 n
+3701 946 n
+3687 942 n
+3683 933 n
+3683 924 n
+3687 915 n
+3701 910 n
+3714 910 n
+3723 915 n
+3732 924 n
+3701 946 m
+3692 942 n
+3687 933 n
+3687 924 n
+3692 915 n
+3701 910 n
+3813 955 m
+3777 964 m
+3858 964 n
+3777 937 m
+3858 937 n
+3930 955 m
+3916 1004 m
+3903 1000 n
+3894 986 n
+3889 964 n
+3889 951 n
+3894 928 n
+3903 915 n
+3916 910 n
+3925 910 n
+3939 915 n
+3948 928 n
+3952 951 n
+3952 964 n
+3948 986 n
+3939 1000 n
+3925 1004 n
+3916 1004 n
+3916 1004 m
+3907 1000 n
+3903 995 n
+3898 986 n
+3894 964 n
+3894 951 n
+3898 928 n
+3903 919 n
+3907 915 n
+3916 910 n
+3925 910 m
+3934 915 n
+3939 919 n
+3943 928 n
+3948 951 n
+3948 964 n
+3943 986 n
+3939 995 n
+3934 1000 n
+3925 1004 n
+3723 955 m
+1123 1366 m
+1107 1392 m
+1107 1342 n
+1109 1392 m
+1109 1342 n
+1099 1392 m
+1127 1392 n
+1135 1390 n
+1137 1387 n
+1139 1382 n
+1139 1378 n
+1137 1373 n
+1135 1370 n
+1127 1368 n
+1127 1392 m
+1132 1390 n
+1135 1387 n
+1137 1382 n
+1137 1378 n
+1135 1373 n
+1132 1370 n
+1127 1368 n
+1109 1368 m
+1127 1368 n
+1135 1366 n
+1137 1364 n
+1139 1359 n
+1139 1352 n
+1137 1347 n
+1135 1345 n
+1127 1342 n
+1099 1342 n
+1127 1368 m
+1132 1366 n
+1135 1364 n
+1137 1359 n
+1137 1352 n
+1135 1347 n
+1132 1345 n
+1127 1342 n
+1175 1366 m
+1159 1375 m
+1159 1350 n
+1161 1345 n
+1168 1342 n
+1173 1342 n
+1180 1345 n
+1185 1350 n
+1161 1375 m
+1161 1350 n
+1163 1345 n
+1168 1342 n
+1185 1375 m
+1185 1342 n
+1187 1375 m
+1187 1342 n
+1151 1375 m
+1161 1375 n
+1178 1375 m
+1187 1375 n
+1185 1342 m
+1195 1342 n
+1228 1366 m
+1211 1375 m
+1211 1342 n
+1214 1375 m
+1214 1342 n
+1214 1362 m
+1216 1368 n
+1221 1373 n
+1226 1375 n
+1233 1375 n
+1235 1373 n
+1235 1370 n
+1233 1368 n
+1231 1370 n
+1233 1373 n
+1204 1375 m
+1214 1375 n
+1204 1342 m
+1221 1342 n
+1269 1366 m
+1252 1375 m
+1252 1342 n
+1255 1375 m
+1255 1342 n
+1255 1368 m
+1259 1373 n
+1267 1375 n
+1271 1375 n
+1279 1373 n
+1281 1368 n
+1281 1342 n
+1271 1375 m
+1276 1373 n
+1279 1368 n
+1279 1342 n
+1245 1375 m
+1255 1375 n
+1245 1342 m
+1262 1342 n
+1271 1342 m
+1288 1342 n
+1322 1366 m
+1315 1375 m
+1307 1373 n
+1303 1368 n
+1300 1362 n
+1300 1357 n
+1303 1350 n
+1307 1345 n
+1315 1342 n
+1319 1342 n
+1327 1345 n
+1331 1350 n
+1334 1357 n
+1334 1362 n
+1331 1368 n
+1327 1373 n
+1319 1375 n
+1315 1375 n
+1315 1375 m
+1310 1373 n
+1305 1368 n
+1303 1362 n
+1303 1357 n
+1305 1350 n
+1310 1345 n
+1315 1342 n
+1319 1342 m
+1324 1345 n
+1329 1350 n
+1331 1357 n
+1331 1362 n
+1329 1368 n
+1324 1373 n
+1319 1375 n
+1370 1366 m
+1353 1375 m
+1353 1350 n
+1355 1345 n
+1363 1342 n
+1367 1342 n
+1375 1345 n
+1379 1350 n
+1355 1375 m
+1355 1350 n
+1358 1345 n
+1363 1342 n
+1379 1375 m
+1379 1342 n
+1382 1375 m
+1382 1342 n
+1346 1375 m
+1355 1375 n
+1372 1375 m
+1382 1375 n
+1379 1342 m
+1389 1342 n
+1423 1366 m
+1406 1392 m
+1406 1352 n
+1408 1345 n
+1413 1342 n
+1418 1342 n
+1423 1345 n
+1425 1350 n
+1408 1392 m
+1408 1352 n
+1411 1345 n
+1413 1342 n
+1399 1375 m
+1418 1375 n
+1123 1366 m
+/dotted f
+1241 600 m
+1241 1309 n
+650 955 m
+3605 955 n
+/solid f
+515 646 m
+590 621 n
+515 646 m
+590 671 n
+526 646 m
+590 667 n
+568 628 m
+568 660 n
+590 614 m
+590 635 n
+590 656 m
+590 678 n
+554 725 m
+551 735 m
+554 732 n
+557 735 n
+554 739 n
+551 739 n
+544 732 n
+540 725 n
+540 714 n
+544 703 n
+551 696 n
+561 692 n
+568 692 n
+579 696 n
+586 703 n
+590 714 n
+590 721 n
+586 732 n
+579 739 n
+540 714 m
+544 707 n
+551 699 n
+561 696 n
+568 696 n
+579 699 n
+586 707 n
+590 714 n
+554 793 m
+551 804 m
+554 800 n
+557 804 n
+554 807 n
+551 807 n
+544 800 n
+540 793 n
+540 782 n
+544 771 n
+551 764 n
+561 761 n
+568 761 n
+579 764 n
+586 771 n
+590 782 n
+590 789 n
+586 800 n
+579 807 n
+540 782 m
+544 775 n
+551 768 n
+561 764 n
+568 764 n
+579 768 n
+586 775 n
+590 782 n
+554 861 m
+561 833 m
+561 876 n
+554 876 n
+547 872 n
+544 869 n
+540 861 n
+540 851 n
+544 840 n
+551 833 n
+561 829 n
+568 829 n
+579 833 n
+586 840 n
+590 851 n
+590 858 n
+586 869 n
+579 876 n
+561 872 m
+551 872 n
+544 869 n
+540 851 m
+544 843 n
+551 836 n
+561 833 n
+568 833 n
+579 836 n
+586 843 n
+590 851 n
+554 930 m
+515 905 m
+590 905 n
+515 908 m
+590 908 n
+515 894 m
+515 908 n
+590 894 m
+590 919 n
+554 969 m
+561 941 m
+561 984 n
+554 984 n
+547 980 n
+544 977 n
+540 969 n
+540 959 n
+544 948 n
+551 941 n
+561 937 n
+568 937 n
+579 941 n
+586 948 n
+590 959 n
+590 966 n
+586 977 n
+579 984 n
+561 980 m
+551 980 n
+544 977 n
+540 959 m
+544 951 n
+551 944 n
+561 941 n
+568 941 n
+579 944 n
+586 951 n
+590 959 n
+554 1038 m
+540 1013 m
+590 1013 n
+540 1016 m
+590 1016 n
+561 1016 m
+551 1020 n
+544 1027 n
+540 1034 n
+540 1045 n
+544 1049 n
+547 1049 n
+551 1045 n
+547 1041 n
+544 1045 n
+540 1002 m
+540 1016 n
+590 1002 m
+590 1027 n
+554 1099 m
+547 1074 m
+551 1074 n
+551 1070 n
+547 1070 n
+544 1074 n
+540 1081 n
+540 1095 n
+544 1103 n
+547 1106 n
+554 1110 n
+579 1110 n
+586 1113 n
+590 1117 n
+547 1106 m
+579 1106 n
+586 1110 n
+590 1117 n
+590 1121 n
+554 1106 m
+557 1103 n
+561 1081 n
+564 1070 n
+572 1067 n
+579 1067 n
+586 1070 n
+590 1081 n
+590 1092 n
+586 1099 n
+579 1106 n
+561 1081 m
+564 1074 n
+572 1070 n
+579 1070 n
+586 1074 n
+590 1081 n
+554 1171 m
+515 1146 m
+575 1146 n
+586 1149 n
+590 1157 n
+590 1164 n
+586 1171 n
+579 1175 n
+515 1149 m
+575 1149 n
+586 1153 n
+590 1157 n
+540 1135 m
+540 1164 n
+554 1225 m
+515 1200 m
+518 1196 n
+522 1200 n
+518 1203 n
+515 1200 n
+540 1200 m
+590 1200 n
+540 1203 m
+590 1203 n
+540 1189 m
+540 1203 n
+590 1189 m
+590 1214 n
+554 1265 m
+540 1254 m
+544 1243 n
+551 1236 n
+561 1232 n
+568 1232 n
+579 1236 n
+586 1243 n
+590 1254 n
+590 1261 n
+586 1272 n
+579 1279 n
+568 1283 n
+561 1283 n
+551 1279 n
+544 1272 n
+540 1261 n
+540 1254 n
+540 1254 m
+544 1247 n
+551 1239 n
+561 1236 n
+568 1236 n
+579 1239 n
+586 1247 n
+590 1254 n
+590 1261 m
+586 1268 n
+579 1275 n
+568 1279 n
+561 1279 n
+551 1275 n
+544 1268 n
+540 1261 n
+554 1337 m
+540 1311 m
+590 1311 n
+540 1315 m
+590 1315 n
+551 1315 m
+544 1322 n
+540 1333 n
+540 1340 n
+544 1351 n
+551 1355 n
+590 1355 n
+540 1340 m
+544 1347 n
+551 1351 n
+590 1351 n
+540 1301 m
+540 1315 n
+590 1301 m
+590 1326 n
+590 1340 m
+590 1365 n
+1 1 m
+e
+%%Trailer
+EndPSPlot
