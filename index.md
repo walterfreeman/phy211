@@ -5,13 +5,15 @@ use_math: true
 title: Announcements
 ---
 
-Welcome to Physics 211!
-
 Link to current lecture slides: <a href="slides/lecture3.pdf">Solving problems: 1D kinematics</a>
 
 <a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
 
+**Note for Exam 1:** I have relaxed the rules about which calculators you can use for your exams, since most of you only seem to have
+graphing calculators. You may use graphing calculators, but still may *not* use calculators that perform symbolic 
+manipulation, such as TI-Nspire.
 
+You may prepare one page of notes for your exam (but not your group exam). This means you may write anything you like on a single side of an 8.5x11" piece of paper, so long as you have **written it yourself using a pencil or pen**.
 
 ### Information
 
@@ -33,7 +35,7 @@ Link to current lecture slides: <a href="slides/lecture3.pdf">Solving problems: 
 ### Upcoming assignments:
 
 * <a href="hw/hw1.pdf">Homework 1</a>, due Friday, January 25, in recitation
-* <a href="https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/">Course survey</a>
+* <a href="hw/hw2.pdf">Homework 2</a>, due Friday, February 1, in recitation
 
 
 

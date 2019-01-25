@@ -12,8 +12,11 @@ use_math: true
 <a href="recitation/rec1.pdf">Week 1 Wednesday: Fermi problems</a><br>
 <a href="recitation/recitation-1D-motion-1.pdf">Week 1 Friday: 1D motion, part 1</a><br><br>
 
-<a href="recitation/recitation-1D-motion-2.pdf">Week 2 Wednesday</a><br>
-<a href="recitation/worksheet-recitation4.pdf">Week 2 Friday</a><br><br>
+<a href="recitation/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a><br>
+<a href="recitation/worksheet-recitation4.pdf">Week 2 Friday: Vectors</a><br><br>
+
+<a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: 2D motion</a><br><br>
+
 <!--
 
 <a href="recitation/rec5.pdf">Week 3 Wednesday</a><br><br>
