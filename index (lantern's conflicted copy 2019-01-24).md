@@ -5,24 +5,20 @@ use_math: true
 title: Announcements
 ---
 
+Welcome to Physics 211!
+
+Link to current lecture slides: <a href="slides/lecture4.pdf">Vectors</a>
+
 <a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
 
-**Note for Exam 1:** I have relaxed the rules about which calculators you can use for your exams, since most of you only seem to have
-graphing calculators. You may use graphing calculators, but still may *not* use calculators that perform symbolic 
-manipulation, such as TI-Nspire.
-
-You may prepare one page of notes for your exam (but not your group exam). This means you may write anything you like on a single side of an 8.5x11" piece of paper, so long as you have **written it yourself using a pencil or pen**.
-
-### Current lecture slides
-
-<a href="slides/lecture5.pdf">Solving problems involving 2D kinematics</a>
-
+ 
 ### Upcoming assignments:
 
 * <a href="hw/hw1.pdf">Homework 1</a>, due Friday, January 25, in recitation
-* <a href="hw/hw2.pdf">Homework 2</a>, due Friday, February 1, in recitation
+* HW2 will be posted shortly
 
- 
+
+
 
 ### Information
 
@@ -39,8 +35,9 @@ You may prepare one page of notes for your exam (but not your group exam). This 
         - Emily Syracuse, <ecsyracu@syr.edu> 
         - Xuan Zheng, <xzhen101@syr.edu> 
    - **Undergraduate coaches:** Too many to list here :)
-- Help sessions / office hours for the week of 28 January: 3:30-5:30 Wednesday, 1:45-3:45 Thursday, held in the Physics Clinic, Physics Building room 112
-   
+- Help sessions / office hours: Friday 9:30-11:30 AM; others TBD; held in the Physics Clinic, Physics Building room 112
+  
+
 ---
 
 <br>
