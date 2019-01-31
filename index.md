@@ -9,13 +9,13 @@ title: Announcements
 
 **Note for Exam 1:** I have relaxed the rules about which calculators you can use for your exams, since most of you only seem to have
 graphing calculators. You may use graphing calculators, but still may *not* use calculators that perform symbolic 
-manipulation, such as TI-Nspire.
+manipulation, such as TI-Nspire CAS. (TI-Nspire CX is fine.)
 
 You may prepare one page of notes for your exam (but not your group exam). This means you may write anything you like on a single side of an 8.5x11" piece of paper, so long as you have **written it yourself using a pencil or pen**.
 
 ### Current lecture slides
 
-<a href="slides/lecture5.pdf">Solving problems involving 2D kinematics</a>
+<a href="slides/lecture6.pdf">Solving problems involving 2D kinematics; Exam 1 review</a>
 
 ### Upcoming assignments:
 
