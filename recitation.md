@@ -17,6 +17,8 @@ use_math: true
 
 <a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: 2D motion</a><br><br>
 
+<a href="recitation/recitation-forces.pdf">Week 4 Friday: Newton's Law and Force Diagrams</a><br><br>
+
 <!--
 
 <a href="recitation/rec5.pdf">Week 3 Wednesday</a><br><br>
