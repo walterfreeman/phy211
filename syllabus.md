@@ -39,7 +39,7 @@ use_math: true
 	- Ohana Benevides Rodrigues, <obenevide@syr.edu>, lead TA
 	- Merrill Asp, <masp01@syr.edu>
 	- Bradley Cole, <bgcole@syr.edu>
-	- Julia Gianni, <jagianni@syr.edu>
+	- Julia Giannini, <jagianni@syr.edu>
 	- Alexander Hartwell, <arhartwe@syr.edu>
 	- Kesavan Manivannan, <kmanivan@syr.edu>
 	- Emily Syracuse, <ecsyracu@syr.edu>
