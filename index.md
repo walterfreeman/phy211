@@ -13,6 +13,11 @@ manipulation, such as TI-Nspire CAS. (TI-Nspire CX is fine.)
 
 You may prepare one page of notes for your exam (but not your group exam). This means you may write anything you like on a single side of an 8.5x11" piece of paper, so long as you have **written it yourself using a pencil or pen**.
 
+### Practice Exam 1
+
+Available as a <a href="practice-exam-1-all.pdf">PDF</a>. I'll post the solutions Sunday.
+
+
 ### Current lecture slides
 
 <a href="slides/lecture6.pdf">Solving problems involving 2D kinematics; Exam 1 review</a>
