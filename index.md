@@ -15,7 +15,7 @@ You may prepare one page of notes for your exam (but not your group exam). This 
 
 ### Practice Exam 1
 
-Available as a <a href="practice-exam-1-all.pdf">PDF</a>. I'll post the solutions Sunday.
+Available as a <a href="practice-exam-1-all.pdf">PDF</a>; here are the <a href="practice-exam-1-solutions.pdf">solutions</a>.
 
 
 ### Current lecture slides
