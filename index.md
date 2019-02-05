@@ -34,7 +34,7 @@ Available as a <a href="practice-exam-1-all.pdf">PDF</a>; here are the <a href="
 - Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium
 - Teaching staff:
    - **Professor**: Dr. Walter Freeman, <wafreema@syr.edu>, Physics Building room 215
-   - **Lead TA**: Ohana Benevides Rodrigues, <obenevide@syr.edu>
+   - **Lead TA**: Ohana Benevides Rodrigues, <obenevid@syr.edu>
    - **Recitation TA's:**
         - Merrill Asp, <masp01@syr.edu> 
         - Bradley Cole, <bgcole@syr.edu> 
