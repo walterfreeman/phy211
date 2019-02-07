@@ -7,20 +7,11 @@ title: Announcements
 
 <a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
 
-**Note for Exam 1:** I have relaxed the rules about which calculators you can use for your exams, since most of you only seem to have
-graphing calculators. You may use graphing calculators, but still may *not* use calculators that perform symbolic 
-manipulation, such as TI-Nspire CAS. (TI-Nspire CX is fine.)
-
-You may prepare one page of notes for your exam (but not your group exam). This means you may write anything you like on a single side of an 8.5x11" piece of paper, so long as you have **written it yourself using a pencil or pen**.
-
-### Practice Exam 1
-
-Available as a <a href="practice-exam-1-all.pdf">PDF</a>; here are the <a href="practice-exam-1-solutions.pdf">solutions</a>.
 
 
 ### Current lecture slides
 
-<a href="slides/lecture6.pdf">Solving problems involving 2D kinematics; Exam 1 review</a>
+<a href="slides/lecture7.pdf">Forces</a>
 
 ### Upcoming assignments:
 
