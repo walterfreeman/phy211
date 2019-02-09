@@ -1,0 +1,132 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{15 February}}
+
+Two very small cats, Fifi and Tali, are sitting on a smooth table when the table begins to tip. Fifi has a mass of $m_f = $ and Tali has a mass of $m_t$.\footnote{This problem was inspired by the joke: ``Q: Two kittens are sitting on a roof. Which one slides off first? A: The one with the smallest mew.''}
+
+\begin{minipage}{0.6\textwidth}
+The coefficients of friction between the kitties and the table are the following (Tali is slightly fuzzier):
+\end{minipage}\hspace{0.1\textwidth}
+\begin{minipage}{0.3\textwidth}
+\begin{tabular}{|l|l|l|}
+\hline
+        & Fifi & Tali \\ \hline
+$\mu_k$ & 0.4  & 0.3  \\ \hline
+$\mu_s$ & 0.5  & 0.4  \\ \hline
+\end{tabular}
+\end{minipage}
+
+As the angle $\theta$ between the table and the horizontal becomes larger and larger, eventually the cats will slide off the 
+table.\footnote{They will land on their feet, since they are graceful cats. Their brother Pierre is a klutz and would land on his head, which is why we're not using him for this problem. But he's cute.}
+
+Remember two things about friction for this problem:
+
+\begin{enumerate}
+\item If two things are {\it already sliding} past one another, the force of kinetic friction between them is equal to $\mu_k F_N$ in whatever direction opposes that motion;
+\item If two things are {\it not sliding}, the force of static friction is {\it however big it needs to be} in order to stop
+them from sliding, up to a {\it maximum} of $\mu_s F_N$.
+\end{enumerate}
+
+a) Draw a cartoon of the problem, and choose a coordinate system. Recall what you learned last recitation about choosing
+coordinate systems that make your life easy.
+
+\vspace{2in}
+\newpage
+
+b) Draw a force diagram for the cat. Make it nice and large, since you'll need to do trigonometry to decompose the 
+weight force into components.
+
+\vspace{3in}
+
+
+c) Decompose the weight force into components. Do this as always: draw a right triangle with the weight force as its 
+hypotenuse, and with its legs aligned with your coordinate system. Then, figure out which angle in the right triangle
+is the same as $\theta$. (Do this on your diagram above.)
+
+d) Write down Newton's second law $\sum F = ma$ in both $x-$ and $y-$directions. 
+
+\vspace{2in}
+
+e) Right before the cat begins to slide off the table, what is true about the frictional force on them? Use this 
+mathematical condition to solve for the angle $\theta$ at which each cat begins to slip off the table.
+
+\vspace{2in}
+
+f) Right after Fifi begins to slide, what will her acceleration be? What will Tali's be?
+
+\vspace{2in}
+
+g) On one set of axes, sketch a graph of the frictional force on Tali vs. tilt angle of the table.
+
+
+\newpage
+
+
+Rum\footnote{Pronounced ``room''. He's adorable.}, Ohana's larger dog, is harnessed to a sled carrying Quanta, her smaller 
+dog.\footnote{She's also adorable.} 
+
+Rum has mass $m_R$ and coefficient of static friction $\mu_s$; Quanta and her sled have mass $m_Q$ and coefficient of kinetic friction $\mu_k$. (Remember that traction is just a special kind of static friction, and so the maximum traction force that Rum can exert is also equal to $\mu_s F_N$.)
+
+Rum is trying to pull Quanta and her sled up a hill sloping up at an angle $\theta$ at a constant speed. In this problem, you'll solve for the
+steepest hill that they can climb.
+
+a) Draw a cartoon of the problem, and choose a coordinate system. 
+
+\vspace{2in}
+
+b) Draw a force diagram for each dog. 
+
+\vspace{3in}
+\newpage
+c) Write down Newton's second law in both directions -- that is, $\sum F_x = ma_x$ and $\sum F_y = ma_y$ -- 
+in both directions.
+
+\vspace{2in}
+d) This will result in four equations. Plug in things that you know. (What do you know about their accelerations?) This will result in four equations with 
+four unknowns. What is true about the traction force on Rum when he's climbing the steepest hill that he can?
+Underneath each equation, identify the physical meaning of each term (i.e. ``component of Quanta's weight parallel to the slope''). 
+
+\vspace{3.5in}
+
+e) Discuss how you'd do the algebra to solve these equations; if you have time, work on doing so.
+
+\end{document}

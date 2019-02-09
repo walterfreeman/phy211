@@ -15,8 +15,7 @@ title: Announcements
 
 ### Upcoming assignments:
 
-* <a href="hw/hw1.pdf">Homework 1</a>, due Friday, January 25, in recitation
-* <a href="hw/hw2.pdf">Homework 2</a>, due Friday, February 1, in recitation
+* <a href="hw/hw3.pdf">Homework 3</a>, due Friday, February 11, in recitation
 
  
 
