@@ -19,6 +19,9 @@ use_math: true
 
 <a href="recitation/recitation-forces.pdf">Week 4 Friday: Newton's Law and Force Diagrams</a><br><br>
 
+<a href="recitation/recitation-2019-forces3.pdf">Week 5 Wednesday: Solving problems with Newton's law</a><br>
+<a href="recitation/recitation-2019-forces4.pdf">Week 5 Friday: Dealing with friction</a><br>
+
 <!--
 
 <a href="recitation/rec5.pdf">Week 3 Wednesday</a><br><br>
