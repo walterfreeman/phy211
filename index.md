@@ -11,7 +11,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture7.pdf">Forces</a>
+<a href="slides/lecture8.pdf">Forces, problem-solving techniques</a>
 
 ### Upcoming assignments:
 
