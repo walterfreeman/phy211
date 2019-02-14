@@ -11,11 +11,16 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture8.pdf">Forces, problem-solving techniques</a>
+<a href="slides/lecture9.pdf">Friction; practice problems</a>
 
 ### Upcoming assignments:
 
-* <a href="hw/hw3.pdf">Homework 3</a>, due Friday, February 11, in recitation
+* <a href="hw/hw3.pdf">Homework 3</a>, **extended to Monday, February 14, at 5 PM, to your TA's mailbox**
+
+### Upcoming office hours:
+
+* Thursday, February 14, 1:45-3:45
+* Friday, February 15, 10:30-1:00 and 3:30-5:00
 
  
 
