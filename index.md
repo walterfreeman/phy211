@@ -11,16 +11,18 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture9.pdf">Friction; practice problems</a>
+<a href="slides/lecture10.pdf">Things moving in circles</a>
 
 ### Upcoming assignments:
 
 * <a href="hw/hw3.pdf">Homework 3</a>, **extended to Monday, February 14, at 5 PM, to your TA's mailbox**
+* <a href="hw/hw4.pdf">Homework 4</a>, posted Tuesday afternoon once I finish writing it 
 
 ### Upcoming office hours:
 
-* Thursday, February 14, 1:45-3:45
-* Friday, February 15, 10:30-1:00 and 3:30-5:00
+* Friday, February 22, 11AM-1PM
+* Monday, February 25, 1-3 PM
+* Tuesday, February 26, 3-5 PM
 
  
 

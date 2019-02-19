@@ -20,8 +20,9 @@ use_math: true
 <a href="recitation/recitation-forces.pdf">Week 4 Friday: Newton's Law and Force Diagrams</a><br><br>
 
 <a href="recitation/recitation-2019-forces2.pdf">Week 5 Wednesday: Solving problems with Newton's law</a><br>
-<a href="recitation/recitation-2019-forces3.pdf">Week 5 Friday: Dealing with friction</a><br>
+<a href="recitation/recitation-2019-forces3.pdf">Week 5 Friday: Dealing with friction</a><br><br>
 
+<a href="recitation/recitation-circles.pdf">Week 6: circular motion</a><br><br>
 <!--
 
 <a href="recitation/rec5.pdf">Week 3 Wednesday</a><br><br>
@@ -29,7 +30,6 @@ use_math: true
 <a href="recitation/recitation-forces1.pdf">Week 4 Wednesday</a><br>
 <a href="recitation/recitation-forces2.pdf">Week 4 Friday</a><br><br>
 
-<a href="recitation/recitation-circles.pdf">Week 5</a><br><br>
 
 <a href="recitation/recitation-momentum.pdf">Week 6 Wednesday</a><br><br>
 
