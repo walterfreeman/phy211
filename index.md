@@ -16,7 +16,7 @@ title: Announcements
 ### Upcoming assignments:
 
 * <a href="hw/hw3.pdf">Homework 3</a>, **extended to Monday, February 14, at 5 PM, to your TA's mailbox**
-* <a href="hw/hw4.pdf">Homework 4</a>, posted Tuesday afternoon once I finish writing it 
+* <a href="hw/hw4.pdf">Homework 4</a>, due Wednesday, February 23, in recitation 
 
 ### Upcoming office hours:
 
