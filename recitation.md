@@ -23,22 +23,5 @@ use_math: true
 <a href="recitation/recitation-2019-forces3.pdf">Week 5 Friday: Dealing with friction</a><br><br>
 
 <a href="recitation/recitation-circles.pdf">Week 6: circular motion</a><br><br>
-<!--
-
-<a href="recitation/rec5.pdf">Week 3 Wednesday</a><br><br>
-
-<a href="recitation/recitation-forces1.pdf">Week 4 Wednesday</a><br>
-<a href="recitation/recitation-forces2.pdf">Week 4 Friday</a><br><br>
 
 
-<a href="recitation/recitation-momentum.pdf">Week 6 Wednesday</a><br><br>
-
-<a href="recitation/recitation-energy-wed.pdf">Week 7 Wednesday</a><br>
-<a href="recitation/recitation-energy-fri.pdf">Week 7 Friday</a><br><br>
-
-<a href="recitation/recitation-energy-torque-1.pdf">Week 8 Wednesday</a><br>
-<a href="recitation/recitation-energy-torque-2.pdf">Week 8 Friday</a><br><br>
-
-<a href="recitation/recitation-torque2-wed.pdf">Week 9 Wednesday</a><br>
-<a href="recitation/recitation-torque2-fri.pdf">Week 9 Friday</a><br>
--->
