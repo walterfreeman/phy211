@@ -11,7 +11,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture10.pdf">Things moving in circles</a>
+<a href="slides/lecture11.pdf">Review; gravity</a>
 
 ### Upcoming assignments:
 
