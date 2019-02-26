@@ -11,18 +11,20 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture11.pdf">Review; gravity</a>
+<a href="slides/lecture12.pdf">From mechanics to principles of science</a>
+
+<iframe src="https://trinket.io/embed/glowscript/5e8ab7a508" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Upcoming assignments:
 
-* <a href="hw/hw3.pdf">Homework 3</a>, **extended to Monday, February 14, at 5 PM, to your TA's mailbox**
 * <a href="hw/hw4.pdf">Homework 4</a>, due Wednesday, February 27, in recitation 
+* Homework 5 posted soon
 
 ### Upcoming office hours:
 
-* Friday, February 22, 11AM-1PM
-* Monday, February 25, 1-3 PM
-* Tuesday, February 26, 3-5 PM
+* Friday, March 1, 11AM-1PM
+* Monday, March 4, 1-3 PM
+* Tuesday, March 5, 3-5 PM
 
  
 
