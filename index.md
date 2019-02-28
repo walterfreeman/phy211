@@ -11,13 +11,12 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture12.pdf">From mechanics to principles of science</a>
+<a href="slides/lecture13.pdf">Practice problems</a>
 
 <iframe src="https://trinket.io/embed/glowscript/5e8ab7a508" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Upcoming assignments:
 
-* <a href="hw/hw4.pdf">Homework 4</a>, due Wednesday, February 27, in recitation 
 * <a href="hw/homework5.pdf">Homework 5</a>, due Wednesday, March 6, in recitation 
 
 ### Upcoming office hours:
