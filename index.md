@@ -8,6 +8,11 @@ title: Announcements
 <a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
 
 
+### Exam 2 preparation
+
+Here is the <a href="practice-exam-2.pdf">practice exam</a>.
+
+There is a review from 11-5 Saturday in the Physics Clinic (led by coaches) and from 1-4 Sunday in the auditorium (led by Walter).
 
 ### Current lecture slides
 
