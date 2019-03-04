@@ -10,15 +10,13 @@ title: Announcements
 
 ### Exam 2 preparation
 
-Here is the <a href="practice-exam-2.pdf">practice exam</a>.
+Here is the <a href="practice-exam-2.pdf">practice exam</a> and its <a href="practice-exam-2-solutions.pdf">solutions</a>.
 
 There is a review from 11-5 Saturday in the Physics Clinic (led by coaches) and from 1-4 Sunday in the auditorium (led by Walter).
 
 ### Current lecture slides
 
 <a href="slides/lecture13.pdf">Practice problems</a>
-
-<iframe src="https://trinket.io/embed/glowscript/5e8ab7a508" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Upcoming assignments:
 
