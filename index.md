@@ -16,7 +16,7 @@ There is a review from 11-5 Saturday in the Physics Clinic (led by coaches) and 
 
 ### Current lecture slides
 
-<a href="slides/lecture13.pdf">Practice problems</a>
+<a href="slides/lecture14.pdf">Exam 2 Review</a>
 
 ### Upcoming assignments:
 
