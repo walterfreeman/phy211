@@ -24,5 +24,5 @@ use_math: true
 
 <a href="recitation/recitation-circles.pdf">Week 6: circular motion</a>: here are the solutions for <a href="recitation/20Feb_Recitation.pdf">Wednesday</a> and for <a href="recitation/22Feb_Recitation.pdf">Friday</a>.<br><br>
 
-<a href="recitation/recitation-energy-wed.pdf">Week 8 Wednesday: The work-energy theorem, I</a>
+<a href="recitation/recitation-energy-wed.pdf">Week 8 Wednesday: The work-energy theorem, I</a><br>
 <a href="recitation/recitation-energy-fri.pdf">Week 8 Friday: The work-energy theorem, II</a>
