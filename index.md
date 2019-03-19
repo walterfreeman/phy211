@@ -8,15 +8,9 @@ title: Announcements
 <a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
 
 
-### Exam 2 preparation
-
-Here is the <a href="practice-exam-2.pdf">practice exam</a> and its <a href="practice-exam-2-solutions.pdf">solutions</a>.
-
-There is a review from 11-5 Saturday in the Physics Clinic (led by coaches) and from 1-4 Sunday in the auditorium (led by Walter).
-
 ### Current lecture slides
 
-<a href="slides/lecture14.pdf">Exam 2 Review</a>
+<a href="slides/lecture15.pdf">The work-energy theorem</a>
 
 ### Upcoming assignments:
 
@@ -24,9 +18,9 @@ There is a review from 11-5 Saturday in the Physics Clinic (led by coaches) and 
 
 ### Upcoming office hours:
 
-* Friday, March 1, 11AM-1PM
-* Monday, March 4, 1-3 PM
-* Tuesday, March 5, 3-5 PM
+* Thursday, March 21, 1:45-3:45 PM
+* Friday, March 22, 9:30-11:30 AM
+* Tuesday, March 26, 3-5 PM
 
  
 
