@@ -14,7 +14,7 @@ title: Announcements
 
 ### Upcoming assignments:
 
-* <a href="hw/homework5.pdf">Homework 5</a>, due Wednesday, March 6, in recitation 
+* <a href="hw/homework6.pdf">Homework 6</a>, due Friday, March 29, in recitation 
 
 ### Upcoming office hours:
 

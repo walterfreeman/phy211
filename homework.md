@@ -16,4 +16,4 @@ use_math: true
 
 <a href="hw/homework5.pdf">Homework 5, due Wednesday, March 6</a><br>
 
-<a href="hw/homework6.pdf">Homework 5, due Friday, March 29</a><br>
+<a href="hw/homework6.pdf">Homework 6, due Friday, March 29</a><br>
