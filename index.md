@@ -10,7 +10,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture16.pdf">Power and elasticity</a>
+<a href="slides/lecture16.pdf">Potential energy, power, and elasticity</a>
 
 ### Upcoming assignments:
 
