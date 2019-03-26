@@ -10,7 +10,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture16.pdf">Potential energy, power, and elasticity</a>
+<a href="slides/lecture17.pdf">Power and rotational energy</a>
 
 ### Upcoming assignments:
 
@@ -18,9 +18,9 @@ title: Announcements
 
 ### Upcoming office hours:
 
-* Thursday, March 21, 1:45-3:45 PM
-* Friday, March 22, 9:30-11:30 AM
 * Tuesday, March 26, 3-5 PM
+* Wednesday, March 27, 3-5 PM
+* Thursday, March 28, 1:45-3:45 PM
 
  
 
