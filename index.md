@@ -10,7 +10,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture17.pdf">Power and rotational energy</a>
+<a href="slides/lecture18.pdf">Momentum</a>
 
 ### Upcoming assignments:
 
@@ -18,9 +18,10 @@ title: Announcements
 
 ### Upcoming office hours:
 
-* Tuesday, March 26, 3-5 PM
-* Wednesday, March 27, 3-5 PM
 * Thursday, March 28, 1:45-3:45 PM
+* Tuesday, April 2, 3-5 PM (catch-up for people who are having trouble, in rm. 215)
+* Wednesday, April 3, 3-5 PM (in the Clinic)
+* Thursday, April 4, 1:45-3:45 PM (catch-up)
 
  
 
@@ -39,7 +40,6 @@ title: Announcements
         - Emily Syracuse, <ecsyracu@syr.edu> 
         - Xuan Zheng, <xzhen101@syr.edu> 
    - **Undergraduate coaches:** Too many to list here :)
-- Help sessions / office hours for the week of 28 January: 3:30-5:30 Wednesday, 1:45-3:45 Thursday, held in the Physics Clinic, Physics Building room 112
    
 ---
 
