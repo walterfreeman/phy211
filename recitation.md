@@ -28,4 +28,6 @@ use_math: true
 <a href="recitation/recitation-energy-fri.pdf">Week 8 Friday: The work-energy theorem, II: potential energy</a><br><br>
 
 <a href="recitation/recitation-energy-3.pdf">Week 9 Wednesday: The work-energy theorem, III: rotational energy</a><br>
-<a href="recitation/recitation-momentum.pdf">Week 9 Friday: Conservation of momentum</a>
+<a href="recitation/recitation-momentum.pdf">Week 9 Friday: Conservation of momentum</a><br<br>
+
+<a href="recitation/recitation-momentum-energy.pdf">Week 10 Wednesday: Review of Unit III</a>
