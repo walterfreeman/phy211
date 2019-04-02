@@ -10,11 +10,11 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture18.pdf">Momentum</a>
+<a href="slides/lecture19.pdf">Momentum; angular momentum</a>
 
 ### Upcoming assignments:
 
-* <a href="hw/homework6.pdf">Homework 6</a>, due Friday, March 29, in recitation 
+* <a href="hw/homework7.pdf">Homework 7</a>, due Monday, 8 April, to your TA's mailbox by 9 PM 
 
 ### Upcoming office hours:
 
