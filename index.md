@@ -10,7 +10,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture19.pdf">Momentum; angular momentum</a>
+<a href="slides/lecture20.pdf">Exam 3 review; finishing up angular momentum</a>
 
 ### Upcoming assignments:
 
