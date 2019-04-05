@@ -5,8 +5,9 @@ use_math: true
 title: Announcements
 ---
 
-<a href="https://join.slack.com/t/phy211-spring2019/shared_invite/enQtNTIyNTYzMTc4NTMyLTVhOTA4MGQzZDg5M2U5ZGE0NDVlZTZlNmU0ZWVhYTAyMzcyNTMwZDY3YzZjYmQ2OTZkYTkzMzBjMDFjMDFlZWQ">Click here to join the Slack channel.</a>
+### Practice Exam 3
 
+<a href="practice-exam-3-all.pdf">Practice Exam 3</a> is available now. The solutions will be available Saturday evening or Sunday morning.
 
 ### Current lecture slides
 
