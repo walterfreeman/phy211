@@ -24,8 +24,8 @@ use_math: true
 
 <a href="recitation/recitation-circles.pdf">Week 6: circular motion</a>: here are the solutions for <a href="recitation/20Feb_Recitation.pdf">Wednesday</a> and for <a href="recitation/22Feb_Recitation.pdf">Friday</a> written by Merrill.<br><br>
 
-<a href="recitation/recitation-energy-wed.pdf">Week 8 Wednesday: The work-energy theorem, I</a>. Here are <a href="recitation/solutions/recitation-energy-wed">solutions</a> written by Ohana.<br>
-<a href="recitation/recitation-energy-fri.pdf">Week 8 Friday: The work-energy theorem, II: potential energy</a>. Here are <a href="recitation/solutions/recitation-energy-fri">solutions</a> written by Ohana.<br><br>
+<a href="recitation/recitation-energy-wed.pdf">Week 8 Wednesday: The work-energy theorem, I</a>. Here are <a href="recitation/solutions/recitation-energy-wed.pdf">solutions</a> written by Ohana.<br>
+<a href="recitation/recitation-energy-fri.pdf">Week 8 Friday: The work-energy theorem, II: potential energy</a>. Here are <a href="recitation/solutions/recitation-energy-fri.pdf">solutions</a> written by Ohana.<br><br>
 
 <a href="recitation/recitation-energy-3.pdf">Week 9 Wednesday: The work-energy theorem, III: rotational energy</a>. Here are the <a href="recitation/solutions/solutions-27-march-emily.pdf">solutions</a> written by Emily. <br>
 <a href="recitation/recitation-momentum.pdf">Week 9 Friday: Conservation of momentum</a>. Here are the <a href="recitation/solutions/solutions-29-march-emily.pdf">solutions</a> written by Emily. <br><br>

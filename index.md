@@ -7,7 +7,7 @@ title: Announcements
 
 ### Practice Exam 3
 
-<a href="practice-exam-3-all.pdf">Practice Exam 3</a> is available now. The solutions will be available Saturday evening or Sunday morning.
+<a href="practice-exam-3-all.pdf">Practice Exam 3</a> and the <a href="practice-exam-3-solutions.pdf">solutions to Practice Exam 3</a>.
 
 ### Current lecture slides
 
