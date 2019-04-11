@@ -5,17 +5,12 @@ use_math: true
 title: Announcements
 ---
 
-### Practice Exam 3
-
-<a href="practice-exam-3-all.pdf">Practice Exam 3</a> and the <a href="practice-exam-3-solutions.pdf">solutions to Practice Exam 3</a>.
-
 ### Current lecture slides
 
-<a href="slides/lecture20.pdf">Exam 3 review; finishing up angular momentum</a>
+<a href="slides/lecture21.pdf">Process of science; Exam 3 discussion; that black hole!</a>
 
 ### Upcoming assignments:
 
-* <a href="hw/homework7.pdf">Homework 7</a>, due Monday, 8 April, to your TA's mailbox by 9 PM 
 
 ### Upcoming office hours:
 
