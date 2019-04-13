@@ -30,4 +30,6 @@ use_math: true
 <a href="recitation/recitation-energy-3.pdf">Week 9 Wednesday: The work-energy theorem, III: rotational energy</a>. Here are the <a href="recitation/solutions/solutions-27-march-emily.pdf">solutions</a> written by Emily. <br>
 <a href="recitation/recitation-momentum.pdf">Week 9 Friday: Conservation of momentum</a>. Here are the <a href="recitation/solutions/solutions-29-march-emily.pdf">solutions</a> written by Emily. <br><br>
 
-<a href="recitation/recitation-momentum-energy.pdf">Week 10 Wednesday: Review of Unit III</a>. Here are <a href="recitation/solutions/recitation-momentum-energy.pdf">solutions</a> written by Ohana.
+<a href="recitation/recitation-momentum-energy.pdf">Week 10 Wednesday: Review of Unit III</a>. Here are <a href="recitation/solutions/recitation-momentum-energy.pdf">solutions</a> written by Ohana.<br><br>
+
+<a href="recitation/recitation-2019-torque-1.pdf">Week 11 Wednesday/Friday (currently draft)</a>
