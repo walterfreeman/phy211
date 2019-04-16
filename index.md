@@ -7,17 +7,13 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture21.pdf">Process of science; Exam 3 discussion; that black hole!</a>
+<a href="slides/lecture22.pdf">Torque</a>
 
 ### Upcoming assignments:
 
 
 ### Upcoming office hours:
 
-* Thursday, March 28, 1:45-3:45 PM
-* Tuesday, April 2, 3-5 PM (catch-up for people who are having trouble, in rm. 215)
-* Wednesday, April 3, 3-5 PM (in the Clinic)
-* Thursday, April 4, 1:45-3:45 PM (catch-up)
 
  
 
