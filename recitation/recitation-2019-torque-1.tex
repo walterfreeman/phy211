@@ -3,6 +3,7 @@
 \usepackage{fullpage}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{amsmath}
+\usepackage{pdflscape}
 \usepackage{graphicx}
 \setlength{\parskip}{4mm}
 \def\LL{\left\langle}   % left angle bracket
@@ -33,7 +34,7 @@
 \newcommand{\OON}{\frac{1}{N}} % "one over N"
 \newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
 
-
+\pagenumbering{gobble}
 
 \begin{document}
 \Large
@@ -41,7 +42,7 @@
 \normalsize
 \centerline{\sc{April 17}}
 
-\centerline{\large Question 1: on preliminaries}
+\centerline{\large Question 1: rotational dynamics fundamentals}
 
 \vspace{1in}
 
@@ -85,14 +86,14 @@
        5) What power does she apply to the pedals? What power does the air resistance apply?
 
 \newpage
+\centerline{\large Question 3: on static equilibrium}
 
-\Large
-\centerline{\sc{Recitation Questions}}
-\normalsize
-\centerline{\sc{April 17}}
+\begin{center}
+\it \normalsize This problem appears on your next homework set as well, and on Friday's recitation. It is here just so you can start thinking about it if you finish the others.
+If you don't finish, don't worry -- you'll start with this on Friday.
+\end{center}
 
-\vspace{1in}
-\centerline{\large Question 1: on static equilibrium}
+
 \begin{minipage}[b]{0.4\textwidth}
   \vspace{-0.8in}
 
@@ -123,13 +124,18 @@ your choice of pivot point.
 
 \vspace{5in}
 
+\newpage
+
+\begin{landscape}
+
 b) Complete the following table, letting you calculate the torque from every force in the problem. 
 
 \Large
 \begin{center}
-\begin{tabular}{|l|l|l|l|l|l|}
+\begin{tabular}{|c|c|c|c|c|c|}
 \hline
-Name & Distance to pivot ($r$) & Size of force (F) & ($F_\perp$) & + or - & {\bf Torque} \\ \hline
+Name & Distance to pivot ($r$) & Size of force (F) & $\sin \theta$ & + or - & {\bf Torque} \\
+     & & & (angle between $\vec F$ and $\vec r$) & & \\\hline
               &                         &                        &                                              &                    &                               \\ \hline
               &                         &                        &                                              &                    &                               \\ \hline
               &                         &                        &                                              &                    &                               \\ \hline
@@ -137,14 +143,84 @@ Name & Distance to pivot ($r$) & Size of force (F) & ($F_\perp$) & + or - & {\bf
 \end{tabular}
 \end{center}
 \normalsize
-\newpage
 c) Compute the tension in the cable.
 
-\vspace{4 in}
+\vspace{3 in}
 
 d) Suppose now that the store owner wanted to attach the cable to a different point on the building in order to minimize its tension. What angle between the
 cable and the horizontal would support the pole with the minimum tension?
+\end{landscape} \newpage
+
+
+
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{April 19}}
+
+\vspace{1in}
+\centerline{\large Question 1: on static equilibrium}
+
+\begin{center}
+\it \normalsize This problem appears on your next homework set as well. If you finish it here, you can staple your recitation work to your homework and write a note that says ``see attached''.
+\end{center}
+
+\begin{minipage}[b]{0.4\textwidth}
+  \vspace{-0.8in}
+
+A 4m-long pole of mass 80 kg extends from the side of a building, angled at 60 degrees above the horizontal. One meter from the end of the pole, a sign of mass 50 kg is attached. To support the pole,
+a horizontal cable runs from the end of the pole to the building. (See the attached figure.)
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\end{minipage}
+\begin{minipage}[t]{0.6\textwidth}
+  \begin{flushright}
+  \includegraphics[width=0.9\textwidth]{sign2.jpg}
+\end{flushright}
+\end{minipage}
+
+\bigskip
+\bigskip
+
 \newpage
+
+a) Draw a force diagram, showing all of the elements needed to help you compute the tension in the support cable. Indicate
+your choice of pivot point.
+
+\vspace{5in}
+
+\newpage
+
+\begin{landscape}
+
+b) Complete the following table, letting you calculate the torque from every force in the problem. 
+
+\Large
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Name & Distance to pivot ($r$) & Size of force (F) & $\sin \theta$ & + or - & {\bf Torque} \\
+     & & & (angle between $\vec F$ and $\vec r$) & & \\\hline
+              &                         &                        &                                              &                    &                               \\ \hline
+              &                         &                        &                                              &                    &                               \\ \hline
+              &                         &                        &                                              &                    &                               \\ \hline
+              &                         &                        &                                              &                    &                               \\ \hline
+\end{tabular}
+\end{center}
+\normalsize
+c) Compute the tension in the cable.
+
+\vspace{3 in}
+
+d) Suppose now that the store owner wanted to attach the cable to a different point on the building in order to minimize its tension. What angle between the
+cable and the horizontal would support the pole with the minimum tension?
+\end{landscape} \newpage
 
 \centerline{\large Question 2: on rotational dynamics}
 A flywheel (a large, spinning disc) of mass $m$ and radius $r$ is rotating
