@@ -7,7 +7,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture22.pdf">Torque</a>
+<a href="slides/lecture23.pdf">Torque, continued</a>
 
 ### Upcoming assignments:
 
