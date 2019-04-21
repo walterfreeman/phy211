@@ -32,4 +32,5 @@ use_math: true
 
 <a href="recitation/recitation-momentum-energy.pdf">Week 10 Wednesday: Review of Unit III</a>. Here are <a href="recitation/solutions/recitation-momentum-energy.pdf">solutions</a> written by Ohana.<br><br>
 
-<a href="recitation/recitation-2019-torque-1.pdf">Week 11 Wednesday/Friday (currently draft)</a>
+<a href="recitation/recitation-2019-torque-1.pdf">Week 11 Wednesday/Friday</a><br><br>
+<a href="recitation/recitation-torque-week2.pdf">Week 12 Wednesday/Friday</a>
