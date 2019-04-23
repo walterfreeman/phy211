@@ -7,7 +7,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture21.pdf">Process of science; Exam 3 discussion; that black hole!</a>
+<a href="slides/lecture24.pdf">Rolling motion; rotational energy</a>
 
 ### Upcoming assignments:
 
