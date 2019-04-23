@@ -7,17 +7,20 @@ title: Announcements
 
 ### Current lecture slides
 
+<<<<<<< HEAD
 <a href="slides/lecture24.pdf">Rolling motion; rotational energy</a>
+=======
+<a href="slides/lecture23.pdf">Torque, continued</a>
+>>>>>>> c32c0d14e4592e964d883b47383732fbb5137b84
 
 ### Upcoming assignments:
 
+<a href="hw/hw8.pdf">Homework 8</a>, due 24 April
 
 ### Upcoming office hours:
 
-* Thursday, March 28, 1:45-3:45 PM
-* Tuesday, April 2, 3-5 PM (catch-up for people who are having trouble, in rm. 215)
-* Wednesday, April 3, 3-5 PM (in the Clinic)
-* Thursday, April 4, 1:45-3:45 PM (catch-up)
+Thursday, April 18: 1:45-3:45
+Friday, April 19: 9:30-11:30
 
  
 
