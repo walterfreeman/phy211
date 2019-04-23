@@ -14,6 +14,8 @@
 \def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
 \def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
 \def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
 \newcommand{\BE}{\begin{displaymath}}
 \newcommand{\EE}{\end{displaymath}}
 \newcommand{\BNE}{\begin{equation}}
@@ -87,6 +89,17 @@ The engine, also of mass $M$, is located a distance $L/6$ from the front. (Don't
 distinguishing the left wheels from the right ones; you can treat ``front wheels'' and ``back wheels''
 as single forces.) Note that the car is pointed to the left here (since the engine is in the front).
 
+Some terminology, for those who are not familiar:
+
+\BI
+\item ``Front wheel drive'' means that the engine is coupled only to the front wheels, and is only able to use 
+them to provide forward traction. This means that the maximum traction is $\mu_s F_{N, \rm front}$.
+\item ``Rear wheel drive'' means that the engine is coupled only to the back wheels, and is only able to use 
+them to provide forward traction. This means that the maximum traction is $\mu_s F_{N, \rm back}$.
+\item ``All-wheel drive'' or ``four-wheel drive'' mean that the engine is coupled to both sets of wheels,
+and may use the static friction of both of them to provide traction.
+\EI
+
 \begin{center}\includegraphics[width=0.5\textwidth]{car-crop.pdf}\end{center}
 \begin{enumerate}
 
@@ -104,13 +117,13 @@ or from the rear wheels to be larger? Why?
 \vspace{3in}
 
 \item Suppose that the coefficient of friction between the wheels and the ground is $\mu_s$. What is the maximum
-traction force that the car can apply if it is front wheel drive? (Most passenger sedans, like my Toyota Yaris,
+traction force that the car can apply if it is front wheel drive? (Most small cars, like my Toyota Yaris,
 are front wheel drive.)
 
 \vspace{3.5in}
 
-\item What is the maximum traction force that the car can apply if it is rear-wheel drive? (Most pickup trucks that
-only have two driven wheels are rear-wheel drive.)
+\item What is the maximum traction force that the vehicle can apply if it is rear wheel drive? (Most trucks are rear
+wheel drive.)
 
 \vspace{3.5in}
 
@@ -124,6 +137,10 @@ the traction force and the total mass of the vehicle.
 
 \end{enumerate}
 \newpage
+.
+\newpage
+
+
 \Large
 \centerline{\sc{Recitation Questions}}
 \normalsize
