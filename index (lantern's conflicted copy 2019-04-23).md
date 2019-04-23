@@ -7,7 +7,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture24.pdf">Rolling motion; rotational energy</a>
+<a href="slides/lecture23.pdf">Torque, continued</a>
 
 ### Upcoming assignments:
 
