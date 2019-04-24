@@ -21,3 +21,5 @@ use_math: true
 <a href="hw/homework7.pdf">Homework 7, due Monday, April 8</a><br>
 
 <a href="hw/hw8.pdf">Homework 8, due Wednesday, April 24</a><br>
+
+<a href="hw/hw9.pdf">Homework 9, due Tuesday, April 30</a>; note that no late penalties will be assessed until Thursday.<br>

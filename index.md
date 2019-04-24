@@ -11,12 +11,12 @@ title: Announcements
 
 ### Upcoming assignments:
 
-<a href="hw/hw8.pdf">Homework 8</a>, due 24 April
+<a href="hw/hw9.pdf">Homework 9</a>, due 30 April
 
 ### Upcoming office hours:
 
-Thursday, April 18: 1:45-3:45
-Friday, April 19: 9:30-11:30
+Friday, April 26: 9:30-11:30
+Monday, April 29: 1PM - 5PM 
 
  
 
