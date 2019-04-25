@@ -13,6 +13,10 @@ title: Announcements
 
 <a href="hw/hw9.pdf">Homework 9</a>, due 30 April
 
+The paper, due 29 April.
+
+**NOTE: Submit your paper to your TA's mailbox and email it to <suphysics211papers@gmail.com>.**
+
 ### Upcoming office hours:
 
 Friday, April 26: 9:30-11:30
