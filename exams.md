@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Exams 
+category: top
 permalink: exams.html
 use_math: true
 ---
