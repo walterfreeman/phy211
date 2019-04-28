@@ -20,11 +20,11 @@ The paper, due 29 April.
 ### Upcoming office hours:
 
 Friday, April 26: 9:30-11:30
-Monday, April 29: 1PM - 5PM 
+Monday, April 29: 1PM - 4PM 
 
 ### Final exam review information:
 
-* Tuesday, 29 April: 4PM - 8PM, Physics Building room 208
+* Tuesday, 30 April: 4PM - 8PM, Physics Building room 208
 * Wednesday, 1 May: 10AM - 3PM, Physics Building room 106
 * Friday, 3 May: 10AM - 4PM, room TB
  
