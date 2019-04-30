@@ -7,7 +7,7 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture24.pdf">Rolling motion; rotational energy</a>
+<a href="slides/lecture26.pdf">Review, recap, and next steps</a>
 
 ### Upcoming assignments:
 
@@ -17,16 +17,11 @@ The paper, due 29 April.
 
 **NOTE: Submit your paper to your TA's mailbox and email it to <suphysics211papers@gmail.com>.**
 
-### Upcoming office hours:
-
-Friday, April 26: 9:30-11:30
-Monday, April 29: 1PM - 4PM 
-
 ### Final exam review information:
 
 * Tuesday, 30 April: 4PM - 8PM, Physics Building room 208
 * Wednesday, 1 May: 10AM - 3PM, Physics Building room 106
-* Friday, 3 May: 10AM - 4PM, room TB
+* Friday, 3 May: 10AM - 4PM, Link 114
  
 
 ### Information
