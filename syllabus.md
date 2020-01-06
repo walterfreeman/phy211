@@ -391,11 +391,10 @@ If you must miss recitation for such a reason, please notify your recitation ins
 *exam* for such a reason, please talk to one of the professors to make arrangements.
 
 
-Absence from class for recreational activities unrelated to academics, professional development, or solemn family life will not be excused. Unexcused absences include:
+Absence from class for recreational activities unrelated to academics, professional development, or solemn family life will not be excused; these absences will count against your four dropped recitation participation grades. Unexcused absences include:
 
 * Any Greek Life event (any activity put on by a Greek-letter organization, with the exception of purely academic honor societies)
 
-* Any athletic event (as an athlete or a spectator), whether NCAA-sanctioned or not.
+* Any athletic event (as an athlete or a spectator), whether NCAA-sanctioned or not. (If you must miss an *exam* for a NCAA-sponsored athletic event, come talk to us; we may be able to make arrangements for you to take it on the road.)
 
 * Weather (unless you are a commuter student who cannot get to campus safely or campus is closed)
-
