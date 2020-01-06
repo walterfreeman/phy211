@@ -26,17 +26,17 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 6 February | <a href="slides/lecture7.pdf">Introduction to Newton’s second law</a> | 5.1; 5.3; 5.7 |
 | 11 February | <a href="slides/lecture8.pdf">Solving problems with Newton’s second and third laws</a> | 5.4-5.6 |
 | 13 February | <a href="slides/lecture9.pdf">Friction; more practice problems</a> | 6.1-6.2 |
-| 18 February | <a href="slides/lecture10.pdf">What it means to move in a circle</a> | 6.3 |
+| 18 February | <a href="slides/lecture10.pdf">Acceleration in circular motion</a> | 6.3 |
 | 20 February | <a href="slides/lecture11.pdf">Universal gravitation; solving problems involving uniform circular motion</a> | 13.1 |
-| 25 February | <a href="slides/lecture12.pdf">A historical perspective on mechanics; empiricism and the “laws of nature”</a> |  |
-| 27 February | <a href="slides/lecture13.pdf">Torque and rotational inertia: analogues to force and mass</a> | 10.7 |
-| 3 March | <a href="slides/lecture14.pdf">Review for Exam 2</a> |  |
-| 5 March | **EXAM 2** |  |
-| 10 March | <a href="slides/lecture15.pdf">The work-energy theorem</a> | 7.1-7.4 |
-| 12 March | <a href="slides/lecture16.pdf">The conservation of energy; potential energy as accounting trick</a> | 8.1-8.3 |
-| 24 March | <a href="slides/lecture17.pdf">Rotational kinetic energy; practice problems on conservation of energy</a> | 10.4 |
-| 26 March | <a href="slides/lecture18.pdf">The impulse-momentum theorem; conservation of momentum in one dimension</a> | 9.1-9.4 |
-| 31 March | <a href="slides/lecture19.pdf">Conservation of momentum in two dimensions; angular momentum</a> | 9.5 |
+| 25 February | <a href="slides/lecture12.pdf">Torque and rotational inertia: analogues to force and mass</a> |  |
+| 27 February | <a href="slides/lecture13.pdf">Review for Exam 2</a> | 10.7 |
+| 3 March | **EXAM 2** |  |
+| 5 March | <a href="slides/lecture14.pdf">A historical perspective on mechanics; empiricism and the “laws of nature”</a> |  |
+| 10 March | <a href="slides/lecture15.pdf">The impulse-momentum theorem; conservation of momentum in one dimension</a> | 9.1-9.3 |
+| 12 March | <a href="slides/lecture16.pdf">Conservation of momentum in two dimensions| 8.1-8.3 |
+| 24 March | <a href="slides/lecture17.pdf">The work-energy theorem</a> | 10.4 |
+| 26 March | <a href="slides/lecture18.pdf">The conservation of energy; potential energy; rotational kinetic energy</a> | 9.1-9.4 |
+| 31 March | <a href="slides/lecture19.pdf"></a> Combining conservation of momentum and energy| 9.5 |
 | 2 April | <a href="slides/lecture20.pdf">Review for Exam 3</a> |  |
 | 7 April | **EXAM 3** |  |
 | 9 April | <a href="slides/lecture21.pdf">Recognizing pseudoscience</a> |  |
@@ -45,7 +45,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 21 April | <a href="slides/lecture24.pdf">Process-of-science discussion; rolling motion</a> | 11.1 |
 | 23 April | <a href="slides/lecture25.pdf">Combinations of translational and rotational motion; practice problems</a> |  |
 | 28 April | <a href="slides/lecture26.pdf">Review for the final exam; course retrospective</a> |  |
-|===============+=========================================================+=====================+
+===============+=========================================================+=====================+
 | 6 May | **FINAL EXAM:** Stolkin Auditorium or Life Sciences Building |  3-5 PM |
 |--------------------------------------------------------------------------------------------------------+-------------------------+--------------+
 

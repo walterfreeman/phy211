@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Paper
-category: top
 permalink: paper.html 
 use_math: true
 ---
@@ -73,7 +72,7 @@ But, ultimately, you must understand everything you write, and have composed the
 
 ### How will this be graded?
 
-We will grade you out of ten points. The grading will be done by a combination of your recitation TA's and Walter. 
+We will grade you out of fifteen points. The grading will be done by a combination of your recitation TA's and professors. 
 
 If you write an exemplary essay here, especially one that teaches us something we didn't know, you may earn extra credit.
 (This is the same grading system used in AST101 papers; as a reference, of the 1700 papers we graded last fall, two received a 30/10, 

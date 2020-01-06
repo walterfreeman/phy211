@@ -84,12 +84,11 @@ You are not going to be learning a list of currently-accepted facts; you are goi
 Since the difficult part of the course is the problem-solving aspect, it's only natural that we are going to give you lots of help in solving problems, especially at first. Learning physics is most similar to learning to play
 a sport or learning a musical instrument: it requires practice and the guidance of a coach. We do not expect that you can do all of the homework problems on your own; it is crucial that you ask for help in doing your homework. If you're stuck on a homework problem, you can:
 
-- Come to my office hours and ask, or make an appointment, or drop by my office (room 215)
+- Come to our office hours and ask, or make an appointment, or drop by our office (room 215)
 - Go by the Physics Clinic; you are likely to find a TA, other students, or the professors there to help you.
 - Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. We *always* have time in lecture to answer questions; don't be intimidated by the size of the class.
 - Ask your TA or coaches during recitation
 - Ask your peers for help (and insist that they help you understand how to think about the problem, not just give you the answer)
-- Ask for help on the class Slack channel
 - Write me, your coaches, or your TA an email.
 
 Again: it is **intended that you will get stuck**, just like no pianist plays a difficult piece perfectly the first time. The problem-solving skills in this course are things you have to practice, and we expect you to have to practice in order to make progress; come ask us for help, and we'll guide you as you practice.
@@ -102,20 +101,20 @@ It's also not enough to know how to get the answer. Knowing how to get the answe
 
 Instead, you should make sure you know how you know what to do to solve the problem. After you complete a problem, take just a few minutes to look back over it and ask yourself: what about this problem led me to the solution? Make sure you're aware of what aspects of the problem make it solvable in a particular way. This will help you build a flexible toolkit of problem-solving skills, tools that will serve you well on the exams and in life.
 
-We've chosen to give you only six to ten homework problems per week. We could give you more, and in fact if you want more practice problems there are more available in your textbook. This is because we intend for you to spend more time thinking about what each problem entails, and learning from them; my experience has shown that students who have to slog through 25 homework problems per week are less likely to actually think about the skills they've applied in each one, since homework becomes a grueling endurance challenge rather than an opportunity to learn physics. We'd much rather have you do the latter. 
+We've chosen to give you only six to ten homework problems per week. We could give you more, and in fact if you want more practice problems there are more available in your textbook. This is because we intend for you to spend more time thinking about what each problem entails, and learning from them; our experience has shown that students who have to slog through 25 homework problems per week are less likely to actually think about the skills they've applied in each one, since homework becomes a grueling endurance challenge rather than an opportunity to learn physics. We'd much rather have you do the latter. 
 
 #### 4. This is not a math class
 In this class, you will use mathematics, but it is only a tool. Do not let yourself become a thrall to mathematics; this class is no more about mathematics than a class on Shakespeare is a class about words.
 
 The laws of physics are written in the language of mathematics, but they describe things beyond math: the physical interactions between objects.
 
-If you are stuck, resist the temptation to go leafing through your textbook looking for ``the right equation to use''. Physics isn't about equations; it's about ideas and the ability to solve problems. Instead, put your pencil down and think: what is going on here? What principles are at work in this problem? How do I expect the system to move (or not move)? What things do I know, and what other things can I figure out from them? What does my intuition tell me should happen? What forces act on the objects? If you still can't figure out how to proceed after thinking for a while and consulting your notes on problem-solving approaches, it's a good time to ask for help.
+If you are stuck, resist the temptation to go leafing through your textbook looking for "the right equation to use". Physics isn't about equations; it's about ideas and the ability to solve problems. Instead, put your pencil down and think: what is going on here? What principles are at work in this problem? How do I expect the system to move (or not move)? What things do I know, and what other things can I figure out from them? What does my intuition tell me should happen? What forces act on the objects? If you still can't figure out how to proceed after thinking for a while and consulting your notes on problem-solving approaches, it's a good time to ask for help.
 
 The mathematics you will need for this class are:
 
 - Algebra:
 	- You will need the ability to solve a system of $N$ equations for $N$ unknowns, using substitution
-	- You will need to know how to use the quadratic formula to find the intersection of two parabolas
+	- You will need to know how to use the quadratic formula to find the roots of a quadratic equation 
 	- There is guaranteed to be one problem on the first exam where you will need to use the quadratic formula
 - Trigonometry:
 	- You will need to know how to compute the legs of a right triangle given knowledge of its hypotenuse and one of its angles
@@ -188,12 +187,16 @@ guides that are there to help you.
 Recitation attendance and participation are graded. Before each in-class exam, you'll take a practice group exam in recitation with your group. These practice exams are graded as well.
 A further set of guidelines (incorporated into this syllabus) for recitation, and the homework you'll submit during them, may be found at <a href="https://walterfreeman.github.io/phy211/recitation-guidelines.html">https://walterfreeman.github.io/phy211/recitation-guidelines.html</a>.
 
+<a id="readings"></a>
 #### Readings
 
 We will post assigned readings on the calendar before each class. (These may change during the semester based on our progress, but we
 will let you know at least a week ahead of time.) There will be short (usually 3 question) pre-lecture quizzes
-on basic concepts from the reading, taken on Blackboard. We don’t expect everyone to get all these correct; 
-they are graded for participation.
+on basic concepts from the reading, taken on Blackboard. 
+We don’t expect everyone to get all these correct; the grades will be curved so that any student who does the reading and makes an honest attempt will get full credit.
+
+This portion of the course has two purposes. First, it will be beneficial for you if you're already familiar with the basics of the concepts we'll be discussing ahead of time. Second, we will be looking at your responses before class to better understand 
+if there are any concepts that are particularly confusing for you, so we know what we should spend extra time on.
 
 <a id="lectures"></a>
 #### Lectures
@@ -208,14 +211,14 @@ ask. We don't care how many students are in the auditorium -- we almost certainl
 
 Homework in this class is designed as a tool to help you develop the problem-solving skills needed to understand physical situations on your own.
 
-You will have an assignment due each week (more or less), which you will hand in to your recitation TA. We do not intend for you to work on these problems by yourself without help. The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well. You are also welcome to come to my office hours and sit and work, asking questions as they arise. Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and asking for help is the single best thing you can do in this class.
+You will have an assignment due each week (more or less), which you will hand in to your recitation TA. We do not intend for you to work on these problems by yourself without help. The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well. You are also welcome to come to our office hours and sit and work, asking questions as they arise. Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and asking for help is the single best thing you can do in this class.
 
 When writing your homework solutions, you must describe what you are doing in words, even if these descriptions are brief; your solutions should not consist only of equations. Show us what you are thinking and why you are doing what you're doing; this will both help you learn and help us give you more partial credit if you understand what you're doing but mess up the math. **If you do not describe what you are doing and why, you may not get full
 credit for a solution, even if it is correct.**
 
 You must submit each problem on a separate side of a page; this is to help us grade your work more easily, and will give the TA's more time to help you learn physics -- which is what we'd all prefer!
 
-Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. 
+Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. Your lowest homework set grade will be dropped.
 
 <a id="labs"></a>
 #### Labs
@@ -243,17 +246,17 @@ These help sessions are opportunities for you to interact with us and the rest o
 | Exam 2                       |    3 March                |              15  |
 | Exam 3                       |    7 April                |              15  |
 | Final Exam                   |    4 May, 3PM-5PM         |              30  |
-| Attendance and participation |   Throughout the semester | 10               |
+| Recitation participation |   Throughout the semester | 10               |
 | Group practice exams         | The Friday prior to each exam                          | 15               |
 | Paper on the nature of science | 27 April                | 15               |
-| Pre-lecture quizzes          | Throughout the semester   | 10                |
+| Pre-lecture quizzes          | Throughout the semester   | 5                |
 
-The lowest of your exam grades will be dropped. If your final exam grade is lower 
+The lowest of your exam grades, the lowest homework set grade, and your four lowest recitation participation grades will be dropped. If your final exam grade is lower 
 than any of your three midterm exam grades, then the final exam will instead only count for 15 points. 
 Note however that students with an unusually low recitation participation grade for any given unit will not be eligible to drop the
 corresponding exam without prior permission, at our discretion. 
 
-This will result in a total of 135 possible points. This value will then be converted to a percentage (by dividing by 1.35), and grades will be assigned as follows:
+This will result in a total of 130 possible points. This value will then be converted to a percentage (by dividing by 1.3), and grades will be assigned as follows:
 
 - A : >88
 - A-: 80-88
@@ -354,7 +357,7 @@ Syracuse University values diversity and inclusion; we are committed to a climat
 If you would like to discuss disability-related accommodations with ODS, please visit their website 
 at <a href="http://disabilityservices.syr.edu">disabilityservices.syr.edu</a>, visit them in person in Room 309 of 8047 University Avenue, or call (315) 443-4498, TDD: (315) 443-1371 for an appointment to discuss your needs and the process for requesting accommodations. ODS is responsible for coordinating disability-related accommodations. Since accommodations may require early planning and generally are not provided retroactively, please contact ODS as soon as possible.
 
-More generally, if there is anything we can do to help you, whether it is related to a disability, a medical condition, or something else, please let us know. We have an excellent working relationship with ODS and will do anything in my power to make your experience in my class a good one.
+More generally, if there is anything we can do to help you, whether it is related to a disability, a medical condition, or something else, please let us know. We have an excellent working relationship with ODS and will do anything in our power to make your experience in our class a good one.
 
 <a id="excuses"></a>
 
