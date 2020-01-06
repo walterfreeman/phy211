@@ -31,19 +31,15 @@ use_math: true
 
 ### Contact Information
 
--   Instructor: Dr. Walter Freeman, <wafreema@syr.edu>, Physics Building room 215
+-   Professors: 
+    - Walter Freeman, <wafreema@syr.edu>, Physics Building 215
+    - Matt Rudolph, <msrudolp@syr.edu>, Physics Building 325
 -   Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium 
--   Help sessions: Friday 9:30-11:30 AM; others TBD; held in the Physics Clinic, Physics Building room 112
--   Course website: <https://walterfreeman.github.io/phy211/>
+-   Help sessions (office hours): 
+    - Walter: Friday 9:30-11:30 AM, others TBD; held in the Physics Clinic, Physics Building room 112
+    - Matt:  
+-   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
 -   Recitation TA's:
-	- Ohana Benevides Rodrigues, <obenevide@syr.edu>, lead TA
-	- Merrill Asp, <masp01@syr.edu>
-	- Bradley Cole, <bgcole@syr.edu>
-	- Julia Giannini, <jagianni@syr.edu>
-	- Alexander Hartwell, <arhartwe@syr.edu>
-	- Kesavan Manivannan, <kmanivan@syr.edu>
-	- Emily Syracuse, <ecsyracu@syr.edu>
-	- Xuan Zheng, <xzhen101@syr.edu>
 	
 
 ---
@@ -77,7 +73,7 @@ So, if you're stuck on a problem, think simple; that's how physics works.
 
 #### 1. Reasoning and synthesis, not memorization
 
-This course is emphatically not a class where you will come to lecture, sit there and listen to a presentation of some facts, and then repeat them back to me on exams. The laws of mechanics are very simple, and you could 
+This course is emphatically not a class where you will come to lecture, sit there and listen to a presentation of some facts, and then repeat them back to us on exams. The laws of mechanics are very simple, and you could 
 memorize them in an hour if you wanted. The challenging aspect of this class is the *application* of those
 principles to understand the motion of physical systems -- to take the principles of nature and, using mathematics
 as a tool, synthesize them into an understanding of how a particular system behaves. 
@@ -86,11 +82,11 @@ You are not going to be learning a list of currently-accepted facts; you are goi
 #### 2. Ask for help, early and often
 
 Since the difficult part of the course is the problem-solving aspect, it's only natural that we are going to give you lots of help in solving problems, especially at first. Learning physics is most similar to learning to play
-a sport or learning a musical instrument: it requires practice and the guidance of a coach. I do not expect that you can do all of the homework problems on your own; it is crucial that you ask for help in doing your homework. If you're stuck on a homework problem, you can:
+a sport or learning a musical instrument: it requires practice and the guidance of a coach. We do not expect that you can do all of the homework problems on your own; it is crucial that you ask for help in doing your homework. If you're stuck on a homework problem, you can:
 
 - Come to my office hours and ask, or make an appointment, or drop by my office (room 215)
-- Go by the Physics Clinic; you are likely to find a TA, other students, or me there to help you.
-- Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. I *always* have time in lecture to answer questions; don't be intimidated by the size of the class.
+- Go by the Physics Clinic; you are likely to find a TA, other students, or the professors there to help you.
+- Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. We *always* have time in lecture to answer questions; don't be intimidated by the size of the class.
 - Ask your TA or coaches during recitation
 - Ask your peers for help (and insist that they help you understand how to think about the problem, not just give you the answer)
 - Ask for help on the class Slack channel
@@ -106,7 +102,7 @@ It's also not enough to know how to get the answer. Knowing how to get the answe
 
 Instead, you should make sure you know how you know what to do to solve the problem. After you complete a problem, take just a few minutes to look back over it and ask yourself: what about this problem led me to the solution? Make sure you're aware of what aspects of the problem make it solvable in a particular way. This will help you build a flexible toolkit of problem-solving skills, tools that will serve you well on the exams and in life.
 
-I've chosen to give you only six to ten homework problems per week. I could give you more, and in fact if you want more practice problems there are more available in your textbook. This is because I intend for you to spend more time thinking about what each problem entails, and learning from them; my experience has shown that students who have to slog through 25 homework problems per week are less likely to actually think about the skills they've applied in each one, since homework becomes a grueling endurance challenge rather than an opportunity to learn physics. I'd much rather have you do the latter. 
+We've chosen to give you only six to ten homework problems per week. We could give you more, and in fact if you want more practice problems there are more available in your textbook. This is because we intend for you to spend more time thinking about what each problem entails, and learning from them; my experience has shown that students who have to slog through 25 homework problems per week are less likely to actually think about the skills they've applied in each one, since homework becomes a grueling endurance challenge rather than an opportunity to learn physics. We'd much rather have you do the latter. 
 
 #### 4. This is not a math class
 In this class, you will use mathematics, but it is only a tool. Do not let yourself become a thrall to mathematics; this class is no more about mathematics than a class on Shakespeare is a class about words.
@@ -125,13 +121,13 @@ The mathematics you will need for this class are:
 	- You will need to know how to compute the legs of a right triangle given knowledge of its hypotenuse and one of its angles
 	- You will need to know how to compute the angles of a right triangle and the length of its hypotenuse given the lengths of the legs
 - Calculus: 
-	- You need to know the concepts of "derivative" (rate of change) and "integral" (cumulative effect / area under curve). If you are just now in Calculus I, don't worry; it is no accident that Newton developed both mechanics and calculus, and I will teach you what you need to know. You won't have to do any difficult derivatives or integrals.
+	- You need to know the concepts of "derivative" (rate of change) and "integral" (cumulative effect / area under curve). If you are just now in Calculus I, don't worry; it is no accident that Newton developed both mechanics and calculus, and we will teach you what you need to know. You won't have to do any difficult derivatives or integrals.
 
 That's it.
 
 #### 5. This is your class, too
 
-As part of this philosophy of inquiry and questioning, I welcome your input. If there is some aspect of physics that inspires or fascinates you, please ask; if you have feedback for me that will help you enjoy the class more, then please let me know.
+As part of this philosophy of inquiry and questioning, we welcome your input. If there is some aspect of physics that inspires or fascinates you, please ask; if you have feedback for us that will help you enjoy the class more, then please let us know.
 
 ---
 
@@ -192,28 +188,27 @@ guides that are there to help you.
 Recitation attendance and participation are graded. Before each in-class exam, you'll take a practice group exam in recitation with your group. These practice exams are graded as well.
 A further set of guidelines (incorporated into this syllabus) for recitation, and the homework you'll submit during them, may be found at <a href="https://walterfreeman.github.io/phy211/recitation-guidelines.html">https://walterfreeman.github.io/phy211/recitation-guidelines.html</a>.
 
+#### Readings
+
+We will post assigned readings on the calendar before each class. (These may change during the semester based on our progress, but we
+will let you know at least a week ahead of time.) There will be short (usually 3 question) pre-lecture quizzes
+on basic concepts from the reading, taken on Blackboard. We don’t expect everyone to get all these correct; 
+they are graded for participation.
+
 <a id="lectures"></a>
 #### Lectures
 
-In the auditorium, we will alternate between presentation and practice. I will first introduce you to the new ideas we are studying, asking questions and getting your answers using colored cards. (These take the place of clickers.) If you have done the reading ahead of class, these presentations will serve as review and enrichment. Questions during the presentation are encouraged and welcome! I will also demonstrate for you the analytic processes involved in solving problems. I may also distribute short tutorials for you to work in class, or ask you to answer
-short questions on note cards and pass them in at the end of the class. 
+In the auditorium, we will alternate between presentation and practice. We will first introduce you to the new ideas we are studying, asking questions and getting your answers using colored cards. (These take the place of clickers.) If you have done the reading ahead of class, these presentations will serve as review and enrichment. Questions during the presentation are encouraged and welcome! We will also demonstrate for you the analytic processes involved in solving problems. 
 
-**At any time during class, feel free to interrupt me and ask questions**. If you do not understand something,
-ask. I don't care how many students are in the auditorium -- I almost certainly have time for your question.
-
-<a id="quizzes"></a>
-#### Quizzes
-
-We will have a few brief quizzes in class (probably eight during the semester) that may be done in either recitation or lecture. 
-These will also serve as a proxy for attendance if they are held during lecture. There are no makeups for the quizzes, although 
-you may replace one quiz grade with the associated exam grade if your recitation participation average was satisfactory during that unit.
+**At any time during class, feel free to interrupt us and ask questions**. If you do not understand something,
+ask. We don't care how many students are in the auditorium -- we almost certainly have time for your question.
 
 <a id="homework"></a>
 #### Homework
 
 Homework in this class is designed as a tool to help you develop the problem-solving skills needed to understand physical situations on your own.
 
-You will have an assignment due each week (more or less), which you will hand in to your recitation TA. I do not intend for you to work on these problems by yourself without help. The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well. You are also welcome to come to my office hours and sit and work, asking questions as they arise. Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and asking for help is the single best thing you can do to help yourself in this class.
+You will have an assignment due each week (more or less), which you will hand in to your recitation TA. We do not intend for you to work on these problems by yourself without help. The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well. You are also welcome to come to my office hours and sit and work, asking questions as they arise. Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and asking for help is the single best thing you can do in this class.
 
 When writing your homework solutions, you must describe what you are doing in words, even if these descriptions are brief; your solutions should not consist only of equations. Show us what you are thinking and why you are doing what you're doing; this will both help you learn and help us give you more partial credit if you understand what you're doing but mess up the math. **If you do not describe what you are doing and why, you may not get full
 credit for a solution, even if it is correct.**
@@ -225,13 +220,14 @@ Two problems from each set will be graded fully (out of ten points); the rest wi
 <a id="labs"></a>
 #### Labs
 
-You are enrolled in a lab. It is a separate course. Do not ask me anything about the lab; I don't know anything
-about it. Ask your lab TA or Sam Sampere (smsamper@syr.edu). (You may, of course, ask me questions about the
-*physics* of things you do in lab, but don't ask me if there is lab this week, where your lab is held, etc.)
+You are enrolled in a lab. It is a separate course, with separate grades and TA's. However, Walter Freeman is helping with its design this year, so you can talk to Walter about issues related to lab. 
+You may also ask your lab TA or Sam Sampere (smsamper@syr.edu). (You may, of course, ask 
+any of us questions about the
+*physics* of things you do in lab.)
 
 #### Help Sessions
 
-These help sessions are opportunities for you to interact with me and the rest of the teaching team in small groups or individually. (Some folks call them "office hours".) If you have questions or suggestions, need help with your homework or with studying, or just want to chat, this is a great opportunity. They will be held in the Physics Clinic, room 112, or elsewhere as announced.
+These help sessions are opportunities for you to interact with us and the rest of the teaching team in small groups or individually. (Some folks call them "office hours".) If you have questions or suggestions, need help with your homework or with studying, or just want to chat, this is a great opportunity. They will be held in the Physics Clinic, room 112, or elsewhere as announced.
 
 <a id="grading"></a>
 
@@ -243,20 +239,21 @@ These help sessions are opportunities for you to interact with me and the rest o
 | Item                         |            Date           | Points           |
 |------------------------------|:-------------------------:|-----------------:|
 | Homework                     | Due throughout            |              25  |
-| Exam 1                       |    5 February             |              15  |
-| Exam 2                       |    7 March                |              15  |
-| Exam 3                       |    9 April                |              15  |
-| Final Exam                   |    6 May                  |              30  |
+| Exam 1                       |    4 February             |              15  |
+| Exam 2                       |    3 March                |              15  |
+| Exam 3                       |    7 April                |              15  |
+| Final Exam                   |    4 May, 3PM-5PM         |              30  |
 | Attendance and participation |   Throughout the semester | 10               |
 | Group practice exams         | The Friday prior to each exam                          | 15               |
-| Paper on the nature of science | 29 April                | 15               |
+| Paper on the nature of science | 27 April                | 15               |
+| Pre-lecture quizzes          | Throughout the semester   | 10                |
 
 The lowest of your exam grades will be dropped. If your final exam grade is lower 
 than any of your three midterm exam grades, then the final exam will instead only count for 15 points. 
 Note however that students with an unusually low recitation participation grade for any given unit will not be eligible to drop the
 corresponding exam without prior permission, at our discretion. 
 
-This will result in a total of 125 possible points. This value will then be converted to a percentage (by dividing by 1.25), and grades will be assigned as follows:
+This will result in a total of 135 possible points. This value will then be converted to a percentage (by dividing by 1.35), and grades will be assigned as follows:
 
 - A : >88
 - A-: 80-88
@@ -272,9 +269,11 @@ This will result in a total of 125 possible points. This value will then be conv
 <a id="exams"></a>
 #### Exams
 
-There will be three exams and a final on the dates shown on the course schedule. You may bring one side of 
+There will be three exams and a final on the dates shown on the course schedule. You may bring a double-sided page of 
 handwritten notes, a nonprogrammable calculator, and writing implements. (Calculators that graph functions
-or solve equations symbolically are not allowed.) 
+or solve equations symbolically are not allowed.) Note that your notes must be *handwritten* by you; photocopies of 
+someone else's notes are not allowed. (If you have a disability that impairs your ability to write, then you may 
+prepare your notes yourself using means accessible to you.)
  **Cellphones,
 smartwatches, and the like may not be used during exams for any reason. Using these devices is presumptive 
 evidence of academic dishonesty. If, due to an emergency situation, you require an exception to this, notify
@@ -283,8 +282,8 @@ me or a proctor before the exam starts.**
 Makeup exams will not be given except in extreme circumstances involving serious disabling illness (not just a cold),
 family emergency, or events of singular
 importance to your personal life that occur on inflexible dates (e.g. your sibling is getting married). If you
-must miss an exam for such a reason, notify Walter or Ohana as far in advance as possible. I may ask for
-documentation. I may either:
+must miss an exam for such a reason, notify one of the professors or the head TA as far in advance as possible. We may ask for
+documentation. We may either:
 
 - assign a time for a makeup exam, written or oral, which will likely be on the following weekend
 - replace your missed exam grade with your grade on the portion of the final corresponding to the same material
@@ -303,7 +302,7 @@ receive a grade. In general, any student who is unable to meaningfully participa
 * legal involvement or proceedings;
 * or international issues
 
-is eligible to take an incomplete in the course. If you think that you may need to take an incomplete, please contact me as soon as possible. 
+is eligible to take an incomplete in the course. If you think that you may need to take an incomplete, please contact us as soon as possible. 
 
 In general, students may *only* take an incomplete if they have finished a substantial portion of the course (two units) with a grade of C+ or better. 
 
@@ -350,10 +349,12 @@ them twice a year during pre-term check-in on MySlice.
 
 ### Students with disabilities
 
-If you believe that you need accommodations for a disability, please contact the Office of Disability Services (ODS)
-at <a href="http://disabilityservices.syr.edu">disabilityservices.syr.edu</a>, located in Room 309 of 8047 University Avenue, or call (315) 443-4498, TDD: (315) 443-1371 for an appointment to discuss your needs and the process for requesting accommodations. ODS is responsible for coordinating disability-related accommodations and will issue students with documented Disabilities Accommodation Authorization Letters, as appropriate. Since accommodations may require early planning and generally are not provided retroactively, please contact ODS as soon as possible.
+Syracuse University values diversity and inclusion; we are committed to a climate of mutual respect and full participation.  There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation in this course.  We invite any student to meet with us to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success and to collaborate with the Office of Disability Services (ODS) in this process.
 
-More generally, if there is anything I can do to help you, whether it is related to a disability, a medical condition, or anything else, please let me know. I have an excellent working relationship with ODS and will do anything in my power to make your experience in my class a good one.
+If you would like to discuss disability-related accommodations with ODS, please visit their website 
+at <a href="http://disabilityservices.syr.edu">disabilityservices.syr.edu</a>, visit them in person in Room 309 of 8047 University Avenue, or call (315) 443-4498, TDD: (315) 443-1371 for an appointment to discuss your needs and the process for requesting accommodations. ODS is responsible for coordinating disability-related accommodations. Since accommodations may require early planning and generally are not provided retroactively, please contact ODS as soon as possible.
+
+More generally, if there is anything we can do to help you, whether it is related to a disability, a medical condition, or something else, please let us know. We have an excellent working relationship with ODS and will do anything in my power to make your experience in my class a good one.
 
 <a id="excuses"></a>
 
@@ -361,15 +362,37 @@ More generally, if there is anything I can do to help you, whether it is related
 
 ### Religious observances and excused absences
 
-*(The following is common to all SU classes)*
+We anticipate that students will occasionally need to miss class for events occurring on inflexible dates that are of singular 
+importance to their education, their families, their health or the health of others, their careers, their
+religious faith or life stance, or their participation in the 
+democratic process. These absences will be excused (i.e. missing recitation or class for these reasons will not count against your 
+participation grade).
 
-SU’s religious observances notification and policy, found at http://hendricks.syr.edu/spiritual-life/index.html, recognizes the diversity of faiths represented among the campus community and protects the rights of students, faculty, and staff to observe religious holidays according to their tradition. Under the policy, students are provided an opportunity to make up any examination, study, or work requirements that may be missed due to a religious observance provided they notify their instructors before the end of the second week of classes. An online notification process is available for students in My Slice / StudentServices / Enrollment / MyReligiousObservances / Add a Notification.
+These excused absences are generally: 
 
-*(The following is specific to Physics 211)*
+* Religious observances (declared in advance on MySlice during the first two weeks of class)
 
-Events of equal solemnity to major religious observances, occurring on inflexible dates, will be given the same deference as religious observances.
-This includes weddings and commitment ceremonies of immediate family members, funerals, caregiving duties for sick family members, and the like. Note that I consider romantic partners and exceptionally close friends to be family.
+* Personal events of equal solemnity to major religious observances occurring on inflexible dates. This includes weddings and commitment ceremonies of close family members, funerals, and the like.
 
-Note that attendance at political demonstrations occurring on inflexible dates or in response to ongoing events of significant gravity, regardless of affiliation or cause, will also be treated as such an event.
+* Caregiving duties for sick family members, other family emergencies, or singularly-important events
 
-If you need to miss class for such a reason, please notify Dr. Freeman as far in advance as practical to discuss arrangements.
+* Illness or injury that jeopardizes your health or the health of others if you come to class
+
+* Attendance at academic events (for instance, travel to an academic conference, participation in a seminar, performance in the marching band or a student ensemble, etc.).
+
+* Attendance at a professional development opportunity (a career fair, a job interview, a ROTC event)
+
+* Participation in the political process (canvassing for a campaign, attendance at a scheduled demonstration or a spontaneous one in response to current events)
+
+If you must miss recitation for such a reason, please notify your recitation instructor in advance if possible. If you must miss an
+*exam* for such a reason, please talk to one of the professors to make arrangements.
+
+
+Absence from class for recreational activities unrelated to academics, professional development, or solemn family life will not be excused. Unexcused absences include:
+
+* Any Greek Life event (any activity put on by a Greek-letter organization, with the exception of purely academic honor societies)
+
+* Any athletic event (as an athlete or a spectator), whether NCAA-sanctioned or not.
+
+* Weather (unless you are a commuter student who cannot get to campus safely or campus is closed)
+
