@@ -7,21 +7,12 @@ title: Announcements
 
 ### Current lecture slides
 
-<a href="slides/lecture26.pdf">Review, recap, and next steps</a>
+<a href="slides/lecture1.pdf">Welcome!</a>
 
 ### Upcoming assignments:
 
-<a href="hw/hw9.pdf">Homework 9</a>, due 30 April
-
-The paper, due 29 April.
-
-**NOTE: Submit your paper to your TA's mailbox and email it to <suphysics211papers@gmail.com>.**
-
-### Final exam review information:
-
-* Tuesday, 30 April: 4PM - 8PM, Physics Building room 208
-* Wednesday, 1 May: 10AM - 3PM, Physics Building room 106
-* Friday, 3 May: 10AM - 4PM, Link 114
+- Fill out the [course survey](https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/)
+- [Homework 1](hw/hw1.pdf) is posted and is due Wednesday, January 22
  
 
 ### Information
@@ -31,14 +22,17 @@ The paper, due 29 April.
    - **Professor**: Dr. Walter Freeman, <wafreema@syr.edu>, Physics Building room 215
    - **Lead TA**: Ohana Benevides Rodrigues, <obenevid@syr.edu>
    - **Recitation TA's:**
-        - Merrill Asp, <masp01@syr.edu> 
-        - Bradley Cole, <bgcole@syr.edu> 
-        - Julia Gianni, <jagianni@syr.edu> 
-        - Alexander Hartwell, <arhartwe@syr.edu> 
-        - Kesavan Manivannan, <kmanivan@syr.edu> 
-        - Emily Syracuse, <ecsyracu@syr.edu> 
-        - Xuan Zheng, <xzhen101@syr.edu> 
+      * Merrill Asp, head TA, <masp01@syr.edu>
+      * Vidyesh Rao Anisetti, <vvaniset@syr.edu>
+      * Ahmed Bahar, <asbahar@syr.edu>
+      * Soumik Banerjee, <sbaner03@syr.edu>
+      * Prashali Chauhan, <prchauha@syr.edu>
+      * Kevin Ching, <keching@syr.edu>
+      * Mingwei Dai, <mdai07@syr.edu>
+      * Seth Kelly, <skell101@syr.edu>
+      * Mario Olivares, <maolivar@syr.edu>
    - **Undergraduate coaches:** Too many to list here :)
+
    
 ---
 

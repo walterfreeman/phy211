@@ -10,44 +10,46 @@ use_math: true
 This calendar is tentative and might change based on your input. Exam dates will not change without overwhelming consensus, but topics might be adjusted if the calendar changes.
 
 Note that the textbook does not track our presentation exactly; I've chosen the order of topics to simplify things for you, but that makes it a bit tougher to follow along in the book.
+
+Links to lecture slides will go live the night before or the morning of class.
   
 <br><br>
 
+|-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
+| Class Date  | Topics                                                                                                           | Textbook sections              |
+|:-----------:|:----------------------------------------------------------------------------------------------------------------:|:------------------------------:|
+| 14 January  | <a href="slides/lecture1.pdf">Introduction; what is physics?; dimensions and units; Fermi problems</a>           | 1.1-1.5                        |
+| 16 January  | <a href="slides/lecture2.pdf">"Equations of motion"; acceleration; all the calculus you need"</a>                | 3.1-3.3; 3.6                   |
+| 21 January  | <a href="slides/lecture3.pdf">Asking questions in physics; describing rotation; objects in freefall.</a>         | 3.4-3.5                        |
+| 23 January  | <a href="slides/lecture4.pdf">Describing things with direction: Vectors. Motion in two dimensions.</a>           | 2.1-2.3                        |
+| 28 January  | <a href="slides/lecture5.pdf">Projectile motion problems</a>                                                     | 4.1-4.3                        |
+| 30 January  | <a href="slides/lecture6.pdf">Review for Exam 1</a>                                                              |                                |
+| 4 February  | **EXAM 1**                                                                                                       |                                |
+| 6 February  | <a href="slides/lecture7.pdf">Introduction to Newton’s second law</a>                                            | 5.1; 5.3; 5.7                  |
+| 11 February | <a href="slides/lecture8.pdf">Solving problems with Newton’s second and third laws</a>                           | 5.4-5.6                        |
+| 13 February | <a href="slides/lecture9.pdf">Friction; more practice problems</a>                                               | 6.1-6.2                        |
+| 18 February | <a href="slides/lecture10.pdf">Acceleration in circular motion</a>                                               | 6.3                            |
+| 20 February | <a href="slides/lecture11.pdf">Universal gravitation; solving problems involving uniform circular motion</a>     | 13.1                           |
+| 25 February | <a href="slides/lecture12.pdf">Torque and rotational inertia: analogues to force and mass. Further practice.</a> | 10.7                           |
+| 27 February | <a href="slides/lecture13.pdf">Review for Exam 2</a>                                                             |                                |
+| 3 March     | **EXAM 2**                                                                                                       |                                |
+| 5 March     | <a href="slides/lecture14.pdf">The impulse-momentum theorem; conservation of momentum in one dimension</a>       | 9.1-9.3                        |
+| 10 March    | <a href="slides/lecture15.pdf">Conservation of momentum in two dimensions</a>                                    | 9.5                            | 
+| 12 March    | <a href="slides/lecture16.pdf">The work-energy theorem</a>                                                       | 7.1-7.3                        |
+| 24 March    | <a href="slides/lecture17.pdf">The conservation of energy; potential energy; rotational kinetic energy</a>       | 7.4; 8.1-8.3                   |
+| 26 March    | <a href="slides/lecture18.pdf">Combining conservation of momentum and energy</a>                                 | 9.4                            |
+| 31 March    | <a href="slides/lecture19.pdf">Angular momentum; an introduction to the process of science</a>                   | 11.2-11.3                      |
+| 2 April     | <a href="slides/lecture20.pdf">Review for Exam 3</a>                                                             |                                |
+| 7 April     | **EXAM 3**                                                                                                       |                                |
+| 9 April     | <a href="slides/lecture21.pdf">Recognizing pseudoscience</a>                                                     |                                |
+| 14 April    | <a href="slides/lecture22.pdf">Calculating torque; static equilibrium problems</a>                               | 10.3                           | 
+| 16 April    | <a href="slides/lecture23.pdf">More on static equilibrium; rotational dynamics</a>                               | 10.7-10.8                      |
+| 21 April    | <a href="slides/lecture24.pdf">Combinations of translational and rotational motion; rolling</a>                  | 11.1                           |
+| 23 April    | <a href="slides/lecture25.pdf">Waves, oscillations, and acoustics</a>                                            | TBD                            |
+| 28 April    | <a href="slides/lecture26.pdf">Review for the final exam; course retrospective</a>                               |                                |
+| 4 May       | **FINAL EXAM:** Stolkin Auditorium or location TBA, 3-5 PM                                                       |                                |
+|----------+---------------------------------------------------------------------------------------------------------------------+--------------------------------+
 
-| Class Date    | Topics                                                  | Textbook sections              |
-|:-------------:|:-------------------------------------------------------:|:------------------------------:|
-| 14 January | <a href="slides/lecture1.pdf">Introduction; what is physics?; dimensions and units; Fermi problems</a> | 1.1-1.5 |
-| 16 January | <a href="slides/lecture2.pdf">"Equations of motion"; acceleration; all the calculus you need"</a> | 3.1-3.3; 3.6 |
-| 21 January | <a href="slides/lecture3.pdf">Asking questions in physics; describing rotation; objects in freefall.</a> | 3.4-3.5 |
-| 23 January | <a href="slides/lecture4.pdf">Describing things with direction: Vectors. Motion in two dimensions.</a> | 2.1-2.3 |
-| 28 January | <a href="slides/lecture5.pdf">Projectile motion problems</a> | 4.1-4.3 |
-| 30 January | <a href="slides/lecture6.pdf">Review for Exam 1</a> |  |
-| 4 February | **EXAM 1** |  |
-| 6 February | <a href="slides/lecture7.pdf">Introduction to Newton’s second law</a> | 5.1; 5.3; 5.7 |
-| 11 February | <a href="slides/lecture8.pdf">Solving problems with Newton’s second and third laws</a> | 5.4-5.6 |
-| 13 February | <a href="slides/lecture9.pdf">Friction; more practice problems</a> | 6.1-6.2 |
-| 18 February | <a href="slides/lecture10.pdf">Acceleration in circular motion</a> | 6.3 |
-| 20 February | <a href="slides/lecture11.pdf">Universal gravitation; solving problems involving uniform circular motion</a> | 13.1 |
-| 25 February | <a href="slides/lecture12.pdf">Torque and rotational inertia: analogues to force and mass</a> |  |
-| 27 February | <a href="slides/lecture13.pdf">Review for Exam 2</a> | 10.7 |
-| 3 March | **EXAM 2** |  |
-| 5 March | <a href="slides/lecture14.pdf">A historical perspective on mechanics; empiricism and the “laws of nature”</a> |  |
-| 10 March | <a href="slides/lecture15.pdf">The impulse-momentum theorem; conservation of momentum in one dimension</a> | 9.1-9.3 |
-| 12 March | <a href="slides/lecture16.pdf">Conservation of momentum in two dimensions| 8.1-8.3 |
-| 24 March | <a href="slides/lecture17.pdf">The work-energy theorem</a> | 10.4 |
-| 26 March | <a href="slides/lecture18.pdf">The conservation of energy; potential energy; rotational kinetic energy</a> | 9.1-9.4 |
-| 31 March | <a href="slides/lecture19.pdf"></a> Combining conservation of momentum and energy| 9.5 |
-| 2 April | <a href="slides/lecture20.pdf">Review for Exam 3</a> |  |
-| 7 April | **EXAM 3** |  |
-| 9 April | <a href="slides/lecture21.pdf">Recognizing pseudoscience</a> |  |
-| 14 April | <a href="slides/lecture22.pdf">Calculating torque; static equilibrium problems</a> | "10.3 |
-| 16 April | <a href="slides/lecture23.pdf">More on static equilibrium; rotational dynamics</a> | 10.7-10.8 |
-| 21 April | <a href="slides/lecture24.pdf">Process-of-science discussion; rolling motion</a> | 11.1 |
-| 23 April | <a href="slides/lecture25.pdf">Combinations of translational and rotational motion; practice problems</a> |  |
-| 28 April | <a href="slides/lecture26.pdf">Review for the final exam; course retrospective</a> |  |
-===============+=========================================================+=====================+
-| 6 May | **FINAL EXAM:** Stolkin Auditorium or Life Sciences Building |  3-5 PM |
-|--------------------------------------------------------------------------------------------------------+-------------------------+--------------+
 
 
 

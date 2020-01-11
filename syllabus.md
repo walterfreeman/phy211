@@ -14,10 +14,11 @@ use_math: true
 * [Learning objectives](#material)
 * [Activities](#activities)
   * [Recitations](#homework)
+  * [Readings](#readings)
   * [Lectures](#lectures)
-  * [Quizzes](#quizzes)
   * [Homework](#homework)
   * [Labs](#labs)
+  * [Help sessions](#help)
 * [Grading](#grading)
   * [Exams](#exams)
   * [Incompletes](#incompletes)
@@ -25,10 +26,10 @@ use_math: true
   * [Academic integrity](#integrity)
   * [Students with disabilities](#disability)
   * [Religious observances and excused absences](#excuses)
- <a id="contact"></a>
 
 ---
 
+ <a id="contact"></a>
 ### Contact Information
 
 -   Professors: 
@@ -36,14 +37,21 @@ use_math: true
     - Matt Rudolph, <msrudolp@syr.edu>, Physics Building 325
 -   Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium 
 -   Help sessions (office hours): 
-    - Walter: Friday 9:30-11:30 AM, others TBD; held in the Physics Clinic, Physics Building room 112
     - Matt:  
+    - Walter: Friday 9:30-11:30 AM, others TBD; held in the Physics Clinic, Physics Building room 112
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
 -   Recitation TA's:
-	
+    * Merrill Asp, head TA, <masp01@syr.edu>
+    * Vidyesh Rao Anisetti, <vvaniset@syr.edu>
+    * Ahmed Bahar, <asbahar@syr.edu>
+    * Soumik Banerjee, <sbaner03@syr.edu>
+    * Prashali Chauhan, <prchauha@syr.edu>
+    * Kevin Ching, <keching@syr.edu>
+    * Mingwei Dai, <mdai07@syr.edu>
+    * Seth Kelly, <skell101@syr.edu>
+    * Mario Olivares, <maolivar@syr.edu>
 
 ---
-
 
 <a id="books"></a>
 
@@ -228,6 +236,7 @@ You may also ask your lab TA or Sam Sampere (smsamper@syr.edu). (You may, of cou
 any of us questions about the
 *physics* of things you do in lab.)
 
+<a id="help"></a>
 #### Help Sessions
 
 These help sessions are opportunities for you to interact with us and the rest of the teaching team in small groups or individually. (Some folks call them "office hours".) If you have questions or suggestions, need help with your homework or with studying, or just want to chat, this is a great opportunity. They will be held in the Physics Clinic, room 112, or elsewhere as announced.
@@ -383,9 +392,9 @@ These excused absences are generally:
 
 * Attendance at academic events (for instance, travel to an academic conference, participation in a seminar, performance in the marching band or a student ensemble, etc.).
 
-* Attendance at a professional development opportunity (a career fair, a job interview, a ROTC event)
+* Attendance at a professional development opportunity (a career fair, a job interview, a ROTC event) or work emergencies
 
-* Participation in the political process (canvassing for a campaign, attendance at a scheduled demonstration or a spontaneous one in response to current events)
+* Participation in the political process (canvassing for a campaign, attendance at a scheduled demonstration or a spontaneous one in response to developing events)
 
 If you must miss recitation for such a reason, please notify your recitation instructor in advance if possible. If you must miss an
 *exam* for such a reason, please talk to one of the professors to make arrangements.
@@ -393,7 +402,7 @@ If you must miss recitation for such a reason, please notify your recitation ins
 
 Absence from class for recreational activities unrelated to academics, professional development, or solemn family life will not be excused; these absences will count against your four dropped recitation participation grades. Unexcused absences include:
 
-* Any Greek Life event (any activity put on by a Greek-letter organization, with the exception of purely academic honor societies)
+* Any Greek Life event (any activity put on by a Greek-letter organization, with the exception of purely academic honor societies that accept all students regardless of gender and do not maintain a house)
 
 * Any athletic event (as an athlete or a spectator), whether NCAA-sanctioned or not. (If you must miss an *exam* for a NCAA-sponsored athletic event, come talk to us; we may be able to make arrangements for you to take it on the road.)
 
