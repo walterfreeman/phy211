@@ -8,6 +8,13 @@ use_math: true
 
 <a href="recitation-guidelines.html">Recitation and homework guidelines</a>
 
+<br><br>
+
+<a href="recitation/recitation-units-motion.pdf">Week 1 Wednesday: doing mathematics with units and dimensions</a><br>
+<a href="recitation/recitation-1D-motion-1.pdf">Week 1 Friday: motion in 1D, part 1</a>
+
+
+<!--
 
 <a href="recitation/rec1.pdf">Week 1 Wednesday: Fermi problems</a><br>
 <a href="recitation/recitation-1D-motion-1.pdf">Week 1 Friday: 1D motion, part 1</a> and its <a href="recitation/Recitation2-solutions.pdf">solutions</a> written by Merrill. <br><br>
@@ -34,3 +41,5 @@ use_math: true
 
 <a href="recitation/recitation-2019-torque-1.pdf">Week 11 Wednesday/Friday</a><br><br>
 <a href="recitation/recitation-torque-week2.pdf">Week 12 Wednesday/Friday</a>
+
+-->

@@ -5,15 +5,13 @@ use_math: true
 title: Announcements
 ---
 
-### Current lecture slides
-
-<a href="slides/lecture1.pdf">Welcome!</a>
+  <a href="slides/lecture1.pdf">Welcome!</a>
 
 ### Upcoming assignments:
 
 - Fill out the [course survey](https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/)
 - [Homework 1](hw/hw1.pdf) is posted and is due Wednesday, January 22
- 
+
 
 ### Information
 
@@ -33,7 +31,7 @@ title: Announcements
       * Mario Olivares, <maolivar@syr.edu>
    - **Undergraduate coaches:** Too many to list here :)
 
-   
+ 
 ---
 
 <br>

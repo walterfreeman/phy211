@@ -3,6 +3,7 @@
 \usepackage{fullpage}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{tikz}
 \setlength{\parskip}{4mm}
 \usepackage[left=2cm, right=2cm, top=1.5cm, bottom=1cm]{geometry}
 \def\LL{\left\langle}   % left angle bracket
@@ -54,18 +55,38 @@
 
 \BS
 
-Two runners, Alice and Bob, start at opposite ends of a hundred-meter long soccer pitch and sprint toward each other. Alice runs at 8 m/s and starts on the east side, while Bob runs at 6 m/s and starts at the west side. Bob has a 2s head start. You'd like to know where they'll meet.
+Two runners, Alice and Bob, start at opposite ends of a hundred-meter long soccer pitch and sprint toward each other. Alice runs at 8 m/s and starts on the east side, while Bob runs at 6 m/s and starts at the west side. You'd like to know where they'll meet.
 
 \begin{enumerate}
 
 \item Draw position vs. time graphs for both runners on a single set of axes.
 
-\vspace{3in}
+
+
+\begin{tikzpicture}[scale=1.5]
+\pgfmathsetmacro{\xmin}{0}
+\pgfmathsetmacro{\xmax}{10}
+\pgfmathsetmacro{\ymin}{0}
+\pgfmathsetmacro{\ymax}{10}
+
+\coordinate (o) at (0,0);
+
+\draw[thick,stealth-] (\xmin,0) +(-0.5,0) -- (\xmax,0);
+\draw[thick,-stealth] (\xmax,0) -- +(0.5,0);
+\draw[thick,stealth-] (0,\ymin) +(0,-0.5) -- (0,\ymax);
+\draw[thick,-stealth] (0,\ymax) -- +(0,0.5);
+
+\draw[black!70] (\xmin,\ymin) grid (\xmax, \ymax);
+
+
+\end{tikzpicture}
+
+
 
 \item Write position vs. time equations ($x=x_0 + vt$) for both runners. Use subscripts to distinguish their positions, \ie $x_A$ and $x_B$. Hint: Think carefully about their velocities...
 
-\vspace{1in}
-\newpage
+\vspace{1.5in}
+
 \item In this entire unit, the main challenge will be translating the question (``where will they meet?'') into a sentence that involves your algebraic variables. This sentence will then become your recipe for solving the problem.
 Often, but not always, this will take the following form: 
 
@@ -76,11 +97,15 @@ Often, but not always, this will take the following form:
 Fill in the blanks in the above sentence to get a recipe for figuring out where the runners will meet.
 
 \item Do the algebra indicated by your recipe and figure out where they will meet.
+
+\vspace{3in}
+
+\item Suppose that instead Bob had a 2 second head start. What would change in your graphs? What would change in your algebra? (Discuss in words and symbols; you don't need to do the arithmetic again.)
 \end{enumerate}
 
 
 \vspace{3in}
-
+\newpage
 \centerline{\Large Question 2: Motion with acceleration}
 
 In class, you learned the kinematics relations
@@ -92,35 +117,10 @@ v(t) &=& v_0 + at
 
 These relations aren't generally true, however; they are true only in a specific case. What must be true about the object's acceleration for these relations to apply?
 
+\vspace{1.2in}
 \newpage
 
-
-\centerline{\Large Question 3: A bouncing basketball}
-
-Consider a basketball bouncing on the floor.
-
-Draw position vs. time, velocity vs. time, and acceleration vs. time graphs for the ball on the next page.
-
-Look at your graphs carefully and make sure they are self-consistent:
-
-
-\BI
-    \item Regions of constant acceleration should correspond to places where the velocity graph is a straight line (are there any?)
-    \item Regions of constant velocity should correspond to places where the position graph is a straight line (are there any?)
-    \item Places where the position graph is flat should correspond to $v=0$. (are there any?)
-    \item Remember, the slope of the position graph is the value of the velocity graph; the slope of the velocity graph is the value of the acceleration graph
-\EI
-      
-Note: This is quite tricky! As with all problems in recitation, work together with your peers and ask your TA/coach for guidance if you have questions.
-
-\newpage
-\begin{center}
-(This page left blank for your graphs.)
-\end{center}
-
-\newpage
-
-\centerline{\Large Question 4: a braking car}
+\centerline{\Large Question 3: a braking car}
 
 A car is traveling at 30 m/s and applies its brakes to slow down to 10 m/s. If it is able to decelerate at 5 $\rm m/\rm s^2$, how far does it travel during the braking period?
 
@@ -150,14 +150,60 @@ A car is traveling at 30 m/s and applies its brakes to slow down to 10 m/s. If i
 
 \item Finally, how far does the car travel during the braking period?
 
+\newpage
+
+\centerline{\Large Question 4: A bouncing basketball}
+
+Consider a basketball bouncing on the floor.
+
+Draw position vs. time, velocity vs. time, and acceleration vs. time graphs for the ball on the next page.
+
+Look at your graphs carefully and make sure they are self-consistent:
+
+
+\BI
+    \item Regions of constant acceleration should correspond to places where the velocity graph is a straight line (are there any regions where the acceleration is constant? Are there any regions where it is something different?)
+    \item Regions of constant velocity should correspond to places where the position graph is a straight line (are there any?)
+    \item Places where the position graph is flat should correspond to $v=0$. (are there any?)
+    \item Remember, the slope of the position graph is the value of the velocity graph; the slope of the velocity graph is the value of the acceleration graph. This means:
+    \begin{itemize}
+    	\item If the velocity is positive, the position graph should be going up
+    	\item If the velocity is negative, the position graph should be going down
+    	\item If the acceleration is positive, the velocity should be going up, and the position graph should be concave upwards
+    	\item If the acceleration is negative, the velocity should be going down, and the position graph should be concave downwards
+    \end{itemize}
+\EI
+     
+
+Note: This is quite tricky! As with all problems in recitation, work together with your peers and ask your TA/coach for guidance if you have questions.
 
 
 
-
-\vspace*{\fill}
+\newpage
 \begin{center}
-\bf NOTE: We will return to this problem next week. If you finish it, save this page for reference. If you don't finish, that's okay.
+	\includegraphics[width=\textwidth]{position-crop.pdf}
+	
+	\vspace{0.4in}
+	
+	\includegraphics[width=\textwidth]{velocity-crop.pdf}
+	
+	\vspace{0.4in}
+	
+	\includegraphics[width=\textwidth]{acceleration-crop.pdf}
 \end{center}
+\vspace{1in}
+
+
+
+
+
+
+
+
+\newpage
+
+
+
 
 \end{enumerate}
 
