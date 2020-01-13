@@ -17,10 +17,11 @@ title: Announcements
 
 - Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium
 - Teaching staff:
-   - **Professor**: Dr. Walter Freeman, <wafreema@syr.edu>, Physics Building room 215
-   - **Lead TA**: Ohana Benevides Rodrigues, <obenevid@syr.edu>
+   - **Professors**:
+      * Prof. Matt Rudolph, <msrudolp@syr.edu>, Physics Building room 325
+      * Prof. Walter Freeman, <wafreema@syr.edu>, Physics Building room 215
+   - **Lead TA**: Merrill Asp, <masp01@syr.edu>
    - **Recitation TA's:**
-      * Merrill Asp, head TA, <masp01@syr.edu>
       * Vidyesh Rao Anisetti, <vvaniset@syr.edu>
       * Ahmed Bahar, <asbahar@syr.edu>
       * Soumik Banerjee, <sbaner03@syr.edu>

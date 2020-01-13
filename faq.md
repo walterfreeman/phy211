@@ -34,7 +34,7 @@ use_math: true
 <a id="contact"></a>
 #### [Who's teaching this class, what do they all do, and how do I contact them?](#contact)
 
-The **professors** are Matt Rudolph (<marudolp@syr.edu>, room 325) and Walter Freeman (<wafreema@syr.edu>, room 215). We are in charge of giving the lectures, writing materials, 
+The **professors** are Matt Rudolph (<msrudolp@syr.edu>, room 325) and Walter Freeman (<wafreema@syr.edu>, room 215). We are in charge of giving the lectures, writing materials, 
 helping students learn physics or in any other way we can, helping grade exams, and 
 leading the course as a whole. You can email us, find us before or after class, or come to help hours 
 in the Physics Clinic. We also might be in our offices.
