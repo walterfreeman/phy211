@@ -30,6 +30,7 @@ use_math: true
 ---
 
  <a id="contact"></a>
+
 ### Contact Information
 
 -   Professors: 
