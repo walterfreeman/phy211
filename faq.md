@@ -72,7 +72,7 @@ The **undergraduate coaches** are undergraduate students like yourself who took 
 Talk to the undergraduate coaches if:
 
 * You have a question about physics
-* You want advice on studying (they were in your shoes pretty recently and can give the best advice!)
+* You want advice on studying (they were in your shoes pretty recently and can give the best advice of any of us!)
 
 ---
 <a id="book"></a>

@@ -23,7 +23,7 @@ title: Announcements
    - **Lead TA**: Merrill Asp, <masp01@syr.edu>
    - **Recitation TA's:**
       * Vidyesh Rao Anisetti, <vvaniset@syr.edu>
-      * Ahmed Bahar, <asbahar@syr.edu>
+      * Ahmet Bahar, <asbahar@syr.edu>
       * Soumik Banerjee, <sbaner03@syr.edu>
       * Prashali Chauhan, <prchauha@syr.edu>
       * Kevin Ching, <keching@syr.edu>
