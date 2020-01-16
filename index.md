@@ -5,12 +5,12 @@ use_math: true
 title: Announcements
 ---
 
-  <a href="slides/lecture1.pdf">Welcome!</a>
+  <a href="slides/lecture2.pdf">Free fall, and other motion with constant acceleration</a>
 
 ### Upcoming assignments:
 
 - Fill out the [course survey](https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/)
-- [Homework 1](hw/hw1.pdf) is posted and is due Wednesday, January 22
+- [Homework 1](hw/hw1.pdf) is posted. **The due date has been extended to Friday, January 22**.
 
 ### Upcoming help hours:
 

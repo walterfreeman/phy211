@@ -6,5 +6,5 @@ permalink: homework.html
 use_math: true
 ---
 
-<a href="hw/hw1.pdf">Homework 1, due Wednesday, January 22</a><br>
+<a href="hw/hw1.pdf">Homework 1, due Friday, January 24</a><br>
 
