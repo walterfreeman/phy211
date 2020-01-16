@@ -12,6 +12,11 @@ title: Announcements
 - Fill out the [course survey](https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/)
 - [Homework 1](hw/hw1.pdf) is posted and is due Wednesday, January 22
 
+### Upcoming help hours:
+
+* Prof. Rudolph in the Physics Clinic, 2-4 PM on Friday
+* Prof. Freeman in the Physics Clinic, 2-4 next Tuesday
+* There is almost always a grad student tutor in the Physics Clinic, so stop by!
 
 ### Information
 
@@ -23,13 +28,13 @@ title: Announcements
    - **Lead TA**: Merrill Asp, <masp01@syr.edu>
    - **Recitation TA's:**
       * Vidyesh Rao Anisetti, <vvaniset@syr.edu>
-      * Ahmet Bahar, <asbahar@syr.edu>
       * Soumik Banerjee, <sbaner03@syr.edu>
       * Prashali Chauhan, <prchauha@syr.edu>
       * Kevin Ching, <keching@syr.edu>
       * Mingwei Dai, <mdai07@syr.edu>
       * Seth Kelly, <skell101@syr.edu>
       * Mario Olivares, <maolivar@syr.edu>
+      * Zhiwen Sun, <zsun31@syr.edu>
    - **Undergraduate coaches:** Too many to list here :)
 
  

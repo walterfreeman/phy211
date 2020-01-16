@@ -8,6 +8,8 @@ use_math: true
 
 ## Physics 211 Frequently Asked Questions
 
+* [What and where is the Physics Clinic?](#clinic)
+* [How do I turn in my homework?](#hwturnin)
 * [Who's teaching this class, what do they all do, and how do I contact them?](#contact)
 * [How do I get the textbook, and do I need it?](#book)
 * [What math skills will I need?](#math)
@@ -31,6 +33,24 @@ use_math: true
 
 ---
 
+<a id="hwturnin"></a>
+
+* [How do I turn in my homework?](#hwturnin)
+Give it to your recitation TA at the beginning of recitation. Make sure that:
+
+* you have put your name on your work 
+* you have stapled it
+* you have done each problem on a separate side of paper (so two problems are on each sheet of paper, one front and one back)
+
+
+<a id="clinic"></a>
+
+* [What and where is the Physics Clinic?](#clinic)
+
+The Physics Clinic is room 112. It's where we hold our help sessions, but at other times you can find a tutor there as well.
+
+You will likely find people working on the same homework as you if you go there, and you can work together!
+
 <a id="contact"></a>
 #### [Who's teaching this class, what do they all do, and how do I contact them?](#contact)
 
@@ -52,13 +72,13 @@ They also hold help hours in the Physics Clinic.
 
 * Merrill Asp, head TA, <masp01@syr.edu>
 * Vidyesh Rao Anisetti, <vvaniset@syr.edu>
-* Ahmet Bahar, <asbahar@syr.edu>
 * Soumik Banerjee, <sbaner03@syr.edu>
 * Prashali Chauhan, <prchauha@syr.edu>
 * Kevin Ching, <keching@syr.edu>
 * Mingwei Dai, <mdai07@syr.edu>
 * Seth Kelly, <skell101@syr.edu>
 * Mario Olivares, <maolivar@syr.edu>
+* Zhiwen Sun, <zsun31@syr.edu>
 
 Contact the recitation TA's if:
 

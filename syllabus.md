@@ -44,13 +44,13 @@ use_math: true
 -   Recitation TA's:
     * Merrill Asp, head TA, <masp01@syr.edu>
     * Vidyesh Rao Anisetti, <vvaniset@syr.edu>
-    * Ahmet Bahar, <asbahar@syr.edu>
     * Soumik Banerjee, <sbaner03@syr.edu>
     * Prashali Chauhan, <prchauha@syr.edu>
     * Kevin Ching, <keching@syr.edu>
     * Mingwei Dai, <mdai07@syr.edu>
     * Seth Kelly, <skell101@syr.edu>
     * Mario Olivares, <maolivar@syr.edu>
+    * Zhiwen Sun, <zsun31@syr.edu>
 
 ---
 
