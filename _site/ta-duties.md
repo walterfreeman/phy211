@@ -2,6 +2,8 @@
 
 Welcome to the Physics 211 teaching team! This document will serve both as an introduction to your duties and as a reference during the semester.
 
+This document is written for TA's but all the information in it (other than grading) applies to coaches as well.
+
 
 *This is possibly the most important TA assignment in the whole department.* About sixty students in your recitation sections will be exploring physics for the first time, and you will be the most valuable guide that they will have. This class is a large undertaking: we have five hundred students and a teaching team of more than thirty people, all working toward a common purpose: helping five hundred new students gain both physics skills and an appreciation for the beauty of our field. We want them to leave our class knowing the basics of Newtonian mechanics -- but also thinking that physicists are friendly people and that physics is a field they can succeed in and that welcomes them.
 
@@ -9,7 +11,7 @@ Welcome to the Physics 211 teaching team! This document will serve both as an in
 
 We'll all be working closely together this semester (professors, TA's, coaches, and students), and it's vitally important that we do this in a supportive, collegial, positive way. If you have any suggestions for how we can improve things, please let me know. Also, if you need help or support of any kind -- someone to cover your class while you're sick or while you study for a hard exam, advice for any issues that arise -- please ask. 
 
-I see GTA's as *junior professional instructors*, not as minions. You all will have your own ideas about how best to run things in your own recitations. That's fantastic: as teaching professionals in your own right, you *should* have your own ideas and act on them. If you want to "get off script" -- if you see a need to do something different than we've planned in order to best help your students learn -- please feel free to do itbully. (Let us know afterwards, of course!) Any input or feedback you have on our course is extremely valuable. 
+I see GTA's and coaches as *junior professional instructors*, not as minions. You all will have your own ideas about how best to run things in your own recitations. That's fantastic: as teaching professionals in your own right, you *should* have your own ideas and act on them. If you want to "get off script" -- if you see a need to do something different than we've planned in order to best help your students learn -- please feel free to do itbully. (Let us know afterwards, of course!) Any input or feedback you have on our course is extremely valuable. 
 
 In our class, you will have a few main duties:
 
@@ -20,7 +22,7 @@ In our class, you will have a few main duties:
 * Proctor and grade exams
 * Grade papers
 
-I'll discuss each of these in detail at the end.
+I'll discuss each of these in detail at the end. (Caches will only proctor exams, attend recitations, and come to staff meetings.)
 
 
 #### Interacting With Students
@@ -51,6 +53,8 @@ However, if you're going to miss a recitation section without much warning -- yo
 * If it becomes apparent you're going to be more than five minutes late and nobody can cover, email your students.
 
 If you have a student who is being disruptive and won't stop, you may ask them to leave your class. If a student is being *extremely* disruptive to the point where it jeopardizes the wellbeing of the other folks in the room, please do whatever you need to do to protect your safety and the safety of your students, including calling the Department of Public Safety at (315) 443 2224. (This is very rare but it has happened).
+
+**Coaches**: If your TA does not show up, and you are the only person there, send a quick message to Slack and ping @channel, and go on teaching. If there are multiple coaches, the most junior coach should try to contact someone while the rest teach.
 
 
 #### Course Rhythm
