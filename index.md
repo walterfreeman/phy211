@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-  <a href="slides/lecture2.pdf">Free fall, and other motion with constant acceleration</a>
+  <a href="slides/lecture3.pdf">Motion problems</a>
 
 ### Upcoming assignments:
 
