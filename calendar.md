@@ -21,7 +21,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 14 January  | <a href="slides/lecture1.pdf">Introduction; what is physics?; dimensions and units; Fermi problems</a>           | 1.1-1.5                        |
 | 16 January  | <a href="slides/lecture2.pdf">"Equations of motion"; acceleration; all the calculus you need"</a>                | 3.1-3.3; 3.6                   |
 | 21 January  | <a href="slides/lecture3.pdf">Motion problems</a>; <a href="slides/lecture3_example_scans.pdf">scans of examples</a>                            | 3.4-3.5                        |
-| 23 January  | Describing things with direction: Vectors. Motion in two dimensions.           | 2.1-2.3; 4.1-4.2                        |
+| 23 January  | <a href="slides/lecture4.pdf">Describing things with direction: Vectors. Motion in two dimensions.</a>           | 2.1-2.3; 4.1-4.2                        |
 | 28 January  | Projectile motion problems                                                     | 4.3                        |
 | 30 January  | Review for Exam 1                                                              |                                |
 | 4 February  | **EXAM 1**                                                                                                       |                                |

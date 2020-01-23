@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-  <a href="slides/lecture3.pdf">Motion problems</a>
+  <a href="slides/lecture4.pdf">Vectors: doing math with directions</a>
 
 ### Upcoming assignments:
 
