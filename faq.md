@@ -76,7 +76,7 @@ They also hold help hours in the Physics Clinic.
 * Prashali Chauhan, <prchauha@syr.edu>
 * Kevin Ching, <keching@syr.edu>
 * Mingwei Dai, <mdai07@syr.edu>
-* Seth Kelly, <skell101@syr.edu>
+* Kesavan Manivannan, <kmanivan@syr.edu>
 * Mario Olivares, <maolivar@syr.edu>
 * Zhiwen Sun, <zsun31@syr.edu>
 

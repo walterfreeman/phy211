@@ -10,7 +10,9 @@ title: Announcements
 ### Upcoming assignments:
 
 - Fill out the [course survey](https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/)
-- [Homework 1](hw/hw1.pdf) is posted. **The due date has been extended to Friday, January 22**.
+- [Homework 1](hw/hw1.pdf) is posted. **The due date has been extended to Friday, January 24**.
+- [Homework 2](hw/homework2-2020.pdf) is posted. It is due **Wednesday, January 29**.
+
 
 ### Upcoming help hours:
 
@@ -32,7 +34,7 @@ title: Announcements
       * Prashali Chauhan, <prchauha@syr.edu>
       * Kevin Ching, <keching@syr.edu>
       * Mingwei Dai, <mdai07@syr.edu>
-      * Seth Kelly, <skell101@syr.edu>
+      * Kesavan Manivannan, <kmanivan@syr.edu>
       * Mario Olivares, <maolivar@syr.edu>
       * Zhiwen Sun, <zsun31@syr.edu>
    - **Undergraduate coaches:** Too many to list here :)
