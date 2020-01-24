@@ -14,6 +14,10 @@ use_math: true
 <a href="recitation/recitation-1D-motion-1.pdf">Week 1 Friday: motion in 1D, part 1</a>
 
 
+<br><br>
+
+<a href="recitation/recitation3-2020.pdf">Week 2 Wednesday: motion in 1D, part 2</a><br>
+<a href="recitation/recitation4-2020.pdf">Week 2 Friday: practice with vectors</a>
 <!--
 
 <a href="recitation/rec1.pdf">Week 1 Wednesday: Fermi problems</a><br>
