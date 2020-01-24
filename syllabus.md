@@ -38,7 +38,7 @@ use_math: true
     - Matt Rudolph, <msrudolp@syr.edu>, Physics Building 325
 -   Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium 
 -   Help sessions (office hours): 
-    - Matt:  
+    - Matt:  Friday 2:00-4:00 PM in the Physics Clinic, Physics Building room 112
     - Walter: Friday 9:30-11:30 AM, others TBD; held in the Physics Clinic, Physics Building room 112
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
 -   Recitation TA's:
