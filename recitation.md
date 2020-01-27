@@ -16,8 +16,12 @@ use_math: true
 
 <br><br>
 
-<a href="recitation/recitation3-2020.pdf">Week 2 Wednesday: motion in 1D, part 2</a><br>
-<a href="recitation/recitation4-2020.pdf">Week 2 Friday: practice with vectors</a>
+<a href="recitation/recitation3-2020.pdf">Week 2 Wednesday: motion in 1D, part 2</a> and its <a href="recitation/recitation-week2-wed-solutions.pdf">solutions</a><br>
+<a href="recitation/recitation4-2020.pdf">Week 2 Friday: practice with vectors</a> and its <a href="recitation/recitation-week2-fri-solutions.pdf">solutions</a>
+
+<br><br>
+
+<a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: projectile motion</a>
 
 <!--
 
