@@ -15,7 +15,7 @@ title: Announcements
 
 ### Upcoming help hours:
 
-* Prof. Freeman in the Physics Clinic, 1-3:30 today 
+* Prof. Freeman in the Physics Clinic, 1-2:30 today 
 * Prof. Freeman in the Physics Clinic, 9:30-11:30 on Friday
 * Prof. Rudolph in the Physics Clinic, 2-4 PM on Friday
 * There is almost always a grad student tutor in the Physics Clinic, so stop by!
