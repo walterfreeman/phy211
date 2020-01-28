@@ -5,19 +5,19 @@ use_math: true
 title: Announcements
 ---
 
-  <a href="slides/lecture4.pdf">Vectors: doing math with directions</a>
+  <a href="slides/lecture5.pdf">Solving problems with 2D motion</a>
 
 ### Upcoming assignments:
 
-- Fill out the [course survey](https://docs.google.com/forms/d/1IZWWSav46R04acZZDgAVnQmgmSKGT5CPig496entzfA/)
-- [Homework 1](hw/hw1.pdf) is posted. **The due date has been extended to Friday, January 24**.
 - [Homework 2](hw/homework2-2020.pdf) is posted. It is due **Wednesday, January 29**.
+- [Homework 3](hw/homework3-2020.pdf) is posted. It is due **Tuesday, February 3**, before the exam.
 
 
 ### Upcoming help hours:
 
+* Prof. Freeman in the Physics Clinic, 1-3:30 today 
+* Prof. Freeman in the Physics Clinic, 9:30-11:30 on Friday
 * Prof. Rudolph in the Physics Clinic, 2-4 PM on Friday
-* Prof. Freeman in the Physics Clinic, 2-4 next Tuesday
 * There is almost always a grad student tutor in the Physics Clinic, so stop by!
 
 ### Information

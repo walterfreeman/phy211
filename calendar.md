@@ -22,7 +22,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 16 January  | <a href="slides/lecture2.pdf">"Equations of motion"; acceleration; all the calculus you need"</a>                | 3.1-3.3; 3.6                   |
 | 21 January  | <a href="slides/lecture3.pdf">Motion problems</a>; <a href="slides/lecture3_example_scans.pdf">scans of examples</a>                            | 3.4-3.5                        |
 | 23 January  | <a href="slides/lecture4.pdf">Describing things with direction: Vectors. Motion in two dimensions.</a>           | 2.1-2.3; 4.1-4.2                        |
-| 28 January  | Projectile motion problems                                                     | 4.3                        |
+| 28 January  | <a href="slides/lecture5.pdf">Projectile motion problems</a>                                                     | 4.3                        |
 | 30 January  | Review for Exam 1                                                              |                                |
 | 4 February  | **EXAM 1**                                                                                                       |                                |
 | 6 February  | Introduction to Newton’s second law                                            | 5.1; 5.3; 5.7                  |

@@ -35,7 +35,7 @@ use_math: true
 
 <a id="hwturnin"></a>
 
-* [How do I turn in my homework?](#hwturnin)
+#### [How do I turn in my homework?](#hwturnin)
 Give it to your recitation TA at the beginning of recitation. Make sure that:
 
 * you have put your name on your work 
@@ -45,7 +45,7 @@ Give it to your recitation TA at the beginning of recitation. Make sure that:
 
 <a id="clinic"></a>
 
-* [What and where is the Physics Clinic?](#clinic)
+#### [What and where is the Physics Clinic?](#clinic)
 
 The Physics Clinic is room 112. It's where we hold our help sessions, but at other times you can find a tutor there as well.
 
@@ -330,6 +330,8 @@ If you are going to be absent for an *unexcused reason*:
 #### [I need to miss a group exam. What do I need to do?](#absencegroup)
 
 If your absence is for an excused reason (see above), let your TA know. We'll give you the same grade you get on the main exam for your group exam, as well.
+
+If your absence is for a recreational reason (including athletics), we will make the same allowance for you, but only once.
 
 ---
 <a id="absenceexam"></a>
