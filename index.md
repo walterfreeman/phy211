@@ -10,7 +10,7 @@ title: Announcements
 ### Upcoming assignments:
 
 - [Homework 2](hw/homework2-2020.pdf) is posted. It is due **Wednesday, January 29**.
-- [Homework 3](hw/homework3-2020.pdf) is posted. It is due **Tuesday, February 3**, before the exam.
+- [Homework 3](hw/hw3-2020.pdf) is posted. It is due **Tuesday, February 3**, before the exam.
 
 
 ### Upcoming help hours:
