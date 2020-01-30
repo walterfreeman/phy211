@@ -5,19 +5,18 @@ use_math: true
 title: Announcements
 ---
 
-  <a href="slides/lecture5.pdf">Solving problems with 2D motion</a>
+  <a href="slides/lecture6.pdf">Exam 1 review</a>
 
 ### Upcoming assignments:
 
-- [Homework 2](hw/homework2-2020.pdf) is posted. It is due **Wednesday, January 29**.
 - [Homework 3](hw/hw3-2020.pdf) is posted. It is due **Tuesday, February 3**, before the exam.
 
 
 ### Upcoming help hours:
 
-* Prof. Freeman in the Physics Clinic, 1-2:30 today 
 * Prof. Freeman in the Physics Clinic, 9:30-11:30 on Friday
 * Prof. Rudolph in the Physics Clinic, 2-4 PM on Friday
+* Prof. Freeman in the Physics Clinic, 9-12 on Monday
 * There is almost always a grad student tutor in the Physics Clinic, so stop by!
 
 ### Information
