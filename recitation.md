@@ -21,7 +21,7 @@ use_math: true
 
 <br><br>
 
-<a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: projectile motion</a>
+<a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: projectile motion</a> and its <a href="recitation/recitation-2D-motion-solutions.pdf">solutions</a>.
 
 <!--
 
