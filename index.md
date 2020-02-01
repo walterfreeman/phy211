@@ -7,6 +7,10 @@ title: Announcements
 
   <a href="slides/lecture6.pdf">Exam 1 review</a>
 
+### Practice Exam 1
+
+[Practice Exam 1](practice-exam-1.pdf) is available now. The solutions will be posted Sunday.
+
 ### Upcoming assignments:
 
 - [Homework 3](hw/hw3-2020.pdf) is posted. It is due **Tuesday, February 3**, before the exam.
