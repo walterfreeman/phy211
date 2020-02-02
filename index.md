@@ -9,7 +9,7 @@ title: Announcements
 
 ### Practice Exam 1
 
-[Practice Exam 1](practice-exam-1.pdf) is available now. The solutions will be posted Sunday.
+Here is [Practice Exam 1](practice-exam-1.pdf) and the [solutions to Practice Exam 1](practice-exam-1-solutions.pdf).
 
 ### Upcoming assignments:
 
