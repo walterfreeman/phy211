@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-  <a href="slides/lecture6.pdf">Exam 1 review</a>
+<a href="slides/lecture7.pdf">Introduction to forces</a>
 
 ### Practice Exam 1
 
@@ -13,15 +13,13 @@ Here is [Practice Exam 1](practice-exam-1.pdf) and the [solutions to Practice Ex
 
 ### Upcoming assignments:
 
-- [Homework 3](hw/hw3-2020.pdf) is posted. It is due **Tuesday, February 3**, before the exam.
+- [Homework 4](hw/hw4-2020.pdf) is posted. It is due **Wednesday, February 12**. (Note that the PDF says "Homework 2", but it is really Homework 4. I will fix this ASAP.)
 
 
 ### Upcoming help hours:
 
-* Prof. Freeman in the Physics Clinic, 9:30-11:30 on Friday
+* Prof. Freeman is out of town and will return next week. He'll hold help hours **Monday from 3-5 PM**.
 * Prof. Rudolph in the Physics Clinic, 2-4 PM on Friday
-* Prof. Freeman in the Physics Clinic, 9-12 on Monday
-* There is almost always a grad student tutor in the Physics Clinic, so stop by!
 
 ### Information
 
