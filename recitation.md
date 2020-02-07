@@ -23,6 +23,10 @@ use_math: true
 
 <a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: projectile motion</a> and its <a href="recitation/recitation-2D-motion-solutions.pdf">solutions</a>.
 
+<br><br>
+
+<a href="recitation/recitation8-2020.pdf">Week 4 Friday: starting with forces</a>
+
 <!--
 
 <a href="recitation/rec1.pdf">Week 1 Wednesday: Fermi problems</a><br>
