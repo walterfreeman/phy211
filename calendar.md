@@ -26,7 +26,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 30 January  | <a href="slides/lecture6.pdf">Review for Exam 1</a>                                                              |                                |
 | 4 February  | **EXAM 1**                                                                                                       |                                |
 | 6 February  | <a href="slides/lecture7.pdf">Introduction to Newton’s second law</a>                                            | 5.1; 5.3; 5.7                  |
-| 11 February | Solving problems with Newton’s second and third laws                           | 5.4-5.6                        |
+| 11 February | <a href="slides/lec8.pdf">Solving problems with Newton’s second and third laws</a>                           | 5.4-5.6                        |
 | 13 February | Friction; more practice problems                                               | 6.1-6.2                        |
 | 18 February | Acceleration in circular motion                                               | 6.3                            |
 | 20 February | Universal gravitation; solving problems involving uniform circular motion     | 13.1                           |

@@ -5,21 +5,18 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture7.pdf">Introduction to forces</a>
-
-### Practice Exam 1
-
-Here is [Practice Exam 1](practice-exam-1.pdf) and the [solutions to Practice Exam 1](practice-exam-1-solutions.pdf).
+<a href="slides/lec8.pdf">Solving problems with Newton's laws</a>
 
 ### Upcoming assignments:
 
 - [Homework 4](hw/hw4-2020.pdf) is posted. It is due **Wednesday, February 12**. (Note that the PDF says "Homework 2", but it is really Homework 4. I will fix this ASAP.)
+- Homework 5 will be posted later today and I'll add a link for it.
 
 
 ### Upcoming help hours:
 
-* Prof. Freeman is out of town and will return next week. He'll hold help hours **Monday from 3-5 PM**.
-* Prof. Rudolph in the Physics Clinic, 2-4 PM on Friday
+* Prof. Freeman: 3-5 Tuesday, 9:30-11:30 Friday 
+* Prof. Rudolph: 2-4 PM on Friday
 
 ### Information
 
