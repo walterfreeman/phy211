@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lec9.pdf">Friction</a>
+<a href="slides/lecture9.pdf">Friction</a>
 
 ### Upcoming assignments:
 
