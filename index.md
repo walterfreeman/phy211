@@ -5,12 +5,11 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lec8.pdf">Solving problems with Newton's laws</a>
+<a href="slides/lec9.pdf">Friction</a>
 
 ### Upcoming assignments:
 
-- [Homework 4](hw/hw4-2020.pdf) is posted. It is due **Wednesday, February 12**. (Note that the PDF says "Homework 2", but it is really Homework 4. I will fix this ASAP.)
-- Homework 5 will be posted later today and I'll add a link for it.
+- [Homework 5](hw/hw5-2020.pdf) is posted. It is due **Wednesday, February 19**.
 
 
 ### Upcoming help hours:

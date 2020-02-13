@@ -1,8 +1,9 @@
 ---
 layout: page 
-permalink: hw4hints.html
+permalink: hw5hints.html
+category: top
 use_math: true
-title: Homework 4 hints
+title: Homework 5 hints
 ---
 
 #### Problem 1 
@@ -22,7 +23,7 @@ To check your answer for (a), make sure that it gives you sensible results for t
 
 #### Problem 3 
 
-This is the problem I discussed in class. There are two tricky elements here that make it different than problem (1):
+There are two tricky elements here that make it different than problem (1):
 
 * How many times does the string connect to the block on the table?
 * What is the relation between the two accelerations? (Their magnitudes are *not* equal now.)
@@ -46,13 +47,7 @@ a long distance: she just wants to keep on walking.) Again, think clearly about 
 point on the hiker? (Which way is she trying to walk?) Don't make assumptions
 about what the normal forces on the sled and the hiker are (hint: they're not equal to their weights).
 
-#### Problem 7 
-
-Don't confuse *the direction the frictional force points* with *the direction that the car is moving*. If you get a negative
-value for $\mu$, then this probably means that you had your force of friction pointing in the wrong direction; ponder that
-carefully.
-
-#### Problem 8 
+#### Problem 7
 
 In all cases here $a=0$ (since all I want to do is to drive at a constant velocity, and not suffer an uncontrolled acceleration down
 the hill). 
