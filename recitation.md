@@ -27,6 +27,12 @@ use_math: true
 
 <a href="recitation/recitation8-2020.pdf">Week 4 Friday: starting with forces</a>
 
+<br><br>
+
+<a href="recitation/recitation-2020-forces2.pdf">Week 5 Wednesday</a> and its <a href="recitation-2020-forces2-solutions.pdf">solutions</a>
+<a href="recitation/recitation-2020-forces3.pdf">Week 5 Friday</a> and its <a href="recitation-2020-forces3-solutions.pdf">solutions</a>
+
+
 <!--
 
 <a href="recitation/rec1.pdf">Week 1 Wednesday: Fermi problems</a><br>
