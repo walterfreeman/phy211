@@ -15,7 +15,7 @@ title: Announcements
 ### Upcoming help hours:
 
 * Prof. Freeman: 3-5 Tuesday, 9:30-11:30 Friday 
-* Prof. Rudolph: 2-4 PM on Friday
+* Prof. Rudolph: 1-3 PM on Friday
 
 ### Information
 
