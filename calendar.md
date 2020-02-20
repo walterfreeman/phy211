@@ -30,7 +30,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 13 February | <a href="slides/lecture9.pdf">Friction; more practice problems</a>                                               | 6.1-6.2                        |
 | 18 February | Acceleration in circular motion                                               | 4.4 and 6.3                            |
 | 20 February | <a href="slides/lecture11.pdf">Universal gravitation; solving problems involving uniform circular motion</a>     | 13.1                           |
-| 25 February | Torque and rotational inertia: analogues to force and mass. Further practice. | 10.7                           |
+| 25 February | Torque and rotational inertia: analogues to force and mass. Further practice. | 10.6 and 10.7                           |
 | 27 February | Review for Exam 2                                                             |                                |
 | 3 March     | **EXAM 2**                                                                                                       |                                |
 | 5 March     | The impulse-momentum theorem; conservation of momentum in one dimension       | 9.1-9.3                        |
