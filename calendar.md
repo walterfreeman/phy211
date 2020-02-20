@@ -29,7 +29,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 11 February | <a href="slides/lec8.pdf">Solving problems with Newton’s second and third laws</a>                           | 5.4-5.6                        |
 | 13 February | <a href="slides/lecture9.pdf">Friction; more practice problems</a>                                               | 6.1-6.2                        |
 | 18 February | Acceleration in circular motion                                               | 4.4 and 6.3                            |
-| 20 February | Universal gravitation; solving problems involving uniform circular motion     | 13.1                           |
+| 20 February | <a href="slides/lecture11.pdf">Universal gravitation; solving problems involving uniform circular motion</a>     | 13.1                           |
 | 25 February | Torque and rotational inertia: analogues to force and mass. Further practice. | 10.7                           |
 | 27 February | Review for Exam 2                                                             |                                |
 | 3 March     | **EXAM 2**                                                                                                       |                                |
