@@ -9,7 +9,7 @@ title: Announcements
 
 ### Upcoming assignments:
 
-- [Homework 5](hw/hw5-2020.pdf) is posted. It is due **Wednesday, February 19**.
+- [Homework 6](hw/hw6-2020.pdf) is posted. It is due **Wednesday, February 26**.
 
 
 ### Upcoming help hours:
