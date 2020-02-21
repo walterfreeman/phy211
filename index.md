@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture9.pdf">Friction</a>
+<a href="slides/lecture11.pdf">Universal gravitation; further practice</a>
 
 ### Upcoming assignments:
 
@@ -14,7 +14,7 @@ title: Announcements
 
 ### Upcoming help hours:
 
-* Prof. Freeman: 3-5 Tuesday, 9:30-11:30 Friday 
+* Prof. Freeman: 9:30-11:30 Friday 
 * Prof. Rudolph: 1-3 PM on Friday
 
 ### Information
