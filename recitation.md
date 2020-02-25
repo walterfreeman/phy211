@@ -29,9 +29,15 @@ use_math: true
 
 <br><br>
 
-<a href="recitation/recitation-2020-forces2.pdf">Week 5 Wednesday</a> and its <a href="recitation/recitation-2020-forces2-solutions.pdf">solutions</a>
+<a href="recitation/recitation-2020-forces2.pdf">Week 5 Wednesday</a> and its <a href="recitation/recitation-2020-forces2-solutions.pdf">solutions</a><br>
 <a href="recitation/recitation-2020-forces3.pdf">Week 5 Friday</a> and its <a href="recitation/recitation-2020-forces3-solutions.pdf">solutions</a>
 
+<br><br>
+<a href="recitation/recitation11.pdf">Week 6 Wednesday</a><br>
+<a href="recitation/recitation12.pdf">Week 6 Friday</a><br><br>
+
+
+<a href="recitation/recitation-gravity.pdf">Week 7 Wednesday</a><br><br>
 
 <!--
 
