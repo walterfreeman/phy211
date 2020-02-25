@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture11.pdf">Universal gravitation; further practice</a>
+<a href="slides/lecture12.pdf">Torque, moment of inertia, and more practice</a>
 
 ### Upcoming assignments:
 
