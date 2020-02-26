@@ -9,13 +9,14 @@ title: Announcements
 
 ### Upcoming assignments:
 
-- [Homework 6](hw/hw6-2020.pdf) is posted. It is due **Wednesday, February 26**.
+- [Homework 7](hw/hw7-2020.pdf) is posted. It is due **Wednesday, March 4**.
 
 
 ### Upcoming help hours:
 
 * Prof. Freeman: 9:30-11:30 Friday 
 * Prof. Rudolph: 1-3 PM on Friday
+* **Exam Review:** 6-9 PM, Stolkin Auditorium, on Sunday
 
 ### Information
 
