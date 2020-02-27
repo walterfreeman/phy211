@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture12.pdf">Torque, moment of inertia, and more practice</a>
+<a href="slides/lecture13.pdf">Review for Exam 3</a>
 
 ### Upcoming assignments:
 

@@ -31,7 +31,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 18 February | <a href="slides/lecture10.pdf">Acceleration in circular motion</a>                                               | 4.4 and 6.3                            |
 | 20 February | <a href="slides/lecture11.pdf">Universal gravitation; solving problems involving uniform circular motion</a>     | 13.1                           |
 | 25 February | <a href="slides/lecture12.pdf">Torque and rotational inertia: analogues to force and mass. Further practice.</a> | 10.6 and 10.7                           |
-| 27 February | Review for Exam 2                                                             |                                |
+| 27 February | <a href="slides/lecture13.pdf">Review for Exam 2</a>                                                             |                                |
 | 3 March     | **EXAM 2**                                                                                                       |                                |
 | 5 March     | The impulse-momentum theorem; conservation of momentum in one dimension       | 9.1-9.3                        |
 | 10 March    | Conservation of momentum in two dimensions                                    | 9.5                            | 
