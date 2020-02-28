@@ -5,6 +5,10 @@ use_math: true
 title: Announcements
 ---
 
+### Practice Exam 2
+
+**[Practice Exam 2](practiceexam2-2020.pdf) is available now.** The solutions will be available Sunday night after the review session.
+
 <a href="slides/lecture13.pdf">Review for Exam 3</a>
 
 ### Upcoming assignments:
