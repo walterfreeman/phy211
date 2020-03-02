@@ -7,7 +7,7 @@ title: Announcements
 
 ### Practice Exam 2
 
-[Practice Exam 2](practiceexam2-2020.pdf) and its [solutions](practice-exam-2-2020-solutions.pdf) are available.
+[Practice Exam 2](practiceexam2-2020.pdf) and its [solutions](practice-exam-2-2020-solutions.pdf) are available. **The solutions have been corrected to replace the missing pages**; sorry about that!
 
 <a href="slides/lecture13.pdf">Review for Exam 2</a>
 
