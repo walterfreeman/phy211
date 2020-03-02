@@ -7,9 +7,9 @@ title: Announcements
 
 ### Practice Exam 2
 
-**[Practice Exam 2](practiceexam2-2020.pdf) is available now.** The solutions will be available Sunday night after the review session.
+[Practice Exam 2](practiceexam2-2020.pdf) and its [solutions](practice-exam-2-2020-solutions.pdf) are available.
 
-<a href="slides/lecture13.pdf">Review for Exam 3</a>
+<a href="slides/lecture13.pdf">Review for Exam 2</a>
 
 ### Upcoming assignments:
 
