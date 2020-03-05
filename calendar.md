@@ -33,7 +33,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 25 February | <a href="slides/lecture12.pdf">Torque and rotational inertia: analogues to force and mass. Further practice.</a> | 10.6 and 10.7                           |
 | 27 February | <a href="slides/lecture13.pdf">Review for Exam 2</a>                                                             |                                |
 | 3 March     | **EXAM 2**                                                                                                       |                                |
-| 5 March     | The impulse-momentum theorem; conservation of momentum in one dimension       | 9.1-9.3                        |
+| 5 March     | <a href="The impulse-momentum theorem; conservation of momentum in one dimension">Momentum</a>       | 9.1-9.3                        |
 | 10 March    | Conservation of momentum in two dimensions                                    | 9.5                            | 
 | 12 March    | The work-energy theorem                                                       | 7.1-7.3                        |
 | 24 March    | The conservation of energy; potential energy; rotational kinetic energy       | 7.4; 8.1-8.3                   |
