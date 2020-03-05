@@ -9,7 +9,7 @@ title: Announcements
 
 ### Upcoming assignments:
 
-
+<a href="hw/hw8-2020.pdf">Homework 8 is posted</a> and is due Wednesday, March 11.
 
 ### Upcoming help hours:
 
