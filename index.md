@@ -5,7 +5,9 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture14.pdf">Momentum</a>
+<a href="slides/lecture15.pdf">Momentum, continued</a><br><br>
+
+<a href="covid.html">Statement on the novel coronavirus</a>
 
 ### Upcoming assignments:
 
@@ -13,9 +15,9 @@ title: Announcements
 
 ### Upcoming help hours:
 
-* Prof. Freeman: 9:30-11:30 Friday 
-* Prof. Rudolph: 1-3 PM on Friday
-* **Exam Review:** 6-9 PM, Stolkin Auditorium, on Sunday
+Freeman: Tuesday, 1:30-2:45; Wednesday, 3-5
+Rudolph: Friday, 1-3
+
 
 ### Information
 
