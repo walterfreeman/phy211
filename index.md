@@ -5,17 +5,21 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture15.pdf">Momentum, continued</a><br><br>
+<a href="slides/lecture16.pdf">The work-energy theorem</a><br><br>
 
-<a href="covid.html">Statement on the novel coronavirus</a>
+<br>
+
+<b>PHY211 will be switching to an online format after Spring Break, like all of your other classes. We will send out more information soon.<br></b>
+
 
 ### Upcoming assignments:
 
-<a href="hw/hw8-2020.pdf">Homework 8 is posted</a> and is due Wednesday, March 11.
+<a href="hw/hw8-2020.pdf">Homework 8 is posted</a> and is due Friday, March 13.
+<a href="hw/hw9-2020.pdf">Homework 9 is posted</a> and is due Wednesday, March 25.
 
 ### Upcoming help hours:
 
-Freeman: Tuesday, 1:30-2:45; Wednesday, 3-5
+Freeman: Friday, 9:30-11:30 
 Rudolph: Friday, 1-3
 
 
