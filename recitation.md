@@ -39,7 +39,10 @@ use_math: true
 
 <a href="recitation/recitation-gravity.pdf">Week 7 Wednesday</a> and its <a href="recitation/recitation-gravity-solutions.pdf">solutions</a>.<br><br>
 
-<a href="recitation/recitation16.pdf">Week 8 Friday</a>.<br><br>
+<a href="recitation/recitation16.pdf">Week 8 Friday</a><br><br>
+
+<a href="recitation/recitation-momentum-2020.pdf">Week 9 Wednesday</a><br>
+<a href="recitation/recitation-momentum-energy.pdf">Week 9 Friday</a><br><br>
 
 <!--
 
