@@ -35,7 +35,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 3 March     | **EXAM 2**                                                                                                       |                                |
 | 5 March     | <a href="slides/lecture14.pdf">Momentum</a>       | 9.1-9.3                        |
 | 10 March    | <a href="slides/lecture15.pdf">Conservation of momentum in two dimensions; practice problems</a>                                    | 9.5                            | 
-| 12 March    | The work-energy theorem                                                       | 7.1-7.3                        |
+| 12 March    | <a href="slides/lecture16.pdf">The work-energy theorem</a>                                                       | 7.1-7.3                        |
 | 24 March    | The conservation of energy; potential energy; rotational kinetic energy       | 7.4; 8.1-8.3                   |
 | 26 March    | Combining conservation of momentum and energy                                 | 9.4                            |
 | 31 March    | Angular momentum; an introduction to the process of science                   | 11.2-11.3                      |
