@@ -5,11 +5,15 @@ use_math: true
 title: Announcements
 ---
 
+<a href="recitation/recitation-tech-practice.pdf">Tech practice recitation materials</a><br><br><br>
+
 <a href="slides/lecture16.pdf">The work-energy theorem</a><br><br>
 
 <br>
 
 <b>PHY211 will be switching to an online format after Spring Break, like all of your other classes. We will send out more information soon.<br></b>
+
+
 
 
 ### Upcoming assignments:
