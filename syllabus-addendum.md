@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Syllabus Addendum
-category: top
 permalink: syllabus-addendum.html
 ---
 
