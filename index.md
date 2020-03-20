@@ -5,22 +5,27 @@ use_math: true
 title: Announcements
 ---
 
-### Practice Exam 2
+<a href="recitation/recitation-tech-practice.pdf">Tech practice recitation materials</a><br><br><br>
 
-**[Practice Exam 2](practiceexam2-2020.pdf) is available now.** The solutions will be available Sunday night after the review session.
+<a href="slides/lecture16.pdf">The work-energy theorem</a><br><br>
 
-<a href="slides/lecture13.pdf">Review for Exam 3</a>
+<br>
+
+<b>PHY211 will be switching to an online format after Spring Break, like all of your other classes. We will send out more information soon.<br></b>
+
+
+
 
 ### Upcoming assignments:
 
-- [Homework 7](hw/hw7-2020.pdf) is posted. It is due **Wednesday, March 4**.
-
+<a href="hw/hw8-2020.pdf">Homework 8 is posted</a> and is due Friday, March 13.
+<a href="hw/hw9-2020.pdf">Homework 9 is posted</a> and is due Wednesday, March 25.
 
 ### Upcoming help hours:
 
-* Prof. Freeman: 9:30-11:30 Friday 
-* Prof. Rudolph: 1-3 PM on Friday
-* **Exam Review:** 6-9 PM, Stolkin Auditorium, on Sunday
+Freeman: Friday, 9:30-11:30 
+Rudolph: Friday, 1-3
+
 
 ### Information
 
