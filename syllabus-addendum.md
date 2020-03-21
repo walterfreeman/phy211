@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Syllabus Addendum
+category: top
 permalink: syllabus-addendum.html
 ---
 
@@ -16,6 +17,8 @@ The main platforms for online work (the ones all students are expected to have a
 * **The course website**, at [https://walterfreeman.github.io/phy211/](https://walterfreeman.github.io/phy211/) , where we will continue to post all materials for you
 
 We will likely maintain a presence on other platforms -- for instance, the course Discord server (invite link: [https://discord.gg/dcM4DYM](https://discord.gg/dcM4DYM)), a Twitch channel, a YouTube channel, or a Tencent Video channel. We are doing this so you can interact with your fellow students and instructors on platforms you may already be familiar with because you use them socially. However, all of these things are optional; you may do everything on Blackboard and with email if you want.
+
+Please be patient and flexible with us and give us feedback (in #feedback on Discord or by email) if we can do anything to make this experience better for you all.
 
 ### 2. Grading
 
@@ -33,13 +36,10 @@ In the midst of this crisis, we want to preserve the first and second roles of g
 
 There may be some students for whom online classes simply don't work out at all. Maybe they don't have a safe place to go home to; maybe they don't have a stable internet connection; maybe they don't have anything to access the internet with other than a cellphone. 
 
-We of course will work with **anyone** who brings issues like this to our attention. However, to avoid the transition to online classes causing any otherwise good students to fail, and to alleviate folks' anxiety about grades, we will calculate a "pre-Spring Break" grade for everyone. Then we will guarantee that:
+We of course will work with **anyone** who brings issues like this to our attention. However, to avoid the transition to online classes causing any otherwise good students to fail, and to alleviate folks' anxiety about grades, we want to ensure everyone that your grade
+at the end of the semester won't be too far below your grade before Spring Break.
 
-* if your pre-Spring Break grade is a B+ or better, then your final grade can't fall more than one letter grade below your grade before Spring Break.
-* if your pre-Spring Break grade is a C, then your final grade is guaranteed to be at least a C.
-* if your pre-Spring Break grade is a C or below, then your final grade will be at least as high as your pre-Spring Break grade.
-
-In other words, if you were doing very well, we guarantee that you'll still get a high grade; if you were passing before Spring Break, we guarantee that you will pass in the end.
+We don't know exactly how we will do this yet. However, we will guarantee that if you were passing before Spring Break, you will pass the class.
 
 ### 3. Modifications of course components
 
@@ -123,7 +123,8 @@ You are entirely on your honor to take your exams honestly. Remember the philoso
 
 #### Group exams
 
-There will be no formal Group Exam 3; instead, we will post the group exam as a set of practice problems and let you all work through them on your own during the day. We will be available on Collaborate to help you and facilitate you working in groups, as usual.
+There will be no formal Group Exam 3; instead, we will post the group exam as a set of practice problems and let you all work through them on your own in groups during the day. 
+We will be available on Collaborate to help you and facilitate you working in groups, as usual. We will omit the portion of your final grade allocated to Group Exam 3.
 
 #### The Physics Clinic
 
