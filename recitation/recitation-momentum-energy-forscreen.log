@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.3.19)  21 MAR 2020 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.3.19)  21 MAR 2020 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**recitation-momentum-2020.tex
-(./recitation-momentum-2020.tex
+**recitation-momentum-energy-forscreen.tex
+(./recitation-momentum-energy-forscreen.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -134,21 +134,21 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(./recitation-momentum-2020.aux)
-\openout1 = `recitation-momentum-2020.aux'.
+(./recitation-momentum-energy-forscreen.aux)
+\openout1 = `recitation-momentum-energy-forscreen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -159,11 +159,11 @@ LaTeX Font Info:    ... okay on input line 39.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(36.135pt, 903.375pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 534.79756pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 537.50813pt, 36.135pt)
 * \paperwidth=975.64499pt
-* \paperheight=607.06755pt
+* \paperheight=609.77812pt
 * \textwidth=903.375pt
-* \textheight=534.79756pt
+* \textheight=537.50813pt
 * \oddsidemargin=-36.135pt
 * \evensidemargin=-36.135pt
 * \topmargin=-36.135pt
@@ -246,23 +246,37 @@ e
 ))
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-(./recitation-momentum-2020.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
+<rum.jpg, id=22, 1284.8pt x 1403.2425pt>
+File: rum.jpg Graphic file (type jpg)
+<use rum.jpg>
+Package pdftex.def Info: rum.jpg  used on input line 131.
+(pdftex.def)             Requested size: 451.6875pt x 493.32623pt.
+
+Overfull \hbox (31.98578pt too wide) in paragraph at lines 129--146
+[]$[]$ $[]$ 
+ []
+
+[6 <./rum.jpg>] (./recitation-momentum-energy-forscreen.aux) ) 
 Here is how much of TeX's memory you used:
- 2554 strings out of 492609
- 34943 string characters out of 6131462
- 107472 words of memory out of 5000000
- 6462 multiletter control sequences out of 15000+600000
- 4839 words of font info for 18 fonts, out of 8000000 for 9000
+ 2581 strings out of 492609
+ 35314 string characters out of 6131462
+ 107484 words of memory out of 5000000
+ 6477 multiletter control sequences out of 15000+600000
+ 7997 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,4n,32p,291b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb>
-Output written on recitation-momentum-2020.pdf (4 pages, 30815 bytes).
+ 41i,6n,32p,554b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on recitation-momentum-energy-forscreen.pdf (6 pages, 423497 byt
+es).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

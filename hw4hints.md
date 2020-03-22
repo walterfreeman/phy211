@@ -1,7 +1,6 @@
 ---
 layout: page 
 permalink: hw5hints.html
-category: top
 use_math: true
 title: Homework 5 hints
 ---
