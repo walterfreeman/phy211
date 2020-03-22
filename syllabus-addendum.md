@@ -135,3 +135,13 @@ The Physics Clinic is going virtual as well. It is being held as a Zoom meeting 
 
 We (professors, TA's, coaches) will also be available often for live help on Collaborate. We'll set up sessions that you may join, and will often stay connected so you can pop in and ask us things. We can also be reached by email or on the class Discord server. Discord is a great place for you to communicate with your peers. However, if you can't access it (perhaps because you are behind the Chinese government's firewall), you can still get help from your instructors and peers in many other ways.
 
+### 4. What if you get sick?
+
+It is entirely possible that someone in our class will become seriously ill due to COVID-19 or another condition.
+
+If you become seriously ill and are unable to participate meaningfully in our class for an extended period, then you may 
+take an incomplete grade in our course.
+
+An incomplete is a “grade pending” status that allows you to finish up the course in the future and then receive a grade.
+
+If you think that you may need to take an incomplete, please contact us as soon as possible. We may ask for medical documentation.
