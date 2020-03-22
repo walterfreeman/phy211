@@ -11,20 +11,16 @@ title: Announcements
 
 <br>
 
-<b>PHY211 will be switching to an online format after Spring Break, like all of your other classes. We will send out more information soon.<br></b>
-
+Please consult the syllabus addendum, linked above, for a complete description of how things will go after Spring Break.
 
 
 
 ### Upcoming assignments:
 
-<a href="hw/hw8-2020.pdf">Homework 8 is posted</a> and is due Friday, March 13.
 <a href="hw/hw9-2020.pdf">Homework 9 is posted</a> and is due Wednesday, March 25.
 
 ### Upcoming help hours:
 
-Freeman: Friday, 9:30-11:30 
-Rudolph: Friday, 1-3
 
 
 ### Information
