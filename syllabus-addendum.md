@@ -46,6 +46,11 @@ We don't know exactly how we will do this yet. However, we will guarantee that i
 
 These are the current plans for the components of our course. These may change as we learn how to better serve you all; we will be as flexible as we can. 
 
+As a general rule, while we encourage students to participate in recitation and lecture "synchronously" (i.e.  participating in real time using Blackboard Collaborate),
+we are designing everything so that students who can only participate "asynchronously" will be able to succeed in our class. This means that even if you are not able
+to be with us online, you can still get all the content, do all the work, and ask for help without live videoconferencing. 
+
+
 #### Lecture
 
 Lectures will be given live over Blackboard Collaborate, where you can ask questions (by typing text or virtually raising your hand and asking it with voice) and get answers in realtime. They will be held at 9:30 and at 11:00 Syracuse time. You may attend whichever you prefer. We will try to have assistants there during lecture times as well, so someone can answer questions in chat.
