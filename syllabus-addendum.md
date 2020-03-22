@@ -13,7 +13,8 @@ In times like these, our focus as instructors changes somewhat. As always, our p
 
 The main platforms for online work (the ones all students are expected to have access to) will be:
 
-* **Blackboard**: used for submitting work; used for Blackboard Collaborate for interacting in real time with each other; used for posting your grades.
+* **Blackboard**: used for submitting work; used for Blackboard Collaborate for interacting in real time with each other; used for posting your grades. All materials 
+will be posted to Blackboard as well (although they might be delayed for a few hours compared to the website).
 * **The course website**, at [https://walterfreeman.github.io/phy211/](https://walterfreeman.github.io/phy211/) , where we will continue to post all materials for you
 
 We will likely maintain a presence on other platforms -- for instance, the course Discord server (invite link: [https://discord.gg/dcM4DYM](https://discord.gg/dcM4DYM)), a Twitch channel, a YouTube channel, or a Tencent Video channel. We are doing this so you can interact with your fellow students and instructors on platforms you may already be familiar with because you use them socially. However, all of these things are optional; you may do everything on Blackboard and with email if you want.
