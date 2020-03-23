@@ -5,14 +5,25 @@ use_math: true
 title: Announcements
 ---
 
-<a href="recitation/recitation-tech-practice.pdf">Tech practice recitation materials</a><br><br><br>
-
 <a href="slides/lecture16.pdf">The work-energy theorem</a><br><br>
 
 <br>
 
-Please consult the syllabus addendum, linked above, for a complete description of how things will go after Spring Break.
+Please consult the <a href="syllabus-addendum.html">syllabus addendum</a>, also linked above, for a complete description of how things will go after Spring Break.
 
+
+### The Virtual Physics Clinic
+
+The Physics Clinic has gone virtual on Zoom. Here is the <a href="clinic-description.pdf">general description</a> of how it will
+work, and a <a href="clinic-faq">Virtual Clinic FAQ</a> with answers to some common questions.
+
+The part of the Virtual Clinic run by the Physics Department will run from 1-7 PM Syracuse time Monday through Thursday, and 1-5 PM Syracuse time on Friday. 
+
+However, PHY211 will have additional help hours as well to accommodate people's schedules and time zones. If you would like us to meet with you at a 
+specific time, tell us, and we'll get you help at that time!
+
+You can join the Virtual Clinic at <a href="https://zoom.us/j/668912935">https://zoom.us/j/668912935</a>. If you don't have Zoom
+already, you may be prompted to download a small program.
 
 
 ### Upcoming assignments:
