@@ -44,6 +44,9 @@ use_math: true
 <a href="recitation/recitation-momentum-2020.pdf">Week 9 Wednesday</a><br>
 <a href="recitation/recitation-momentum-energy.pdf">Week 9 Friday</a><br><br>
 
+<a href="recitation/recitation19.pdf">Week 10 Wednesday</a>
+<a href="recitation/recitation20.pdf">Week 10 Friday</a><br><br>
+
 <!--
 
 <a href="recitation/rec1.pdf">Week 1 Wednesday: Fermi problems</a><br>
