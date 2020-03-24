@@ -7,8 +7,6 @@ title: Announcements
 
 <a href="slides/lecture16.pdf">The work-energy theorem</a><br><br>
 
-<br>
-
 Please consult the <a href="syllabus-addendum.html">syllabus addendum</a>, also linked above, for a complete description of how things will go after Spring Break.
 
 
@@ -30,7 +28,14 @@ already, you may be prompted to download a small program.
 
 <a href="hw/hw9-2020.pdf">Homework 9 is posted</a> and is due Wednesday, March 25.
 
-### Upcoming help hours:
+### Upcoming help hours
+
+Walter will be in the Virtual Clinic on Tuesday, March 23, from 2-4:30 PM Syracuse time.
+
+### Recitation materials for this week
+
+Wednesday: <a href="recitation/recitation19.pdf">for print</a> and <a href="recitation/recitation19_lscape.pdf">for screensharing on Collaborate</a><br>
+Friday: <a href="recitation/recitation20.pdf">for print</a> and <a href="recitation/recitation20_lscape.pdf">for screensharing on Collaborate</a><br>
 
 
 
