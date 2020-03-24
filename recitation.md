@@ -6,39 +6,38 @@ permalink: recitation.html
 use_math: true
 ---
 
-<a href="recitation-guidelines.html">Recitation and homework guidelines</a>
+See the "Video solutions" page on the website for links to video explanations of how to solve all the problems for 
+recitations going back to Week 9.
 
-<br>
+Week 10 Wednesday: <a href="recitation/recitation19.pdf">for print</a> and <a href="recitation/recitation19_lscape.pdf">for screensharing on Collaborate</a><br>
+Week 10 Friday: <a href="recitation/recitation20.pdf">for print</a> and <a href="recitation/recitation20_lscape.pdf">for screensharing on Collaborate</a><br>
 
-<a href="recitation/recitation-units-motion.pdf">Week 1 Wednesday: doing mathematics with units and dimensions</a><br>
-<a href="recitation/recitation-1D-motion-1.pdf">Week 1 Friday: motion in 1D, part 1</a>
+<a href="recitation/recitation-momentum-2020.pdf">Week 9 Wednesday</a><br>
+<a href="recitation/recitation-momentum-energy.pdf">Week 9 Friday</a>
+
+<a href="recitation/recitation16.pdf">Week 8 Friday</a><br>
+
+<a href="recitation/recitation-gravity.pdf">Week 7 Wednesday</a> and its <a href="recitation/recitation-gravity-solutions.pdf">solutions</a>.<br>
+
+<a href="recitation/recitation11.pdf">Week 6 Wednesday</a> and its <a href="recitation/Feb19_Solutions.pdf">solutions</a>.<br>
+<a href="recitation/recitation12.pdf">Week 6 Friday</a> and its <a href="recitation/recitation12-solutions.pdf">solutions</a>.
+
+<a href="recitation/recitation-2020-forces2.pdf">Week 5 Wednesday</a> and its <a href="recitation/recitation-2020-forces2-solutions.pdf">solutions</a><br>
+<a href="recitation/recitation-2020-forces3.pdf">Week 5 Friday</a> and its <a href="recitation/recitation-2020-forces3-solutions.pdf">solutions</a>
+
+<a href="recitation/recitation8-2020.pdf">Week 4 Friday: starting with forces</a>
+
+<a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: projectile motion</a> and its <a href="recitation/recitation-2D-motion-solutions.pdf">solutions</a>.
 
 
 <a href="recitation/recitation3-2020.pdf">Week 2 Wednesday: motion in 1D, part 2</a> and its <a href="recitation/recitation-week2-wed-solutions.pdf">solutions</a><br>
 <a href="recitation/recitation4-2020.pdf">Week 2 Friday: practice with vectors</a> and its <a href="recitation/recitation-week2-fri-solutions.pdf">solutions</a>
 
 
-<a href="recitation/recitation-2D-motion.pdf">Week 3 Wednesday: projectile motion</a> and its <a href="recitation/recitation-2D-motion-solutions.pdf">solutions</a>.
+<a href="recitation/recitation-units-motion.pdf">Week 1 Wednesday: doing mathematics with units and dimensions</a><br>
+<a href="recitation/recitation-1D-motion-1.pdf">Week 1 Friday: motion in 1D, part 1</a>
 
-
-<a href="recitation/recitation8-2020.pdf">Week 4 Friday: starting with forces</a>
-
-
-<a href="recitation/recitation-2020-forces2.pdf">Week 5 Wednesday</a> and its <a href="recitation/recitation-2020-forces2-solutions.pdf">solutions</a><br>
-<a href="recitation/recitation-2020-forces3.pdf">Week 5 Friday</a> and its <a href="recitation/recitation-2020-forces3-solutions.pdf">solutions</a>
-
-<a href="recitation/recitation11.pdf">Week 6 Wednesday</a> and its <a href="recitation/Feb19_Solutions.pdf">solutions</a>.<br>
-<a href="recitation/recitation12.pdf">Week 6 Friday</a> and its <a href="recitation/recitation12-solutions.pdf">solutions</a>.
-
-<a href="recitation/recitation-gravity.pdf">Week 7 Wednesday</a> and its <a href="recitation/recitation-gravity-solutions.pdf">solutions</a>.<br>
-
-<a href="recitation/recitation16.pdf">Week 8 Friday</a><br>
-
-<a href="recitation/recitation-momentum-2020.pdf">Week 9 Wednesday</a><br>
-<a href="recitation/recitation-momentum-energy.pdf">Week 9 Friday</a>
-
-Week 10 Wednesday: <a href="recitation/recitation19.pdf">for print</a> and <a href="recitation/recitation19_lscape.pdf">for screensharing on Collaborate</a><br>
-Week 10 Friday: <a href="recitation/recitation20.pdf">for print</a> and <a href="recitation/recitation20_lscape.pdf">for screensharing on Collaborate</a><br>
+<a href="recitation-guidelines.html">Recitation and homework guidelines</a>
 
 <!--
 
