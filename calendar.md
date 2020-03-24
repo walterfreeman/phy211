@@ -36,9 +36,9 @@ Links to lecture slides will go live the night before or the morning of class.
 | 5 March     | <a href="slides/lecture14.pdf">Momentum</a>       | 9.1-9.3                        |
 | 10 March    | <a href="slides/lecture15.pdf">Conservation of momentum in two dimensions; practice problems</a>                                    | 9.5                            | 
 | 12 March    | <a href="slides/lecture16.pdf">The work-energy theorem</a>                                                       | 7.1-7.3                        |
-| 24 March    | <a href="slides/lecture17.pdf">The conservation of energy; potential energy</a>       | 7.4; 8.1-8.3                   |
-| 26 March    | Combining conservation of momentum and energy                                 | 9.4                            |
-| 31 March    | Angular momentum; an introduction to the process of science                   | 11.2-11.3                      |
+| 24 March    | <a href="slides/lecture17_wsol.pdf">The conservation of energy; potential energy</a>. <a href="slides/lecture17_examples.pdf">Example photos</a>       | 7.4; 8.1-8.3                   |
+| 26 March    | Combining conservation of momentum and energy                                 | 9.4, 9.5              |
+| 31 March    | Review; an introduction to the process of science                   | |
 | 2 April     | Review for Exam 3                                                             |                                |
 | 7 April     | **EXAM 3**                                                                                                       |                                |
 | 9 April     | Recognizing pseudoscience                                                     |                                |
