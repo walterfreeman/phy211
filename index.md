@@ -9,6 +9,10 @@ title: Announcements
 
 Please consult the <a href="syllabus-addendum.html">syllabus addendum</a>, also linked above, for a complete description of how things will go after Spring Break.
 
+### Video library
+
+We will be posting all of the videos from class on YouTube, Bilibili, and (hopefully) Blackboard. You can find links in the [video library](videos.html).
+
 
 ### The Virtual Physics Clinic
 
