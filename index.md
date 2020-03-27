@@ -30,11 +30,11 @@ already, you may be prompted to download a small program.
 
 ### Upcoming assignments:
 
-<a href="hw/hw9-2020.pdf">Homework 9 is posted</a> and is due Wednesday, March 25.
+<a href="hw/homework10.pdf">Homework 10 is posted</a> and is due Wednesday, April 1.
 
 ### Upcoming help hours
 
-Walter will be in the Virtual Clinic on Tuesday, March 23, from 2-4:30 PM Syracuse time.
+Walter will be in the Virtual Clinic on Monday, March 29, from 8-10 AM, and Tuesday, March 30, from 2-4 PM Syracuse time.
 
 ### Recitation materials for this week
 
