@@ -19,12 +19,12 @@ March 24 Lecture Recording, 11AM: [(YouTube)](https://youtu.be/uHNgXdVmWsA) [(Bi
 
 March 25 Recitation: [(YouTube)](https://youtu.be/7zy3FggYobE) (Bilibili coming soon, being uploaded)
 
-March 13 Recitation, Problem 1: [(YouTube)](https://youtu.be/EPFCvFK-Stc) (Bilibili coming soon, audit pending)<br> 
-March 13 Recitation, Problem 2: [(YouTube)](https://youtu.be/oJI_MLFGrkw) (Bilibili coming soon, audit pending)<br>
-March 13 Recitation, Problem 3: [(YouTube)](https://youtu.be/-ByFiNxFKI0) (Bilibili coming soon, audit pending)
+March 13 Recitation, Problem 1: [(YouTube)](https://youtu.be/EPFCvFK-Stc) [(Bilibili, all three problems)](https://www.bilibili.com/video/BV1y7411C7Ac/)<br> 
+March 13 Recitation, Problem 2: [(YouTube)](https://youtu.be/oJI_MLFGrkw) <br>
+March 13 Recitation, Problem 3: [(YouTube)](https://youtu.be/-ByFiNxFKI0) 
 
-March 11 Recitation, Problem 1: [(YouTube)](https://youtu.be/A01MqDCyEHw) (Bilibili coming soon, audit pending)<br>
-March 11 Recitation, Problem 2: [(YouTube)](https://youtu.be/7v92Ouf9mQ0) (Bilibili coming soon, audit pending)<br>
-March 11 Recitation, Problem 3: [(YouTube)](https://youtu.be/65EFIJIomOk) (Bilibili coming soon, audit pending)  
+March 11 Recitation, Problem 1: [(YouTube)](https://youtu.be/A01MqDCyEHw) <br>
+March 11 Recitation, Problem 2: [(YouTube)](https://youtu.be/7v92Ouf9mQ0) <br>
+March 11 Recitation, Problem 3: [(YouTube)](https://youtu.be/65EFIJIomOk) [(Bilibili, all three problems)](https://www.bilibili.com/video/BV1y7411C7ao/)
 
 Homework 9: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuVQnQLEmTLROgCI4-p5SxeT) (Bilibili coming soon, being uploaded)
