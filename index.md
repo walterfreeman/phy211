@@ -5,9 +5,11 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture16.pdf">The work-energy theorem</a><br><br>
+<a href="slides/lecture19.pdf">Power; review of work and energy</a><br><br>
 
-Please consult the <a href="syllabus-addendum.html">syllabus addendum</a>, also linked above, for a complete description of how things will go after Spring Break.
+### Unit 3 Review
+
+Some of you were asking me to write a review of this unit. Here you go: [Unit 3 review](unit-3-review.pdf)
 
 ### Video library
 

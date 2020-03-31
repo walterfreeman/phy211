@@ -1,9 +1,345 @@
-\documentclass[12pt]{article}
+\documentclass[10pt]{article}
 \setlength\parindent{0pt}
 \usepackage{fullpage}
+\usepackage[margin=2cm]{geometry}
+
+\usepackage{amsmath}
 \setlength{\parskip}{4mm}
 
 \begin{document}
-\null
+
+
+\begin{center}
+	\sc \Large Review of Work, Energy, and Momentum
+	
+\end{center}
+
+\section{Introduction}
+
+The previous approach to analyzing motion involved relating the forces acting on an object to its acceleration, then using kinematics to relate that acceleration to changes in its velocity and  position.
+
+However, often these things change in complex ways over time. For instance, for a swinging pendulum, the direction and magnitude of the tension force -- and, thus, the acceleration it induces -- change continually, and arriving at equations for $\vec x(t)$ and $\vec v(t)$ requires painful calculus (at best).
+
+We want to find alternatives that allow us to relate the {\it state of a system before something happens} to {\it the state of a system after something happens}. Here we consider two of these:
+
+\begin{itemize}
+	\item {\bf Conservation of momentum}: If there are no {\it external forces} on a collection of objects during an interval, then a quantity called the {\it total momentum} $\sum m \vec v$ of all the objects is the same before and after that interval, regardless of the details of what happened in between.
+	\item {\bf The work-energy theorem}: This lets us relate the initial and final speeds of objects in a system to a quantity called {\it work}, related to the forces that act on the object and its displacement during that interval.
+\end{itemize}
+
+The work-energy theorem is related to something called the {\it conservation of energy}, which reinterprets the work that certain forces can do as the change in {\it potential energy}.
+
+In solving problems:
+
+\begin{itemize}
+\item You can use the work-energy theorem whenever:
+\begin{itemize}
+\item You can identify clear ``before'' and ``after'' pictures
+\item You are able to calculate the work done by all forces in the interval between them
+\item You don't know and don't care about time
+\item You don't need to answer questions about trajectories (``where does the projectile land?'')
+\end{itemize}
+\item You can use conservation of momentum whenever:
+\begin{itemize}
+\item You have a collection of objects exchanging forces with no relevant external forces
+\item This mostly happens in {\bf collisions} and {\bf explosions}
+\end{itemize}
+\end{itemize}
+
+
+\section{The conservation of momentum}
+
+\subsection{Where does conservation of momentum come from?}
+
+Imagine two objects A and B exerting forces on each other. Newton's third law tells us
+
+$$\vec F_{AB} = -\vec F_{BA}$$
+
+and we can combine this with Newton's second law to see that 
+
+$$m_B\vec a_B = -m_A\vec a_A$$
+
+If we imagine some small interval of time $t$, we can rewrite $\vec a = \frac{\vec v_f - \vec v_0}{t}$, and this becomes
+
+$$\frac{m_B\vec v_{B_f} - m_B\vec v_{B_0}}{t} = - \frac{m_B\vec v_{B_f} - m_B\vec v_{B_0}}{t}$$
+
+Multiplying through by $t$ and rearranging terms, we have
+
+\begin{equation}
+m_A\vec v_{A_0} + m_B\vec v_{B_0} = m_A\vec v_{A_f} + m_B\vec v_{B_f}.
+\end{equation}
+
+We call this quantity $\vec p \equiv m\vec v$ the {\it momentum}. It appears, then, that if two objects $A$ and $B$ exchange forces, the sum of their momenta is the same before and after.
+
+\subsection{When is conservation of momentum useful?}
+
+Momentum is conserved in {\it any} interval in which the interacting objects don't experience forces from outside the system -- that is, when there is no external force from some other object acting on $A$ and $B$. 
+
+That is unlikely to be the case here on Earth, since we almost always have Earth's gravity to contend with.
+
+However, there are two situations where conservation of momentum is still useful.
+
+\begin{enumerate}
+	\item Sometimes the external forces are in one dimension only, and momentum is still conserved in the others. For instance, if two hockey players collide skating on frictionless ice, the external forces (Earth's gravity, the normal forces) are only in the vertical direction, but momentum is still conserved in the horizontal directions. 
+	\item Sometimes the forces between the objects are overwhelmingly larger than any external forces for a small moment, so that momentum is very nearly conserved during that small moment.
+	
+	This is almost always the case during {\bf collisions} and {\bf explosions} -- whenever multiple objects collide or one object separates.
+\end{enumerate}
+
+In general, the presence of a collision or explosion in a problem is a strong signal that you should use conservation of momentum to relate the velocities immediately before and after the collision/explosion. If other things are going on in the problem, then you will need other approaches to handle what happens before or after.
+
+\subsection{Momentum as a vector}
+
+Momentum is a vector, with $x-$ and $y-$ components. Above I gave the law of conservation of momentum as 
+
+\begin{equation*}
+m_A\vec v_{A_0} + m_B\vec v_{B_0} = m_A\vec v_{A_f} + m_B\vec v_{B_f}
+\end{equation*}
+
+but, in two dimensions, the $x-$ and $y-$ components are conserved separately, {\it i.e.}
+
+\begin{align}
+m_{A}\vec v_{A_{0_x}} + m_B\vec v_{B_{0_x}} = m_A\vec v_{A_{f_x}} + m_B\vec v_{B_{f_x}} \nonumber \\
+m_{A}\vec v_{A_{0_y}} + m_B\vec v_{B_{0_y}} = m_A\vec v_{A_{f_y}} + m_B\vec v_{B_{f_y}}
+\end{align}
+
+All of these subscripts are annoying, but one of the leading sources of mistakes in conservation of momentum problems is not keeping straight which velocity a particular symbol means.
+
+\section{Using conservation of momentum}
+
+To use conservation of momentum in a problem:
+
+\begin{enumerate}
+	\item Identify clear ``before'' and ``after'' pictures. (These will almost always be the instant before a collision/explosion and the instant after.)
+	\item Write down expressions for the total momentum in the ``before'' and ``after'' pictures in both $x-$ and $y-$directions (if appropriate)
+	\item Set these expressions equal and solve for the quantity you need to find. 
+\end{enumerate}
+
+
+\subsection{Where does the work-energy theorem come from? -- one dimension}
+
+
+Recall from kinematics that an object's displacement, velocity, and change in one dimension are related by 
+
+$$ v_f^2 - v_0^2 = 2a\Delta x$$
+
+Multiply this equation by $\frac{1}{2}m$ to get
+
+$$ \frac{1}{2}mv_f^2 - \frac{1}{2}mv_0^2 = ma \Delta x$$
+
+Identifying $ma = \sum F$, this becomes
+
+\begin{equation}
+ \frac{1}{2}mv_f^2 - \frac{1}{2}mv_0^2 = \sum F \Delta x
+ \end{equation}
+
+We call $\frac{1}{2}mv^2$ the {\it kinetic energy} and $F \Delta x$ the {\it work}. So this equation can be rewritten in words as
+
+\begin{equation}
+\text{(change in kinetic energy)} = \text{(work done by all forces)}
+\end{equation}
+Note that $F \Delta x$ doesn't depend on which way you choose to be positive; reversing the coordinate system simply changes the signs of both $F$ and $\Delta x$. Work and kinetic energy do not depend on the choice of coordinate system (in one or more dimensions).
+
+Thus, forces that are in the same direction as motion do positive work, and increase an object's kinetic energy; forces that are in the opposite direction as motion do negative work, and decrease an object's kinetic energy.
+
+
+\subsection{Where does the work-energy theorem come from? -- two dimensions}
+
+
+In two dimensions, we write down two copies of the kinematics relation:
+
+\begin{align*}
+v_{f_x}^2 - v_{0_x}^2 = 2a_x\Delta x \nonumber \\
+v_{f_y}^2 - v_{0_y}^2 = 2a_y\Delta y 
+\end{align*}
+
+We can multiply by $\frac{1}{2}m$ as before to get:
+
+
+\begin{align*}
+\frac{1}{2}mv_{f_x}^2 - \frac{1}{2}mv_{0_x}^2 = \sum F_x \Delta x \nonumber \\
+\frac{1}{2}mv_{f_y}^2 - \frac{1}{2}mv_{0_y}^2 = \sum F_y \Delta y 
+\end{align*}
+
+
+Adding these together and collecting terms in a suggestive way gives us:
+$$
+\frac{1}{2}m(v_{f_x}^2 + v_{f_y}^2)  - \frac{1}{2}m(v_{0_x}^2 + v_{0_y}^2)= \sum F_x \Delta x + \sum F_y \Delta y
+$$
+
+The left side can be simplified using the Pythagorean theorem; the right side is a new geometric idea, the {\it dot product}:
+
+\begin{equation}
+\frac{1}{2}mv_f^2 - \frac{1}{2}mv_0^2 = \sum \vec F \cdot \Delta \vec s
+\end{equation}
+
+where $\vec s$ is the displacement vector.
+
+In words, this means the same as before:
+
+\text{(change in kinetic energy)} = \text{(work done by all forces)}
+
+This can also be written:
+
+\text{(initial kinetic energy)} + \text{(work done by all forces)} = \text{(final kinetic energy)}
+
+\subsection{The dot product and dealing with directions}
+
+The dot product $\vec F \cdot \Delta s$ can be interpreted in one of three ways:
+
+\begin{enumerate}
+	\item ``The magnitude of $F$, times the component of the displacement in the direction of $\vec F$''
+	\item ``The magnitude of the displacement, times the component of $\vec F$ in the direction of $\Delta s$
+	\item ``The magnitude of $F$, times the magnitude of the displacement, times the cosine of the angle between them''
+\end{enumerate}
+
+Note that in many cases a force is always perpendicular to the motion: then the work done by that force is zero.
+
+Also, in some cases, where $\vec F$ or $\Delta \vec s$ are not constant, one must think about applying the work-energy theorem over small fragments of displacement. Then it becomes
+
+\begin{equation}
+\frac{1}{2}mv_f^2 - \frac{1}{2}mv_0^2 = \sum \int \vec F \cdot \Delta s
+\end{equation}
+
+However, we will almost never need to do this integral. The one exception is to derive the formula for the potential energy in a compressed spring, which you will not need to do and can just remember.
+
+
+
+\section{Using the work-energy theorem}
+
+If you have two snapshots in a motion, A and B, the work-energy theorem becomes
+
+\begin{equation}
+\frac{1}{2}mv_A^2 + W_1 + W_2 + W_3... = \frac{1}{2}mv_B^2
+\end{equation}
+
+where $W_1$, $W_2$, etc. are the work done by various forces that act on the object.
+
+To apply this to a problem:
+
+\begin{enumerate}
+	\item Clearly identify the states $A$ and $B$ and draw pictures of them (you {\it can't} use the work-energy theorem during a collision, for instance)
+	\item Identify all the forces that do work in going from $A$ to $B$, and write down an expression for the work done by each then think clearly about the work done by various forces in going from $A$ to $B$
+	\item Solve for whatever you need to.
+\end{enumerate}
+
+\section {Potential energy}
+
+\subsection{Where the idea comes from}
+
+Potential energy can be looked at as simply a bookkeeping trick for the work-energy theorem. Consider for instance a cart rolling down a track with friction, starting at height $y_A$ and ending at height $y_B$. The work done by gravity is $mg(y_A - y_B)$. So the work-energy theorem becomes
+
+$$\frac{1}{2}mv_A^2 + mg(y_A - y_B) + W_{\rm fric} = \frac{1}{2}mv_B^2$$
+
+However, we can split apart the work term and collect all the ``initial'' things on one side of the equals sign, and the ``final'' things on the right. This gives us
+
+$$\frac{1}{2}mv_A^2 + mgy_A + W_{\rm fric} = \frac{1}{2}mv_B^2 + mgy_B.$$
+
+At first glance, this may not seem like much progress. But we can then shift our perspective: instead of thinking of gravity as a {\it force that does work}, we can associate an object being at a certain height $y$ with the {\it potential} for gravity to do work $mgy$ as it falls to the ground\footnote{``Ground'' meaning whatever arbitrary height we call $y=0$.} 
+
+We thus call $mgy$ the gravitational potential energy. Notice that we can't do a similar trick with
+friction, since the work done by friction depends on many things {\it other} than the beginning and ending positions. Forces like gravity which can be associated with a potential energy are called {\it conservative forces}. Forces like friction which can't be are called {\it nonconservative forces}.
+
+\subsection{Modifying the work-energy theorem}
+
+We now have two {\it algebraically equivalent} different perspectives to analyze this situation with:
+
+First, the ``plain'' work-energy theorem:
+
+\text{(initial kinetic energy)} + \text{(work done by all forces including gravity)} = \text{(final kinetic energy)}
+
+Then, if we instead associate gravity with the potential energy $mgy$:
+
+\text{(initial KE)} + \text{(initial GPE)} + \text{(work done by forces besides gravity)} = \text{(final KE)} + \text{(final GPE)}
+
+\subsection{Elastic potential energy and the elastic force}
+
+To illustrate how this approach is useful, consider a new force: the elastic force.
+
+A stretched or compressed spring exerts a restoring force $$F_e = -k\Delta x,$$ where $\Delta x$ is the amount that the spring is stretched or compressed, and the minus sign indicates that the force is opposite the stretch/compression.
+
+Since this force is not constant, calculating the work that it does requires us to do an integral. Suppose that a spring is extended past its equilibrium length by an amount $b$, and we release it so that it retracts to an extension $a$.
+
+The work that the spring does in this process is 
+
+$$W_e = \int_b^a\, -kx\, dx = \left.\frac{1}{2}kx^2\right|_b^a =\frac{1}{2}kb^2 - \frac{1}{2}ka^2.$$
+
+Instead of doing this integral every time we encounter a spring that does work, we can just remember that the potential energy associated with a string that is stretched or compressed by an amount $\Delta x$ is 
+
+$$U_e = \frac{1}{2}(\Delta x)^2$$
+
+and associate the elastic force with this potential energy.
+
+\subsection{The conservation of energy}
+
+In a system with no nonconservative forces, and where the potential energy is of forms that we have a formula for, the work-energy theorem becomes
+
+\text{(initial KE)} + \text{(initial PE)}  = \text{(final KE)} + \text{(final PE)}
+
+and it is easy to see that the total energy is conserved, or constant.
+
+In the even that there are other nonconservative forces, we must include the work done by them:
+
+\text{(initial KE)} + \text{(initial PE)} + \text{(work done by nonconservative forces)}= \text{(final KE)} + \text{(final PE)}
+
+In this case, the nonconservative forces (like friction) appear to be changing the total energy of the system. However, it turns out that they are only ``hiding'' energy in other forms -- like heat or light -- that we are not yet equipped to calculate. Ultimately {\it every} force can be associated with an energy\footnote{In the fundamental perspective taken by particle physics, it turns out that all energy -- even potential energy! -- is actually the kinetic energy of various kinds of particles. This is true on  the most fundamental level, but it is not that useful: ultimately one would like to be able to say ``100 joules of heat'' without describing the random motions of zillions of particles in detail!}, and energy is fully conserved.
+
+\section{Power}
+
+Sometimes it is useful to keep track of the rate at which various forces do work. This is defined as the {\it power}, $P = \frac{dW}{dt}.$
+
+We know that 
+
+$$W = \vec F \cdot \Delta \vec s$$
+
+so we just take derivatives of both sides and get
+
+$$P = \vec F \cdot \frac{d\vec s}{dt} = \vec F \cdot \vec v$$
+
+where the dot product $\vec F \cdot \vec v$ means, as before, ``the force times the component of the velocity in the direction of that force''.
 \newpage
+\section{Summary}
+
+By request, all the ``formulas'' in one place:
+
+The work-energy theorem:
+
+\begin{equation}
+\frac{1}{2}mv_0^2 + W_{\rm all} = \frac{1}{2}mv_f^2
+\end{equation}
+
+The work-energy theorem incorporating potential energy:
+
+\begin{equation}
+\frac{1}{2}mv_0^2 + U_0 + W_{\rm other} = \frac{1}{2}mv_f^2 + U_f
+\end{equation}
+
+The definition of work:
+
+\begin{equation}
+W = \vec F \cdot \Delta \vec s \equiv F (\Delta s)_\parallel = F_\parallel(\Delta s) = F \Delta s \cos \theta
+\end{equation}
+
+Expressions for potential energy:
+
+\begin{align}
+U_{\rm grav} &= mgy \\
+U_{\rm spring} &= \frac{1}{2}k(\Delta x)^2
+\end{align}
+
+Power applied by a force:
+
+\begin{equation}
+P = \vec F \cdot \vec v
+\end{equation}
+
+Conservation of momentum:
+
+\begin{equation}
+\sum m \vec v_i = \sum m \vec v_f
+\end{equation}
+
+
 \end{document}
+
+
