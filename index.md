@@ -5,7 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-<a href="slides/lecture19.pdf">Power; review of work and energy</a><br><br>
+<a href="slides/lecture20.pdf">Introduction to the process of science; Exam 3 review</a><br><br>
 
 ### Unit 3 Review
 
@@ -34,15 +34,15 @@ already, you may be prompted to download a small program.
 
 <a href="hw/homework10.pdf">Homework 10 is posted</a> and is due Wednesday, April 1.
 
+Homework 11 will be short and will be posted soon.
+
 ### Upcoming help hours
 
-Walter will be in the Virtual Clinic on Monday, March 29, from 8-10 AM, and Tuesday, March 30, from 2-4 PM Syracuse time.
+Walter will be in the Virtual Clinic on Friday, April 3, from 8AM to 10AM; Matt will be in the Virtual Clinic from 1PM to 3PM on the same day. 
 
 ### Recitation materials for this week
 
-Wednesday: <a href="recitation/recitation19.pdf">for print</a> and <a href="recitation/recitation19_lscape.pdf">for screensharing on Collaborate</a><br>
-Friday: <a href="recitation/recitation20.pdf">for print</a> and <a href="recitation/recitation20_lscape.pdf">for screensharing on Collaborate</a><br>
-
+<a href="recitation/recitation-energy-power.pdf">Materials for Wednesday, for screensharing on Collaborate</a>
 
 
 ### Information
