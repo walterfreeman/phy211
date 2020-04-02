@@ -32,7 +32,7 @@ already, you may be prompted to download a small program.
 
 ### Upcoming assignments:
 
-<a href="hw/homework10.pdf">Homework 10 is posted</a> and is due Wednesday, April 1.
+<a href="hw/hw11-2020.pdf">Homework 11 is posted</a> and is due Tuesday, April 7.
 
 Homework 11 will be short and will be posted soon.
 
