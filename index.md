@@ -34,8 +34,6 @@ already, you may be prompted to download a small program.
 
 <a href="hw/hw11-2020.pdf">Homework 11 is posted</a> and is due Tuesday, April 7.
 
-Homework 11 will be short and will be posted soon.
-
 ### Upcoming help hours
 
 Walter will be in the Virtual Clinic on Friday, April 3, from 8AM to 10AM; Matt will be in the Virtual Clinic from 1PM to 3PM on the same day. 
