@@ -5,6 +5,10 @@ use_math: true
 title: Announcements
 ---
 
+### Practice Exam 3
+
+<a href="practiceexam3-2020.pdf">Practice Exam 3</a> for recitation Friday. A solution video will be posted Sunday.
+
 <a href="slides/lecture20.pdf">Introduction to the process of science; Exam 3 review</a><br><br>
 
 ### Unit 3 Review
@@ -40,7 +44,7 @@ Walter will be in the Virtual Clinic on Friday, April 3, from 8AM to 10AM; Matt 
 
 ### Recitation materials for this week
 
-<a href="recitation/recitation-energy-power.pdf">Materials for Wednesday, for screensharing on Collaborate</a>
+<a href="practiceexam3-2020.pdf">Practice Exam 3</a>
 
 
 ### Information
