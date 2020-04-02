@@ -9,6 +9,15 @@ title: Announcements
 
 <a href="practiceexam3-2020.pdf">Practice Exam 3</a> for recitation Friday. A solution video will be posted Sunday.
 
+
+### Exam 3 from 2019
+
+Some students asked for Exam 3 from 2019. Note that this exam covers a few topics that aren't in this unit this year (angular momentum, rotational kinetic energy); this was a particularly hard exam last year.
+
+A better assessment of what this year's exam will be like will be the practice exam (above). 
+
+### Most recent lecture slides
+
 <a href="slides/lecture20.pdf">Introduction to the process of science; Exam 3 review</a><br><br>
 
 ### Unit 3 Review
