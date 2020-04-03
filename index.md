@@ -12,7 +12,7 @@ title: Announcements
 
 ### Exam 3 from 2019
 
-Some students asked for Exam 3 from 2019. Note that this exam covers a few topics that aren't in this unit this year (angular momentum, rotational kinetic energy); this was a particularly hard exam last year.
+Some students asked for <a href="exam3-2019.pdf">Exam 3 from 2019</a>. Note that this exam covers a few topics that aren't in this unit this year (angular momentum, rotational kinetic energy); this was a particularly hard exam last year.
 
 A better assessment of what this year's exam will be like will be the practice exam (above). 
 
