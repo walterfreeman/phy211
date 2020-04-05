@@ -11,7 +11,7 @@ Here you can find video links to all of the solution videos, lecture recordings,
 These will be uploaded to both YouTube and Bilibili. (The Bilibili recordings will be delayed a little because of the audit
 procedure.)
 
-April 1 Lecture Recording: [(YouTube -- both 9:30 and 11:00 in one playlist, take your pick)](https://www.youtube.com/playlist?list=PLPAgEthTEIuWGCXWqNYskEsnA5PyY0gy0)
+April 2 Lecture Recording: [(YouTube -- both 9:30 and 11:00 in one playlist, take your pick)](https://www.youtube.com/playlist?list=PLPAgEthTEIuWGCXWqNYskEsnA5PyY0gy0)
 
 March 31 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuX-1vsFaIfsK2j7HbyXR7Bx) [(Bilibili)](https://www.bilibili.com/video/BV1554y1d7NF/)<br>
 March 26 Lecture Recording: [(YouTube)](https://www.youtube.com/watch?v=5CMM-GKJfDE&list=PLPAgEthTEIuWmj2bRmq2C0HJ9r9cTNSHg) [(Bilibili)](https://www.bilibili.com/video/BV1e7411Q7xd/)<br>
