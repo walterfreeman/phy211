@@ -17,7 +17,7 @@ March 31 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PL
 March 26 Lecture Recording: [(YouTube)](https://www.youtube.com/watch?v=5CMM-GKJfDE&list=PLPAgEthTEIuWmj2bRmq2C0HJ9r9cTNSHg) [(Bilibili)](https://www.bilibili.com/video/BV1e7411Q7xd/)<br>
 March 24 Lecture Recording: [(YouTube)](https://youtu.be/uHNgXdVmWsA) [(Bilibili)](https://www.bilibili.com/video/bv167411y7bx)
 
-April 1 Recitation: [(YouTube)](https://youtu.be/T6G-wnqob0Q) (Bilibili coming soon)
+April 1 Recitation: [(YouTube)](https://youtu.be/T6G-wnqob0Q) (Bilibili coming soon)<br>
 March 25 Recitation: [(YouTube)](https://youtu.be/7zy3FggYobE) [(Bilibili)](https://www.bilibili.com/video/BV1e7411Q7Nf/)
 
 March 13 Recitation, Problem 1: [(YouTube)](https://youtu.be/EPFCvFK-Stc) [(Bilibili, all three problems)](https://www.bilibili.com/video/BV1y7411C7Ac/)<br> 
