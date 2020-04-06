@@ -11,6 +11,8 @@ Here you can find video links to all of the solution videos, lecture recordings,
 These will be uploaded to both YouTube and Bilibili. (The Bilibili recordings will be delayed a little because of the audit
 procedure.)
 
+Exam 3 Review Session and Practice Exam Answers: [(YouTube)](https://youtu.be/nmgPsaXk19s) (Bilibili coming soon)
+
 April 2 Lecture Recording: [(YouTube -- both 9:30 and 11:00 in one playlist, take your pick)](https://www.youtube.com/playlist?list=PLPAgEthTEIuWGCXWqNYskEsnA5PyY0gy0)
 
 March 31 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuX-1vsFaIfsK2j7HbyXR7Bx) [(Bilibili)](https://www.bilibili.com/video/BV1554y1d7NF/)<br>
@@ -18,6 +20,7 @@ March 26 Lecture Recording: [(YouTube)](https://www.youtube.com/watch?v=5CMM-GKJ
 March 24 Lecture Recording: [(YouTube)](https://youtu.be/uHNgXdVmWsA) [(Bilibili)](https://www.bilibili.com/video/bv167411y7bx)
 
 April 1 Recitation: [(YouTube)](https://youtu.be/T6G-wnqob0Q) (Bilibili coming soon)<br>
+March 27 Recitation: 
 March 25 Recitation: [(YouTube)](https://youtu.be/7zy3FggYobE) [(Bilibili)](https://www.bilibili.com/video/BV1e7411Q7Nf/)
 
 March 13 Recitation, Problem 1: [(YouTube)](https://youtu.be/EPFCvFK-Stc) [(Bilibili, all three problems)](https://www.bilibili.com/video/BV1y7411C7Ac/)<br> 

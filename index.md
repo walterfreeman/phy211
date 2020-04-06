@@ -7,8 +7,7 @@ title: Announcements
 
 ### Practice Exam 3
 
-<a href="practiceexam3-2020.pdf">Practice Exam 3</a> for recitation Friday. A solution video will be posted Sunday.
-
+<a href="practiceexam3-2020.pdf">Practice Exam 3</a> for recitation Friday. A video of the review session, including full solutions, is on [YouTube](https://youtu.be/nmgPsaXk19s). We will get Bilibili / alternate hosting availability as soon as possible.
 
 ### Exam 3 from 2019
 
