@@ -9,9 +9,9 @@ title: Video library
 Here you can find video links to all of the solution videos, lecture recordings, and the like from our class.
 
 These will be uploaded to both YouTube and Bilibili. (The Bilibili recordings will be delayed a little because of the audit
-procedure.)
+procedure.) Enormous thanks to Ruohan Xu for managing the Bilibili channel!
 
-Exam 3 Review Session and Practice Exam Answers: [(YouTube)](https://youtu.be/nmgPsaXk19s) (Bilibili coming soon)
+Exam 3 Review Session and Practice Exam Answers: [(YouTube)](https://youtu.be/nmgPsaXk19s) [(Bilibili)](https://www.bilibili.com/video/BV1hQ4y1K7ru/)
 
 April 2 Lecture Recording: [(YouTube -- both 9:30 and 11:00 in one playlist, take your pick)](https://www.youtube.com/playlist?list=PLPAgEthTEIuWGCXWqNYskEsnA5PyY0gy0)
 
