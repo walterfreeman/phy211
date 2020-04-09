@@ -41,7 +41,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 31 March    | <a href="slides/lecture19.pdf">Power; review problems</a> <a href="slides/lecture19-annotated-930.pdf">(9:30 notes)</a> <a href="slides/lecture19-annotated-11AM.pdf">(11AM notes)</a>                   | |
 | 2 April     | <a href="slides/lecture20.pdf">Introduction to the process of science; Review for Exam 3</a> <a href="slides/lecture20-annotated-930.pdf">(9:30 notes)</a> <a href="slides/lecture20-annotated-11AM.pdf">(11AM notes)</a>                                                             |                                |
 | 7 April     | **EXAM 3**                                                                                                       |                                |
-| 9 April     | Recognizing pseudoscience                                                     |                                |
+| 9 April     | <a href="slides/lecture21.pdf">Recognizing pseudoscience</a>                                                     |                                |
 | 14 April    | Calculating torque; static equilibrium problems                               | 10.3                           | 
 | 16 April    | More on static equilibrium; rotational dynamics                               | 10.7-10.8                      |
 | 21 April    | Combinations of translational and rotational motion; rolling                  | 11.1                           |

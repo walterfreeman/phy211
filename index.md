@@ -5,35 +5,9 @@ use_math: true
 title: Announcements
 ---
 
-## Exam 3
-
-Here are the five PDF's for the five parts of Exam 3.
-
-[Question 1 (short answer) and instructions](exam3-2020-problem1.pdf)<br>
-[Question 2](exam3-2020-problem2.pdf)<br>
-[Question 3](exam3-2020-problem3.pdf)<br>
-[Question 4](exam3-2020-problem4.pdf)<br>
-[Question 5](exam3-2020-problem5.pdf)
-
-<br><br>
-
-You may also download [the whole exam in one PDF for easy printing](exam3-2020.pdf), but we would still like you to submit each problem separately on Blackboard to help us grade.
-
-Submit these to the assignments under ``Exam'' on Blackboard by Wednesday, 1:00 PM Syracuse time (EDT, UTC -4:00).
-
-### Practice Exam 3
-
-<a href="practiceexam3-2020.pdf">Practice Exam 3</a> for recitation Friday. A video of the review session, including full solutions, is on [YouTube](https://youtu.be/nmgPsaXk19s). We will get Bilibili / alternate hosting availability as soon as possible.
-
-### Exam 3 from 2019
-
-Some students asked for <a href="exam3-2019.pdf">Exam 3 from 2019</a>. Note that this exam covers a few topics that aren't in this unit this year (angular momentum, rotational kinetic energy); this was a particularly hard exam last year.
-
-A better assessment of what this year's exam will be like will be the practice exam (above). 
-
 ### Most recent lecture slides
 
-<a href="slides/lecture20.pdf">Introduction to the process of science; Exam 3 review</a><br><br>
+<a href="slides/lecture21.pdf">Recognizing bogus science</a><br><br>
 
 ### Unit 3 Review
 

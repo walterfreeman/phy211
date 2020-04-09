@@ -2,13 +2,14 @@
 layout: page
 title: Paper
 permalink: paper.html 
+category: top
 use_math: true
 ---
 
 **tl;dr Write a case study of a situation where the process of science either deliberately or accidentally ran off the rails. 
-Due April 29 by midnight. You will turn in two copies: one to your TA's mailbox, and the other to an email address we will set up for you.**
+Due May 1 by midnight. We will provide instructions on turning this in later.**
 
-## The Process of Science 
+## Case Study: Flawed Process of Science
 
 The scientific approach has resulted in an explosion of technology and knowledge about our world. However, when applied without attention to integrity -- to ensuring rigor, thoroughness, and accuracy -- even honest, well-meaning scientists
 can reach incorrect conclusions. Worse, the intentional misapplication of the scientific method, or the use of the trappings of scientific study to lend credence to a spurious idea ("pseudoscience"), is a powerful tool of deception, in which
@@ -22,16 +23,18 @@ Your example needs to have at least the following properties:
 * Someone made a claim purporting to be the result of scientific study
 * This claim was false or not well-founded
 * The incorrect claim resulted in some way from some failing in the *process of science*.
-  * This might be because of an honest mistake, as in the example on Exam 2
-  * It might also be a result of deliberate deception
-
+  * This might be because of an honest mistake
+  * It might be because someone really should have been more careful 
+  * It might also be a result of deliberate deception or malice
 
 As a reminder, common fallacies that you will find include:
 
-* Cherry-picking data: using a limited biased data set, either deliberately or accidentally (the example from Exam 2)
+* Sampling bias: using a limited and biased data set that isn't representative of the broader population
 * Overgeneralization: drawing broad conclusions from limited evidence (i.e. generalizing from a psychological study of American college students to all people)
 * Argument *ad hominem*: rejecting legitimate scientific findings based on who the scientists are, rather than considering the data itself
 * Ignoring refuting evidence: failing to consider or deliberately ignoring evidence that calls into question the claim being made
+* Manufacturing a controversy: attempting to erode public confidence in legitimate scientific conclusions by creating the appearance of a controversy when no real controversy exists
+* Sensationalism: conflating a *demonstration that something is exciting* with *evidence that is true*
 
 ### So, what do I want you to do?
 
@@ -42,7 +45,7 @@ What questions should a skeptical audience (whether fellow scientists or the gen
 out the flaws in the argument being made? This is especially important if you are discussing an example of 
 deliberate misinformation: how could someone else have recognized that they were being lied to?
 
-Finally, if the issue resulted from negligence, rather than malice, describe what the researchers should have 
+Finally, if the issue resulted from negligence or a mistake, rather than a deliberate attempt to deceive anyone, describe what the researchers should have 
 done instead to ensure that they didn't reach incorrect conclusions.
 
 A few notes:
@@ -55,6 +58,21 @@ paper should focus on the process of science and how it has gone astray; it shou
 for a particular policy position. 
 
 * You may write about a single experiment/claim, or a series of linked claims that form a coherent movement.
+
+### What if you already wrote a paper like this for AST101?
+
+The idea to teach students a little bit about how science protects itself from incorrect conclusions, so that you can be equipped to refute invalid claims when you encounter them in your lives, isn't just a PHY211 thing.
+
+We do this in some other classes too, including AST101, which some of you may have taken with me in the Fall. So some of you may have already completed the standard assignment, and you should do something different (maybe)!
+
+If you wrote a paper like this in AST101, you may either:
+
+* Write another paper about a different topic, comparing the situation to whatever you wrote about last term
+* Write instead about one of the following topics:
+  * Discuss what sorts of changes could be made in society to protect against bad actors using invalid scientific claims to cause harm. These changes could involve changes to education, to government, or to the way legitimate scientists interact with the public.
+  * Discuss how you think this problem -- of invalid scientific claims causing harm to society -- has changed over time, choosing any time period you find interesting.
+  * Discuss how the representation of science in the popular imagination -- whether portrayed in fiction or in other media -- is similar to the reality of how the scientific process works, and how it is different
+  * Do an ast101-style freeform final project, if you have a really nifty idea of something you'd like to do (talk to Walter to set this up!)
 
 ### What do we expect regarding citation of sources and academic integrity?
 
@@ -72,14 +90,11 @@ But, ultimately, you must understand everything you write, and have composed the
 
 ### How will this be graded?
 
-We will grade you out of fifteen points. The grading will be done by a combination of your recitation TA's and professors. 
+The grading will be done by a combination of your recitation TA's and professors. 
 
 If you write an exemplary essay here, especially one that teaches us something we didn't know, you may earn extra credit.
-(This is the same grading system used in AST101 papers; as a reference, of the 1700 papers we graded last fall, two received a 30/10, 
-twelve a 20 or higher, and about fifty earned a 15 or higher.)
 
- Longer papers will get no higher of a grade
-unless they use their extra words to actually say something interesting. There are almost five hundred of you and grading is going to take a while, so if you only have a few things to say, say them well and succinctly, and be proud.
+Longer papers will get no higher of a grade unless they use their extra words to actually say something interesting. There are almost five hundred of you and grading is going to take a while, so if you only have a few things to say, say them well and succinctly, and be proud.
 
 We will grade you based on:
 

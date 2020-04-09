@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recitation materials
+title: Recitation
 category: top
 permalink: recitation.html
 use_math: true
@@ -8,6 +8,8 @@ use_math: true
 
 See the "Video solutions" page on the website for links to video explanations of how to solve all the problems for 
 recitations going back to Week 9.
+
+Week 12 Friday: to be posted tomorrow (it's a group discussion on the paper)
 
 Week 11 Wednesday: <a href="recitation/recitation-energy-power.pdf">for screensharing on Collaborate</a>.
 
