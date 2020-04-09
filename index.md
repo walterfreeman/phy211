@@ -5,6 +5,10 @@ use_math: true
 title: Announcements
 ---
 
+### Paper
+
+The prompt for the <a href="paper.html">paper on the process of science</a> is posted.
+
 ### Most recent lecture slides
 
 <a href="slides/lecture21.pdf">Recognizing bogus science</a><br><br>
@@ -34,11 +38,11 @@ already, you may be prompted to download a small program.
 
 ### Upcoming assignments:
 
-<a href="hw/hw11-2020.pdf">Homework 11 is posted</a> and is due Tuesday, April 7.
+<a href="hw/hw12-2020.pdf">Homework 12 is posted</a> and is due Wednesday, April 15.
 
 ### Upcoming help hours
 
-Walter will be in the Virtual Clinic on Friday, April 3, from 8AM to 10AM; Matt will be in the Virtual Clinic from 1PM to 3PM on the same day. 
+Walter will be in the Virtual Clinic on Friday, April 10, from 9AM to 11AM; Matt will be in the Virtual Clinic from 1PM to 3PM on the same day. 
 
 ### Recitation materials for this week
 
