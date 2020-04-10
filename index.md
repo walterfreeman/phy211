@@ -42,7 +42,6 @@ already, you may be prompted to download a small program.
 
 ### Upcoming help hours
 
-Walter will be in the Virtual Clinic on Friday, April 10, from 9AM to 11AM; Matt will be in the Virtual Clinic from 1PM to 3PM on the same day. 
 
 ### Recitation materials for this week
 
