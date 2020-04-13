@@ -42,10 +42,10 @@ Links to lecture slides will go live the night before or the morning of class.
 | 2 April     | <a href="slides/lecture20.pdf">Introduction to the process of science; Review for Exam 3</a> <a href="slides/lecture20-annotated-930.pdf">(9:30 notes)</a> <a href="slides/lecture20-annotated-11AM.pdf">(11AM notes)</a>                                                             |                                |
 | 7 April     | **EXAM 3**                                                                                                       |                                |
 | 9 April     | <a href="slides/lecture21.pdf">Recognizing pseudoscience</a>                                                     |                                |
-| 14 April    | Calculating torque; static equilibrium problems                               | 10.3                           | 
-| 16 April    | More on static equilibrium; rotational dynamics                               | 10.7-10.8                      |
-| 21 April    | Combinations of translational and rotational motion; rolling                  | 11.1                           |
-| 23 April    | Waves, oscillations, and acoustics                                            | TBD                            |
+| 14 April    | Rotational kinetic energy, combination of translational and rotational motion   | 10.4 (review 10.1-10.3 if needed)                         |
+| 16 April    | Angular momentum                                                              | 11.2-11.3                            |
+| 21 April    | Calculating torque; static equilibrium problems                               | Review 10.6-10.7                        | 
+| 23 April    | More on static equilibrium                               | 12.1-12.2                      |
 | 28 April    | Review for the final exam; course retrospective                               |                                |
 | 4 May       | **FINAL EXAM:** Stolkin Auditorium or location TBA, 3-5 PM                                                       |                                |
 |----------+---------------------------------------------------------------------------------------------------------------------+--------------------------------+
