@@ -9,8 +9,8 @@ use_math: true
 See the "Video solutions" page on the website for links to video explanations of how to solve all the problems for 
 recitations going back to Week 9.
 
-Week 12 Wednesday: <a href="recitation_apr15.pdf">for print</a> and <a href="recitation_apr15_lscape.pdf">for screensharing on Collaborate</a><br>
-Week 12 Friday: <a href="recitation_apr17.pdf">for print</a> and <a href="recitation_apr17_lscape.pdf">for screensharing on Collaborate</a>
+Week 12 Wednesday: <a href="recitation/recitation_apr15.pdf">for print</a> and <a href="recitation/recitation_apr15_lscape.pdf">for screensharing on Collaborate</a><br>
+Week 12 Friday: <a href="recitation/recitation_apr17.pdf">for print</a> and <a href="recitation/recitation_apr17_lscape.pdf">for screensharing on Collaborate</a>
 
 Week 11 Wednesday: <a href="recitation/recitation-energy-power.pdf">for screensharing on Collaborate</a>.
 
