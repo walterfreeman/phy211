@@ -43,7 +43,7 @@ Links to lecture slides will go live the night before or the morning of class.
 | 7 April     | **EXAM 3**                                                                                                       |                                |
 | 9 April     | <a href="slides/lecture21.pdf">Recognizing pseudoscience</a>                                                     |                                |
 | 14 April    | <a href="slides/lecture22.pdf">Rotational kinetic energy, combination of translational and rotational motion</a> <a href="slides/exampls_apr15.pdf">Example pictures</a>   | 10.4 - 10.5 (review 10.1-10.3 if needed)                         |
-| 16 April    | Angular momentum                                                              | 11.2-11.3                            |
+| 16 April    | <a href="slides/lecture23.pdf">Angular momentum</a>                                                              | 11.2-11.3                            |
 | 21 April    | Calculating torque; static equilibrium problems                               | Review 10.6-10.7                        | 
 | 23 April    | More on static equilibrium                               | 12.1-12.2                      |
 | 28 April    | Review for the final exam; course retrospective                               |                                |
