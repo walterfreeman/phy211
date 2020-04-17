@@ -5,13 +5,15 @@ use_math: true
 title: Announcements
 ---
 
-### Paper
+### Upcoming assignments:
+
+<a href="hw/homework13.pdf">Homework 13 is posted</a> and is due Wednesday, April 22.
 
 The prompt for the <a href="paper.html">paper on the process of science</a> is posted.
 
 ### Most recent lecture slides
 
-<a href="slides/lecture21.pdf">Recognizing bogus science</a><br><br>
+<a href="slides/lecture22.pdf">Angular momentum and rotational kinetic energy.</a><br><br>
 
 ### Unit 3 Review
 
@@ -36,16 +38,14 @@ You can join the Virtual Clinic at <a href="https://zoom.us/j/668912935">https:/
 already, you may be prompted to download a small program.
 
 
-### Upcoming assignments:
-
-<a href="hw/hw12-2020.pdf">Homework 12 is posted</a> and is due Wednesday, April 15.
-
 ### Upcoming help hours
 
+Walter will be in the Virtual Physics Clinic on Friday from 8:00 AM to 10:00 AM; Prof. Rudolph will be there from 1:00-3:00 PM
 
 ### Recitation materials for this week
 
-<a href="practiceexam3-2020.pdf">Practice Exam 3</a>
+<a href="recitation/recitation_apr17_lscape.pdf">Wednesday</a><br>
+<a href="recitation/recitation_apr19_lscape.pdf">Friday</a><br>
 
 
 ### Information
