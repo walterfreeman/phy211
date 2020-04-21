@@ -13,7 +13,7 @@ The prompt for the <a href="paper.html">paper on the process of science</a> is p
 
 ### Most recent lecture slides
 
-<a href="slides/lecture22.pdf">Angular momentum and rotational kinetic energy.</a><br><br>
+<a href="slides/lecture24.pdf">Torque</a><br><br>
 
 ### Unit 3 Review
 
