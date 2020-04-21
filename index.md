@@ -11,7 +11,8 @@ title: Announcements
 
 The prompt for the <a href="paper.html">paper on the process of science</a> is posted.
 
-### Most recent lecture slides
+### Most recent lecture slide
+s
 
 <a href="slides/lecture24.pdf">Torque</a><br><br>
 
@@ -44,8 +45,8 @@ Walter will be in the Virtual Physics Clinic on Friday from 8:00 AM to 10:00 AM;
 
 ### Recitation materials for this week
 
-<a href="recitation/recitation_apr17_lscape.pdf">Wednesday</a><br>
-<a href="recitation/recitation_apr19_lscape.pdf">Friday</a><br>
+Week 13 Wednesday: <a href="recitation/recitation_apr22_lscape.pdf">for screensharing on Collaborate</a><br>
+Week 13 Friday: <a href="recitation/recitation-torque2-2020.tex">for screensharing on Collaborate</a>
 
 
 ### Information
