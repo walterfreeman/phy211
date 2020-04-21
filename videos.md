@@ -13,7 +13,7 @@ procedure.) Enormous thanks to Ruohan Xu for managing the Bilibili channel!
 
 Exam 3 Review Session and Practice Exam Answers: [(YouTube)](https://youtu.be/nmgPsaXk19s) [(Bilibili)](https://www.bilibili.com/video/BV1hQ4y1K7ru/)
 
-April 16 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuV2G7RQdR_K5z5BTt7djUPT)
+April 16 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuV2G7RQdR_K5z5BTt7djUPT) [(Bilibili)](https://www.bilibili.com/video/BV1z5411t7iM/)
 
 April 14 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuUHS55ACr9ZoRojaKhAO6Jb) [(Bilibili)](https://www.bilibili.com/video/BV1UK411V7eV/)
 
