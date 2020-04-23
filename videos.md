@@ -13,7 +13,9 @@ procedure.) Enormous thanks to Ruohan Xu for managing the Bilibili channel!
 
 Exam 3 Review Session and Practice Exam Answers: [(YouTube)](https://youtu.be/nmgPsaXk19s) [(Bilibili)](https://www.bilibili.com/video/BV1hQ4y1K7ru/)
 
-April 16 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuV2G7RQdR_K5z5BTt7djUPT) [(Bilibili)](https://www.bilibili.com/video/BV1z5411t7iM/)
+April 21 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuUDsx9wuE2xZyMnmtNSkaxV)
+
+April 16 Lecture Recording: (audio broken, sorry!) [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuV2G7RQdR_K5z5BTt7djUPT) [(Bilibili)](https://www.bilibili.com/video/BV1z5411t7iM/)
 
 April 14 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PLPAgEthTEIuUHS55ACr9ZoRojaKhAO6Jb) [(Bilibili)](https://www.bilibili.com/video/BV1UK411V7eV/)
 
@@ -25,7 +27,7 @@ March 31 Lecture Recording: [(YouTube)](https://www.youtube.com/playlist?list=PL
 March 26 Lecture Recording: [(YouTube)](https://www.youtube.com/watch?v=5CMM-GKJfDE&list=PLPAgEthTEIuWmj2bRmq2C0HJ9r9cTNSHg) [(Bilibili)](https://www.bilibili.com/video/BV1e7411Q7xd/)<br>
 March 24 Lecture Recording: [(YouTube)](https://youtu.be/uHNgXdVmWsA) [(Bilibili)](https://www.bilibili.com/video/bv167411y7bx)
 
-April 27 Recitation: [(YouTube)](https://www.youtube.com/watch?v=gO7NWgIi1qw)
+April 17 Recitation: [(YouTube)](https://www.youtube.com/watch?v=gO7NWgIi1qw) [(Bilibili)](https://www.bilibili.com/video/BV1AZ4y147xN/)
 
 April 15 Recitation: [(YouTube)](https://youtu.be/X5pf7kiaJ9Y) [(Bilibili)](https://www.bilibili.com/video/BV1cQ4y1T7Ff/)
 

@@ -7,14 +7,13 @@ title: Announcements
 
 ### Upcoming assignments:
 
-<a href="hw/homework13.pdf">Homework 13 is posted</a> and is due Wednesday, April 22.
+<a href="hw/homework13.pdf">Homework 13 is posted</a> and is due Wednesday, April 22. Students in class on April 23 may have an extension until end of day April 23.
 
 The prompt for the <a href="paper.html">paper on the process of science</a> is posted.
 
-### Most recent lecture slide
-s
+### Most recent lecture slides
 
-<a href="slides/lecture24.pdf">Torque</a><br><br>
+<a href="slides/lecture25-2020.pdf">More practice with torque</a><br><br>
 
 ### Unit 3 Review
 

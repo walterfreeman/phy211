@@ -45,9 +45,9 @@ Links to lecture slides will go live the night before or the morning of class.
 | 14 April    | <a href="slides/lecture22.pdf">Rotational kinetic energy, combination of translational and rotational motion</a> <a href="slides/exampls_apr15.pdf">Example pictures</a>   | 10.4 - 10.5 (review 10.1-10.3 if needed)                         |
 | 16 April    | <a href="slides/lecture23.pdf">Angular momentum</a>  <a href="slides/examples_apr16.pdf">Example pictures</a>                                                            | 11.2-11.3                            |
 | 21 April    | <a href="slides/lecture24.pdf">Calculating torque; static equilibrium problems</a> <a href="slides/examples_apr22.pdf"> Example pictures </a>                              | Review 10.6-10.7                        | 
-| 23 April    | More on static equilibrium                               | 12.1-12.2                      |
+| 23 April    | <a href="slides/lecture25-2020.pdf">More on torque; objects that roll</a>                               | 12.1-12.2                      |
 | 28 April    | Review for the final exam; course retrospective                               |                                |
-| 4 May       | **FINAL EXAM:** Stolkin Auditorium or location TBA, 3-5 PM                                                       |                                |
+| 4 May - 5 May       | **FINAL EXAM**                                                      |                                |
 |----------+---------------------------------------------------------------------------------------------------------------------+--------------------------------+
 
 
