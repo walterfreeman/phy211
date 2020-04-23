@@ -19,4 +19,5 @@ use_math: true
 <a href="hw/hw11-2020.pdf">Homework 11, due Wednesday, April 8</a>. Submit online to Blackboard.<br>
 <a href="hw/hw12-2020.pdf">Homework 12, due Wednesday, April 15</a>. Submit online to Blackboard.<br>
 <a href="hw/homework13.pdf">Homework 13, due Wednesday, April 22</a>. Submit online to Blackboard.<br>
+<a href="hw/homework14.pdf">Homework 14, due Wednesday, April 30</a>. Submit online to Blackboard.<br>
 

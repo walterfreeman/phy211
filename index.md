@@ -7,7 +7,7 @@ title: Announcements
 
 ### Upcoming assignments:
 
-<a href="hw/homework13.pdf">Homework 13 is posted</a> and is due Wednesday, April 22. Students in class on April 23 may have an extension until end of day April 23.
+<a href="hw/homework14.pdf">Homework 14 is posted</a> and is due Thursday, April 30. 
 
 The prompt for the <a href="paper.html">paper on the process of science</a> is posted.
 
