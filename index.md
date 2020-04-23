@@ -45,7 +45,7 @@ Walter will be in the Virtual Physics Clinic on Friday from 8:00 AM to 10:00 AM;
 ### Recitation materials for this week
 
 Week 13 Wednesday: <a href="recitation/recitation_apr22_lscape.pdf">for screensharing on Collaborate</a><br>
-Week 13 Friday: <a href="recitation/recitation-torque2-2020.tex">for screensharing on Collaborate</a>
+Week 13 Friday: <a href="recitation/recitation-torque2-2020.pdf">for screensharing on Collaborate</a>
 
 
 ### Information
