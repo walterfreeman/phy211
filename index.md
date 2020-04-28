@@ -5,14 +5,9 @@ use_math: true
 title: Announcements
 ---
 
-## Blackboard is down, then back up
+### Some practice problems for the final
 
-It looks like Blackboard just went down campus wide, then came up again.
-
-If you aren't able to get in, try closing your browser and restarting it,
-and then trying again.
-
-
+We have put together some practice problems for the final, including some multiple choice questions. You can download those <a href="final_practice_2020.pdf">practice problems here</a>. 
 
 ### Upcoming assignments:
 
