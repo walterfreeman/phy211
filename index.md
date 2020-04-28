@@ -5,6 +5,15 @@ use_math: true
 title: Announcements
 ---
 
+## Blackboard is down, then back up
+
+It looks like Blackboard just went down campus wide, then came up again.
+
+If you aren't able to get in, try closing your browser and restarting it,
+and then trying again.
+
+
+
 ### Upcoming assignments:
 
 <a href="hw/homework14.pdf">Homework 14 is posted</a> and is due Thursday, April 30. 
@@ -13,7 +22,7 @@ The prompt for the <a href="paper.html">paper on the process of science</a> is p
 
 ### Most recent lecture slides
 
-<a href="slides/lecture25-2020.pdf">More practice with torque</a><br><br>
+<a href="slides/lecture26-2020-MR.pdf">Final class slides from Matt Rudolph</a> and <a href="slides/lecture26-2020-WF.pdf">from Walter Freeman</a>.
 
 ### Unit 3 Review
 
