@@ -19,6 +19,10 @@ The prompt for the <a href="paper.html">paper on the process of science</a> is p
 
 <a href="slides/lecture26-2020-MR.pdf">Final class slides from Matt Rudolph</a> and <a href="slides/lecture26-2020-WF.pdf">from Walter Freeman</a>.
 
+### Grade prediction
+
+I've put together a spreadsheet you can use to try to predict your end-of-term grade. You may download the grade-prognosticator spreadsheet in the native <a href="grade-prognosticator.ods">OpenDocument</a> format or in <a href="grade-prognosticator.xlsx">MS Office</a>.
+
 ### Unit 3 Review
 
 Some of you were asking me to write a review of this unit. Here you go: [Unit 3 review](unit-3-review.pdf)
