@@ -5,6 +5,14 @@ use_math: true
 title: Announcements
 ---
 
+### Unit 3 and 4 Reviews
+
+By your request I've written very condensed reviews of Units 3 and 4. There are no sample problem here -- only the laws of physics.
+
+[Unit 3 review](unit-3-review.pdf)<br>
+[Unit 4 review](unit-4-review.pdf)
+
+
 ### Some practice problems for the final
 
 We have put together some practice problems for the final, including some multiple choice questions. You can download those <a href="final_practice_2020.pdf">practice problems here</a>. 
@@ -22,10 +30,6 @@ The prompt for the <a href="paper.html">paper on the process of science</a> is p
 ### Grade prediction
 
 I've put together a spreadsheet you can use to try to predict your end-of-term grade. You may download the grade-prognosticator spreadsheet in the native <a href="grade-prognosticator.ods">OpenDocument</a> format or in <a href="grade-prognosticator.xlsx">MS Office</a>.
-
-### Unit 3 Review
-
-Some of you were asking me to write a review of this unit. Here you go: [Unit 3 review](unit-3-review.pdf)
 
 ### Video library
 
