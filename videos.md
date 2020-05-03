@@ -11,6 +11,8 @@ Here you can find video links to all of the solution videos, lecture recordings,
 These will be uploaded to both YouTube and Bilibili. (The Bilibili recordings will be delayed a little because of the audit
 procedure.) Enormous thanks to Ruohan Xu for managing the Bilibili channel!
 
+Saturday night review session recording: [(YouTube)](https://youtu.be/R6em6CP5eUA)
+
 Exam 3 Review Session and Practice Exam Answers: [(YouTube)](https://youtu.be/nmgPsaXk19s) [(Bilibili)](https://www.bilibili.com/video/BV1hQ4y1K7ru/)<br>
 Homework 13: [(YouTube)](https://youtu.be/f1Wr1q7Uy_s) [(Bilibili)](https://www.bilibili.com/video/BV1f64y1T7Uw/)<br>
 
