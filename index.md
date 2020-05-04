@@ -5,6 +5,26 @@ use_math: true
 title: Announcements
 ---
 
+## Final exam files
+
+Each problem is available both in the usual format and in a large print format designed for landscape printing. 
+
+You may use whichever format you prefer.
+
+[Problem 1](final-2020-problem1.pdf)<br>
+[Problem 2](final-2020-problem2.pdf)<br>
+[Problem 3](final-2020-problem3.pdf)
+
+[Problem 1, large print version](final-2020-problem1-largeprint.pdf)<br>
+[Problem 2, large print version](final-2020-problem2-largeprint.pdf)<br>
+[Problem 3, large print version](final-2020-problem3-largeprint.pdf)
+
+Don't forget that there are also some multiple choice questions on Blackboard that you must answer there.
+
+If you have any difficulty accessing the Blackboard questions, please contact us immediately (please cc: both Profs. Rudolph and Freeman).
+
+Good luck!
+
 ### Unit 3 and 4 Reviews
 
 By your request I've written very condensed reviews of Units 3 and 4. There are no sample problem here -- only the laws of physics.
