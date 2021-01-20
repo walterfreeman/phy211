@@ -5,23 +5,11 @@ use_math: true
 title: Announcements
 ---
 
-### Upcoming assignments:
+<a href="slides/lecture16.pdf">The work-energy theorem</a><br><br>
 
-<a href="hw/homework14.pdf">Homework 14 is posted</a> and is due Thursday, April 30. 
+<br>
 
-The prompt for the <a href="paper.html">paper on the process of science</a> is posted.
-
-### Most recent lecture slides
-
-<a href="slides/lecture25-2020.pdf">More practice with torque</a><br><br>
-
-### Unit 3 Review
-
-Some of you were asking me to write a review of this unit. Here you go: [Unit 3 review](unit-3-review.pdf)
-
-### Video library
-
-We will be posting all of the videos from class on YouTube, Bilibili, and (hopefully) Blackboard. You can find links in the [video library](videos.html).
+Please consult the <a href="syllabus-addendum.html">syllabus addendum</a>, also linked above, for a complete description of how things will go after Spring Break.
 
 
 ### The Virtual Physics Clinic
@@ -38,14 +26,12 @@ You can join the Virtual Clinic at <a href="https://zoom.us/j/668912935">https:/
 already, you may be prompted to download a small program.
 
 
-### Upcoming help hours
+### Upcoming assignments:
 
-Walter will be in the Virtual Physics Clinic on Friday from 8:00 AM to 10:00 AM; Prof. Rudolph will be there from 1:00-3:00 PM
+<a href="hw/hw9-2020.pdf">Homework 9 is posted</a> and is due Wednesday, March 25.
 
-### Recitation materials for this week
+### Upcoming help hours:
 
-Week 13 Wednesday: <a href="recitation/recitation_apr22_lscape.pdf">for screensharing on Collaborate</a><br>
-Week 13 Friday: <a href="recitation/recitation-torque2-2020.pdf">for screensharing on Collaborate</a>
 
 
 ### Information

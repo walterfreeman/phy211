@@ -36,18 +36,18 @@ Links to lecture slides will go live the night before or the morning of class.
 | 5 March     | <a href="slides/lecture14.pdf">Momentum</a>       | 9.1-9.3                        |
 | 10 March    | <a href="slides/lecture15.pdf">Conservation of momentum in two dimensions; practice problems</a>                                    | 9.5                            | 
 | 12 March    | <a href="slides/lecture16.pdf">The work-energy theorem</a>                                                       | 7.1-7.3                        |
-| 24 March    | <a href="slides/lecture17_wsol.pdf">The conservation of energy; potential energy</a>. <a href="slides/lecture17_examples.pdf">Example photos</a>       | 7.4; 8.1-8.3                   |
-| 26 March    | <a href="slides/lecture18_wsol.pdf">Combining conservation of momentum and energy</a>  <a href="slides/lecture18_example.jpg">Example problem</a>                               | 9.4, 9.5              |
-| 31 March    | <a href="slides/lecture19.pdf">Power; review problems</a> <a href="slides/lecture19-annotated-930.pdf">(9:30 notes)</a> <a href="slides/lecture19-annotated-11AM.pdf">(11AM notes)</a>                   | |
-| 2 April     | <a href="slides/lecture20.pdf">Introduction to the process of science; Review for Exam 3</a> <a href="slides/lecture20-annotated-930.pdf">(9:30 notes)</a> <a href="slides/lecture20-annotated-11AM.pdf">(11AM notes)</a>                                                             |                                |
+| 24 March    | <a href="slides/lecture17.pdf">The conservation of energy; potential energy</a>       | 7.4; 8.1-8.3                   |
+| 26 March    | Combining conservation of momentum and energy                                 | 9.4                            |
+| 31 March    | Angular momentum; an introduction to the process of science                   | 11.2-11.3                      |
+| 2 April     | Review for Exam 3                                                             |                                |
 | 7 April     | **EXAM 3**                                                                                                       |                                |
-| 9 April     | <a href="slides/lecture21.pdf">Recognizing pseudoscience</a>                                                     |                                |
-| 14 April    | <a href="slides/lecture22.pdf">Rotational kinetic energy, combination of translational and rotational motion</a> <a href="slides/exampls_apr15.pdf">Example pictures</a>   | 10.4 - 10.5 (review 10.1-10.3 if needed)                         |
-| 16 April    | <a href="slides/lecture23.pdf">Angular momentum</a>  <a href="slides/examples_apr16.pdf">Example pictures</a>                                                            | 11.2-11.3                            |
-| 21 April    | <a href="slides/lecture24.pdf">Calculating torque; static equilibrium problems</a> <a href="slides/examples_apr22.pdf"> Example pictures </a>                              | Review 10.6-10.7                        | 
-| 23 April    | <a href="slides/lecture25-2020.pdf">More on torque; objects that roll</a>                               | 12.1-12.2                      |
+| 9 April     | Recognizing pseudoscience                                                     |                                |
+| 14 April    | Calculating torque; static equilibrium problems                               | 10.3                           | 
+| 16 April    | More on static equilibrium; rotational dynamics                               | 10.7-10.8                      |
+| 21 April    | Combinations of translational and rotational motion; rolling                  | 11.1                           |
+| 23 April    | Waves, oscillations, and acoustics                                            | TBD                            |
 | 28 April    | Review for the final exam; course retrospective                               |                                |
-| 4 May - 5 May       | **FINAL EXAM**                                                      |                                |
+| 4 May       | **FINAL EXAM:** Stolkin Auditorium or location TBA, 3-5 PM                                                       |                                |
 |----------+---------------------------------------------------------------------------------------------------------------------+--------------------------------+
 
 
