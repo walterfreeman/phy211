@@ -1,7 +1,6 @@
 ---
 layout: page
 title: FAQ
-category: top
 permalink: faq.html
 use_math: true
 ---

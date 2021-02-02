@@ -11,43 +11,40 @@ This calendar is tentative and might change based on your input. Exam dates will
 
 Note that the textbook does not track our presentation exactly; I've chosen the order of topics to simplify things for you, but that makes it a bit tougher to follow along in the book.
 
-Links to lecture slides will go live the night before or the morning of class.
-  
 <br><br>
 
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
 | Class Date  | Topics                                                                                                           | Textbook sections              |
 |:-----------:|:----------------------------------------------------------------------------------------------------------------:|:------------------------------:|
-| 14 January  | <a href="slides/lecture1.pdf">Introduction; what is physics?; dimensions and units; Fermi problems</a>           | 1.1-1.5                        |
-| 16 January  | <a href="slides/lecture2.pdf">"Equations of motion"; acceleration; all the calculus you need"</a>                | 3.1-3.3; 3.6                   |
-| 21 January  | <a href="slides/lecture3.pdf">Motion problems</a>; <a href="slides/lecture3_example_scans.pdf">scans of examples</a>                            | 3.4-3.5                        |
-| 23 January  | <a href="slides/lecture4.pdf">Describing things with direction: Vectors. Motion in two dimensions.</a>           | 2.1-2.3; 4.1-4.2                        |
-| 28 January  | <a href="slides/lecture5.pdf">Projectile motion problems</a>                                                     | 4.3                        |
-| 30 January  | <a href="slides/lecture6.pdf">Review for Exam 1</a>                                                              |                                |
-| 4 February  | **EXAM 1**                                                                                                       |                                |
-| 6 February  | <a href="slides/lecture7.pdf">Introduction to Newton’s second law</a>                                            | 5.1; 5.3; 5.7                  |
-| 11 February | <a href="slides/lec8.pdf">Solving problems with Newton’s second and third laws</a>                           | 5.4-5.6                        |
-| 13 February | <a href="slides/lecture9.pdf">Friction; more practice problems</a>                                               | 6.1-6.2                        |
-| 18 February | <a href="slides/lecture10.pdf">Acceleration in circular motion</a>                                               | 4.4 and 6.3                            |
-| 20 February | <a href="slides/lecture11.pdf">Universal gravitation; solving problems involving uniform circular motion</a>     | 13.1                           |
-| 25 February | <a href="slides/lecture12.pdf">Torque and rotational inertia: analogues to force and mass. Further practice.</a> | 10.6 and 10.7                           |
-| 27 February | <a href="slides/lecture13.pdf">Review for Exam 2</a>                                                             |                                |
-| 3 March     | **EXAM 2**                                                                                                       |                                |
-| 5 March     | <a href="slides/lecture14.pdf">Momentum</a>       | 9.1-9.3                        |
-| 10 March    | <a href="slides/lecture15.pdf">Conservation of momentum in two dimensions; practice problems</a>                                    | 9.5                            | 
-| 12 March    | <a href="slides/lecture16.pdf">The work-energy theorem</a>                                                       | 7.1-7.3                        |
-| 24 March    | <a href="slides/lecture17.pdf">The conservation of energy; potential energy</a>       | 7.4; 8.1-8.3                   |
-| 26 March    | Combining conservation of momentum and energy                                 | 9.4                            |
-| 31 March    | Angular momentum; an introduction to the process of science                   | 11.2-11.3                      |
-| 2 April     | Review for Exam 3                                                             |                                |
-| 7 April     | **EXAM 3**                                                                                                       |                                |
-| 9 April     | Recognizing pseudoscience                                                     |                                |
-| 14 April    | Calculating torque; static equilibrium problems                               | 10.3                           | 
-| 16 April    | More on static equilibrium; rotational dynamics                               | 10.7-10.8                      |
-| 21 April    | Combinations of translational and rotational motion; rolling                  | 11.1                           |
-| 23 April    | Waves, oscillations, and acoustics                                            | TBD                            |
-| 28 April    | Review for the final exam; course retrospective                               |                                |
-| 4 May       | **FINAL EXAM:** Stolkin Auditorium or location TBA, 3-5 PM                                                       |                                |
+| 9 February  | Introduction; what is physics?; dimensions and units; Fermi problems                                             |                                |
+| 11 February | "Equations of motion"; acceleration; all the calculus you need"                                                  |                                |
+| 16 February | Motion problems                                                                                                  |                                |
+| 18 February | Describing things with direction: Vectors.                                                                       |                                |
+| 23 February | Projectile motion problems                                                                                       |                                |
+| 25 February | Review for Quiz 1; Quiz 1                                                                                        |                                |
+| 2 March     | Introduction to Newton's second law                                                                              |                                |
+| 4 March     | Solving problems with Newton's second and third laws                                                             |                                |
+| 9 March     | Friction; additional practice problems                                                                           |                                |
+| 14 March    | Review for Quiz 2; Quiz 2                                                                                        |                                |
+| 16 March    | Acceleration in circular motion                                                                                  |                                |
+| 21 March    | Universal gravitation; solving problems involving uniform circular motion                                        |                                |
+| 23 March    | NO CLASS                                                                                                         |                                |
+| 25 March    | Practice problems on Newton's second law in varied circumstances.                                                |                                |
+| 30 March    | Review for Quiz 3; Quiz 3                                                                                        |                                |
+| 1 April     | Momentum                                                                                                         |                                |
+| 3 April     | Conservation of momentum in two dimensions; practice problems                                                    |                                |
+| 8 April     | The notion of _angular_ momentum; conservation of angular momentum                                               |                                | 
+| 10 April    | Introduction to the process of science; Quiz 4                                                                   |                                |
+| 15 April    | The work-energy theorem                                                                                          |                                |
+| 17 April    | The conservation of energy                                                                                       |                                |
+| 22 April    | Combining energy and momentum                                                                                    |                                |
+| 24 April    | Rotational kinetic energy                                                                                        |                                |
+| 29 April    | Review for Quiz 5; Quiz 5                                                                                        |                                |
+| 4 May       | Recognizing pseudoscience                                                                                        |                                |
+| 6 May       | Torque                                                                                                           |                                |
+| 11 May      | Rolling motion; combining rotation and translation                                                               |                                |
+| 13 May      | Review for the final exam; course retrospective                                                                  |                                | 
+| TBD         | **FINAL EXAM**                                                                                                   |                                |
 |----------+---------------------------------------------------------------------------------------------------------------------+--------------------------------+
 
 

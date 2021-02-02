@@ -4,11 +4,11 @@
     <title>Physics 211</title>
     <description>Syracuse University, Spring 2020 Walter Freeman and Matt Rudolph
 </description>
-    <link>/phy211/</link>
-    <atom:link href="/phy211/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Mar 2020 22:09:42 -0400</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2020 22:09:42 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/phy211/</link>
+    <atom:link href="http://localhost:4000/phy211/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 23 Apr 2020 16:03:28 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Apr 2020 16:03:28 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>First class, August 30</title>
@@ -23,8 +23,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 16 Aug 2016 07:30:38 -0400</pubDate>
-        <link>/phy211/update/2016/08/16/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/phy211/update/2016/08/16/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/phy211/update/2016/08/16/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/phy211/update/2016/08/16/welcome-to-jekyll.html</guid>
         
         
         <category>update</category>

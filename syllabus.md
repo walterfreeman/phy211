@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Syllabus
-category: top
 permalink: syllabus.html
 use_math: true
 ---
@@ -35,11 +34,9 @@ use_math: true
 
 -   Professors: 
     - Walter Freeman, <wafreema@syr.edu>, Physics Building 215
-    - Matt Rudolph, <msrudolp@syr.edu>, Physics Building 325
--   Class meetings: Tuesdays and Thursdays, 9:30-10:50 AM or 11 AM-12:20 PM, Stolkin Auditorium 
+-   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on Zoom and other streaming services TBD
 -   Help sessions (office hours): 
-    - Matt:  Friday 1:00-3:00 PM in the Physics Clinic, Physics Building room 112
-    - Walter: Friday 9:30-11:30 AM, others TBD; held in the Physics Clinic, Physics Building room 112
+    - TBD 
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
 -   Recitation TA's:
     * Merrill Asp, head TA, <masp01@syr.edu>
@@ -60,7 +57,7 @@ use_math: true
 
 - *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. This is an open-access textbook available to anyone under the terms of the CC-BY 4.0 license and can be <a href="https://openstax.org/details/books/university-physics-volume-1">downloaded for free</a>. You are free to print this textbook on your own; OpenStax will sell you a printed copy if you like.
 
-- You are encouraged to have a nonprogrammable calculator for use on exams. This calculator should be able to do trigonometry and arithmetic, but should not be capable of graphing functions or solving equations symbolically. Searching "scientific calculator" on Amazon will get you many options available for less than $10. (You may not use a graphing calculator on exams.)
+- You will need a computer to connect to remote aspects of the course. It will be helpful to have a tablet or convertible laptop with a stylus. It will also be quite helpful to have earbuds or a headset with a microphone.
 
 <a id="philosophy"></a>
 
@@ -190,10 +187,23 @@ After taking this class, you will be able to:
 
 Twice a week, you will have discussion sections led by one of your TA's, assisted by a few dozen students from previous years of Physics 211. *These discussion sections are the most crucial 
 part of this class*, since it's there that you will do the hard and crucial work of practicing the skills you learn. Physics takes practice. It's not something you only learn from a lecture;
-it's something you practice with a coach. In recitations, you'll practice your skills in groups of three -- learning from your peers, teaching them, and asking questions of the numerous
+it's something you practice with a coach. In recitations, you'll practice your skills in groups-- learning from your peers, teaching them, and asking questions of the numerous
 guides that are there to help you.
 
-Recitation attendance and participation are graded. Before each in-class exam, you'll take a practice group exam in recitation with your group. These practice exams are graded as well.
+We will also do many of the class assessments in recitation. These will take a variety of forms, but you will need to be present in recitation for all of them. **All of them will be time-sensitive** and will happen during recitation.
+We might, for instance:
+
+* ask you to answer a few questions on Blackboard asking details about the recitation questions that you did that day
+* ask you to answer a few questions about homework that you submitted that day
+* ask you to have a short discussion about the day's recitation activity with an instructor, and evaluate you based on the knowledge and skill you demonstrate
+
+Most of you will attend recitations virtually using Blackboard Collaborate. A small number of you will attend in person
+
+Recitation attendance and participation are graded. We will be conducting a variety of assessments in recitation that will take different forms. 
+
+
+
+Before each in-class exam, you'll take a practice group exam in recitation with your group. These practice exams are graded as well.
 A further set of guidelines (incorporated into this syllabus) for recitation, and the homework you'll submit during them, may be found at <a href="https://walterfreeman.github.io/phy211/recitation-guidelines.html">https://walterfreeman.github.io/phy211/recitation-guidelines.html</a>.
 
 <a id="readings"></a>
