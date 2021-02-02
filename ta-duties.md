@@ -10,20 +10,23 @@ Welcome to the Physics 211 teaching team! This document will serve both as an in
 
 This document is written for both TA's and coaches. Students will also be able to read it, for transparency.
 
-*This is possibly the most important TA assignment in the whole department.* About sixty students in your recitation sections will be exploring physics for the first time, and you will be the most valuable guide that they will have. This class is a large undertaking: we have five hundred students and a teaching team of more than thirty people, all working toward a common purpose: helping five hundred new students gain both physics skills and an appreciation for the beauty of our field. We want them to leave our class knowing the basics of Newtonian mechanics -- but also thinking that physicists are friendly people and that physics is a field they can succeed in and that welcomes them.
+*This is possibly the most important TA assignment in the whole department.* Students in your recitation sections will be exploring physics for the first time, and you will be the most valuable guide that they will have. This class is a large undertaking: we have five hundred students and a teaching team of more than thirty people, all working toward a common purpose: helping five hundred new students gain both physics skills and an appreciation for the beauty of our field. We want them to leave our class knowing the basics of Newtonian mechanics -- but also thinking that physicists are friendly people and that physics is a field they can succeed in and that welcomes them.
 
-#### Collegiality and Your Roles
+### Collegiality
 
 We'll all be working closely together this semester (professors, TA's, coaches, and students), and it's vitally important that we do this in a supportive, collegial, positive way. This is always true, but it is even more crucial in the 
-weird world of online classes during the pandemic. 
+weird world of online classes during the pandemic.
+
+I see GTA's and coaches as *junior professional instructors*, not as minions. You all will have your own ideas about how best to run things in your own recitations. That's fantastic: as teaching professionals in your own right, you *should* have your own ideas and act on them.
+If you want to "get off script" -- if you see a need to do something different than we've planned in order to best help your students learn -- please feel free to do it! (Let us know afterwards, of course!) 
+Any input or feedback you have on our course is extremely valuable. 
 
 If you have any suggestions for how we can improve things, please let me know. You will have good ideas; please present those to the rest of us! Likewise, you will recognize some of my suggestions as bad ideas -- please tell me so! 
 
 Also, if you need help or support of any kind -- someone to cover your class while you're sick or while you study for a hard exam, advice for any issues that arise, or even just someone to talk to about your career plans and 
 challenges in grad school -- please ask. 
 
-I see GTA's and coaches as *junior professional instructors*, not as minions. You all will have your own ideas about how best to run things in your own recitations. That's fantastic: as teaching professionals in your own right, you *should* have your own ideas and act on them. If you want to "get off script" -- if you see a need to do something different than we've planned in order to best help your students learn -- please feel free to do it! (Let us know afterwards, of course!) 
-Any input or feedback you have on our course is extremely valuable. 
+### Your Roles
 
 In our class, TA's will have a few main duties:
 
@@ -39,13 +42,15 @@ In our class, TA's will have a few main duties:
 Coaches will focus on the aspects of this that relate to teaching:
 
 * Help students learn physics in recitations
+* Moderate the large-class meetings and provide technical assistance (one or two coaches per day, TTh 11-12:20)
 * Hold office hours if you are comfortable doing so (online or in person)
 * Collaborate with the teaching team in staff meetings
 * Provide students assistance with their papers if you are comfortable doing so
 
-I'll discuss each of these in detail at the end.
+I'll discuss each of these in detail at the end. Coaches -- if you ever want more or fewer working hours (since you are paid by the hour), please let me know and we can either reduce your workload 
+or find more stuff for you to do. T
 
-#### Interacting With Students
+### Interacting With Students
 
 * This year is hard on everyone -- me, you, and our students. Everyone will have things on their mind other than physics right now, 
 and we need to strike a good balance between ensuring our students work hard to learn physics and recognizing that sometimes other things will intrude on our classroom. 
@@ -76,6 +81,27 @@ or one person doesn't have a chance to contribute -- please intervene if you can
 to fully benefit from our class and feel welcome, please let me know so I can fix the problem.
 
 
+### Health and Safety
+
+#### COVID safety protocols
+
+Everyone should wear a mask when inside the Physics Building, except if they are alone in a room or in a room with people they live with.
+
+When working with students in person, everyone should stay 2m away from others except when necessary to see things they have written. It is permissible 
+to briefly get closer to someone in order to collaborate.
+
+Anyone who is feeling ill should not come to the building.
+
+If anyone on the teaching staff contracts COVID, obviously you should take as much time off work as you need to recover.
+
+#### Backups, coverage, and support
+
+We expect you to prioritize your health and wellbeing over Physics 211. If you are ill, experiencing a great deal of stress,
+are not able to get enough sleep, or something like that, please let me or Aaron know. We will get coverage for you during your
+section, get you some backup in grading papers, or whatever it is that you need. I can't emphasize this enough: 
+**please ask for support**. We have lots of people teaching this class and we *can* get someone there to back you up if you need it.
+
+
 #### Dealing With Emergencies
 
 If you are going to miss a recitation section and have advance warning, swap with another TA; that's not a problem.
@@ -101,7 +127,7 @@ the Physics Department office or Public Safety.
 **Coaches**: If your TA does not show up, and you are the only person there, send a quick message to Slack and ping @channel, and go on teaching. If there are multiple coaches, the most junior coach should try to contact someone while the rest teach.
 
 
-#### Course Rhythm
+### Course Rhythm
 
 First, the schedule. A typical week in PHY211 will go like this:
 
@@ -271,7 +297,9 @@ You will grade the remaining problems out of two points. This shouldn't take you
 #### Maintaining Gradebooks
 
 In the first two weeks of class, we'll create a separate "Smart View" of each TA's students on Blackboard. You are responsible for grading your students' homework and in-class exams, and for keeping up with their recitation assessments. 
-If a student has a question or complaint about their grade, you have authority to change their grades within reason (but not for recitation work more than a week late!) If there is a clear error in a student's exam grade, you can fix it. 
+If a student has a question or complaint about their grade, you have authority to change their grades within reason (but not for recitation work more than a week late!) If there is a clear error in a student's exam grade, you can fix it.
+
+Every week, we will ask you for an update on your grading. If you are a bit behind on grading, that is not a big deal. But if you are falling seriously behind, _ask for help_. 
 
 If a student wants to *appeal* their exam grade, then you can either hear their appeal (but not during recitation when other students need you!) or send them to me. However, if they are appealing something other than an arithmetic error, you can ask them to work the problem out for you without notes, live. 
 Their grade should be based solely on what they wrote down during the exam, but per the class policy in order to hear *any* appeal, they first need to demonstrate that they know what a correct solution is!
