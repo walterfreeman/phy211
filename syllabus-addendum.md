@@ -1,11 +1,9 @@
 ---
 layout: page
 title: Syllabus Addendum
-category: top
 permalink: syllabus-addendum.html
 ---
 
-**This document is currently a draft. It will not be official until this message is removed.**
 
 ### 1. Overview and philosophy
 
