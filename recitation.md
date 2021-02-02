@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Recitation
-category: top
 permalink: recitation.html
 use_math: true
 ---
