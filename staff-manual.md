@@ -83,9 +83,18 @@ to fully benefit from our class and feel welcome, please let me know so I can fi
 
 ### Health and Safety
 
+#### Sick time; COVID vaccinations 
+
+Coaches earn one hour of sick time for every thirty hours worked. This means that, for every thirty hours you work, you may miss one hour of work due to illness and still get paid for it.
+
+Note:
+
+* time spent getting a COVID vaccine, traveling to a vaccination site, or recuperating from its effects counts -- if you have to miss a shift because you are getting your COVID vaccine, claim it as sick time!
+* mental illness, or things necessary for your mental wellbeing, count
+
 #### COVID safety protocols
 
-Everyone should wear a mask when inside the Physics Building, except if they are alone in a room or in a room with people they live with.
+Everyone should wear a mask when in the halls of the Physics Building, or are in a room with people other than family and housemates. 
 
 When working with students in person, everyone should stay 2m away from others except when necessary to see things they have written. It is permissible 
 to briefly get closer to someone in order to collaborate.
@@ -100,7 +109,6 @@ We expect you to prioritize your health and wellbeing over Physics 211. If you a
 are not able to get enough sleep, or something like that, please let me or Aaron know. We will get coverage for you during your
 section, get you some backup in grading papers, or whatever it is that you need. I can't emphasize this enough: 
 **please ask for support**. We have lots of people teaching this class and we *can* get someone there to back you up if you need it.
-
 
 #### Dealing With Emergencies
 
@@ -234,14 +242,16 @@ grade should be based on understanding they demonstrate at the _end_ of the conv
 then they get credit. We will not be able to do this for every group on any given day; where we are able, though, this can substitute for the other sorts of evaluation. How exactly we work the logistics of this will
 depend on how stable the groups wind up being; stay tuned.
 
-**Recitation group test:** We will do more formal quizzes a few times during the semester, which will take the whole recitation period. Students may work in their groups to complete these. They will again be different for different sections.
+**Recitation group test:** We will do more formal quizzes a few times during the semester, which will take the whole recitation period. Students may work in their groups to complete these. They will again be different for different sections. This will be the only recitation assessment type that is announced in advance.
 
 In any event, a student _must be in recitation_ (physically or virtually) to receive a grade by any of the preceding. What if they're not? That's the next section.
 
 #### Absences, excuses, and accommodations
 
-Some students will need to miss recitation for various reasons. We need to accommodate this, but we do not want students to abuse this process. **No student who misses recitation may get a recitation grade by any of the preceding means**. 
-This is a hard-and-fast rule: *if you do not show up to your recitation*, you may not just "fill out the quiz later". We will be allowing makeups, but those _must be done verbally or in-person_. 
+Some students will need to miss recitation for various reasons. We need to accommodate this, but we do not want students to abuse this process. **No student who misses recitation may get a recitation grade by
+the normal process for that day**.
+This is a hard-and-fast rule: *if you do not show up to your recitation*, you may not just "fill out the quiz later". We will be allowing makeups, but those _must be done over video call or in-person_: this means
+that a student must talk to you and answer questions you ask them about the recitation activity live.
 
 Instead, students must do one of the following:
 
