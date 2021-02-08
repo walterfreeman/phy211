@@ -57,7 +57,7 @@ and we need to strike a good balance between ensuring our students work hard to 
 Most students are at the age where psychological problems like depression and anxiety naturally manifest. If you notice any of our students showing signs of emotional distress, 
 or disengaging from class (not attending, showing up but not working), please let Walter or Aaron know. We'll contact the student and see what kind of support they need.
 
-Likewise, if you or anyone else on the teaching staff is having a hard time (with this class that you are teaching, with your other classes that you are taking, 
+* Likewise, if you or anyone else on the teaching staff is having a hard time (with this class that you are teaching, with your other classes that you are taking, 
 or other things happening in your life), please let me know. *We will help you* -- I have gone to the mat to support physics coaches/TA's who need help and I'll
 do it again if you need anything.
 
@@ -70,13 +70,13 @@ but we need to be vigilant to make sure we're not perpetuating this mindset that
     * It's better to observe them working in their groups and point out mistakes at that point -- physics is a process, not a set of answers, and we can help them learn best if we can diagnose their misconceptions from that process rather than only the finished product.
     * On homework, when possible, give them insight into the nature of their errors. Remember: **errors do not mean the student is a failure** -- they just give us insight on what the student has yet to learn.
     
-However, if a student is **not** putting forth effort or making an earnest attempt to understand physics, it is not your fault and you shouldn't take it personally.
+* However, if a student is **not** putting forth effort or making an earnest attempt to understand physics, it is not your fault and you shouldn't take it personally.
 We cannot put in the work required to learn physics for our students. They have to do the work; if they're not willing to do that, it's not our problem. If a hardworking
 student would benefit from our hard work to help them -- we should work hard for them. If a student who is not engaged or not trying asks for us to rearrange the course
 to accommodate their laziness, then we have better things to do. (We should still treat them with basic dignity, of course, but they may wind up with a dignified failing grade.)
 
 * **Harassment, exclusion, bullying, and the like are not acceptable in our class.** Physics has a place for everyone, regardless of who they are or where they come from. 
-If you see any dynamics that act to exclude certain students from feeling welcome -- including pathological group dynamics where one person railroads everyone else, 
+If you see any dynamics that act to exclude anyone from feeling welcome -- including pathological group dynamics where one person railroads everyone else, 
 or one person doesn't have a chance to contribute -- please intervene if you can and/or contact Walter or Aaron. Likewise, if you see that a student needs accommodations
 to fully benefit from our class and feel welcome, please let me know so I can fix the problem.
 

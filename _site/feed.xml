@@ -6,13 +6,8 @@
 </description>
     <link>http://localhost:4000/phy211/</link>
     <atom:link href="http://localhost:4000/phy211/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Thu, 23 Apr 2020 16:03:28 -0400</pubDate>
-    <lastBuildDate>Thu, 23 Apr 2020 16:03:28 -0400</lastBuildDate>
-=======
-    <pubDate>Sat, 16 May 2020 14:14:42 -0400</pubDate>
-    <lastBuildDate>Sat, 16 May 2020 14:14:42 -0400</lastBuildDate>
->>>>>>> a5ee9503a04f184fa26c223511a7053942da5713
+    <pubDate>Mon, 08 Feb 2021 13:02:43 -0500</pubDate>
+    <lastBuildDate>Mon, 08 Feb 2021 13:02:43 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
