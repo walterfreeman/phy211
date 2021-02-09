@@ -11,7 +11,7 @@ title: Announcements
 ### Information
 
 -   Professor: 
-    - Walter Freeman, <wafreema@syr.edu>, Physics Building 215
+    - Walter Freeman, <wafreema@syr.edu>, Physics Building 215 
 -   Recitation TA's:
     * Kevin Ching, <keching@syr.edu>
     * Tyler Hain, <tahain@syr.edu>
@@ -24,7 +24,8 @@ title: Announcements
 -   Head coach:
     - Adam Aly, <aaly04@syr.edu>
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
--   Help sessions (office hours): Tuesdays 1:30-4:30 PM, Fridays 9:30 AM-noon, on <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Z
-oom</a>
+-   Help sessions (office hours): Tuesdays 1:30-3:30 PM, Fridays 9:30 AM-noon, on <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
 
- 
+- Discord server invite: <https://discord.gg/2VkgybnGZF>
+
+

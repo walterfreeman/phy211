@@ -10,6 +10,7 @@ use_math: true
 
 * [Contact Information](#contact)
 * [Textbooks](#books)
+* [Online platforms](#online)
 * [Course philosophy](#philosophy)
 * [Learning objectives](#material)
 * [Activities](#activities)
@@ -25,7 +26,7 @@ use_math: true
 * [Course policies](#policy)
   * [Academic integrity](#integrity)
   * [Students with disabilities](#disability)
-  * [Religious observances and excused absences](#excuses)
+  * [Absences from class and make-up work](#absences)
 
 ---
 
@@ -48,6 +49,7 @@ use_math: true
     - Adam Aly, <aaly04@syr.edu>
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on Zoom and Twitch (subject to change)
 -   Help sessions (office hours): Tuesdays 1:30-4:30 PM, Fridays 9:30 AM-noon, on Zoom
+    * If you want to come see me in person, we can arrange an in-person meeting outdoors.
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
 ---
 
@@ -67,9 +69,9 @@ If you need access to technology to participate fully in this course, please ask
 * if you are near campus, SU has computers people can check out
 * if a drawing tablet would help you out, we have some primitive ones that you might be able to borrow
 
-<a id="philosophy"></a>
-
 ---
+
+<a id="online"></a>
 
 ### Online platforms
 
@@ -91,6 +93,9 @@ under "Course Tools". Click on the "Course Room" and then click "Join Course Roo
 
 Optionally, you can also talk to the teaching staff and each other on the course Discord server, with an invite link at <https://discord.gg/2VkgybnGZF>.
 
+
+
+<a id="philosophy"></a>
 
 ### Course philosophy 
 
@@ -119,8 +124,8 @@ You are not going to be learning a list of currently-accepted facts; you are goi
 Since the difficult part of the course is the problem-solving aspect, it's only natural that we are going to give you lots of help in solving problems, especially at first. Learning physics is most similar to learning to play
 a sport or learning a musical instrument: it requires practice and the guidance of a coach. We do not expect that you can do all of the homework problems on your own; it is crucial that you ask for help in doing your homework. If you're stuck on a homework problem, you can:
 
-- Come to our office hours and ask, or make an appointment, or drop by our office (room 215)
-- Go by the Physics Clinic; you are likely to find a TA, other students, or the professors there to help you.
+- Come to our office hours and ask, or make an appointment, or drop by my office (room 215)
+- Go to the Virtual Physics Clinic; you will find a TA, other students, and/or Walter there to help you.
 - Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. We *always* have time in lecture to answer questions; don't be intimidated by the size of the class.
 - Ask your TA or coaches during recitation
 - Ask your peers for help (and insist that they help you understand how to think about the problem, not just give you the answer)
@@ -171,13 +176,13 @@ As part of this philosophy of inquiry and questioning, we welcome your input. If
 
 After taking this class, you will be able to:
 
-* Unit 1 (Kinematics):
+* Unit 1 (Kinematics) (Quiz 1):
+  * Incorporate physical units (meters, seconds, and so on) into algebraic and arithmetic statements
   * Translate between verbal, graphical, algebraic, and numerical descriptions of an object's motion
   * Given a description of an object's acceleration, create a description of how its position and velocity change, or vice versa
   * Use vectors to describe motion in two and three dimensions, and use trigonometry to manipulate them
-  * Incorporate physical units (meters, seconds, and so on) into algebraic and arithmetic statements
 
-* Unit 2 (Forces):  
+* Unit 2 (Forces) (Quizzes 2 and 3):  
   * Identify the forces that act on the objects present in a variety of physical situations
   * Describe the basic properties of the forces of tension, friction, gravity, and normal forces
   * Using Newton's second law, construct mathematical relations between those forces and the objects' motion
@@ -185,13 +190,14 @@ After taking this class, you will be able to:
   * Describe the forces required to cause an object to move in uniform circular motion
   * Use the previous skills to predict how an object will move in any given situation, and the forces involved in its motion
 
-* Unit 3 (Conservation laws)  
+* Unit 3 (Conservation laws) (Quizzes 4 and 5)
   * Use conservation of momentum to solve problems that involve collisions and explosions
   * Use the work-energy theorem and conservation of energy to determine properties of the motion of systems to which they apply, and recognize which systems those are
-
-* Unit 4 (Rotation)
-  * Construct analogies between the properties of rotational motion and the properties of translational motion
+  * Construct analogies between momentum and angular momentum, and rotational and translational kinetic energy 
   * Use conservation of energy to solve problems in which objects rotate as well as translate
+  * Use conservation of angular momentum to solve problems involving collisions with rotating objects, or objects that change shape while rotating
+
+* Unit 4 (Rotational Dynamics) (Unit 6, on the final exam)
   * Describe the relationship between the forces that act on an object and the torque they apply about any given axis
   * Describe the relationship between the torque applied to an object and its angular acceleration
   * Use both $\vec F=m\vec a$ and $\tau = I \alpha$ in tandem to predict the motion of objects that both translate and rotate
@@ -305,15 +311,15 @@ For now, help sessions will be held Tuesdays from 1:30-4:30 PM and Fridays from 
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
 | Homework                     | Due throughout            |              25  |
-| Exam 1                       | 4 February                |              10  |
-| Exam 2                       | 3 March                   |              10  |
-| Exam 3                       | 7 April                   |              10  |
-| Exam 4                       | 7 April                   |              10  |
-| Exam 5                       | 7 April                   |              10  |
-| Final Exam                   | 4 May, 3PM-5PM            |              20  |
+| Quiz 1                       | 25 February               |              10  |
+| Quiz 2                       | 14 March                  |              10  |
+| Quiz 3                       | 30 March                  |              10  |
+| Quiz 4                       | 10 April                  |              10  |
+| Quiz 5                       | 29 April                  |              10  |
+| Final Exam                   | 19 May, 3PM-5PM           |              20  |
 | Recitation evaluations       | Throughout the semester   |              25  |
-| Group practice exams         | Prior to each exam        |              20  |
-| Paper on the nature of science | 27 April                |              10  |
+| Group practice quizzes       | Prior to each quiz        |              20  |
+| Paper on the nature of science | TBD                     |              10  |
 
 
 The lowest of your exam grades, the lowest homework set grade, and your four lowest recitation evaluation grades will be dropped. If your final exam grade is lower 
@@ -416,14 +422,15 @@ is an extremely serious breach of the Academic Integrity Policy and may result i
 In general:
 
 * for **homework assignments**, you may consult any general references and people you like, but you may not copy someone else's solution wholesale. Your solution must be your own work, and you must understand everything you submit.
-* for **recitation evaluations**, the parameters will vary from recitation to recitation. Most of these will be short evaluations that you may complete with your group. 
-* for **group quizzes**, you may consult the other members in your group and your teaching staff (who may give hints), and may consult any materials belonging to the course (e.g. class notes, textbook),
+* for **recitation evaluations**, the parameters will vary from recitation to recitation. Unless specified otherwise, these will be short evaluations that you may complete with your group and in consultation 
+with teaching staff.
+* for **group quizzes**, you should work with the other members in your group and may consult any materials belonging to the course (e.g. class notes, textbook),
 but may not consult people outside your group or outside references on the internet. 
 * for **exams**, you may consult any materials belonging to the course (e.g. class notes, textbook), but may not consult people outside your group or outside references on the internet
 
 For **the paper**, we expect you to do research and consult other people for their ideas, but you must write the paper yourself. (You should, of course, solicit feedback on your writing and ideas
-from your peers and from people like the Writing Center!)
-
+from your peers and from people like the Writing Center!) We will provide more detail about the expectations for the paper when we assign it.
+<!--
 In your paper, you must show clearly which text is original to you, which reflects ideas which you found elsewhere but have digested and expressed in your own words, and which text is a direct quote from someone else’s words. You must cite any references that you use. (You do not need to cite anything from the course textbook, notes, or lectures.) If you consult a source for information, you should 
 indicate the source of that information using an in-text citation or footnote. We don’t care what citation style you use.
 
@@ -435,9 +442,9 @@ In general, however, you should use direct quotes only sparingly in your writing
 and the like, are never a good idea. The point of writing is to have original thoughts and communicate them clearly; if you are merely taking someone else's thoughts and repainting them, you are
 not learning anything about either science or writing. The name for this sort of thing is _substitution plagiarism_; as the name implies, it's a type of plagiarism. We want you to tell your _own_
 story.
+-->
 
-
-We reserve the right to seek a sanction of course failure for any violation of the Academic Integrity Policy. 
+We reserve the right to seek a sanction of course failure for any instance of academic dishonesty.
 
 *(The following is boilerplate from the University)*
 
@@ -477,7 +484,7 @@ academic accommodations beyond short-term due date extensions for PHY211, we wil
 If there are other things presenting access challenges to you in our class -- family situations, health challenges, access to technology, internet connectivity, etc. -- please 
 talk to me as soon as possible. We will do whatever we must to ensure that you have every opportunity to gain skills in physics and be assessed on those skills fairly.
 
-<a id="excuses"></a>
+<a id="absences"></a>
 
 ---
 
