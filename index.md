@@ -10,7 +10,7 @@ title: Announcements
 Wednesday: <a href="recitation/week1/recitation-1-motion-units-collaborate.pdf">for screensharing on Collaborate</a>,
 <a href="recitation/week1/recitation-1-motion-units-forprint.pdf">for print</a>
 
-Friday: <a href="recitation/recitation-1D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/recitation-1D-motion-forprint.pdf">for print</a>
+Friday: <a href="recitation/week1/recitation-1D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week1/recitation-1D-motion-forprint.pdf">for print</a>
 
 
 ### Information
