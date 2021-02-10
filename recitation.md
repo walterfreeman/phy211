@@ -9,7 +9,7 @@ use_math: true
 Week 1 Wednesday: <a href="recitation/week1/recitation-1-motion-units-collaborate.pdf">for screensharing on Collaborate</a>, 
 <a href="recitation/week1/recitation-1-motion-units-forprint.pdf">for print</a>
 
-Week 1 Friday: <a href="week1/recitation/recitation-1D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="week1/recitation/recitation-1D-motion-forprint.pdf">for print</a>
+Week 1 Friday: <a href="recitation/week1/recitation-1D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week1/recitation-1D-motion-forprint.pdf">for print</a>
 
 <!--
 See the "Video solutions" page on the website for links to video explanations of how to solve all the problems for 
