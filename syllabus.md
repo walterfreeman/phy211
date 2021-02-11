@@ -46,18 +46,19 @@ use_math: true
     * Jadrien Paustian, <jtpausti@syr.edu>
     * Aaron Trowbridge, <atrowbri@syr.edu>
 -   Head coach:
-    - Adam Aly, <aaly04@syr.edu>
+    * Adam Aly, <aaly04@syr.edu>
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on Zoom and Twitch (subject to change)
 -   Help sessions (office hours): Tuesdays 1:30-4:30 PM, Fridays 9:30 AM-noon, on Zoom
-    * If you want to come see me in person, we can arrange an in-person meeting outdoors.
+    * If you want to come see me in person, we can arrange an in-person meeting
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
+
 ---
 
 <a id="books"></a>
 
 ### Textbooks and materials
 
-- *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. This is an open-access textbook available to anyone under the terms of the CC-BY 4.0 license and can be <a href="https://openstax.org/details/books/university-physics-volume-1">downloaded for free</a>. You are free to print this textbook on your own; OpenStax will sell you a printed copy if you like.
+- *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. This is an open-access textbook available to anyone under the terms of the CC-BY 4.0 license.<a href="https://openstax.org/details/books/university-physics-volume-1">You may access the textbook online or download it for free here</a>. You are free to print this textbook on your own; OpenStax will sell you a printed copy if you like.
 
 - You will need a computer to connect to remote aspects of the course. 
 It will be helpful to have a tablet or convertible laptop with a stylus. 
@@ -67,7 +68,6 @@ If you need access to technology to participate fully in this course, please ask
 
 * if you don't have stable internet, we can make low-bandwidth versions of things available to you for download
 * if you are near campus, SU has computers people can check out
-* if a drawing tablet would help you out, we have some primitive ones that you might be able to borrow
 
 ---
 
@@ -197,10 +197,13 @@ After taking this class, you will be able to:
   * Use conservation of energy to solve problems in which objects rotate as well as translate
   * Use conservation of angular momentum to solve problems involving collisions with rotating objects, or objects that change shape while rotating
 
-* Unit 4 (Rotational Dynamics) (Unit 6, on the final exam)
+* Unit 4 (Rotational Dynamics and/or Resonance in Strings) (Unit 6, on the final exam)
   * Describe the relationship between the forces that act on an object and the torque they apply about any given axis
   * Describe the relationship between the torque applied to an object and its angular acceleration
   * Use both $\vec F=m\vec a$ and $\tau = I \alpha$ in tandem to predict the motion of objects that both translate and rotate
+  * Define and relate the wavelength, wave speed, and frequency of traveling waves
+  * Quantitatively analyze the normal modes ("harmonics") of e.g. a guitar string or organ pipe
+  * Qualitatively relate these ideas to analysis of the normal modes of a 2D or 3D cavity
 
 * Throughout (Process of Science)
   * Describe the basics of scientific integrity and the properties of both honest scientific arguments and dishonest pseudoscientific claims
@@ -233,7 +236,10 @@ We might, for instance:
 * ask you to answer a few questions about homework that you submitted that day
 * ask you to have a short discussion about the day's recitation activity with an instructor, and evaluate you based on the knowledge and skill you demonstrate
 
-Most of you will attend recitations virtually using Blackboard Collaborate. A small number of you will attend in person
+Most of you will attend recitations virtually using Blackboard Collaborate. Some of you will attend in person. If you want to 
+attend in person, we will ask you this on a survey; you can also contact your lab TA or coach and ask them to record this 
+preference. We will give instructions to people who will be doing recitations in person.
+
 
 Recitation attendance and participation are graded. We will be conducting a variety of assessments in recitation that will take different forms. 
 
@@ -254,8 +260,12 @@ In the auditorium, we will alternate between presentation and practice. We will 
 using the chat features in Zoom and Twitch. If you have done the reading ahead of class, these presentations will serve as review and enrichment. 
 Questions during the presentation are encouraged and welcome! We will also demonstrate for you the analytic processes involved in solving problems. 
 
-**At any time during class, feel free ask questions and make comments**. If you do not understand something,
+**At any time during class, we encourage you to ask questions and make comments**. If you do not understand something,
 ask. During class I will have both Twitch and Zoom chat in front of me on a giant monitor; if you type something I will see it right away. 
+
+I encourage everyone to be silly and have fun in chat, in Twitch-meme tradition. 
+However, when we're talking about _physics_, please keep the chat clear for students who want to
+talk about the course.
 
 I expect that we will have lively conversation during class! To encourage this, we will be developing a way to look back over Twitch and Zoom chat logs and award extra credit to people who
 are active participants.
