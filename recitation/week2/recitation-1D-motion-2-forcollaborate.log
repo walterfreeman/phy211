@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.5)  12 FEB 2021 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.5)  15 FEB 2021 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**recitation-1D-motion-2.tex
-(./recitation-1D-motion-2.tex
+**recitation-1D-motion-2-forcollaborate.tex
+(./recitation-1D-motion-2-forcollaborate.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-07-17>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -136,23 +136,23 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count191
 \l__pdf_internal_box=\box47
 )
-(./recitation-1D-motion-2.aux)
-\openout1 = `recitation-1D-motion-2.aux'.
+(./recitation-1D-motion-2-forcollaborate.aux)
+\openout1 = `recitation-1D-motion-2-forcollaborate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -180,19 +180,19 @@ e
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(42.67912pt, 723.83812pt, 28.45274pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=723.83812pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-29.59087pt
+* h-part:(L,W,R)=(36.135pt, 903.375pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 537.50813pt, 36.135pt)
+* \paperwidth=975.64499pt
+* \paperheight=609.77812pt
+* \textwidth=903.375pt
+* \textheight=537.50813pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-36.135pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=12.0pt
@@ -212,47 +212,52 @@ e
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<avst-plain-crop.pdf, id=16, 413.545pt x 96.36pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+<avst-plain-crop.pdf, id=21, 413.545pt x 96.36pt>
 File: avst-plain-crop.pdf Graphic file (type pdf)
 <use avst-plain-crop.pdf>
-Package pdftex.def Info: avst-plain-crop.pdf  used on input line 130.
-(pdftex.def)             Requested size: 425.41444pt x 99.12837pt.
-<vvst-plain-crop.pdf, id=17, 413.545pt x 95.35625pt>
+Package pdftex.def Info: avst-plain-crop.pdf  used on input line 149.
+(pdftex.def)             Requested size: 575.90569pt x 134.20464pt.
+<vvst-plain-crop.pdf, id=22, 413.545pt x 95.35625pt>
 File: vvst-plain-crop.pdf Graphic file (type pdf)
 <use vvst-plain-crop.pdf>
-Package pdftex.def Info: vvst-plain-crop.pdf  used on input line 131.
-(pdftex.def)             Requested size: 425.41444pt x 98.0958pt.
-<xvst-plain-crop.pdf, id=18, 413.545pt x 115.43124pt>
+Package pdftex.def Info: vvst-plain-crop.pdf  used on input line 150.
+(pdftex.def)             Requested size: 575.90569pt x 132.80669pt.
+<xvst-plain-crop.pdf, id=23, 413.545pt x 115.43124pt>
 File: xvst-plain-crop.pdf Graphic file (type pdf)
 <use xvst-plain-crop.pdf>
-Package pdftex.def Info: xvst-plain-crop.pdf  used on input line 132.
-(pdftex.def)             Requested size: 425.41444pt x 118.74754pt.
- [3 <./avst-plain-crop.pdf> <./vvst-plain-crop.pdf> <./xvst-plain-crop.pdf>] [4
-] [5]
-(./recitation-1D-motion-2.aux) ) 
+Package pdftex.def Info: xvst-plain-crop.pdf  used on input line 151.
+(pdftex.def)             Requested size: 575.90569pt x 160.76599pt.
+
+Overfull \hbox (47.78258pt too wide) in paragraph at lines 125--154
+[]$[]$ $[]$ 
+ []
+
+[4 <./avst-plain-crop.pdf> <./vvst-plain-crop.pdf> <./xvst-plain-crop.pdf>]
+[5] [6] (./recitation-1D-motion-2-forcollaborate.aux) ) 
 Here is how much of TeX's memory you used:
  2362 strings out of 480906
- 32418 string characters out of 5910773
- 281840 words of memory out of 5000000
+ 32568 string characters out of 5910773
+ 281976 words of memory out of 5000000
  17959 multiletter control sequences out of 15000+600000
  540390 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,4n,33p,350b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-s
-uper-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1200.pfb>
-Output written on recitation-1D-motion-2.pdf (5 pages, 108851 bytes).
+ 36i,6n,34p,379b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/
+enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on recitation-1D-motion-2-forcollaborate.pdf (6 pages, 114027 by
+tes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
