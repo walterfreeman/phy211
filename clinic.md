@@ -18,11 +18,11 @@ I will be holding my office hours there, as will our staff.
 PHY211 staff hours in the Physics Clinic:
 
 Monday:
-* **GTA's:** 1-3 Mario Olivares; 1-2 JT Paustian; 6-7 JT Paustian
+* **GTA's:** 1-3pm Mario Olivares; 1-2pm JT Paustian; 6-7pm JT Paustian
 
 Tuesday:
 * **Professor:** 1:30-3:30pm Walter Freeman
-* **GTA's:** 4-6 Tyler Hain and Nuzhat Faiza Nufa; 5-7 Gentian Muhaxheri; 6-8 JT Paustian
+* **GTA's:** 4-6pm Tyler Hain and Nuzhat Faiza Nufa; 5-7pm Gentian Muhaxheri; 6-8pm JT Paustian
 * **Coach:** 8-11am Domenic Gallo
 
 Wednesday:
@@ -30,11 +30,17 @@ Wednesday:
 * **Coaches:** 6-10pm Connor Wescott; 8pm-10pm Sam Testani; 8pm-12am Kyle Betten and Adam Aly; 10pm-1am Lyra Sauer
 
 Thursday:
-* **GTA:** 2-4 Kevin Ching
+* **GTA:** 2-4pm Kevin Ching
 
 Friday:
-* **Professor:** 9:30-12 Walter Freeman
+* **Professor:** 9:30-12pm Walter Freeman
 * **GTA's:** 2-4pm Aaron Trowbridge; 5-7pm JT Paustian
 * **Coaches:** 4-8pm Kyle Betten
 
 At all other times between 1pm and 7pm, the Physics Clinic will be staffed by a GTA who isn't part of 211. They can help you with any physics material related to our class, but you can't make up missed recitation work with them.
+
+**If you would like assistance over text**, join the course Discord server at <https://discord.gg/2VkgybnGZF>.
+
+**If you would like assistance over email**, email Walter at <wafreema@syr.edu>, Adam (head coach) at <aaly04@syr.edu>, or JT at <jtpausti@syr.edu>.
+
+**If you would like assistance in Chinese**, contact Xinning Li at <xli287@syr.edu>.
