@@ -5,18 +5,17 @@ use_math: true
 title: Announcements
 ---
 
+### Looking for homework help?
+
+We have a Zoom room with lots of resources for you to get help for your homework. You can find <a href="https://walterfreeman.github.io/phy211/clinic.html">more information and the schedule</a>, or <a href="https://syracuseuniversity.zoom.us/j/93889871629">join with this Zoom link</a>.
+
 ### Recitation materials for this week
 
-Wednesday: <a href="recitation/week1/recitation-1-motion-units-collaborate.pdf">for screensharing on Collaborate</a>, or
-<a href="recitation/week1/recitation-1-motion-units-forprint.pdf">for print</a>
+(will be uploaded tonight)
 
-Friday: <a href="recitation/week1/recitation-1D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, or <a href="recitation/week1/recitation-1D-motion-forprint.pdf">for print</a>
+### Lecture slides for this week
 
-
-### Lecture slides for today
-
-<a href="slides/lecture2.pdf">Kinematics: position, velocity, and acceleration</a>
-
+(will be uploaded tonight)
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
