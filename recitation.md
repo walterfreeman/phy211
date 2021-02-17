@@ -10,7 +10,11 @@ Week 1 Wednesday: <a href="recitation/week1/recitation-1-motion-units-collaborat
 <a href="recitation/week1/recitation-1-motion-units-forprint.pdf">for print</a>
 
 Week 1 Friday: <a href="recitation/week1/recitation-1D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week1/recitation-1D-motion-forprint.pdf">for print</a>
+<br>
+Week 2 Wednesday: <a href="recitation/week2/recitation-1D-motion-2-forcollaborate.pdf">for screensharing on Collaborate</a>, 
+<a href="recitation/week2/recitation-1D-motion-2-forprint.pdf">for print</a>
 
+Week 2 Friday: To be posted soon
 <!--
 See the "Video solutions" page on the website for links to video explanations of how to solve all the problems for 
 recitations going back to Week 9.
