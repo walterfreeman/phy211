@@ -15,6 +15,7 @@ Week 2 Wednesday: <a href="recitation/week2/recitation-1D-motion-2-forcollaborat
 <a href="recitation/week2/recitation-1D-motion-2-forprint.pdf">for print</a>
 
 Week 2 Friday: To be posted soon
+
 <!--
 See the "Video solutions" page on the website for links to video explanations of how to solve all the problems for 
 recitations going back to Week 9.
