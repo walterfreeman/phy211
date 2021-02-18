@@ -18,7 +18,7 @@ Friday: to be posted soon
 
 ### Lecture slides for this week
 
-(will be uploaded tonight)
+Thursday: <a href="lecture4.pdf">Vectors</a>
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
