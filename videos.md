@@ -7,6 +7,7 @@ title: Video library
 ---
 
 These videos will be mirrored on Blackboard as soon as I can fix a few tech problems (probably tomorrow).
+<a href="https://youtu.be/DOVQPjtCRuo">February 18 class recording</a><br>
 
 <a href="https://www.youtube.com/watch?v=wDYC4VA1db8">February 16 class recording</a><br>
 
