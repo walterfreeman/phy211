@@ -14,9 +14,11 @@ We have a Zoom room with lots of resources for you to get help for your homework
 Wednesday: <a href="recitation/week2/recitation-1D-motion-2-forcollaborate.pdf">for screensharing on Collaborate</a>,
 <a href="recitation/week2/recitation-1D-motion-2-forprint.pdf">for print</a>
 
-Friday: to be posted soon
+Friday: <a href="recitation/week2/recitation-vectors-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week2/recitation-vectors-forprint.pdf">for print</a>
 
 ### Lecture slides for this week
+
+Tuesday: (no slides)
 
 Thursday: <a href="lecture4.pdf">Vectors</a>
 

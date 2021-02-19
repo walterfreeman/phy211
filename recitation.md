@@ -8,8 +8,7 @@ use_math: true
 Week 2 Wednesday: <a href="recitation/week2/recitation-1D-motion-2-forcollaborate.pdf">for screensharing on Collaborate</a>, 
 <a href="recitation/week2/recitation-1D-motion-2-forprint.pdf">for print</a>
 
-Week 2 Friday: To be posted soon
-
+Week 2 Friday: <a href="recitation/week2/recitation-vectors-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week2/recitation-vectors-forprint.pdf">for print</a>
 
 Week 1 Wednesday: <a href="recitation/week1/recitation-1-motion-units-collaborate.pdf">for screensharing on Collaborate</a>, 
 <a href="recitation/week1/recitation-1-motion-units-forprint.pdf">for print</a>

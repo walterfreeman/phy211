@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.17)  18 FEB 2021 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.2.17)  18 FEB 2021 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**recitation-vectors-forcollaborate.tex
-(./recitation-vectors-forcollaborate.tex
+**recitation-vectors-forprint.tex
+(./recitation-vectors-forprint.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-07-17>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -145,8 +145,8 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box48
 )
-(./recitation-vectors-forcollaborate.aux)
-\openout1 = `recitation-vectors-forcollaborate.aux'.
+(./recitation-vectors-forprint.aux)
+\openout1 = `recitation-vectors-forprint.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -189,19 +189,19 @@ e
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: custom
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(36.135pt, 903.375pt, 36.135pt)
-* v-part:(T,H,B)=(36.135pt, 537.50813pt, 36.135pt)
-* \paperwidth=975.64499pt
-* \paperheight=609.77812pt
-* \textwidth=903.375pt
-* \textheight=537.50813pt
-* \oddsidemargin=-36.135pt
-* \evensidemargin=-36.135pt
-* \topmargin=-36.135pt
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 723.83812pt, 28.45274pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=723.83812pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-29.59087pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=12.0pt
@@ -219,41 +219,55 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+Overfull \hbox (2.77701pt too wide) in paragraph at lines 58--59
+[]\OT1/cmr/m/n/12 Converting vec-tors from ``mag-ni-tude and di-rec-tion'' rep-
+re-sen-ta-tion to ``$\OML/cmm/m/it/12 x\OMS/cmsy/m/n/12 ^^@$ \OT1/cmr/m/n/12 an
+d $\OML/cmm/m/it/12 y\OMS/cmsy/m/n/12 ^^@$\OT1/cmr/m/n/12 component''
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[]\OT1/cmr/m/n/12 Uptown/Downtown/Crosstown,
+ []
+
 <manhattan-1.png, id=12, 868.24374pt x 835.12pt>
 File: manhattan-1.png Graphic file (type png)
 <use manhattan-1.png>
-Package pdftex.def Info: manhattan-1.png  used on input line 88.
-(pdftex.def)             Requested size: 433.61613pt x 417.07474pt.
- [2 <./manhattan-1.png>]
+Package pdftex.def Info: manhattan-1.png  used on input line 83.
+(pdftex.def)             Requested size: 285.27785pt x 274.39261pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 64--89
+[]$[]$ $[]$
+ []
+
+[2 <./manhattan-1.png>]
 <manhattan-2.png, id=19, 613.29124pt x 748.7975pt>
 File: manhattan-2.png Graphic file (type png)
 <use manhattan-2.png>
-Package pdftex.def Info: manhattan-2.png  used on input line 120.
-(pdftex.def)             Requested size: 433.61613pt x 529.42194pt.
-
-[3 <./manhattan-2.png>] [4] [5] [6] (./recitation-vectors-forcollaborate.aux) )
- 
+Package pdftex.def Info: manhattan-2.png  used on input line 106.
+(pdftex.def)             Requested size: 350.33727pt x 427.74449pt.
+ [3 <./manhattan-2.png>] [4] [5] [6]
+(./recitation-vectors-forprint.aux) ) 
 Here is how much of TeX's memory you used:
  2677 strings out of 480906
- 37641 string characters out of 5910772
- 288496 words of memory out of 5000000
+ 37581 string characters out of 5910772
+ 288387 words of memory out of 5000000
  18270 multiletter control sequences out of 15000+600000
  540390 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,34p,477b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.
-pfb>
-Output written on recitation-vectors-forcollaborate.pdf (6 pages, 707783 bytes)
-.
+ 36i,6n,33p,471b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super
+/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on recitation-vectors-forprint.pdf (6 pages, 707983 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
