@@ -5,6 +5,11 @@ use_math: true
 title: Announcements
 ---
 
+### Upcoming events:
+
+* <a href="hw/hw2/hw2.pdf">Homework 2</a>, due Thursday, February 25, before the beginning of class
+* Quiz 2, Thursday during class
+
 ### Looking for homework help?
 
 We have a Zoom room with lots of resources for you to get help for your homework. You can find <a href="https://walterfreeman.github.io/phy211/clinic.html">more information and the schedule</a>, or <a href="https://syracuseuniversity.zoom.us/j/93889871629">join with this Zoom link</a>.
