@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\usepackage[left=2cm, right=2cm, top=1.5cm, bottom=1cm]{geometry}
+
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\def\BS{\bigskip}
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{26 February}}
+
+\it These recitation problems are designed to build a bridge between the things we have learned so far and things we will learn later in the semester.
+
+\rm
+
+
+Your recitation evaluation today will be a quiz question on Blackboard at the end of the class period about Homework 2. If you are doing recitation asynchronously, you may either:
+
+\BI
+\item Attend any synchronous recitation section and complete the Blackboard quiz for that section
+\item Attend any PHY211 TA's office hours on Monday or Tuesday and discuss the recitation activity with them
+
+\newpage
+
+\rm 
+
+\newpage
+
+\begin{center}
+\Large
+Question 1: the ``third kinematics equation''
+\end{center}
+
+Sometimes we are not interested in the {\it time} motion takes. For instance, consider the following problem:
+
+\begin{center}
+	\it A car is driving at 30 m/s. The driver wants to slow down to 20 m/s. How far will the car travel before it slows down to 20 m/s?
+\end{center}
+
+Our current process for solving this problem is the following:
+
+\BI
+\item Interpret the question as a question about algebraic variables: ``What is the value of position at the time when the velocity is equal to 20 m/s?''
+\item Use the velocity relation $v(t) = v_0 + at$ to solve for the time when $v = 20 \rm m/\rm s$
+\item Use the position relation $x(t) = x_0 + v_0 t + \frac{1}{2}at^2$ to solve for the position at that time
+\EI
+
+Note that we had to calculate the time this motion took as an intermediate step, even though we didn't really care about it in the end. Is there a simpler way to do this?
+
+It turns out there is! The best way to do this is to solve this problem {\it without numbers} in the most general sense, then look at the result.
+
+To do this:
+
+\begin{enumerate}
+\item Write down the constant-acceleration kinematics relations above (using $x_f$)
+\item Solve one 
+
+\end{enumerate}
+
+\end{document}
