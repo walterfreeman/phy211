@@ -23,9 +23,9 @@ Friday: <a href="recitation/week2/recitation-vectors-forcollaborate.pdf">for scr
 
 ### Lecture slides for this week
 
-Tuesday: (no slides)
+Tuesday: <a href="slides/lecture5.pdf">Problem solving: projectile motion</a>
 
-Thursday: <a href="lecture4.pdf">Vectors</a>
+Thursday: (to be posted Thursday)
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
