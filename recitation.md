@@ -5,6 +5,16 @@ permalink: recitation.html
 category: top
 use_math: true
 ---
+
+Week 3 Wednesday: <a href="recitation/week2/recitation-2D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, 
+<a href="recitation/week2/recitation-2D-motion-forprint.pdf">for print</a>
+
+<br>
+
+Week 3 Friday: coming soon
+
+<br>
+
 Week 2 Wednesday: <a href="recitation/week2/recitation-1D-motion-2-forcollaborate.pdf">for screensharing on Collaborate</a>, 
 <a href="recitation/week2/recitation-1D-motion-2-forprint.pdf">for print</a>
 

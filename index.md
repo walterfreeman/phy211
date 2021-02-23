@@ -16,8 +16,8 @@ We have a Zoom room with lots of resources for you to get help for your homework
 
 ### Recitation materials for this week
 
-Wednesday: <a href="recitation/week2/recitation-1D-motion-2-forcollaborate.pdf">for screensharing on Collaborate</a>,
-<a href="recitation/week2/recitation-1D-motion-2-forprint.pdf">for print</a>
+Wednesday: <a href="recitation/week3/recitation-2D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>,
+<a href="recitation/week3/recitation-2D-motion-forprint.pdf">for print</a>
 
 Friday: <a href="recitation/week2/recitation-vectors-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week2/recitation-vectors-forprint.pdf">for print</a>
 
