@@ -6,8 +6,8 @@ category: top
 use_math: true
 ---
 
-Week 3 Wednesday: <a href="recitation/week2/recitation-2D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, 
-<a href="recitation/week2/recitation-2D-motion-forprint.pdf">for print</a>
+Week 3 Wednesday: <a href="recitation/week3/recitation-2D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, 
+<a href="recitation/week3/recitation-2D-motion-forprint.pdf">for print</a>
 
 <br>
 
