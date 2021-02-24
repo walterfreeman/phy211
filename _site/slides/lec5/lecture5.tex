@@ -1,0 +1,674 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+
+
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BS{\bigskip}
+\def\BC{\begin{center}}
+\def\EC{\end{center}}
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+\definecolor{A}{rgb}{0.8,0.0,0.0}
+\definecolor{B}{rgb}{0.0,0.6,0.0}
+\definecolor{C}{rgb}{0.4,0.4,0.0}
+\definecolor{D}{rgb}{0.0,0.0,0.5}
+\definecolor{E}{rgb}{0.4,0.4,0.4}
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Problem solving: kinematics]{
+  \textbf {Problem solving: kinematics}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+
+\frame{
+	\large
+	\begin{center}
+		Poets say science takes away from the beauty of the stars--mere globs of gas atoms. Nothing is ``mere.'' I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination--stuck on this carousel my little eye can catch one-million-year-old light. A vast pattern, of which I am a part.... 
+		
+		\bigskip
+		
+		What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined! Why do the poets of the present not speak of it? What men are poets who can speak of Jupiter if he were like a man, but if he is an immense spinning sphere of methane and ammonia must be silent?
+	\end{center}
+	\bigskip
+	\bigskip
+	\bigskip
+	
+	\begin{flushright}
+		--Richard Feynman, from {\it Lectures on Physics}, vol. 1, ch. 3
+	\end{flushright}
+}
+
+
+\frame{\frametitle{\textbf{Quiz 1}}
+	Quiz 1 will be Thursday. {\color{Green}Don't panic!} -- you'll be fine!
+	
+	\BS\BS
+	
+	\pause
+	There will be {\it two questions}. On the quiz:
+	\BI
+	\item One question where you will need to interpret the two roots given to you by the quadratic formula (like Question 5 from HW1)
+	\BS
+	\item Motion with constant acceleration in one dimension (what you did for HW1: roadrunner problem, elevator problem)
+	\BS
+	\item Motion with constant acceleration in two dimensions (what we are doing today and next Tuesday, and on HW2: cannon problem, dog problem)
+	\BS
+	\item Interpretation of position/velocity/acceleration graphs (HW1, bicycle problem)
+	\EI
+	\pause
+}
+
+\frame{\frametitle{\textbf{Quiz 1}}
+	\BS
+	Review opportunities specifically for the quiz:
+	
+	\BI
+	\item Today, 1:30-3:30PM, in the Virtual Physics Clinic
+	\item next Wednesday, 4PM-7PM, on Zoom (link emailed today)
+	\item next Thursday, first 20 minutes of class
+	\EI
+	
+	\BS
+	The quiz itself:
+	\BI
+	\item A PDF will be posted at 11:20 AM on the website and on Blackboard; it will be due at 12:20 PM (end of class). We will have a grace period to accommodate people scanning and submitting things.
+	
+	\BS
+	
+		Students with extra-time accommodations will get that extra time; you may either finish later, or arrange another time to take the quiz with me. (Come to office hours to discuss this.)
+
+	\EI
+}
+\frame{\frametitle{\textbf{Last time}}
+  \Large
+
+\BC
+  Vectors: objects with direction and magnitude
+\EC
+
+
+  \pause
+  Two representations:
+  \large
+
+  \Large
+    \BI
+  \item{Magnitude and direction (easiest to state, hardest to work with)}
+  \item{Components (easiest to work with)}
+  \item{Use trigonometry to go back and forth}
+  \EI
+}
+
+%\frame{\frametitle{\textbf{Unit vectors}}
+%\large
+%In the ``ordered pair'' notation for vectors' components, you might write:
+%
+%$$\vec v = (5,3)$$
+%
+%But this is clunky, if you're trying to write it as part of an algebraic statement.
+%
+%\bigskip
+%
+%Instead we introduce ``unit vectors'', vectors with length 1, in the x, y, and z directions.
+%
+%\begin{align*}
+%\hat i =& (1,0,0) \\
+%\hat j =& (0,1,0) \\
+%\hat k =& (0,0,1)
+%\end{align*}
+%
+%\BI
+%\item{$\vec v = (5,3)$ : Ordered pair}
+%\item{$\vec v = 5 \hat i + 3 \hat j$ : Unit vectors}
+%\item{$v_x = 5$, $v_y = 3$: Vector components}
+%\pause
+%\item{Both give you the same information, but unit vectors can be easier algebraically}
+%\item We will generally use the last form, since components are easiest to solve problems with
+%\EI
+%
+%
+%}
+%
+\frame{
+
+\Large
+
+A word on positive and negative acceleration, velocity, ``speed'', and displacement:
+
+\bigskip
+
+When you choose your origin, you choose one direction to be positive, and the other to be negative. (Here: right = positive.)
+
+\BI
+\item An object with $x<0$ just means it's left of the origin.
+\item An object with $v<0$ means it's moving to the left.
+\item An object with $a<0$ means:
+\BI
+\Large
+\item \color{A}A: it is moving to the left and gaining speed
+\item \color{B}B: it is moving to the right and slowing down
+\item \color{C}C: it is moving to the left and slowing down
+\item \color{D}D: it is moving to the right and gaining speed
+\EI
+\EI
+\pause
+\bigskip
+\BC
+Do not confuse the sign of something with the sign of its derivative!
+\EC
+}
+
+  
+
+\frame{\frametitle{\textbf{Last time}}
+
+    \large Acceleration, velocity, and position relationships are the same in 2D; they just apply {\color{Red}independently} for each component.
+    \Large
+
+    \begin{align*}
+      \vec v(t) =&\, \vec at + \vec v_0 \\
+      \vec s(t) =&\, \frac{1}{2}\vec a t^2 + \vec v_0 t + \vec s_0
+    \end{align*}
+
+    \pause
+
+    \begin{align*}
+      v_x(t) =& a_x t + v_{x,0} \\
+      v_y(t) =& a_y t + v_{y,0} \\
+    \end{align*}
+    \pause
+    \begin{align*}
+      x(t) =&\,  \frac{1}{2}  a_x t^2 + v_{x,0} t + x_0\\
+      \bigskip
+      y(t) =&\, \frac{1}{2}  a_y t^2 + v_{y,0} t + y_0
+    \end{align*}
+  }
+   \frame{\frametitle{\textbf{Working with variables}}
+    \Large 
+    \centerline{If you don't know the numerical value of a quantity yet, }
+      \centerline{it's fine to leave it as a variable!}
+
+    \bigskip
+
+    \centerline{This is essential for solving many problems.}
+
+    \pause
+
+\bigskip
+\bigskip
+
+\centerline{Example for projectile motion:}
+
+\begin{eqnarray*}
+  x(t) = \frac{1}{2} a_x t^2 + {\color{Red}v_{x,0}} t + x_0 \\
+  y(t) = \frac{1}{2} a_y t^2 + {\color{Red}v_{y,0}} t + y_0 
+\end{eqnarray*}
+}
+
+
+   \frame{\frametitle{\textbf{Working with variables}}
+    \Large 
+  \centerline{If you don't know the numerical value of a quantity yet, }
+      \centerline{it's fine to leave it as a variable!}
+
+    \bigskip
+
+    \centerline{This is essential for solving many problems.}
+
+
+
+\bigskip
+\bigskip
+
+\centerline{Example for projectile motion:}
+
+\begin{align*}
+  x(t) =& {\color{Red}v_{x,0}} t \\
+    y(t) =& -\frac{1}{2} g t^2 + {\color{Red}v_{y,0}} t 
+  \end{align*}
+
+
+}
+
+
+
+
+   \frame{\frametitle{\textbf{Working with variables}}
+    \Large 
+  \centerline{If you don't know the numerical value of a quantity yet, }
+      \centerline{it's fine to leave it as a variable!}
+
+    \bigskip
+
+    \centerline{This is essential for solving many problems.}
+
+
+
+\bigskip
+\bigskip
+
+\centerline{Example for projectile motion:}
+
+\begin{align*}
+  x(t) =& {\color{Red}v_0 \cos 45^o} t \\
+  y(t) =& -\frac{1}{2} g t^2 + {\color{Red}v_0 \sin 45^o} t \\
+\end{align*}
+
+  \centerline{(We'll see the rest in a minute)}
+
+}
+
+
+
+  \frame{\frametitle{\textbf{Problem solving: 2D kinematics, constant acceleration}}
+    \large
+    \begin{enumerate}
+      \item 0. Draw a cartoon of the situation, and choose a coordinate system
+      
+      \bigskip
+      
+      \item{1. If you have vectors in the ``angle and magnitude'' form ($\vec a, \vec v, \vec s$), convert them to components}
+      
+      \bigskip
+      
+      \item{2. Write down the kinematics relations, separately for $x$ and $y$}
+        \begin{itemize}
+            \large
+          \item{Many terms will usually be zero}
+          \item{Freefall: $a_x = 0$, $a_y = -g$ (with conventional choice of axes)}
+        \end{itemize}
+    
+    \bigskip
+      \item{3. Understand what instant in time you want to know about: ask the right question}
+      \bigskip
+      \item{4. Put in what you know; solve for what you don't (using substitution, if necessary)}
+      \BS
+      \item{5. Think about the physical meaning of your solution}
+    \end{enumerate}
+  }
+
+
+
+  \frame{\frametitle{\textbf{``What instant in time do you know about?''}}
+  \large
+{  \color{Red}This is often the most difficult part of problems: it requires thought, not just math.}
+
+  \bigskip
+  \bigskip
+  \bigskip
+
+
+\Large
+You throw a ball upward over a hole of height $h$. Your position is the origin, and up is positive.
+
+\bigskip
+
+What condition means ``the ball has hit the ground''?
+
+\BI
+\item{\color{A}A: $y=0$}
+\item{\color{B}B: $y=h$}
+\item{\color{C}C: $y=-h$}
+\item{\color{D}D: $v_y=0$}
+\EI
+}
+
+
+
+  \frame{\frametitle{\textbf{``What instant in time do you know about?''}}
+
+
+\Large
+You throw a ball upward off of a cliff of height $h$. The top of the cliff is the origin, and up is positive.
+
+\bigskip
+\bigskip
+\bigskip
+
+What condition means ``the ball is at its highest point?''?
+
+\BI
+\item{\color{A}A: $y=0$}
+\item{\color{B}B: $v_y=0$}
+\item{\color{C}C: $y=h$}
+\item{\color{D}D: $y$ is a maximum}
+\EI
+}
+
+
+\frame{\frametitle{\textbf{A football (soccer) player}}
+\Large
+A player kicks a ball at 20 $m/s$ at an angle of 30 degrees above the horizontal on a level field?
+
+\bigskip
+\bigskip
+
+How can we frame the question ``How far does the ball go?'' in terms of our variables?
+
+\bigskip
+
+\BI
+\Large
+\item{\color{A}A: What is $x$ at the same time that $v_x$ is zero?}
+\item{\color{B}B: What is $y$ at the same time that $x$ is is zero?}
+\item{\color{C}C: What is $x$ at the same time that $y$ is zero?}
+\item{\color{D}D: What is $x$ at the same time that $v_y$ is zero?}
+\EI
+}
+
+\frame{\frametitle{\textbf{A football (soccer) player}}
+\large
+\BI
+\item{A player kicks a ball at 80 $m/s$ at an angle of 30 degrees above the horizontal.}
+\BS
+\BS
+\pause
+\item{How high does the ball go?}
+  \pause
+\item{How fast is it traveling at its highest point?}
+  \pause
+\item{How fast is it traveling when it strikes the ground?}
+\pause
+\item {Which way is it moving when it hits the ground?}
+  \EI
+}
+
+
+
+
+\frame{\frametitle{\textbf{A football (soccer) player}}
+\large
+\BI
+\item{A player kicks a ball at 80 $m/s$ at an angle of 30 degrees above the horizontal.}
+\EI
+\bigskip
+
+\BC
+\Huge What is $v_{0,x}$?
+\EC
+
+\Large
+
+\bigskip
+
+\color{A}A: $v_0 \cos \theta$ \\
+\color{B}B: $v_0 \sin \theta$ \\
+\color{C}C: $v_0 \tan \theta$ \\
+\color{D}D: $v_0$ \\
+}
+
+\frame{\frametitle{\textbf{A football (soccer) player}}
+\Large
+\BI
+\item What changes if I put the player up on a hill?
+\pause
+\item What changes if she's trying to kick the ball to someone up on a plateau?
+\pause
+\item What changes if I want to know what initial velocity she needs to hit a target? 
+\pause
+\item What changes if I have air resistance?
+\EI
+}
+
+
+
+\frame{\frametitle{\textbf{Throwing a rock off a cliff}}
+\Large A hiker throws a rock horizontally off of a $h=100$ m tall cliff. If the rock strikes the ground $d=30$ m away, how hard did she 
+  throw it? How fast was it going when it hit the ground? (Choose the origin at the base of the cliff, up/direction of throw as positive)}
+
+
+\frame{
+
+\Large
+
+What is $v_{0,x}$ here?
+
+\bigskip
+\bigskip
+
+\color{A}A: 0 \\
+\color{B}B: 10/3 m/s\\
+\color{C}C: You don't know {\it a priori} 
+}
+
+
+\frame{
+
+\Large
+
+What is $v_{0,y}$ here?
+
+\bigskip
+\bigskip
+
+\color{A}A: 0 \\
+\color{B}B: 9.81 m/s\\
+\color{C}C: You don't know {\it a priori} 
+}
+
+\frame{
+
+\Large
+
+What is $a_{x}$ here?
+
+\bigskip
+\bigskip
+
+\color{A}A: 0 \\
+\color{B}B: -g\\
+\color{C}C: +g\\
+\color{D}D: You don't know {\it a priori} 
+}
+
+\frame{
+\Large
+
+What is $a_{y}$ here?
+
+\bigskip
+\bigskip
+
+\color{A}A: 0 \\
+\color{B}B: -g\\
+\color{C}C: +g\\
+\color{D}D: You don't know {\it a priori} 
+}
+
+\frame{
+\Large
+
+What is $x_0$ here?
+
+\bigskip
+\bigskip
+
+\color{A}A: 0 \\
+\color{B}B: h\\
+\color{C}C: d\\
+\color{D}D: You don't know {\it a priori} 
+}
+
+\frame{
+\Large
+
+What is $y_0$ here?
+
+\bigskip
+\bigskip
+
+\color{A}A: 0 \\
+\color{B}B: h\\
+\color{C}C: d\\
+\color{D}D: You don't know {\it a priori} 
+}
+
+
+\frame{
+\Large
+What question do you ask to find ``how hard did she throw it?''
+
+\bigskip
+\bigskip
+
+\color{A}A: What value of $v_{x,0}$ makes it such that $x=d$ at the time that $y=0$?\\
+\color{B}B: What value of $v_{y,0}$ makes it such that $x=d$ at the time that $y=h$?\\
+\color{C}C: What is the value of $v_x$ when $y=0$? \\
+\color{D}D: What is the magnitude of $\vec v$ when $y=0$?\\
+\color{E}E: What is $v_x$ when $y=h$?\\
+} 
+
+\frame{
+\Large
+What question do you ask to find ``how fast is it going when it hits the ground?''
+
+\bigskip
+\bigskip
+
+\color{A}A: What is $v_x$ at the time when $v_y=0$?\\
+\color{B}B: What is $v_x$ at the time when $y=0$?\\
+\color{C}C: What is $v_y$ at the time when $y=h$?\\
+\color{D}D: What is the magnitude of $\vec v$ when $y=0$?\\
+\color{E}E: What is the magnitude of $\vec v$ when $y=h$?\\
+} 
+
+\frame{
+\Large
+
+What's the magnitude of $\vec v$?
+
+\bigskip 
+\bigskip 
+\color{A}A: $v \cos \theta$\\
+\color{B}B: $v \sin \theta$\\
+\color{C}C: $\tan^{-1} \frac{v_x}{v_y}$\\ 
+\color{D}D: $\sqrt{v_x^2 + v_y^2}$
+}
+
+\frame{\frametitle{\textbf{Throwing a stone onto a slope}}
+  A hiker kicks a stone off of a mountain slope with an initial velocity of $v_0$ 3 m/s horizontally. If the mountain has a slope
+  of 45 degrees, how far down the slope does it land? (Choose the origin as the starting point.)
+
+\bigskip
+
+\color{A}A: What is the magnitude of $\vec s$ when $x=y$?\\
+\color{B}B: What is the magnitude of $\vec s$ when $x=-y$?\\
+\color{C}C: What is the magnitude of $\vec s$ when $y=0$?\\
+\color{D}D: What is y when $x=-y$?\\
+\color{E}E: What is y when $x=0$?
+}
+
+  
+\frame{\frametitle{\textbf{A rocket}}
+ \Large
+  A rocket is launched from rest on level ground. While its motor burns, it accelerates at 10 m/s at an angle 30 degrees
+  below the vertical. After $\tau=10$ s its motor burns out and it falls freely until it hits the ground.
+
+
+\bigskip
+
+  Sketch position vs. time, velocity vs. time, acceleration vs. time for both $x$ and $y$ components.
+
+  \bigskip
+
+  How far does it go?
+
+
+
+}
+
+
+      \end{document}
