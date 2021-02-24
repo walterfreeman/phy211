@@ -23,7 +23,7 @@ Friday: <a href="recitation/week2/recitation-vectors-forcollaborate.pdf">for scr
 
 ### Lecture slides for this week
 
-Tuesday: <a href="slides/lecture5.pdf">Problem solving: projectile motion</a>
+Tuesday: <a href="slides/lec5/lecture5.pdf">Problem solving: projectile motion</a>
 
 Thursday: (to be posted Thursday)
 
