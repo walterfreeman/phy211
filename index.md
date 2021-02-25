@@ -7,7 +7,7 @@ title: Announcements
 
 ### Quiz 1 is live!
 
-See the link: <a href="quiz1.pdf">Quiz 1 PDF</a> (instructions in PDF)
+See the link: <a href="https://walterfreeman.github.io/phy211/quiz1.pdf">Quiz 1 PDF</a> (instructions in PDF)
 
 ### Upcoming events:
 
