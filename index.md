@@ -5,10 +5,14 @@ use_math: true
 title: Announcements
 ---
 
+### Quiz 1 is live!
+
+See the link: <a href="quiz1.pdf">Quiz 1 PDF</a> (instructions in PDF)
+
 ### Upcoming events:
 
 * <a href="hw/hw2/hw2.pdf">Homework 2</a>, due Thursday, February 25, before the beginning of class
-* Quiz 2, Thursday during class
+* Quiz 1, Thursday during class
 
 ### Looking for homework help?
 
