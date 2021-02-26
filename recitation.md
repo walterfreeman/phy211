@@ -12,7 +12,7 @@ Week 3 Wednesday: <a href="recitation/week3/recitation-2D-motion-forcollaborate.
 <br>
 
 Week 3 Friday: 
-<a href="recitation/week3/recitation-second-kinematics-equation-vectors-landscape.pdf">>for screensharing on Collaborate</a>, <a href="recitation/week3/recitation-2D-motion-forprint.pdf">for print</a>.
+<a href="recitation/week3/recitation-second-kinematics-equation-vectors-landscape.pdf">>for screensharing on Collaborate</a>, <a href="recitation/week3/recitation-second-kinematics-equation-vectors-forprint.pdf">for print</a>.
 
 <br>
 
