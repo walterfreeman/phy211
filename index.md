@@ -5,14 +5,9 @@ use_math: true
 title: Announcements
 ---
 
-### Quiz 1 is live!
-
-See the link: <a href="https://walterfreeman.github.io/phy211/quiz1.pdf">Quiz 1 PDF</a> (instructions in PDF)
-
 ### Upcoming events:
 
 * <a href="hw/hw2/hw2.pdf">Homework 2</a>, due Thursday, February 25, before the beginning of class
-* Quiz 1, Thursday during class
 
 ### Looking for homework help?
 
@@ -23,7 +18,7 @@ We have a Zoom room with lots of resources for you to get help for your homework
 Wednesday: <a href="recitation/week3/recitation-2D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>,
 <a href="recitation/week3/recitation-2D-motion-forprint.pdf">for print</a>
 
-Friday: <a href="recitation/week2/recitation-vectors-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week2/recitation-vectors-forprint.pdf">for print</a>
+Friday: <a href="recitation/week3/recitation-second-kinematics-equation-vectors-landscape.pdf">>for screensharing on Collaborate</a>, <a href="recitation/week3/recitation-2D-motion-forprint.pdf">for print</a>.
 
 ### Lecture slides for this week
 
