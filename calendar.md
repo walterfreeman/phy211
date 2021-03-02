@@ -25,9 +25,9 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 2 March     | Introduction to Newton's second law                                                                              | 5.1-5.3                        |
 | 4 March     | Solving problems with Newton's second and third laws                                                             | 5.4-5.7; 6.1                   |
 | 9 March     | Friction; additional practice problems                                                                           | 6.2                            |
-| 14 March    | Review for Quiz 2; Quiz 2                                                                                        |                                |
+| 11 March    | Review for Quiz 2; Quiz 2                                                                                        |                                |
 | 16 March    | Acceleration in circular motion                                                                                  | 4.4; 6.3                       |
-| 21 March    | Universal gravitation; solving problems involving uniform circular motion                                        | 13.1-13.2                      |
+| 18 March    | Universal gravitation; solving problems involving uniform circular motion                                        | 13.1-13.2                      |
 | 23 March    | **NO CLASS**                                                                                                     |                                |
 | 25 March    | Practice problems on Newton's second law in varied circumstances.                                                |                                |
 | 30 March    | Review for Quiz 3; Quiz 3                                                                                        |                                |
