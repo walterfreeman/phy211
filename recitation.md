@@ -6,6 +6,17 @@ category: top
 use_math: true
 ---
 
+
+Week 4Wednesday:
+<a href="recitation/week4/recitation-forces-forcollaborate.pdf">for screensharing on Collaborate</a>, or
+<a href="recitation/week4/recitation-forces-forprint.pdf">for print</a>
+
+Week 4Friday:
+<a href="recitation/week4/recitation-forces2-forcollaborate.pdf">for screensharing on Collaborate</a>, or
+<a href="recitation/week4/recitation-forces2-forprint.pdf">for print</a>
+
+
+
 Week 3 Wednesday: <a href="recitation/week3/recitation-2D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, 
 <a href="recitation/week3/recitation-2D-motion-forprint.pdf">for print</a>
 
