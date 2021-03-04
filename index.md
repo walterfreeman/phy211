@@ -7,7 +7,9 @@ title: Announcements
 
 ### Upcoming events:
 
-* Homework 3: posted later on Tuesday 
+* <a href="hw/hw3/hw3.pdf">Homework 3</a> is now available. It is due Thursday, March 11, at 11AM Syracuse time.
+
+* I will not be holding office hours Friday because I will be driving to Utica to get a COVID vaccine.
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
