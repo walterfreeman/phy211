@@ -26,3 +26,7 @@ Class 4: Mathematics of vectors. <a href="slides/lec4/lecture4.pdf">[Slides]</a>
 
 Class 5: Solving problems with kinematics in 2D. <a href="slides/lec5/lecture5.pdf">[Slides]</a> <a href="https://youtu.be/9NgNjwH7tZ0">[YouTube]</a>
 
+Class 7: Newton's second law, some simple applications; dealing with inclines. <a href="https://youtu.be/185wPchdEzk">[YouTube]</a>
+
+<br><br>
+Recitation, March 3: <a href="https://youtu.be/vaxKYWfHtvk">[YouTube]</a>

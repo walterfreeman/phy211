@@ -26,19 +26,19 @@ We have a Zoom room with lots of resources for you to get help for your homework
 
 ### Recitation materials for this week
 
-Wednesday: 
-<a href="recitation/week4/recitation-forces-forcollaborate.pdf">for screensharing on Collaborate</a>, or
-<a href="recitation/week4/recitation-forces-forprint.pdf">for print</a>
+Wednesday: <a href="recitation/week5/recitation-forces3-forcollaborate.pdf">[for screensharing on Collaborate]</a> or <a href="recitation/week5/recitation-forces3-forprint.pdf">[for print]</a>
 
-Friday: 
-<a href="recitation/week4/recitation-forces2-forcollaborate.pdf">for screensharing on Collaborate</a>, or
-<a href="recitation/week4/recitation-forces2-forprint.pdf">for print</a>
+<br>
+
+Friday: <a href="recitation/week5/recitation-forces4-forcollaborate.pdf">[for screensharing on Collaborate]</a> or <a href="recitation/week5/recitation-forces4-forprint.pdf">[for print]</a>
+
+
 
 ### Lecture slides for this week
 
-Tuesday: <a href="slides/lec7/lecture7.pdf">Newton's law of motion</a>
+Tuesday: 
 
-Thursday: (to be posted Thursday)
+Thursday:
 
 ### Contact information and staff
 -   Professor: 
