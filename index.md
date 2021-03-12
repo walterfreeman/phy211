@@ -7,9 +7,9 @@ title: Announcements
 
 ### Upcoming events:
 
-* <a href="hw/hw3/hw3.pdf">Homework 3</a> is now available. It is due Thursday, March 11, at 11AM Syracuse time.
+* <a href="hw/hw4/hw4.pdf">Homework 4</a> is now available. It is due Friday, March 19, before recitation. 
 
-* I will not be holding office hours Friday because I will be driving to Utica to get a COVID vaccine.
+**My help hours for this homework set:** Monday, 3 PM-5 PM; Tuesday, 1:30-3:30 PM; Thursday, 3:30-6 PM. I will be in the Physics Clinic, but will physically be in PB Room 215. You are welcome to come visit in person.
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
