@@ -26,19 +26,13 @@ We have a Zoom room with lots of resources for you to get help for your homework
 
 ### Recitation materials for this week
 
-Wednesday: <a href="recitation/week5/recitation-forces3-forcollaborate.pdf">[for screensharing on Collaborate]</a> or <a href="recitation/week5/recitation-forces3-forprint.pdf">[for print]</a>
+Wednesday: (to be posted)
 
 <br>
 
-Friday: <a href="recitation/week5/recitation-forces4-forcollaborate.pdf">[for screensharing on Collaborate]</a> or <a href="recitation/week5/recitation-forces4-forprint.pdf">[for print]</a>
+Friday: (to be posted)
 
 
-
-### Lecture slides for this week
-
-Tuesday: 
-
-Thursday:
 
 ### Contact information and staff
 -   Professor: 
