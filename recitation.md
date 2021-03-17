@@ -6,6 +6,10 @@ category: top
 use_math: true
 ---
 
+Week 6 Wednesday:
+<a href="recitation-forces6-forcollaborate.pdf">[for screensharing on Collaborate]</a>, <a href="recitation-forces6-forprint.pdf">[for print]</a>
+
+
 Week 5 Wednesday: 
 <a href="recitation/week5/recitation-forces3-forcollaborate.pdf">[for screensharing on Collaborate]</a> or <a href="recitation/week5/recitation-forces3-forprint.pdf">[for print]</a>
 

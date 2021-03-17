@@ -26,7 +26,7 @@ We have a Zoom room with lots of resources for you to get help for your homework
 
 ### Recitation materials for this week
 
-Wednesday: (to be posted)
+Wednesday: <a href="recitation-forces6-forcollaborate.pdf">[for screensharing on Collaborate]</a>, <a href="recitation-forces6-forprint.pdf">[for print]</a>
 
 <br>
 
