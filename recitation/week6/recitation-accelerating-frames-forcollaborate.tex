@@ -3,6 +3,7 @@
 \usepackage{fullpage}
 \usepackage{enumitem}
 \usepackage{amsmath}
+\usepackage{hyperref}
 %\usepackage[margin=1.5cm]{geometry}
 \usepackage[margin=0.4in, paperwidth=13.5in, paperheight=8.4375in]{geometry}
 \usepackage{graphicx}
@@ -40,34 +41,152 @@
 \begin{document}
 \pagenumbering{gobble}
 \Large
-\centerline{\sc{Recitation Exercises}}
+\centerline{\sc{Recitation Exercises -- ``Weightlessness'' and orbits}}
 \normalsize
 \centerline{\sc{19 March}}
 
-As you will learn next week, the gravity of planets decreases when you move away from them. This means that astronauts traveling between the Earth and the Moon, while far from both objects, experience very little gravity.
+We have all seen images of people floating in the middle of spacecraft, apparently ``weightless''. In this recitation you will compare this experience in three places:
 
-Thus, things appear to float around them, and they float in the middle of their spacecraft.
+\begin{enumerate}
+	\item Weightlessness in deep space (between Earth and Moon)
+	\item ``Weightlessness'' in a Hollywood movie
+	\item ``Weightlessness'' in orbit around the Earth
+\end{enumerate}
 
-Recall the homework problem involving your apparent weight in an elevator. In this problem, you concluded that it wasn't the {\it strength of the force of gravity} that affected your apparent weight, but the strength of some {\it other} force on you. What force was that?
+As we discussed Thursday, the gravity of planets decreases when you move away from them. The force of gravity between any two objects A and B is
+
+$$F_g = \frac{Gm_Am_B}{r^2}$$
+
+where $r$ is the distance between their centers. The value of $G$ is
+
+$$G = 6.67 \times 10^{-11} \frac{\rm N \cdot \rm m^2}{{\rm kg}^2}$$
+
+but it is often simpler to think instead of how the gravitational force depends on various things:
+
+\begin{itemize}
+	\item The gravitational force is proportional to each of the two masses that are attracting each other
+	\item The gravitational force is inversely proportional to the square of the distance between their centers
+\end{itemize}
 
 
+{\bf 0. Apparent weight.} Recall the homework problem involving your apparent weight in an elevator. In this problem, you concluded that it wasn't the {\it strength of the force of gravity} that affected your apparent weight, but the strength of some {\it other} force on you. What force was that?
 
-When Hollywood filmmakers wanted to create a movie telling the story of the Apollo 13 mission (where an explosion crippled the spacecraft and the astronauts, led by Jim Lovell, barely survived), they needed a way to mimic this effect on screen. They couldn't send Tom Hanks (the actor playing Lovell) to the Moon, and there is no way to ``turn off'' gravity without traveling far from Earth. (Currently, humanity has no way to travel this far from Earth; we lost that capability in the 1970's.)
+\vspace{1in}
+\newpage
+
+{\bf 1. Gravity in deep space.} The Earth has a radius of about 6,400 km. The Moon is about 400,000 km from us.
+
+To make the mathematics simple, let's think about the crew of {\it Apollo 13}, the unfortunate NASA mission to the Moon that had an explosion {\it en route}, while they are 320,000 km from Earth.
+
+a) How much further were the astronauts from Earth's center at this point than they are when standing on Earth's surface?
+
+\vspace{1in}
+
+b) How much weaker is Earth's gravity at this point than it is at Earth's surface? {\it (If you find yourself Googling the mass of the Earth here, then you are doing this the hard way -- remember, the force of gravity is inversely proportional to the distance from the center of the Earth squared.)}
+
+\vspace{1in}
+
+c) What is the value of $g$ at this point? Does this count as ``microgravity'', compared to what we normally experience?
+
+\newpage
+
+{\bf 2. Weightlessness in a Hollywood studio?} When Hollywood filmmakers wanted to create a movie telling the story of the Apollo 13 mission (where an explosion crippled the spacecraft and the astronauts, led by Jim Lovell, barely survived), they needed a way to mimic this effect on screen. They couldn't send Tom Hanks (the actor playing Lovell) to the Moon, and there is no way to ``turn off'' gravity without traveling far from Earth. (Currently, humans have no way to travel this far from Earth; we lost that capability in the 1970's.)
 
 They did this by hiring an aircraft that was capable of flying in a path with an acceleration of 9.8 $\rm m/\rm s^2$ downward, and put the set, the actors, their props, the camera, and the film  crew in this aircraft. When it flew in this way, the actors appeared to ``float'' in the air, and the props appeared to float around them.
 
-https://news.avclub.com/on-apollo-13-s-20th-anniversary-a-look-at-how-they-mad-1798281369
+See \url{https://youtu.be/SdgELXIeY3I?t=351} for an example of how this worked.
 
-FIXME: https://youtu.be/SdgELXIeY3I -- add correct time
+\bigskip
+
+\begin{minipage}{0.475\textwidth}
+a) Draw a force diagram for Tom Hanks as he is ``floating''. What is his acceleration?
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}{0.475\textwidth}
+	b) What will Tom Hanks' {\it apparent weight} be while he is floating inside the airplane?
+\end{minipage}
+\vspace{1.5in}
 
 
-a) Draw a force diagram for Tom Hanks  while he is ``floating''. What is his acceleration?
+\begin{minipage}{0.475\textwidth}
+	c) What is the acceleration of an object floating in front of him?
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}{0.475\textwidth}
+	
+	d) What is the acceleration of the movie camera filming both him and the objects around him?
 
-b) What is the acceleration of an object floating in front of him?
+\end{minipage}
+\vspace{1in}
 
-c) What is the acceleration of the movie camera filming both him and the objects around him?
+\newpage
 
-d) Explain how this process simulated the effect of deep-space ``weightlessness'' that the real Jim Lovell 
+e) Explain how this process simulated the effect of deep-space ``weightlessness'' that the real Jim Lovell felt while he was far from both the Earth and the Moon. During the filming of these scenes, was Tom Hanks ``weightless''? In answering this question, make sure you clarify what you mean by ``weightless''. (There is no one correct answer -- depending on your definition of weightlessness, you may have different answers.)
+
+\vspace{3in}
+
+f) Of course, one cannot accelerate downward at $g$ forever. Eventually, this aircraft (named the ``Vomit Comet'' at NASA) had to start accelerating {\it upward} to pull out of its dive before hitting the Earth's surface. 
+
+During this upward acceleration, what would the actors and film crew experience?
+
+\newpage
+
+{\bf 3. ``Weightlessness'' in Earth orbit}
+
+The International Space Station orbits the Earth at an altitude of around 400 km above Earth's surface. We know that people and objects appear to float in midair in the ISS; for an example, see \url{https://youtu.be/vv_kLaFd_F8?t=73}.
+
+a) What is the value of $g$ if you are 400 km above Earth's surface? You may either calculate it from scratch (you will need to look up the mass of the Earth), or give an answer that is something like ``Very close to zero'', ``Close to 9.8 $\rm m/\rm s^2$, but measurably less'' or ``So close to 9.8 $\rm m/\rm s^2$ that you can't tell the difference''.
+
+\vspace{1.5in}
+
+\begin{minipage}{0.3\textwidth}
+b) Draw a force diagram for the astronaut floating in the middle of the ISS, at a point when she is not touching the walls. 
+
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}{0.3\textwidth}
+
+c) What is her apparent weight at this point?
+\vspace{2em}
+
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+	
+d) What is her acceleration at this point?
+	\vspace{2em}
+	
+\end{minipage}
+\vspace{2in}
+
+e) When floating in the ISS, was the astronaut weightless? Again, in answering this question, make sure you clarify what you mean by ``weightless''.
+
+
+\vspace{2in}
+We looked at three different instances of ``weightlessness'' -- where people appear to float inside aircraft or spacecraft without falling. How are they alike? How are they different? {\it Were} any of them actually falling? Call a TA or coach over to join your conversation. 
+
+
+\vspace{3in}
+
+Now, imagine that you are in a bus or train moving forward that suddenly turns to the left. You will feel yourself ``thrown to the right''.
+
+Is there any such force pushing you to the right? If so, what is that force? If not, explain why you feel yourself thrown to the right even though there is no such force.
+
+\vspace{1in}
+
+\newpage
+
+In the ``weightlessness'' examples, you encountered situations where people ``felt weightless'', even though they were still subject to the force of gravity. In the train/bus example, you saw an example of a situation where a person {\it perceived} that they were being thrown around by a force, even though there was no such force present.
+
+All of these examples have something in common: people are inside of an accelerating box (a train, a bus, a spacecraft, an airplane...), but are not aware of its acceleration. Discuss this with your group. Can you think of any other examples where this sort of thing happens?
+
+
+You can expect to see a question touching on this idea on Quiz 2 -- how the experience of a person in an accelerating ``box'' relates to the forces that act on them, and how they may feel fictitious forces that aren't really present.
+
+\vspace{2in}
+
+
+
+
 
 
 \end{document}

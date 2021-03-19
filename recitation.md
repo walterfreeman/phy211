@@ -6,6 +6,9 @@ category: top
 use_math: true
 ---
 
+Week 6 Friday: <a href="recitation/week6/recitation-accelerating-frames-forcollaborate.pdf">[for screensharing on Collaborate or for print]</a>
+
+
 Week 6 Wednesday:
 <a href="recitation/week6/recitation-forces6-forcollaborate.pdf">[for screensharing on Collaborate]</a>, <a href="recitation/week6/recitation-forces6-forprint.pdf">[for print]</a>
 
