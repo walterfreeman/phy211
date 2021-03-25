@@ -28,5 +28,22 @@ Class 5: Solving problems with kinematics in 2D. <a href="slides/lec5/lecture5.p
 
 Class 7: Newton's second law, some simple applications; dealing with inclines. <a href="https://youtu.be/185wPchdEzk">[YouTube]</a>
 
+Class from March 11: circular motion: <a href="https://youtu.be/7uB0uSYkDrw">[YouTube]</a>
+
+Class from March 18: universal gravitation: <a href="https://youtu.be/gVyf7tBV__Y">[YouTube]</a>
+
+<br><br>
+
+Homework 3 solutions: <a href="https://youtu.be/ifKBaikJ8bY">[YouTube]</a>
+
+
+<br><br>
+
+Mathematics review, by JT Paustian: <a href="https://youtu.be/8-Qkj51ipLE">[YouTube]</a>
+
 <br><br>
 Recitation, March 3: <a href="https://youtu.be/vaxKYWfHtvk">[YouTube]</a>
+
+Recitation, March 10, Problem 1: <a href="https://youtu.be/uW7_hw0Rp64">[YouTube]</a>
+
+
