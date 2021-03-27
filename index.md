@@ -7,6 +7,8 @@ title: Announcements
 
 ### Upcoming events:
 
+* The <a href="group-exam-2-full.pdf">full practice exam for Quiz 2</a> is available now.
+
 * <a href="hw/hw5/hw5.pdf">Homework 5</a> is now available. It is due Monday, March 29, by the end of the day. 
 
 * During this Wednesday's recitation, we would like you to look at the <a href="group-exam-2-prep.pdf">scenarios for Group Exam 2</a> with your group and discuss them. You may also discuss Problems 3 and 7 from HW5 with your group, 
