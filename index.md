@@ -5,6 +5,12 @@ use_math: true
 title: Announcements
 ---
 
+### Quiz 2:
+
+<a href="quiz2.pdf">Quiz 2 is available here</a>. Please submit a completed version to Blackboard by 12:30 PM Syracuse time (modified for CDR accommodations if necessary).
+
+
+
 ### Upcoming events:
 
 * The <a href="group-exam-2-full.pdf">full practice exam for Quiz 2</a> is available now.
