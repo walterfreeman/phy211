@@ -5,20 +5,17 @@ use_math: true
 title: Announcements
 ---
 
-### Quiz 2:
+### Recitation this week:
 
-<a href="quiz2.pdf">Quiz 2 is available here</a>. Please submit a completed version to Blackboard by 12:30 PM Syracuse time (modified for CDR accommodations if necessary).
+Introduction to conservation of momentum: <a href="recitation/week7/recitation-momentum-2021.pdf">[for screensharing on Collaborate]</a>, <a href="recitation/week7/recitation-momentum-2021-forprint.pdf">[for print]</a>
+ 
+
 
 
 
 ### Upcoming events:
 
-* The <a href="group-exam-2-full.pdf">full practice exam for Quiz 2</a> is available now.
-
-* <a href="hw/hw5/hw5.pdf">Homework 5</a> is now available. It is due Monday, March 29, by the end of the day. 
-
-* During this Wednesday's recitation, we would like you to look at the <a href="group-exam-2-prep.pdf">scenarios for Group Exam 2</a> with your group and discuss them. You may also discuss Problems 3 and 7 from HW5 with your group, 
-* During Friday's recitation, you will take a group practice quiz. This will count for a (reduced) grade, but will also serve as a good practice for the individual quiz happening next Tuesday. We will ask you two questions. (Different recitation sections will get different ones.) You will see the specific questions your group will get at the beginning of recitation Friday.
+Homework 6 will be posted later today.
 
 
 ### Information
@@ -33,15 +30,6 @@ title: Announcements
 ### Looking for homework help?
 
 We have a Zoom room with lots of resources for you to get help for your homework. You can find <a href="https://walterfreeman.github.io/phy211/clinic.html">more information and the schedule</a>, or <a href="https://syracuseuniversity.zoom.us/j/93889871629">join with this Zoom link</a>.
-
-### Recitation materials for this week
-
-Wednesday: <a href="recitation/week6/recitation-forces6-forcollaborate.pdf">[for screensharing on Collaborate]</a>, <a href="recitation/week6/recitation-forces6-forprint.pdf">[for print]</a>
-
-<br>
-
-Friday: <a href="recitation/week6/recitation-accelerating-frames-forcollaborate.pdf">[for screensharing on Collaborate or for print]</a>
-
 
 
 ### Contact information and staff

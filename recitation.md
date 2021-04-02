@@ -6,6 +6,8 @@ category: top
 use_math: true
 ---
 
+Week 7 Friday: <a href="recitation/week7/recitation-momentum-2021.pdf">[for screensharing on Collaborate]</a>, <a href="recitation/week7/recitation-momentum-2021-forprint.pdf">[for print]</a>
+
 Week 6 Friday: <a href="recitation/week6/recitation-accelerating-frames-forcollaborate.pdf">[for screensharing on Collaborate or for print]</a>
 
 
