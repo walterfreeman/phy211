@@ -32,13 +32,13 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 25 March    | Practice problems on Newton's second law in varied circumstances.                                                |                                |
 | 30 March    | Review for Quiz 3; Quiz 3                                                                                        |                                |
 | 1 April     | Momentum                                                                                                         | 9.1-9.3                        |
-| 3 April     | Conservation of momentum in two dimensions; practice problems                                                    | 9.4-9.5                        |
+| 6 April     | Conservation of momentum in two dimensions; practice problems                                                    | 9.4-9.5                        |
 | 8 April     | The notion of _angular_ momentum; conservation of angular momentum                                               | 10.1-10.3; 11.2-11.3           | 
-| 10 April    | Introduction to the process of science; Quiz 4                                                                   |                                |
+| 13 April    | Introduction to the process of science; Quiz 4                                                                   |                                |
 | 15 April    | The work-energy theorem                                                                                          | 7.1-7.3                        |
-| 17 April    | The conservation of energy                                                                                       | 8.1-8.5                        |
+| 20 April    | The conservation of energy                                                                                       | 8.1-8.5                        |
 | 22 April    | Combining energy and momentum                                                                                    |                                |
-| 24 April    | Rotational kinetic energy                                                                                        | 10.4                           |
+| 27 April    | Rotational kinetic energy                                                                                        | 10.4                           |
 | 29 April    | Review for Quiz 5; Quiz 5                                                                                        |                                |
 | 4 May       | Recognizing pseudoscience                                                                                        |                                |
 | 6 May       | Torque                                                                                                           | 10.6-10.7                      |
