@@ -15,7 +15,7 @@ Introduction to conservation of momentum: <a href="recitation/week7/recitation-m
 
 ### Upcoming events:
 
-<a href="hw/hw6/hw6-2021.pdf">Homework 6</a> is due Friday, April 6, at the start of recitation
+<a href="hw/hw6/hw6-2021.pdf">Homework 6</a> is due Friday, April 9, at the start of recitation
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
