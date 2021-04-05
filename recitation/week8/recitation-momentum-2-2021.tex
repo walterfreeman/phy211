@@ -1,0 +1,134 @@
+
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage[margin=0.5in, paperwidth=13.5in, paperheight=8.4in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Questions -- Momentum (I)}}
+
+\normalsize
+\centerline{\sc{April 7}}
+
+In more complex situations involving conservation of momentum, you will need to be more diligent about drawing cartoons.
+
+Remember that {\it conservation of momentum is only useful when forces coming from outside the system are negligible}. 
+
+\begin{enumerate}
+	\item Draw clear cartoons of your ``before'' and ``after'' states -- usually, immediately before and immediately after the collision or explosion
+	\item Write down a version of the above statement of conservation of momentum (modified for your particular situation) that means ``total momentum before = total momentum after''. 
+	\begin{itemize}
+		\item This equation assumes that there are two separate objects both before and after the event. If this is not true, then you will have a different number of terms on the left or the right.
+		\item If the situation involves motion in two dimension, decompose vectors into components; you will have separate equations for $x-$ and $y-$.
+	\end{itemize}
+	\item Substitute in things you know (are some of the terms zero? Are some of the velocities equal?) and solve for what you want to find.
+\end{enumerate}
+
+For the first exercise, it will be helpful to remember the {\it impulse-momentum theorem}, which says that 
+
+$$\text{(change in momentum of an object)} = \text{(impulse delivered to that object)}$$
+
+or in symbols
+
+$$\vec p_f - \vec p_i = \vec F t \text{(for constant force)}$$
+
+It may also be useful to recall that the force acting on an object is the rate of change of its momentum:
+
+$$\vec F = \frac{d\vec p}{dt}$$
+
+
+\newpage
+
+\begin{enumerate}
+
+	\item The {\it Saturn V}, the rocket used to launch people to the Moon in 1969, had a mass of 2.8 million kg at launch. Like all rockets, it propelled gas backwards; by Newton's third law, the backwards impulse felt by the gas is equal and opposite to the forward force felt by the rocket.
+
+		At launch (when the motor was first fired), the rocket accelerated upward at 4 m/s. (The rocket was pointing upward at launch.)
+
+		\begin{enumerate}
+			\item What {\it force} must the rocket engines exert on the rocket to make it accelerate upward at this rate?
+			\item {The first stage engines mixed liquid oxygen and kerosene in their combustion chambers, producing carbon dioxide and water vapor at high temperature and pressure. These exhaust gases exited the back
+				of the rocket at a speed of 2580 m/s. What mass flow rate would be required to produce the thrust in part (a)? (That is, how many kilograms of fuel per second did they use?)
+
+				{\it Hint 1:} You will need to put together the conservation of momentum/Newton's third law and the impulse-momentum theorem, described on the first page of the materials.
+
+				{\it Hint 2:} It is also possible to figure this out by thinking carefully about units. What are the units of mass flow rate, and how can you combine the other things you know to get something with these units?
+
+				}
+			\item After flying for 140 seconds, the first stage will have depleted much of its fuel. Assuming that the rocket was still pointed straight up, what would its acceleration be at this point? What would the crew experience as they flew on this rocket? {(\it They were still only 70 km above Earth, where Earth's gravity has not changed much.)}
+		\end{enumerate}
+
+
+		{\it (The next two exercises appear on Homework 7.)}
+
+\item Suppose that two small spacecraft, each with a mass of 2000 kg, are drifting next to each other. One of them has an astronaut on board; with her equipment, she has a mass of 200 kg. 
+
+	Both craft are moving in the $x-$direction at a velocity of $\vec v_i = (0.5 m/s, 0)$. An astronaut wants to travel from one to the other. She pushes off of one spacecraft and jumps onto the other craft; as she floats through the air, she travels in the $y-$direction with a velocity of $\vec v_a = (0, 1~\rm m/\rm s)$. Note that when she moves through the air, she is moving {\it only} in the y-direction.
+
+
+		\begin{enumerate}
+			\item What will the velocity of the first spacecraft be after she jumps off of it?
+			\item What will the velocity of the second spacecraft be after she lands on it?
+			\item Explain in words why the $y-$components of their final velocities are {\it almost} equal and opposite, but are not quite the same magnitude.
+			\item Explain in words why the $x-$components of their final velocities are {\it almost} equal.
+		\end{enumerate}
+
+\item Two people, Alice and Bob, are sitting on sleds on a frozen lake; one of them carries a heavy puck with them. They are separated by a distance $d$. The people plus their sleds each have a mass $m_1$; the puck has a mass $m_2$.
+
+	Suppose that the coefficient of kinetic friction between the objects and the lake is $\mu_k$.
+
+	If Alice slides the puck to Bob at a velocity $v_0$, and Bob picks it up, how far will Bob drift before coming to rest?
+
+		{\bf Hint 1:} The ``third kinematics relation'' $v_f^2 - v_0^2 = 2a\Delta x$ will be very useful here, since you are never interested in the {\it time} these motions take, but care about relating the change in velocity to the distance traveled and the acceleration.)
+
+		{\bf Hint 2:} There are multiple things that happen here. Conservation of momentum will help you understand some of them, but not others. As we practiced in class Tuesday, try drawing a series of cartoons, and identifying which method you can use to understand how to connect each cartoon to the next:
+
+		\begin{itemize}
+	\item At the beginning
+	\item Right after Alice slides the puck to Bob
+	\item Right before Bob picks up the puck
+	\item Right after Bob picks up the puck
+	\item When Bob comes to rest
+		\end{itemize}
+
+
+
+
+
+\end{enumerate}
+   \end{document}
+
