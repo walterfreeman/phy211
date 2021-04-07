@@ -7,7 +7,9 @@ title: Announcements
 
 ### Recitation this week:
 
-Introduction to conservation of momentum: <a href="recitation/week7/recitation-momentum-2021.pdf">[for screensharing on Collaborate]</a>, <a href="recitation/week7/recitation-momentum-2021-forprint.pdf">[for print]</a>
+More work on conservation of momentum: <a href="recitation/week8/recitation-momentum-2-2021.pdf">[for Collaborate or print]</a>
+
+Conservation of angular momentum: <a href="recitation-angular-momentum-2021.pdf">[for Collaborate or print]</a>
  
 
 
