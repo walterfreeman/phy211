@@ -17,6 +17,8 @@ Conservation of angular momentum: <a href="recitation-angular-momentum-2021.pdf"
 
 ### Upcoming events:
 
+Quiz 4, covering the conservation of momentum and the conservation of angular momentum, will be next Tuesday.
+
 <a href="hw/hw6/hw6-2021.pdf">Homework 6</a> is due Friday, April 9, at the start of recitation
 
 <a href="hw/hw7/hw7-2021.pdf">Homework 7</a> is due Tuesday, April 13, before class
