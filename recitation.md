@@ -8,7 +8,7 @@ use_math: true
 
 Week 8 Wednesday: <a href="recitation/week8/recitation-momentum-2-2021.pdf">[for Collaborate or print]</a>
 
-Week 8 Friday: <a href="recitation-angular-momentum-2021.pdf">[for Collaborate or print]</a>
+Week 8 Friday: <a href="recitation/week8/recitation-angular-momentum-2021.pdf">[for Collaborate or print]</a>
 
 Week 7 Friday: <a href="recitation/week7/recitation-momentum-2021.pdf">[for screensharing on Collaborate]</a>, <a href="recitation/week7/recitation-momentum-2021-forprint.pdf">[for print]</a>
 

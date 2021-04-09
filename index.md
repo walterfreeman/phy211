@@ -9,7 +9,7 @@ title: Announcements
 
 More work on conservation of momentum: <a href="recitation/week8/recitation-momentum-2-2021.pdf">[for Collaborate or print]</a>
 
-Conservation of angular momentum: <a href="recitation-angular-momentum-2021.pdf">[for Collaborate or print]</a>
+Conservation of angular momentum: <a href="recitation/week8/recitation-angular-momentum-2021.pdf">[for Collaborate or print]</a>
  
 
 
