@@ -7,7 +7,7 @@ title: Announcements
 
 ### Quiz 4
 
-Here is <a href="quiz4.pdf">Quiz 4.</a> You should submit it on Blackboard when you are done.
+Here is <a href="https://walterfreeman.github.io/phy211/quiz4-2021.pdf">Quiz 4.</a> You should submit it on Blackboard when you are done.
 
 
 ### Recitation this week:
