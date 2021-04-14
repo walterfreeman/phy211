@@ -6,6 +6,9 @@ category: top
 use_math: true
 ---
 
+Week 9 Wednesday: <a href="recitation/week9/recitation-work-energy.pdf">[for print or online]</a>
+
+
 Week 8 Wednesday: <a href="recitation/week8/recitation-momentum-2-2021.pdf">[for Collaborate or print]</a>
 
 Week 8 Friday: <a href="recitation/week8/recitation-angular-momentum-2021.pdf">[for Collaborate or print]</a>
