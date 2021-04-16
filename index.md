@@ -12,8 +12,9 @@ Here is <a href="https://walterfreeman.github.io/phy211/quiz4-2021.pdf">Quiz 4.<
 
 ### Recitation this week:
 
-The work-energy theorem: <a href="recitation/week9/recitation-work-energy.pdf">[for print or online]</a>
+Wednesday: The work-energy theorem: <a href="recitation/week9/recitation-work-energy.pdf">[for print or online]</a>
 
+Friday: The work energy theorem in practice: <a href="recitation/week9/recitation-energy-1.pdf">[for print or online]</a>
 
 
 
