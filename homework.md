@@ -20,3 +20,6 @@ use_math: true
 <a href="hw/hw6/hw6-2021.pdf">Homework 6</a>, due Friday, April 9, at the start of recitation
 <br>
 <a href="hw/hw7/hw7-2021.pdf">Homework 7</a>, due Tuesday, April 13, before class
+<br>
+<a href="hw/hw8/hw8-2021.pdf">Homework 8</a> is due Sunday, April 25, by the end of the day 
+

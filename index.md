@@ -5,31 +5,19 @@ use_math: true
 title: Announcements
 ---
 
-### Quiz 4
-
-Here is <a href="https://walterfreeman.github.io/phy211/quiz4-2021.pdf">Quiz 4.</a> You should submit it on Blackboard when you are done.
 
 
 ### Recitation this week:
 
-Wednesday: The work-energy theorem: <a href="recitation/week9/recitation-work-energy.pdf">[for print or online]</a>
-
-Friday: The work energy theorem in practice: <a href="recitation/week9/recitation-energy-1.pdf">[for print or online]</a>
-
-
 
 ### Upcoming events:
 
-Quiz 4, covering the conservation of momentum and the conservation of angular momentum, will be next Tuesday.
+<a href="hw/hw8/hw8-2021.pdf">Homework 8</a> is due Sunday, April 25, by the end of the day
 
-<a href="hw/hw6/hw6-2021.pdf">Homework 6</a> is due Friday, April 9, at the start of recitation
-
-<a href="hw/hw7/hw7-2021.pdf">Homework 7</a> is due Tuesday, April 13, before class
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
 -   Recitation sections: held on Blackboard Collaborate <a href="https://us.bbcollab.com/guest/05d5140cb3de4947850244c95d0725b6">(guest link)</a> or in person. *(If you want to attend in person, tell us in the next survey, and we will send you instructions.)*
--   Help sessions (office hours): TBD this week (due to Wellness Day and my COVID vaccine appointment Friday).
 
 - Discord server invite: <https://discord.gg/2VkgybnGZF>
 
