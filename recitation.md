@@ -6,7 +6,7 @@ category: top
 use_math: true
 ---
 
-Week 10 Friday: <a href="recitation-potential-energy.pdf">[for online or print]</a>
+Week 10 Friday: <a href="recitation/week10/recitation-potential-energy.pdf">[for online or print]</a>
  
 
 Week 9 Wednesday: <a href="recitation/week9/recitation-work-energy.pdf">[for print or online]</a>
