@@ -9,6 +9,7 @@ title: Announcements
 
 ### Recitation this week:
 
+Recitation Friday: <a href="recitation-potential-energy.pdf">[for screenshare or print]</a>
 
 ### Upcoming events:
 
