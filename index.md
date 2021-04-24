@@ -15,6 +15,8 @@ Recitation Friday: <a href="recitation/week10/recitation-potential-energy.pdf">[
 
 <a href="hw/hw8/hw8-2021.pdf">Homework 8</a> is due Sunday, April 25, by the end of the day
 
+<a href="hw/hw9/hw9-2021.pdf">Homework 9</a> is due Thursday, April 29, before class
+
 
 ### Information
 -   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on <a href="https://twitch.tv/suphysics">Twitch</a> or <a href="https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09">Zoom</a>
