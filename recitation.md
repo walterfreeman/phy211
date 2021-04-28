@@ -6,6 +6,10 @@ category: top
 use_math: true
 ---
 
+Week 11 Wednesday: <a href="recitation/week11/recitation-quiz5-review.pdf">[for online or print]</a>
+
+Week 11 Friday: <a href="recitation/week11/recitation-oscillations.pdf">[for online or print]</a>
+
 Week 10 Friday: <a href="recitation/week10/recitation-potential-energy.pdf">[for online or print]</a>
  
 

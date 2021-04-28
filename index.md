@@ -9,11 +9,13 @@ title: Announcements
 
 ### Recitation this week:
 
-Recitation Friday: <a href="recitation/week10/recitation-potential-energy.pdf">[for screenshare or print]</a>
+
+Wednesday, as a review for Thursday's quiz: <a href="recitation/week11/recitation-quiz5-review.pdf">[for online or print]</a>
+
+Friday, introducing oscillations: <a href="recitation/week11/recitation-oscillations.pdf">[for online or print]</a>
+
 
 ### Upcoming events:
-
-<a href="hw/hw8/hw8-2021.pdf">Homework 8</a> is due Sunday, April 25, by the end of the day
 
 <a href="hw/hw9/hw9-2021.pdf">Homework 9</a> is due Thursday, April 29, before class
 
