@@ -5,6 +5,9 @@ use_math: true
 title: Announcements
 ---
 
+### Quiz 5
+
+Here is the <a href="quiz5.pdf">link to Quiz 5</a>. You may start working on it at 11AM; it is due at 12:20PM with a ten-minute grace period to scan and submit.
 
 
 ### Recitation this week:
