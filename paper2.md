@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Paper
+category: top
 permalink: paper.html 
 use_math: true
 ---
 
 **tl;dr Write a case study of a situation where the process of science either deliberately or accidentally ran off the rails. 
-Due May 1 by midnight. We will provide instructions on turning this in later.**
+Due May 21 by midnight. We will award 3% extra credit to papers submitted before May 18 and 5% extra credit to papers submitted before May 14, so long as their grade is B or better. This is so we can start grading early.**
 
 ## Case Study: Flawed Process of Science
 

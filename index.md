@@ -5,22 +5,21 @@ use_math: true
 title: Announcements
 ---
 
-### Quiz 5
+### Slides on the process of science
 
-Here is the <a href="quiz5.pdf">link to Quiz 5</a>. You may start working on it at 11AM; it is due at 12:20PM with a ten-minute grace period to scan and submit.
-
+<a href="process-of-science.pdf">Process of science slides</a>
 
 ### Recitation this week:
 
 
-Wednesday, as a review for Thursday's quiz: <a href="recitation/week11/recitation-quiz5-review.pdf">[for online or print]</a>
+Wednesday: assignment will be discussed in class
 
-Friday, introducing oscillations: <a href="recitation/week11/recitation-oscillations.pdf">[for online or print]</a>
+Friday: NO RECITATION
+
 
 
 ### Upcoming events:
 
-<a href="hw/hw9/hw9-2021.pdf">Homework 9</a> is due Thursday, April 29, before class
 
 
 ### Information
