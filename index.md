@@ -12,14 +12,12 @@ title: Announcements
 ### Recitation this week:
 
 
-Wednesday: assignment will be discussed in class
-
-Friday: NO RECITATION
 
 
 
 ### Upcoming events:
 
+<a href="hw/hw10/hw10.pdf">Homework 10</a> is due Sunday, May 16, by the end of the day
 
 
 ### Information
