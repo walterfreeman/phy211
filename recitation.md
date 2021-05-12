@@ -6,6 +6,9 @@ category: top
 use_math: true
 ---
 
+Week 12 Wednesday: <a href="recitation/week12/recitation-oscillations.pdf">Standing waves and harmonic series</a>
+
+
 Week 11 Wednesday: <a href="recitation/week11/recitation-quiz5-review.pdf">[for online or print]</a>
 
 Week 11 Friday: <a href="recitation/week11/recitation-oscillations.pdf">[for online or print]</a>

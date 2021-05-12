@@ -11,9 +11,9 @@ title: Announcements
 
 ### Recitation this week:
 
+Wednesday: <a href="recitation/week12/recitation-oscillations.pdf">Standing waves and harmonic series</a>
 
-
-
+Friday: Review (to be posted Thursday)
 
 ### Upcoming events:
 
