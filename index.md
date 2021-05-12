@@ -19,7 +19,9 @@ You will recognize many of the problems here as ones you have already seen this 
 that we've chosen because they are a pretty comprehensive look at what we have done this semester.
 
 Practice Exam 1: <a href="practice-exam-1-solutions.pdf">[PDF]</a>
+
 Practice Exam 2: <a href="practice-exam-2-solutions.pdf">[PDF]</a>
+
 Practice Exam 3: <a href="practice-exam-3-solutions.pdf">[PDF]</a>
 
 
