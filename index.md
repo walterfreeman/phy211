@@ -5,6 +5,28 @@ use_math: true
 title: Announcements
 ---
 
+### Review materials 
+
+Here are some review materials for you to use in preparing for the final. These materials are a bit ad hoc, since
+they are a mix of stuff we have written previously.
+
+Last year, I wrote an in-depth series of notes on <a href="unit-3-review.pdf">the conservation of energy and momentum</a>. This may be useful to you in preparing. It doesn't contain any examples; instead, it's a discussion of the
+theory and principles of the conservation of energy and momentum -- it's everything *except* the most important
+bits, which are the actual problem-solving skills and application to real situations.
+
+For sample problems: here are three sample exams that cover most of the course, along with solutions. 
+You will recognize many of the problems here as ones you have already seen this semester; they are exercises
+that we've chosen because they are a pretty comprehensive look at what we have done this semester.
+
+Practice Exam 1: <a href="practice-exam-1-solutions.pdf">[PDF]</a>
+Practice Exam 2: <a href="practice-exam-2-solutions.pdf">[PDF]</a>
+Practice Exam 3: <a href="practice-exam-3-solutions.pdf">[PDF]</a>
+
+
+
+
+
+
 ### Slides on the process of science
 
 <a href="process-of-science.pdf">Process of science slides</a>
