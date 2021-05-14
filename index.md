@@ -37,7 +37,7 @@ Practice Exam 3: <a href="practice-exam-3-solutions.pdf">[PDF]</a>
 
 Wednesday: <a href="recitation/week12/recitation-oscillations.pdf">Standing waves and harmonic series</a>
 
-Friday: Review (to be posted Thursday)
+Friday: <a href="recitation/week12/recitation-final-review.pdf">Final review</a> 
 
 ### Upcoming events:
 
