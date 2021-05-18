@@ -26,8 +26,11 @@ Practice Exam 3: <a href="practice-exam-3-solutions.pdf">[PDF]</a>
 
 
 
+### Multiple choice segment from last year's exam
 
+Some students have asked for the PDF from last year's exam's multiple choice segment.
 
+Here it is: <a href="final-mc.pdf">2020 exam multiple choice (PDF format)</a>
 
 ### Slides on the process of science
 
