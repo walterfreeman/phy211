@@ -10,8 +10,6 @@ use_math: true
 
 * [Contact Information](#contact)
 * [Textbooks](#books)
-* [Online platforms](#online)
-* [Course philosophy](#philosophy)
 * [Learning objectives](#material)
 * [Activities](#activities)
   * [Recitations](#homework)
@@ -37,20 +35,20 @@ use_math: true
 -   Professor: 
     - Walter Freeman, <wafreema@syr.edu>, Physics Building 215
 -   Recitation TA's:
-    * Kevin Ching, <keching@syr.edu>
-    * Tyler Hain, <tahain@syr.edu>
-    * Clayton Larson, <cllarson@syr.edu>
-    * Mario Olivares, <maolivar@syr.edu>
-    * Gentian Muhaxheri, <gmuhaxhe@syr.edu>
-    * Nuzhat Faiza Nufa, <nfaiza@syr.edu>
-    * Jadrien Paustian, <jtpausti@syr.edu>
-    * Aaron Trowbridge, <atrowbri@syr.edu>
+  * Patrick Adams, <paadams@syr.edu>
+  * Syed Adil, <sghaznav@syr.edu>
+  * Gabriel Alkuino, <gsalkuin@syr.edu>
+  * Nada Nabil Elsayed, <nnelmeli@syr.edu>
+  * Manabputra Manabputra, <manabput@syr.edu>
+  * Gentian Muhaxheri, <gmuhaxhe@syr.edu>
+  * JT Paustian, <jtpausti@syr.edu>
+  * Chad Skerbec, <crskerbe@syr.edu>
+  * Sierra Thomas, <sthoma31@syr.edu>
 -   Head coach:
-    * Adam Aly, <aaly04@syr.edu>
--   Class meeting: Tuesdays and Thursdays, 11 AM-12:20 PM, on Zoom and Twitch (subject to change)
--   Help sessions (office hours): Tuesdays 1:30-4:30 PM, Fridays 9:30 AM-noon, on Zoom
-    * If you want to come see me in person, we can arrange an in-person meeting
+-   Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:30, Tuesdays and Thursdays
+-   Help sessions (office hours): TBD 
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
+-   Course Discord server: [TBD]
 
 ---
 
@@ -60,38 +58,8 @@ use_math: true
 
 - *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. This is an open-access textbook available to anyone under the terms of the CC-BY 4.0 license.<a href="https://openstax.org/details/books/university-physics-volume-1">You may access the textbook online or download it for free here</a>. You are free to print this textbook on your own; OpenStax will sell you a printed copy if you like.
 
-- You will need a computer to connect to remote aspects of the course. 
-It will be helpful to have a tablet or convertible laptop with a stylus. 
-It will also be quite helpful to have earbuds or a headset with a microphone.
-
-If you need access to technology to participate fully in this course, please ask us! In particular:
-
-* if you don't have stable internet, we can make low-bandwidth versions of things available to you for download
-* if you are near campus, SU has computers people can check out
-
+- Recitation materials will be provided to you
 ---
-
-<a id="online"></a>
-
-### Online platforms
-
-We will be using many different online platforms this semester to facilitate the online course. The things you will need are:
-
-* **The course website**: I will post a lot of materials here, at <https://walterfreeman.github.io/phy211/>, since it is more convenient to access than Blackboard.
-
-* **Lecture**: You may connect to either the Twitch stream at <https://twitch.tv/suphysics> or connect using Zoom 
-at <https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09>. Either one will work! If you want to connect to Twitch,
-please make a Twitch account so you can use chat.
-
-* **Recitation:** Recitations will be held on Blackboard Collaborate in the "Course Room". You can find that on Blackboard: go the the course Blackboard page, then click "Blackboard Collaborate Ultra"
-under "Course Tools". Click on the "Course Room" and then click "Join Course Room". If you are unable to join this way, you can join as a guest at 
-<https://us.bbcollab.com/guest/05d5140cb3de4947850244c95d0725b6>.
-
-* **Submitting work:** You will submit your homework, many recitation evaluations, and exams to Blackboard. You will need an app like CamScanner for a smartphone to scan paper submissions into a PDF. 
-
-* **Help hours:** My office hours will be held in the same Zoom link as class, at <https://syracuseuniversity.zoom.us/j/96165376315?pwd=T3BuN2Zud2I4K2JiMUxFQk8wR1UyZz09>.
-
-Optionally, you can also talk to the teaching staff and each other on the course Discord server, with an invite link at <https://discord.gg/2VkgybnGZF>.
 
 
 
@@ -125,8 +93,9 @@ Since the difficult part of the course is the problem-solving aspect, it's only 
 a sport or learning a musical instrument: it requires practice and the guidance of a coach. We do not expect that you can do all of the homework problems on your own; it is crucial that you ask for help in doing your homework. If you're stuck on a homework problem, you can:
 
 - Come to our office hours and ask, or make an appointment, or drop by my office (room 215)
-- Go to the Virtual Physics Clinic; you will find a TA, other students, and/or Walter there to help you.
-- Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. We *always* have time in lecture to answer questions; don't be intimidated by the size of the class.
+- Go to the Physics Clinic; you will find a TA, other students, and/or Walter there to help you.
+- Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. 
+We *always* have time in lecture to answer questions about physics; don't be intimidated by the size of the class.
 - Ask your TA or coaches during recitation
 - Ask your peers for help (and insist that they help you understand how to think about the problem, not just give you the answer)
 - Write me, your coaches, or your TA an email.
@@ -153,7 +122,7 @@ If you are stuck, resist the temptation to go leafing through your textbook look
 The mathematics you will need for this class are:
 
 - Algebra:
-	- You will need the ability to solve a system of $N$ equations for $N$ unknowns, using substitution
+	- You will need the ability to solve a system of $N$ equations for $N$ unknowns using substitution
 	- You will need to know how to use the quadratic formula to find the roots of a quadratic equation 
 	- There is guaranteed to be one problem on the first exam where you will need to use the quadratic formula
 - Trigonometry:
@@ -176,13 +145,13 @@ As part of this philosophy of inquiry and questioning, we welcome your input. If
 
 After taking this class, you will be able to:
 
-* Unit 1 (Kinematics) (Quiz 1):
+* Use kinematics to describe motion:
   * Incorporate physical units (meters, seconds, and so on) into algebraic and arithmetic statements
   * Translate between verbal, graphical, algebraic, and numerical descriptions of an object's motion
   * Given a description of an object's acceleration, create a description of how its position and velocity change, or vice versa
   * Use vectors to describe motion in two and three dimensions, and use trigonometry to manipulate them
 
-* Unit 2 (Forces) (Quizzes 2 and 3):  
+* Use Newton's second and third laws to relate forces to motion:
   * Identify the forces that act on the objects present in a variety of physical situations
   * Describe the basic properties of the forces of tension, friction, gravity, and normal forces
   * Using Newton's second law, construct mathematical relations between those forces and the objects' motion
@@ -190,29 +159,32 @@ After taking this class, you will be able to:
   * Describe the forces required to cause an object to move in uniform circular motion
   * Use the previous skills to predict how an object will move in any given situation, and the forces involved in its motion
 
-* Unit 3 (Conservation laws) (Quizzes 4 and 5)
+* Make use of conservation laws in physics:
   * Use conservation of momentum to solve problems that involve collisions and explosions
   * Use the work-energy theorem and conservation of energy to determine properties of the motion of systems to which they apply, and recognize which systems those are
   * Construct analogies between momentum and angular momentum, and rotational and translational kinetic energy 
   * Use conservation of energy to solve problems in which objects rotate as well as translate
   * Use conservation of angular momentum to solve problems involving collisions with rotating objects, or objects that change shape while rotating
 
-* Unit 4 (Rotational Dynamics and/or Resonance in Strings) (Unit 6, on the final exam)
+* Analyze rotating systems:
   * Describe the relationship between the forces that act on an object and the torque they apply about any given axis
   * Describe the relationship between the torque applied to an object and its angular acceleration
   * Use both $\vec F=m\vec a$ and $\tau = I \alpha$ in tandem to predict the motion of objects that both translate and rotate
+
+* Relate normal modes to acoustics:
   * Define and relate the wavelength, wave speed, and frequency of traveling waves
   * Quantitatively analyze the normal modes ("harmonics") of e.g. a guitar string or organ pipe
   * Qualitatively relate these ideas to analysis of the normal modes of a 2D or 3D cavity
 
-* Throughout (Process of Science)
+<!--
+* Engage in scientific reasoning:
   * Describe the basics of scientific integrity and the properties of both honest scientific arguments and dishonest pseudoscientific claims
   * Critique (pseudo)scientific claims that are made in bad faith, and describe the problems with them
   * Critically examine sound and unsound scientific claims that seek to overturn preexisting consensus. In particular:
     * Describe the primacy of empirical measurements in evaluating scientific claims
     * Critique flawed arguments that fail to address empirical data 
     * Critique flawed arguments that fail to address the broader framework of physical laws of nature
-    * Critique flawed arguments that focus on the identities of the people involved, rather than their data and logic
+    * Critique flawed arguments that focus on the identities of the people involved, rather than their data and logic -->
   
 <a id="activities"></a>
 
@@ -228,24 +200,11 @@ part of this class*, since it's there that you will do the hard and crucial work
 it's something you practice with a coach. In recitations, you'll practice your skills in groups--learning from your peers, teaching them, and asking questions of the numerous
 guides that are there to help you.
 
-We will also do many of the class assessments in recitation. These will take a variety of forms, but you will need to be present in recitation for all of them. **All of them will be time-sensitive** and will happen during recitation.
-
-We might, for instance:
-
-* ask you to answer a few questions on Blackboard asking details about the recitation questions that you did that day
-* ask you to answer a few questions about homework that you submitted that day
-* ask you to have a short discussion about the day's recitation activity with an instructor, and evaluate you based on the knowledge and skill you demonstrate
-
-Most of you will attend recitations virtually using Blackboard Collaborate. Some of you will attend in person. If you want to 
-attend in person, we will ask you this on a survey; you can also contact your lab TA or coach and ask them to record this 
-preference. We will give instructions to people who will be doing recitations in person.
-
-
-Recitation attendance and participation are graded. We will be conducting a variety of assessments in recitation that will take different forms. 
+Recitation attendance and participation are graded. We will give you a grade based on how well we observe you learning alongside your group. 
 
 Before each in-class exam, you'll take a group practice exam in recitation with your group. These practice exams are graded as well.
 
-<!--A further set of guidelines (incorporated into this syllabus) for recitation, and the homework you'll submit during them, may be found at <a href="https://walterfreeman.github.io/phy211/recitation-guidelines.html">https://walterfreeman.github.io/phy211/recitation-guidelines.html</a>.-->
+A further set of guidelines (incorporated into this syllabus) for recitation, and the homework you'll submit during them, may be found at <a href="https://walterfreeman.github.io/phy211/recitation-guidelines.html">https://walterfreeman.github.io/phy211/recitation-guidelines.html</a>
 
 <a id="readings"></a>
 #### Readings
@@ -253,49 +212,55 @@ Before each in-class exam, you'll take a group practice exam in recitation with 
 We will post assigned readings on the calendar before each class. (These may change during the semester based on our progress, but we
 will let you know at least a week ahead of time.) 
 
+<a id="checkins"></a>
+#### Weekly check-ins
+
+Each weekend, sometime between when you finish recitation on Friday and the next Monday at noon, I'd like you to spend 5-10 minutes filling out a Google Form telling me how
+things are going -- in particular, how well you are understanding the material from recitation, how well your groups are working, etc.
+
+This is a chance for you to keep me updated on how things are going for you -- both in our course and overall. I'll base what we do the following week on your feedback. 
+They're due Monday at noon because this will give me time to incorporate your feedback into the Tuesday morning lectures and the design of the following week's recitation material.
+
+These check-ins *are* graded, but they aren't intended to test your knowledge of physics. 
+The grade for this amounts to "free credit" that you can earn by providing me useful feedback about how you are doing.
+
 <a id="lectures"></a>
 #### Lectures
 
-In the auditorium, we will alternate between presentation and practice. We will first introduce you to the new ideas we are studying, asking questions and discussing your thoughts
-using the chat features in Zoom and Twitch. If you have done the reading ahead of class, these presentations will serve as review and enrichment. 
-Questions during the presentation are encouraged and welcome! We will also demonstrate for you the analytic processes involved in solving problems. 
+We will alternate between presentation and practice. We will first introduce you to the new ideas we are studying
+If you have done the reading ahead of class, these presentations will serve as review and enrichment. 
 
-**At any time during class, we encourage you to ask questions and make comments**. If you do not understand something,
-ask. During class I will have both Twitch and Zoom chat in front of me on a giant monitor; if you type something I will see it right away. 
+We will also demonstrate for you the analytic processes involved in solving problems. **I will always have time
+to discuss your questions about the homework or recitation activities**. Need hints on your homework? Ask.
 
-I encourage everyone to be silly and have fun in chat, in Twitch-meme tradition. 
-However, when we're talking about _physics_, please keep the chat clear for students who want to
-talk about the course.
-
-I expect that we will have lively conversation during class! To encourage this, we will be developing a way to look back over Twitch and Zoom chat logs and award extra credit to people who
-are active participants.
-
-We will have a period at the beginning of each class for announcements and questions about administrative stuff (when is XYZ due, what about grades, etc.). Please ask questions about administrative things then,
-rather than once we start discussing physics.
-
+**At any time during class, we encourage you to ask questions and make comments about physics**. If you do not understand something, ask. 
 
 <a id="homework"></a>
 #### Homework
 
 Homework in this class is designed as a tool to help you develop the problem-solving skills needed to understand physical situations on your own.
 
-You will have an assignment due each week (more or less). You will submit your homework to Blackboard. 
-The best way for you to do your homework is the old-fashioned way: write things out on sheets of paper
-and scan them with an app like CamScanner. 
+You will have an assignment due each week (more or less). We have found that fancy computer homework systems (Blackboard, Mastering Physics, or whatever else)
+tend not to be as useful as good old pencil and paper.
 
 We do not intend for you to work on these problems by yourself without help. 
-The Virtual Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well. 
+The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well, along with 
+tutors who can help you, and you can ask questions as they arise.
 
-You are also welcome to come to our office hours (virtually) and work while logged into Zoom, asking questions as they arise. 
-Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and asking for help is the single best thing you can do in this class.
+You can also discuss the homework in #homework-discussion on Discord with your peers.
 
-When writing your homework solutions, you must describe what you are doing in words, even if these descriptions are brief; *your solutions should not consist only of equations.* Show us what you are thinking and why you are doing what you're doing; this will both help you learn and help us give you more partial credit if you understand what you're doing but mess up the math. 
-**If you do not describe what you are doing and why, you may not get full credit for a solution, even if it is correct.**
+Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and working alongside your peers and instructors as you do it,
+is the single best thing you can do in this class.
 
-You must submit each problem on a separate side of a page; this is to help us grade your work more easily, and will give the TA's more time to help you learn physics -- which is what we'd all prefer!
-Please submit your work as a **single PDF**, rather than sending us a separate image of each page. There are freely available smartphone apps that will do this.
+When writing your homework solutions, you must describe what you are doing in words, even if these descriptions are brief; *your solutions should not consist only of equations.* 
+Show us what you are thinking and why you are doing what you're doing; this will both help you learn and help us give you more partial credit if you understand what you're doing but mess up the math. 
+**If you do not describe what you are doing and why, you will not get full credit for a solution, even if it is correct.**
 
-Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. Your lowest homework set grade will be dropped.
+You must submit each problem on a separate side of a page; this is to help us grade your work more easily, 
+and will give the TA's more time to help you learn physics -- which is what we'd all prefer!
+
+Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. 
+Your lowest homework set grade will be dropped.
 
 <a id="labs"></a>
 #### Labs
@@ -304,12 +269,17 @@ You are enrolled in a lab. It is a separate course, with separate grades and TA'
 You may also ask your lab TA or Sam Sampere (smsamper@syr.edu). (You may, of course, ask 
 any of us questions about the *physics* of things you do in lab.)
 
+Another good place to ask about things in your lab is the #lab-discussion channel on Discord. Someone in
+our class will likely know the answer!
+
 <a id="help"></a>
-#### Help Sessions
+#### Help Sessions and the Physics Clinic
 
-These help sessions are opportunities for you to interact with us and the rest of the teaching team in small groups or individually. (Some folks call them "office hours".) If you have questions or suggestions, need help with your homework or with studying, or just want to chat, this is a great opportunity. They will be held virtually to start, in the same Zoom link as class.
-
-For now, help sessions will be held Tuesdays from 1:30-4:30 PM and Fridays from 9:30 AM-noon. These times will likely change based on scheduling availability, but I will be sure to let you know.
+The Physics Clinic (room 112) is a place where you can go from 8am-9pm (or thereabouts) to work with other people,
+along with professional tutors, to learn physics. We hope you'll find it a welcoming and friendly place! 
+I'll be holding help sessions there ("office hours"), when you can come talk to me about anything; even when
+I am not there, there will almost always be someone on hand to help you.
+If you have questions or suggestions, need help with your homework or with studying, or just want to chat, this is a great opportunity. 
 
 <a id="grading"></a>
 
@@ -320,24 +290,44 @@ For now, help sessions will be held Tuesdays from 1:30-4:30 PM and Fridays from 
 
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
-| Homework                     | Due throughout            |              25  |
-| Quiz 1                       | 25 February               |              10  |
-| Quiz 2                       | 14 March                  |              10  |
-| Quiz 3                       | 30 March                  |              10  |
-| Quiz 4                       | 10 April                  |              10  |
-| Quiz 5                       | 29 April                  |              10  |
-| Final Exam                   | 19 May, 3PM-5PM           |              20  |
-| Recitation evaluations       | Throughout the semester   |              25  |
-| Group practice quizzes       | Prior to each quiz        |              20  |
-| Paper on the nature of science | TBD                     |              10  |
+| Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
+| Exam 1                       | 25 February               |             100   |
+| Exam 2                       | 14 March                  |             100   |
+| Exam 3                       | 29 April                  |             100   |
+| Final Exam                   | 19 May, 3PM-5PM           |             160   |
+| Recitation participation     | Throughout the semester   |              5 each; around 140 in total   |
+| Weekly checkins              | After each week           |      5 each; around 70 in total | 
+| Group practice exams         | Prior to each exam        |              50 each; 150 in total  |
+
+We have a few leniencies that we will apply to this rubric:
+
+* The first time you miss a group practice exam, its grade will be replaced with the same percentage you earn on the corresponding individual exam, if you
+missed the group practice exam for an excused reason. 
+To do this, you must tell your TA why you missed the group exam, and do so in advance if possible. You must also
+tell your group that you will be absent -- this is a professional courtesy to them!
+
+* The lowest of your exam grades, the lowest homework set grade, your lowest weekly check-in, and your four lowest recitation participation days will be dropped. 
+
+Note however that students with an unusually low recitation participation grade for any given unit, or 
+who demonstrate that they don't understand this material on the final, will not be eligible to drop the
+corresponding exam at our discretion. (Basically: if you bomb an exam, it won't count against you
+*if and only if* you make sure you learn that material before the final.)
 
 
-The lowest of your exam grades, the lowest homework set grade, and your four lowest recitation evaluation grades will be dropped. If your final exam grade is lower 
-than any of your five midterm exam grades, then the final exam will instead only count for 10 points. 
-Note however that students with an unusually low recitation participation grade for any given unit will not be eligible to drop the
-corresponding exam without prior permission, at our discretion. 
 
-This will result in a total of 140 possible points. This value will then be converted to a percentage (by dividing by 1.4), and grades will be assigned as follows:
+If you don't believe the grades on something are correct, see below: 
+
+* If you believe that the grade you have earned on something is incorrect, you should notify us within a week
+of when we post those grades to Blackboard. 
+
+* If you want to appeal the grading of any homework or exam problem, you must be prepared to solve the problem
+fully on the chalkboard with no notes, and then explain how the solution you originally gave demonstrates more
+knowledge of physics than the grader thought.
+
+* The grades for answers with no clear explanation given (text or well-organized algebra that explains itself)
+are not subject to appeal. 
+
+At the end of the term, we will assign you a letter grade based on the percentage you have earned, as follows:
 
 - A : >88
 - A-: 80-88
@@ -353,17 +343,15 @@ This will result in a total of 140 possible points. This value will then be conv
 <a id="exams"></a>
 #### Exams
 
-There will be five exams and a final on the dates shown on the course schedule. These will be held during the last half of the lecture period
-of the course. 
+There will be three exams and a final on the dates shown on the course schedule. 
 
-For all of the exams, you may refer to
+For all of the exams, you may bring one piece of paper with anything you have handwritten on it with a pencil or pen.
+You may not bring printouts or anything someone else has written. (If you have a disability that impairs your ability
+to write, you may bring one page of notes that you have prepared yourself in a way accessible to you.)
 
-* the OpenStax textbook for our class
-* any notes you have yourself prepared
-* any materials belonging to our class, such as class notes, review guides, or solution videos
-
-and you may use a calculator. *(You may use the calculator function on smartphones or Google Calculator to 
-do calculations, but may not use tools like Wolfram Alpha to do algebra.)* 
+You may use a calculator to do arithmetic, evaluate trigonometric functions, and so on. In general, you may use any
+"scientific" or "graphing" calculator, but may not use a calculator that will do symbolic manipulation (i.e. do 
+algebra for you). 
 
 Makeup exams will generally not be given; this is why we allow you to drop your lowest exam grade. 
 In emergency situations we may arrange for a makeup exam as part of a broader accommodation; see the
@@ -410,9 +398,10 @@ receive a grade. In general, any student who is unable to meaningfully participa
 * legal involvement or proceedings;
 * or international issues
 
-is eligible to take an incomplete in the course. If you think that you may need to take an incomplete, please contact us as soon as possible. 
+is eligible to take an incomplete in the course. If you think that you may need to take an incomplete, please contact us as soon as possible. We will
+ask for documentation of your situation.
 
-In general, students may *only* take an incomplete if they have finished a substantial portion of the course (three units) with a grade of C+ or better. 
+In general, students may *only* take an incomplete if they have finished a substantial portion of the course (two of the four units) with a grade of C+ or better. 
 
 <a id="policy"></a>
 
@@ -421,22 +410,22 @@ In general, students may *only* take an incomplete if they have finished a subst
 ### Academic integrity
 
 While you are encouraged to discuss your homework with your peers and collaborate with them on solving our problems, 
-all work you submit must reflect your own understanding and be a product of your own work. Submitting any work that you do not understand and cannot explain, or that
+all work you submit must reflect your own understanding and be a product of your own effort. Submitting any work that you do not understand and cannot explain, or that
 is a result of wholesale copying, will be considered academic dishonesty. Please don't let this discourage you from working on your homework with your peers.
 That is exactly what you *should* do! But *copying someone's work* is different than *working together with them*. 
 
-Additionally, you are not allowed to post solutions to the homework on the Internet. In particular
-posting solutions to or copying solutions from Chegg, CourseHero, or any other websites that charge students a fee or otherwise monetize access to that material
-is an extremely serious breach of the Academic Integrity Policy and may result in your suspension or expulsion from SU.
+Additionally, you are not allowed to post solutions to the homework on the Internet or solicit them in exchange for money. In particular
+posting solutions to or copying solutions from Chegg or any other websites that charge students a fee or otherwise monetize access to that material
+is an extremely serious breach of the Academic Integrity Policy and may result in your suspension or expulsion from SU. 
 
 In general:
 
-* for **homework assignments**, you may consult any general references and people you like, but you may not copy someone else's solution wholesale. Your solution must be your own work, and you must understand everything you submit.
-* for **recitation evaluations**, the parameters will vary from recitation to recitation. Unless specified otherwise, these will be short evaluations that you may complete with your group and in consultation 
-with teaching staff.
-* for **group quizzes**, you should work with the other members in your group and may consult any materials belonging to the course (e.g. class notes, textbook),
-but may not consult people outside your group or outside references on the internet. 
-* for **exams**, you may consult any materials belonging to the course (e.g. class notes, textbook), but may not consult people outside your group or outside references on the internet
+* for **homework assignments**, you may consult any general references and people you like, so long as you are not soliciting solutions to copy. Your solution must be your own work, and you must understand everything you submit.
+* for **group quizzes**, you may work with the other members in your group. You must understand everything you
+submit. Teaching staff (coaches and TA's) will often provide assistance during your recitation if you forget something;
+we will, for instance, tell you what the quadratic formula is if you forget.
+* for **exams**, you may bring one page of handwritten notes, plus a calculator that doesn't do algebra for you. You may not use any other electronic devices (smartphones, smartwatches,
+earphones), and may not consult with anyone other than teaching staff during the exam.
 
 For **the paper**, we expect you to do research and consult other people for their ideas, but you must write the paper yourself. (You should, of course, solicit feedback on your writing and ideas
 from your peers and from people like the Writing Center!) We will provide more detail about the expectations for the paper when we assign it.
@@ -483,7 +472,8 @@ them twice a year during pre-term check-in on MySlice.
 
 ### Students with disabilities and other access challenges
 
-Syracuse University values diversity and inclusion; we are committed to a climate of mutual respect and full participation.  If there are aspects of the instruction or design of this course that result in barriers to your inclusion and full participation in this course, please contact us to discuss accommodations we can make to ensure that the class is accessible to you, or collaborate with the Center for Disability Resources (CDR) in this process. If I need to add to or modify the technology used for online class to ensure everyone can participate fully, I will happily do so if I am able.
+Syracuse University values diversity and inclusion; we are committed to a climate of mutual respect and full participation.  If there are aspects of the instruction or design of this course that result in barriers to your inclusion and full participation in this course, please contact us to discuss accommodations we can make to ensure that the class is accessible to you, or collaborate with the Center for Disability Resources (CDR) in this process.
+
 
 If you would like to discuss disability-related accommodations with CDR, please visit their website 
 at <a href="http://disabilityservices.syr.edu">disabilityservices.syr.edu</a>, visit them in person in Room 309 of 8047 University Avenue, or call (315) 443-4498, TDD: (315) 443-1371 for an appointment to discuss your needs and the process for requesting accommodations. CDR is responsible for coordinating disability-related accommodations. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.
@@ -491,7 +481,7 @@ at <a href="http://disabilityservices.syr.edu">disabilityservices.syr.edu</a>, v
 CDR is one of the most helpful offices on campus. They coordinate academic accommodations to students who have short-term illnesses (physical or mental). If you are injured or ill and need
 academic accommodations beyond short-term due date extensions for PHY211, we will likely design those accommodations for you in collaboration with CDR.
 
-If there are other things presenting access challenges to you in our class -- family situations, health challenges, access to technology, internet connectivity, etc. -- please 
+If there are other things presenting access challenges to you in our class -- family situations, health challenges, etc. -- please 
 talk to me as soon as possible. We will do whatever we must to ensure that you have every opportunity to gain skills in physics and be assessed on those skills fairly.
 
 <a id="absences"></a>
@@ -506,20 +496,8 @@ events occurring on inflexible dates that are of singular
 importance to your education, your family, stewardship of your health and the health of others, your career, your 
 religious faith or life stance, or your participation in the democratic process or civic discourse.
 
-**If you miss an isolated lecture class**, you should watch the recording after the fact (Twitch saves recordings for 14 days, and they will likely be on YouTube as well). You don't need
-to do anything else.
-
-**If you miss recitation**, you have a few options, ranked roughly in order of "best" to "worst":
-
-1. You may attend a different recitation on the same day. (You may do this up to four times during the semester.) Let the teaching staff
-of the other recitation section know. You will work with that section on the day's exercise and complete that section's evaluation.
-
-2. You may work through the day's recitation activities on your own or during a TA's office hours or Walter's. You should then come to office hours (a TA's or Walter's); they 
-may ask you some questions to replace the recitation evaluation that you missed and give you a grade. You have until the end of the next Tuesday to do this. _(This is to make sure you don't fall behind.)_ 
-You may only use this option if you had a good reason to miss recitation (we will ask about that).
-
-3. You may drop that recitation evaluation as one of your four lowest recitation evaluation grades. _(You should still do the activity as you are able, of course, to learn the physics!)_
-
+**If you miss an isolated lecture class**, you may be able to catch up during the recitation immediately following the class you miss. You are always welcome to come to 
+my office hours for help (and should do so).
 
 **If you are late turning in a homework assignment**, you should describe the reason it is late to your TA and get their permission to turn it in late. 
 We will not accept homework more than three days late without a very good reason.
@@ -528,11 +506,12 @@ We will not accept homework more than three days late without a very good reason
 
 **If you miss an exam**, we will drop it as your lowest exam grade. _(You may do this once.)_
 
-**If you are falling significantly behind** -- if you have missed a week of recitation and are unable to make it up by the next Tuesday,
+**If you are falling significantly behind** -- if you have missed a week of recitation,
 if you are seriously ill, if you have personal problems that prevent you from doing work for an extended period, etc. -- we will need to
 make arrangements during office hours and design an accommodation specifically for your situation. To be eligible for this sort of thing,
 you must come talk to us promptly once you fall behind so we can help you get back on track; do not tell me in May why you were unable
-to do your homework in March.
+to do your homework in March. We will create a syllabus modification accommodation (including extended due dates or whatever else)
+that is appropriate to your situation.
 
 
 
