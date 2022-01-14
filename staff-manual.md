@@ -2,6 +2,7 @@
 layout: page 
 permalink: staff-manual.html 
 use_math: true
+category: top
 title: Staff Manual
 ---
 # Physics 211 Staff Manual
@@ -30,22 +31,21 @@ challenges -- please ask. We will have sufficient staff that we can get you rein
 
 In our class, TA's will have a few main duties:
 
-* Lead recitation sections
+* Lead recitation sections (your main role)
 * Hold Clinic hours 
+* Assist students as you are able on Discord
 * Collaborate with the teaching team in weekly staff meetings
-* Supervise coaches  in your recitation sections
+* Supervise coaches in your recitation sections
 * Grade homework assignments
 * Provide feedback about students' performance in recitation
 * Proctor and grade exams
-* Grade papers
 
 Coaches will focus on the aspects of this that relate to teaching:
 
 * Help students learn physics in recitations
-* Moderate the large-class meetings and provide technical assistance (one or two coaches per day, TTh 11-12:20)
-* Hold office hours if you are comfortable doing so (online or in person)
+* Hold office hours if you are comfortable doing so
+* Assist students on Discord
 * Collaborate with the teaching team in staff meetings
-* Provide students assistance with their papers if you are comfortable doing so
 
 I'll discuss each of these in detail at the end. Coaches -- if you ever want more or fewer working hours (since you are paid by the hour), please let me know and we can either reduce your workload 
 or find more stuff for you to do. T
@@ -76,7 +76,7 @@ to accommodate their laziness, then we have better things to do. (We should stil
 
 * **Harassment, exclusion, bullying, and the like are not acceptable in our class.** Physics has a place for everyone, regardless of who they are or where they come from. 
 If you see any dynamics that act to exclude anyone from feeling welcome -- including pathological group dynamics where one person railroads everyone else, 
-or one person doesn't have a chance to contribute -- please intervene if you can and/or contact Walter or Aaron. Likewise, if you see that a student needs accommodations
+or one person doesn't have a chance to contribute -- please intervene if you can and/or contact Walter. Likewise, if you see that a student needs accommodations
 to fully benefit from our class and feel welcome, please let me know so I can fix the problem.
 
 
@@ -116,10 +116,11 @@ You should do the following:
 
 If you have a student who is being disruptive and doesn't stop, ask them to leave your class.
 If a student is being *extremely* disruptive to the point where it jeopardizes the wellbeing of the other folks in the room, 
-please do whatever you need to do to protect your safety and the safety of your students, including calling the Department of Public Safety at (315) 443 2224. (This is very rare but it has happened).
+please do whatever you need to do to protect your safety and the safety of your students, including 
+dismissing your class or calling the Department of Public Safety at (315) 443 2224. (This is very rare but I had to do it in the fall). 
 
 If a student is not wearing a mask that covers their mouth and nose, offer them one from the classroom supply or ask them to fix theirs. If they don't put it on, ask them to leave. 
-If they are unwilling to do this and become confrontational, do whatever you need to protct yourself and the class, and call for backup (ping @channel in #phy211staff and/or call
+If they are unwilling to do this and become confrontational, do whatever you need to protect yourself and the class, and call for backup (ping @channel in #phy211staff and/or call
 the Physics Department office or Public Safety.
 
 **Coaches**: If your TA does not show up, and you are the only person there, send a quick message to Slack and ping @channel, and go on teaching. If there are multiple coaches, the most junior coach should try to contact someone while the rest teach.
@@ -148,7 +149,8 @@ On weeks when we have an exam in class, Tuesday and Wednesday are modified in on
 
 * Tuesday: Exam during class. TA's help proctor. Staff meeting cancelled.
 * Wednesday: Recitation cancelled. Grade exams.
-
+* Thursday: Class as normal
+* Friday: Recitation as normal; return exams.
 
 
 ## TA and coach duties in detail
@@ -196,23 +198,7 @@ Each day, you should keep a log of your students' attendance and participation.
 
 #### Absences, excuses, and accommodations
 
-Some students will need to miss recitation for various reasons. We need to accommodate this, but we do not want students to abuse this process. **No student who misses recitation may get a recitation grade by
-the normal process for that day**.
-This is a hard-and-fast rule: *if you do not show up to your recitation*, you may not just "fill out the quiz later". We will be allowing makeups, but those _must be done over video call or in-person_: this means
-that a student must talk to you and answer questions you ask them about the recitation activity live.
-
-Instead, students must do one of the following:
-
-* **Attend a different recitation section**: Four times during the semester, a student can go to a different recitation than the one they are enrolled in and complete the assessment for that section rather than their own. 
-
-* **Attend a makeup recitation section**: We will schedule some makeup recitation times on Mondays. Students who miss recitation may attend a makeup recitation and do the recitation material from the previous week. During or after that 
-makeup recitation, we will give them a verbal assessment (a conversation to ensure they understand what they are doing) and grade on the spot.
-
-* **Have a conversation during office hours**: They may show up to office hours (TA's or Walter's) within a week of the missed recitation and discuss whatever it was that they missed (time permitting), then get a verbal assessment. 
-
-* **Receive more serious accommodations**: I will work with students personally who have things that are more than a week late. I am happy to make accommodations for students who have serious things going on, but we need to have a separate
-process for handling them. Last semester I had a number of students abuse our informal process for making accommodations; I want to make this more formal this year.
-
+(to be completed)
 
 ### A word on coaches, for the TA's
 
