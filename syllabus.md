@@ -35,20 +35,19 @@ use_math: true
 -   Professor: 
     - Walter Freeman, <wafreema@syr.edu>, Physics Building 215
 -   Recitation TA's:
-  * Patrick Adams, <paadams@syr.edu>
-  * Syed Adil, <sghaznav@syr.edu>
-  * Gabriel Alkuino, <gsalkuin@syr.edu>
-  * Nada Nabil Elsayed, <nnelmeli@syr.edu>
-  * Manabputra Manabputra, <manabput@syr.edu>
-  * Gentian Muhaxheri, <gmuhaxhe@syr.edu>
-  * JT Paustian, <jtpausti@syr.edu>
-  * Chad Skerbec, <crskerbe@syr.edu>
-  * Sierra Thomas, <sthoma31@syr.edu>
--   Head coach:
+    * Patrick Adams, <paadams@syr.edu>
+    * Syed Adil, <sghaznav@syr.edu>
+    * Gabriel Alkuino, <gsalkuin@syr.edu>
+    * Nada Nabil Elsayed, <nnelmeli@syr.edu>
+    * Manabputra Manabputra, <manabput@syr.edu>
+    * Gentian Muhaxheri, <gmuhaxhe@syr.edu>
+    * JT Paustian, <jtpausti@syr.edu>
+    * Chad Skerbec, <crskerbe@syr.edu>
+    * Sierra Thomas, <sthoma31@syr.edu>
 -   Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:30, Tuesdays and Thursdays
 -   Help sessions (office hours): TBD 
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
--   Course Discord server: [TBD]
+-   Course Discord server: <https://discord.gg/bngYwjZRHk>
 
 ---
 
@@ -93,6 +92,8 @@ Since the difficult part of the course is the problem-solving aspect, it's only 
 a sport or learning a musical instrument: it requires practice and the guidance of a coach. We do not expect that you can do all of the homework problems on your own; it is crucial that you ask for help in doing your homework. If you're stuck on a homework problem, you can:
 
 - Come to our office hours and ask, or make an appointment, or drop by my office (room 215)
+- Ask on the Discord server (<https://discord.gg/bngYwjZRHk>) -- chances are someone will help you 
+out right away
 - Go to the Physics Clinic; you will find a TA, other students, and/or Walter there to help you.
 - Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. 
 We *always* have time in lecture to answer questions about physics; don't be intimidated by the size of the class.

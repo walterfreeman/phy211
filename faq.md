@@ -41,6 +41,7 @@ Give it to your recitation TA at the beginning of recitation. Make sure that:
 * you have stapled it
 * you have done each problem on a separate side of paper (so two problems are on each sheet of paper, one front and one back)
 
+We won't accept homework submitted by email.
 
 <a id="clinic"></a>
 
@@ -53,12 +54,12 @@ You will likely find people working on the same homework as you if you go there,
 <a id="contact"></a>
 #### [Who's teaching this class, what do they all do, and how do I contact them?](#contact)
 
-The **professors** are Matt Rudolph (<msrudolp@syr.edu>, room 325) and Walter Freeman (<wafreema@syr.edu>, room 215). We are in charge of giving the lectures, writing materials, 
-helping students learn physics or in any other way we can, helping grade exams, and 
-leading the course as a whole. You can email us, find us before or after class, or come to help hours 
-in the Physics Clinic. We also might be in our offices.
+The **professor** is Walter Freeman (<wafreema@syr.edu>, room 215). I give the lectures, write material, 
+maintain the website, help students learn physics in any other way I can, help grade exams, and 
+lead the course as a whole. You can email me, find me before or after class, or come to help hours 
+in the Physics Clinic. I'm also in my office.
 
-Contact the professors if:
+Contact me if:
 
 * You have a question about physics
 * You have a suggestion that will improve the course as a whole or the lecture portion specifically
@@ -69,15 +70,6 @@ Contact the professors if:
 The **recitation teaching assistants** are PhD students in physics who work as junior instructors as part of their training. They are in charge of leading recitations, grading homework, and grading exams.
 They also hold help hours in the Physics Clinic.
 
-* Merrill Asp, head TA, <masp01@syr.edu>
-* Vidyesh Rao Anisetti, <vvaniset@syr.edu>
-* Soumik Banerjee, <sbaner03@syr.edu>
-* Prashali Chauhan, <prchauha@syr.edu>
-* Kevin Ching, <keching@syr.edu>
-* Mingwei Dai, <mdai07@syr.edu>
-* Kesavan Manivannan, <kmanivan@syr.edu>
-* Mario Olivares, <maolivar@syr.edu>
-* Zhiwen Sun, <zsun31@syr.edu>
 
 Contact the recitation TA's if:
 
@@ -320,7 +312,7 @@ If you are going to be absent for an *unexcused reason*:
 * An athletic competition (as an athlete or a spectator)
 * A Greek Life event (other than a purely academic organization's academic event)
 * Anything else related to recreation 
-* Weather (unless campus is closed or the weather would pose a special danger to you because of health or commute). 
+* Weather (unless campus is closed). 
 
 ... let your TA know out of courtesy, and remember we drop your four lowest participation grades.
 
