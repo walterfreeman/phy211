@@ -1,129 +1,203 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
-	<head>
-		<meta charset="utf-8">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>reveal.js - Markdown Demo</title>
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 
-		<link rel="stylesheet" href="../../css/reveal.css">
-		<link rel="stylesheet" href="../../css/theme/white.css" id="theme">
+  <title>Markdown Demo</title>
+  <meta name="description" content="Syracuse University, Spring 2021 Walter Freeman
+">
 
-        <link rel="stylesheet" href="../../lib/css/zenburn.css">
-	</head>
+  <link rel="stylesheet" href="/phy211/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/phy211/reveal.js/plugin/markdown/example.html">
+  <link rel="alternate" type="application/rss+xml" title="Physics 211" href="http://localhost:4000/phy211/feed.xml">
 
-	<body>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
-		<div class="reveal">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
 
-			<div class="slides">
 
-                <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-                <section data-markdown="example.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+</head>
 
-                <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
-                <section data-markdown data-separator="---">
-                    <script type="text/template">
-                        ## Demo 1
-                        Slide 1
-                        ---
-                        ## Demo 1
-                        Slide 2
-                        ---
-                        ## Demo 1
-                        Slide 3
-                    </script>
-                </section>
 
-                <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
-                <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-                    <script type="text/template">
-                        ## Demo 2
-                        Slide 1.1
+  <body>
 
-                        --
+    <header class="site-header">
 
-                        ## Demo 2
-                        Slide 1.2
+  <div class="wrapper">
 
-                        ---
+    <a class="site-title" href="/phy211/">Physics 211</a>
 
-                        ## Demo 2
-                        Slide 2
-                    </script>
-                </section>
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
 
-                <!-- No "extra" slides, since there are no separators defined (so they'll become horizontal rulers) -->
-                <section data-markdown>
-                    <script type="text/template">
-                        A
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/phy211/calendar.html">Calendar</a>
+          
+        
+          
+          <a class="page-link" href="/phy211/calendar.html">Calendar</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy211/homework.html">Homework</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy211/recitation.html">Recitation</a>
+          
+        
+          
+          <a class="page-link" href="/phy211/staff-manual.html">Staff Manual</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy211/syllabus.html">Syllabus</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
 
-                        ---
+  </div>
 
-                        B
+</header>
 
-                        ---
 
-                        C
-                    </script>
-                </section>
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
 
-                <!-- Slide attributes -->
-                <section data-markdown>
-                    <script type="text/template">
-                        <!-- .slide: data-background="#000000" -->
-                        ## Slide attributes
-                    </script>
-                </section>
+  <header class="post-header">
+    <h1 class="post-title">Markdown Demo</h1>
+  </header>
 
-                <!-- Element attributes -->
-                <section data-markdown>
-                    <script type="text/template">
-                        ## Element attributes
-                        - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-                        - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
-                    </script>
-                </section>
+  <div class="post-content">
+    <h1 id="markdown-demo">Markdown Demo</h1>
 
-                <!-- Code -->
-                <section data-markdown>
-                    <script type="text/template">
-                        ```php
-                        public function foo()
-                        {
-                            $foo = array(
-                                'bar' => 'bar'
-                            )
-                        }
-                        ```
-                    </script>
-                </section>
+<h2 id="external-11">External 1.1</h2>
 
-            </div>
-		</div>
+<p>Content 1.1</p>
 
-		<script src="../../lib/js/head.min.js"></script>
-		<script src="../../js/reveal.js"></script>
+<p>Note: This will only appear in the speaker notes window.</p>
 
-		<script>
+<h2 id="external-12">External 1.2</h2>
 
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+<p>Content 1.2</p>
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: '../../lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '../notes/notes.js' }
-				]
-			});
+<h2 id="external-2">External 2</h2>
 
-		</script>
+<p>Content 2.1</p>
 
-	</body>
+<h2 id="external-31">External 3.1</h2>
+
+<p>Content 3.1</p>
+
+<h2 id="external-32">External 3.2</h2>
+
+<p>Content 3.2</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Physics 211</li>
+          <li><a href="mailto:wafreema@syr.edu">wafreema@syr.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Syracuse University, Spring 2021 Walter Freeman
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
 </html>

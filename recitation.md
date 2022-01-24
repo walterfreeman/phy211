@@ -6,6 +6,12 @@ category: top
 use_math: true
 ---
 
+
+<a href="recitation/week1/recitation-units-motion.pdf">Week 1 Wednesday: Fermi problems</a><br>
+<a href="recitation/week1/recitation-1D-motion-1.pdf">Week 1 Friday: 1D motion, part 1</a>
+
+<!--
+S2021
 Week 12 Wednesday: <a href="recitation/week12/recitation-oscillations.pdf">Standing waves and harmonic series</a>
 
 Week 12 Friday: <a href="recitation/week12/recitation-final-review.pdf">Final review</a> 
@@ -75,7 +81,6 @@ Week 1 Wednesday: <a href="recitation/week1/recitation-1-motion-units-collaborat
 Week 1 Friday: <a href="recitation/week1/recitation-1D-motion-forcollaborate.pdf">for screensharing on Collaborate</a>, <a href="recitation/week1/recitation-1D-motion-forprint.pdf">for print</a>
 <br>
 
-<!--
 See the "Video solutions" page on the website for links to video explanations of how to solve all the problems for 
 recitations going back to Week 9.
 
@@ -117,8 +122,7 @@ Week 10 Friday: <a href="recitation/recitation20.pdf">for print</a> and <a href=
 
 <a href="recitation-guidelines.html">Recitation and homework guidelines</a>
 
-<!--
-
+S2020 
 <a href="recitation/rec1.pdf">Week 1 Wednesday: Fermi problems</a><br>
 <a href="recitation/recitation-1D-motion-1.pdf">Week 1 Friday: 1D motion, part 1</a> and its <a href="recitation/Recitation2-solutions.pdf">solutions</a> written by Merrill. <br><br>
 
