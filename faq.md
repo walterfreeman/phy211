@@ -7,7 +7,7 @@ use_math: true
 
 ## Physics 211 Frequently Asked Questions
 
-* [What and where is the Physics Clinic?](#clinic)
+* [How can I contact folks for help?](#help)
 * [How do I turn in my homework?](#hwturnin)
 * [Who's teaching this class, what do they all do, and how do I contact them?](#contact)
 * [How do I get the textbook, and do I need it?](#book)
@@ -28,9 +28,25 @@ use_math: true
 * [I need to miss recitation. What do I need to do?](#absencerec)
 * [I need to miss a group exam. What do I need to do?](#absencegroup)
 * [I need to miss an exam. What do I need to do?](#absenceexam)
-* [I think there's something wrong with my homework or exam grade. What do I do?](#gradeappeal)
 
 ---
+
+<a id="help"></a>
+#### [How can I contact folks for help?](#help)
+
+The best places to get help are:
+
+* the Physics Clinic, room 112, where you can find other students from our class and a GTA tutor, and often me and coaches;
+* the course Discord server, <https://discord.gg/bngYwjZRHk>, where you will often get immediate help and conversation with your colleagues and instructors
+* your recitations, which are set up to provide you extensive support for our class
+
+Other ways you can get help are:
+
+* contact me by email at <wafreema@syr.edu>. Note that I get a lot of mail; I may not write you back right away. I will prioritize answering questions
+about physics where I can help people learn.
+
+* come visit me in my office, room 215 (I might be there)
+
 
 <a id="hwturnin"></a>
 
@@ -41,6 +57,8 @@ Give it to your recitation TA at the beginning of recitation. Make sure that:
 * you have stapled it
 * you have done each problem on a separate side of paper (so two problems are on each sheet of paper, one front and one back)
 
+We won't accept homework submitted by email. If you must miss recitation for a good reason (perhaps if you are
+in isolation for COVID-19), make arrangements with your TA to turn in your homework when you return.
 
 <a id="clinic"></a>
 
@@ -53,12 +71,12 @@ You will likely find people working on the same homework as you if you go there,
 <a id="contact"></a>
 #### [Who's teaching this class, what do they all do, and how do I contact them?](#contact)
 
-The **professors** are Matt Rudolph (<msrudolp@syr.edu>, room 325) and Walter Freeman (<wafreema@syr.edu>, room 215). We are in charge of giving the lectures, writing materials, 
-helping students learn physics or in any other way we can, helping grade exams, and 
-leading the course as a whole. You can email us, find us before or after class, or come to help hours 
-in the Physics Clinic. We also might be in our offices.
+The **professor** is Walter Freeman (<wafreema@syr.edu>, room 215). I give the lectures, write material, 
+maintain the website, help students learn physics in any other way I can, help grade exams, and 
+lead the course as a whole. You can email me, find me before or after class, or come to help hours 
+in the Physics Clinic. I'm also in my office.
 
-Contact the professors if:
+Contact me if:
 
 * You have a question about physics
 * You have a suggestion that will improve the course as a whole or the lecture portion specifically
@@ -69,15 +87,6 @@ Contact the professors if:
 The **recitation teaching assistants** are PhD students in physics who work as junior instructors as part of their training. They are in charge of leading recitations, grading homework, and grading exams.
 They also hold help hours in the Physics Clinic.
 
-* Merrill Asp, head TA, <masp01@syr.edu>
-* Vidyesh Rao Anisetti, <vvaniset@syr.edu>
-* Soumik Banerjee, <sbaner03@syr.edu>
-* Prashali Chauhan, <prchauha@syr.edu>
-* Kevin Ching, <keching@syr.edu>
-* Mingwei Dai, <mdai07@syr.edu>
-* Kesavan Manivannan, <kmanivan@syr.edu>
-* Mario Olivares, <maolivar@syr.edu>
-* Zhiwen Sun, <zsun31@syr.edu>
 
 Contact the recitation TA's if:
 
@@ -156,7 +165,7 @@ After each unit, the skills you should gain are:
   * Describe the relationship between the forces that act on an object and the torque they apply about any given axis
   * Describe the relationship between the torque applied to an object and its angular acceleration
   * Use both $\vec F=m\vec a$ and $\tau = I \alpha$ in tandem to predict the motion of objects that both translate and rotate
-
+<!--
 * Throughout (Process of Science)
   * Describe the basics of scientific integrity and the properties of both honest scientific arguments and dishonest pseudoscientific claims
   * Critique (pseudo)scientific claims that are made in bad faith, and describe the problems with them
@@ -165,33 +174,38 @@ After each unit, the skills you should gain are:
     * Critique flawed arguments that fail to address empirical data 
     * Critique flawed arguments that fail to address the broader framework of physical laws of nature
     * Critique flawed arguments that focus on the identities of the people involved, rather than their data and logic
- 
+-->
 ---
 <a id="grades"></a>
 #### [How will grades be calculated?](#grades)
 
 The various parts of the course count as follows:
 
-| Item                         |            Date           | Points           |
-|------------------------------|:-------------------------:|-----------------:|
-| Homework                     | Due throughout            |              25  |
-| Exam 1                       |    4 February             |              15  |
-| Exam 2                       |    3 March                |              15  |
-| Exam 3                       |    7 April                |              15  |
-| Final Exam                   |    4 May, 3PM-5PM         |              30  |
-| Recitation participation |   Throughout the semester | 10               |
-| Group practice exams         | The Friday prior to each exam                          | 15               |
-| Paper on the nature of science | 27 April                | 15               |
-| Pre-lecture quizzes          | Throughout the semester   | 5                |
+| Item                         |            Date           | Points            |
+|------------------------------|:-------------------------:|------------------:|
+| Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
+| Exam 1                       | 25 February               |             100   |
+| Exam 2                       | 14 March                  |             100   |
+| Exam 3                       | 29 April                  |             100   |
+| Final Exam                   | 19 May, 3PM-5PM           |             160   |
+| Recitation participation     | Throughout the semester   |              5 each; around 140 in total   |
+| Weekly checkins              | After each week           |      5 each; around 70 in total |
+| Group practice exams         | Prior to each exam        |              50 each; 150 in total  |
 
-Note that the grades you see on Blackboard are different from this number of points. For instance, each exam will be scored out of 100, but will count as 15 points for your final grade.
+* The first time you miss a group practice exam, its grade will be replaced with the same percentage you earn on the corresponding individual exam, if you
+missed the group practice exam for an excused reason.
+To do this, you must tell your TA why you missed the group exam, and do so in advance if possible. You must also
+tell your group that you will be absent -- this is a professional courtesy to them!
 
-The lowest of your exam grades, the lowest homework set grade, and your four lowest recitation participation grades will be dropped. If your final exam grade is lower 
-than any of your three midterm exam grades, then the final exam will instead only count for 15 points. 
-Note however that students with an unusually low recitation participation grade for any given unit will not be eligible to drop the
-corresponding exam without prior permission, at our discretion. 
+* Your lowest homework set grade, your lowest weekly check-in, and your four lowest recitation participation days will be dropped.  
 
-This will result in a total of 130 possible points. This value will then be converted to a percentage (by dividing by 1.3), and grades will be assigned as follows:
+Note however that students with an unusually low recitation participation grade for any given unit, or
+who demonstrate that they don't understand this material on the final, will not be eligible to drop the
+corresponding exam at our discretion. (Basically: if you bomb an exam, it won't count against you
+*if and only if* you make sure you learn that material before the final.)
+
+At the end of the term, we will assign you a letter grade based on the percentage you have earned, as follows:
+
 
 - A : >88
 - A-: 80-88
@@ -204,6 +218,27 @@ This will result in a total of 130 possible points. This value will then be conv
 - D : 50-55
 - F : less than 50
 
+<a id="gradecorrection"></a>
+#### [What if there is an issue with my grades?](#gradecorrection)
+
+
+If you don't believe the grades on something are correct:
+
+* Talk to your TA sometime *other* than when they're teaching recitation; their clinic hours are a great place to do this.
+
+* Notify us within a week of when we post those grades to Blackboard.
+
+* If there is something wrong with the arithmetic of your grade (we added numbers wrong, or we mistyped something in Blackboard), we'll fix it right there with no fuss. (Sorry!)
+
+* Otherwise, before hearing your grade appeal, the TA may ask you to solve the problem on your own on the board, without notes. If you're going to appeal your grade for something, the least you can do is to go back and figure out the solution!
+
+* Your grade will still be based on what you originally wrote down on your homework/exam
+
+* We'll regrade the whole problem from scratch; it *is* possible for your grade to go *down* if it turns out the original grader made a mistake and gave you a grade that's too high.
+
+* The grades for answers with no clear explanation given (text or well-organized algebra that explains itself)
+are not subject to appeal. 
+
 
 ---
 <a id="hwgrades"></a>
@@ -211,7 +246,7 @@ This will result in a total of 130 possible points. This value will then be conv
 
 We'll choose two problems out of each homework set. These will be graded fully, out of ten points, for correctness. 
 
-Note that you must *explain your reasoning* in solving the homework problems. Solutions consisting only of algebra that isn't self-explanatory may not get full credit even if they are correct.
+Note that you must *explain your reasoning* in solving the homework problems. Solutions consisting only of algebra that isn't self-explanatory will not get full credit even if they are correct.
 
 Solutions consisting of a bunch of numbers, substituted into the algebra before you're ready to extract physical meaning from them, *certainly* won't get full credit.
 
@@ -221,16 +256,28 @@ The other problems will be graded simply for completeness, quickly getting a gra
 <a id="recgrades"></a>
 #### [How will recitation participation be graded?](#recgrades)
 
-Each day your TA will give you a grade from 0 to 3, with 3 meaning "working with your group" down to 0 meaning "either not there or not working". 
+Each day your TA will give you a grade from 0 to 3:
 
-Your lowest four unexcused recitation grades will be dropped, plus any excused absences you have discussed with us.
+* 0: absent or not working to learn physics during most of recitation
+* 1: present, but not working to learn physics during a large portion of recitation
+* 2: present and working to learn physics, but not working with your group
+* 3: present and working with your group so that both you and they learn the material
+
+Your lowest four recitation grades will be dropped. If you miss more than four recitations, you should come talk
+to me about broader accommodations. 
+
+Remember that the most important aspect of recitation is your learning of physics, not the participation grade itself.
+ 
 
 ---
-<a id="prelecture"></a>
-#### [How do pre-lecture questions work?](#prelecture)
+<a id="checkins"></a>
+#### [How do these checkins work?](#checkins)
 
-These will be posted on Blackboard a few days before lecture. (Matt Rudolph is in charge of these. Walter Freeman is allergic to Blackboard.) We'll curve the grades so that 
-anyone making a serious attempt to answer them correctly will get 100%.
+Every week on Friday I will post a Google Form with some questions checking in on you to see how you're doing.
+After your recitation on Friday, 
+please answer them before Monday at noon (it should take you five minutes at most). There are no correct or
+incorrect answers here -- this is a way for you to give us feedback about how the course is going. Give us 
+useful feedback to earn your credit.
 
 ---
 <a id="lab"></a>
@@ -238,8 +285,10 @@ anyone making a serious attempt to answer them correctly will get 100%.
 
 The lab is a different class. Ask your lab TA (different from your recitation TA) or Sam Sampere about it. You can of course ask any of us about the *physics* of what you do in lab.
 
+You can also ask on the Discord server, where your peers will likely know more than I do.
+
 ---
-<a id="paper"></a>
+<!--<a id="paper"></a>
 #### [What about this paper?](#paper)
 
 We'll also be talking about the nature of science in our class: 
@@ -252,35 +301,43 @@ We'll also be talking about the nature of science in our class:
 We'll assign a paper about this. You can read last year's assignment <a href="paper.html">here</a>. (This will change slightly but not that much as we're getting ready to assign it.) You'll 
 have a couple of weeks to write it. If it's good, you'll get a high grade. If it's *great*, you may get over 100%. If it's plagiarized, you'll fail the class and get in worse trouble than that. 
 (Don't do this.)
+-->
 
 ---
 <a id="exams"></a>
 #### [When are our exams?](#exams)
 
 |------------------------------|:-------------------------:|
-| Group Exam 1                 |    31 January             |
-| Exam 1                       |    4 February             |
-| Group Exam 2                 |    28 February            |
-| Exam 2                       |    3 March                |
-| Group Exam 3                 |    3 April                |
-| Exam 3                       |    7 April                |
-| Final Exam                   |    4 May, 3PM-5PM         |
+| Group Exam 1                 |    11 February            |
+| Exam 1                       |    15 February            |
+| Group Exam 2                 |    4 March                |
+| Exam 2                       |    10 March               |
+| Group Exam 3                 |    8 April                |
+| Exam 3                       |    12 April               |
+| Final Exam                   |    11 May, 3PM-5PM        |
+
+The final exam will be held on 11 May; you may not take it earlier or remotely. Please plan to stay in Syracuse until 11 May. 
+
+Students 
 
 ---
 <a id="calculator"></a>
 #### [Do I need a calculator for the exams? What kind?](#calculator)
 
-You may use a calculator that can do basic arithmetic and trigonometry, but not one that can solve equations symbolically or that you can program. These are called "scientific calculators" (kind of 
-a misnomer, since scientists these days tend to use computers!), and you can get them very cheaply from Amazon. If you don't have one, you can just leave all your answers in symbolic form on the 
-exams.
+
+You may use a calculator to do arithmetic, evaluate trigonometric functions, and so on. In general, you may use any
+"scientific" or "graphing" calculator, but may not use a calculator that will do symbolic manipulation (i.e. do
+algebra for you).
+
+If you do not have a calculator, you may leave your answers in symbolic form (i.e. "10 meters * cos 20 degrees").
 
 ---
-<a id="ods"></a>
-#### [I take my exams at ODS. What do I need to do?](#ods)
+<a id="cdr"></a>
+#### [I take my exams at CDR. What do I need to do?](#ods)
 
 Register with ODS to take your exam there. We'll send a PDF over. (You don't need to notify us. We do this all the time.)
 
-Most students with disabilities should still be able to take your *group exams* in recitation, since most disabilities can be accommodated by the presence of other group members. If 
+Most students with disabilities should still be able to take their *group exams* in recitation, since most disabilities can be accommodated by the presence of other group members. If 
 this for some reason doesn't work for you, please let us and ODS know.
 
 If you need an alternate format exam (large print, etc.), please let us know in advance.
@@ -290,68 +347,43 @@ If you need an alternate format exam (large print, etc.), please let us know in 
 #### [I'll be late turning in my homework. What do I need to do?](#latehomework)
 
 Tell your recitation TA why you need an extension and when you'll have it done by. If they are okay with this,
-then they'll make arrangements with you to turn it in late.
+then they'll make arrangements with you to turn it in late. Don't turn your homework in to your TA's mailbox
+unless they tell you to.
 
 ---
 <a id="absenceclass"></a>
 #### [I need to miss a lecture. What do I need to do?](#absenceclass)
 
-Contact your friends and figure out what you missed. You don't need to tell us.
+If you are in COVID isolation, we will make arrangements based on how many other students are in isolation. 
+This may include making recordings of elements of class and sending them to you or arranging for alternative
+means for you to learn the material. 
+
+The most important thing to stay caught up with is the _recitations_, not the lectures. If you are in isolation,
+download the recitation materials yourself and work on them during your recitation period along with any other
+students who are in isolation over Discord. Ask for help; we will arrange for our coaches and TA's to help you
+over Discord.
 
 ---
 <a id="absencerec"></a>
 #### [I need to miss recitation. What do I need to do?](#absencerec)
 
-If you are going to be absent for an *excused reason*:
+Let your TA know in advance if possible. 
+Make arrangements to make up the practice you'll miss (we post all the recitation material).
+If you are in COVID isolation, do the recitation problems on your own at home and ask questions
+on Discord. There will almost certainly be someone available to help you.
 
-* Religious observances (declared in advance on MySlice during the first two weeks of class)
-* Personal events of equal solemnity to major religious observances occurring on inflexible dates. This includes weddings and commitment ceremonies of close family members, funerals, and the like.
-* Caregiving duties for sick family members, other family emergencies, or singularly-important events
-* Illness or injury that jeopardizes your health or the health of others if you come to class
-* Attendance at academic events (for instance, travel to an academic conference, participation in a seminar, performance in the marching band or a student ensemble, etc.).
-* Attendance at a professional development opportunity (a career fair, a job interview, a ROTC event)
-* Participation in the political process (canvassing for a campaign, attendance at a scheduled demonstration or a spontaneous one in response to current events)
-
-... let your TA know in advance if possible, and give them documentation. Make arrangements to make up the practice you'll miss (we post all the recitation material).
-
-<br><br>
-If you are going to be absent for an *unexcused reason*:
-
-* An athletic competition (as an athlete or a spectator)
-* A Greek Life event (other than a purely academic organization's academic event)
-* Anything else related to recreation 
-* Weather (unless campus is closed or the weather would pose a special danger to you because of health or commute). 
-
-... let your TA know out of courtesy, and remember we drop your four lowest participation grades.
+Let your group know out of courtesy, and remember we drop your four lowest participation grades.
 
 ---
 <a id="absencegroup"></a>
 #### [I need to miss a group exam. What do I need to do?](#absencegroup)
 
-If your absence is for an excused reason (see above), let your TA know. We'll give you the same grade you get on the main exam for your group exam, as well.
-
-If your absence is for a recreational reason (including athletics), we will make the same allowance for you, but only once.
+If your absence is for a good reason, let your TA know. We'll give you the same grade you get on the main exam for your group exam, as well.
 
 ---
 <a id="absenceexam"></a>
 #### [I need to miss an exam. What do I need to do?](#absenceexam)
 
-If your absence is for an excused reason, let the professors know as much in advance as possible. We'll make arrangements with you.
-
-Note that students with minor illnesses (a cold) should still come to exams. 
+If your absence is for a good reason, let the professors know as much in advance as possible. We'll make arrangements with you.
 
 ---
-<a id="gradeappeal"></a>
-#### [I think there's something wrong with my homework or exam grade. What do I do?](#gradeappeal)
-
-Talk to your TA sometime *other* than when they're teaching recitation; their clinic hours are a great place to do this.
-
-If there is something wrong with the arithmetic of your grade (we added numbers wrong, or we mistyped something in Blackboard), we'll fix it right there with no fuss. (Sorry!)
-
-If you think that the grade you got doesn't correctly reflect the physics knowledge you demonstrated in the problem, explain why to your TA. Note the following:
-
-* Before hearing your grade appeal, the TA may ask you to solve the problem on your own on the board, without notes. If you're going to appeal your grade for something, the least you can do 
-is to go back and figure out the solution!
-* Your grade will still be based on what you originally wrote down on your homework/exam
-* We'll regrade the whole problem from scratch; it *is* possible for your grade to go *down* if it turns out the original grader made a mistake and gave you a grade that's too high.
-
