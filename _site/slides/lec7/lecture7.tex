@@ -1,3 +1,5 @@
+% DPF 09 talk on strangeness in nucleon
+
 \documentclass[10pt]{beamer}
 \usepackage{amsmath}
 \usepackage{mathtools}
@@ -24,9 +26,6 @@
 \def\leftpartial{{\overleftarrow\partial}}
 \def\diffpartial{\buildrel\leftrightarrow\over\partial}
 
-\def\BC{\begin{center}}
-\def\EC{\end{center}}
-\def\BS{\bigskip}
 \def\BI{\begin{itemize}}
 \def\EI{\end{itemize}}
 \def\BE{\begin{displaymath}}
@@ -38,6 +37,10 @@
 \def\EL{\nonumber\\}
 
 
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
 
 \newcommand{\etal}{{\it et al.}}
 \newcommand{\gbeta}{6/g^2}
@@ -98,7 +101,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2021\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2017\\Walter Freeman}
 
 \date{\today}
 
@@ -109,122 +112,100 @@
 \frame{\frametitle{\textbf{Announcements}}
 \BI
 \Large
-\item{Homework 3 assigned later today; due next Thursday before class (or maybe Wednesday; stay tuned)}
-\item Quiz 1 recap:
+\item{Homework 3 due next Friday (will be posted sometime this weekend)}
+\item{You will get new groups in recitation next Wednesday}
+\item{Do not miss Friday's recitation -- exam review and return}
+\item{TA's will also give you a chance to practice some very important skills that people had trouble with on the exam}
+\EI
+
+}
+
+\frame{\frametitle{\textbf{Exam 1}}
+\large
+ \BI
+\item{Something was weird on Exam 1}
+\item{I may have to adjust the grading curve for the class, since the Physics Department standard for this class
+is that the average is a B-. Should I alter the syllabus to do that?}
+ \EI
+\Large
+\bigskip
 \BI
-\item Not all the grades are in yet
-\item Most folks did very well
-\item Anyone who didn't will have another chance later in the term
-\EI
-\EI
-
-}
-
-
-\frame{\frametitle{\textbf{Newton's laws}}
-
-\Large
-
-\begin{enumerate}
-
-\item If no net force acts on a thing, its velocity doesn't change: it either keeps moving or keeps not moving, just like it did before
-
-\BS\pause
-
-\item If a net force acts on a thing, it accelerates, with that acceleration equal to the force divided by the thing's mass
-
-\BS\pause
-
-\item If thing A exerts a force on thing B, then thing B exerts a force with the same size in the opposite direction back on thing A.
-
-\end{enumerate}
-
-\Large
-
-\BC
-... why is that first one even there? Why are they in that order?
-\EC
+\item A: Yes
+\item B: No
 \pause
-\BS
-\begin{flushright}...history!\end{flushright}
+\item C: Eh?
+\pause
+\item D: trollface.jpg?
+\EI
 }
-%}
-%
-%\frame{\frametitle{\textbf{Two revolutions in one!}}
-%\Large
-%Newton's book {\it Mathematical Principles of Natural Philosophy} was the capstone of two revolutions in one:
-%
-%\begin{enumerate}
-%\item The development of classical mechanics as a way to describe and predict things move
-%\item {\color{Red} The emergence of {\it science} as a powerful means to develop models like classical mechanics}
-%\end{enumerate}
-%
-%\large
-%
-%We're going to spend most of our time learning classical mechanics, but we should spend some time studying 
-%science, too!
-%
-%\BI
-%\item What is it?
-%\item What does it look like?
-%\pause
-%\item How does the scientific {\it process} produce revolutions like classical mechanics?
-%\item What do other scientific advances look like?
-%\pause
-%\item What do they {\color{Red} \bf not} look like?
-%\pause
-%\item How can we ensure that the scientific process is done well and honestly?
-%\EI
-%}
-%
-%\frame{\frametitle{\textbf{Aristotelian mechanics}}
-%Newton's first law was historically important because it overturned the previous knowledge, from Aristotle:
-%
-%\BI
-%\item Things on Earth that move eventually come to a stop
-%\item Things on Earth fall at a constant speed, depending on their weight and the density of the fluid they fall in
-%\item Things in the sky don't fall, but move in circles, because they are perfect and heavenly and circles are perfect
-%\item How things move is intimately connected to the reasons people (etc.) have for making them move
-%\EI
-%
-%(These first two are actually reasonable in a situation where fluid drag is very large, which is what he studied.)
-%}
-%
-%\frame{\frametitle{\textbf{The new science}}
-%
-%\Large
-%\BC
-%What was different about the scientific process?
-%\EC
-%\BS
-%\large
-%
-%\BI
-%\item Primacy of experiment and measurement
-%\pause
-%\item Seeking truth in {\color{Red} precision} measurements
-%\pause
-%\item Incorporating things in a unified {\it framework} of laws of nature
-%\BI
-%\item Natural laws should explain as many things as possible in the same model
-%\item Natural laws apply everywhere and for all time
-%\EI
-%\pause
-%\item Awareness of the {\color{Red} limits} of our models, and continually trying to expand them
-%\BI
-%\item What things do Newton's laws of motion apply to?
-%\item How far have we checked them?
-%\item Are there any things Newton's laws of motion might {\it not} apply to?
-%\EI
-%\pause
-%\item Science as an {\color{Red} objective} and {\color{Red} non-anthropocentric} explanation:
-%\BI
-%\item Scientific ideas are bigger than any particular person's perspective; they should be universal
-%\item Humans don't have a special role in the laws of nature; if we are special, it's not because we have special rules
-%\EI
-%\EI
-%}
-%
+
+\frame{\frametitle{\textbf{Exam 1}}
+
+\large
+I showed my exam to my GTA's, some of whom have taught with me before. They said that it was moderately
+more challenging than last year's exam.
+
+\pause\bigskip
+
+I showed it to Julian Georg, who is the TA for Physics 215, the honors/majors version of my class. He showed me 
+the 215 exam, and said that ours was somewhat more difficult. 
+
+\pause\bigskip
+
+Of the exam grades I have so far, I have:
+
+\BI
+\item 70 F's
+\item 27 D's
+\pause
+\item 61 C's
+\pause
+\item 90 B's
+\pause
+\item \bf 202 A's
+\EI
+\pause
+
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{gradehisto-crop.pdf}
+\end{center}
+
+}
+
+\frame{
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{gradehisto-crop.pdf}
+\end{center}
+
+\large
+
+Last year's exam had a median of 65\% (B-). That exam was perhaps a bit easier -- and had extra credit.
+
+\bigskip
+
+Your class median was {\bf 75\% (B+).} Be very, very proud of yourselves!
+}
+
+\frame{
+
+\Large
+
+Why do you think you did better than last year's class? (Seriously -- I'm curious to hear your guesses)
+
+\BI
+\item A: We're more motivated, smarter, or just overall more awesome than last year
+\item B: Group work in recitations / the group practice exam
+\item C: The physics practices on Wednesday evenings help
+\item D: The recitation TA's are a particularly good bunch
+\item E: This year's exam was easier
+\EI
+}
+
+\frame{\frametitle{\textbf{Ask a Physicist: general relativity and ``multiverses''}}
+
+}
 
 \frame{\frametitle{\textbf{Newton's laws}}
     \Large
@@ -247,6 +228,20 @@
   \EI
     \EI
    }
+
+
+\frame{
+\Large
+Which of the following is/are {\it not} an example of Newton's third law?
+
+\BI
+\item A: a subway car accelerates forward; you are thrown back
+\item B: the propeller on an airplane pushes the air backwards; the air pushes the airplane forwards
+\item C: an elevator accelerates upward; passengers are pushed downward
+\item D: the Earth's gravity pulls downward on me; my gravity pulls upward on the Earth
+\item E: a rocket pushes downward on its exhaust; the exhaust pushes upward on the rocket
+\EI
+}
 
 
 
@@ -289,29 +284,9 @@
 \bigskip
 \bigskip
 \bigskip
-
+     \centerline{     (dragging disc demo)}
 \EI
    }
-  \frame{\frametitle{\textbf{Force diagrams}}
-  \BI
-  \item{Lots of forces, easy to get confused}
-  \item{Draw a picture!}
-    \centerline{\includegraphics[width=0.6\textwidth]{cruise.png}}
-    \pause
-  \item{Each object feeling forces gets a separate diagram}
-  \item{Label each force and its direction}
-  \item{These are also called ``free body diagrams''}
-    \EI
-  \bigskip
-  \bigskip
-  \bigskip
-  \bigskip
-  \pause
-  \small
-
-
-  }
-
 
    \frame{\frametitle{\textbf{What is a force?}}
     A force is anything that pushes or pulls something:
@@ -382,6 +357,26 @@ Why is the acceleration of a falling object $g$ downward?
 \item D: It's only $g$ if there are no other forces besides gravity acting on it\EI
 } 
 
+  \frame{\frametitle{\textbf{Force diagrams}}
+  \BI
+  \item{Lots of forces, easy to get confused}
+  \item{Draw a picture!}
+    \centerline{\includegraphics[width=0.6\textwidth]{cruise.png}}
+    \pause
+  \item{Each object feeling forces gets a separate diagram}
+  \item{Label each force and its direction}
+  \item{These are also called ``free body diagrams''}
+    \EI
+  \bigskip
+  \bigskip
+  \bigskip
+  \bigskip
+  \pause
+  \small
+  \centerline{(Examples on document camera)}
+
+  }
+
 
 \frame{
 \Large
@@ -415,13 +410,13 @@ acting on it? (Hint: what is the definition of velocity? Of acceleration?)
   \frame{\frametitle{\textbf{Sample questions}}
     \BI
     \Large
-  \item{What forces act on a bicycle?}
+  \item{What forces act on a car?}
     \pause
-  \item{Which forces are bigger or smaller if it's going at a constant speed?}
+  \item{Which forces are bigger or smaller if it's driving at a constant speed?}
     \pause
   \item{Which forces are bigger or smaller if it's slowing down?}
     \pause
-  \item{A 100 kg cyclist slows from 10 m/s to a stop over 5 sec. What force is required to do this?}
+  \item{A 1000 kg car slows from 20 m/s to a stop over 5 sec. What force is required to do this?}
 
 
     \pause
@@ -450,21 +445,6 @@ exchange forces}
 \item{``A force is something that can send you to the doctor''}
 \EI
 }
-
-\frame{
-\Large
-Which of the following is/are {\it not} an example of Newton's third law?
-
-\BI
-\item A: a subway car accelerates forward; you are thrown back
-\item B: the propeller on an airplane pushes the air backwards; the air pushes the airplane forwards
-\item C: an elevator accelerates upward; passengers are pushed downward
-\item D: the Earth's gravity pulls downward on me; my gravity pulls upward on the Earth
-\item E: a rocket pushes downward on its exhaust; the exhaust pushes upward on the rocket
-\EI
-}
-
-
 
 \frame{\frametitle{\textbf{A sample problem}}
 \Large

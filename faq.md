@@ -1,5 +1,6 @@
 ---
 layout: page
+category: top
 title: FAQ
 permalink: faq.html
 use_math: true
@@ -14,7 +15,7 @@ use_math: true
 * [How do I get the textbook, and do I need it?](#book)
 * [What math skills will I need?](#math)
 * [This is my first physics class! Will I do okay?](#firstphysics)
-* [What will be learning?](#objectives)
+* [What will we be learning?](#objectives)
 * [How will grades be calculated?](#grades)
 * [What if there is an issue with my grades?](#gradecorrection)
 * [How will homework be graded?](#hwgrades)
@@ -89,7 +90,7 @@ Contact me if:
 * You will miss an exam
 * You need high-level assistance with anything
 
-The **recitation teaching assistants** are PhD students in physics who work as junior instructors as part of their training. They are in charge of leading recitations, grading homework, and grading exams.
+The **graduate teaching assistants** are PhD students in physics who work as junior instructors as part of their training. They are in charge of leading recitations, grading homework, and grading exams.
 They also hold help hours in the Physics Clinic.
 
 
@@ -142,7 +143,7 @@ If this is your first physics class, make sure you ask us for help if you don't 
 
 ---
 <a id="objectives"></a>
-#### [What will be learning?](#objectives)
+#### [What will we be learning?](#objectives)
 
 After each unit, the skills you should gain are:
 

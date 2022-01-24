@@ -1,0 +1,206 @@
+%!
+%%Creator: tharizdun:wfreeman(Walter,,,)
+%%Title: Unix plot file
+%%CreationDate: Tue Jan 20 00:03:01 2015
+%%DocumentFonts: Courier
+%%EndComments
+%%BoundingBox: 0 0 4096 4096
+% Start of psplot.pro -- prolog for plot(5) translator
+% Copyright (c) 1984,1985,1987 Adobe Systems Incorporated. All Rights Reserved. 
+%              RESTRICTED RIGHTS LEGEND
+% Use, duplication or disclosure by the Government is subject to
+% restrictions as set forth in subdivision (b)(3)(ii) of the Rights in
+% Technical Data and Computer Software Clause at 252.227-7013.
+% Name of Contractor: Adobe Systems Incorporated
+% Address:  1870 Embarcadero Road
+%	  Palo Alto, California  94303
+% RCS: $Header: psplot.pro,v 2.2 87/11/17 16:41:06 byron Rel $
+save 50 dict begin /psplot exch def
+/StartPSPlot
+   {newpath 0 0 moveto 8 setlinewidth 0 setgray 1 setlinecap
+    /imtx matrix currentmatrix def /dmtx matrix defaultmatrix def
+    /fnt /Courier findfont def /smtx matrix def fnt 8 scalefont setfont}def
+/solid {{}0}def
+/dotted	{[2 nail 3.5 nail ] 0}def
+/longdashed {[10 nail] 0}def
+/shortdashed {[6 nail] 0}def
+/dotdashed {[2 nail 6 nail 10 nail 6 nail] 0}def
+/disconnected {{}0}def
+/min {2 copy lt{pop}{exch pop}ifelse}def
+/max {2 copy lt{exch pop}{pop}ifelse}def
+/len {dup mul exch dup mul add sqrt}def
+/nail {0 imtx dtransform len 0 idtransform len}def
+
+/m {newpath moveto}def
+/n {lineto currentpoint stroke moveto}def
+/p {newpath moveto gsave 1 setlinecap solid setdash
+    dmtx setmatrix .4 nail setlinewidth
+    .05 0 idtransform rlineto stroke grestore}def
+/l {moveto lineto currentpoint stroke moveto}def
+/t {smtx currentmatrix pop imtx setmatrix show smtx setmatrix}def
+/a {gsave newpath /y2 exch def /x2 exch def 
+    /y1 exch def /x1 exch def /yc exch def /xc exch def
+    /r x1 xc sub dup mul y1 yc sub dup mul add sqrt
+       x2 xc sub dup mul y2 yc sub dup mul add sqrt add 2 div def
+    /ang1 y1 yc sub x1 xc sub atan def
+    /ang2 y2 yc sub x2 xc sub atan def
+    xc yc r ang1 ang2 arc stroke grestore}def
+/c {gsave newpath 0 360 arc stroke grestore}def
+/e {gsave showpage grestore newpath 0 0 moveto}def
+/f {load exec setdash}def
+/s {/ury exch def /urx exch def /lly exch def /llx exch def
+    imtx setmatrix newpath clippath pathbbox newpath
+    /dury exch def /durx exch def /dlly exch def /dllx exch def
+    /md durx dllx sub dury dlly sub min def
+    /Mu urx llx sub ury lly sub max def
+    36 144 translate .8 .8 scale
+    dllx dlly translate md Mu div dup scale llx neg lly neg translate}def
+/EndPSPlot {clear psplot end restore}def
+StartPSPlot
+%%EndProlog
+%%Page: 1 1
+0 0 4096 4096 s
+/dotted f
+1.00 1.00 0.00 0 setcmykcolor
+/solid f
+0.00 1.00 1.00 0 setcmykcolor
+1579 1064 m
+1114 1993 n
+1114 1993 m
+1119 1821 n
+1114 1993 m
+1249 1886 n
+1119 1821 m
+1151 1919 n
+1249 1886 m
+1151 1919 n
+1207 1529 m
+1198 1578 m
+1167 1484 n
+1198 1578 m
+1229 1484 n
+1198 1565 m
+1225 1484 n
+1176 1511 m
+1216 1511 n
+1158 1484 m
+1185 1484 n
+1211 1484 m
+1238 1484 n
+1207 1529 m
+1.00 0.31 1.00 0 setcmykcolor
+1114 1993 m
+2043 2457 n
+2043 2457 m
+1871 2452 n
+2043 2457 m
+1936 2322 n
+1871 2452 m
+1969 2420 n
+1936 2322 m
+1969 2420 n
+1439 2225 m
+1408 2274 m
+1408 2180 n
+1412 2274 m
+1412 2180 n
+1394 2274 m
+1448 2274 n
+1461 2270 n
+1466 2265 n
+1470 2256 n
+1470 2247 n
+1466 2238 n
+1461 2234 n
+1448 2229 n
+1448 2274 m
+1457 2270 n
+1461 2265 n
+1466 2256 n
+1466 2247 n
+1461 2238 n
+1457 2234 n
+1448 2229 n
+1412 2229 m
+1448 2229 n
+1461 2225 n
+1466 2221 n
+1470 2212 n
+1470 2198 n
+1466 2189 n
+1461 2185 n
+1448 2180 n
+1394 2180 n
+1448 2229 m
+1457 2225 n
+1461 2221 n
+1466 2212 n
+1466 2198 n
+1461 2189 n
+1457 2185 n
+1448 2180 n
+1439 2225 m
+1.00 1.00 0.00 0 setcmykcolor
+1579 1064 m
+2043 2457 n
+2043 2457 m
+1876 2281 n
+2043 2457 m
+2071 2216 n
+1876 2281 m
+2006 2346 n
+2071 2216 m
+2006 2346 n
+1671 1761 m
+1693 1797 m
+1698 1783 n
+1698 1810 n
+1693 1797 n
+1684 1806 n
+1671 1810 n
+1662 1810 n
+1649 1806 n
+1640 1797 n
+1635 1788 n
+1631 1774 n
+1631 1752 n
+1635 1739 n
+1640 1730 n
+1649 1721 n
+1662 1716 n
+1671 1716 n
+1684 1721 n
+1693 1730 n
+1698 1739 n
+1662 1810 m
+1653 1806 n
+1644 1797 n
+1640 1788 n
+1635 1774 n
+1635 1752 n
+1640 1739 n
+1644 1730 n
+1653 1721 n
+1662 1716 n
+1671 1761 m
+/dotted f
+0.00 1.00 1.00 0 setcmykcolor
+1579 1064 m
+1114 1064 n
+1114 1064 m
+1114 1993 n
+1.00 0.31 1.00 0 setcmykcolor
+1114 1993 m
+1114 2457 n
+1114 2457 m
+2043 2457 n
+1.00 1.00 0.00 0 setcmykcolor
+1579 1064 m
+2043 1064 n
+2043 1064 m
+2043 2457 n
+/solid f
+1 1 m
+e
+%%Trailer
+EndPSPlot

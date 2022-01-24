@@ -26,7 +26,6 @@
 \def\diffpartial{\buildrel\leftrightarrow\over\partial}
 
 \def\BC{\begin{center}}
-	\def\BS{\bigskip}
 \def\EC{\end{center}}
 \def\BI{\begin{itemize}}
 \def\EI{\end{itemize}}
@@ -55,7 +54,6 @@
 \def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
 \def\MeV{{\rm Me\!V}}
 \def\GeV{{\rm Ge\!V}}
-
 
 %AB: my color definitions
 \definecolor{A}{rgb}{0.8,0.0,0.0}
@@ -104,7 +102,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2021\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2016\\Walter Freeman}
 
 \date{\today}
 
@@ -150,350 +148,405 @@ Nature uses only the longest threads to weave her patterns, so each small piece 
 \frame{\frametitle{\textbf{Announcements}}
 \large
 \BI
-\item{Homework 1 due tomorrow}\pause
-\item Lots of opportunities for you to seek and receive help \pause
-\BI
-\item What happened in the Virtual Clinic yesterday? \pause
-\item My Clinic hours today: 3:30-5:30
-\item Many other people have other hours -- see the course website
-\EI
-\item Lively discussion going on on the course Discord server about the homework
-
-\BS
-\BS
-
-\item Homework 2 will be posted tomorrow and due next Thursday before class
+\item{Homework 1 due tomorrow}
+\item{I'm seeing lots of you in the Clinic; I'd like to see lots more}
+\item{Clinic hours today: 5:10-6:50}
+\item{``Physics practice'', on the quadratic formula: Wednesday night at 7:30-8:30 PM, location TBA}
 \EI
 }
 
 
 
-\frame{\frametitle{\textbf{Quiz 1}}
-Quiz 1 will be next Thursday. {\color{Green}Don't panic!} -- you'll be fine!
 
-\BS\BS
+\frame{\frametitle{\textbf{``Ask a Physicist''}}
+\Large
+
+Submit questions!
+
+}
+
+\frame{\frametitle{\textbf{Today}}
+\Large
+\BI
+\item{Review material from last time}
+\item{Position, velocity, and acceleration graphs}
+\item{Rotational kinematics}
+\item{Problem-solving method for kinematics problems}
+\item{Sample problems}
+\pause
+\item{Homework help?}
+\EI
+}
+
+\frame{\frametitle{\textbf{Last time: Position, velocity, and acceleration}}
+\begin{columns}
+\column{0.125\textwidth}
+\centerline{\Large Position}
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+{\color{Green}
+\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+\color{Green}\centerline{area under the curve of}
+\color{Green}\centerline{(integral of)}
+\column{0.125\textwidth}
+\centerline{\Large Velocity}
+\pause
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+{\color{Green}
+\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+\color{Green}\centerline{area under the curve of}
+\color{Green}\centerline{(integral of)}
+\column{0.15\textwidth}
+\centerline{\Large Acceleration}
+\end{columns}
+}
+
+
+
+\frame{\frametitle{\textbf{Position, velocity, and acceleration}}
+\begin{columns}
+\column{0.125\textwidth}
+\centerline{\Large Position}
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+\column{0.125\textwidth}
+\centerline{\Large Velocity}
+\pause
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+\column{0.15\textwidth}
+\centerline{\Large Acceleration}
+\end{columns}
+}
+
+\frame{\frametitle{\textbf{Kinematics}}
+\Large
+\BI
+\item{If we know acceleration as a function of time, how do we get from there to position vs. time?}
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+\item{\color{A}A. Look at the slope of the acceleration vs. time graph to get velocity, and then look at its slope to get position}
+\item{\color{B}B. Look at the area under the curve of the acceleration vs. time graph to get velocity, and then look at the area under {\it} that graph to get position}
+\item{\color{C}C. Take two derivatives of the acceleration vs. time graph to get position vs. time}
+\item{\color{D}D. Take two integrals of the acceleration vs. time graph to get position vs. time}
+\EI
+}
+
+\frame{\frametitle{\textbf{The ``kinematics equations''}}
+
+{\color{Red}
+\Large
+\begin{align*}
+v(t) =& at + v_0 \\
+x(t) =& \frac{1}{2}at^2 + v_0 t + x_0
+\end{align*}}
+
+\bigskip
+\bigskip
+\bigskip
+
+These equations are valid when...
+\BI
+\item{A. Acceleration is constant}
+\item{B. Velocity is constant}
+\item{C. The object moves in only one direction}
+\item{D. They are always valid}
+\pause
+\bigskip
+\bigskip
+\item{A: these are the expressions for $x(t)$ and $v(t)$ when acceleration is constant!}
+\EI
+}
+
+
+
+\frame{\frametitle{\textbf{Example problems}}
+\Large
+\BC How long does it take an object to fall from a height $h$? \EC
+\pause
+\bigskip
+\bigskip
+\bigskip
+First: Write the position and velocity equations, substituting in things you know.
+(Here, take ground level to be $y=0$, and upward to be the positive direction.)
+
+\color{A}A: $x(t) = \frac{1}{2}gt^2 + h$ and $v(t) = -gt$  \\ 
+\color{B}B: $x(t) = -\frac{1}{2}gt^2 + v_0 t + h$ and $v(t) = -gt$  \\ 
+\color{C}C: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = gt$  \\ 
+\color{D}D: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$  \\ 
+\color{E}E: $x(t) = -\frac{1}{2}gt^2 + v_0 t$ and $v(t) = -gt$  \\ 
+
+}
+
+\frame{\frametitle{\textbf{Example problems}}
+\Large
+\BC How long does it take an object to fall from a height $h$? \EC
+\pause
+\bigskip
+\bigskip
+\bigskip
+Second: Phrase the question in terms of your algebraic variables.
+
+
+\bigskip
+
+From the previous: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$
+ 
+\bigskip
+
+(Here, take ground level to be $y=0$, and upward to be the positive direction.)
+
+\color{A}A: ``What is the value of $t$ when $v=0$?'' \\ 
+\color{B}B: ``What is the value of $x$ when $t=0$?'' \\ 
+\color{C}C: ``What is the value of $x$ when $v=0$?'' \\ 
+\color{D}D: ``What is the value of $t$ when $x=h$?'' \\ 
+\color{E}E: ``What is the value of $t$ when $x=0$?'' \\ 
+}
+
+\frame{\frametitle{\textbf{Example problems}}
+\Large
+\BC How long does it take an object to fall from a height $h$? \EC
+\bigskip
+\bigskip
+\bigskip
+Third: Do the algebra your sentence tells you to do: ``What is the value of $t$ when $x=0$?''
+ 
+\bigskip
+
+From the previous: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$
+
+\bigskip
+
+(Here, take ground level to be $y=0$, and upward to be the positive direction.)
+
+\color{A}A: $\sqrt{2g/h}$ \\ 
+\color{B}B: $h/g$\\ 
+\color{C}C: $\sqrt{2h/g}$ \\
+\color{D}D: $2h/g$ \\
+}
+
+\frame{\frametitle{\textbf{Another example}}
+\Large 
+You throw an object up with an initial speed of $v_0$. How long does it take to reach a height $h$?
 
 \pause
-There will be {\it two questions}. On the quiz:
+
+\bigskip
+
+\begin{align*}
+x(t) = &\hspace{1.25em}\frac{1}{2}at^2 + v_0 t + x_0 \\
+h =& -\frac{1}{2}gt^2 + v_0 t \\
+0 =& -\frac{1}{2}gt^2 + v_0 t - h
+\end{align*}
+
+\large
 \BI
-\item One question where you will need to interpret the two roots given to you by the quadratic formula (like Question 5 from HW1)
-\BS
-\item Motion with constant acceleration in one dimension (what you did for HW1: roadrunner problem, elevator problem)
-\BS
-\item Motion with constant acceleration in two dimensions (what we are doing today and next Tuesday, and on HW2: cannon problem, dog problem)
-\BS
-\item Interpretation of position/velocity/acceleration graphs (HW1, bicycle problem)
-\EI
+\item{$\rightarrow$ {\color{Red}You need the quadratic formula for this -- nonzero $a$, $v_0$, and position}}
+\item{The quadratic formula gives you two answers, but there's clearly only one}
+\item{In this case, both roots are positive. Do you want (A) the larger one, or (B) the smaller one?}
 \pause
-}
-
-\frame{\frametitle{\textbf{Quiz 1}}
-\BS
-Review opportunities specifically for the quiz:
-
-\BI
-\item next Wednesday, 4PM-7PM, on Zoom (link provided next week)
-\item next Thursday, first 20 minutes of class
-\EI
-
-\BS
-The quiz itself:
-\BI
-\item A PDF will be posted at 11:20 AM on the website and on Blackboard; it will be due at 12:20 PM (end of class). We will have a grace period to accommodate people scanning and submitting things.
-
-\BS
-
-\item Four options to take it:
-\begin{enumerate}
-	\item Write the answers on your own paper, scan them, and submit them
-	\item Print the PDF, write the answers on it, scan it, and submit it
-	\item Write the answers on the PDF using a tablet and submit a PDF
-	\pause
-	\item Limited capacity to take the quiz in person; if you might be interested, tell me now (gauging interest; instructions to come)
-	\pause
-	ODS students will get extra time; we'll figure that out and give you instructions next week.
-	\end{enumerate}
+\item{The homework asks you to address this idea.}
+\item{Hint: graph position vs. time, and interpret the question graphically}
+\item{What is the {\it mathematical} interpretation of the quadratic formula?}
 \EI
 }
 
+\frame{\frametitle{\textbf{Example problems}}
+\Large
+\BC I am standing at the bottom of a hole of depth $h$. Someone throws a ball down to me at speed $v_0$. 
+How fast is it going when it reaches me?\EC
+\bigskip
+\bigskip
+\bigskip
+First: Write equations for $x(t)$ and $v(t)$, putting in the things you know. (Here, take 
+ground level as zero, and downward to be positive.)
+ 
+\bigskip
 
-\frame{\frametitle{\textbf{Vectors}}
-	\large
-	You've been doing math with numbers, which are things that live in one dimension: they only have a magnitude and a sign.
-	
-	\bigskip
-	\bigskip
-	
-	Vectors are things that have a magnitude and a direction: ``arrows in space''
-	
-	\bigskip
-	\bigskip
-	
-	Many of the things we deal with in physics are vectors:
-	\BI
-	\item{{\color{Red}Position}}
-	\pause
-	\item{(and its derivatives: {\color{Red}velocity} and {\color{Red}acceleration})}
-	\pause
-	\item{{\color{Red}Force, momentum}}
-	\EI
-	\bigskip
-	\bigskip
-	\pause
-	So, we need to learn to do math with arrows.
-	\BI
-	
-	\item{We indicate that an object is a vector by writing an arrow over it: ``the vector $\vec V$''.}
-	\item{``Scalar'': object that isn't a vector (mass, time)}
-	\item{Equations can mix vectors and scalars: $\vec F = m \vec a$.}
-	\item{... or $\vec s = \frac{1}{2}\vec a t^2 + \vec v_0 t + \vec s_0$}
-	\EI
+\color{A}A: $x(t) = \frac{1}{2}gt^2$ and $v(t) = -gt$  \\ 
+\color{B}B: $x(t) = -\frac{1}{2}gt^2 + v_0 t + h$ and $v(t) = -gt$  \\ 
+\color{C}C: $x(t) = \frac{1}{2}gt^2 + v_0 t$ and $v(t) = gt + v_0$  \\ 
+\color{D}D: $x(t) = \frac{1}{2}gt^2 - v_0 t$ and $v(t) = -gt$  \\ 
+\color{E}E: $x(t) = -\frac{1}{2}gt^2 - v_0 t$ and $v(t) = -gt$  \\ 
+
 }
 
-\frame{\frametitle{\textbf{Notation}}
-	
-	\Large
-	
-	\BI
-	\item $\vec A$: ``the vector A'' (a vector)
-	\item $A$: ``the magnitude of A'' (a scalar)
-	\item $\hat A$: ``the direction A points in'' (a vector with magnitude 1)
-	\item $A_x$: the component of A along the $x-$axis (a scalar)
-	\item $A_y$: the component of A along the $y-$ayis (a scalar)
-	\EI
-}
+\frame{\frametitle{\textbf{Example problems}}
+\Large
+\BC I am standing at the bottom of a hole of depth $h$. Someone throws a ball down to me at speed $v_0$.
+How fast is it going when it reaches me?\EC
+\bigskip
+\bigskip
+\bigskip
+Second: Ask a question in terms of your algebraic variables. (Here, take
+ground level as zero, and downward to be positive.)
 
-\frame{\frametitle{\textbf{Two ways to describe a vector}}
-	\begin{columns}
-		\column{0.5\textwidth}
-		\centerline{\includegraphics[width=0.7\textwidth]{vector-angle-crop.pdf}}
-		\Large
-		\centerline{Angle and direction}
-		\column{0.5\textwidth}
-		\centerline{\includegraphics[width=0.7\textwidth]{vector-components-crop.pdf}}
-		\Large
-		\centerline{X and Y components}
-	\end{columns}
-	\bigskip
-	\bigskip
-	\Large
-	\centerline{How do we convert from one to the other?}
+\bigskip
+
+\color{A}A: ``What is $v$ at the time when $x$ is $h$?'' \\
+\color{B}B: ``What is $v$ at the time when $x$ is 0?''\\
+\color{C}C: ``What is $t$ at the time when $x$ is $h$?''\\
+\color{D}D: ``What is $v$ at the time when $x$ is $-h$?''\\
+\color{E}E: ``What is $x$ at the time when $v$ is 0?''\\
 }
 
 
-\frame{\frametitle{\textbf{How do we convert from one to the other?}}
-	
-	\Huge
-	
-	A: Using algebra\\
-	B: Using trigonometry\\
-	C: Using calculus\\
-	D: Using differential equations\\
+\frame{\frametitle{\textbf{Example problems}}
+\Large
+\BC \Large I am standing at the bottom of a hole of depth $h$. Someone throws a ball down to me at speed $v_0$.
+How fast is it going when it reaches me?\EC
+\bigskip
+\bigskip
+\bigskip
+Third: Do the algebra. I'll demonstrate this on the document camera. This requires two steps: first find 
+the time, then find $v$. 
+
 }
 
-\frame{\frametitle{\textbf{From ``direction and magnitude'' to components}}
-	\centerline{\includegraphics[width=0.6\textwidth]{vector-ang2comp-crop.pdf}}
+\frame{\frametitle{\textbf{Example problems}}
+\Large
+\BI
+\item{A bucket is being lowered from a cliff at a rate of 10 m/s. You drop a rock off the cliff when the bucket is 10 m beneath the top. 
+How long does it take for the rock to land in the bucket?}
+\EI
+\bigskip
+\bigskip
+
+Same idea as before; see example on the document camera.
+
 }
 
-\frame{\frametitle{\textbf{From components to direction and magnitude}}
-	\centerline{\includegraphics[width=0.6\textwidth]{vector-comp2ang-crop.pdf}}
+\frame{\frametitle{\textbf{Rotational kinematics}}
+\Large
+\BI
+\item{Linear motion: care about position as a function of time}
+\item{Rotational motion: care about {\color{Red}angle} as a function of time}
+\item{\bf Everything we just did translates to rotational kinematics exactly!}
+\EI
 }
 
-\frame{
-	
-	\Huge
-	
-	Suppose you have some vector $\vec A$ that you want to convert into components.
-	The $x$-component $A_x$ is:
-	
-	\bigskip
-	
-	A: $A \cos \theta$\\
-	B: $A \sin \theta$\\
-	C: $A \tan \theta$\\
-	D: $\frac{A}{\cos \theta}$\\
-	E: It depends
-	
+\frame{\frametitle{\textbf{Position, velocity, and acceleration}}
+\begin{columns}
+\column{0.125\textwidth}
+\centerline{\Large Position}
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+{\color{Green}
+\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+\color{Green}\centerline{area under the curve of}
+\color{Green}\centerline{(integral of)}
+\column{0.125\textwidth}
+\centerline{\Large Velocity}
+\pause
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+{\color{Green}
+\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+\color{Green}\centerline{area under the curve of}
+\color{Green}\centerline{(integral of)}
+\column{0.15\textwidth}
+\centerline{\Large Acceleration}
+\end{columns}
 }
 
-\frame{\frametitle{\textbf{A warning!}}
-	
-	\centerline{\Large{You cannot memorize ``$V \sin \theta$ is the $y$ component,}}  
-	\centerline{\Large{$V \cos \theta$ is the $x$ component''!}}
-	\bigskip
-	\bigskip
-	\centerline{\Large{This does {\it not} work in general; you have to actually draw the triangle.}}
+\frame{\frametitle{\textbf{Angle, angular velocity, and angular acceleration}}
+\begin{columns}
+\column{0.125\textwidth}
+\centerline{\Large Angle}
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+{\color{Green}
+\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+\color{Green}\centerline{area under the curve of}
+\color{Green}\centerline{(integral of)}
+\column{0.125\textwidth}
+\begin{center}
+\Large Angular velocity ($\omega$)
+\end{center}
+\pause
+\column{0.2\textwidth}
+\small
+{\color{Red}
+\centerline{(derivative of)}
+\centerline{rate of change of}
+\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+{\color{Green}
+\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+\color{Green}\centerline{area under the curve of}
+\color{Green}\centerline{(integral of)}
+\column{0.15\textwidth}
+\begin{center}
+\large Angular acceleration ($\alpha$)
+\end{center}
+\end{columns}
+
+\Large
+\bigskip
+\bigskip
+\bigskip
+
+\pause
+
+$$ x(t) = x_0 + v_0 t + \frac{1}{2}at^2 $$
+
+$$ \theta(t) = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2 $$
+
+\pause
+
+\bigskip
+
+$\rightarrow$ Angular kinematics works in exactly the same way as translational kinematics!
+
 }
 
-\frame{\frametitle{\textbf{Adding vectors}}
-	We can also add vectors together by drawing them ``head to tail''. Here are two vectors:
-	
-	\bigskip
-	\bigskip
-	
-	\begin{columns}
-		\column{0.5\textwidth}
-		\centerline{\includegraphics[width=0.6\textwidth]{vshow-crop.pdf}}
-		\column{0.5\textwidth}
-		\centerline{\includegraphics[width=0.6\textwidth]{vshow-crop.pdf}}
-	\end{columns}
+\frame{\frametitle{\textbf{Angle, angular velocity, and angular acceleration}}
+\large
+\BI
+\item{Angle $\theta$ -- the angle through which something has turned.}
+\item{Measured in revolutions, radians, degrees...}
+\bigskip
+\bigskip
+\bigskip
+\item{Angular velocity $\omega$ (``omega'', not ``dubya'') -- the rate at which something is turning} 
+\item{Measured in revolutions per second, radians per second, degrees per second...}
+\bigskip
+\bigskip
+\bigskip
+\item{Angular acceleration $\alpha$ (``alpha'', not ``fish'') -- the rate at which something's rate of turning is changing} 
+\item{Measured in $\frac{\rm rev}{\rm s^2}$, $\frac{\rm rad}{\rm s^2}$, $\frac{\rm deg}{\rm s^2}$...}
+\EI
 }
-
-\frame{
-	\centerline{\Large Does $\vec A + \vec B = \vec B + \vec A$?}
-	
-	\bigskip
-	\bigskip
-	\bigskip
-	
-	\Large
-	
-	\BI
-	\item{A: Yes}
-	\item{B: No}
-	\EI
-	
-	\pause
-	
-	\bigskip
-	\bigskip
-	\bigskip
-	
-	Yes: vector addition obeys the commutative property, just like ordinary addition
-}
-
-\frame{\frametitle{\textbf{Adding vectors}}
-	\centerline{We can also add vectors together by drawing them ``head to tail''. Here are two vectors:}
-	
-	\bigskip
-	\bigskip
-	
-	\begin{columns}
-		\column{0.5\textwidth}
-		\centerline{\includegraphics[width=0.6\textwidth]{vshow-crop.pdf}}
-		\column{0.5\textwidth}
-		\centerline{\includegraphics[width=0.6\textwidth]{vadd-crop.pdf}}
-	\end{columns}
-	
-	\bigskip
-	\bigskip
-	
-	\Large \centerline{$\color{Red}\vec A + \color{Green} \vec B = \color{Blue} \vec C$}
-	
-}
-
-\frame{\frametitle{\textbf{Adding vectors: components}}
-	\centerline{\Large The component representation is much easier to work with!}
-	
-	\Huge\centerline{$\color{Red}\vec A + \color{Green} \vec B = \color{Blue} \vec C \color{Black} \rightarrow {\color{Red} A_x + \color{Green} B_x = \color{Blue} C_x \choose \color{Red} A_y + \color{Green} B_y = \color{Blue} C_y}$}
-}
-
-\frame{\frametitle{\textbf{Adding vectors: components}}
-	\centerline{\includegraphics[width=0.4\textwidth]{vaddc-crop.pdf}}
-	
-	\large
-	\bigskip
-	
-	\centerline{To add two vectors, just add their components!}
-	
-	\bigskip
-	
-	\centerline{This is why it is almost always easiest to work in the component representation!}
-}
-
-\frame{\frametitle{\textbf{What does this do to our kinematics?}}
-	\large Acceleration, velocity, and position relationships are still the same; they just apply {\color{Red}independently} for each component.
-	\Large
-	
-	\begin{align*}
-	\vec v(t) =&\, \vec at + \vec v_0 \\
-	\vec s(t) =&\, \frac{1}{2}\vec a t^2 + \vec v_0 t + \vec s_0
-	\end{align*}
-	
-	\pause
-	
-	\begin{align*}
-	\vec v_x(t) =&\, a_x t + v_{x,0} \\
-	\vec v_y(t) =& a_y t + v_{y,0} \\
-	\end{align*}
-	\pause
-	\begin{align*}
-	\vec x(t) =&\,  \frac{1}{2}  a_x t^2 + v_{x,0} t + x_0\\
-	\bigskip
-	\vec y(t) =&\, \frac{1}{2}  a_y t^2 + v_{y,0} t + y_0
-	\end{align*}
-}
-
-
-\frame{
-	\centerline{\Large Which statement does {\it not} make sense?} 
-	
-	\bigskip
-	\bigskip
-	\bigskip
-	
-	\Large
-	
-	\BI
-	\item{a. $\vec A t = \vec B$}
-	\item{b. $\vec A + \vec B + t = \vec C$}
-	\item{c. $k(\vec A + \vec B) = k\vec A + k\vec B$}
-	\item{d. $\vec A - \vec B = \vec C$}
-	\EI
-	
-	\pause
-	
-	\bigskip
-	\bigskip
-	\bigskip
-	
-	B: You can't add a vector and a scalar. ``One mile north plus one inch'' -- which way is the inch?
-}
-
-\frame{\frametitle{\textbf{Problem solving: 2D kinematics, constant acceleration}}
-	\Large
-	\begin{enumerate}
-		\item{1. If you have vectors in the ``angle and magnitude'' form, convert them to components}
-		\item{2. Write down the kinematics relations, separately for $x$ and $y$}
-		\begin{itemize}
-			\large
-			\item{Many terms will usually be zero}
-			\item{Freefall: $a_x = 0$, $a_y = -g$ (with conventional choice of axes)}
-		\end{itemize}
-		\item{3. Understand what instant in time you want to know about}
-		\item{4. Put in what you know; solve for what you don't (using substitution, if necessary)}
-		\item{5. Convert vectors into whatever format the problem asks for}
-	\end{enumerate}
-	\pause
-	
-	\bigskip
-	\bigskip
-	
-	
-	
-	\centerline{\Large{\color{Red}Every kinematics problem we will encounter can be done this way!}}
-}
-
-\frame{\frametitle{\textbf{Sample problems}}
-	\centerline{\Large{A rock is thrown at $v_0=10 m/s$ at $\theta=30^\circ$ above the horizontal.}}
-	
-	\bigskip
-	\bigskip
-	
-	\begin{itemize}
-		\large
-		\item{How far from its starting point is it after 2 seconds?}
-		\pause
-		\item{How far does it travel?}
-		\pause
-		\item{How high does it go?}
-		\pause
-		\item{What will its speed be when it strikes the ground?}
-	\end{itemize}
-}
-
-
-
-
 \end{document}
 

@@ -1,0 +1,545 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{mwe}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BS{\bigskip}
+\def\BC{\begin{center}}
+\def\EC{\end{center}}
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+\newcommand{\vcenteredinclude}[1]{\begingroup
+  \setbox0=\hbox{\includegraphics[width=3in]{#1}}%
+\parbox{\wd0}{\box0}\endgroup}
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title{
+  \textbf {Review and recap}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2019\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+  \Large
+Extra office hours and reviews ahead of the exam:
+\BI
+\item Today, 4-8, Physics 208
+\item Tomorrow, 10-3, Physics 106 
+\item Friday, 10-4, Link 114 
+\BI
+\item Note: I am sick and have to sing a concert this weekend. If my voice gives out this review may be led by someone else or rescheduled; I'll do my best!
+\EI
+\item This is a large amount of extra help for you -- please use it!
+\EI
+\BS
+\BS
+Homework 9 due today; no late penalties until Thursday.
+
+\BS
+
+If you forgot to turn in your paper, get on that :)
+}
+
+
+
+\frame{\frametitle{\textbf{Final exam format}}
+  \Large
+\BI
+\item Biased toward Units 3 (conservation laws) and 4 (torque)
+\item Expect a focus on broad concepts, especially from Units 1 and 2
+\item Expect things like:
+\BI
+\large
+\item Sometimes/always/never questions
+\item Positive/negative/zero questions
+\item ``I give you the solution; you point out the error''
+\item Dimensional analysis/reasoning with units
+\item Fermi problem
+\EI
+\pause\BS
+\item We will provide you the reference sheet for the exam; if there's anything you want on it, let me know!
+\EI
+}
+
+\frame{\frametitle{\textbf{Kinematics concepts}}
+  \large
+  \BI
+\item{First derivative of position is velocity; second derivative is acceleration}
+\item{Kinematics lets us connect acceleration, velocity, position, and time}
+\item{If $\vec a$ is constant:}
+
+  \begin{align*}
+    s(t) =& s_0 + v_0 t + \frac{1}{2} a t^2 \\
+    v(t) =& v_0 + at \\
+    v_f^2 - v_0^2 =& 2a\Delta x
+  \end{align*}
+
+\item{These relations hold separately and independently in $x$ and $y$}
+\item{Acceleration is $g$ downwards {\bf if and only if} an object is in freefall}
+\EI
+}
+
+\frame{\frametitle{\textbf{Kinematics sample problem: the ball-and-table problem}}
+  \Large
+
+A ball rolls off of a table of height $h$ at speed $v$. How far does it go?
+
+}
+
+\frame{\frametitle{\textbf{Use kinematics when:}}
+    \Large
+    \BI
+  \item{You need to connect some combination of position, velocity, acceleration, and time}
+  \EI
+
+}
+
+\frame{\frametitle{\textbf{Force concepts and Newton's second law}}
+    \large
+    \BI
+  \item{Newton's second law relates the net force $\sum \vec F$ to the acceleration $\vec a$ of the center of mass of an object}
+  \item{If an object both rotates and moves, $\vec F=m\vec a$ gives you $\vec a$ of the center of mass}
+  \item{Newton's third law: forces come in pairs}
+  \item{Some forces you should know about:}
+    \BI
+  \item{Normal forces: as big as they need to be}
+  \item{Friction: $F_{\rm{fric, static, max}} = \mu_s F_N$, $F_{\rm{fric, kinetic}}=\mu_k F_N$}
+  \item{Traction: a type of static friction, points in direction chosen by the
+vehicle}
+  \item{Elastic: $F=-k\Delta x$}
+  \item{Gravity (Earth): $F=mg$ downward}
+  \item{Gravity (general): $F=\frac{Gm_1m_2}{r^2}$}
+  \item{Tension: A rope pulls on both ends}
+    \EI
+    \EI
+  }
+
+  \frame{\frametitle{\textbf{Force diagrams}}
+    \Large
+    \BI
+  \item{Draw all forces acting on the object, as vectors}
+  \item{If you're going to care about torque, draw the whole object and draw the forces where they act}
+  \item{Gravity acts at the center of mass}
+  \item{Draw these diagrams big enough that you can read them clearly and do trig}
+    \EI
+  }
+
+\frame{\frametitle{\textbf{Uniform circular motion}}
+  \Large
+  \BI
+\item{If an object is traveling in a circle, you know its acceleration is $a_c = \omega^2 r = \frac{v_T^2}{r}$ toward the center}
+\item{Often this will ``give you'' the right side of $F=ma$, and let you conclude something about the left}
+  \EI
+}
+  \frame{\frametitle{\textbf{Use Newton's second law when:}}
+    \Large
+    \BI
+  \item{You need to connect the forces on an object to its acceleration}
+  \item{If you don't need $\vec a$ directly, and don't care about time, maybe use energy methods instead?}
+    \EI
+  }
+
+
+  \frame{\frametitle{\textbf{Sample problem: the eraser in the tube}}
+    \Large
+What angular frequency is required to make the eraser not fall?
+  }
+
+  \frame{\frametitle{\textbf{The work-energy theorem and conservation of energy}}
+    \large
+    \BI
+  \item{Work-energy theorem comes from the third kinematics relation}
+  \item{Two formulations, one with potential energy and one without:}
+    \BI
+  \item{$KE_i + W_{\rm{all}} = KE_f$}
+  \item{$KE_i + PE_i + W_{\rm{other}} = KE_f + PE_f$}
+    \EI
+  \item{Draw {\it clear} before and after snapshots}
+  \item{Figure out work done in going from one to the other}
+  \item{Work = $\vec F \cdot d\vec s$}
+    \EI
+  }
+
+ \frame{\frametitle{\textbf{Use energy methods when:}}
+      \Large
+      \BI
+    \item{You don't know and don't care about time}
+    \item{You can account for the work done by all forces involved}
+    \item{This is {\bf not} true at the instant of a collision -- use momentum instead}
+      \EI
+    }
+
+    \frame{\frametitle{\textbf{Sample problem: energy}}
+      \Large
+A ball rolls down a hill of height $h$ and across a table. 
+How fast is it moving at the 
+edge of the table?    
+}
+
+  \frame{\frametitle{\textbf{Conservation of momentum}}
+      \BI
+    \item{In the absence of external forces, $\vec p = m\vec v$ is conserved}
+    \item{This is a consequence of Newton's third law}
+    \item{Collisions and explosions are short enough that external forces are small}
+    \item{Momentum is a vector and is conserved separately in $x$ and $y$}
+      \EI
+    }
+
+  \frame{\frametitle{\textbf{Use conservation of momentum when:}}
+        \Large
+        \BI
+      \item{You have a collision or explosion and need to connect the velocities before to the velocities after}
+        \EI
+      }
+
+   \frame{\frametitle{\textbf{Rotation}}
+          \Large
+          Many ideas here, most analogous to translational motion:
+\large
+\BI
+\item{Torque plays the role of force: $\tau = F_\perp r = F r_\perp$}
+\item{Moment of inertia plays the role of mass: $I = \lambda mr^2$}
+\item{$\vec F = m \vec a \rightarrow \tau = I \alpha$: ``Newton's second law for rotation''}
+\item{Rolling motion is translation plus rotation: $v = \pm \omega r$, $a = \pm \alpha r$}
+\item{\bf You must think about the signs here}
+\item{Rotational kinetic energy: $KE_{\rm{rot}} = \frac{1}{2} I \omega^2$}
+\item{Angular momentum: $L = I \omega$}
+  \EI
+}
+
+\frame{\frametitle{\textbf{Static equilibrium problems}}
+  \Large
+  \BI
+\item{Net torque is zero about any pivot}
+\item{Net force is zero (you may not need this)}
+\item{Torque due to any force applied {\bf at} the pivot is zero}
+\EI
+}
+
+\frame{\frametitle{\textbf{The process of science}}
+\Large
+
+Properties of scientific thought:
+\normalsize
+\BI
+\item Empiricism: science relies on the natural world itself as the only true authority
+\item Self-skepticism: people making scientific claims should search for and engage with potentially refuting evidence
+\item Universality: the laws of nature apply everywhere and everywhen, and to all things equally
+\item Objectivity: scientific ideas are independent of any particular human perspective
+\EI
+
+\BS
+\Large
+Ways that this can go wrong:
+\normalsize
+\BI
+\item Cherry-picking
+\item Arguments ad hominem (``they're wrong because they're ugly'') or from authority (``they're right because they have a fancy degree'')
+\item Bad statistics / publication bias
+\item Ignoring refuting evidence 
+\item Manufactured controversy
+\item Arguments from sensationalism (``XYZ is true {\it because} it's exciting'')
+\item ... and others
+\EI
+}
+
+\frame{\frametitle{\textbf{Final reminders}}
+  \large
+  \BI
+\item{Huge amounts of extra review available; use it}
+\item{Get some rest during finals week and take care of yourselves}
+\item{If you're affected by the Calc/Physics exam scheduling nonsense, tell SU!}
+\EI
+}
+
+\frame{\frametitle{\textbf{The power of mechanics}}
+\large
+The things we've studied in this class are more powerful than you think. 
+
+If you call up a chemist, she'll tell you the approximate force law between two noble gas atoms:
+
+$$ F(r) = \frac{\alpha}{r^{12}} - \frac{\beta}{r^6} $$
+
+Put this into a computer and let it go:
+
+\pause\bigskip
+
+\centerline{\color{Red}We can understand freezing, melting, and boiling just with $\vec F = m \vec a!$}
+
+\centerline{\color{Red}... we can even get the ideal gas law for free along the way!}
+}
+
+
+\frame{\frametitle{\textbf{The rest of physics}}
+\large
+The other disciplines of physics are variants on what you've learned already:
+
+\BI
+\item Electromagnetism (PHY 212) introduces a new force -- just another $\vec F$
+\item All you'll do in that class is apply the work-energy theorem and so on to this new force
+\BI
+\item Light is just a particular manifestation of that force
+\EI
+\item Statistical mechanics uses statistics to understand 
+$\vec F = m\vec a$ acting on a great many particles at once
+\item Relativity mixes up space and time, changing the coordinates on us
+\item Quantum mechanics mixes up ``particle'' and ``wave''
+\EI
+
+Each of these disciplines is supported by a ``three-legged stool'':
+
+\BI
+\item Theory: understanding principles and using pen and paper to study them in simple situations (this class)
+\item Experiment: designing tests for these principles and building machines to carry them out (221)
+\item Computation: using computers to simulate those principles in more complicated situations and study their consequences (my field and class in the fall)
+\EI
+}
+\frame{\frametitle{\textbf{Two invitations}}
+\Large
+\BC
+Like what you've done here? We have multiple options for you to study more physics!
+\EC
+
+You could get a {\color{Red}physics minor}. This involves:
+
+\BI
+\item Physics 211 (you have this now!)
+\item Physics 212 (you will probably take this next semester!)
+\item Four more classes at the 300 level of your choice. For instance:
+\BI
+\item Biophysics: the physics of living things -- how do cells do what they do?
+\item Cosmology: the history and future of the Universe!
+\item Astrophysics
+\item Computational physics (my class in the fall -- all of you are qualified!)
+\item Modern physics (quantum mechanics, relativity, atoms)
+\item Waves and vibrations: light and sound
+\item Advanced laboratory 
+\item ... and others I'm forgetting!
+\EI
+\EI
+}
+
+
+\frame{\frametitle{\textbf{Two invitations}}
+\Large
+\BC
+... or maybe you want to be a physics major! (Come to the dark side -- we have both cookies and the cheat-codes to the Universe!)
+
+
+\EC
+
+
+\begin{columns}
+
+\column{0.5\textwidth}
+\color{Green}
+\Large
+\BC Bachelor of Arts\EC
+\small      
+
+This degree program prepares you for jobs in industry,
+and is also a great double major option with engineering,
+computer science, education, and all sorts of things:
+
+\BI
+\color{Green}
+\item Physics 211/212
+\item 300-level class on modern physics (quantum mechanics, relativity, atoms -- the good stuff!)
+\item 300-level lab class
+\item 5 more elective classes (astrophysics, computational physics, biophysics, cosmology... lots of stuff)
+\item 30 physics credits total (you have four, plus four if you took AST101)
+\EI
+
+
+\column{0.5\textwidth}
+\color{Blue}
+\Large
+\BC Bachelor of Science\EC
+\small     
+\color{Blue}
+
+This degree program prepares you for the most technically demanding 
+industry jobs, as well as graduate study in physics or related fields.
+
+It is also a good double major option for other STEM fields, in particular
+engineering (there are overlaps in the required classes)
+
+\BI
+\color{Blue}
+\item Physics 211/212
+\item 300-level class on modern physics (quantum mechanics, relativity, atoms -- the good stuff!)
+\item 300-level lab class
+\item Rigorous courses in computational physics, electromagnetism, quantum mechanics, thermodynamics, and others
+\item 39 physics credits total (you have four now!)
+\EI
+
+\end{columns}
+}
+
+\frame{\frametitle{\textbf{Two invitations}}
+\Large
+
+If you've done reasonably well in this course, and have strong communication skills, Physics 211 wants to offer you a job!
+
+\BS
+
+We're always looking for good people to work for us as coaches in future years. Want to help next year's class, have fun,
+earn some money, and {\color{Red}get a job that looks great on your resume?}
+
+\BS\pause
+
+Come talk to us!
+
+}
+
+
+\frame{\frametitle{\textbf{And, finally...}}
+  \Large
+... thank you all; you have been an absolutely wonderful class. You've done challenging things, learned a vast 
+amount, and I'm proud of all of you.
+
+\pause
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\centerline{``Science is the belief in the ignorance of experts.'' (R. Feynman)}
+
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+
+
+\centerline{``All science is either physics or stamp collecting.'' (E. Rutherford)}
+}
+\frame{\frametitle{\textbf{I leave you with two quotes...}}
+\pause
+``A poet once said, 'The whole universe is in a glass of wine.'...  [I]f we look at a glass of wine closely enough we see the entire universe. 
+There are the things of physics: the twisting liquid which evaporates depending on the wind and weather, the reflection in the glass; and our imagination adds atoms. 
+The glass is a distillation of the earth's rocks, and in its composition we see the secrets of the universe's age, and the evolution of stars. 
+What strange array of chemicals are in the wine? 
+How did they come to be?... 
+If our small minds, for some convenience, divide this glass of wine, this universe, into parts -- physics, biology, geology, astronomy, psychology, 
+and so on -- remember that nature does not know it! So let us put it all back together, not forgetting ultimately what it is for. Let it give us one more final pleasure; drink it and forget it all!''
+
+\bigskip
+\bigskip
+
+\pause
+
+``Poets say science takes away from the beauty of the stars -- mere globs of gas atoms. Nothing is "mere". I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination -- stuck on this carousel my little eye can catch one-million-year-old light. A vast pattern -- of which I am a part... What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined!''
+
+\bigskip
+
+--Richard Feynman, from {\em Lectures on Physics}
+}
+
+\frame{
+\BC
+\Huge
+Thanks for a wonderful semester!
+\EC
+}
+
+\end{document}

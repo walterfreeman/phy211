@@ -7,6 +7,16 @@ title: Announcements
 
 Welcome to Physics 211! This website contains everything you'll need for our class; Blackboard will only be used to post grades.
 
+### Slides for current class
+
+<a href="slides/lec1/lecture1.pdf">Welcome and introduction</a>
+
+### Upcoming assignments
+
+* Join the course Discord server if you are so inclined
+* Go to recitation tomorrow and meet your TA, coaches, and peers
+* Go sled down the hill on Crouse!
+
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 
 - Discord server invite: <https://discord.gg/bngYwjZRHk>
@@ -27,7 +37,6 @@ Welcome to Physics 211! This website contains everything you'll need for our cla
 
 ### Materials
 
-Our textbook is the open-access book *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. 
-This is an open-access textbook available to anyone under the terms of the CC-BY 4.0 license.<a href="https://openstax.org/details/books/university-physics-volume-1">You may access the textbook online or download it for free here</a>. 
+Our textbook is the open-access book *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. <a href="https://openstax.org/details/books/university-physics-volume-1">You may access the textbook online or download it for free here</a>. 
 
 

@@ -10,7 +10,7 @@
 \usepackage{epsf}
 %\usepackage{pstricks}
 %\usepackage[orientation=portrait,size=A4]{beamerposter}
-\geometry{paperwidth=180mm,paperheight=120mm}
+\geometry{paperwidth=160mm,paperheight=120mm}
 %DT favorite definitions
 \def\LL{\left\langle}	% left angle bracket
 \def\RR{\right\rangle}	% right angle bracket
@@ -67,12 +67,10 @@
 \definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
 \definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
 \definecolor{Red}           {cmyk}{0,1,1,0}
-\definecolor{Key}           {cmyk}{0,1,0,0}
 \definecolor{Grey}           {cmyk}{.7,.7,.7,0}
 \definecolor{Lg}           {cmyk}{.4,.4,.4,0}
 \definecolor{Blue}          {cmyk}{1,1,0,0}
 \definecolor{Green}         {cmyk}{1,0,1,0}
-\definecolor{White}         {cmyk}{0,0,0,0}
 \definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
 \definecolor{Black}         {cmyk}{0,0,0,1}
 \definecolor{A}{rgb}{0.8,0.0,0.0}
@@ -92,7 +90,7 @@
 \setbeamercolor{title}{fg=abtitlecolor}
 \setbeamercolor{frametitle}{fg=abtitlecolor}
 \setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
-\setbeamercolor{palette secondary}{fg=white,bg=B}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
 \setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
 \setbeamercolor{structure}{fg=abtitlecolor}
 
@@ -110,7 +108,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Syracuse University, Physics 211 Spring 2021\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
 
 \date{\today}
 
@@ -132,13 +130,6 @@ Forces and Motion\\
 
 \bigskip
 
-Walter Freeman, professor\\
-Mario Olivares, lead TA\\
-Adam Aly, lead coach
-
-
-\bigskip
-
 Course webpage:
 
 \Huge
@@ -146,25 +137,47 @@ http://walterfreeman.github.io/phy211/
 \end{center}
 }
 
+\frame{
+	
+	\Large
+	\BC
+	
+	Course Discord server: \url{https://discord.gg/bngYwjZRHk}
+	
+	(link also on the webpage)
+	
+	\BS\BS
+
+\includegraphics[width=0.4\textwidth]{discord-qr.png}
+
+\BS\BS
+
+
+Come say hi; I and our teaching staff monitors this server and can provide assistance
+pretty quickly most of the time.
+
+
+\BS\BS
+
+\EC
+
+}
+
+	
+	
+
 \frame{\frametitle{\textbf{Overview of today}}
 
 \Large
 
 \begin{itemize}
 \item{Introduction to physics and mechanics}
-\item{Course organization / syllabus /navigating the online world}
+\item{Course organization / syllabus}
 \item{How to succeed in this course}
 \item{{\color{Green}} Describing the physical world: the SI system}
 \item{{\color{Red}} Mathematics in the context of physics}
 \end{itemize}
 }
-{
-\setbeamercolor{background canvas}{bg=Key}
-\frame{\frametitle{\textbf{What is physics?}}
-}
-
-\setbeamercolor{background canvas}{bg=White}
-
 
 \frame{\frametitle{\textbf{So what is this class?}}
 
@@ -172,22 +185,13 @@ http://walterfreeman.github.io/phy211/
 \begin{center}
 Physics: what are the fundamental laws of nature?
 
-\BS
-
-\includegraphics[width=0.18\textwidth]{sun.jpg}
-\includegraphics[width=0.18\textwidth]{rocket.jpg}
-\includegraphics[width=0.18\textwidth]{crab-nebula.jpg}\\
-\includegraphics[width=0.18\textwidth]{lightning.jpg}
-\includegraphics[width=0.18\textwidth]{snowflake.jpg}
-\includegraphics[width=0.18\textwidth]{hurricane.jpg}\\
-
-\large
-
-These phenomena are all governed by the {\it same few principles}...
-
-\BS
-
-... and tend to manifest {\it similar patterns} that can be understood in {\it similar ways}.
+\includegraphics[width=0.27\textwidth]{sun.jpg}
+\includegraphics[width=0.27\textwidth]{rocket.jpg}
+\includegraphics[width=0.27\textwidth]{crab-nebula.jpg}\\
+\includegraphics[width=0.27\textwidth]{lightning.jpg}
+\includegraphics[width=0.27\textwidth]{snowflake.jpg}
+\includegraphics[width=0.27\textwidth]{hurricane.jpg}\\
+These phenomena are all governed by the {\it same few principles}.
 \end{center}
 }
 
@@ -210,7 +214,7 @@ The answer is given by Isaac Newton's second law of motion:
 \bigskip
 
 \begin{center}
-\Large {\color{Blue} ``Objects accelerate when pushed by forces; they accelerate in the direction of the force, proportional to the size of the force, but inversely proportional to their mass.''}
+\Large {\color{Blue} ``Objects accelerate when pushed by forces; they accelerate in the direction of the force, proportional to the size of the force divided by their mass.''}
 \end{center}
 \normalsize
 
@@ -219,107 +223,83 @@ The answer is given by Isaac Newton's second law of motion:
 \large
 That's it. We will spend much of our class talking about the meaning and consequences of this one statement.
 
+\BS\pause
+
+Let's see an example...
+
+
 }
 
-\setbeamercolor{background canvas}{bg=Key}
-\frame{\frametitle{\textbf{Why study physics?}}
-}
 
-\setbeamercolor{background canvas}{bg=White}
+\frame{\frametitle{\textbf{The physicist's eye}}
 
-\frame{\frametitle{\textbf{Why study physics?}}
-
-
-
-\begin{columns}
-	\column{0.5\textwidth}
-	
-	
-	
-	``The {\bf \color{Red} far-reaching expertise} that physics students develop while receiving their degrees--through exposure to a broad set of skills and techniques--makes them {\bf \color{Red}exceptional problem solvers.} Moreover, their ability to {\bf \color{Red}approach problems from general principles} often means that physicists can {\bf \color{Red}apply their knowledge in novel contexts}, leading to innovative advances in technological development. Their intimate {\bf \color{Red}understanding of the laws of the universe}, along with the ability to harness the {\bf \color{Red}powerful machinery of mathematics to model and predict}, puts physics students in a unique position to tackle some of the world's biggest challenges.''
-	
-	
-	
-	\column{0.5\textwidth}
-	``As a physicist, you have scientific, technical, and problem-solving skills that are valuable in a wide range of employment sectors. You have learned to {\bf \color{Green}approach problems from first principles} and can serve as a {\bf \color{Green}generalist when collaborating on interdisciplinary teams}. You understand how to set up and run experiments, analyze data, and create mathematical or computational models. {\bf \color{Blue}Most importantly, you have the confidence to advance beyond the edge of what is known... This habit of continued learning is a hallmark of a physicist, and greatly valued in all employment sectors.}''
-	
-	
-	
-\end{columns}
-
-\begin{columns}
-	\column{0.5\textwidth}
-	\begin{flushright}
-		--Crystal Bailey, APS Careers 2020
-	\end{flushright}
-	\column{0.5\textwidth}
-	\begin{flushright}
-		--Kate Kirby, APS Careers 2020
-	\end{flushright}
-\end{columns}
-
-}
-%
-%\frame{\frametitle{\textbf{The physicist's eye}}
-%
-%\large
-%
-%Physics is about {\color{Blue} understanding complicated things in terms of simple pieces}, like Newton's law.
-%
-%\pause
-%\bigskip
-%
-%The perspective of physics is one that looks at a situation and asks:
-%
-%\begin{itemize}
-%\item{``What phenomena are involved in this thing?''}
-%\item{``How do they interact to determine its behavior?''}
-%\item ``Where have I seen this pattern before?''
-%\end{itemize}
-%\pause
-%\bigskip
-%
-%In this class, you'll learn about some of those simple pieces, but that's not the important thing.
-%
-%\bigskip
-%
-%You'll also learn the skill of asking those two questions, and develop {\color{Blue}a physicist's perspective for solving problems}.
-%
-%\bigskip
-%
-%This will serve you well in whatever field you pursue, since the ability to quickly look at a problem and understand the crucial 
-%elements is universally helpful.
-%
-%\bigskip
-%
-%\pause
-%
-%\color{Red}It turns out that people with physics training find good jobs all over industry, even in non-STEM fields, because of this skill!
-%
-%}
-
-\frame{\frametitle{\textbf{What is this (and how does it work)?}}
-\centerline{\includegraphics[width=0.8\textwidth]{andromeda.jpg}}
-}
-
-\frame{\frametitle{\textbf{How it works: the physicist's perspective}}
-
-\begin{itemize}
 \large
-\item{Lots and lots of stars...}
-\item{They exert forces on each other through gravity}
+
+Physics is about {\color{Blue} understanding complicated things in terms of simple pieces}, like Newton's law.
+
 \pause
-\item{Those forces cause accelerations: $\vec F = m \vec a$ (don't worry, you'll learn about the arrows)}
-\item{Those accelerations then affect the stars' motion}
-\pause
+\bigskip
+
+The perspective of physics is one that looks at a situation and asks:
+
 \begin{itemize}
-\item{The accelerations change the stars' speed and direction of travel}
+\item{``What phenomena are involved in this thing?''}
+\item{``How do they interact to determine its behavior?''}
 \end{itemize}
-\item{Too many stars to do with pen and paper...}
 \pause
-\item{\href{https://www.youtube.com/watch?v=PWKuMD0rrFA}{... but a computer can do it!}}
-\end{itemize}
+\bigskip
+
+In this class, you'll learn about some of those simple pieces, but that's not the important thing.
+
+\bigskip
+
+You'll also learn the skill of asking those two questions, and develop {\color{Blue}a physicist's perspective for solving problems}.
+
+\bigskip
+
+This will serve you well in whatever field you pursue, since the ability to quickly look at a problem and understand the crucial 
+elements is universally helpful.
+
+\bigskip
+
+\pause
+
+\color{Red}It turns out that people with physics training find good jobs all over industry, even in non-STEM fields, because of this skill!
+
 }
+
+\frame{\frametitle{\textbf{Why study physics?}}
+	
+	\begin{columns}
+		\column{0.5\textwidth}
+		
+		
+		
+		``The {\bf \color{Red} far-reaching expertise} that physics students develop while receiving their degrees--through exposure to a broad set of skills and techniques--makes them {\bf \color{Red}exceptional problem solvers.} Moreover, their ability to {\bf \color{Red}approach problems from general principles} often means that physicists can {\bf \color{Red}apply their knowledge in novel contexts}, leading to innovative advances in technological development. Their intimate {\bf \color{Red}understanding of the laws of the universe}, along with the ability to harness the {\bf \color{Red}powerful machinery of mathematics to model and predict}, puts physics students in a unique position to tackle some of the world's biggest challenges.''
+		
+		
+		
+		\column{0.5\textwidth}
+		``As a physicist, you have scientific, technical, and problem-solving skills that are valuable in a wide range of employment sectors. You have learned to {\bf \color{Green}approach problems from first principles} and can serve as a {\bf \color{Green}generalist when collaborating on interdisciplinary teams}. You understand how to set up and run experiments, analyze data, and create mathematical or computational models. {\bf \color{Blue}Most importantly, you have the confidence to advance beyond the edge of what is known... This habit of continued learning is a hallmark of a physicist, and greatly valued in all employment sectors.}''
+		
+		
+		
+	\end{columns}
+	
+	\begin{columns}
+		\column{0.5\textwidth}
+		\begin{flushright}
+			--Crystal Bailey, American Physical Society, in the Careers 2020 report
+		\end{flushright}
+		\column{0.5\textwidth}
+		\begin{flushright}
+			--Kate Kirby, American Physical Society, in the Careers 2020 report
+		\end{flushright}
+	\end{columns}
+	
+}
+
+
 
 \frame{\frametitle{\textbf{Course structure and syllabus review}}
 \centerline{\Large{Four broad sections:}}
@@ -330,472 +310,443 @@ That's it. We will spend much of our class talking about the meaning and consequ
 \begin{itemize}
 \item{How do we describe motion?}
 \item{How do an object's position, velocity, and acceleration relate?}
-\item{{\color{Red}What about rotational motion?}}
+%\item{{\color{Red}What about rotational motion?}}
 \item{How do we deal with things in two or three dimensions?}
 \end{itemize}
 \pause
 \item{Forces and motion (both sides of $\vec F=m \vec a$)}
 \begin{itemize}
 \item{What kinds of forces are there?}
-\item{{\color{Red}Torque: a rotational counterpart to force, with an equivalent to $\vec F = m \vec a$}}
+%\item{{\color{Red}Torque: a rotational counterpart to force, with an equivalent to $\vec F = m \vec a$}}
 \item{Understanding different physical situations using $\vec F = m \vec a$}
-\item{Collisions and momentum: taking the integral of $\vec F = m \vec a$}
+\item What kinds of forces are required to make things move in different ways?
 \end{itemize}
 \pause
 \item{Conservation laws: when you want to do less math}
 \begin{itemize}
 \item{Energy: a way to simplify solving $\vec F = m \vec a$ when you don't care about time}
 \item{Momentum: a way to simplify problems involving collisions and explosions}
-\item {\color{Red}Rotational energy and angular momentum}
+\item Rotational energy and angular momentum: the equivalents for rotating things
 \end{itemize}
 \item Two more mechanics topics
 \BI
-\item {\color{Red} How forces cause torques, and rotation in more detail}
+\item Rotational motion in detail
+\BI
+\item How do forces cause things to rotate?
+\item What does it mean for an object to {\it roll}?
+\EI
 \item What properties do waves and vibrations have?
+\BI
 \item What happens to waves when they are trapped?
 \item What are the physics of music and musical instruments?
 \item How does this relate to chemistry, biology, and engineering?
 \EI
 
+\EI
+
 
 \end{enumerate}
 }
+%
+%\frame{\frametitle{\textbf{The process of science}}
+%	
+%	\large
+%	
+%	In this class, we won't just be studying the things physics has discovered.
+%	
+%	\bigskip\bigskip
+%	
+%	We'll also be studying {\it what physics, and science more broadly, is.}
+%	
+%	\bigskip\bigskip\pause
+%	
+%	Science has been a uniquely powerful way to learn about our world.
+%	
+%	\bigskip
+%	
+%	It is, at its heart, a way to avoid fooling yourself.\pause
+%	
+%	\bigskip\bigskip
+%	
+%	But this can go wrong in two ways:
+%	
+%	\begin{itemize}
+%		\color{Red}
+%		\item If someone's not careful they might fool yourself or other people (innocent error)
+%		\item If someone's not honest they can disguise phony conclusions as science and deliberately mislead other people (pseudoscience)
+%	\end{itemize}
+%	
+%	\bigskip
+%	
+%	We'll study what science is, what it's not, and how you can protect yourself from \sout{bullshit} flawed scientific reasoning.
+%
+\frame{\frametitle{\textbf{Clickers}}
+\Large
+You all should have gotten a clicker from the bookstore.
 
-\frame{\frametitle{\textbf{The process of science}}
+\pause
+\bigskip
+\bigskip
+\bigskip
 
+... wait, you didn't?
 
-	
-	In this class, we won't just be studying the things physics has discovered.
-	
-	\bigskip\bigskip
-	
-	We'll also be studying {\it what physics, and science more broadly, is.}
-	
-	\bigskip\bigskip\pause
-	
-	Science has been a uniquely powerful way to learn about our world.
-	
-	\bigskip
-	
-	It is, at its heart, a way to avoid fooling yourself.\pause
-	
-	\bigskip\bigskip
-	
-	But this can go wrong in two ways:
-	
-	\begin{itemize}
-		\color{Red}
-		\item If someone's not careful they might fool yourself or other people (innocent error)
-		\item If someone's not honest they can disguise phony conclusions as science\\ and deliberately mislead other people (pseudoscience)
-	\end{itemize}
-	
-	\bigskip
-	
-	We'll study what science is, what it's not, and how you can protect yourself \\from \sout{bullshit} \pause \sout{``alternative facts''} \pause flawed scientific reasoning.
-}
-%
-%\frame{\frametitle{\textbf{Clickers}}
-%\Large
-%You all should have gotten a clicker from the bookstore.
-%
-%\pause
-%\bigskip
-%\bigskip
-%\bigskip
-%
-%... wait, you didn't?
-%
-%\begin{columns}
-%
-%\begin{column}{0.5\textwidth}
-%\end{column}
-%\pause
-%\begin{column}{0.5\textwidth}
-%...Maybe we have some extras...
-%
-%\pause
-%
-%\bigskip
-%
-%\includegraphics[width=0.6\textwidth]{trollface.png}
-%
-%\pause
-%
-%\end{column}
-%\end{columns}
-%\bigskip
-%\bigskip
-%
-%We're using an extremely high-tech, state-of-the-art clicker system in this class.
-%Make sure you get one, and bring it to class every day.
-%\pause
-%\begin{center}
-%	\small \it (This slide will be much less funny if we are out of them!)
-%\end{center}
-%
-%}
-%
+\begin{columns}
 
-\frame{\frametitle{\textbf{Components of this course}}
+\begin{column}{0.5\textwidth}
+\end{column}
+\pause
+\begin{column}{0.5\textwidth}
+...Maybe we have some extras...
 
-	\small
-	\BI
-	\item {\bf Lecture:} Held on Zoom and Twitch Tuesday/Thursday. Please contribute your comments as we go! 
-	\item {\bf Recitation:} Held on Blackboard Collaborate or in person Wednesday/Friday. The most important part of the course!
-	\item {\bf My office hours:} Held on the same Zoom link as class, Tuesday 1:30-4:30 and Friday 9:30-12.
-	\item {\bf TAs' office hours:} Location/time TBD.
-	\EI
-\BS
-Tools everyone will want to use:
-\BI
-\item {\bf Zoom:} -- for lecture and office hours
-\item {\bf Blackboard:} -- you will turn in assignments on Blackboard. Announcements also posted here.
-\item {\bf Course website:} -- \url{walterfreeman.github.io/phy211/}: you can find materials and announcements here, and links to everything
-\item {\bf Blackboard Collaborate:} -- for online recitations
-\EI
+\pause
 
-\BS
-Optional tools that may make your life easier:
+\bigskip
 
-\BI
-\item {\bf Twitch:} -- a less-clunky way to participate in lecture (accounts are free)
-\item {\bf Discord:} -- a popular chat program; the course has a Discord server (invite on the webpage)
-\EI
+\includegraphics[width=0.6\textwidth]{trollface.png}
+
+\pause
+
+\end{column}
+\end{columns}
+\bigskip
+\bigskip
+
+We're using an extremely high-tech, state-of-the-art clicker system in this class.
+Make sure you get one, and bring it to class every day.
+\pause
+\begin{center}
+	\small \it (This slide will be much less funny if we are out of them!)
+\end{center}
 
 }
-
 
 \frame{\frametitle{\textbf{Syllabus review}}
-\url{https://walterfreeman.github.io/phy211/syllabus.html}
+\BI
+\Large
+\item Our philosophy
+\item How grading works
+\item The components of the course
+\item Academic integrity 
+\pause
+\item Dealing with COVID
+\EI
 }
-
-
 
 \frame{\frametitle{\textbf{Recitations}}
 \BI
-\large
-\item{Discussion sections led by your TA}
+\normalsize
+\item{Discussion sections led by TA's and coaches}
 \item{Homework is submitted and returned in recitation}
-\item{{\bf Crucial} for your success in this class}
+\item{{\bf Crucial} for your success in this class} -- more important than anything else
+\pause
+\item {\color{Green}Recitation is not ``support'' for the class meeting}
+\pause
+\item {\color{Red}...the class meeting really exists to get you ready for recitation!}
+\pause
 \EI
 \BS
 \Large
-In recitation, you can:
+In recitation:
 \BI
-\large
-\item{Ask general questions to your TA and your peers}
-\item{You will be assigned groups, work together for a whole unit, and then have a ``group exam''}
-\item{Ask questions about the homework, or work on it in your groups}
+\normalsize
+\item You will work in groups of three on exercises
+\item We'll have lots of teaching staff around to help you
+\item{You will work together for a whole unit and then have a ``group exam''}
 \EI
 
 \BS
 
 \Large Remember:
 \BI
-\large
+\normalsize
 \item{Physics is not about how much you know -- it's about {\bf what you can do}}
 \item{This class isn't about amassing facts; it's about solving problems}
 \item{This takes practice, and the recitations (and the homework) are where you get it}
-\item{The TA's this year are an amazing group; make use of them!}
+\item{We have a large and talented group of instructors this year; make use of them!}
 \EI
 }
 
 \frame{\frametitle{\textbf{The course webpage}}
+\large
+\BI
+\item{All notes, etc., will be posted on the course website}
+\item{I will also post course announcements there}
+\item{The syllabus is posted there, as is a FAQ}
+\item{You really should read the section on the course philosophy in the syllabus}
+\EI
+}
 
-				\large
-		Since Blackboard is so clunky, I maintain a separate website:
-		\begin{center}
-			\url{https://walterfreeman.github.io/phy211/}
-		\end{center}
-		
-		I will post announcements, homework assignments, and recitation materials there.
-		
-		\BS
-		
-		I will also post announcements to Blackboard and send them out by email.
-		
-		\BS
-		
-		I will {\it sometimes} post slides. Other times everything will be on the chalkboard, so we won't have slides.
-		
-		\BS
-		
-		The best reference for class is your own notes.
-		
-		\BS
-		
-		The second-best reference is the video recording of class -- you can get it on Twitch or YouTube.
+\frame{\frametitle{\textbf{How to do well in this class (important!)}}
+\Large
+\centerline{This class isn't about learning facts or memorizing equations!}
+\pause
+\bigskip
+\large
+In this class, we hope you will:
+\BI
+\item{... learn to look at moving things around you in a new, rigorous way}
+\pause
+\item{... learn to solve problems by taking them apart, understanding the parts, and putting them back together again}
+\pause
+\item{... learn to translate between and combine verbal, visual, and mathematical descriptions of things, while still being precise}
+\pause
+\EI
+
+\BS\BS
+
+\centerline{These things are skills, and they all require practice}
+\centerline{... but they also require you to ask questions and ask for guidance!}
+}
+
+\frame{\frametitle{\textbf{How to do well in this class: ask for guidance!}}
+\Large
+\begin{center}
+Some students might come to class, write down everything,
+go home and review, and then spend hours alone working on the homework. They're 
+diligent, good, hardworking students, right?
+\end{center}
+\pause
+
+\bigskip
+
+\centerline{... but this is not the best way to learn skills! Instead, we hope you will:}
+\medskip
+
+\large
+\BI
+\item Ask questions in class (we will often set aside time for homework questions)
+\item{Interrupt me in class and ask questions about the presentation}
+\item {\color{Red}Talk to me, your peers, and the teaching staff on the Discord server}
+\pause
+\item Ask me questions over email
+\item{Come work with us and with your peers in our help sessions}
+\item{Do your homework in the Physics Clinic when you can}
+\EI
+}
+
+\frame{\frametitle{\textbf{Metaphors: sports and music}}
+\large
+
+Learning physics is like learning to play a musical instrument.
+
+\bigskip
+
+The hard part isn't learning the notes -- it's being able to play them, and tell a story with them.
+
+\bigskip
+
+How does studying the piano work?
+
+\begin{itemize}
+\item{Your teacher shows you a few techniques, and gives you a piece to learn to play}
+\item{You take it home, practice it, and get stuck on difficult parts}
+\item{You ask your teacher for advice; they guide you}
+\item{You practice some more}
+\item{You repeat the previous steps until you've mastered the technique and the music}
+\item Over time, you become fluent in music as a new language
+\end{itemize}
+
+\bigskip
+
+Physics is like this. We don't expect you to master everything immediately; physics takes practice, and it's
+okay to get stuck and ask questions. In fact, it's what we expect!
+}
+
+\frame{\frametitle{\textbf{The Physics Clinic}}
+\large
+The Clinic is in room 112; it's a large room with tables, boards, 
+and (usually) a graduate teaching assistant. Often the professors and coaches are there, too.
+
+\bigskip
+
+You can go there whenever the building is open to work in groups on your homework, and
+ask each other and the GTA for help.
+
+\bigskip
+
+I also hold help hours there. They'll fluctuate based on when homework is due. 
+
+\BS
+
+{\color{Red}This week I'll be in the Physics Clinic Tuesday 2-4pm and Friday 12-2pm.}
+
+\bigskip
+
+This is an excellent resource for you to use; why do your homework alone when you can work
+with your peers and instructors? 
+}
+
+\frame{\frametitle{\textbf{The course Discord server}}
+
+Last year the course Discord server was home to a nearly 24-hour 
+conversation, with students getting help from me, the GTA's and coaches, and each other.
+
+\BS
+
+It also became a social space, and many of our students found that
+their classmates are nifty folks.
+
+
+\BC
+\includegraphics[width=0.6\textwidth]{celebration.jpg}
+\EC
+
+
+}
+\frame{\frametitle{\textbf{Office hours}}
+
+\Large
+You're also always free to drop by my office: Physics 215 (the one with the birds on the door)
+
+
+\bigskip
+
+I might not be there, and I might have other urgent stuff to do, but helping students learn is a very high priority, so 
+if I'm around, likely I can drop whatever I'm doing and help you with physics.
 
 }
 
-%
-%\frame{\frametitle{\textbf{How to do well in this class (important!)}}
-%\Large
-%\centerline{This class isn't about learning facts or memorizing equations!}
-%\pause
-%\bigskip
-%\large
-%In this class, we hope you will:
-%\BI
-%\item{... learn to look at moving things around you in a new, rigorous way}
-%\pause
-%\item{... learn to solve problems by taking them apart, understanding the parts, and putting them back together again}
-%\pause
-%\item{... learn to translate between and combine verbal, visual, and mathematical descriptions of things, while still being precise}
-%\pause
-%\EI
-%
-%\BS\BS
-%
-%\centerline{These things are skills, and they all require practice}
-%\centerline{... but they also require you to ask questions and ask for guidance!}
-%}
-%
-%\frame{\frametitle{\textbf{How to do well in this class: ask for guidance!}}
-%\Large
-%\begin{center}
-%Some students might come to class, write down everything,
-%go home and review, and then spend hours alone working on the homework. They're 
-%diligent, good, hardworking students, right?
-%\end{center}
-%\pause
-%
-%\bigskip
-%
-%\centerline{... but this is not the best way to learn skills! Instead, we hope you will:}
-%\medskip
-%
-%\large
-%\BI
-%\item{Interrupt us in class and ask questions}
-%\item{Ask us questions by email}
-%\BI
-%\normalsize
-%\item{I am often by a computer and you will often get a quick reply}
-%\item{You can take cellphone pictures of work and email them to me, too}
-%\EI
-%\item{Come work with us and with your peers in our help sessions}
-%\item{Do your homework in the Physics Clinic when you can}
-%\EI
-%}
-%
-%\frame{\frametitle{\textbf{Metaphors: sports and music}}
-%\large
-%
-%Learning physics is like learning to play a musical instrument.
-%
-%\bigskip
-%
-%The hard part isn't learning the notes -- it's being able to play them, and tell a story with them.
-%
-%\bigskip
-%
-%How does studying the piano work?
-%
-%\begin{itemize}
-%\item{Your teacher shows you a few techniques, and gives you a piece to learn to play}
-%\item{You take it home, practice it, and get stuck on difficult parts}
-%\item{You ask your teacher for advice; she guides you}
-%\item{You practice some more}
-%\item{You repeat the previous steps until you've mastered the technique and the music}
-%\item Over time, you become fluent in music as a new language
-%\end{itemize}
-%
-%\bigskip
-%
-%Learning a sport works the same way.
-%
-%\bigskip
-%
-%Physics is like this. We don't expect you to master everything immediately; physics takes practice, and it's
-%okay to get stuck and ask questions. In fact, it's what we expect!
-%}
-%
-%\frame{\frametitle{\textbf{The Physics Clinic}}
-%\large
-%The Clinic is in room 112; it's a large room with tables, boards, 
-%and (usually) a graduate teaching assistant. Often the professors and coaches are there, too.
-%
-%\bigskip
-%
-%You can go there whenever the building is open to work in groups on your homework, and
-%ask each other and the GTA for help.
-%
-%\bigskip
-%
-%We also hold help hours there:
-%
-%\BI
-%\item Walter: 2-4 Tuesday, 9:30-11:30 Friday (but not this Friday), others TBA
-%\item Matt: 2-4 Friday, others TBA?
-%\EI
-%\bigskip
-%
-%This is an excellent resource for you to use; why do your homework alone when you can work
-%with your peers and instructors? 
-%}
-%
-%\frame{\frametitle{\textbf{Office hours}}
-%
-%\Large
-%You're also always free to drop by our offices:
-%
-%\BI
-%\item Walter: Physics 215 (the one with the birds on the door)
-%\item Matt: Physics 325 (no birds, sorry)
-%\EI
-%
-%\bigskip
-%
-%We might not be there, and we might have other urgent stuff to do, but helping students learn is a very high priority, so 
-%if I'm around, likely I can drop whatever I'm doing and help you with physics.
-%
-%}
-\setbeamercolor{background canvas}{bg=Key}
-\frame{\frametitle{\textbf{Dimensions: what kinds of things do we measure?}}}
-%\large
-%Things in nature aren't just described by numbers; they have an associated {\it dimension},
-%and we measure them using a {\it system of units}.
-%
-%\BS
-%
-%We have three different kinds of dimension:
-%
-%\Large
-%
-%\BI
-%\item {\bf Length}: usually measured in {\bf meters}; also inches, miles, light-years...
-%\item {\bf Mass}: usually measured in {\bf kilograms}; also grams, tonnes...
-%\item {\bf Time}: usually measured in {\bf seconds}; also hours, days...
-%\EI
-%
-%\pause
-%
-%\BS
-%
-%For the Americans: the pound measures {\it force}, not mass. The word 
-%``weight'' means ``force due to gravity''; an object with a mass of
-%one kilogram weighs 2.2 pounds on Earth.
+\frame{\frametitle{\textbf{Dimensions}}
+\large
+Things in nature aren't just described by numbers; they have an associated {\it dimension},
+and we measure them using a {\it system of units}.
+
+\BS
+
+We have three different kinds of dimension:
+
+\Large
+
+\BI
+\item {\bf Length}: usually measured in {\bf meters}; also inches, miles, light-years...
+\item {\bf Mass}: usually measured in {\bf kilograms}; also grams, tonnes...
+\item {\bf Time}: usually measured in {\bf seconds}; also hours, days...
+\EI
+
+\pause
+
+\BS
+
+For the Americans: the pound measures {\it force}, not mass. The word 
+``weight'' means ``force due to gravity''; an object with a mass of
+one kilogram weighs 2.2 pounds on Earth.
 }
 
-\setbeamercolor{background canvas}{bg=Key}
-\frame{\frametitle{\textbf{``It is two hours from Syracuse to Adirondack State Park''}}
-%\Large
-%
-%
-%
-%\BS
-%
-%Does this statement make sense?
-%
-%\Huge
-%
-%\color{A}A: Yes\\
-%\color{B}B: No\\
-%\pause
-%\color{C}C: Only if I tell you something else, too\\
-%
-%\pause
-%
-%\Large
-%\color{Black}
-%\BS
-%\BC
-%I've got to also tell you the car's velocity!
-%\EC
-}
-\setbeamercolor{background canvas}{bg=Key}
-\frame{\frametitle{\textbf{Math and the real world}}
-%
-%\Large
-%
-%\BC
-%
-%``The distance from Syracuse to the Adirondacks is two hours''
-%
-%
-%$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time}$$
-%
-%
-%{\bf This statement makes no sense!}
-%
-%\BS\BS\BS\pause
-%
-%\large
-%``The distance from 'Cuse to the Adirondacks is two hours at 100 km per hour''
-%\Large
-%$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time} \times \frac{\rm \color{Red} Distance}{\rm \color{Green}Time}$$
-%
-%
-%Here the dimensions match on both sides; this is a valid statement.
-%\EC
+\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
+\Large
+
+\BC ``It is two hours from Syracuse to Adirondack State Park'' \EC
+
+\BS
+
+Does this statement make sense?
+
+\Huge
+
+\color{A}A: Yes\\
+\color{B}B: No\\
+\pause
+\color{C}C: Only if I tell you something else, too\\
+
+\pause
+
+\Large
+\color{Black}
+\BS
+\BC
+I've got to also tell you the car's velocity!
+\EC
 }
 
+\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
 
-\frame{\frametitle{\textbf{Algebra with units: velocity}}
-%
-%\large
-%Units of measure (km, hours) follow the rules of algebra.
-%
-%\Large
-%\begin{align*}
-%s &= (2 \,{\rm \color{Red}hr}) \times \frac{100\, \rm km}{1\, \rm \color{Red} hr}\\
-%s &= 200 \rm\, km
-%\end{align*}
-%
-%\BS
-%
-%Velocity is thus a length divided by a time: km/hr, m/s, etc. What about acceleration?
+\Large
+
+\BC
+
+``The distance from Syracuse to the Adirondacks is two hours''
+
+
+$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time}$$
+
+
+{\bf This statement makes no sense!}
+
+\BS\BS\BS\pause
+
+\large
+``The distance from 'Cuse to the Adirondacks is two hours at 100 km per hour''
+\Large
+$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time} \times \frac{\rm \color{Red} Distance}{\rm \color{Green}Time}$$
+
+
+Here the dimensions match on both sides; this is a valid statement.
+\EC
+}
+
+\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
+
+\large
+Units of measure (km, hours) follow the rules of algebra.
+
+\Large
+\begin{align*}
+s &= (2 \,{\rm \color{Red}hr}) \times \frac{100\, \rm km}{1\, \rm \color{Red} hr}\\
+s &= 200 \rm\, km
+\end{align*}
+
+\BS
+
+Velocity is thus a length divided by a time: km/hr, m/s, etc. What about acceleration?
 
 }
 
-\frame{\frametitle{\large \textbf{``A falling rock's speed increases by 10 meters per second every second.''}}
-%\BC
-%\large
-%
-%
-%\BS
-%
-%$$
-%10 \frac{\frac{\rm meter}{\rm second}}{\rm second}
-%$$
-%
-%This is really awkward to write...
-%
-%\BS
-%
-%$$
-%10 \frac{\frac{\rm meter}{\rm second}}{\rm second} = 10 \rm m/\rm s^2
-%$$
-%
-%Much better! Even though nobody's ever seen a ``squared second'', this still makes
-%sense mathematically. We can build all kinds of compound units this way.
-%\EC
+\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
+\BC
+\large
+``A falling object's speed increases by 10 meters per second every second.''
+
+\BS
+
+$$
+10 \frac{\frac{\rm meter}{\rm second}}{\rm second}
+$$
+
+This is really awkward to write...
+
+\BS
+
+$$
+10 \frac{\frac{\rm meter}{\rm second}}{\rm second} = 10 \rm m/\rm s^2
+$$
+
+Much better! Even though nobody's ever seen a ``squared second'', this still makes
+sense mathematically. We can build all kinds of compound units this way.
+\EC
 }
 
-\frame{\frametitle{\textbf{What units might we measure {\it force} in?}}
-%
-%\Large Newton's second law says that force is equal to mass times acceleration. In 
-%symbols, $F=ma$. What units could you measure force in?
-%
-%\BS
-%\Huge
-%\color{A}A: $\rm kg\, m/s$\\
-%\color{B}B: $\rm kg\, m/s^2$\\
-%\color{C}C: $\rm m/s^2$\\
-%\color{D}D: $\rm kg\, m$\\
-%\Large
-%
-%\pause\color{Black}
-%
-%\BS
-%
-%This gets awkward to keep writing, so we define: $1 \, \rm kg\, m/s^2 = 1\, newton$, 
-%abbreviated $\rm N$.
+\frame{\frametitle{\textbf{Math, physics-style, III: compound units}}
+
+\Large Newton's second law says that force is equal to mass times acceleration. In 
+symbols, $F=ma$. What units could you measure force in?
+
+\BS
+\Huge
+\color{A}A: $\rm kg\, m/s$\\
+\color{B}B: $\rm kg\, m/s^2$\\
+\color{C}C: $\rm m/s^2$\\
+\color{D}D: $\rm kg\, m$\\
+\Large
+
+\pause\color{Black}
+
+\BS
+
+This gets awkward to keep writing, so we define: $1 \, \rm kg\, m/s^2 = 1\, newton$, 
+abbreviated $\rm N$.
 }
 
-
-\setbeamercolor{background canvas}{bg=White}
 
 \frame{\frametitle{\textbf{The beginning: describing motion (1-D)}}
 \large
