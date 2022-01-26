@@ -190,10 +190,10 @@ The various parts of the course count as follows:
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
 | Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
-| Exam 1                       | 25 February               |             100   |
-| Exam 2                       | 14 March                  |             100   |
-| Exam 3                       | 29 April                  |             100   |
-| Final Exam                   | 19 May, 3PM-5PM           |             160   |
+| Exam 1                       | 15 February               |             100   |
+| Exam 2                       | 10 March                  |             100   |
+| Exam 3                       | 12 April                  |             100   |
+| Final Exam                   | 11 May, 3PM-5PM           |             160   |
 | Recitation participation     | Throughout the semester   |              5 each; around 140 in total   |
 | Weekly checkins              | After each week           |      5 each; around 70 in total |
 | Group practice exams         | Prior to each exam        |              50 each; 150 in total  |

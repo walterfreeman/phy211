@@ -16,8 +16,9 @@ don't need to listen; see my email Tuesday evening for details.
 
 ### Upcoming assignments
 
+* Homework 1 is due next Wednesday (not Friday; that was a mistake)
 * Join the course Discord server if you are so inclined
-* Go to recitation tomorrow and meet your TA, coaches, and peers
+* Remember the "check-in" Google form (posted later today) 
 * Go sled down the hill on Crouse!
 
 ### Information

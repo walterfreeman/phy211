@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.20)  11 FEB 2021 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  26 JAN 2022 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -873,13 +873,13 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] [6
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 223
+LaTeX Font Info:    Trying to load font information for U+msa on input line 219
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 223
+LaTeX Font Info:    Trying to load font information for U+msb on input line 219
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -890,20 +890,54 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [9
 
-] [10
+]
+<pisa.jpg, id=90, 939.51pt x 527.9725pt>
+File: pisa.jpg Graphic file (type jpg)
+<use pisa.jpg>
+Package pdftex.def Info: pisa.jpg  used on input line 410.
+(pdftex.def)             Requested size: 348.19656pt x 195.669pt.
+ [10
+
+ <./pisa.jpg>]
+<falling-crop.pdf, id=97, 474.77374pt x 314.17375pt>
+File: falling-crop.pdf Graphic file (type pdf)
+<use falling-crop.pdf>
+Package pdftex.def Info: falling-crop.pdf  used on input line 460.
+(pdftex.def)             Requested size: 152.33475pt x 100.8061pt.
+ [11
+
+ <./falling-crop.pdf>]
+<constant-v-crop.pdf, id=111, 444.66125pt x 443.6575pt>
+File: constant-v-crop.pdf Graphic file (type pdf)
+<use constant-v-crop.pdf>
+Package pdftex.def Info: constant-v-crop.pdf  used on input line 482.
+(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
+ [12
+
+ <./constant-v-crop.pdf>]
+File: constant-v-crop.pdf Graphic file (type pdf)
+<use constant-v-crop.pdf>
+Package pdftex.def Info: constant-v-crop.pdf  used on input line 482.
+(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
+ [13
 
 ]
-[11
+File: constant-v-crop.pdf Graphic file (type pdf)
+<use constant-v-crop.pdf>
+Package pdftex.def Info: constant-v-crop.pdf  used on input line 482.
+(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
+ [14
 
-] [12
+]
+<constant-v-2-crop.pdf, id=136, 444.66125pt x 443.6575pt>
+File: constant-v-2-crop.pdf Graphic file (type pdf)
+<use constant-v-2-crop.pdf>
+Package pdftex.def Info: constant-v-2-crop.pdf  used on input line 506.
+(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
 
-] [13
+[15
 
-] [14
-
-] [15
-
-] [16
+ <./constant-v-2-crop.pdf>] [16
 
 ] [17
 
@@ -913,61 +947,54 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [20
 
-]
-<pisa.jpg, id=163, 939.51pt x 527.9725pt>
-File: pisa.jpg Graphic file (type jpg)
-<use pisa.jpg>
-Package pdftex.def Info: pisa.jpg  used on input line 414.
-(pdftex.def)             Requested size: 348.19656pt x 195.669pt.
- [21
+] [21
 
- <./pisa.jpg>]
-<falling-crop.pdf, id=170, 474.77374pt x 314.17375pt>
-File: falling-crop.pdf Graphic file (type pdf)
-<use falling-crop.pdf>
-Package pdftex.def Info: falling-crop.pdf  used on input line 464.
-(pdftex.def)             Requested size: 152.33475pt x 100.8061pt.
- [22
+] [22
 
- <./falling-crop.pdf>]
-<constant-v-crop.pdf, id=181, 444.66125pt x 443.6575pt>
-File: constant-v-crop.pdf Graphic file (type pdf)
-<use constant-v-crop.pdf>
-Package pdftex.def Info: constant-v-crop.pdf  used on input line 486.
-(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
- [23
+] [23
 
- <./constant-v-crop.pdf>]
-File: constant-v-crop.pdf Graphic file (type pdf)
-<use constant-v-crop.pdf>
-Package pdftex.def Info: constant-v-crop.pdf  used on input line 486.
-(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
- [24
+] [24
 
 ]
-File: constant-v-crop.pdf Graphic file (type pdf)
-<use constant-v-crop.pdf>
-Package pdftex.def Info: constant-v-crop.pdf  used on input line 486.
-(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
- [25
+[25
 
 ]
-<constant-v-2-crop.pdf, id=206, 444.66125pt x 443.6575pt>
-File: constant-v-2-crop.pdf Graphic file (type pdf)
-<use constant-v-2-crop.pdf>
-Package pdftex.def Info: constant-v-2-crop.pdf  used on input line 510.
-(pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
+<integral-constant-crop.pdf, id=213, 463.7325pt x 333.245pt>
+File: integral-constant-crop.pdf Graphic file (type pdf)
+<use integral-constant-crop.pdf>
+Package pdftex.def Info: integral-constant-crop.pdf  used on input line 674.
+(pdftex.def)             Requested size: 304.6695pt x 218.94572pt.
  [26
 
- <./constant-v-2-crop.pdf>] [27
+ <./integral-constant-crop.pdf>]
+<integral-two-crop.pdf, id=225, 463.7325pt x 333.245pt>
+File: integral-two-crop.pdf Graphic file (type pdf)
+<use integral-two-crop.pdf>
+Package pdftex.def Info: integral-two-crop.pdf  used on input line 686.
+(pdftex.def)             Requested size: 261.14908pt x 187.66849pt.
+ [27
 
-] [28
+ <./integral-two-crop.pdf>]
+[28
 
-] [29
+]
+<integral-curve-coarse-crop.pdf, id=243, 444.66125pt x 327.2225pt>
+File: integral-curve-coarse-crop.pdf Graphic file (type pdf)
+<use integral-curve-coarse-crop.pdf>
+Package pdftex.def Info: integral-curve-coarse-crop.pdf  used on input line 714
+.
+(pdftex.def)             Requested size: 261.14908pt x 192.17583pt.
+ [29
 
-] [30
+ <./integral-curve-coarse-crop.pdf>]
+<integral-curve-fine-crop.pdf, id=254, 444.66125pt x 327.2225pt>
+File: integral-curve-fine-crop.pdf Graphic file (type pdf)
+<use integral-curve-fine-crop.pdf>
+Package pdftex.def Info: integral-curve-fine-crop.pdf  used on input line 727.
+(pdftex.def)             Requested size: 261.14908pt x 192.17583pt.
+ [30
 
-] [31
+ <./integral-curve-fine-crop.pdf>] [31
 
 ] [32
 
@@ -977,118 +1004,72 @@ Package pdftex.def Info: constant-v-2-crop.pdf  used on input line 510.
 
 ] [35
 
-]
-<integral-constant-crop.pdf, id=275, 463.7325pt x 333.245pt>
-File: integral-constant-crop.pdf Graphic file (type pdf)
-<use integral-constant-crop.pdf>
-Package pdftex.def Info: integral-constant-crop.pdf  used on input line 670.
-(pdftex.def)             Requested size: 304.6695pt x 218.94572pt.
- [36
+] [36
 
- <./integral-constant-crop.pdf>]
-<integral-two-crop.pdf, id=287, 463.7325pt x 333.245pt>
-File: integral-two-crop.pdf Graphic file (type pdf)
-<use integral-two-crop.pdf>
-Package pdftex.def Info: integral-two-crop.pdf  used on input line 682.
-(pdftex.def)             Requested size: 261.14908pt x 187.66849pt.
- [37
-
- <./integral-two-crop.pdf>]
-<integral-curve-coarse-crop.pdf, id=300, 444.66125pt x 327.2225pt>
-File: integral-curve-coarse-crop.pdf Graphic file (type pdf)
-<use integral-curve-coarse-crop.pdf>
-Package pdftex.def Info: integral-curve-coarse-crop.pdf  used on input line 695
-.
-(pdftex.def)             Requested size: 261.14908pt x 192.17583pt.
- [38
-
- <./integral-curve-coarse-crop.pdf>]
-<integral-curve-fine-crop.pdf, id=311, 444.66125pt x 327.2225pt>
-File: integral-curve-fine-crop.pdf Graphic file (type pdf)
-<use integral-curve-fine-crop.pdf>
-Package pdftex.def Info: integral-curve-fine-crop.pdf  used on input line 708.
-(pdftex.def)             Requested size: 261.14908pt x 192.17583pt.
-
-[39
-
- <./integral-curve-fine-crop.pdf>] [40
-
-] [41
-
-] [42
-
-] [43
-
-] [44
+] [37
 
 ]
-<area-under-a-crop.pdf, id=356, 443.6575pt x 327.2225pt>
+<area-under-a-crop.pdf, id=314, 443.6575pt x 327.2225pt>
 File: area-under-a-crop.pdf Graphic file (type pdf)
 <use area-under-a-crop.pdf>
-Package pdftex.def Info: area-under-a-crop.pdf  used on input line 789.
+Package pdftex.def Info: area-under-a-crop.pdf  used on input line 811.
 (pdftex.def)             Requested size: 261.14908pt x 192.61023pt.
- [45
+ [38
 
  <./area-under-a-crop.pdf>]
 File: area-under-a-crop.pdf Graphic file (type pdf)
 <use area-under-a-crop.pdf>
-Package pdftex.def Info: area-under-a-crop.pdf  used on input line 806.
+Package pdftex.def Info: area-under-a-crop.pdf  used on input line 828.
 (pdftex.def)             Requested size: 261.14908pt x 192.61023pt.
- [46
+ [39
 
 ]
 File: area-under-a-crop.pdf Graphic file (type pdf)
 <use area-under-a-crop.pdf>
-Package pdftex.def Info: area-under-a-crop.pdf  used on input line 806.
+Package pdftex.def Info: area-under-a-crop.pdf  used on input line 828.
 (pdftex.def)             Requested size: 261.14908pt x 192.61023pt.
- [47
+
+[40
 
 ]
-<area-under-v-crop.pdf, id=379, 452.69125pt x 327.2225pt>
+<area-under-v-crop.pdf, id=337, 452.69125pt x 327.2225pt>
 File: area-under-v-crop.pdf Graphic file (type pdf)
 <use area-under-v-crop.pdf>
-Package pdftex.def Info: area-under-v-crop.pdf  used on input line 833.
+Package pdftex.def Info: area-under-v-crop.pdf  used on input line 855.
 (pdftex.def)             Requested size: 261.14908pt x 188.76561pt.
- [48
+ [41
 
  <./area-under-v-crop.pdf>]
 File: area-under-v-crop.pdf Graphic file (type pdf)
 <use area-under-v-crop.pdf>
-Package pdftex.def Info: area-under-v-crop.pdf  used on input line 833.
+Package pdftex.def Info: area-under-v-crop.pdf  used on input line 855.
 (pdftex.def)             Requested size: 261.14908pt x 188.76561pt.
- [49
+ [42
 
 ]
-<area-under-v-full-crop.pdf, id=397, 494.84875pt x 327.2225pt>
+<area-under-v-full-crop.pdf, id=354, 494.84875pt x 327.2225pt>
 File: area-under-v-full-crop.pdf Graphic file (type pdf)
 <use area-under-v-full-crop.pdf>
-Package pdftex.def Info: area-under-v-full-crop.pdf  used on input line 848.
+Package pdftex.def Info: area-under-v-full-crop.pdf  used on input line 871.
 (pdftex.def)             Requested size: 261.14908pt x 172.68813pt.
- [50
+ [43
 
  <./area-under-v-full-crop.pdf>]
 File: area-under-v-full-crop.pdf Graphic file (type pdf)
 <use area-under-v-full-crop.pdf>
-Package pdftex.def Info: area-under-v-full-crop.pdf  used on input line 848.
+Package pdftex.def Info: area-under-v-full-crop.pdf  used on input line 871.
 (pdftex.def)             Requested size: 261.14908pt x 172.68813pt.
- [51
 
-] [52
+[44
+
+] [45
 
 ]
 File: pisa.jpg Graphic file (type jpg)
 <use pisa.jpg>
-Package pdftex.def Info: pisa.jpg  used on input line 875.
+Package pdftex.def Info: pisa.jpg  used on input line 898.
 (pdftex.def)             Requested size: 348.19656pt x 195.669pt.
- [53
-
-] [54
-
-] [55
-
-] [56
-
-] [57
+ [46
 
 ]
 \tf@nav=\write6
@@ -1100,48 +1081,46 @@ Package pdftex.def Info: pisa.jpg  used on input line 875.
 \tf@snm=\write8
 \openout8 = `lecture2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 981.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 981.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 902.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 902.
  (./lecture2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 981.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 981.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 902.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 902.
 Package rerunfilecheck Info: File `lecture2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19120 strings out of 481239
- 363763 string characters out of 5920377
- 611691 words of memory out of 5000000
- 33780 multiletter control sequences out of 15000+600000
- 549887 words of font info for 92 fonts, out of 8000000 for 9000
+ 19045 strings out of 481239
+ 362630 string characters out of 5920376
+ 609692 words of memory out of 5000000
+ 33728 multiletter control sequences out of 15000+600000
+ 545203 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,17n,67p,845b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
-b>
-Output written on lecture2.pdf (57 pages, 1239286 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmtt12.pfb>
+Output written on lecture2.pdf (46 pages, 1207939 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
