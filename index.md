@@ -7,6 +7,9 @@ title: Announcements
 
 Welcome to Physics 211! This website contains everything you'll need for our class; Blackboard will only be used to post grades.
 
+Here's the <a href="jan25.opus">audio recording from Tuesday's class</a> in case anyone missed it. But you 
+don't need to listen; see my email Tuesday evening for details.
+
 ### Slides for current class
 
 <a href="slides/lec1/lecture1.pdf">Welcome and introduction</a>
