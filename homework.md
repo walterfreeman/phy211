@@ -7,7 +7,7 @@ use_math: true
 ---
 
 
-<a href="hw/hw1/hw1.pdf">Homework 1</a>, due Friday, February 4, at the start of recitation
+<a href="hw/hw1/hw1.pdf">Homework 1</a>, due Friday, February 4, at the start of recitation<br>
 <a href="hw/hw1/hw1-companion.pdf">Homework 1 Companion</a>, with hints and a discussion of what we hope you learn from these exercises
 
 <!--

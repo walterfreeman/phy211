@@ -7,14 +7,21 @@ title: Announcements
 
 Welcome to Physics 211! This website contains everything you'll need for our class; Blackboard will only be used to post grades.
 
+### Where do I find...
+
+* Looking for the slides we use in class? All the past slides are linked from the calendar page.
+* Looking for the homework assignments, recitation materials, etc? They've got separate pages; if you're on mobile, you can find them in the "hamburger menu".
+* Looking for the Physics Clinic to get help with your homework? It's room 112 on the opposite side of the Physics Building from our auditorium.
+
 ### Slides for current class
 
 <a href="slides/lec2/lecture2.pdf">The beginning: free fall</a>
 
 ### Upcoming assignments
 
-* Homework 1 is due next Wednesday (not Friday; that was a mistake)
-* Join the course Discord server if you are so inclined
+* <a href="hw/hw1/hw1.pdf">Homework 1</a> is due next Friday. (I decided to make it due Friday after all so you have more time.)
+* <a href="hw/hw1/hw1-companion.pdf">Homework 1 Companion</a>, with hints and a discussion of what we hope you learn from these exercises
+* Join the <a href="https://discord.gg/bngYwjZRHk">course Discord server</a> if you are so inclined
 * Remember the "check-in" Google form (posted later today) 
 * Go sled down the hill on Crouse!
 
