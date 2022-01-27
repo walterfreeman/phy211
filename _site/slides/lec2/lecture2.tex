@@ -110,7 +110,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2016\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
 
 \date{\today}
 
@@ -146,7 +146,7 @@ stand to one another {\bf in the same ratio as the odd numbers beginning with un
 \large
 \item Syllabus, homework, etc. are all there
 \EI
-\item The first homework is due next Wednesday
+\item The first homework is due next Friday
 \EI
 }
 
@@ -170,13 +170,13 @@ If you've got questions you'd like me to address, send them in and I'll answer t
 \item{How do 3D movies work?}
 \item{What is the Higgs boson?}
 \item{How is physics used in video games?}
-\item{How does a nuclear bomb work?}
+\item{How does a nuclear reactor work?}
 \item{How does a supercomputer work?}
 \EI
 }
 
 \frame{\frametitle{\textbf{Homework tips}}
-\centerline{\Large Your first homework assignment is due Wednesday.}
+\centerline{\Large Your first homework assignment is due next Friday.}
 
 \bigskip
 \bigskip
@@ -202,7 +202,7 @@ If you've got questions you'd like me to address, send them in and I'll answer t
 \EI
 }
 
-\frame{\frametitle{\textbf{The course webpage and Facebook page}}
+\frame{\frametitle{\textbf{The course webpage and Discord server}}
 \large
 \BI
 \item{All notes, etc., will be posted on the course website (not Blackboard)}
@@ -213,21 +213,17 @@ If you've got questions you'd like me to address, send them in and I'll answer t
 \bigskip
 \bigskip
 \BI
-\item{There is also a course Facebook page at \url{https://www.facebook.com/groups/234894186963170/}}
-\item{... or search ``Syracuse University Physics 211, Spring 2017''}
-\item{Joining the group doesn't mean anyone else can see your private posts, etc., or that
-you can see theirs}
-\item{This is a great place to ask questions, get advice, and collaborate with your classmates}
-\item{Up to 2\% extra credit for those who help their peers}
+\item{There is also a course Discord server at \url{https://discord.gg/bngYwjZRHk}}
+\item{This is a great place to ask questions, get advice, and collaborate with your classmates, teaching staff, and me}
 \EI
 }
 
 \frame{\frametitle{\textbf{Office hours}}
 \Large
-In the Physics Clinic (for now):
+In the Physics Clinic:
 \BI
-\item{Tuesdays: 5:10-6:50 PM}
-\item{Fridays: 9:30-11:30 AM}
+\item{Tuesdays: 2:00-3:50 PM}
+\item{Fridays: 11:00 AM-1:00 PM (may change)}
 \item Other times announced (if homework is due Friday, I may hold Thursday office hours)
 \EI
 
@@ -237,144 +233,144 @@ or by appointment.
 
 Outside these times you might find me in the Clinic or in my office in room 215.
 }
-
-\frame{\frametitle{\textbf{Dimensions}}
-\large
-Things in nature aren't just described by numbers; they have an associated {\it dimension},
-and we measure them using a {\it system of units}.
-
-\BS
-
-We have three different kinds of dimension:
-
-\Large
-
-\BI
-\item {\bf Length}: usually measured in {\bf meters}; also inches, miles, light-years...
-\item {\bf Mass}: usually measured in {\bf kilograms}; also grams, tonnes...
-\item {\bf Time}: usually measured in {\bf seconds}; also hours, days...
-\EI
-
-\pause
-
-For the Americans: the pound measures {\it force}, not mass. The word 
-``weight'' means ``force due to gravity''; an object with a mass of
-one kilogram weighs 2.2 pounds on Earth.
-}
-
-\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
-\Large
-
-\BC ``It is two hours from Syracuse to Adirondack State Park'' \EC
-
-\BS
-
-Does this statement make sense?
-
-\Huge
-
-\color{A}A: Yes\\
-\color{B}B: No\\
-\pause
-\color{C}C: Only if I tell you something else, too\\
-
-\pause
-
-\Large
-\color{Black}
-\BS
-\BC
-I've got to also tell you the car's velocity!
-\EC
-}
-
-\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
-
-\Large
-
-\BC
-
-``The distance from Syracuse to the Adirondacks is two hours''
-
-
-$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time}$$
-
-
-{\bf This statement makes no sense!}
-
-\BS\BS\BS\pause
-
-\large
-``The distance from 'Cuse to the Adirondacks is two hours at 100 km per hour''
-\Large
-$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time} \times \frac{\rm \color{Red} Distance}{\rm \color{Green}Time}$$
-
-
-Here the dimensions match on both sides; this is a valid statement.
-\EC
-}
-
-\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
-
-\large
-Units of measure (km, hours) follow the rules of algebra.
-
-\Large
-\begin{align*}
-s &= (2 \,{\rm \color{Red}hr}) \times \frac{100\, \rm km}{1\, \rm \color{Red} hr}\\
-s &= 200 \rm\, km
-\end{align*}
-
-\BS
-
-Velocity is thus a length divided by a time: km/hr, m/s, etc. What about acceleration?
-
-}
-
-\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
-\BC
-\large
-``A falling object's speed increases by 10 meters per second every second.''
-
-\BS
-
-$$
-10 \frac{\frac{\rm meter}{\rm second}}{\rm second}
-$$
-
-This is really awkward to write...
-
-\BS
-
-$$
-10 \frac{\frac{\rm meter}{\rm second}}{\rm second} = 10 \rm m/\rm s^2
-$$
-
-Much better! Even though nobody's ever seen a ``squared second'', this still makes
-sense mathematically. We can build all kinds of compound units this way.
-\EC
-}
-
-\frame{\frametitle{\textbf{Math, physics-style, III: compound units}}
-
-\Large Newton's second law says that force is equal to mass times acceleration. In 
-symbols, $F=ma$. What units could you measure force in?
-
-\BS
-\Huge
-\color{A}A: $\rm kg\, m/s$\\
-\color{B}B: $\rm kg\, m/s^2$\\
-\color{C}C: $\rm m/s^2$\\
-\color{D}D: $\rm kg\, m$\\
-\Large
-
-\pause\color{Black}
-
-\BS
-
-This gets awkward to keep writing, so we define: $1 \, \rm kg\, m/s^2 = 1\, newton$, 
-abbreviated $\rm N$.
-}
+%
+%\frame{\frametitle{\textbf{Dimensions}}
+%\large
+%Things in nature aren't just described by numbers; they have an associated {\it dimension},
+%and we measure them using a {\it system of units}.
+%
+%\BS
+%
+%We have three different kinds of dimension:
+%
+%\Large
+%
+%\BI
+%\item {\bf Length}: usually measured in {\bf meters}; also inches, miles, light-years...
+%\item {\bf Mass}: usually measured in {\bf kilograms}; also grams, tonnes...
+%\item {\bf Time}: usually measured in {\bf seconds}; also hours, days...
+%\EI
+%
+%\pause
+%
+%For the Americans: the pound measures {\it force}, not mass. The word 
+%``weight'' means ``force due to gravity''; an object with a mass of
+%one kilogram weighs 2.2 pounds on Earth.
+%}
+%
+%\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
+%\Large
+%
+%\BC ``It is two hours from Syracuse to Adirondack State Park'' \EC
+%
+%\BS
+%
+%Does this statement make sense?
+%
+%\Huge
+%
+%\color{A}A: Yes\\
+%\color{B}B: No\\
+%\pause
+%\color{C}C: Only if I tell you something else, too\\
+%
+%\pause
+%
+%\Large
+%\color{Black}
+%\BS
+%\BC
+%I've got to also tell you the car's velocity!
+%\EC
+%}
+%
+%\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
+%
+%\Large
+%
+%\BC
+%
+%``The distance from Syracuse to the Adirondacks is two hours''
+%
+%
+%$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time}$$
+%
+%
+%{\bf This statement makes no sense!}
+%
+%\BS\BS\BS\pause
+%
+%\large
+%``The distance from 'Cuse to the Adirondacks is two hours at 100 km per hour''
+%\Large
+%$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time} \times \frac{\rm \color{Red} Distance}{\rm \color{Green}Time}$$
+%
+%
+%Here the dimensions match on both sides; this is a valid statement.
+%\EC
+%}
+%
+%\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
+%
+%\large
+%Units of measure (km, hours) follow the rules of algebra.
+%
+%\Large
+%\begin{align*}
+%s &= (2 \,{\rm \color{Red}hr}) \times \frac{100\, \rm km}{1\, \rm \color{Red} hr}\\
+%s &= 200 \rm\, km
+%\end{align*}
+%
+%\BS
+%
+%Velocity is thus a length divided by a time: km/hr, m/s, etc. What about acceleration?
+%
+%}
+%
+%\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
+%\BC
+%\large
+%``A falling object's speed increases by 10 meters per second every second.''
+%
+%\BS
+%
+%$$
+%10 \frac{\frac{\rm meter}{\rm second}}{\rm second}
+%$$
+%
+%This is really awkward to write...
+%
+%\BS
+%
+%$$
+%10 \frac{\frac{\rm meter}{\rm second}}{\rm second} = 10 \rm m/\rm s^2
+%$$
+%
+%Much better! Even though nobody's ever seen a ``squared second'', this still makes
+%sense mathematically. We can build all kinds of compound units this way.
+%\EC
+%}
+%
+%\frame{\frametitle{\textbf{Math, physics-style, III: compound units}}
+%
+%\Large Newton's second law says that force is equal to mass times acceleration. In 
+%symbols, $F=ma$. What units could you measure force in?
+%
+%\BS
+%\Huge
+%\color{A}A: $\rm kg\, m/s$\\
+%\color{B}B: $\rm kg\, m/s^2$\\
+%\color{C}C: $\rm m/s^2$\\
+%\color{D}D: $\rm kg\, m$\\
+%\Large
+%
+%\pause\color{Black}
+%
+%\BS
+%
+%This gets awkward to keep writing, so we define: $1 \, \rm kg\, m/s^2 = 1\, newton$, 
+%abbreviated $\rm N$.
+%}
 
 \frame{\frametitle{\textbf{The beginning: describing motion (1-D)}}
 \large
@@ -648,13 +644,22 @@ Newton's law $a = F/m$ tells us that {\it acceleration} -- the second derivative
 \bigskip
 \bigskip
 \pause
-\centerline{All freely falling objects have a constant acceleration downward.}
+\begin{center}{\color{D} \bf All freely falling objects have \\a constant acceleration downward.}
 \bigskip
 \bigskip
-\centerline{This number is so important we give it a letter: $g = 9.81$ $\rm m/\rm s^2$}
+
+This value is so important we give it a letter: $g = 9.8$ $\rm m/\rm s^2$.
+
+\small
+\bigskip\bigskip\pause
+
+(You can approximate this as $g = 10 \rm m/\rm s^2$ unless you need high precision.)
+
+\end{center}
 }
 
-\frame{\frametitle{\textbf{A calculus review}}
+
+\frame{\frametitle{\textbf{Some calculus}}
 \begin{center}
 If velocity is the rate of change of position, \\
 why is the area under the $v$ vs. $t$ curve equal to displacement?
@@ -663,13 +668,12 @@ why is the area under the $v$ vs. $t$ curve equal to displacement?
 \centerline{\includegraphics[width=0.7\textwidth]{integral-constant-crop.pdf}}
 
 \bigskip
-\bigskip
 
 \centerline{\large We know $\Delta s = vt$. What is that here? What's the area of the shaded region?}
 
 }
 
-\frame{\frametitle{\textbf{A calculus review}}
+\frame{\frametitle{\textbf{Some calculus}}
 
 \centerline{\includegraphics[width=0.6\textwidth]{integral-two-crop.pdf}}
 
@@ -678,6 +682,21 @@ why is the area under the $v$ vs. $t$ curve equal to displacement?
 \bigskip
 
 \centerline{\large Now what is $\Delta s$? What is the area of the shaded region?}
+
+}
+
+\frame{
+
+\Huge
+
+What's the area of the shaded region?
+
+\bigskip\bigskip
+
+\color{A}A: 25 m \\
+\color{B}B: 50 m \\
+\color{C}C: 35 m \\
+\color{D}D: 45 m \\
 
 }
 
@@ -750,28 +769,31 @@ Particularly interesting situation:
 \pause
 Plan of attack:
 \BI
-\item{We know what the acceleration curve looks like (it's just flat)}
-\item{Figure out the area under the acceleration curve to get the velocity curve}
-\item{Figure out the area under the velocity curve to get the position curve}
+\item{We know what the acceleration curve looks like (it's flat). How do we get the velocity curve?}
+\pause
+\item{\color{A} Figure out the area under the acceleration curve to get the velocity curve}
+\pause
+
+\item{\color{B} Figure out the area under the velocity curve to get the position curve}
 \EI
 \pause
 \bigskip
 \bigskip
 \bigskip
 \bigskip
-Remember the area under the curve of (velocity, acceleration) just gives the {\it change in} (position, velocity) -- \ie initial minus final.
+Remember the area under the curve of (velocity, acceleration) just gives the {\it change in} (position, velocity) -- {\it i.e.} initial minus final.
 
 \bigskip
 \bigskip
 
-We'll start by assuming $x_0$ and $v_0$ are zero.
+\bf We'll start by assuming $x_0$ and $v_0$ are zero -- \rm that is, we're dropping something from rest.
 }
 
 \frame{\frametitle{\textbf{Constant acceleration}}
 \centerline{\includegraphics[width=0.6\textwidth]{area-under-a-crop.pdf}}
 
 \bigskip
-\bigskip
+
 
 What's the area under the curve out to time $t$, which gives the change in the velocity -- $\Delta v=v(t) - v_0$?
 
@@ -793,7 +815,7 @@ What's the area under the curve out to time $t$, which gives the change in the v
 \centerline{\includegraphics[width=0.6\textwidth]{area-under-a-crop.pdf}}
 
 \bigskip
-\bigskip
+
 
 What's the area under the curve out to time $t$, which gives the change in the velocity -- $\Delta v=v(t) - v_0$?
 
@@ -809,7 +831,7 @@ What's the area under the curve out to time $t$, which gives the change in the v
 \centerline{\includegraphics[width=0.6\textwidth]{area-under-v-crop.pdf}}
 
 \bigskip
-\bigskip
+
 
 Now the area under the velocity curve gives the change in position: $\Delta x=x(t) - x_0$.
 What is that?
@@ -838,13 +860,14 @@ What is that?
 \bigskip
 
 \pause
-Area under blue part: $v_0 t$\\
-Area under green part: $\frac{1}{2} at^2$\\
-Total change in position: $x(t) - x_0 = \frac{1}{2}at^2 + v_0 t$
+ \color{D}Area under blue part: $v_0 t$\\
+\color{B} Area under green part: $\frac{1}{2} at^2$\\
+
+\color{Black}Total change in position: $x(t) - x_0 = \color{B}\frac{1}{2}at^2 + \color{D}v_0 t$
 
 \bigskip
 \bigskip
-\centerline{\Large Thus, {\color{Red}$x(t) = \frac{1}{2}at^2 + v_0 t + x_0$}}
+\centerline{\Large Thus, {\color{Red}$x(t) = \color{B}\frac{1}{2}at^2 +\color{D} v_0 t \color{Red}+ x_0$}}
 }
 
 \frame{\frametitle{\textbf{For those who are familiar with calculus:}}
@@ -874,108 +897,6 @@ x(t) &=& \frac{1}{2}at^2 + v_0 t + x_0
 \centerline{The calculus above explains this: distance is proportional to {\it time squared!}}
 }
 
-
-
-\frame{\frametitle{\textbf{How fast is the ping-pong ball going when it hits the cans?}}
-\Large
-\BI
-\item Air pressure $P$: $10^5$ newtons per square meter
-\item Radius of tube $r$: 2 cm
-\item Length of tube $L$: 2 m
-\item Mass of ping-pong ball $m$: 3 g
-\item Final velocity: $v_f$ (we don't know this yet; it's what we want)
-\EI
-
-\BS
-\BS
-\large
-Principles that we will use:
-
-\BI
-\item Area $A=\pi r^2$ (from geometry)
-\item Force due to air pressure $F = PA$ (think about the units: newtons per square meter $\times$ square meters)
-\item Newton's second law: $F = ma$ (notice: $a$ and $A$ are different!)
-\EI
-}
-
-
-\frame{\frametitle{\textbf{Math, physics-style, IV: put in the numbers at the end!}}
-
-\Large
-Notice: 
-\BI
-\item Every quantity, even if we know its numerical value, gets a variable
-\BS
-
-\item Comparing the dimensions of your expressions can be used to verify you're thinking about them correctly
-\BS
-
-\item We could have guessed everything above, except for the factors of $\pi$ and 2, 
-just from the units!
-\BS
-
-\item \bf Solve everything algebraically before putting in the numbers!
-\BI
-\item This is {\it much} cleaner
-\item Your algebraic statements also mean things, and you can think as you go
-\EI
-\BS
-\rm
-\item When you finally do put in the numbers, make sure your units match so you can 
-cancel them
-
-\EI
-
-}
-
-\frame{\frametitle{\textbf{Math, physics-style, IV: put in the numbers at the end!}}
-\large
-\BI
-\item Find the force in terms of stuff you know: $F=P (\pi r^2)$
-\item Find the acceleration that force causes using Newton's second law $F=ma$:
-$$
-\pi Pr^2 = ma \rightarrow a = \frac{\pi Pr^2}{m}
-$$
-
-\item Kinematic relations from before: \color{Red} $x(t) = x_0 + v_0 t + \frac{1}{2}at^2$ and $v(t) = v_0 + at$
-\EI
-}
-
-\frame{
-\large
-\begin{enumerate}
-\item First: Write down the expressions for $x(t)$ and $v(t)$
-\BI
-\normalsize
-\item $x(t) = \frac{1}{2}at^2$ (since $v_0$ and $x_0$ both equal zero); we will find $a$ later
-\item $v(t) = at$ (since $v_0 = 0$)
-\EI
-\item Second: Ask the right question, in terms of your variables: ``What is $v$ at the time when $x=L$ ?''
-\item Third: Do the algebra corresponding to your question.
-\BI
-\normalsize
-\item Set $x=L$: $\frac{1}{2}at^2 = L \rightarrow t=\sqrt \frac{2L}{a}$
-\item Find $v$ at that time: $v = at$, so $v = \sqrt{2La}$
-\EI
-\end{enumerate}
-
-
-In this problem, we have to go a bit beyond kinematics:
-$$
-\pi Pr^2 = ma \rightarrow a = \frac{\pi Pr^2}{m}
-$$
-
-Substitute this in:
-\begin{align*}
-v_f &= \sqrt\frac{2\pi PLr^2}{m} \\
-v_f &= \sqrt{ 2 \times \pi \times 10^5\,(\rm N/\rm m^2) \times (2\,\rm m) \times (0.02\, \rm m)^2 / (0.003\,\rm kg)}\\
-v_f &= \sqrt {1.68 \times 10^5\, (\rm N\times \rm m / kg)} = \sqrt {1.68 \times 10^5 \left(\rm kg\,m/s^2\right) \times \rm m / \, \rm kg} \\
-v_f &= 409 \, \rm m/\rm s
-\end{align*}
-
-
-
-}
 
 
 \end{document}

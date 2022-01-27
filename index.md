@@ -12,7 +12,7 @@ don't need to listen; see my email Tuesday evening for details.
 
 ### Slides for current class
 
-<a href="slides/lec1/lecture1.pdf">Welcome and introduction</a>
+<a href="slides/lec2/lecture2.pdf">The beginning: free fall</a>
 
 ### Upcoming assignments
 

@@ -16,8 +16,8 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
 | Class Date  | Topics                                                                                                           | Textbook sections              |
 |:-----------:|:----------------------------------------------------------------------------------------------------------------:|:------------------------------:|
-| 25 January  | Introduction; what is physics?; dimensions and units; Fermi problems                                             | 1.1-1.5                        |
-| 27 January  | "Equations of motion"; acceleration; all the calculus you need                                                   | 3.1-3.4                        |
+| 25 January  | <a href="slides/lec1/lecture1.pdf">Introduction; what is physics?; dimensions and units</a>                                             | 1.1-1.5                        |
+| 27 January  | <a href="slides/lec2/lecture2.pdf">"Equations of motion"; acceleration; all the calculus you need</a>                                                   | 3.1-3.4                        |
 |  1 February | Motion in one dimension                                                                                          | 3.5-3.6                        |
 |  3 February | Describing things with direction: Vectors.                                                                       | 2.1-2.3                        |
 |  8 February | Projectile motion                                                                                                | 4.1-4.3                        |
