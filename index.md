@@ -7,9 +7,6 @@ title: Announcements
 
 Welcome to Physics 211! This website contains everything you'll need for our class; Blackboard will only be used to post grades.
 
-Here's the <a href="jan25.opus">audio recording from Tuesday's class</a> in case anyone missed it. But you 
-don't need to listen; see my email Tuesday evening for details.
-
 ### Slides for current class
 
 <a href="slides/lec2/lecture2.pdf">The beginning: free fall</a>
@@ -24,6 +21,9 @@ don't need to listen; see my email Tuesday evening for details.
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 
 - Discord server invite: <https://discord.gg/bngYwjZRHk>
+
+Here's the <a href="jan25.opus">audio recording from Tuesday's class</a> in case anyone missed it. But you 
+don't need to listen; see my email Tuesday evening for details.
 
 ### Contact information and staff
 -   Professor: 
