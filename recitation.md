@@ -12,7 +12,7 @@ use_math: true
 
 <br><br>
 
-<a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a>
+<a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a><br>
 <a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
 
 
