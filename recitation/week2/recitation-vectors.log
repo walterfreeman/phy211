@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  28 JAN 2022 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  28 JAN 2022 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**recitation-1D-motion-2-forprint.tex
-(./recitation-1D-motion-2-forprint.tex
+**recitation-vectors.tex
+(./recitation-vectors.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -109,6 +109,15 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen146
+\enit@toks=\toks20
+\enit@inbox=\box47
+\enit@count@id=\count187
+\enitdp@description=\count188
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
@@ -118,55 +127,55 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
-\Gm@cnth=\count187
-\Gm@cntv=\count188
-\c@Gm@tempcnt=\count189
-\Gm@bindingoffset=\dimen146
-\Gm@wd@mp=\dimen147
-\Gm@odd@mp=\dimen148
-\Gm@even@mp=\dimen149
-\Gm@layoutwidth=\dimen150
-\Gm@layoutheight=\dimen151
-\Gm@layouthoffset=\dimen152
-\Gm@layoutvoffset=\dimen153
-\Gm@dimlist=\toks20
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks21
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count190
-\l__pdf_internal_box=\box47
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box48
 )
-(./recitation-1D-motion-2-forprint.aux)
-\openout1 = `recitation-1D-motion-2-forprint.aux'.
+(./recitation-vectors.aux)
+\openout1 = `recitation-vectors.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count191
-\scratchdimen=\dimen154
-\scratchbox=\box48
-\nofMPsegments=\count192
-\nofMParguments=\count193
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count194
-\MPscratchDim=\dimen155
-\MPnumerator=\count195
-\makeMPintoPDFobject=\count196
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count193
+\scratchdimen=\dimen155
+\scratchbox=\box49
+\nofMPsegments=\count194
+\nofMParguments=\count195
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen156
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -210,49 +219,58 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+Overfull \hbox (2.77701pt too wide) in paragraph at lines 57--58
+[]\OT1/cmr/m/n/12 Converting vec-tors from ``mag-ni-tude and di-rec-tion'' rep-
+re-sen-ta-tion to ``$\OML/cmm/m/it/12 x\OMS/cmsy/m/n/12 ^^@$ \OT1/cmr/m/n/12 an
+d $\OML/cmm/m/it/12 y\OMS/cmsy/m/n/12 ^^@$\OT1/cmr/m/n/12 component''
+ []
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<avst-plain-crop.pdf, id=20, 413.545pt x 96.36pt>
-File: avst-plain-crop.pdf Graphic file (type pdf)
-<use avst-plain-crop.pdf>
-Package pdftex.def Info: avst-plain-crop.pdf  used on input line 144.
-(pdftex.def)             Requested size: 425.41444pt x 99.12837pt.
-<vvst-plain-crop.pdf, id=21, 413.545pt x 95.35625pt>
-File: vvst-plain-crop.pdf Graphic file (type pdf)
-<use vvst-plain-crop.pdf>
-Package pdftex.def Info: vvst-plain-crop.pdf  used on input line 145.
-(pdftex.def)             Requested size: 425.41444pt x 98.0958pt.
-<xvst-plain-crop.pdf, id=22, 413.545pt x 115.43124pt>
-File: xvst-plain-crop.pdf Graphic file (type pdf)
-<use xvst-plain-crop.pdf>
-Package pdftex.def Info: xvst-plain-crop.pdf  used on input line 146.
-(pdftex.def)             Requested size: 425.41444pt x 118.74754pt.
- [4 <./avst-plain-crop.pdf> <./vvst-plain-crop.pdf> <./xvst-plain-crop.pdf>] [5
-] [6]
-(./recitation-1D-motion-2-forprint.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/12 Uptown/Downtown/Crosstown,
+ []
+
+<manhattan-1.png, id=11, 868.24374pt x 835.12pt>
+File: manhattan-1.png Graphic file (type png)
+<use manhattan-1.png>
+Package pdftex.def Info: manhattan-1.png  used on input line 82.
+(pdftex.def)             Requested size: 285.27785pt x 274.39261pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 63--88
+[]$[]$ $[]$
+ []
+
+[2 <./manhattan-1.png>]
+<manhattan-2.png, id=19, 613.29124pt x 748.7975pt>
+File: manhattan-2.png Graphic file (type png)
+<use manhattan-2.png>
+Package pdftex.def Info: manhattan-2.png  used on input line 105.
+(pdftex.def)             Requested size: 350.33727pt x 427.74449pt.
+ [3 <./manhattan-2.png>] [4] [5] [6]
+(./recitation-vectors.aux) ) 
 Here is how much of TeX's memory you used:
- 2368 strings out of 481239
- 32550 string characters out of 5920376
- 277019 words of memory out of 5000000
- 17635 multiletter control sequences out of 15000+600000
+ 2683 strings out of 481239
+ 37533 string characters out of 5920376
+ 283509 words of memory out of 5000000
+ 17946 multiletter control sequences out of 15000+600000
  537640 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,4n,25p,359b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-s
-uper/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfrm1200.pfb>
-Output written on recitation-1D-motion-2-forprint.pdf (6 pages, 109483 bytes).
+ 30i,6n,25p,384b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super
+-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm1200.pfb>
+Output written on recitation-vectors.pdf (6 pages, 705635 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

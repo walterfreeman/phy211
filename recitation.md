@@ -10,6 +10,12 @@ use_math: true
 <a href="recitation/week1/recitation-units-motion.pdf">Week 1 Wednesday: Fermi problems</a><br>
 <a href="recitation/week1/recitation-1D-motion-1.pdf">Week 1 Friday: 1D motion, part 1</a>
 
+<br><br>
+
+<a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a>
+<a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
+
+
 <!--
 S2021
 Week 12 Wednesday: <a href="recitation/week12/recitation-oscillations.pdf">Standing waves and harmonic series</a>
