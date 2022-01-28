@@ -5,7 +5,9 @@ use_math: true
 title: Announcements
 ---
 
-Welcome to Physics 211! This website contains everything you'll need for our class; Blackboard will only be used to post grades.
+### Week 1 checkin
+
+You can find the <a href="https://docs.google.com/forms/d/1geZRFwHwJrK4j3fX8iTzZu2NFuB97ScAEdeSsDvg3Vg/">week 1 checkin</a> here. Tell us a little about yourself and how it's going; this should take just a few minutes, and is due Monday at noon.
 
 ### Where do I find...
 
