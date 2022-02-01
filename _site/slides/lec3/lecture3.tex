@@ -1,7 +1,7 @@
-% DPF 09 talk on strangeness in nucleon
 
 \documentclass[10pt]{beamer}
 \usepackage{amsmath}
+\usepackage{tabto}
 \usepackage{mathtools}
 \usefonttheme{professionalfonts} % using non standard fonts for beamer
 \usefonttheme{serif} % default family is serif
@@ -102,7 +102,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2016\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
 
 \date{\today}
 
@@ -138,9 +138,6 @@ Nature uses only the longest threads to weave her patterns, so each small piece 
 \end{center}
 \bigskip
 --Richard Feynman, {\it The Character of Physical Law} (1965) 
-
-
-
 }
 
 
@@ -148,10 +145,15 @@ Nature uses only the longest threads to weave her patterns, so each small piece 
 \frame{\frametitle{\textbf{Announcements}}
 \large
 \BI
-\item{Homework 1 due tomorrow}
-\item{I'm seeing lots of you in the Clinic; I'd like to see lots more}
-\item{Clinic hours today: 5:10-6:50}
-\item{``Physics practice'', on the quadratic formula: Wednesday night at 7:30-8:30 PM, location TBA}
+\item{Homework 1 due Friday; homework 2 assigned tomorrow, due next Friday}
+\item If at all possible, finish HW1 early and start HW2 this week
+\item I'll be in the Physics Clinic to help people with anything:
+\BI
+\item 2-4 PM today (Tuesday)
+\item 2:15-4 PM Wednesday
+\item 1:30-3:30 PM Thursday
+\EI
+\item You can also ask your classmates and us for advice on Discord
 \EI
 }
 
@@ -161,7 +163,7 @@ Nature uses only the longest threads to weave her patterns, so each small piece 
 \frame{\frametitle{\textbf{``Ask a Physicist''}}
 \Large
 
-Submit questions!
+Submit questions by email or Discord (or the weekly checkin forms)
 
 }
 
@@ -170,7 +172,6 @@ Submit questions!
 \BI
 \item{Review material from last time}
 \item{Position, velocity, and acceleration graphs}
-\item{Rotational kinematics}
 \item{Problem-solving method for kinematics problems}
 \item{Sample problems}
 \pause
@@ -211,30 +212,30 @@ Submit questions!
 }
 
 
-
-\frame{\frametitle{\textbf{Position, velocity, and acceleration}}
-\begin{columns}
-\column{0.125\textwidth}
-\centerline{\Large Position}
-\column{0.2\textwidth}
-\small
-{\color{Red}
-\centerline{(derivative of)}
-\centerline{rate of change of}
-\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
-\column{0.125\textwidth}
-\centerline{\Large Velocity}
-\pause
-\column{0.2\textwidth}
-\small
-{\color{Red}
-\centerline{(derivative of)}
-\centerline{rate of change of}
-\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
-\column{0.15\textwidth}
-\centerline{\Large Acceleration}
-\end{columns}
-}
+%
+%\frame{\frametitle{\textbf{Position, velocity, and acceleration}}
+%\begin{columns}
+%\column{0.125\textwidth}
+%\centerline{\Large Position}
+%\column{0.2\textwidth}
+%\small
+%{\color{Red}
+%\centerline{(derivative of)}
+%\centerline{rate of change of}
+%\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+%\column{0.125\textwidth}
+%\centerline{\Large Velocity}
+%\pause
+%\column{0.2\textwidth}
+%\small
+%{\color{Red}
+%\centerline{(derivative of)}
+%\centerline{rate of change of}
+%\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+%\column{0.15\textwidth}
+%\centerline{\Large Acceleration}
+%\end{columns}
+%}
 
 \frame{\frametitle{\textbf{Kinematics}}
 \Large
@@ -267,10 +268,10 @@ x(t) =& \frac{1}{2}at^2 + v_0 t + x_0
 
 These equations are valid when...
 \BI
-\item{A. Acceleration is constant}
-\item{B. Velocity is constant}
-\item{C. The object moves in only one direction}
-\item{D. They are always valid}
+\item{\color{A}A. Acceleration is constant}
+\item{\color{B}B. Velocity is constant}
+\item{\color{C}C. The object moves in only one direction}
+\item{\color{D}D. They are always valid}
 \pause
 \bigskip
 \bigskip
@@ -287,14 +288,19 @@ These equations are valid when...
 \bigskip
 \bigskip
 \bigskip
+
+\large
+
 First: Write the position and velocity equations, substituting in things you know.
 (Here, take ground level to be $y=0$, and upward to be the positive direction.)
 
-\color{A}A: $x(t) = \frac{1}{2}gt^2 + h$ and $v(t) = -gt$  \\ 
-\color{B}B: $x(t) = -\frac{1}{2}gt^2 + v_0 t + h$ and $v(t) = -gt$  \\ 
-\color{C}C: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = gt$  \\ 
-\color{D}D: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$  \\ 
-\color{E}E: $x(t) = -\frac{1}{2}gt^2 + v_0 t$ and $v(t) = -gt$  \\ 
+\bigskip\bigskip
+
+\color{A}A: $x(t) = \hspace{10pt}\frac{1}{2}gt^2 + h$ \tabto{3in} $v(t) = -gt$  \\ \vspace{4pt}
+\color{B}B: $x(t) = -\frac{1}{2}gt^2 + v_0 t + h$ \tabto{3in} $v(t) = -gt$  \\ \vspace{4pt}
+\color{C}C: $x(t) = -\frac{1}{2}gt^2 + h$ \tabto{3in} $v(t) = gt$  \\ \vspace{4pt}
+\color{D}D: $x(t) = -\frac{1}{2}gt^2 + h$ \tabto{3in} $v(t) = -gt$  \\ \vspace{4pt}
+\color{E}E: $x(t) = -\frac{1}{2}gt^2 + v_0 t$ \tabto{3in} $v(t) = -gt$  \\ \vspace{4pt}
 
 }
 
@@ -305,22 +311,27 @@ First: Write the position and velocity equations, substituting in things you kno
 \bigskip
 \bigskip
 \bigskip
+
+\large
+
 Second: Phrase the question in terms of your algebraic variables.
 
 
 \bigskip
 
-From the previous: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$
+From the previous: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$.
  
 \bigskip
 
-(Here, take ground level to be $y=0$, and upward to be the positive direction.)
+(Again, take ground level to be $y=0$, and upward to be the positive direction.)
 
-\color{A}A: ``What is the value of $t$ when $v=0$?'' \\ 
-\color{B}B: ``What is the value of $x$ when $t=0$?'' \\ 
-\color{C}C: ``What is the value of $x$ when $v=0$?'' \\ 
-\color{D}D: ``What is the value of $t$ when $x=h$?'' \\ 
-\color{E}E: ``What is the value of $t$ when $x=0$?'' \\ 
+\bigskip\bigskip
+
+\color{A}A: ``What is the value of $t$ when $v=0$?'' \\ \vspace{4pt}
+\color{B}B: ``What is the value of $x$ when $t=0$?'' \\ \vspace{4pt}
+\color{C}C: ``What is the value of $x$ when $v=0$?'' \\ \vspace{4pt}
+\color{D}D: ``What is the value of $t$ when $x=h$?'' \\ \vspace{4pt}
+\color{E}E: ``What is the value of $t$ when $x=0$?'' \\ \vspace{4pt}
 }
 
 \frame{\frametitle{\textbf{Example problems}}
@@ -329,25 +340,31 @@ From the previous: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$
 \bigskip
 \bigskip
 \bigskip
+\large
 Third: Do the algebra your sentence tells you to do: ``What is the value of $t$ when $x=0$?''
  
+\bigskip\large
+
+From the previous: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$.
+
 \bigskip
 
-From the previous: $x(t) = -\frac{1}{2}gt^2 + h$ and $v(t) = -gt$
+(Again, take ground level to be $y=0$, and upward to be the positive direction.)
 
 \bigskip
+\Large
 
-(Here, take ground level to be $y=0$, and upward to be the positive direction.)
 
-\color{A}A: $\sqrt{2g/h}$ \\ 
-\color{B}B: $h/g$\\ 
-\color{C}C: $\sqrt{2h/g}$ \\
-\color{D}D: $2h/g$ \\
+\color{A}A: $\sqrt{2g/h}$ \\ \vspace{3pt}
+\color{B}B: $h/g$\\ \vspace{3pt}
+\color{C}C: $\sqrt{2h/g}$ \\\vspace{3pt}
+\color{D}D: $2h/g$ \\\vspace{3pt}
+\color{E}E: $\sqrt{h/g}$
 }
 
 \frame{\frametitle{\textbf{Another example}}
 \Large 
-You throw an object up with an initial speed of $v_0$. How long does it take to reach a height $h$?
+You throw an object up with an initial speed of $v_0$. How much time does it take to reach a height $h$?
 
 \pause
 
@@ -383,11 +400,11 @@ ground level as zero, and downward to be positive.)
  
 \bigskip
 
-\color{A}A: $x(t) = \frac{1}{2}gt^2$ and $v(t) = -gt$  \\ 
-\color{B}B: $x(t) = -\frac{1}{2}gt^2 + v_0 t + h$ and $v(t) = -gt$  \\ 
-\color{C}C: $x(t) = \frac{1}{2}gt^2 + v_0 t$ and $v(t) = gt + v_0$  \\ 
-\color{D}D: $x(t) = \frac{1}{2}gt^2 - v_0 t$ and $v(t) = -gt$  \\ 
-\color{E}E: $x(t) = -\frac{1}{2}gt^2 - v_0 t$ and $v(t) = -gt$  \\ 
+\color{A}A: $x(t) = \hspace{10pt}\frac{1}{2}gt^2$ \tabto{3in} $v(t) = -gt$  \\ \vspace{4pt}
+\color{B}B: $x(t) = -\frac{1}{2}gt^2 + v_0 t + h$ \tabto{3in} $v(t) = -gt$  \\ \vspace{4pt}
+\color{C}C: $x(t) = \hspace{10pt}\frac{1}{2}gt^2 + v_0 t$ \tabto{3in} $v(t) = \hspace{10pt}gt + v_0$  \\ \vspace{4pt}
+\color{D}D: $x(t) = \hspace{10pt}\frac{1}{2}gt^2 - v_0 t$ \tabto{3in} $v(t) = -gt$  \\ \vspace{4pt}
+\color{E}E: $x(t) = -\frac{1}{2}gt^2 - v_0 t$ \tabto{3in} $v(t) = -gt$  \\ 
 
 }
 
@@ -423,18 +440,64 @@ the time, then find $v$.
 
 }
 
-\frame{\frametitle{\textbf{Example problems}}
-\Large
-\BI
-\item{A bucket is being lowered from a cliff at a rate of 10 m/s. You drop a rock off the cliff when the bucket is 10 m beneath the top. 
-How long does it take for the rock to land in the bucket?}
-\EI
-\bigskip
-\bigskip
+\frame{\frametitle{\textbf{Homework/recitation questions?}}
+	
+}
 
-Same idea as before; see example on the document camera.
+
+\frame{\frametitle{\textbf{Example problems}}
+	
+	\large Some students get on the elevator in Bray Hall and press the button to go up. The elevator accelerates upward at 0.5 $\rm m/\rm s^2$ for four seconds before it breaks down. 
+	
+	\bigskip Thankfully, the emergency brake engages; the emergency brake decelerates the elevator at 3 $\rm m/\rm s^2$ until it comes to a stop. 
+	
+	\bigskip\pause
+	
+	One of the students has a crowbar and pries the doors open, hoping to crawl out. How far above ground level is the elevator stuck?
+\bigskip\bigskip
+	
+	\begin{itemize}
+		\item Can we use $x(t) = \frac{1}{2}at^2 + v_0 t + x_0$ for this? Why or why not? \pause
+		\begin{itemize}
+			\item \color{Blue} The acceleration isn't constant, but it's {\bf piecewise constant} \pause
+			\item \color{C} Use one copy of the constant-acceleration relations for the first phase \\ and another copy for the second phase\pause
+		\item \color{Red}Find the position and velocity at the end of the first phase
+		\item \color{Green}Those are the position and velocity at the beginning of the first phase 
+		\end{itemize}
+
+\end{itemize}	
+	\bigskip\bigskip\pause
+	
+	How long will it take before the administration sends an email out about the elevator?
+	
+}
+
+
+
+
+
+\frame{\frametitle{\textbf{Example problems}}
+	\Large
+	\BI
+	\item{A bucket is being lowered from a cliff at a rate of 10 m/s. You drop a rock off the cliff when the bucket is 10 m beneath the top. 
+		How long does it take for the rock to land in the bucket?}
+	\EI
+	\bigskip
+	\bigskip
+	
+	Same idea as before; see example on the document camera.
+}
+
+
+
+\frame{
+
+\begin{center}
+	Those looking at these slides later: we probably won't get to what's after this. It'll come back later in the semester. This is just here if we have extra time and you don't have questions!
+\end{center}
 
 }
+
 
 \frame{\frametitle{\textbf{Rotational kinematics}}
 \Large
