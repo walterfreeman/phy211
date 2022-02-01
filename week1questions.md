@@ -7,11 +7,6 @@ use_math: true
 ---
 
 
-* Is there a way to test out of the course if we have already taken a high level physics class?
-
-*No; that's a decision above my pay grade. I just teach classes, not decide what you need to take for your program of study! However, if you want to do something more challenging in our class,
-come talk to me.*
-
 * How many questions will typically be on a test?
 * How long are the exams on average (in terms of question count)?
 * Are the questions done in recitations/in class similar to those on exams? "
@@ -39,7 +34,8 @@ their stories: Virginia Woolf, James Joyce, and many others. But you can write b
 grammar and diction. In our class we'll be emphasizing the stories we tell, not the language we use to tell them. Sometimes we'll need some fancy mathematical
 ideas, but only rarely. Shakespeare used such language when he needed to, but Shakespeare's plays are full of fart jokes and crude anatomical references, too.
 Physcs aims to be the Shakespeare of the sciences, telling profound stories about existence,
-using fancy language only when we need to, and getting in as many good laughs along the way as we can.*
+using fancy language only when we need to, and getting in as many good laughs (and discussions of the physics of farts) 
+along the way as we can.*
 
 
 * What qualities do you look for when you’re looking for the Coaches for recitations? 
@@ -244,8 +240,16 @@ highly, highly encourage you to collaborate!*
 * Is an A an 80 because the class is that hard? Do people get higher than 90's ever?
 
 *Yes they do. There are very high grades in our class (around 100% sometimes). We ask you to do quite challenging things on exams; we figure if you can do 80% of challenging things on the spot
-during exam conditions, you are damn good at physics and your grade should reflect it.*
+during exam conditions, you are damn good at physics and your grade should reflect it. The 90%=A grading scheme is peculiar to American 
+high schools and is all about asking you to do easy things perfectly. Most places around the world don't do that.*
 
 * will assignments be announced in email or do we have to keep track of them 
 
 *I'll post the due dates on the website and announce them in class. But I won't be sending out "hey, your homework is due!" emails. You get enough spam already.*
+
+* Is there a way to test out of the course if we have already taken a high level physics class?
+
+*No; that's a decision above my pay grade. I just teach classes, not decide what you need to take for your program of study! However, if you want to do something more challenging in our class,
+come talk to me.*
+
+
