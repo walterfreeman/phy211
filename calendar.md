@@ -19,7 +19,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 25 January  | <a href="slides/lec1/lecture1.pdf">Introduction; what is physics?; dimensions and units; Fermi problems</a>                                             | 1.1-1.5                        |
 | 27 January  | <a href="slides/lec2/lecture2.pdf">"Equations of motion"; acceleration; all the calculus you need</a>                                                   | 3.1-3.4                        |
 |  1 February | <a href="slides/lec3/lecture3.pdf">Motion in one dimension</a>                                                                                          | 3.5-3.6                        |
-|  3 February | Describing things with direction: Vectors.                                                                       | 2.1-2.3                        |
+|  3 February | <a href="slides/lec4/lecture4.pdf">Describing things with direction: Vectors.</a>                                                                       | 2.1-2.3                        |
 |  8 February | Projectile motion                                                                                                | 4.1-4.3                        |
 | 10 February | Review for Exam 1                                                                                                |                                |
 | 15 February | **Exam 1**                                                                                                       | 5.1-5.3                        |
