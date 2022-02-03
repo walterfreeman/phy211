@@ -6,6 +6,7 @@
 \usefonttheme{professionalfonts} % using non standard fonts for beamer
 \usefonttheme{serif} % default family is serif
 
+
 %\documentclass[12pt]{beamerthemeSam.sty}
 \usepackage{epsf}
 %\usepackage{pstricks}
@@ -35,7 +36,11 @@
 \def\BNEA{\begin{eqnarray}}
 \def\ENEA{\end{eqnarray}}
 \def\EL{\nonumber\\}
-
+\definecolor{A}{rgb}{0.8,0.0,0.0}
+\definecolor{B}{rgb}{0.0,0.6,0.0}
+\definecolor{C}{rgb}{0.6,0.6,0.0}
+\definecolor{D}{rgb}{0.0,0.0,0.5}
+\definecolor{E}{rgb}{0.4,0.4,0.4}
 
 \newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
 \centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
@@ -101,7 +106,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2015\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
 
 \date{\today}
 
@@ -111,30 +116,31 @@
 
 \frame{\frametitle{\textbf{ }}
 \large
-\begin{center}
+
 ``Poets say science takes away from the beauty of the stars—mere globs of gas atoms. Nothing is “mere.” I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination--stuck on this carousel my little eye can catch one-million-year-old light. A vast pattern, of which I am a part.... 
 
 \bigskip
 
 What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined! Why do the poets of the present not speak of it? What men are poets who can speak of Jupiter if he were like a man, but if he is an immense spinning sphere of methane and ammonia must be silent?''
-\end{center}
-\bigskip
-\bigskip
-\bigskip
 
---Richard Feynman, from Lectures on Physics, vol. 1, ch. 3
+\bigskip
+\bigskip
+\bigskip
+\begin{flushright}
+	\it
+--Richard Feynman, from Lectures on Physics, vol. 1, ch. 3	
+\end{flushright}
+
 }
 
 \frame{\frametitle{\textbf{Announcements}}
 \BI
 \item{Homework 2 is posted}
-\item{Up to 2\% extra credit for participation on the course Facebook group}
-\item{Up to 2\% extra credit for participation in recitations}
-\item{The Clinic got a huge amount of use yesterday}
+\item{The Clinic got a lot of use yesterday}
 \item{Homework 2 due next Friday}
 \item{Next week:}
 \BI
-\item {One graded question in recitation Wednesday}
+\item {Tuesday and Thursday we will be applying and practicing what we learn today}
 \item {Group practice test Friday}
 \EI
 \EI
@@ -164,25 +170,37 @@ Many of the things we deal with in physics are vectors:
 \bigskip
 \pause
 So, we need to learn to do math with arrows.
-\BI
-
-\item{We indicate that an object is a vector by writing an arrow over it: ``the vector $\vec V$''.}
-\item{``Scalar'': object that isn't a vector (mass, time)}
-\item{Equations can mix vectors and scalars: $\vec F = m \vec a$.}
-\item{... or $\vec s = \frac{1}{2}\vec a t^2 + \vec v_0 t + \vec s_0$}
-\EI
 }
 
-\frame{\frametitle{\textbf{Notation}}
+	
+
+\frame{\frametitle{\textbf{Notation and equations}}
 
 \Large
+
+We can do algebra with vectors just like anything else:
+
+\normalsize
+
+\BI
+
+\item{We indicate that a symbol is a vector by writing an arrow over it: ``the vector $\vec V$''.}
+\item{``Scalar'': object that isn't a vector (mass, time)}
+\item{Equations can mix vectors and scalars: {\color{A}$\vec F = m \vec a$.}}
+\item{... or {\color{B}$\vec s = \frac{1}{2}\vec a t^2 + \vec v_0 t + \vec s_0$}}
+\EI
+
+\bigskip
+
+\Large
+Some notation:
 
 \BI
 \item $\vec A$: ``the vector A'' (a vector)
 \item $A$: ``the magnitude of A'' (a scalar)
 \item $\hat A$: ``the direction A points in'' (a vector with magnitude 1)
 \item $A_x$: the component of A along the $x-$axis (a scalar)
-\item $A_y$: the component of A along the $y-$ayis (a scalar)
+\item $A_y$: the component of A along the $y-$axis (a scalar)
 \EI
 }
 
@@ -191,7 +209,7 @@ So, we need to learn to do math with arrows.
 \column{0.5\textwidth}
 \centerline{\includegraphics[width=0.7\textwidth]{vector-angle-crop.pdf}}
 \Large
-\centerline{Angle and direction}
+\centerline{Magnitude and direction}
 \column{0.5\textwidth}
 \centerline{\includegraphics[width=0.7\textwidth]{vector-components-crop.pdf}}
 \Large
@@ -208,11 +226,55 @@ So, we need to learn to do math with arrows.
 
 \Huge
 
-A: Using algebra\\
-B: Using trigonometry\\
-C: Using calculus\\
-D: Using differential equations\\
+\color{A}A: Using algebra\\
+\color{B}B: Using trigonometry\\
+\color{C}C: Using calculus\\
+\color{D}D: Using differential equations\\
 }
+
+\frame{\frametitle{\textbf{From magnitude and direction to components}}
+	\begin{columns}
+		\column{0.5\textwidth}
+		\centerline{\includegraphics[width=0.7\textwidth]{vector-angle-crop.pdf}}
+		\Large
+		\centerline{Magnitude and direction}
+		\column{0.5\textwidth}
+		\large
+		
+		What is the $x-$component of this vector? \bigskip
+		
+		
+		\color{A}A: $5 \cos 53^\circ$ \\
+		\color{B}B: $5 \sin 53^\circ$ \\
+		\color{C}C: $5 \tan 53^\circ$ \\
+		\color{D}D: Something else
+	
+	\end{columns}
+
+}
+
+\frame{\frametitle{\textbf{From magnitude and direction to components}}
+	\begin{columns}
+		\column{0.5\textwidth}
+		\centerline{\includegraphics[width=0.7\textwidth]{vector-angle-crop.pdf}}
+		\Large
+		\centerline{Magnitude and direction}
+		\column{0.5\textwidth}
+		\large
+		
+		What is the $x-$component of this vector? \bigskip
+		
+		
+		\color{A}A: $5 \cos 53^\circ$ \\
+		\color{B}B: $5 \sin 53^\circ$ \\
+		\color{C}C: $5 \tan 53^\circ$ \\
+		\color{D}D: Something else
+		
+	\end{columns}
+	
+}
+
+
 
 \frame{\frametitle{\textbf{From ``direction and magnitude'' to components}}
 \centerline{\includegraphics[width=0.6\textwidth]{vector-ang2comp-crop.pdf}}
@@ -224,25 +286,26 @@ D: Using differential equations\\
 
 \frame{
 
-\Huge
+\Large
+
 
 Suppose you have some vector $\vec A$ that you want to convert into components.
 The $x$-component $A_x$ is:
 
 \bigskip
 
-A: $A \cos \theta$\\
-B: $A \sin \theta$\\
-C: $A \tan \theta$\\
-D: $\frac{A}{\cos \theta}$\\
-E: It depends
+\color{A}A: $A \cos \theta$\\
+\color{B}B: $A \sin \theta$\\
+\color{C}C: $A \tan \theta$\\
+\color{D}D: $\frac{A}{\cos \theta}$\\
+\color{E}E: It depends
 
 }
 
 \frame{\frametitle{\textbf{A warning!}}
 
-\centerline{\Large{You cannot memorize ``$V \sin \theta$ is the $y$ component,}}  
-\centerline{\Large{$V \cos \theta$ is the $x$ component''!}}
+\begin{center}\Large{You cannot memorize \\``$V \sin \theta$ is the $y$ component,  
+\Large{$V \cos \theta$ is the $x$ component''!}} \end{center}
 \bigskip
 \bigskip
 \centerline{\Large{This does {\it not} work in general; you have to actually draw the triangle.}}
@@ -325,8 +388,49 @@ Yes: vector addition obeys the commutative property, just like ordinary addition
 }
 
 \frame{\frametitle{\textbf{What does this do to our kinematics?}}
+	\large Acceleration, velocity, and position relationships are still the same; they just apply {\color{Red}independently} for each component.
+
+\normalsize
+	
+{\color{A}$\vec s$} is the position vector:
+\begin{itemize}
+	\item {{\color{A} $s_x$} or just {\color{A}$x$} is its $x$-component}
+	\item {{\color{A} $s_y$} or just {\color{A}$y$} is its $y$-component}
+\end{itemize}
+\bigskip
+
+{\color{B}$\vec v$} is the position vector:
+\begin{itemize}
+	\item {{\color{B} $v_x$} is its $x$-component}
+	\item {{\color{B} $v_y$} is its $y$-component}
+\end{itemize}
+\bigskip
+
+{\color{D}$\vec a$} is the position vector:
+\begin{itemize}
+	\item {{\color{D} $a_x$} is its $x$-component}
+	\item {{\color{D} $a_y$} is its $y$-component}
+\end{itemize}
+
+
+\bigskip
+
+{\bf Do not get lazy} if you have multiple subscripts. For instance: {\color{C}$\vec v_0$} is the initial velocity vector:
+
+
+\begin{itemize}
+	\item {{\color{C} $v_{0,x}$} or {\color{C}${v_0}_x$} is its $x$-component}
+	\item {{\color{C} $v_{0,x}$} or {\color{C}${v_0}_y$} is its $y$-component}
+\end{itemize}
+
+}
+
+
+\frame{\frametitle{\textbf{What does this do to our kinematics?}}
 \large Acceleration, velocity, and position relationships are still the same; they just apply {\color{Red}independently} for each component.
 \Large
+
+
 
 \begin{align*}
 \vec v(t) =&\, \vec at + \vec v_0 \\
@@ -336,14 +440,14 @@ Yes: vector addition obeys the commutative property, just like ordinary addition
 \pause
 
 \begin{align*}
-\vec v_x(t) =&\, a_x t + v_{x,0} \\
-\vec v_y(t) =& a_y t + v_{y,0} \\
+v_x(t) =&\, a_x t + v_{x,0} \\
+v_y(t) =& a_y t + v_{y,0} \\
 \end{align*}
 \pause
 \begin{align*}
-\vec x(t) =&\,  \frac{1}{2}  a_x t^2 + v_{x,0} t + x_0\\
+x(t) =&\,  \frac{1}{2}  a_x t^2 + v_{x,0} t + x_0\\
 \bigskip
-\vec y(t) =&\, \frac{1}{2}  a_y t^2 + v_{y,0} t + y_0
+y(t) =&\, \frac{1}{2}  a_y t^2 + v_{y,0} t + y_0
 \end{align*}
 }
 
@@ -358,10 +462,10 @@ Yes: vector addition obeys the commutative property, just like ordinary addition
 \Large
 
 \BI
-\item{a. $\vec A t = \vec B$}
-\item{b. $\vec A + \vec B + t = \vec C$}
-\item{c. $k(\vec A + \vec B) = k\vec A + k\vec B$}
-\item{d. $\vec A - \vec B = \vec C$}
+\item{\color{A}A) $\vec A t = \vec B$}
+\item{\color{B}B) $\vec A + \vec B + t = \vec C$}
+\item{\color{C}C) $k(\vec A + \vec B) = k\vec A + k\vec B$}
+\item{\color{D}D) $\vec A - \vec B = \vec C$}
 \EI
 
 \pause
@@ -377,15 +481,23 @@ B: You can't add a vector and a scalar. ``One mile north plus one inch'' -- whic
 \Large
 \begin{enumerate}
 \item{1. If you have vectors in the ``angle and magnitude'' form, convert them to components}
+\bigskip
+
 \item{2. Write down the kinematics relations, separately for $x$ and $y$}
 \begin{itemize}
 \large
 \item{Many terms will usually be zero}
 \item{Freefall: $a_x = 0$, $a_y = -g$ (with conventional choice of axes)}
 \end{itemize}
+\bigskip
+
 \item{3. Understand what instant in time you want to know about}
+\bigskip
+
 \item{4. Put in what you know; solve for what you don't (using substitution, if necessary)}
-\item{5. Convert vectors into whatever format the problem asks for}
+
+\bigskip
+\item{5. Convert vectors into whatever format you would like them in}
 \end{enumerate}
 \pause
 
@@ -394,7 +506,7 @@ B: You can't add a vector and a scalar. ``One mile north plus one inch'' -- whic
 
 
 
-\centerline{\Large{\color{Red}Every kinematics problem we will encounter can be done this way!}}
+\centerline{\Large{\color{Red}Every kinematics situation we will encounter can be done this way!}}
 }
 
 \frame{\frametitle{\textbf{Sample problems}}
@@ -414,5 +526,24 @@ B: You can't add a vector and a scalar. ``One mile north plus one inch'' -- whic
 \item{What will its speed be when it strikes the ground?}
 \end{itemize}
 }
+
+
+\frame{\frametitle{\textbf{We're done!}}
+		
+		\Large
+		
+		This is all of the material you will need for the first exam!
+		
+		\bigskip
+		
+		We have three recitations and two classes left; we're going to spend it practicing.
+		
+		\bigskip
+		
+		As with everything in physics, applying abstract ideas to the real world is the challenge. So we have set aside lots of time for it!
+
+
+}
+
 
 \end{document}

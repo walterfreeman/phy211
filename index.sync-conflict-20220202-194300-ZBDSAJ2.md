@@ -5,9 +5,7 @@ use_math: true
 title: Announcements
 ---
 
-### Week 1 checkin
-
-You can find the <a href="https://docs.google.com/forms/d/1geZRFwHwJrK4j3fX8iTzZu2NFuB97ScAEdeSsDvg3Vg/">week 1 checkin</a> here. Tell us a little about yourself and how it's going; this should take just a few minutes, and is due Monday at noon.
+See the "Week 1 questions" link for answers to all the questions you asked me in the check-in.
 
 ### Where do I find...
 
@@ -17,20 +15,20 @@ You can find the <a href="https://docs.google.com/forms/d/1geZRFwHwJrK4j3fX8iTzZ
 
 ### Slides for current class
 
-<a href="slides/lec4/lecture4.pdf">Vectors: mathematics with arrows</a>
+<a href="slides/lec3/lecture3.pdf">Kinematics in one dimension</a>
 
 ### Upcoming assignments
 
-* <a href="hw/hw1/hw1.pdf">Homework 1</a> is due Friday, February 4.
+* <a href="hw/hw1/hw1.pdf">Homework 1</a> is due Friday. 
 * <a href="hw/hw1/hw1-companion.pdf">Homework 1 Companion</a>, with hints and a discussion of what we hope you learn from these exercises
-* Homework 2 will be posted later today
-
 * Join the <a href="https://discord.gg/bngYwjZRHk">course Discord server</a> if you are so inclined
-* Remember the "check-in" Google form (posted later today) 
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 
 - Discord server invite: <https://discord.gg/bngYwjZRHk>
+
+Here's the <a href="jan25.opus">audio recording from Tuesday's class</a> in case anyone missed it. But you 
+don't need to listen; see my email Tuesday evening for details.
 
 ### Contact information and staff
 -   Professor: 
