@@ -10,9 +10,10 @@ use_math: true
 <a href="hw/hw1/hw1.pdf">Homework 1</a>, due Friday, February 4, at the start of recitation<br>
 <a href="hw/hw1/hw1-companion.pdf">Homework 1 Companion</a>, with hints and a discussion of what we hope you learn from these exercises
 
+<br><br>
+<a href="hw/hw2/hw2.pdf">Homework 2</a>, due Friday, February 11, at the start of recitation<br>
+A companion document for HW2 will be posted soon, with hints and discussion, as before. 
 <!--
-<br>
-<a href="hw/hw2/hw2.pdf">Homework 2</a>, due Thursday, February 25, before the beginning of class (11am)
 <br>
 <a href="hw/hw3/hw3.pdf">Homework 3</a>, due Thursday, March 11, before the beginning of class (11am)
 <br>
