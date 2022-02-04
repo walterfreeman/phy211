@@ -17,11 +17,9 @@ title: Announcements
 
 ### Upcoming assignments
 
-* <a href="hw/hw1/hw1.pdf">Homework 1</a> is due Friday, February 4.
-* <a href="hw/hw1/hw1-companion.pdf">Homework 1 Companion</a>, with hints and a discussion of what we hope you learn from these exercises
-* Homework 2 will be posted later today
+* <a href="hw/hw2/hw2.pdf">Homework 2</a> is due Friday, February 11.
 * Join the <a href="https://discord.gg/bngYwjZRHk">course Discord server</a> if you are so inclined
-* Week 2's checkin google form will be posted Friday afternoon 
+* Week 2's checkin google form will be posted very soon, stand by 
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 

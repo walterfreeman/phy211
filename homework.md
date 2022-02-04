@@ -13,6 +13,7 @@ use_math: true
 <br><br>
 <a href="hw/hw2/hw2.pdf">Homework 2</a>, due Friday, February 11, at the start of recitation<br>
 A companion document for HW2 will be posted soon, with hints and discussion, as before. 
+
 <!--
 <br>
 <a href="hw/hw3/hw3.pdf">Homework 3</a>, due Thursday, March 11, before the beginning of class (11am)
@@ -30,5 +31,4 @@ A companion document for HW2 will be posted soon, with hints and discussion, as 
 <a href="hw/hw9/hw9-2021.pdf">Homework 9</a> is due Thursday, April 29, before class
 <br>
 <a href="hw/hw10/hw10.pdf">Homework 10</a> is due Sunday, May 16, by the end of the day
-
 -->
