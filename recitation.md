@@ -14,6 +14,11 @@ use_math: true
 
 <a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a><br>
 <a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
+<br>
+
+
+<a href="recitation/week3/recitation-2D-motion.pdf">Week 3 Wednesday: 2D motion</a><br>
+Friday's recitation will be your first group exam.
 
 
 <!--
