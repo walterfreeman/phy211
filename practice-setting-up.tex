@@ -1,0 +1,222 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\vs}[1]{\vspace{#1}}
+\newcommand{\BC}{\begin{center}}
+\newcommand{\EC}{\end{center}}
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{enumerate}}
+\newcommand{\EE}{\end{enumerate}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+\pagenumbering{gobble}
+\begin{document}
+\Large
+\centerline{\sc{Physics Practice}}
+\large
+\BC
+\sc
+``Setting Up Problems''
+\EC
+\normalsize
+
+{\large \bf Problem 1:}
+
+A person standing next to a 10m deep well throws a rock upward at 5 m/s. It travels up for a while, comes
+back down, then falls in the well. 
+
+
+
+\begin{itemize}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin.
+
+\vspace{1.2in}
+
+\item Write expressions for $x(t)$ and $v(t)$, putting in variables that you know (what is $a$?)
+
+\vspace{1.2in}
+
+\item Write sentences in terms of your algebraic variables that allow you to answer the following:
+
+
+\begin{enumerate}
+\item How long does it take the rock to hit the bottom of the well?
+\vspace{0.7in}
+\item How high does the rock go?
+\vspace{0.7in}
+\item How fast is the rock going when it hits the ground?
+\end{enumerate}
+\end{itemize}
+\newpage
+
+{\large \bf Problem 2:}
+
+A person standing on top of a cliff of height 10m throws a rock horizontally at 5 m/s. 
+
+
+
+\begin{itemize}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and labelling interesting
+things.
+
+\vspace{1.2in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, putting in variables that you know.
+
+\vspace{1.2in}
+
+\item Write sentences in terms of your algebraic variables that allow you to answer the following:
+
+
+\begin{enumerate}
+\item How long does it take the rock to hit the bottom of the cliff? 
+\vspace{0.7in}
+\item Where does the rock strike the ground?
+\vspace{0.7in}
+\item What is the rock's speed when it strikes the ground? 
+\end{enumerate}
+\end{itemize}
+
+\newpage
+
+{\large \bf Problem 3:}
+
+A person standing on top of a cliff of height 10m throws a rock upward at an angle $20^\circ$ at 5 m/s. 
+
+
+
+\begin{itemize}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and labelling interesting
+things.
+
+\vspace{1.2in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, putting in variables that you know.
+
+\vspace{1.2in}
+
+\item Write sentences in terms of your algebraic variables that allow you to answer the following:
+
+
+\begin{enumerate}
+\item How long does it take the rock to hit the bottom of the cliff? 
+\vspace{0.7in}
+\item Where does the rock strike the ground?
+\vspace{0.7in}
+\item How high does the rock go?
+\vspace{0.7in}
+\item What is the rock's speed when it strikes the ground? 
+\end{enumerate}
+\end{itemize}
+\newpage
+{\large \bf Problem 4:}
+
+An archer stands a distance $d$ away from a building of height $h$. She shoots an arrow at a velocity $v_0$
+at an angle $\theta$ below the vertical toward the building.
+
+
+\begin{itemize}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and labelling interesting
+things.
+
+\vspace{1.2in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, putting in variables that you know.
+
+\vspace{1.2in}
+
+\item Write sentences in terms of your algebraic variables that allow you to answer the following:
+
+\begin{enumerate}
+\item What is the minimum speed she must shoot the arrow with so that it hits the building? 
+\vspace{0.7in}
+\item What is the minimum speed she must shoot the arrow with so that it lands on the roof of the building?
+\vspace{0.7in}
+\item Where on top of the building does the arrow land?
+\vspace{0.7in}
+\item What direction is the arrow traveling when it lands on the roof?
+\end{enumerate}
+
+\newpage
+
+\item For each of these questions, look back at the sentences you wrote on the preceding page, then describe what algebraic steps you would take to calculate the thing you want to calculate.
+
+
+\begin{enumerate}
+	\item What is the minimum speed she must shoot the arrow with so that it hits the building? 
+	\vspace{1.7in}
+	\item What is the minimum speed she must shoot the arrow with so that it lands on the roof of the building?
+	\vspace{1.7in}
+	\item Where on top of the building does the arrow land?
+	\vspace{1.7in}
+	\item What direction is the arrow traveling when it lands on the roof?
+\end{enumerate}
+
+
+\end{itemize}
+\newpage
+{\large \bf Problem 5:}
+
+A hiker stands on top of a hill that makes an angle of $45^\circ$ with the horizontal. She kicks a rock horizontally at speed $v_0$.
+
+\begin{itemize}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and labelling interesting
+things.
+
+\vspace{1.2in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, putting in variables that you know.
+
+\vspace{1.2in}
+
+\item Write sentences in terms of your algebraic variables that allow you to answer the following:
+
+
+\begin{enumerate}
+\item How long is the rock in the air? 
+\vspace{0.7in}
+\item How far down the hill does the rock land? 
+\vspace{0.7in}
+\end{enumerate}
+\end{itemize}
+
+
+
+
+\end{document}
