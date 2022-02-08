@@ -2,7 +2,6 @@
 layout: page 
 permalink: staff-manual.html 
 use_math: true
-category: top
 title: Staff Manual
 ---
 # Physics 211 Staff Manual

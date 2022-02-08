@@ -1,5 +1,3 @@
-% DPF 09 talk on strangeness in nucleon
-
 \documentclass[10pt]{beamer}
 \usepackage{amsmath}
 \usepackage{mathtools}
@@ -108,7 +106,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2019\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
 
 \date{\today}
 
@@ -124,15 +122,60 @@
   \BI
 \item{No homework due next week}
 \item{HW2 problems are similar to those on Exam 1}
-\item{Physics practice: tomorrow night, 7:30-9:30, here}
 \item{Recitation Friday is your group practice exam}
 \item{If you must miss Friday, notify your TA in advance}
 \BI
-\item{Weekend: Exam review in the auditorium, Sunday, 10AM-1PM. (Sorry about the time; it's the only time I'm free.)}
+\item{Weekend: Exam review in the auditorium, Saturday, 5PM-8PM.}
   \EI
 \EI
 \EI
 }
+
+\frame{
+	\begin{center}
+\includegraphics[width=0.4\textwidth]{cyclist-histogram.pdf}\hspace{0.1\textwidth}	
+\includegraphics[width=0.4\textwidth]{roadrunner-histogram.pdf}\vspace{0.05\textwidth}
+\includegraphics[width=0.4\textwidth]{vectors-histogram.pdf}\hspace{0.1\textwidth}
+\includegraphics[width=0.4\textwidth]{hw1-histo.pdf}
+\end{center}
+	
+}
+
+\frame{\frametitle{\textbf{Makeup / study opportunities}}
+	We've arranged the following series of catchup/makeup/study sessions this week. All sessions will meet in the Clinic but may move to another room if need be.
+	
+	\begin{itemize}\color{A}
+		\item Tuesday 9:45-10:30 -- I'll be in the Clinic helping with whatever people need.
+		\item Tuesday 2:00-3:45 -- I'll be in the Clinic.
+		\item Tuesday 5-6:30 -- Mac and Kiersten:
+		\begin{itemize}
+			\color{A}
+			\item General mathematics review
+			\item Review of vectors (for those who missed Friday's recitation)
+		\end{itemize}\pause\color{C}
+	     \item Wednesday 3:00-4:30: Adil and Kiersten:
+	     \begin{itemize}
+	     	\color{C}
+	     	\item Catchup if you missed class due to COVID (focusing on beginning of semester)
+	     	\item Homework help
+	     \end{itemize}
+     \item Wednesday 4:30-5:30: I'll be in the Clinic.
+     \item Wednesday 5:30-7:00: Adil -- Catchup if you missed a week from COVID (focusing on week 2)\pause
+     \color{B}
+     \item Thursday 9:45-10:30 -- I'll be in the Clinic helping with whatever people need.
+     \item Thursday 3:00-5:00: Adam P, Chris.
+     \begin{itemize}
+     	\color{B}
+     	\item ``How to Set Up Problems''
+     	\item Homework help
+     \end{itemize}
+ \item Thursday 5:00-6:00 -- I'll be in the Clinic (maybe)
+ \item Thursday 6:00-8:30 -- AJ: ``Bring Your Questions'' -- review of homework and recitation exercises by request\pause\color{D}
+ \item Friday all day: Group Exam Review. Not sure how something in the group exam worked? Come by to discuss!
+	\end{itemize}
+}
+
+
 
 \frame{\frametitle{\textbf{Exam 1}}
  \BI
@@ -141,9 +184,9 @@
    \pause
  \item{\color{Red}The exam will be somewhat easier than the homework.}
    \pause
- \item{You may use any ordinary calculator or graphing calculator on the exam, but no cellphones or computers, or Ti N-spire level devices}
+ \item{You may use any ordinary calculator or graphing calculator on the exam, but no cellphones or computers, or Ti N-spire CAS level devices}
  \item{Students who do not speak English well: I will try to use only simple English on the exam, but if you like you may bring a dictionary}
- \item{Bring: your calculator, pencils, and your physics smarts (frog optional)}
+ \item{Bring: your calculator, pencils, and your physics smarts (one-eyed kitten optional)}
    \pause
 \item{Review session in class on Thursday}
 \item{You are allowed to bring one side of one page of notes that {\it you handwrite yourself} on Tuesday}
@@ -428,14 +471,14 @@ What condition means ``the ball is at its highest point?''?
 }
 
 
-\frame{\frametitle{\textbf{A cannon}}
+\frame{\frametitle{\textbf{A football player}}
 \Large
-A cannon shoots a cannonball at 80 $m/s$ at an angle of 30 degrees above the horizontal.
+A football player kicks the ball at 15 $m/s$ at an angle of 30 degrees above the horizontal.
 
 \bigskip
 \bigskip
 
-How can we frame the question ``How far does the cannonball go?'' in terms of our variables?
+How can we frame the question ``How far does the ball go?'' in terms of our variables?
 
 \bigskip
 
@@ -448,13 +491,13 @@ How can we frame the question ``How far does the cannonball go?'' in terms of ou
 \EI
 }
 
-\frame{\frametitle{\textbf{A cannon}}
+\frame{\frametitle{\textbf{A football player}}
 \large
 \BI
-\item{A cannon shoots a cannonball at 80 $m/s$ at an angle of 30 degrees above the horizontal.}
-\item{If the cannon is on level ground, how far does the cannonball go?}
+\item{A football player kicks the ball at 15 $m/s$ at an angle of 30 degrees above the horizontal.}
+\item{If the field is level ground, how far does the ball go?}
   \pause
-\item{How high does the cannonball go?}
+\item{How high does the ball go?}
   \pause
 \item{How fast is it traveling at its highest point?}
   \pause
@@ -465,18 +508,15 @@ How can we frame the question ``How far does the cannonball go?'' in terms of ou
 
 
 
-\frame{\frametitle{\textbf{A cannon}}
+\frame{\frametitle{\textbf{A football player}}
 \large
 \BI
-\item{A cannon shoots a cannonball at initial velocity $v_0=80 m/s$ at an angle $\theta=30^\circ$ above the horizontal.}
-\item{If the cannon is on level ground, how far does the cannonball go?}
-  \pause
-\item{How high does the cannonball go?}
-\pause
+\item{A football player kicks the ball at 15 $m/s$ at an angle of 30 degrees above the horizontal.}
+\item{If the field is level ground, how far does the ball go?}
+\item{How high does the ball go?}
 \item{How fast is it traveling at its highest point?}
-  \pause
 \item{How fast is it traveling when it strikes the ground?}
-  \EI
+\EI
 
 \bigskip
 
@@ -490,19 +530,41 @@ What is $v_{0,x}$?
 \color{D}D: $v_0$ \\
 }
 
-\frame{\frametitle{\textbf{A cannon}}
+
+\frame{\frametitle{\textbf{A football player}}
+	\large
+	\BI
+	\item{A football player kicks the ball at 15 $m/s$ at an angle of 30 degrees above the horizontal.}
+	\item{If the field is level ground, how far does the ball go?}
+	\item{How high does the ball go?}
+	\item{How fast is it traveling at its highest point?}
+	\item{How fast is it traveling when it strikes the ground?}
+	\EI
+	
+	\bigskip
+	
+	What is $v_{0,y}$?
+	
+	\bigskip
+	
+	\color{A}A: $v_0 \cos \theta$ \\
+	\color{B}B: $v_0 \sin \theta$ \\
+	\color{C}C: $v_0 \tan \theta$ \\
+	\color{D}D: $v_0$ \\
+}
+
+\frame{\frametitle{\textbf{A football player}}
 \large
 \BI
-\item What changes if I put the cannon up on a hill?
+\item What changes if I put the football player up on a cliff?
 \pause
-\item What changes if I'm trying to hit a target up on a plateau?
+\item What changes if they are kicking the ball up to someone on a cliff?
 \pause
-\item What changes if I want to know what velocity I need to hit a target? 
+\item What changes if I want to know what velocity they need to kick the ball to midfield? 
 \pause
 \item What changes if I have air resistance?
 \EI
 }
-
 
 
 \frame{\frametitle{\textbf{Throwing a rock off a cliff}}
@@ -535,7 +597,7 @@ What is $v_{0,y}$ here?
 \bigskip
 
 \color{A}A: 0 \\
-\color{B}B: 9.81 m/s\\
+\color{B}B: 9.8 m/s\\
 \color{C}C: You don't know {\it a priori} 
 }
 
@@ -596,7 +658,6 @@ What is $y_0$ here?
 \color{D}D: You don't know {\it a priori} 
 }
 
-
 \frame{
 \Large
 What question do you ask to find ``how hard did she throw it?''
@@ -648,10 +709,18 @@ What's the magnitude of $\vec v$?
 \color{B}B: What is the magnitude of $\vec s$ when $x=-y$?\\
 \color{C}C: What is the magnitude of $\vec s$ when $y=0$?\\
 \color{D}D: What is y when $x=-y$?\\
-\color{D}E: What is y when $x=0$?
+\color{E}E: What is y when $x=0$?
+
+
+\pause
+\vspace{1in}
+
+\begin{center}
+	This is on your homework :) I won't give the answer here -- this is for you to ponder!
+\end{center}
+
 }
 
-  
 \frame{\frametitle{\textbf{A rocket}}
  \Large
   A rocket is launched from rest on level ground. While its motor burns, it accelerates at 10 m/s at an angle 30 degrees
@@ -665,6 +734,5 @@ What's the magnitude of $\vec v$?
 \bigskip
 
 }
-
 
       \end{document}

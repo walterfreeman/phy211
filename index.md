@@ -9,17 +9,15 @@ title: Announcements
 
 * Looking for the slides we use in class? All the past slides are linked from the calendar page.
 * Looking for the homework assignments, recitation materials, etc? They've got separate pages; if you're on mobile, you can find them in the "hamburger menu".
-* Looking for the Physics Clinic to get help with your homework? It's room 112 on the opposite side of the Physics Building from our auditorium.
 
 ### Slides for current class
 
-<a href="slides/lec4/lecture4.pdf">Vectors: mathematics with arrows</a>
+<a href="slides/lec5/lecture5.pdf">Examples: 2D motion</a>
 
 ### Upcoming assignments
 
 * <a href="hw/hw2/hw2.pdf">Homework 2</a> is due Friday, February 11.
 * Join the <a href="https://discord.gg/bngYwjZRHk">course Discord server</a> if you are so inclined
-* Week 2's checkin google form will be posted very soon, stand by 
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 

@@ -1,6 +1,5 @@
 ---
 layout: page
-category: top
 title: Week 1 Questions
 permalink: w1q.html
 use_math: true
