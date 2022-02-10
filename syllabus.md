@@ -495,15 +495,19 @@ We anticipate that students will occasionally miss class or submission deadlines
 We recognize that you have many things in your life that may supercede our class: 
 events occurring on inflexible dates that are of singular
 importance to your education, your family, stewardship of your health and the health of others, your career, your 
-religious faith or life stance, or your participation in the democratic process or civic discourse.
+religious faith or life stance, or your participation in the democratic process or civic discourse. You might also 
+miss class due to an unexpected emergency such as a car accident.
 
 **If you miss an isolated lecture class**, you may be able to catch up during the recitation immediately following the class you miss. You are always welcome to come to 
-my office hours for help (and should do so).
+my office hours for help (and should do so). 
 
 **If you are late turning in a homework assignment**, you should describe the reason it is late to your TA and get their permission to turn it in late. 
-We will not accept homework more than three days late without a very good reason.
+(We will generally grant homework extensions for the reasons outlined above or in other situations where granting a homework extension will help you learn
+physics.) We will not accept homework more than three days late without a very good reason.
 
-**If you miss a group quiz**, we will replace its grade with the grade you get on the corresponding exam held the next week. _(You may do this once.)_
+**If you miss a group quiz** for a good reason (detailed above), we will replace its grade with the grade you get on the corresponding exam held the next week.
+To be eligible to do this, unless the situation is an emergency, you must contact your GTA and Walter and explain the reason for your absence and get it approved ahead of time, and then
+contact your group and let them know that you will not be able to help them with their work. _(You may do this once.)_
 
 **If you miss an exam**, we will drop it as your lowest exam grade. _(You may do this once.)_
 
