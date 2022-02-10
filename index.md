@@ -12,7 +12,7 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec5/lecture5.pdf">Examples: 2D motion</a>
+<a href="slides/lec6/lecture6.pdf">Examples: 2D motion (II)</a>
 
 ### Upcoming assignments
 
