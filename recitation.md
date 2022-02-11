@@ -18,7 +18,11 @@ use_math: true
 
 
 <a href="recitation/week3/recitation-2D-motion.pdf">Week 3 Wednesday: 2D motion</a><br>
-Friday's recitation will be your first group exam.
+<a href="group-exam-1/exam1.pdf">Week 3 Friday: 8:25 or 9:30 sections</a><br>
+<a href="group-exam-1/exam2.pdf">Week 3 Friday: 10:35 or 11:40 sections</a><br>
+<a href="group-exam-1/exam3.pdf">Week 3 Friday: 12:45 or 1:40 sections</a><br>
+<a href="group-exam-1/exam4.pdf">Week 3 Friday: 3:45 or 5:15 sections</a><br>
+
 
 
 <!--
