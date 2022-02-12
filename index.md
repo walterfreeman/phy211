@@ -5,10 +5,15 @@ use_math: true
 title: Announcements
 ---
 
-### Where do I find...
+### Practice Exam 1
 
-* Looking for the slides we use in class? All the past slides are linked from the calendar page.
-* Looking for the homework assignments, recitation materials, etc? They've got separate pages; if you're on mobile, you can find them in the "hamburger menu".
+Here is <a href="practice-exam-1.pdf">Practice Exam 1</a>. I'll post solutions either late Saturday night (after the review) or Sunday morning.
+
+### Week 3 checkin
+
+See <a href="https://docs.google.com/forms/d/10DK4z9NfN5nHqyCHXmQqtQc5xecHT8T7zxZX5zYaIuk/">the Google Form</a>. 
+
+
 
 ### Slides for current class
 
