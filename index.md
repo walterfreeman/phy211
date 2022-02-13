@@ -7,7 +7,7 @@ title: Announcements
 
 ### Practice Exam 1
 
-Here is <a href="practice-exam-1.pdf">Practice Exam 1</a>. I'll post solutions either late Saturday night (after the review) or Sunday morning.
+Here is <a href="practice-exam-1.pdf">Practice Exam 1</a> and <a href="practice-exam-1-solutions.pdf">its solutions</a>.
 
 ### Week 3 checkin
 
