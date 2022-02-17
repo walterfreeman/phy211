@@ -1,5 +1,3 @@
-% DPF 09 talk on strangeness in nucleon
-
 \documentclass[10pt]{beamer}
 \usepackage{amsmath}
 \usepackage{mathtools}
@@ -87,6 +85,12 @@
 \setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
 \setbeamercolor{structure}{fg=abtitlecolor}
 
+\definecolor{A}{rgb}{1.0,0.0,0.0}
+\definecolor{B}{rgb}{0.0,0.7,0.0}
+\definecolor{C}{rgb}{0.7,0.7,0.0}
+\definecolor{D}{rgb}{0.0,0.0,0.7}
+\definecolor{E}{rgb}{0.4,0.4,0.4}
+
 \setbeamerfont{section in toc}{series=\bfseries}
 
 %AB: remove navigation icons
@@ -101,7 +105,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2017\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
 
 \date{\today}
 
@@ -112,100 +116,99 @@
 \frame{\frametitle{\textbf{Announcements}}
 \BI
 \Large
-\item{Homework 3 due next Friday (will be posted sometime this weekend)}
-\item{You will get new groups in recitation next Wednesday}
-\item{Do not miss Friday's recitation -- exam review and return}
-\item{TA's will also give you a chance to practice some very important skills that people had trouble with on the exam}
+\item{Homework 3 due next Wednesday (will be posted today; shorter than HW2)}
+\item{You will get new groups in recitation Friday or Wednesday}
+\item{Exam 1 is graded; your grades will appear on Blackboard soon and you'll get your exams back in recitation Friday}
 \EI
 
 }
+%
+%\frame{\frametitle{\textbf{Exam 1}}
+%\large
+% \BI
+%\item{Something was weird on Exam 1}
+%\item{I may have to adjust the grading curve for the class, since the Physics Department standard for this class
+%is that the average is a B-. Should I alter the syllabus to do that?}
+% \EI
+%\Large
+%\bigskip
+%\BI
+%\item A: Yes
+%\item B: No
+%\pause
+%\item C: Eh?
+%\pause
+%\item D: trollface.jpg?
+%\EI
+%}
+%
+%\frame{\frametitle{\textbf{Exam 1}}
+%
+%\large
+%I showed my exam to my GTA's, some of whom have taught with me before. They said that it was moderately
+%more challenging than last year's exam.
+%
+%\pause\bigskip
+%
+%I showed it to Julian Georg, who is the TA for Physics 215, the honors/majors version of my class. He showed me 
+%the 215 exam, and said that ours was somewhat more difficult. 
+%
+%\pause\bigskip
+%
+%Of the exam grades I have so far, I have:
+%
+%\BI
+%\item 70 F's
+%\item 27 D's
+%\pause
+%\item 61 C's
+%\pause
+%\item 90 B's
+%\pause
+%\item \bf 202 A's
+%\EI
+%\pause
+%
+%
+%\begin{center}
+%\includegraphics[width=0.5\textwidth]{gradehisto-crop.pdf}
+%\end{center}
+%
+%}
+%
+%\frame{
+%
+%\begin{center}
+%\includegraphics[width=0.5\textwidth]{gradehisto-crop.pdf}
+%\end{center}
+%
+%\large
+%
+%Last year's exam had a median of 65\% (B-). That exam was perhaps a bit easier -- and had extra credit.
+%
+%\bigskip
+%
+%Your class median was {\bf 75\% (B+).} Be very, very proud of yourselves!
+%}
+%
+%\frame{
+%
+%\Large
+%
+%Why do you think you did better than last year's class? (Seriously -- I'm curious to hear your guesses)
+%
+%\BI
+%\item A: We're more motivated, smarter, or just overall more awesome than last year
+%\item B: Group work in recitations / the group practice exam
+%\item C: The physics practices on Wednesday evenings help
+%\item D: The recitation TA's are a particularly good bunch
+%\item E: This year's exam was easier
+%\EI
+%}
 
-\frame{\frametitle{\textbf{Exam 1}}
-\large
- \BI
-\item{Something was weird on Exam 1}
-\item{I may have to adjust the grading curve for the class, since the Physics Department standard for this class
-is that the average is a B-. Should I alter the syllabus to do that?}
- \EI
-\Large
-\bigskip
-\BI
-\item A: Yes
-\item B: No
-\pause
-\item C: Eh?
-\pause
-\item D: trollface.jpg?
-\EI
-}
-
-\frame{\frametitle{\textbf{Exam 1}}
-
-\large
-I showed my exam to my GTA's, some of whom have taught with me before. They said that it was moderately
-more challenging than last year's exam.
-
-\pause\bigskip
-
-I showed it to Julian Georg, who is the TA for Physics 215, the honors/majors version of my class. He showed me 
-the 215 exam, and said that ours was somewhat more difficult. 
-
-\pause\bigskip
-
-Of the exam grades I have so far, I have:
-
-\BI
-\item 70 F's
-\item 27 D's
-\pause
-\item 61 C's
-\pause
-\item 90 B's
-\pause
-\item \bf 202 A's
-\EI
-\pause
-
-
-\begin{center}
-\includegraphics[width=0.5\textwidth]{gradehisto-crop.pdf}
-\end{center}
-
-}
-
-\frame{
-
-\begin{center}
-\includegraphics[width=0.5\textwidth]{gradehisto-crop.pdf}
-\end{center}
-
-\large
-
-Last year's exam had a median of 65\% (B-). That exam was perhaps a bit easier -- and had extra credit.
-
-\bigskip
-
-Your class median was {\bf 75\% (B+).} Be very, very proud of yourselves!
-}
-
-\frame{
-
-\Large
-
-Why do you think you did better than last year's class? (Seriously -- I'm curious to hear your guesses)
-
-\BI
-\item A: We're more motivated, smarter, or just overall more awesome than last year
-\item B: Group work in recitations / the group practice exam
-\item C: The physics practices on Wednesday evenings help
-\item D: The recitation TA's are a particularly good bunch
-\item E: This year's exam was easier
-\EI
-}
-
-\frame{\frametitle{\textbf{Ask a Physicist: general relativity and ``multiverses''}}
-
-}
+%\frame{\frametitle{\textbf{Ask a Physicist: general relativity and ``multiverses''}}
+%
+%}
 
 \frame{\frametitle{\textbf{Newton's laws}}
     \Large
@@ -234,14 +237,15 @@ Why do you think you did better than last year's class? (Seriously -- I'm curiou
 \Large
 Which of the following is/are {\it not} an example of Newton's third law?
 
+\bigskip
+
 \BI
-\item A: a subway car accelerates forward; you are thrown back
-\item B: the propeller on an airplane pushes the air backwards; the air pushes the airplane forwards
-\item C: an elevator accelerates upward; passengers are pushed downward
-\item D: the Earth's gravity pulls downward on me; my gravity pulls upward on the Earth
-\item E: a rocket pushes downward on its exhaust; the exhaust pushes upward on the rocket
-\EI
-}
+\item \color{A}A: a subway car accelerates forward; you are thrown back
+\item \color{B}B: the propeller on an airplane pushes the air backwards; the air pushes the airplane forwards
+\item \color{C}C: an elevator accelerates upward; passengers are pushed downward
+\item \color{D}D: the Earth's gravity pulls downward on me; my gravity pulls upward on the Earth
+\item \color{E}E: a rocket pushes downward on its exhaust; the exhaust pushes upward on the rocket
+\EI}
 
 
 
@@ -284,7 +288,7 @@ Which of the following is/are {\it not} an example of Newton's third law?
 \bigskip
 \bigskip
 \bigskip
-     \centerline{     (dragging disc demo)}
+     \centerline{     (dragging disc demo?)}
 \EI
    }
 
@@ -295,6 +299,11 @@ Which of the following is/are {\it not} an example of Newton's third law?
     \BI
   \item{Gravity pulls down on everything (on Earth) with a force $mg$, called its weight}
   \item{If something isn't accelerating downward, some other force must balance its weight}
+  \item{We are now switching the way we think about gravity!}
+  \BI
+  \item Before: gravity makes objects in free fall accelerate downward at $g$
+  \item Now: gravity is just one of {\it many} forces that can act on objects
+  \EI
     \EI
     \EI
   }
@@ -308,6 +317,7 @@ Which of the following is/are {\it not} an example of Newton's third law?
   \item{Are there normal forces on me right now?}
  \pause
   \item{However big it needs to be to stop objects from sliding through each other}
+  \item {\color{A}The normal force is usually an unknown you will need to solve for, not a thing you know}
   \item{Directed ``normal'' (perpendicular) to the surface}
   \item{Really caused by electric force/Pauli exclusion principle}
     \EI
@@ -322,11 +332,11 @@ Which of the following is/are {\it not} an example of Newton's third law?
   \item{``Normal force'': stops things from moving through each other}
   \item{Tension: ropes pull on both sides equally}
     \BI
-  \item{What are the forces in a contest of tug-of-war?}
-    \pause
-  \item{What about the forces on the people?}
+  \item{What are the forces on the people in a contest of tug-of-war?}
+
+  \pause
     \EI
-  \item{Friction: a force opposes things sliding against each other}
+  \item{Friction: a force opposes things sliding against each other {\color{D}(We'll learn about this next week)}}
     \pause
   \item{Electromagnetic forces, nuclear forces, radiation pressure...}
     \pause
@@ -351,10 +361,10 @@ In symbols: $\vec F_g = mg$ downward.
 Why is the acceleration of a falling object $g$ downward?
  
 \BI
-\item A: Because $g$ is the acceleration of all objects within Earth's gravitational field
-\item B: Solve Newton's law: $\vec F = m \vec a \rightarrow mg (-\hat j) = m\vec a \rightarrow \vec a = -g\hat j$
-\item C: Because the definition of $g$ is the acceleration that a falling object undergoes
-\item D: It's only $g$ if there are no other forces besides gravity acting on it\EI
+\item \color{A}A: Because $g$ is the acceleration of all objects within Earth's gravitational field
+\item \color{B}B: Solve Newton's law: $\vec F = m \vec a \rightarrow mg (-\hat j) = m\vec a \rightarrow \vec a = -g\hat j$
+\item \color{C}C: Because the definition of $g$ is the acceleration that a falling object undergoes
+\item \color{D}D: It's only $g$ if there are no other forces besides gravity acting on it\EI
 } 
 
   \frame{\frametitle{\textbf{Force diagrams}}
@@ -378,31 +388,55 @@ Why is the acceleration of a falling object $g$ downward?
   }
 
 
+\frame{\frametitle{\textbf{A sample problem}}
+	
+	\Large
+	
+	The people on the right cart pull on the people on the left cart. Suppose the acceleration of the left cart is $0.2\,\rm m/\rm s^2$.
+	
+	\bigskip
+	
+	What will the acceleration of the right cart be?
+	
+	\bigskip
+	\begin{itemize}
+
+
+\item \color{A}A: $0.2\,\rm m/\rm s^2$
+\item \color{B}B: $0.1\,\rm m/\rm s^2$
+\item \color{C}C: $0.4\,\rm m/\rm s^2$
+\item \color{D}D: 0
+\end{itemize}	
+}
+
+
 \frame{
-\Large
+\large
 
 Suppose an object is moving in a straight line at a constant speed. Which number of forces could {\it not} be 
 acting on it?
+\bigskip
 
 \BI
-\item A: Zero
-\item B: One
-\item C: Two
-\item D: Three
-\item E: Four
+\item \color{A}A: Zero
+\item \color{B}B: One
+\item \color{C}C: Two
+\item \color{D}D: Three
+\item \color{E}E: Four
 \EI
 
 \pause
-
+\bigskip\bigskip
 Suppose an object is moving in a circle at a constant speed. Which number of forces could {\it not} be 
 acting on it? (Hint: what is the definition of velocity? Of acceleration?)
+\bigskip
 
 \BI
-\item A: Zero
-\item B: One
-\item C: Two
-\item D: Three
-\item E: Four
+\item \color{A}A: Zero
+\item \color{B}B: One
+\item \color{C}C: Two
+\item \color{D}D: Three
+\item \color{E}E: Four
 \EI
 }
 

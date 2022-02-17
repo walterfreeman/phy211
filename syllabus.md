@@ -428,9 +428,10 @@ we will, for instance, tell you what the quadratic formula is if you forget.
 * for **exams**, you may bring one page of handwritten notes, plus a calculator that doesn't do algebra for you. You may not use any other electronic devices (smartphones, smartwatches,
 earphones), and may not consult with anyone other than teaching staff during the exam.
 
+
+<!--
 For **the paper**, we expect you to do research and consult other people for their ideas, but you must write the paper yourself. (You should, of course, solicit feedback on your writing and ideas
 from your peers and from people like the Writing Center!) We will provide more detail about the expectations for the paper when we assign it.
-<!--
 In your paper, you must show clearly which text is original to you, which reflects ideas which you found elsewhere but have digested and expressed in your own words, and which text is a direct quote from someone else’s words. You must cite any references that you use. (You do not need to cite anything from the course textbook, notes, or lectures.) If you consult a source for information, you should 
 indicate the source of that information using an in-text citation or footnote. We don’t care what citation style you use.
 

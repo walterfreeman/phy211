@@ -5,23 +5,15 @@ use_math: true
 title: Announcements
 ---
 
-### Practice Exam 1
-
-Here is <a href="practice-exam-1.pdf">Practice Exam 1</a> and <a href="practice-exam-1-solutions.pdf">its solutions</a>.
-
-### Week 3 checkin
-
-See <a href="https://docs.google.com/forms/d/10DK4z9NfN5nHqyCHXmQqtQc5xecHT8T7zxZX5zYaIuk/">the Google Form</a>. 
-
-
 
 ### Slides for current class
 
-<a href="slides/lec6/lecture6.pdf">Examples: 2D motion (II)</a>
+<a href="slides/lec7/lecture7.pdf">Newton's laws of motion</a>
 
 ### Upcoming assignments
 
-* <a href="hw/hw2/hw2.pdf">Homework 2</a> is due Friday, February 11.
+HW3 posted later today.
+
 * Join the <a href="https://discord.gg/bngYwjZRHk">course Discord server</a> if you are so inclined
 
 ### Information
