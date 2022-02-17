@@ -22,7 +22,9 @@ use_math: true
 <a href="group-exam-1/exam2.pdf">Week 3 Friday: 10:35 or 11:40 sections</a><br>
 <a href="group-exam-1/exam3.pdf">Week 3 Friday: 12:45 or 1:40 sections</a><br>
 <a href="group-exam-1/exam4.pdf">Week 3 Friday: 3:45 or 5:15 sections</a><br>
+<br>
 
+<a href="recitation/week3/recitation-forces.pdf">Week 4 Friday: Forces in One Dimension</a>
 
 
 <!--

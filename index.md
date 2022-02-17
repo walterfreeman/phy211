@@ -12,9 +12,7 @@ title: Announcements
 
 ### Upcoming assignments
 
-HW3 posted later today.
-
-* Join the <a href="https://discord.gg/bngYwjZRHk">course Discord server</a> if you are so inclined
+<a href="hw/hw3/homework3.pdf">Homework 3</a> is due Friday, February 25.
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 
