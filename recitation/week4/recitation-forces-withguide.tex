@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 \setlength\parindent{0pt}
 \usepackage{fullpage}
+\usepackage{color}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \setlength{\parskip}{4mm}
@@ -10,6 +11,7 @@
 \def\RP{\right)}        % right parenthesis
 \def\LB{\left\{}        % left curly bracket
 \def\RB{\right\}}       % right curly bracket
+\definecolor{Red}           {rgb}{0.7,0.0,0.0}
 \def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
 \def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
 \def\PARTWOMCX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
@@ -34,7 +36,7 @@
 \newcommand{\OON}{\frac{1}{N}} % "one over N"
 \newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
 \newcommand{\BS}{\bigskip}
-\newcommand{\vsi}{\vspace{1in}}
+\newcommand{\vsi}{\vspace{0.1in}}
 \newcommand{\vshi}{\vspace{0.6in}}
 \newcommand{\mss}{$\rm m/\rm s^2$}
 
@@ -83,8 +85,6 @@ A few things for the students on the force diagrams here:
 
 }
 
-\newpage
-
 
 \begin{enumerate}
 
@@ -97,13 +97,29 @@ A few things for the students on the force diagrams here:
 
     Each of you should lead a discussion in your group for a different one of the three scenarios. Draw a force diagram below. Then, using Newton's second law
     $\sum \vec F = m \vec a$, calculate how big each of your forces are.
+    
+{    \color{Red}
+	This gets them used to two things: 1) the idea that the normal force is a thing you must solve for, and is not always equal to $mg$; 2) the idea that the acceleration is not always $g$ downward.
+	
+	This question really targets the same sort of ``fictitious forces'' notion as the jumping-kitten problem. Make sure you have them take turns leading their discussions; each person should be intellectually responsible for
+    making a claim in one of the situations. 
+    
+    These first problems are easy, but we are practicing the problem-solving recipe that we want to drill over the next few weeks:
+    
+    \begin{enumerate}
+    	\item 0. Draw a cartoon
+    	\item 1. Draw a force diagram (free-body diagram)
+    	\item 2. Write down $\sum \vec F = m \vec a$
+    	\item 3. Do algebra and solve for the thing you need.
+    \end{enumerate}
+
+At some point in the discussion, someone should realize that the normal force is related to how heavy you feel.
+    
+}
 
 \vsi\vsi\vsi\vsi
 
     When you've finished, call a coach or TA over, and talk about similarities and differences between the three situations. 
-
-
-\newpage
 
 
 \item Three books, each weighing 10 pounds, sit in a stack on a table. From the bottom up, they are:
@@ -119,15 +135,37 @@ A few things for the students on the force diagrams here:
 Once you have drawn your diagrams, discuss them with your group and check them for errors, making sure that all the arrows you've drawn correspond to real forces, and that you've not forgotten any. Call your TA or coach over to 
 join in the discussion.
 
+{\color{Red}
+They should spend a substantial amount of time here. The point is that they should {\bf already know the answer} here: a stack of three ten pound books weighs 30 pounds. (Duh.) The point here is to practice the process and see if they can reproduce the answer they know they should get.
+
+The big errors they make here:
+
+\begin{itemize}
+	\item {\bf Inventing fake forces. C does not push on A; they do not touch. The table does not push on B; they do not touch.} If they do this, they'll get incorrect results; they should know they are incorrect (``what do you mean the stack weighs 40 N?'') and then you can help them figure out what they have messed up. This is the biggest issue that students have with this material: making it more complicated than it needs to be by inventing forces that are not real. This exercise is designed to cultivate trust in Newton's laws and mathematics: if they just write down the forces that really exist, write down $\vec F = m \vec a$ for each thing, and then solve the system of equations, it'll work out. Trust the laws of physics: they work.
+	\item Unclear notation. There are many normal forces here. They need to concoct a notation that makes very clear which is which.
+\end{itemize}
+}
 \vsi\vsi\vsi
 
 \item Newton's second law says that the sum of all the forces on an object is equal to its mass times its acceleration. Since none of the objects in this problem move, each of these objects has $\sum \vec F = 0$. Write this down
 for each object, listing all of the forces in turn. Since the only forces here are in the vertical direction, you don't need to mess with vector components; just choose one direction to be positive and one to be negative. Call a 
 TA or coach over to check your group's work when you're done.
 
-\vsi\vsi
+{\color{Red} Convention here: The symbol (e.g. $F_{AB}$) represents the magnitude of the force; if it points downward, you'll need to put in minus signs by hand. So you wind up with expressions like 
+	
+	$$F_{AB} - F_{CB} - mg = ma = 0$$
+	
+	where you can read the directions off of the signs, since every term that appears on the left is the magnitude (positive definite) of something.
+}	
+	\vsi\vsi
+
+
 
 \item This will give you three equations. How many unknowns do you have? 
+
+{\color{Red}
+Here they have five -- if they treat $F_{AB}$ and $F_{BA}$, etc., as separate. They're going to need to realize that they are Newton's third law pairs sooner or later.	
+}
 
 \vsi
 
@@ -135,20 +173,24 @@ TA or coach over to check your group's work when you're done.
 equal magnitude and in the opposite direction; that is, $\vec F_{12} = - \vec F_{21}$.'' (Note that their magnitudes are equal: $F_{12}=F_{21}$.)  
 Identify all Newton's third law pairs present in your problem. Does this give you enough information to solve the system of equations? If so, solve it; if not, call over a TA or coach to discuss your work.
 
+{\color{Red} {\bf Some fraction of our students do not know how to solve systems of equations by substitution.} There is a thing they learn in school where you add a linear combination of one equation to another one in order to eliminate variables; it can be awkward and clumsy and usually isn't so helpful here. Be prepared to teach systems of equations by substitution. I suspect that some of them may be missing some high school Algebra 2 skills because of zoom classes, so we need to be prepared to remediate that. (This is fine! If students are missing particular math skills this is a thing we can help them correct and they often go on to do very well in PHY211.)
+	
+	Beyond that, it's a good idea to check their work here. They will sometimes confuse {\it two things that we can expect to be equal, since we know the answer here} with an actual Newton's third law pair. We won't always know the answer, though.}
+
 \vsi\vsi\vsi\vsi
 
 \item Now you should have figured out how big all the forces involved are. How much force does the table exert on the bottom book? Is this what you expect it to be?
 
-\vsi
-\newpage
+{\color{Red}If they don't get 30 N here, most likely they have invented forces that don't actually exist. As usual, don't just tell them this; ask leading questions to help them discover their own misconceptions.}
+
 
 \item This is an easy problem, and we could have guessed the answers. However, the procedure you've followed here is exactly the same as what you will do for less obvious problems -- and it has the same pitfalls. With your 
 group, take turns thinking of mistakes that you might have made in solving this problem. What sorts of errors could you have made, and how would you have known not to make them -- or how could you have caught them after the
 fact once you made them? Call a TA or coach over to join in your discussion.
 
-\end{enumerate}
+{\color{Red} Common mistakes: minus signs (not thinking about the direction of forces), inventing forces that don't actually exist, forgetting certain forces (i.e. leaving out the downward force that top book exerts on middle book).}
 
-\newpage
+\end{enumerate}
 
 \small
 
@@ -172,6 +214,54 @@ The astronauts (each of mass $M$) are discussing how things should behave on the
 \begin{center}\underline{\hspace{4in}}\end{center}
 
 
-Discuss these scenarios with your group. Can you think of any experiment the astronauts could do (involving measuring forces and the movement of objects) to figure out whether they are in deep space or on the planet?
+Discuss these scenarios with your group. Can you think of any experiment the astronauts could do (involving measuring forces and the movement of objects, without measuring things outside their spaceship) to figure out whether they are in deep space or on the planet?
+
+{\color{Red}The punchline here is twofold:
+	
+	\begin{enumerate}
+		\item The way things behave in an accelerating box without gravity is precisely the same as they behave in a non-accelerating box without gravity; there is no experiment they can do to figure out which one is which.
+		
+		\item This means that if you {\it are} in an accelerating box, but are unaware of this and wish to pretend that you are {\it not} accelerating, it appears as though a phantom force pushes you opposite the acceleration. But there is really no such force; it is just a consequence of being unaware of the acceleration of the box around you.
+		
+	\end{enumerate}
+
+We don't expect students to understand all of the formalism around accelerating reference frames and fictitious forces. We {\it do} expect students to be able to {\bf describe how things behave} in such a situation, both as viewed from outside (in the ``lab frame'', although we don't call it that) and from inside. There is always an question of this type on exam 2. (You can tell students that. The stuff on our exams is not a secret.) 
+
+{\bf Do not confuse struggling students with the notion of fictitious forces}. It suffices for our class to {\it only} apply the formal mathematics of Newton's laws to the lab (unaccelerated) frame. They need to understand how the formal analysis of the unaccelerated frame gives rise to ``how things appear to work'' in the accelerating frame, but {\it do not} need to construct Newton's laws in an accelerating frame adding fictitious forces. This will confuse the heck out of many of our students.
+
+But some of our advanced students may {\it want} to talk about this. In case anyone wants an elegant way to explain how fictitious forces work:
+
+Formally, we know that any object responds to forces acting on it as follows:
+
+$$\sum \vec F_{\rm real} = m \vec a$$
+
+where $\vec a$ is the complete acceleration. But we can decompose this into 
+
+$$\vec a = \vec a_{\rm box} + \vec a_{r},$$
+
+ where $\vec a_{\rm r}$ is the acceleration of the object relative to the box (i.e. frame).
+
+Then we have 
+
+$$\sum \vec F_{\rm real} = m \vec a_r + m \vec a_{\rm box}$$
+
+where the right hand side is again just the total acceleration.
+
+But if we are unaware that we are in an accelerating box, accelerating along with the objects moving around in it, we don't have that term on the right; we only perceive accelerations relative to us. So that term must go away; we subtract it from both sides and get
+
+$$\sum \vec F_{\rm real} - m \vec a_{\rm box} = m \vec a_r $$
+
+What do we make of this term on the left? Well, it's another thing lurking on the left side of Newton's law where the forces go, ``causing objects to accelerate''. It doesn't correspond to any real physical force, but it causes {\it apparent} accelerations relative to the box we are in (since we are either ignorant of its acceleration or choose to ignore it). So it seems to us like it's a phantom force:
+
+
+$$\sum \vec F_{\rm real} + \vec F_{\rm phantom} = m \vec a_r $$
+
+where
+
+$$\vec F_{\rm phantom} = -m \vec a_{\rm box}.$$
+
+This is the formal explanation for centrifugal force (plus the Coriolis force, etc.). But don't confuse students with this formalism unless they will benefit from it; we want them to understand things formally in the unaccelerated frame and make intuitive contact from there with the ``inside-the-spaceship'' frame.
+
+}
 
 \end{document}
