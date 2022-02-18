@@ -24,7 +24,7 @@ use_math: true
 <a href="group-exam-1/exam4.pdf">Week 3 Friday: 3:45 or 5:15 sections</a><br>
 <br>
 
-<a href="recitation/week3/recitation-forces.pdf">Week 4 Friday: Forces in One Dimension</a>
+<a href="recitation/week4/recitation-forces.pdf">Week 4 Friday: Forces in One Dimension</a>
 
 
 <!--
