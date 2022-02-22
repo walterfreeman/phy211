@@ -5,10 +5,18 @@ use_math: true
 title: Announcements
 ---
 
+### Help hours this week
+
+* Tuesday, 1:30-3:30 pm
+* Tuesday, 5:15-6:15 (if possible)
+* Wednesday, 2-4 pm
+* Thursday, 9:45-10:30 am
+
+I am trying to get more hours Wed/Thurs night. 
 
 ### Slides for current class
 
-<a href="slides/lec7/lecture7.pdf">Newton's laws of motion</a>
+<a href="slides/lec8/lecture8.pdf">Newton's laws of motion, II</a>
 
 ### Upcoming assignments
 

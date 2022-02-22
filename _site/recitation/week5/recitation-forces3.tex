@@ -1,0 +1,157 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+	\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+	\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+	\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\begin{document}
+		\pagenumbering{gobble}
+		\Large
+		\centerline{\sc{Recitation Questions}}
+		\normalsize
+		\centerline{\sc{25 February}}
+		
+		
+There are two exercises here.
+
+
+\vspace{1cm}
+
+The first one is conceptually difficult, but the mathematics is not that hard once you understand what is going on. Make sure you discuss your work with your coach or TA at the checkpoints, and in particular think very clearly about your force diagrams for the first one.
+
+This exercise is designed to give you practice at:
+
+\begin{itemize}
+	\item Determining the {\it direction} that frictional forces point
+	\item Thinking clearly about Newton's third law in new contexts
+	\item Determining limiting cases of friction (``how much force is required to overcome static friction and make things slip'')
+	\item Constructing a system of equations and using substitution to solve for a needed quantity
+\end{itemize}
+
+\vspace{3cm}
+
+The second exercise is simpler; it is a setup for a cheap joke and involves cats, so it is clearly better. (You should still do the first one first, though -- it may take you most of the class period, and will get you very good practice.) It is designed to give you practice at:
+
+\begin{itemize}
+	\item Working with things on inclines, including the usual complications there (choosing a nice coordinate system)
+	\item Thinking about static and kinetic friction
+	\item Making bad cat/physics jokes
+
+\end{itemize}
+
+\newpage
+
+		
+		A stack of two books, each of mass 1 kg, sits on a table. The coefficients of static friction between the books, and between the bottom book and the table, are 0.4; the coefficients of kinetic friction are 0.2. A person exerts a sudden force on the bottom book. Intuitively, we know what happens:
+		\begin{itemize}
+			\item{I. If this force is moderate, then the two books accelerate together at the same rate.}
+			\item{II. If this force is very large, then the bottom book is yanked out from beneath the top one, and they accelerate at different rates.}
+		\end{itemize}
+		
+		a) In case I, what type of friction exists between the bottom book and the table? What about between the two books?
+		
+		\vspace{0.5in}
+		
+		b) In case II, what type of friction exists between the bottom book and the table? What about between the two books?
+		
+		\vspace{0.5in}
+		
+		c) Draw force diagrams for the situation when the force is almost large enough to pull the bottom book out from underneath the top one. {\it This is difficult} -- think carefully about what forces are present. Make sure you use clear symbols: don't write ``$F_{\rm fric}$'', since there are multiple frictional forces present.
+		
+		\vspace{2.3in}
+		
+		d) Which Newton's-third-law pairs are present in your force diagram? Verify that your diagrams satisfy Newton's third law; call a TA or coach over and show them your force diagrams.
+		
+		\newpage
+		
+		e) Calculate the force required to pull the bottom book out from underneath the top one. {\it (Hint: Think carefully about how you say ``If I pulled any harder, the two books would no longer move together, and the bottom book would slide out from under the top one'' in mathematical terms.)}
+		
+		\newpage
+		
+		Two cats, Toby and Matilda, are sitting on a smooth table when the table begins to tip. Toby has a mass of $m_T$ and Matilda has a mass of $m_M$. \footnote{This problem was inspired by the joke: ``Q: Two kittens are sitting on a roof. Which one slides off first? A: The one with the smallest mew.''}
+		
+		\begin{minipage}{0.6\textwidth}
+			The coefficients of friction between the kitties and the table are the following (Matilda is slightly fuzzier underneath since she has only three legs). Their masses are also
+			given; it's up to you to determine if they matter.
+		\end{minipage}\hspace{0.1\textwidth}
+		\begin{minipage}{0.3\textwidth}
+			\begin{tabular}{|l|l|l|}
+				\hline
+				& Toby & Matilda \\ \hline
+				$\mu_k$ & 0.4  & 0.3  \\ \hline
+				$\mu_s$ & 0.5  & 0.4  \\ \hline
+				mass (kg) & 5 & 4 \\ \hline
+			\end{tabular}
+		\end{minipage}
+		
+		As the angle $\theta$ between the table and the horizontal becomes larger and larger, eventually the cats will slide off the 
+		table.\footnote{They will land on their feet, since they are graceful cats.}
+		
+		Remember two things about friction for this problem:
+		
+		\begin{enumerate}
+			\item If two things are {\it already sliding} past one another, the force of kinetic friction between them is equal to $\mu_k F_N$ in whatever direction opposes that motion;
+			\item If two things are {\it not sliding}, the force of static friction is {\it however big it needs to be} in order to stop
+			them from sliding, up to a {\it maximum} of $\mu_s F_N$.
+		\end{enumerate}
+		
+		a) Draw a cartoon of the problem, and choose a coordinate system. Recall what you learned last recitation about choosing
+		coordinate systems that make your life easy.
+		\vfill
+		
+
+		\newpage
+		
+		b) Draw a force diagram for the cat. Make it nice and large, since you'll need to do trigonometry to decompose the 
+		weight force into components.
+		
+		\vspace{3in}
+		
+		
+		c) Decompose the weight force into components. Do this as always: draw a right triangle with the weight force as its 
+		hypotenuse, and with its legs aligned with your coordinate system. Then, figure out which angle in the right triangle
+		is the same as $\theta$. (Do this on your diagram above.)
+		
+		d) Write down Newton's second law $\sum F = ma$ in both $x-$ and $y-$directions. 
+		
+		\vspace{2in}
+		\newpage
+		
+		e) Right before the cat begins to slide off the table, what is true about the frictional force on them? Use this 
+		mathematical condition to solve for the angle $\theta$ at which each cat begins to slip off the table.
+		
+		\vspace{3in}
+		
+		f) Right after Matilda begins to slide, what will her acceleration be? What will Toby's be when she begins to slide? 
+		
+		
+	\end{document}
