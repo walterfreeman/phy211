@@ -7,12 +7,17 @@ title: Announcements
 
 ### Help hours this week
 
-* Tuesday, 1:30-3:30 pm
-* Tuesday, 5:15-6:15 (if possible)
-* Wednesday, 2-4 pm
-* Thursday, 9:45-10:30 am
+* Tuesday, 5:15-6:15 (if possible) (Walter)
+* Wednesday, 2-4 pm (Walter)
+* Wednesday, 7-9 pm (Mac)
+* Thursday, 9:45-10:30 am (Walter)
+* Thursday, 5:15-8 pm (AJ and Brendan)
 
-I am trying to get more hours Wed/Thurs night. 
+### Recitation this week
+
+<a href="recitation/week5/recitation-forces2.pdf">Week 5 Wednesday: Forces in Two Dimensions; The Atwood Machine</a><br>
+<a href="recitation/week5/recitation-forces3.pdf">Week 5 Friday: Friction</a><br>
+
 
 ### Slides for current class
 

@@ -24,8 +24,11 @@ use_math: true
 <a href="group-exam-1/exam4.pdf">Week 3 Friday: 3:45 or 5:15 sections</a><br>
 <br>
 
-<a href="recitation/week4/recitation-forces.pdf">Week 4 Friday: Forces in One Dimension</a>
+<a href="recitation/week4/recitation-forces.pdf">Week 4 Friday: Forces in One Dimension</a><br>
+<br>
 
+<a href="recitation/week5/recitation-forces2.pdf">Week 5 Wednesday: Forces in Two Dimensions; The Atwood Machine</a><br>
+<a href="recitation/week5/recitation-forces3.pdf">Week 5 Friday: Friction</a><br>
 
 <!--
 S2021
