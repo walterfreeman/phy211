@@ -36,10 +36,10 @@ title: Announcements
     - Walter Freeman, <wafreema@syr.edu>, Physics Building 215 
 -   Recitation TA's:
     * Patrick Adams, <paadams@syr.edu>
-    * Syed Adil, <sghaznav@syr.edu>
     * Gabriel Alkuino, <gsalkuin@syr.edu>
     * Nada Nabil Elsayed, <nnelmeli@syr.edu>
-    * Manabputra Manabputra, <manabput@syr.edu>
+    * Adil Ghaznavi, <sghaznav@syr.edu>
+    * Manabputra, <manabput@syr.edu>
     * Gentian Muhaxheri, <gmuhaxhe@syr.edu>
     * JT Paustian, <jtpausti@syr.edu>
     * Chad Skerbec, <crskerbe@syr.edu>
