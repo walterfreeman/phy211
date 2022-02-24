@@ -21,11 +21,13 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec8/lecture8.pdf">Newton's laws of motion, II</a>
+<a href="slides/lec9/lecture9.pdf">Friction</a>
 
 ### Upcoming assignments
 
 <a href="hw/hw3/homework3.pdf">Homework 3</a> is due Friday, February 25.
+
+Homework 4 will be posted today.
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 

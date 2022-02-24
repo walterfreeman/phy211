@@ -25,7 +25,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 15 February | **Exam 1**                                                                                                       | 5.1-5.3                        |
 | 17 February | <a href="slides/lec7/lecture7.pdf">Introduction to Newton's laws</a>                                                                              | 5.4-5.7; 6.1                   |
 | 22 February | <a href="slides/lec8/lecture8.pdf">Solving problems with Newton's second and third laws</a>                                                             |                                |
-| 24 February | Friction; additional practice                                                                                    | 6.2                            |
+| 24 February | <a href="slides/lec9/lecture9.pdf">Friction; additional practice</a>                                                                                    | 6.2                            |
 | 1  March    | Acceleration in circular motion                                                                                  | 4.4; 6.3                       |
 | 3  March    | Practice problems; universal gravitation                                                                         | 13.1-13.2                      |
 | 8  March    | Review for Exam 2                                                                                                |                                |
