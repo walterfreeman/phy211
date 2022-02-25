@@ -15,12 +15,12 @@ use_math: true
 
 <br><br>
 <a href="hw/hw3/homework3.pdf">Homework 3</a>, due Friday, February 25, at the start of recitation<br>
+<br>
+<a href="hw/hw4/hw4.pdf">Homework 4</a>, due Friday, March 4, at the start of recitation 
+<br>
+
 <!--
-<br>
-<a href="hw/hw3/hw3.pdf">Homework 3</a>, due Thursday, March 11, before the beginning of class (11am)
-<br>
-<a href="hw/hw4/hw4.pdf">Homework 4</a>, due Friday, March 19, at the start of recitation 
-<br>
+
 <a href="hw/hw5/hw5.pdf">Homework 5</a>, due Monday, March 29, by the end of the day
 <br>
 <a href="hw/hw6/hw6-2021.pdf">Homework 6</a>, due Friday, April 9, at the start of recitation

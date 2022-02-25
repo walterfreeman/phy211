@@ -5,14 +5,6 @@ use_math: true
 title: Announcements
 ---
 
-### Help hours this week
-
-* Tuesday, 5:15-6:15 (if possible) (Walter)
-* Wednesday, 2-4 pm (Walter)
-* Wednesday, 7-9 pm (Mac)
-* Thursday, 9:45-10:30 am (Walter)
-* Thursday, 5:15-8 pm (AJ and Brendan)
-
 ### Recitation this week
 
 <a href="recitation/week5/recitation-forces2.pdf">Week 5 Wednesday: Forces in Two Dimensions; The Atwood Machine</a><br>
@@ -27,7 +19,7 @@ title: Announcements
 
 <a href="hw/hw3/homework3.pdf">Homework 3</a> is due Friday, February 25.
 
-Homework 4 will be posted today.
+<a href="hw/hw4/hw4.pdf">Homework 4</a> is due Friday, March 4.
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 
