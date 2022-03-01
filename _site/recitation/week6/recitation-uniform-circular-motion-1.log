@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  28 FEB 2022 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  28 FEB 2022 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**recitation-forces4-forprint.tex
-(./recitation-forces4-forprint.tex
+**recitation-uniform-circular-motion-1.tex
+(./recitation-uniform-circular-motion-1.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -136,8 +136,8 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count268
 \l__pdf_internal_box=\box49
 )
-(./recitation-forces4-forprint.aux)
-\openout1 = `recitation-forces4-forprint.aux'.
+(./recitation-uniform-circular-motion-1.aux)
+\openout1 = `recitation-uniform-circular-motion-1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
@@ -1467,22 +1467,23 @@ es ignored
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
 pdftex/updmap/pdftex.map): fontmap entry for `pzcmi8y' already exists, duplicat
 es ignored
-}] [2] [3] (./recitation-forces4-forprint.aux) ) 
+}] [2] [3] (./recitation-uniform-circular-motion-1.aux) ) 
 Here is how much of TeX's memory you used:
  2414 strings out of 478862
- 33906 string characters out of 5858945
- 335006 words of memory out of 6000000
+ 34005 string characters out of 5858945
+ 335024 words of memory out of 6000000
  20053 multiletter control sequences out of 15000+600000
  408088 words of font info for 43 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 55i,4n,62p,319b,102s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb>
-Output written on recitation-forces4-forprint.pdf (3 pages, 60601 bytes).
+ 55i,4n,62p,328b,102s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb>
+Output written on recitation-uniform-circular-motion-1.pdf (3 pages, 60601 byte
+s).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream

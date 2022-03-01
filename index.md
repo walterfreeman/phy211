@@ -5,19 +5,13 @@ use_math: true
 title: Announcements
 ---
 
-### Recitation this week
-
-<a href="recitation/week5/recitation-forces2.pdf">Week 5 Wednesday: Forces in Two Dimensions; The Atwood Machine</a><br>
-<a href="recitation/week5/recitation-forces3.pdf">Week 5 Friday: Friction</a><br>
 
 
 ### Slides for current class
 
-<a href="slides/lec9/lecture9.pdf">Friction</a>
+<a href="slides/lec10/lec10.pdf">Things going in circles</a>
 
 ### Upcoming assignments
-
-<a href="hw/hw3/homework3.pdf">Homework 3</a> is due Friday, February 25.
 
 <a href="hw/hw4/hw4.pdf">Homework 4</a> is due Friday, March 4.
 
