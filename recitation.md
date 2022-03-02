@@ -16,7 +16,6 @@ use_math: true
 <a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
 <br>
 
-
 <a href="recitation/week3/recitation-2D-motion.pdf">Week 3 Wednesday: 2D motion</a><br>
 <a href="group-exam-1/exam1.pdf">Week 3 Friday: 8:25 or 9:30 sections</a><br>
 <a href="group-exam-1/exam2.pdf">Week 3 Friday: 10:35 or 11:40 sections</a><br>
@@ -29,6 +28,11 @@ use_math: true
 
 <a href="recitation/week5/recitation-forces2.pdf">Week 5 Wednesday: Forces in Two Dimensions; The Atwood Machine</a><br>
 <a href="recitation/week5/recitation-forces3.pdf">Week 5 Friday: Friction</a><br>
+<br>
+
+<a href="recitation/week6/recitation-uniform-circular-motion-1.pdf">Week 6 Wednesday: Uniform Circular Motion</a><br>
+<a href="recitation/week6/recitation-gravity.pdf">Week 6 Friday: Universal Gravitation</a><br>
+
 
 <!--
 S2021

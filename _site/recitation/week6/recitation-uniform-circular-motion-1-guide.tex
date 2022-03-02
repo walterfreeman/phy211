@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{Red}           {rgb}{1,0.3,0.0}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Exercises}}
+\normalsize
+\centerline{\sc{2 March}}
+
+{\it If your recitation was cancelled last Friday, and you didn't already do it, do the problem from last Friday's recitation with the cats first, then start this one.}
+
+
+{\color{Red} There are extra recitation scripts for this in the kitchen. (We didn't use them last Friday...)}
+
+A person uses a rope to spin a bucket in a vertical circle at a constant speed; the radius of the circle is 80 cm. The bucket goes around the circle once every second. Inside the bucket is a friendly frog of mass 500 grams. 
+
+
+a) Draw a force diagram for the frog when the bucket is at the bottom of the circle, and when it is at the top.
+
+{\color{Red}
+	The students will need to figure out that ``one revolution per second'' is a unit of angular velocity, which they'll need to convert to $2\pi$ rad/s. This always gets some stuck since they skim rather than read/think.
+	
+	Beyond that, the most common mistake that students will make is to invent new forces to add.
+	
+
+		The only forces here are the normal force from the bottom of the bucket and gravity. Acceleration is not a force, velocity is not a force, ``centripetal force'' is not a force, ``centrifugal force'' certainly isn't a force.
+		
+		Often this misconception comes from a high school background that teaches that forces must be ``balanced''. Students will be unsettled by the idea that at the top of the circle, the only forces point down. They will think that something must point upward because ``the thing isn't falling''. The simple explanation -- that the forces point downward and so the bucket is accelerating downward, which it must do at the top of the circle -- is the correct one. 
+		
+		This whole exercise is designed to help them come to the realization that at the top of the circle it is accelerating downward {\it faster} than $g$, and this is critical to the explanation of why the frog doesn't fall out.
+}
+
+b) What is the acceleration of the bucket? {\it (Think about both its magnitude and direction.)}
+
+{\color{Red} $\omega^2 r$ toward the center. Whether ``toward the center'' is positive or negative depends on coordinate system and top vs. bottom. There are a lot of different ways to do this (one is to flip the coordinate system at the top so everything is positive...)}
+
+
+c) As you saw last week in your homework, your ``apparent weight'' is simply the magnitude of the normal force that an object under your feet exerts on you. What is the frog's apparent weight at the bottom and at the top of the circle?
+
+{\color{Red} This is a stepping-stone to understanding ``why frog doesn't fall'': it is easy to realize that you stay stuck to the ``ground'' (the bottom of the bucket) if your apparent weight is positive, but ``float upward'' if your apparent weight is negative.}
+
+
+\newpage
+d) Explain why the frog doesn't fall out of the bucket at the top of the swing, despite the fact that the only forces acting on it point downward. This is a pretty subtle but important point -- you should talk about it for a while and call a coach or TA over to join your conversation.
+
+{\color{Red} They need to understand this in a nuanced way here. They cannot handwave at ``centrifugal force'' (that doesn't exist). {\bf The question is deliberately phrased in a way to create cognitive dissonance}; by resolving this cognitive dissonance they figure out what is going on. The point of dissonance is the phrase ``fall out of the bucket''. 
+	
+	The canonical explanation goes something like this: ``Well, what does 'fall' mean? Does it mean to accelerate downward? If so, the frog {\it is} falling at the top of the circle. It's not only falling, it's falling {\it faster} than freefall, since $\omega^2 r > g$. At the top of the circle, gravity alone isn't enough to keep it going in a circle -- it needs an {\it extra} force pushing on it to make it accelerate inward: the normal force from the bucket. So it {\it is} ``falling'' -- it's accelerating downward. But it is not dropping out of the bucket; the bucket is ``falling'' downward too, accelerating downward at a faster rate than $g$. The frog is accelerating downward at the same rate as the bucket (since the normal force pushes on it as well as gravity), and it stays inside.
+}
+
+
+
+e) Now, imagine that the person swinging the bucket slows down gradually. At some point, the frog will fall out of the bucket. (It's a frog, so it'll land on its feet and not be hurt!) How low can $\omega$ become before the frog falls out of the bucket?
+
+{\color{Red}
+	
+	The key here is to think about the assumptions in the calculation they did for (c) where they calculated the normal force. As soon as you write $a = \omega^2 r$, you are {\bf assuming} the thing goes in a circle, and calculating what force is {\bf required} to produce the inward acceleration that leads to circular motion. 
+	
+	So they must recognize that the normal force they just calculated -- $F_N = m\omega^2 r - mg$ -- is the force required to cause circular motion. But if $mg > m\omega^2 r$, then the required normal force is {\it negative!} What does that mean? It means that for the frog to continue traveling in a circle, the normal force must point in the opposite direction that the force diagram says it does -- up, rather than down. This would mean that the bottom of the bucket pulls the frog up rather than pushes it down. Since that cannot happen (normal forces can only push, not pull), the forces on the frog can no longer cause it to move in uniform circular motion.
+	
+	So set $F_N$ to zero to find out when this happens.
+}
+
+\newpage
+
+
+A highway curve has a radius of curvature of 500 meters; that is, it is a segment of a circle whose radius is 500 m. It is banked so that traffic moving at 30 m/s can travel
+around the curve without needing any help from friction.
+
+
+{\color{Red}
+	The situation here may be difficult for students to imagine who haven't looked at roads closely. This means that the road is curved, and that additionally the outside of the road is higher than the inside. You will likely have to help some of them understand what sort of road and motion we are talking about.}
+
+a) Draw a force diagram for a car traveling around this curve at a constant speed. Draw the diagram so that you are looking at the rear of the car. {\it Hint:} Do not tilt your coordinate axes for this problem!
+
+{\color{Red}We don't tilt the coordinate axes because we want to line them up with the acceleration, which is straight inward.}
+
+
+
+b) What is the acceleration of the car in the $x-$direction? What about the $y-$direction?
+
+{\color{Red} This is simple, but that doesn't mean it is easy: the curve is flat, so the acceleration is inward (purely horizontal.)}
+	
+	
+c) Write down two copies of Newton's second law in the $x-$ and $y-$directions.
+
+{\color{Red} Nothing funny here -- we will need to decompose $F_N$ into components. Watch the direction of signs -- $a_x$ goes toward the center of the curve, and depending on how they draw stuff, may be pointed inward.}
+
+d) Solve the resulting system of two equations to determine the banking angle of the curve.
+
+{\color{Red} This is good practice solving systems of equations for students who need it, although HW4 has a great deal of that.}
+
+\end{document}
