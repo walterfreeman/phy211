@@ -9,7 +9,7 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec10/lec10.pdf">Things going in circles</a>
+<a href="slides/lec11/lecture11.pdf">More practice; universal gravitation</a>
 
 ### Upcoming assignments
 
