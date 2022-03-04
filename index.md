@@ -14,6 +14,7 @@ title: Announcements
 ### Upcoming assignments
 
 <a href="hw/hw4/hw4.pdf">Homework 4</a> is due Friday, March 4.
+<a href="hw/hw5/hw5.pdf">Homework 5</a> is due Wednesday, March 9.
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 

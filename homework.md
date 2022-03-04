@@ -16,9 +16,9 @@ use_math: true
 <br><br>
 <a href="hw/hw3/homework3.pdf">Homework 3</a>, due Friday, February 25, at the start of recitation<br>
 <br>
-<a href="hw/hw4/hw4.pdf">Homework 4</a>, due Friday, March 4, at the start of recitation 
+<a href="hw/hw4/hw4.pdf">Homework 4</a>, due Friday, March 4, at the start of recitation<br>
 <br>
-
+<a href="hw/hw5/hw5.pdf">Homework 5</a> is due Wednesday, March 9, at the start of recitation
 <!--
 
 <a href="hw/hw5/hw5.pdf">Homework 5</a>, due Monday, March 29, by the end of the day
