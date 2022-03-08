@@ -28,7 +28,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 24 February | <a href="slides/lec9/lecture9.pdf">Friction; additional practice</a>                                                                                    | 6.2                            |
 | 1  March    | <a href="slides/lec10/lec10.pdf">Acceleration in circular motion</a>                                                                                  | 4.4; 6.3                       |
 | 3  March    | <a href="slides/lec11/lecture11.pdf">Practice problems; universal gravitation</a>                                                                         | 13.1-13.2                      |
-| 8  March    | Review for Exam 2                                                                                                |                                |
+| 8  March    | <a href="slides/lec12/lecture12.pdf">Review for Exam 2</a>                                                                                                |                                |
 | 10 March    | **Exam 2**                                                                                                       |                                |
 | 15+17 March | **SPRING BREAK**                                                                                                 |                                |
 | 22 March    | The work-energy theorem                                                                                          | 7.1-7.3                        |

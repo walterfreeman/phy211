@@ -9,11 +9,10 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec11/lecture11.pdf">More practice; universal gravitation</a>
+<a href="slides/lec12/lecture12.pdf">Review for Exam 2</a>
 
 ### Upcoming assignments
 
-<a href="hw/hw4/hw4.pdf">Homework 4</a> is due Friday, March 4.
 <a href="hw/hw5/hw5.pdf">Homework 5</a> is due Wednesday, March 9.
 
 ### Information
