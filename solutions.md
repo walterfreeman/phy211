@@ -25,5 +25,6 @@ To see our Stuff Explainer's solutions, click below:
 
 <a href="hw/hw1/homework-1-solutions.pdf">Homework 1 Solutions</a> (by Gentian Muhaxheri)
 <a href="hw/hw2-solutions.pdf">Homework 2 Solutions</a> (by Jonathan Collard de Beaufort)
-<a href="hw/hw3-solutions.pdf">Homework 2 Solutions</a> (by Patrick Adams)
+<a href="hw/hw3-solutions.pdf">Homework 3 Solutions</a> (by Patrick Adams)
+<a href="hw/hw4-solutions.pdf">Homework 4 Solutions</a> (by Jonathan Collard de Beaufort)
 

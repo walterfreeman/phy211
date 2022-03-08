@@ -1,6 +1,5 @@
 ---
 layout: page
-category: top
 title: Questions
 permalink: w2q.html
 use_math: true
