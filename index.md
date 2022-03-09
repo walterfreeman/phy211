@@ -5,7 +5,12 @@ use_math: true
 title: Announcements
 ---
 
+### Group Exam 2
 
+* Form 1: <a href="group-exam-2-form1.pdf">[Questions]</a> [Solutions coming soon]
+* Form 2: (Questions coming soon) (Solutions coming soon)
+* Form 3: (Questions coming soon) (Solutions coming soon)
+* Form 4: (Questions coming soon) (Solutions coming soon)
 
 ### Slides for current class
 
