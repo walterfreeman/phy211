@@ -7,9 +7,9 @@ title: Announcements
 
 ### Group Exam 2
 
-* Form 1: <a href="group-exam-2-form1.pdf">[Questions]</a> [Solutions coming soon]
-* Form 2: <a href="group-exam-2-form2.pdf">[Questions]</a> <a href="group-exam-2-form2.pdf">[Solutions]</a> 
-* Form 3: <a href="group-exam-2-form3.pdf">[Questions]</a> <a href="group-exam-2-form3.pdf">[Solutions]</a> 
+* Form 1: <a href="group-exam-2-form1.pdf">[Questions]</a> <a href="group-exam-2-form1-solutions.pdf">[Solutions]</a> 
+* Form 2: <a href="group-exam-2-form2.pdf">[Questions]</a> <a href="group-exam-2-form2-solutions.pdf">[Solutions]</a> 
+* Form 3: <a href="group-exam-2-form3.pdf">[Questions]</a> <a href="group-exam-2-form3-solutions.pdf">[Solutions]</a> 
 * Form 4: (Questions coming soon) (Solutions coming soon)
 
 ### Slides for current class
