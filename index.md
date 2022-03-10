@@ -10,7 +10,7 @@ title: Announcements
 * Form 1: <a href="group-exam-2-form1.pdf">[Questions]</a> <a href="group-exam-2-form1-solutions.pdf">[Solutions]</a> 
 * Form 2: <a href="group-exam-2-form2.pdf">[Questions]</a> <a href="group-exam-2-form2-solutions.pdf">[Solutions]</a> 
 * Form 3: <a href="group-exam-2-form3.pdf">[Questions]</a> <a href="group-exam-2-form3-solutions.pdf">[Solutions]</a> 
-* Form 4: <a href="group-exam-2-form4.pdf">[Questions]</a> (Solutions coming soon)
+* Form 4: <a href="group-exam-2-form4.pdf">[Questions]</a> <a href="group-exam-2-form4-solutions.pdf">[Solutions]</a> 
 
 ### Slides for current class
 
