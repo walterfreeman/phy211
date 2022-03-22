@@ -5,20 +5,12 @@ use_math: true
 title: Announcements
 ---
 
-### Group Exam 2
-
-* Form 1: <a href="group-exam-2-form1.pdf">[Questions]</a> <a href="group-exam-2-form1-solutions.pdf">[Solutions]</a> 
-* Form 2: <a href="group-exam-2-form2.pdf">[Questions]</a> <a href="group-exam-2-form2-solutions.pdf">[Solutions]</a> 
-* Form 3: <a href="group-exam-2-form3.pdf">[Questions]</a> <a href="group-exam-2-form3-solutions.pdf">[Solutions]</a> 
-* Form 4: <a href="group-exam-2-form4.pdf">[Questions]</a> <a href="group-exam-2-form4-solutions.pdf">[Solutions]</a> 
-
 ### Slides for current class
 
-<a href="slides/lec12/lecture12.pdf">Review for Exam 2</a>
+<a href="slides/lec13/lec13.pdf">The work-energy theorem</a>
 
 ### Upcoming assignments
 
-<a href="hw/hw5/hw5.pdf">Homework 5</a> is due Wednesday, March 9.
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 
