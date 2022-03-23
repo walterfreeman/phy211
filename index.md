@@ -11,6 +11,10 @@ title: Announcements
 
 ### Upcoming assignments
 
+### Recitation material this week
+
+Wednesday: <a href="recitation/week7/recitation-energy-1.pdf">The work-energy theorem</a>
+Friday: <a href="recitation/week7/recitation-potential-energy.pdf">Potential energy and work</a> (draft; will be modified)
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 

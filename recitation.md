@@ -32,6 +32,12 @@ use_math: true
 
 <a href="recitation/week6/recitation-uniform-circular-motion-1.pdf">Week 6 Wednesday: Uniform Circular Motion</a><br>
 <a href="recitation/week6/recitation-gravity.pdf">Week 6 Friday: Universal Gravitation</a><br>
+<br>
+
+
+<a href="recitation/week7/recitation-energy-1.pdf">Week 7 Wednesday: The work-energy theorem</a><br>
+<a href="recitation/week7/recitation-potential-energy.pdf">Week 8 Friday: Potential energy and work</a> (draft; will be modified)<br>
+
 
 
 <!--
