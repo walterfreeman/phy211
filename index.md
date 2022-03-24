@@ -11,6 +11,8 @@ title: Announcements
 
 ### Upcoming assignments
 
+<a href="hw/hw6/hw6.pdf">Homework 6</a>, due Wednesday, March 30
+
 ### Recitation material this week
 
 Wednesday: <a href="recitation/week7/recitation-energy-1.pdf">The work-energy theorem</a>
