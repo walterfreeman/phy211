@@ -36,7 +36,7 @@ use_math: true
 
 
 <a href="recitation/week7/recitation-energy-1.pdf">Week 7 Wednesday: The work-energy theorem</a><br>
-<a href="recitation/week7/recitation-potential-energy.pdf">Week 8 Friday: Potential energy and work</a> (draft; will be modified)<br>
+<a href="recitation/week7/recitation-potential-energy.pdf">Week 7 Friday: Potential energy and work</a><br>
 
 
 
