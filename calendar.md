@@ -32,7 +32,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 10 March    | **Exam 2**                                                                                                       |                                |
 | 15+17 March | **SPRING BREAK**                                                                                                 |                                |
 | 22 March    | <a href="slides/lec13/lec13.pdf">The work-energy theorem</a>                                                                                          | 7.1-7.3                        |
-| 24 March    | The conservation of energy                                                                                       | 7.4; 8.1-8.3                   |
+| 24 March    | <a href="slides/lec14/lec14.pdf">The conservation of energy</a>                                                                                       | 7.4; 8.1-8.3                   |
 | 29 March    | The conservation of momentum; collisions and explosions                                                          | 9.1-9.3                        | 
 | 31 March    | Conservation of momentum in two dimensions                                                                       | 9.4-9.5                        |
 | 5  April    | Rotational kinetic energy and the rolling constraint                                                             | 10.1-10.4; 11.1                |

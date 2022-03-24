@@ -7,7 +7,7 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec13/lec13.pdf">The work-energy theorem</a>
+<a href="slides/lec14/lec14.pdf">The work-energy theorem and potential energy</a>
 
 ### Upcoming assignments
 

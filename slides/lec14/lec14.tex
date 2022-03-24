@@ -109,8 +109,25 @@
 
 \frame{\titlepage}
 
-\frame{
-\includegraphics[height=\textheight]{nomnomnom.pdf}
+
+\frame{\frametitle{\textbf{Tuesday's class}}
+	\large
+	
+\BI
+\item Many of you told me that you appreciated the format on Tuesday where you did an exercise in class.
+\item ... so we can do this again in the future!
+
+\vspace{.5in}
+
+\item However:
+\BI
+\item That exercise took longer in class than I had anticipated
+\item We didn't get as far into the {\it application} of the work-energy theorem as I had hoped
+\item I didn't have a chance to revise the recitation material on Wednesday
+\item ... so we are pushing the schedule back by about half a class. (This is fine!)
+\item We have some flexibility at the end of the semester and everything will work out
+\EI
+\EI
 }
 
 
@@ -118,30 +135,29 @@
 
 \frame{\frametitle{\textbf{Announcements}}
 \BI
-\item{Your next homework assignment is due next Friday.}
-\item{I'm aware ODS students have not had their exams graded yet -- I will rectify this ASAP}
-\item{Physics practice will return next Wednesday}
-\EI
+\item{Your next homework assignment is due next Wednesday.}
+\item Please come prepared to ask questions next Tuesday
+\EI 
 }
-
-\frame{\frametitle{\textbf{Exam 2 recap}}
-\centerline{\includegraphics[width=0.5\textwidth]{exam2histo-crop.pdf}}
-    \Large
-    \centerline{This exam was quite difficult and most of you did very well!}
-\BI
-\item 64 F's \pause
-\item 16 D's \pause
-\item 69 C's \pause
-\item 121 B's \pause
-\item \color{Red} 154 (!) A's \pause
-\EI
-
-\pause
-
-\large
-\centerline{There was no evidence that either alternate exam was harder than Thursday's.}
-
-}
+%
+%\frame{\frametitle{\textbf{Exam 2 recap}}
+%\centerline{\includegraphics[width=0.5\textwidth]{exam2histo-crop.pdf}}
+%    \Large
+%    \centerline{This exam was quite difficult and most of you did very well!}
+%\BI
+%\item 64 F's \pause
+%\item 16 D's \pause
+%\item 69 C's \pause
+%\item 121 B's \pause
+%\item \color{Red} 154 (!) A's \pause
+%\EI
+%
+%\pause
+%
+%\large
+%\centerline{There was no evidence that either alternate exam was harder than Thursday's.}
+%
+%}
 
 \frame{\frametitle{\textbf{Where we've been and where we're going}}
   \BI
@@ -193,6 +209,10 @@ We will see that things are often simpler when we look at something called ``ene
 
 \frame{\frametitle{\textbf{Energy: measurements and units}}
 \large
+We didn't talk about how we {\it measure} energy last time:
+
+\bigskip
+
 \centerline{Kinetic energy = $\frac{1}{2}mv^2$}
 \BI
 \item{Energy has units $\rm kg\, m^2/s^2$}
@@ -200,17 +220,17 @@ We will see that things are often simpler when we look at something called ``ene
 \item{1 joule = the energy required to lift an apple one meter}
 \item{This is also the unit for work}
 \EI
-
-\centerline{A new idea: power, the rate of doing work}
-
-\BI
-\item Sometimes we are interested in the rate at which a force does work
-\item This idea is called {\it power}, and it is measured in joules per second
-\item A joule per second is also called a watt
-\item If $W = \vec F \cdot \Delta \vec s$, then I can take derivatives of both sides to get...
-\item $P = \vec F \cdot \vec v$
-\item You'll need this in recitation tomorrow
-\EI
+%
+%\centerline{A new idea: power, the rate of doing work}
+%
+%\BI
+%\item Sometimes we are interested in the rate at which a force does work
+%\item This idea is called {\it power}, and it is measured in joules per second
+%\item A joule per second is also called a watt
+%\item If $W = \vec F \cdot \Delta \vec s$, then I can take derivatives of both sides to get...
+%\item $P = \vec F \cdot \vec v$
+%\item You'll need this in recitation tomorrow
+%\EI
 
 }
 
@@ -252,7 +272,39 @@ Some new terminology:
 }
 
 
-\frame{\frametitle{\textbf{Sample problem: a roller coaster}}
+\frame{\frametitle{\textbf{Dot products: calculating work}}
+
+
+The work done by a force $\vec F$ on an object as it moves through a displacement $\Delta \vec s$ is $$W = \vec F \cdot \Delta \vec s.$$
+What does this ``dot product'' mean?
+	
+	\begin{columns}
+		\normalsize
+		\column{0.5\textwidth}
+		\centerline{\includegraphics[width=0.6\textwidth]{dp1-crop.pdf}}
+		\BI
+		\item{$\vec F \cdot \Delta \vec s = (F) (\Delta s_\parallel) = (F) (\Delta s \cos \theta)$}
+		\item{``The component of the displacement parallel to the force, times the force}
+		\EI
+		
+		\column{0.5\textwidth}
+		\centerline{\includegraphics[width=0.6\textwidth]{dp2-crop.pdf}}
+		\BI
+		\item{$\vec F \cdot \Delta \vec s = (F_\parallel) (\Delta s) = (F \cos \theta) (\Delta s)$}
+		\item{``The component of the force parallel to the motion, times the displacement}
+		\EI
+		
+		
+	\end{columns}
+	\large
+	\bigskip
+	\centerline{\color{Red}Different cases where each form is useful, but it's the same trig either way}
+}
+
+
+
+
+\frame{\frametitle{\textbf{Sample problem: balls on ramps}}
 \large
 (on document camera)
 
@@ -288,6 +340,31 @@ $\rightarrow v_f = \sqrt{2g(y_0 - y_f)}$
 
 \centerline{\color{Red}No detailed knowledge of the motion required!}
 }
+
+
+
+\frame{\frametitle{\textbf{Pendulum demos}}
+	\large
+	\BI
+	\item{What is the work done by the string?}
+	\pause
+	\item{\color{Red}Zero -- it's always perpendicular to the motion!}
+	\item{How high will it swing on the other side?}
+	\pause
+	\item{Gravity does positive work on the way down and negative work on the way up}
+	\item{The kinetic energy can't go below zero}
+	\item{The height at each end of the swing must be the same!}
+	\item{... and the return height can't be greater than the initial height...}
+	\EI
+	\pause
+	\bigskip
+	\bigskip
+	
+	\normalsize
+	\centerline{\color{Blue}(If physics stops working and I go splat, have a nice summer!}
+}
+
+
 
 \frame{\frametitle{\textbf{Potential energy: an accounting trick}}
   \BI
@@ -372,13 +449,13 @@ A short history of energy conversion:
   \EI
 }
 
-
-\frame{
-\Large
-\begin{center}
-Ask a Physicist: how does a nuclear bomb work (and how is it different from a nuclear power plant)?
-\end{center}
-}
+%
+%\frame{
+%\Large
+%\begin{center}
+%Ask a Physicist: how does a nuclear bomb work (and how is it different from a nuclear power plant)?
+%\end{center}
+%}
 
 
 \frame{\frametitle{\textbf{A new force: elasticity and Hooke's law}}
@@ -547,44 +624,44 @@ A person of mass $m=100$ kg falls from a height of $h=3$m onto a trampoline. If 
    \BI
  \item{Friction is a no-go: the work done by friction depends on the path, not just where you start and stop}
  \item{``Ephemeral'' forces like tension and normal force are easiest to deal with by computing work directly}
- \item{The other force we've studied that is easily associated with a potential energy is {\bf universal gravitation}}
-   \BI
- \item{Need to choose a point to set $U=0$; here we choose $r = \infty$}
- \item{$U_G$ = ``work done by gravity on $m_1$ when it moves infinitely far from $m_2$}
-   \EI
+% \item{The other force we've studied that is easily associated with a potential energy is {\bf universal gravitation}}
+%   \BI
+% \item{Need to choose a point to set $U=0$; here we choose $r = \infty$}
+% \item{$U_G$ = ``work done by gravity on $m_1$ when it moves infinitely far from $m_2$}
+%   \EI
 \EI
-
-\bigskip
-\bigskip
-
-\Large
-
-   $F_G = \frac{Gm_1 m_2}{r^2}$
-   
-\bigskip
-
-   $W_G = \int_R^\infty\, -\frac{Gm_1m_2}{r^2}\, dr = -\frac{Gm_1 m_2}{R}$
-
-   \pause
-   \bigskip
-
-   $\rightarrow$ Gravitational potential energy between two objects separated by a distance $r$ is $-\frac{Gm_1m_2}{r}$.
+%
+%\bigskip
+%\bigskip
+%
+%\Large
+%
+%   $F_G = \frac{Gm_1 m_2}{r^2}$
+%   
+%\bigskip
+%
+%   $W_G = \int_R^\infty\, -\frac{Gm_1m_2}{r^2}\, dr = -\frac{Gm_1 m_2}{R}$
+%
+%   \pause
+%   \bigskip
+%
+%   $\rightarrow$ Gravitational potential energy between two objects separated by a distance $r$ is $-\frac{Gm_1m_2}{r}$.
  }
-
- \frame{\frametitle{\textbf{The Earth's ``gravity well''}}
-   \large
-    \BI
-  \item{With this choice of the zero point at $r=\infty$, gravitational potential energy is always negative}
-  \item{We have to {\it add energy} to get something away from Earth}
-\EI  
-\bigskip
-
-\centerline{\includegraphics[width=0.6\textwidth]{ug-crop.pdf}}
-
-\bigskip
-
-This region of large negative potential energy is often called a ``gravity well''.
-}
+%
+% \frame{\frametitle{\textbf{The Earth's ``gravity well''}}
+%   \large
+%    \BI
+%  \item{With this choice of the zero point at $r=\infty$, gravitational potential energy is always negative}
+%  \item{We have to {\it add energy} to get something away from Earth}
+%\EI  
+%\bigskip
+%
+%\centerline{\includegraphics[width=0.6\textwidth]{ug-crop.pdf}}
+%
+%\bigskip
+%
+%This region of large negative potential energy is often called a ``gravity well''.
+%}
 
  \frame{\frametitle{\textbf{Summary}}
 \large
@@ -603,8 +680,8 @@ This region of large negative potential energy is often called a ``gravity well'
  \item{$k$ is the spring constant, measured in force per distance, that gauges stiffness}
  \item{Elastic potential energy: $U_{\rm{elas}}=\frac{1}{2}k(x-x_0)^2$}
    \EI
-\pause
-\item{Gravitational potential energy in general: $U_G = -\frac{Gm_1 m_2}{r}$}
+%\pause
+%\item{Gravitational potential energy in general: $U_G = -\frac{Gm_1 m_2}{r}$}
 \EI
  }
    \end{document}
