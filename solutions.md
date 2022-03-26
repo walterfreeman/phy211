@@ -19,7 +19,9 @@ To see our Stuff Explainer's solutions, click below:
 * Week 5 Wednesday: <https://www.youtube.com/watch?v=2fzoGFiGe28>
 * Week 5 Friday: <https://www.youtube.com/watch?v=6lGkZcO9u2Y>
 * Week 6 Wednesday: <https://www.youtube.com/watch?v=bp80Kwc15tI>
-
+* Week 7 Wednesday: <https://youtu.be/eeYPxlfYPPE>
+* Week 7 Friday: <https://youtu.be/rDhKZ2AE5dw>
+* Discussion of the dot product: <https://youtu.be/okCdIOfH6nw>
 
 ### Homework Solutions
 
