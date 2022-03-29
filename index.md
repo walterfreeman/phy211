@@ -7,11 +7,11 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec14/lec14.pdf">The work-energy theorem and potential energy</a>
+<a href="slides/lec15/lec15.pdf">Springs; more practice; power</a>
 
 ### Upcoming assignments
 
-<a href="hw/hw6/hw6.pdf">Homework 6</a>, due Wednesday, March 30
+<a href="hw/hw6/hw6.pdf">Homework 6</a>, due Friday, April 1
 
 ### Recitation material this week
 
