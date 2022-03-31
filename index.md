@@ -7,7 +7,7 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec15/lec15.pdf">Springs; more practice; power</a>
+<a href="slides/lec16/lec16.pdf">Momentum</a>
 
 ### Upcoming assignments
 
