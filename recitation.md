@@ -37,6 +37,12 @@ use_math: true
 
 <a href="recitation/week7/recitation-energy-1.pdf">Week 7 Wednesday: The work-energy theorem</a><br>
 <a href="recitation/week7/recitation-potential-energy.pdf">Week 7 Friday: Potential energy and work</a><br>
+<br>
+
+
+<a href="recitation/week8/recitation-springs.pdf">Week 8 Wednesday: The elastic force</a><br>
+<a href="recitation/week8/recitation-momentum-1.pdf">Week 8 Friday: Conservation of momentum (I)</a><br>
+
 
 
 

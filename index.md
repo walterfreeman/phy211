@@ -11,7 +11,7 @@ title: Announcements
 
 ### Upcoming assignments
 
-<a href="hw/hw6/hw6.pdf">Homework 6</a>, due Friday, April 1
+<a href="hw/hw7/hw7.pdf">Homework 7</a>, due Friday, April 8
 
 ### Recitation material this week
 
