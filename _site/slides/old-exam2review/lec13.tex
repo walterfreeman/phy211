@@ -1,0 +1,315 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+\usepackage{tikz}
+
+\newcommand{\shrug}[1][]{%
+\begin{tikzpicture}[baseline,x=0.8\ht\strutbox,y=0.8\ht\strutbox,line width=0.125ex,#1]
+\def\arm{(-2.5,0.95) to (-2,0.95) (-1.9,1) to (-1.5,0) (-1.35,0) to (-0.8,0)};
+\draw \arm;
+\draw[xscale=-1] \arm;
+\def\headpart{(0.6,0) arc[start angle=-40, end angle=40,x radius=0.6,y radius=0.8]};
+\draw \headpart;
+\draw[xscale=-1] \headpart;
+\def\eye{(-0.075,0.15) .. controls (0.02,0) .. (0.075,-0.15)};
+\draw[shift={(-0.3,0.8)}] \eye;
+\draw[shift={(0,0.85)}] \eye;
+% draw mouth
+\draw (-0.1,0.2) to [out=15,in=-100] (0.4,0.95); 
+\end{tikzpicture}}
+
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Review problems]{
+  \textbf {Review problems}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2017\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\Large
+\BI
+\item{Today: more momentum problems, and other practice problems}
+\item{No office hours tomorrow morning}
+\item Group practice exam Friday
+\item A reminder: if you have to miss recitation, talk to your TA
+\EI
+}
+
+\frame{\frametitle{\textbf{Exam scheduling}}
+\Large
+If exams were held Wednesday 7:30PM and Thursday, which would you attend?
+
+\bigskip
+\bigskip
+
+\BI
+\item A: Wednesday
+\item B: Thursday
+\EI
+}
+
+\frame{\frametitle{\textbf{Exam scheduling}}
+\Large
+If exams were held Friday afternoon (around 3PM) and Thursday, which would you attend?
+
+\bigskip
+\bigskip
+
+\BI
+\item A: Friday
+\item B: Thursday
+\EI
+}
+
+\frame{\frametitle{\textbf{Exam scheduling}}
+\Large
+If exams were held Wednesday at 7:30, Friday afternoon (around 3PM), and Thursday, which would you attend?
+
+\bigskip
+\bigskip
+
+\BI
+\item A: Wednesday
+\item B: Friday
+\item C: Thursday
+\EI
+}
+
+
+\frame{\frametitle{\textbf{Exam review time?}}
+\Large
+
+\BI
+\item A: Saturday, 12-3
+\item B: Monday, 12-4
+\item C: Tuesday, 4-8 (expanded office hour time)
+\EI
+}
+
+\frame{\frametitle{\textbf{Conservation of momentum}}
+\large
+    \BI
+ \item Newton's third law means that forces only {\it transfer} momentum from one object to another
+  \item{The force between $A$ and $B$ leaves the total momentum constant; it just gets transferred from one to the other}
+\item{\color{Red}The total change in momentum is zero!}
+  \item{{\bf Remember momentum is a vector!}}
+  \item{Solving problems: create ``before'' and ``after'' snapshots}
+  \item{Just add up the momentum before and after and set it equal!}
+    \EI
+  }
+
+\frame{\frametitle{\textbf{When we need this idea: collisions and explosions}}
+  Often things collide or explode; we need to be able to understand this.
+  \BI
+\item{Very complicated forces between pieces often involved: can't track them all}
+\item{These forces are huge but short-lived, delivering their impulse very quickly}
+\item{Other forces usually small enough to not matter during the collision/explosion}
+\item{Use conservation of momentum to understand the collision}
+\EI
+
+\bigskip
+
+The procedure is always the same:
+
+\large
+\color{Red}
+\begin{center}
+$\sum \vec p_i = \sum \vec p_f$
+``Momentum before equals momentum after''
+\color{Black}
+
+Make very sure your ``before'' and ``after'' variables mean what you think they mean!
+
+\end{center}
+\large
+}
+
+
+
+\frame{\frametitle{\textbf{Sample problems: a 1D collision}}
+  \Large
+  A train car with a mass $m$ is at rest on a track. Another train car also of mass $m$ is moving toward it with a velocity $v_0$ when it is a distance $d$ away. 
+  The first car hits the second and couples to it; the cars roll together until friction brings them to a stop.
+
+\bigskip
+
+
+If the coefficient of rolling friction is $\mu_r$, how far do they roll after the collision?
+
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+
+
+Method: use conservation of momentum to understand the collision; use other methods to understand before and after!
+
+}
+
+\frame{\frametitle{\textbf{Sample problems: a 2D collision}}
+\large
+A sedan of mass 2000 kg is traveling north at 25 miles per hour. A Mini Cooper of mass 1000 kg is traveling east at 30 
+miles per hour, runs a stop sign, and collides with the sedan.
+
+\begin{itemize}
+\item{If the two cars stick together after the collision, what is their velocity?}
+\pause
+\item{If the coefficient of friction between the cars and the pavement is 0.6, how far do they travel?}
+\pause
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: an explosion}}
+\large
+
+A person with mass 80 kg is on a sled, moving north at 3 m/s. He carries a bowling ball of mass 
+8 kg. He throws his bowling ball east; after this, he is moving $3^\circ$ west of north.
+
+\bigskip
+\bigskip
+
+\BI
+\item How fast did he throw the bowling ball?
+\item How fast is he moving afterwards?
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: arrrrrrr.}}
+\large
+
+A pirate ship has a cannon of mass $M$, mounted on a deck that is a height $h$ above the waterline.
+It fires a cannonball of mass $m$ horizontally; it lands in the water a distance $d$ away. The cannon slides backward
+along the deck and is brought to rest by friction; the coefficient of friction is $\mu_k$. 
+
+\bigskip
+\bigskip
+
+How far back does the cannon slide?
+
+}
+
+\frame{\frametitle{\textbf{Sample problems: pulling a trailer uphill}}
+\large
+A truck (with four wheel drive) has a mass of $m=2000$ kg and its tires have a coefficient of friction with the ground
+of $\mu_s$=0.8. What is the steepest hill it can drive up?
+\pause
+
+\bigskip
+
+Suppose now that it is towing a trailer of mass $M=4000$ kg. Now what is the steepest hill that it can drive up?}
+
+\frame{\frametitle{\textbf{Sample problems: the variation of apparent weight with latitude}}
+\large
+(From recitation)
+
+If a 1kg object is placed on a scale at the Equator, what does the scale read?
+
+}
+
+
+
+
+
+
+
+\end{document}

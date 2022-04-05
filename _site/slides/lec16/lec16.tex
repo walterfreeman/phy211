@@ -1,10 +1,8 @@
-% DPF 09 talk on strangeness in nucleon
-
 \documentclass[10pt]{beamer}
-\usepackage{amsmath}
-\usepackage{mathtools}
 \usefonttheme{professionalfonts}
 \usefonttheme{serif}
+\usepackage{amsmath}
+\usepackage{mathtools}
 %\documentclass[12pt]{beamerthemeSam.sty}
 \usepackage{epsf}
 %\usepackage{pstricks}
@@ -35,12 +33,6 @@
 \def\ENEA{\end{eqnarray}}
 \def\EL{\nonumber\\}
 
-
-\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
-\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
-\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
-\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
-
 \newcommand{\etal}{{\it et al.}}
 \newcommand{\gbeta}{6/g^2}
 \newcommand{\la}[1]{\label{#1}}
@@ -67,7 +59,6 @@
 \definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
 \definecolor{Red}           {cmyk}{0,1,1,0}
 \definecolor{Grey}           {cmyk}{.7,.7,.7,0}
-\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
 \definecolor{Blue}          {cmyk}{1,1,0,0}
 \definecolor{Green}         {cmyk}{1,0,1,0}
 \definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
@@ -91,8 +82,8 @@
 
 %AB: remove navigation icons
 \beamertemplatenavigationsymbolsempty
-\title[Work and potential energy]{
-  \textbf {Work and potential energy}\\
+\title[Momentum]{
+  \textbf {Momentum}\\
 %\centerline{}
 %\centering
 %\vspace{-0.0in}
@@ -101,7 +92,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2017\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
 
 \date{\today}
 
@@ -109,499 +100,214 @@
 
 \frame{\titlepage}
 
-\frame{
-\includegraphics[height=\textheight]{nomnomnom.pdf}
-}
-
 \frame{\frametitle{\textbf{Announcements}}
 \BI
-\item{Your next homework assignment is due next Friday.}
-\item{I'm aware ODS students have not had their exams graded yet -- I will rectify this ASAP}
-\item{Physics practice will return next Wednesday}
-\EI
-}
-
-\frame{\frametitle{\textbf{Exam 2 recap}}
-\centerline{\includegraphics[width=0.5\textwidth]{exam2histo-crop.pdf}}
-    \Large
-    \centerline{This exam was quite difficult and most of you did very well!}
-\BI
-\item 64 F's \pause
-\item 16 D's \pause
-\item 69 C's \pause
-\item 121 B's \pause
-\item \color{Red} 154 (!) A's \pause
-\EI
-
-\pause
-
 \large
-\centerline{There was no evidence that either alternate exam was harder than Thursday's.}
-
-}
-
-\frame{\frametitle{\textbf{Where we've been and where we're going}}
-  \BI
-  \large
-\item{Last time: kinetic energy and the work-energy theorem}
-\item{This time: the idea of potential energy and conservation of energy}
-\BI
-\item{Potential energy: ``the most meaningful bookkeeping trick in physics''}
-\item{Lets us understand many phenomena without difficult mathematics}
-\item{Conservation of energy: there's always the same amount of energy, and it just changes forms}
-\EI
+\item{Extra homework help hours today: 2:00-5:30 PM (Physics Clinic -- combination of me and others)}
+\pause
+\item HW6 due tomorrow
+\item HW7 posted today, due next Friday -- start early
 \EI
 }
 
-\frame{\frametitle{\textbf{Review: kinetic energy}}
+
+\frame{\frametitle{\textbf{Recitation or homework questions?}}}
+
+\frame{\frametitle{\textbf{Newton's third law: consequences}}
 \large
-We will see that things are often simpler when we look at something called ``energy''
-\BI
-\item{Basic idea: don't treat $\vec a$ and $\vec v$ as the most interesting things any more}
-\item{Treat $v^2$ as fundamental: $\frac{1}{2}mv^2$ called ``kinetic energy''}
-  \EI
-  \bigskip
-  \begin{columns}
-    \column{0.5\textwidth}
-    \color{Blue}
-    \centerline{Previous methods:}
-    \BI
-    \color{Blue}
-  \item{Velocity is fundamental}
-  \item{Force: causes velocities to change over time}
-  \item{Intimately concerned with vector quantities}
-  \EI
-    \column{0.5\textwidth}
-    \color{Red}
-    \centerline{Energy methods:}
-    \BI
-    \color{Red}
-  \item{$v^2$ (related to kinetic energy) is fundamental}
-  \item{Force: causes KE to change over distance}
-  \item{Energy is a {\it scalar}}
-    \EI
-  \end{columns}
-  
-  \bigskip
-  \bigskip
-  
-  \centerline{Energy methods: useful when you don't know and don't care about time}
-}
-
-\frame{\frametitle{\textbf{Energy: measurements and units}}
-\large
-\centerline{Kinetic energy = $\frac{1}{2}mv^2$}
-\BI
-\item{Energy has units $\rm kg\, m^2/s^2$}
-\item{This unit is called a {\it joule}}
-\item{1 joule = the energy required to lift an apple one meter}
-\item{This is also the unit for work}
-\EI
-
-\centerline{A new idea: power, the rate of doing work}
-
-\BI
-\item Sometimes we are interested in the rate at which a force does work
-\item This idea is called {\it power}, and it is measured in joules per second
-\item A joule per second is also called a watt
-\item If $W = \vec F \cdot \Delta \vec s$, then I can take derivatives of both sides to get...
-\item $P = \vec F \cdot \vec v$
-\item You'll need this in recitation tomorrow
-\EI
-
-}
-
-\frame{\frametitle{\textbf{The work-energy theorem in 1D}}
-Last time we saw the ``work-energy theorem'' was a consequence of simple kinematics:
-\begin{equation*}
-  \frac{1}{2} mv_f^2 - \frac{1}{2} mv_0^2 = F \Delta x
-\end{equation*}
-
-\bigskip
-\bigskip
-\bigskip
-\pause
-
-Or in more than one dimension:
-\begin{equation*}
-  \frac{1}{2} mv_f^2 - \frac{1}{2} mv_0^2 = \vec F \cdot \Delta \vec s = (F_\parallel)(\Delta s) = (F)(\Delta s_\parallel)
-\end{equation*}
-
-
-\bigskip
-\bigskip
-\bigskip
-\pause
-Or if the force is not constant:
-
-\begin{equation*}
-    \frac{1}{2} mv_f^2 - \frac{1}{2} mv_0^2 = \int \vec F \cdot d\vec s
-  \end{equation*}
-
-\pause
-
-Some new terminology:
-\BI
-\item{$\frac{1}{2}mv^2$ called the ``kinetic energy'' (positive only!)}
-\item{$\vec F \cdot \Delta \vec s$ called the ``work'' (negative or positive!)}
-\item{\color{Red}``Work is the change in kinetic energy''}
-\EI
-}
-
-
-\frame{\frametitle{\textbf{Sample problem: a roller coaster}}
-\large
-(on document camera)
-
-\pause
-\bigskip
-\bigskip
-\bigskip
-
-Strategy: compute the work done by all the forces and equate that to the change in KE.
+What happens if someone sitting on a cart throws a heavy ball forward, with a mass 10\% of her mass?
 
 \bigskip
 
-Work done by normal force = {\bf zero}!
-
-Work done by gravity = $(F)(\Delta s)_\parallel = mg\Delta y = mg(y_0 - y_f)$
-
-\bigskip
-\bigskip
-
-\begin{align*}
-  KE_f - KE_i =& W_g \\
-  \frac{1}{2} mv_f^2 - 0 =& mg (y_0 - y_f) \\ 
-\end{align*}
-  
-\pause
-\bigskip
-
-$\rightarrow v_f = \sqrt{2g(y_0 - y_f)}$
-
-\bigskip
-\pause
-\bigskip
-
-\centerline{\color{Red}No detailed knowledge of the motion required!}
-}
-
-\frame{\frametitle{\textbf{Potential energy: an accounting trick}}
-  \BI
-\item{Notice that the work done by gravity depends {\it only} on the change in height.}
-\item{Some other forces are like this as well: the work done depends only on initial and final position}
-  \BI
-\item{These are called {\it conservative forces}}
-\item{Soon we'll see that the elastic force is like this too}
-\EI
-\item{Separate out gravity and all other forces in the work-energy theorem:}
-\begin{align*}
-KE_f - KE_i &= W_{\rm grav}+ {\color{Grey}W_{\rm{other}}}\\
-\frac{1}{2} mv_f^2 - \frac{1}{2} mv_0^2 &= mg (y_0 - y_f) + {\color{Grey}W_{\rm{other}}}
-\end{align*}
-
-\pause
-\item{Collect all the ``initial'' things on the left and the ``final'' things on the right:}
-  \begin{align*}
-    \frac{1}{2} mv_0^2& + mgy_0& + W_{\rm{other}} &=& \frac{1}{2}mv_f^2 &+ mgy_f\\
-    KE_0& + GPE_0& + W_{\rm{other}}& =& KE_f &+ GPE_f 
-  \end{align*}
-\item{Identify $mgy$ as ``gravitational potential energy'': how much work will gravity do if something falls?}
-  \EI
-
-\bigskip
-
-\centerline{\color{Red} Potential energy lets us easily calculate the work done by conservative forces}
-}
-
-\frame{\frametitle{\textbf{Potential energy: more than accounting!}}
-  \BI
-\item{Another way to look at the roller coaster: {\color{Red} gravitational potential energy being converted to kinetic energy.}}
-\item{This perspective is universal: {\color{Blue}all} forces just convert energy from one sort into another}
-\item{Some of these types are beyond the scope of this class, but we should be aware of them!}
-\EI
-\bigskip
-\bigskip
-A short history of energy conversion:
-\small
-\begin{columns}
-  \column{0.5\textwidth}  
-\BI
-\item{Hydrogen in the sun fuses into helium}
-\item{Hot gas emits light}
-\item{Light shines on the ocean, heating it}
-\item{Seawater evaporates and rises, then falls as rain}
-\item{Rivers run downhill}
-\item{Falling water turns a turbine}
-\item{Turbine turns coils of wire in generator}
-\item{Electric current ionizes gas}
-\item{Recombination of gas ions emits light}
-  \EI
-  \column{0.5\textwidth}
-\BI
-\item{Nuclear energy $\rightarrow$ thermal energy}
-\item{Thermal energy $\rightarrow$ light}
-\item{Light $\rightarrow$ thermal energy}
-\item{Thermal energy $\rightarrow$ gravitational potential energy}
-\item{Gravitational PE $\rightarrow$ kinetic energy and sound} 
-\item{Kinetic energy in water $\rightarrow$ kinetic energy in turbine}
-\item{Kinetic energy $\rightarrow$ electric energy}
-\item{Electric energy $\rightarrow$ chemical potential energy}
-\item{Chemical PE $\rightarrow$ light}
-\EI
-\end{columns}
-}
-
-\frame{\frametitle{\textbf{Potential energy: more than accounting!}}
-\BI
-\item{This class is just the study of motion: we can't treat light or nuclear energy here.}
-\item{... but in physics as a whole, the {\it conservation of energy} -- that processes just change energy from one form to another -- is universal!}
-\item{Conservation of energy is one of the most tested, ironclad ideas in science}
-\item{Nuclear and chemical potential energy: nuclear forces do mechanical work on particles, much like gravity}
-\item{Light, and others: kinetic energy of little particles called ``photons''}
-\item{Heat: kinetic energy of atoms in random motion}
-\item{Sound: kinetic energy of atoms in coordinated motion}
-\item{Food: Just chemical potential energy...}
-\item{... so all of these things aren't as far removed from mechanics after all!}
-\item{Einstein: ``Mass is just another form of energy''}
-\pause
-\item{\color{Red}Maybe it's all, ultimately, just kinetic energy! (I believe it is; others will argue!)}
-  \EI
-}
-
-
-\frame{
-\Large
-\begin{center}
-Ask a Physicist: how does a nuclear bomb work (and how is it different from a nuclear power plant)?
-\end{center}
-}
-
-
-\frame{\frametitle{\textbf{A new force: elasticity and Hooke's law}}
-To best see how this can be useful, let's introduce a new force: elasticity.
+\bf Pick the one that is {\it not} true: \rm
 
 \begin{itemize}
+\item A: She pushes the ball forward, so it must push her backwards, by Newton's 3rd Law
+\item B: The change in the ball's velocity is equal and opposite to the change in her velocity
+\item C: The change in her velocity is going to be in the opposite direction, and 10\% as big, as the change in the ball's velocity
+\item D: The ball's acceleration will at all times be equal and opposite to hers
+\end{itemize}
+}
 
-  \item{Springs have a particular length that they like to be: ``equilibrium length'' $L_0$}
-  \item{A spring stretched to be longer than this pulls inward to shorten itself}
-  \item{A spring compressed to be shorter than this pushes outward to lengthen itself}
-  \item{Flexible things like strings and ropes only pull; they kink instead of compressing}
-  \item{The force is proportional to the deviation from the optimum length}
-\EI
-\centerline{    \includegraphics[width=0.4\textwidth]{hooke.png}}
+\frame{\frametitle{\textbf{Newton's third law: consequences}}
 \Large
-\centerline{$F_{\rm{elastic}} = -k (L - L_0) = -k \Delta x$ (Hooke's law)}
 
-\bigskip
-\pause
-\large
-$k$ is called the ``spring constant'':
+Newton's third law tells us:
 
-\BI
-\item{Measures the stiffness of the spring/rope}
-\item{Units of newtons per meter: ``restoring force of $k$ newtons per meter of stretch''}
-  \EI
+$$ \vec F_{BA} = -\vec F_{AB}$$
+
+Combining this with Newton's second law we know:
+
+$$ m_A \vec a_A = -m_B \vec a_B$$
+
+Since we know the area under the acceleration vs. time curve is the change in velocity, we can take integrals of
+both sides:
+
+$$ m_A (\vec v_{A,f} - \vec v_{A,i}) = -m_B (\vec v_{B,f} - \vec v_{B,i})$$
+
+We can then rearrange this to put all the ``initial'' things on the left, and the ``final'' things on the right:
+
+$$ m_A \vec v_{A_i} + m_B \vec v_{B_i} = m_A \vec v_{A_f} + m_B \vec v_{B_f} $$
+
 }
 
 
-\frame{\frametitle{\textbf{A simple spring problem: done with the work-energy theorem}}
-\Large
-A person of mass $m=100 kg$ falls from a height of $h=3$m onto a trampoline. If the person makes an impression $d=40$ cm deep on the trampoline when he lands, what is the spring constant?
+\frame{\frametitle{\textbf{Momentum: overview}}
+  \large
+We call $m\vec v$ the {\it momentum}, just so we have a name for it. Thus we can write, instead:
 
-\pause
-\bigskip
-\bigskip
-\bigskip
-
-\normalsize
-
-\BI
-\item{Initial kinetic energy + work done by spring + work done by gravity = final kinetic energy}
+$$ \sum \vec p_i = \sum \vec p_f $$
   \BI
-\item{Need to use the integral form of the work-energy theorem since the force isn't constant}
-  \EI
-\item{The person begins and ends at rest, so we know the initial and final kinetic energy is zero}
-\item{The trampoline begins at its equilibrium position}
-  \pause
-\item{\color{Red}$W_{\rm{grav}} = (mg)(h+d)$}
-  \pause
-\item{\color{Blue}$W_{\rm{elas}} = \int_0^{-d} \, kx \, dx = -\frac{1}{2} kd^2$}
-  \pause
-\item{$KE_0 + {\color{Red}W_{\rm{grav}}} + {\color{Blue}W_{\rm{elas}}} = KE_f$}
-\item{$0 + \color{Red}(mg)(h+d) \color{Blue}-\frac{1}{2} kd^2 \color{Black}= 0$}
-\item{$k = \frac{mg(h+d)}{2d^2}$}
+\item{Momentum is the time integral of force: $\vec p = \int\, \vec F\, dt$}
+\item{Momentum is a {\bf vector}, transferred from one object to another when they exchange forces}
+\item{Another way to look at it: {\bf force is the rate of change of momentum}}
+\item{Newton's 3rd law says that total momentum is constant}
+\item{Mathematically: $\vec p = m \vec v$}
+\item{Helps us understand {\bf collisions} and {\bf explosions}, among others}
   \EI
 }
-  
 
-\frame{\frametitle{\textbf{Potential energy stored in a spring}}
-\Large 
-We saw that an object at height $h$ has gravitational potential energy $mgh$. Can we do something similar for springs?
-
+\frame{\frametitle{\textbf{Conservation of momentum}}
 \large
-
-\bigskip
-\bigskip
-\pause
-\BI
-\item{Potential energy, remember, is the work done by some force as it returns to some ``zero'' position.}
-\item{A natural choice is $\Delta x=0$, the equilibrium position of the spring.}
-  \EI
-
-\Large
-
-``How much work is done by a spring as it goes from $\Delta x=a$ to $\Delta x=0$?
-
-\bigskip
-\bigskip
-
-\centerline{$U_{\rm{elastic}} = W_{a \rightarrow 0} = \int_a^0 \, -kx \, dx = \int_0^a \, kx \, dx = \frac{1}{2}ka^2$}
-
-\pause
-\bigskip
-\bigskip
-
-Now that we have this, we never have to do this integral again!
-
-\bigskip
-
-\centerline{$U_{\rm{elastic}} = \frac{1}{2} kx^2$, where $x$ is the distance from equilibrium}
-
-}
-
-
-  
-  
-   
-  \frame{\frametitle{\textbf{A simple spring problem: done with potential energy}}
-\Large
-A person of mass $m=100$ kg falls from a height of $h=3$m onto a trampoline. If the person makes an impression $d=40$ cm deep on the trampoline when he lands, what is the spring constant?
-
-\pause
-\bigskip
-\bigskip
-\bigskip
-
-\normalsize
-
-\BI
-\item{Initial total energy + work done by other forces = final total energy}
-\item{We have no ``other forces'': we're accounting for gravity and elasticity using potential energy}
-\item{The person begins and ends at rest, so we know the initial and final kinetic energy is zero}
-\item{Put $y=0$ at the surface of the trampoline}
-  \pause
-\item{$U_{\rm{grav},0} = mgh$}
-\item{$U_{\rm{elas},0} = 0$ (trampoline starts at equilibrium)}
-\item{$U_{\rm{grav},f} = -mgd$ (the person falls below $y=0$; PE can be negative!)}
-\item{$U_{\rm{elas},f} = \frac{1}{2}kd^2$ (see last slide)}
-  \pause
-\item{${\color{Lg}KE_0} + U_{\rm{grav},0} + {\color{Lg}U_{\rm{elas},0}} = {\color{Lg}KE_f} + U_{\rm{grav},f} + U_{\rm{elas},f}$}
-  \pause
-\item{$0 + mgh + 0 = 0 + (-mgd) + \frac{1}{2}kd^2$ (Same terms, maybe on different side)}
-  \pause
-\item{$k = \frac{mg(h+d)}{2d^2}$}
-  \EI
-}
-  \frame{\frametitle{\textbf{That spring problem: a recap}}
-     \large
-     \centerline{We don't care about time $\rightarrow$ energy methods}
-
-     \bigskip
-     \normalsize
-
-     \begin{columns}
-     \column{0.5\textwidth}
-     \centerline{Work-energy theorem}
-     \column{0.5\textwidth}
-     \centerline{Potential energy treatment}
-   \end{columns}
-   \begin{columns}
-     \column{0.5\textwidth}
-
-     \BI
-   \item{Initial KE + all work done = final KE}
-   \item{Need to compute work done by gravity: easy}
-   \item{Need to compute work done by spring: harder\\(need to integrate Hooke's law)}
-   \EI
-   \column{0.5\textwidth}
-   \BI
- \item{Initial KE + initial PE + other work = final KE + final PE}
- \item{No ``other work'' in this problem; all forces have a PE associated}
- \item{Need to know the expressions for PE:}
-   \BI
- \item{$U_{\rm{grav}} = mgy$}
- \item{$U_{\rm{elas}} = \frac{1}{2}kx^2$ (x is the distance from the equilibrium point)}
-   \EI
- \item{No integrals required (they're baked into the above)}
-   \EI
- \end{columns}
- }
-
- \frame{\frametitle{\textbf{Potential energy with other forces}}
-   \large
-   What about associating a potential energy with other forces?\normalsize
-   \BI
- \item{Friction is a no-go: the work done by friction depends on the path, not just where you start and stop}
- \item{``Ephemeral'' forces like tension and normal force are easiest to deal with by computing work directly}
- \item{The other force we've studied that is easily associated with a potential energy is {\bf universal gravitation}}
-   \BI
- \item{Need to choose a point to set $U=0$; here we choose $r = \infty$}
- \item{$U_G$ = ``work done by gravity on $m_1$ when it moves infinitely far from $m_2$}
-   \EI
-\EI
-
-\bigskip
-\bigskip
-
-\Large
-
-   $F_G = \frac{Gm_1 m_2}{r^2}$
-   
-\bigskip
-
-   $W_G = \int_R^\infty\, -\frac{Gm_1m_2}{r^2}\, dr = -\frac{Gm_1 m_2}{R}$
-
-   \pause
-   \bigskip
-
-   $\rightarrow$ Gravitational potential energy between two objects separated by a distance $r$ is $-\frac{Gm_1m_2}{r}$.
- }
-
- \frame{\frametitle{\textbf{The Earth's ``gravity well''}}
-   \large
     \BI
-  \item{With this choice of the zero point at $r=\infty$, gravitational potential energy is always negative}
-  \item{We have to {\it add energy} to get something away from Earth}
-\EI  
+ \item Newton's third law means that forces only {\it transfer} momentum from one object to another  
+  \item{The force between $A$ and $B$ leaves the total momentum constant; it just gets transferred from one to the other}
+\item{\color{Red}The total change in momentum is zero!}
+  \item{{\bf Remember momentum is a vector!}}
+  \item{Solving problems: create ``before'' and ``after'' snapshots}
+  \item{Just add up the momentum before and after and set it equal!}
+    \EI
+  }
+
+\frame{\frametitle{\textbf{When we need this idea: collisions and explosions}}
+  Often things collide or explode; we need to be able to understand this.
+  \BI
+\item{Very complicated forces between pieces often involved: can't track them all}
+\item{These forces are huge but short-lived, delivering their impulse very quickly}
+\item{Other forces usually small enough to not matter during the collision/explosion}
+\item{Use conservation of momentum to understand the collision}
+\EI
+
 \bigskip
 
-\centerline{\includegraphics[width=0.6\textwidth]{ug-crop.pdf}}
+The procedure is always the same:
 
-\bigskip
+\large
+\color{Red}
+\begin{center}
+$\sum \vec p_i = \sum \vec p_f$
+``Momentum before equals momentum after''
+\color{Black}
 
-This region of large negative potential energy is often called a ``gravity well''.
+Make very sure your ``before'' and ``after'' variables mean what you think they mean!
+
+\end{center}
+\large
 }
 
- \frame{\frametitle{\textbf{Summary}}
+\frame{\frametitle{\textbf{Applying conservation of momentum to problems}}
+\begin{itemize}
 \large
-   \BI
- \item{Potential energy is two things:}
-   \BI
- \item{An accounting device that makes it easier to keep track of work done}
- \item{Part of {\it conservation of total energy}, a powerful statement about nature}
-   \EI
- \item{Gravitational potential energy (on Earth): $U_g = mgy$}
-   \pause
- \item{We learned about a new force: {\bf elasticity}}
-   \BI
- \item{Restoring force in a stretched or compressed spring, or a stretched string: }
-   \large   \centerline{$F = -k(x-x_0)$ ($x_0$ is the equilibrium length)} \normalsize
- \item{$k$ is the spring constant, measured in force per distance, that gauges stiffness}
- \item{Elastic potential energy: $U_{\rm{elas}}=\frac{1}{2}k(x-x_0)^2$}
-   \EI
-\pause
-\item{Gravitational potential energy in general: $U_G = -\frac{Gm_1 m_2}{r}$}
+\item{1. Identify what process you will apply conservation of momentum to}
+\BI
+\item{Collisions}
+\item{Explosions}
+\item{Times when no external force intervenes}
 \EI
- }
-   \end{document}
+\item{2. Draw clear pictures of the ``before'' and ``after'' situations}
+\item{3. Write expressions for the total momentum before and after, in both $x$ and $y$}
+\item{4. Set them equal: Write $\sum p_i = \sum p_f$ (in both x and y if needed), and solve}
+
+\EI
+}
+%
+%\frame{\frametitle{\textbf{Demo with carts}}
+%  \Large
+%
+%Can we predict the final velocities here?
+%
+%\large
+%
+%\bigskip
+%
+%\BI
+%\item{Two carts of equal mass separate}
+%\pause
+%\item{Two carts traveling at equal speeds with equal masses collide}
+%\pause
+%\item{Two carts of mass $m$ and $2m$ separate}
+%\pause
+%\item{Two carts of mass $m$ and $2m$ traveling at equal speeds collide}
+%\EI
+%}
+
+\frame{\frametitle{\textbf{Demos with students}}
+\large
+Bob and Alice sit on carts. Bob pulls Alice with a rope. Who moves?
+\pause
+Does throwing or catching a heavy ball change someone's velocity?
+\BI
+\item{A. Throwing only}
+\item{B. Catching only}
+\item{C. Both throwing and catching}
+\item{D. Only if someone then catches the ball}
+\EI
+}
+
+\frame{\frametitle{\textbf{Sample problems: a 1D collision}}
+  \Large
+  Two train cars moving toward each other at 5 m/s collide and couple together. One weighs 10 tons; the other weighs 20 tons. What is their final velocity?
+}
+
+\frame{\frametitle{\textbf{Sample problems: a 1D collision}}
+  \Large
+  A train car with a mass $m$ is at rest on a track. Another train car also of mass $m$ is moving toward it with a velocity $v_0$ when it is a distance $d$ away.
+  The first car hits the second and couples to it; the cars roll together until friction brings them to a stop.
+
+\bigskip
+
+
+If the coefficient of rolling friction is $\mu_r$, how far do they roll after the collision?
+
+\pause
+
+\bigskip
+\bigskip
+\bigskip
+
+
+Method: use conservation of momentum to understand the collision; use other methods to understand before and after!
+
+}
+
+\frame{\frametitle{\textbf{Sample problems: an explosion in 2D}}
+
+\Large
+
+A child on skis has a mass of 40 kg and is skiing North at 3 m/s. He throws a giant snowball of mass 2 kg 
+at his friend; after he throws it, the snowball has a velocity of 10 m/s directed 45 degrees south of west.
+
+\bigskip
+
+What is the child's velocity after he throws the snowball?
+
+}
+
+
+\frame{\frametitle{\textbf{Sample problems: an excited dog}}
+	
+	\Large
+	
+	A person of mass $m$ is sitting in a tire swing with a string of length $L$ when their dog (mass $M$) runs and jumps horizontally into their lap.
+	
+	\bigskip
+	
+	If they swing up to an angle $\theta$ above the horizontal, how fast was their dog running?
+}
+
+
+
+\end{document}
+
+
+
