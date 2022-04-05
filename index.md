@@ -7,16 +7,17 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec16/lec16.pdf">Momentum</a>
+<a href="slides/lec17/lec17.pdf">Momentum</a>
 
 ### Upcoming assignments
 
 <a href="hw/hw7/hw7.pdf">Homework 7</a>, due Friday, April 8
 
-### Recitation material this week
+<a href="practiceexam3-2020.pdf">An old practice exam for Exam 3</a>
 
-Wednesday: <a href="recitation/week7/recitation-energy-1.pdf">The work-energy theorem</a><br>
-Friday: <a href="recitation/week7/recitation-potential-energy.pdf">Potential energy and work</a>)
+<a href="unit-3-review.pdf">Comprehensive notes for Unit 3</a>
+
+
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 8:00-9:20 or 11:00-12:20, Stolkin Auditorium 
