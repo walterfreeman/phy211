@@ -36,7 +36,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 29 March    | <a href="slides/lec15/lec15.pdf">Elasticity; more practice; power</a>                                            | 9.1-9.3                        | 
 | 31 March    | <a href="slides/lec16/lec16.pdf">Conservation of momentum</a>                                                                       | 9.4-9.5                        |
 | 5  April    | <a href="slides/lec17/lec17.pdf">Conservation of momentum (2)</a>
-| 7  April    | Review for Exam 3                                                                                                |                                |
+| 7  April    | <a href="slides/lec18/lec18.pdf">Review for Exam 3</a>                                                                                                |                                |
 | 12 April    | **Exam 3**                                                                                                       |                                |
 | 14 April    | Angular momentum; rotational kinematics                                                                          | 11.2-11.3                      |
 | 19 April    | Torque and static equilibrium                                                                                    | 10.6-10.7                      |

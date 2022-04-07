@@ -7,7 +7,7 @@ title: Announcements
 
 ### Slides for current class
 
-<a href="slides/lec17/lec17.pdf">Momentum</a>
+<a href="slides/lec18/lec18.pdf">Exam 3 review</a>
 
 ### Upcoming assignments
 
