@@ -5,13 +5,10 @@ use_math: true
 title: Announcements
 ---
 
-### Slides for current class
 
-<a href="slides/lec18/lec18.pdf">Exam 3 review</a>
+### Study material for Exam 3
 
-### Upcoming assignments
-
-<a href="hw/hw7/hw7.pdf">Homework 7</a>, due Friday, April 8
+<a href="practice-exam-3.pdf">Practice Exam 3 (for this year)</a>
 
 <a href="practiceexam3-2020.pdf">An old practice exam for Exam 3</a>
 
