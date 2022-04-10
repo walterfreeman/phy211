@@ -8,7 +8,7 @@ title: Announcements
 
 ### Study material for Exam 3
 
-<a href="practice-exam-3.pdf">Practice Exam 3 (for this year)</a>
+<a href="practice-exam-3.pdf">Practice Exam 3 (for this year)</a> and a <a href="practice-exam-3-guide.pdf">solution guide</a>.
 
 <a href="practiceexam3-2020.pdf">An old practice exam for Exam 3</a>
 
