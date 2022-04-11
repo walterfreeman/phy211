@@ -6,7 +6,7 @@ use_math: true
 title: Exam 3 Review Material
 ---
 
-The PDF version of the handout is here: <a href="exam-3-practice.pdf">Exam 3 Practice Session Script</a>
+The PDF version of the handout is here: <a href="review/exam-3-practice.pdf">Exam 3 Practice Session Script</a>
 
 The Google doc we'll be annotating is here: <a href="https://bit.ly/3LZKsYj">Exam 3 Practice Session Notes</a>
 
