@@ -22,10 +22,10 @@ Also -- AJ's notes are the most organized notes I have ever seen for any class e
 AJ also suggests looking at these bits of the recitation solution videos to see Sydney's discussion of the problems we looked at
 in the review tonight.
 
-Week 7 Friday # 2 01:00  https://youtu.be/rDhKZ2AE5dw
-Week 8 Wednesday # 2 14:00 https://youtu.be/DYAVKk4KH7c
-Week 8 Wednesday # 3 25:00
-Week 8 Friday # 3 20:00. https://youtu.be/dAeohBci-dc
+* Week 7 Friday # 2 01:00  <https://youtu.be/rDhKZ2AE5dw>
+* Week 8 Wednesday # 2 14:00 <https://youtu.be/DYAVKk4KH7c>
+* Week 8 Wednesday # 3 25:00
+* Week 8 Friday # 3 20:00. <https://youtu.be/dAeohBci-dc>
 
 
 <a href="practice-exam-3.pdf">Practice Exam 3 (for this year)</a> and a <a href="practice-exam-3-guide.pdf">solution guide</a>.
