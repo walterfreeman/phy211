@@ -38,11 +38,11 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 5  April    | <a href="slides/lec17/lec17.pdf">Conservation of momentum (2)</a>
 | 7  April    | <a href="slides/lec18/lec18.pdf">Review for Exam 3</a>                                                                                                |                                |
 | 12 April    | **Exam 3**                                                                                                       |                                |
-| 14 April    | Angular momentum; rotational kinematics                                                                          | 11.2-11.3                      |
-| 19 April    | Torque and static equilibrium                                                                                    | 10.6-10.7                      |
-| 21 April    | Combining rotation and translation                                                                               | 10.8                           |
-| 26 April    | Flexible time, to be determined                                                                                  |                                |
-| 28 April    | Flexible time, to be determined                                                                                  |                                | 
+| 14 April    | <a href="slides/lec19/lecture19.pdf">Rotational kinetic energy</a>                                                                                       | 11.2-11.3                      |
+| 19 April    | Angular momentum                                                                                                 | 10.6-10.7                      |
+| 21 April    | Torque; static equilibrium                                                                                       | 10.8                           |
+| 26 April    | Torque; rotational dynamics                                                                                      |                                |
+| 28 April    | Combining rotation and translation                                                                               |                                | 
 | 3  May      | Flexible time; course retrospective and closing                                                                  |                                |
 | 11 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
