@@ -5,6 +5,17 @@ use_math: true
 title: Announcements
 ---
 
+### Exam 3
+
+You should print this out, or else write the solutions on your own paper, and submit it to your recitation on Friday
+ (not Wednesday). <a href="exam3-formA.pdf">[Exam 3 PDF]</a>
+
+This will be graded as a standard homework assignment,
+plus complete and correct solutions can earn you an amount of credit back on Exam 3.
+
+There will be a few other questions for Homework 8; I will assemble those as I am able. (See the Blackboard 
+announcement for why.)
+
 ### Current recitation materials
 
 Week 9 Friday: <a href="recitation/week9/recitation-rotational-energy.pdf">Rotational kinetic energy</a>
@@ -12,6 +23,8 @@ Week 9 Friday: <a href="recitation/week9/recitation-rotational-energy.pdf">Rotat
 ### Current slides
 
 <a href="slides/lec19/lecture19.pdf">Rotational kinetic energy</a>
+
+### Review materials
 
 <a href="unit-3-review.pdf">Comprehensive notes for Unit 3</a>
 
