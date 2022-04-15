@@ -5,6 +5,10 @@ use_math: true
 title: Announcements
 ---
 
+### Current recitation materials
+
+Week 9 Friday: <a href="recitation/week9/recitation-rotational-energy.pdf">Rotational kinetic energy</a>
+
 ### Current slides
 
 <a href="slides/lec19/lecture19.pdf">Rotational kinetic energy</a>
