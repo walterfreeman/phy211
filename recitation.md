@@ -44,7 +44,11 @@ use_math: true
 <a href="recitation/week8/recitation-momentum-1.pdf">Week 8 Friday: Conservation of momentum (I)</a><br>
 
 
-<a href="recitation/week9/recitation-rotational-energy.pdf">Week 9 Friday: Rotational kinetic energy</a>
+<a href="recitation/week9/recitation-rotational-energy.pdf">Week 9 Friday: Rotational kinetic energy</a><br>
+
+<a href="recitation/week10/recitation-torque-1.pdf">Week 10 Wednesday: Torque in static and dynamic equilibrium</a><br>
+<a href="recitation/week10/recitation-torque-2.pdf">Week 10 Friday: Torque and rotational dynamics</a>
+
 
 
 

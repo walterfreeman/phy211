@@ -18,7 +18,9 @@ announcement for why.)
 
 ### Current recitation materials
 
-Week 9 Friday: <a href="recitation/week9/recitation-rotational-energy.pdf">Rotational kinetic energy</a>
+<a href="recitation/week10/recitation-torque-1.pdf">Week 10 Wednesday: Torque in static and dynamic equilibrium</a><br>
+<a href="recitation/week10/recitation-torque-2.pdf">Week 10 Friday: Torque and rotational dynamics</a>
+
 
 ### Current slides
 
