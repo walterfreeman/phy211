@@ -24,7 +24,7 @@ announcement for why.)
 
 ### Current slides
 
-<a href="slides/lec19/lecture19.pdf">Rotational kinetic energy</a>
+<a href="slides/lec20/lecture20.pdf">Torque</a>
 
 ### Review materials
 
