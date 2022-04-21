@@ -24,7 +24,7 @@ announcement for why.)
 
 ### Current slides
 
-<a href="slides/lec20/lecture20.pdf">Torque</a>
+<a href="slides/lec21/lecture21.pdf">Torque and rotational dynamics</a>
 
 ### Review materials
 

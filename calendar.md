@@ -40,7 +40,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 12 April    | **Exam 3**                                                                                                       |                                |
 | 14 April    | <a href="slides/lec19/lecture19.pdf">Rotational kinetic energy</a>                                                                                       | 11.2-11.3                      |
 | 19 April    | <a href="slides/lec20/lecture20.pdf">Torque; static equilibrium"</a>                                                                                     | 10.6-10.7                      |
-| 21 April    | Torque; rotational dynamics                                                                                       | 10.8                           |
+| 21 April    | <a href="slides/lec21/lecture21.pdf">Torque; rotational dynamics</a>                                                                                       | 10.8                           |
 | 26 April    | Angular momentum                                                                                  |                                |
 | 28 April    | Combining rotation and translation                                                                               |                                | 
 | 3  May      | Flexible time; course retrospective and closing                                                                  |                                |
