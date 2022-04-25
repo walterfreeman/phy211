@@ -5,21 +5,9 @@ use_math: true
 title: Announcements
 ---
 
-### Exam 3
+### Current homework 
 
-You should print this out, or else write the solutions on your own paper, and submit it to your recitation on Friday
- (not Wednesday). <a href="exam3-formA.pdf">[Exam 3 PDF]</a>
-
-This will be graded as a standard homework assignment,
-plus complete and correct solutions can earn you an amount of credit back on Exam 3.
-
-There will be a few other questions for Homework 8; I will assemble those as I am able. (See the Blackboard 
-announcement for why.)
-
-### Current recitation materials
-
-<a href="recitation/week10/recitation-torque-1.pdf">Week 10 Wednesday: Torque in static and dynamic equilibrium</a><br>
-<a href="recitation/week10/recitation-torque-2.pdf">Week 10 Friday: Torque and rotational dynamics</a>
+<a href="hw/hw9/hw9.pdf">Homework 9</a> is due Wednesday, May 4, at the start of recitation.
 
 
 ### Current slides

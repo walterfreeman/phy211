@@ -24,4 +24,6 @@ use_math: true
 <br>
 <a href="hw/hw7/hw7.pdf">Homework 7</a> is due Friday, March 8, at the start of recitation
 <br>
-<a href="hw/hw8/hw8.pdf">Homework 8</a> is due Friday, March 22, at the start of recitation -- note that you should also redo <a href="exam3-formA.pdf">Exam 3</a> as part of this homework set.
+<a href="hw/hw8/hw8.pdf">Homework 8</a> is due Friday, April 22, at the start of recitation -- note that you should also redo <a href="exam3-formA.pdf">Exam 3</a> as part of this homework set.
+<br>
+<a href="hw/hw9/hw9.pdf">Homework 9</a> is due Wednesday, May 4, at the start of recitation.

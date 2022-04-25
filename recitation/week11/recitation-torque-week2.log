@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  24 APR 2022 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  24 APR 2022 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,62 +1477,44 @@ You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 [2] [3]
-
-LaTeX Warning: File `moment-table.png' not found on input line 104.
-
-
-! Package pdftex.def Error: File `moment-table.png' not found: using draft sett
-ing.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...ludegraphics[width=3in]{moment-table.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4]
-<car-crop.pdf, id=22, 235.88126pt x 102.3825pt>
-File: car-crop.pdf Graphic file (type pdf)
-<use car-crop.pdf>
-Package pdftex.def Info: car-crop.pdf  used on input line 162.
-(pdftex.def)             Requested size: 271.0125pt x 117.63272pt.
- [5 <./car-crop.pdf>] [6] [7] [8]
-<table-crop.pdf, id=42, 327.2225pt x 156.585pt>
-File: table-crop.pdf Graphic file (type pdf)
-<use table-crop.pdf>
-Package pdftex.def Info: table-crop.pdf  used on input line 248.
-(pdftex.def)             Requested size: 189.70792pt x 90.78113pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 241--251
-[]$[]$ $[]$ 
- []
-
-[9 <./table-crop.pdf>] [10] (./recitation-torque-week2.aux) ) 
+<moment-table.png, id=18, 744.53156pt x 555.57562pt>
+File: moment-table.png Graphic file (type png)
+<use moment-table.png>
+Package pdftex.def Info: moment-table.png  used on input line 104.
+(pdftex.def)             Requested size: 289.07999pt x 215.71567pt.
+ [4 <./moment-table.png>] [5]
+<Gears.png, id=29, 240.9pt x 217.2918pt>
+File: Gears.png Graphic file (type png)
+<use Gears.png>
+Package pdftex.def Info: Gears.png  used on input line 249.
+(pdftex.def)             Requested size: 212.47699pt x 191.65833pt.
+ [6 <./Gears.png>] [7] [8]
+(./recitation-torque-week2.aux) ) 
 Here is how much of TeX's memory you used:
- 2480 strings out of 478862
- 35078 string characters out of 5858945
- 337731 words of memory out of 6000000
- 20101 multiletter control sequences out of 15000+600000
- 408594 words of font info for 45 fonts, out of 8000000 for 9000
+ 2441 strings out of 478862
+ 34248 string characters out of 5858945
+ 338729 words of memory out of 6000000
+ 20075 multiletter control sequences out of 15000+600000
+ 410130 words of font info for 50 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 55i,6n,62p,473b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on recitation-torque-week2.pdf (10 pages, 106606 bytes).
+ 55i,6n,62p,482b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm1440.pfb>
+Output written on recitation-torque-week2.pdf (8 pages, 261576 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
