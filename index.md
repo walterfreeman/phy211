@@ -12,7 +12,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lec21/lecture21.pdf">Torque and rotational dynamics</a>
+<a href="slides/lec22/lec22.pdf">Combining rotation and translation; angular momentum</a>
 
 ### Review materials
 
