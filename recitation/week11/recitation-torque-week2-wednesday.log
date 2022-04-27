@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  26 APR 2022 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  26 APR 2022 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**recitation-torque-week2.tex
-(./recitation-torque-week2.tex
+**recitation-torque-week2-wednesday.tex
+(./recitation-torque-week2-wednesday.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -136,8 +136,8 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count268
 \l__pdf_internal_box=\box49
 )
-(./recitation-torque-week2.aux)
-\openout1 = `recitation-torque-week2.aux'.
+(./recitation-torque-week2-wednesday.aux)
+\openout1 = `recitation-torque-week2-wednesday.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -1488,39 +1488,28 @@ File: moment-table.png Graphic file (type png)
 <use moment-table.png>
 Package pdftex.def Info: moment-table.png  used on input line 118.
 (pdftex.def)             Requested size: 289.07999pt x 215.71567pt.
- [4 <./moment-table.png>] [5]
-<Gears.png, id=39, 240.9pt x 217.2918pt>
-File: Gears.png Graphic file (type png)
-<use Gears.png>
-Package pdftex.def Info: Gears.png  used on input line 263.
-(pdftex.def)             Requested size: 212.47699pt x 191.65833pt.
-
-[6 <./Gears.png>] [7] [8] (./recitation-torque-week2.aux) ) 
+ [4 <./moment-table.png>]
+(./recitation-torque-week2-wednesday.aux) ) 
 Here is how much of TeX's memory you used:
- 2455 strings out of 478862
- 34533 string characters out of 5858945
- 338729 words of memory out of 6000000
- 20087 multiletter control sequences out of 15000+600000
- 410130 words of font info for 50 fonts, out of 8000000 for 9000
+ 2438 strings out of 478862
+ 34408 string characters out of 5858945
+ 337749 words of memory out of 6000000
+ 20073 multiletter control sequences out of 15000+600000
+ 408088 words of font info for 43 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 55i,6n,62p,499b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/
-texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on recitation-torque-week2.pdf (8 pages, 272246 bytes).
+ 55i,6n,62p,509b,227s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
+pfb>
+Output written on recitation-torque-week2-wednesday.pdf (4 pages, 182684 bytes)
+.
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

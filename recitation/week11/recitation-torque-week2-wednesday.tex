@@ -61,7 +61,7 @@ a) Suppose that you have a red Yo-Yo with $r=0.1 R$ (that is, with a very small 
 	\includegraphics[width=0.7\textwidth]{red-crop.pdf}
 	\end{center}
 \end{minipage}
-\begin{minipage}{0.20\textwidth}
+\begin{minipage}{0.20  \textwidth}
 		\begin{center}
 	\includegraphics[width=0.7\textwidth]{blue-crop.pdf}
 		\end{center}
@@ -208,171 +208,171 @@ d) Now, calculate which direction they will rotate and how fast when they rotate
 %
 %As a hint, the thing that determines whether you will get stuck or not in slippery conditions is often the ratio between the traction force and the total mass of the vehicle.
 
-
-\newpage
-
-\newpage
-
-
-\Large
-\centerline{\sc{Recitation Exercises}}
-\normalsize
-\centerline{\sc{29 April}}
-
-In this last exercise of the semester, you will study {\it transmissions} -- the assemblages of gears that transmit torque from a motor to the machine that it turns. For instance, the motor might be the engine of a car or the legs of a cyclist; the ``machine'' is the drive wheel applying traction to the ground. This works the same for all sorts of machines that use rotary motion to transmit power.
-
-In all of these cases, the motor applies a torque to the driveshaft, which is connected to a machine that applies an equal and opposite torque. Thus, the motor delivers power to the machine. For this problem, the motor will always be spinning at a constant angular velocity, so $\sum \tau = 0$.
-
-Motors have two limitations: 
-
-\begin{itemize}
-	\item They are limited in the torque that they can apply. For instance, for a human riding a bicycle, there is only so much force they can apply to the pedals.
-	\item They are limited in their angular velocity. For instance, a person riding a bicycle can only spin their legs so fast.
-\end{itemize}
-
-We will see how we can partially overcome these limitations using gears. Let's think about this in an idealized case of an electric motor spinning a machine, and then apply it to a person riding a bike. Suppose that the motor can apply a maximum torque $\tau_{\rm {max}}=100~\rm N \cdot \rm m$ to the driveshaft, but it has a maximum angular velocity $\omega_{\rm max} = 50$ rad/sec.
-
-\bigskip
-
-\begin{enumerate}
-
-\item What is the maximum power that the motor can deliver to the machine? \textit{(Hint: For translational motion, $P = \vec F \cdot \vec v$. What is the analogous formula for rotation?)}
-	
-	
-	\vspace{1in}
-	
-\item However, in general, machines need to run at different speeds; for instance, cars can drive at many different speeds. Suppose that the operator of the machine wants to run it at low speed -- say, at 25~$\rm s^{-1}$. Can the motor still deliver its full power in this case? If not, how much power can it deliver?
-	
-\vspace{1.5in}
-\newpage
-
-
-
- The motor is simply {\it unable} to rotate any faster than 50 rad/sec. Since the machine operator may want to run the machine at any speed, and will likely want the full power from the motor at {\it any} speed, they construct a transmission out of gears.
-\medskip
-
-\begin{minipage}{0.4\textwidth}
-	
-	In this figure, the motor is connected to the red gear with $r_{in}=10$ cm; the machine is connected to the blue gear. We will first think about how this transmission works using
-	a single blue gear with a radius of $R_{out}=20$~cm in order to understand the principles at work here; then, we will think about the advantages of {\it shifting} gears,
-	as in a bicycle or car transmission.
-	
-\end{minipage}
-\begin{minipage}{0.49\textwidth}
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{Gears.png}
-	\end{center}
-\end{minipage}
-\medskip
-
-Here everything is rotating at a constant angular velocity. This means that the motor applies a clockwise torque to the red gear; the blue gear applies an equal and opposite counterclockwise torque to it.
-
-\item Newton's third law applies to the forces that the two gears exert on each other: the two gears push on each other with equal and opposite forces. Given this, determine the relationship between $\tau_{\rm {motor}}$ (the torque the motor applies to the red gear) and $\tau_{\rm {machine}}$ (the torque the blue gear applies to the machine) in terms of $r_{in}$ and $R_{out}$. Record this formula on the back page.
-
-\vspace{2in}
-
-\item The velocities of the gears' teeth must also be the same as they turn. Given this, determine the relationship between $\omega_{\rm {motor}}$ (the speed at which the motor and red gear turn) and $\omega_{\rm {machine}}$ (the speed at which the blue gear and the machine turn). Again, you should have a result in terms of $r_{in}$ and $R_{out}$. Record this formula on the back page; call your coach or TA over to check your result so far.
-\newpage
-
-\vspace{2in}
-
-\item  Suppose that the motor is running at its maximum angular velocity and torque, and the output (blue) gear has $R=20$ cm. Calculate the angular velocity, torque supplied to the machine, and power supplied to the machine. 
-
-{\large
-\begin{itemize}
-	\item Angular velocity of machine (blue gear) = \underline{\hspace{2in}} rad/s
-	\item Torque applied to machine = \underline{\hspace{2in}} $\rm N \cdot \rm m$
-	\item Power applied to machine = \underline{\hspace{2in}} W
-\end{itemize}
-}
-
-\item How does this power compare to the maximum power that the motor could deliver to the machine at this angular velocity without the transmission?
-
-
-\vspace{1.5in}
-
-
-\item Suppose that the engineer designing the machine wants to be able to run the machine at an angular velocity of $\omega = 200$ rad/s. This would be simply impossible without a transmission, since the motor can only turn at 50 rad/s. What radius should the output gear have so the machine can spin at $\omega = 200$ rad/s?
-
-
-\vspace{3in}
-
-\newpage
-
-
-\item A bicycle uses a chain to connect the input and output gears, but the principle is the same: the rider's legs are limited in both their torque and their angular velocity. They want to be able to apply maximum power to the output gear (connected to the rear wheel) for a range of angular velocities -- whether this is to climb a steep hill at low speed, or to go as fast as possible on flat ground. 
-
-On a bicycle, the rider can change the radius of both input and output gears. Discuss how this allows the rider to deliver maximum power to the bicycle's wheel at any speed. What combination of gears does a rider want when they are climbing a steep hill at low speed? What combination do they want when they are going very fast on flat ground?
-
-\vspace{3in}
-
-
-\item As you've seen, with appropriate choice of gear sizes, a transmission lets a motor (or a human) produce either extremely large torque or extremely high angular velocity. Is a transmission able to increase the amount of {\it power} that a motor (or cyclist) can produce? Why or why not?
-
-\end{enumerate}
-
-\newpage
-
-
-
-%Consider a Ping-Pong ball resting on a smooth table. (Since this is a hollow shell, its moment of inertia is 
-%$I=\frac{2}{3}mr^2$.) The coefficient of static friction between the ball and the table is $\mu_s$, 
-%the coefficient of kinetic friction is $\mu_k$, and the 
-%ball has a mass $m$ and radius $r$.
-%
-%A gentle breeze begins to blow, exerting a force $F_w$ on the ball that is much less than $mg$. (Since this force is spread out uniformly over the ball,
-%you may treat it as acting at the center of the ball.)
-%
-%\begin{enumerate}
-%
-%\item Draw an extended force diagram for the ball.
-%
-%\vspace{4in}
 %
 %\newpage
 %
-%\item How large will the frictional force between the ball and the table be? (Note that $\mu_s F_N$ is only the 
-%{\it maximum} force of static friction.)
+%\newpage
 %
-%\vspace{3in}
 %
-%\item Now, suppose that a gust of wind strikes the ball, so that $F_w$ becomes larger. How large can the wind force
-%be so that the ball rolls without slipping, instead of skidding?
+%\Large
+%\centerline{\sc{Recitation Exercises}}
+%\normalsize
+%\centerline{\sc{29 April}}
+%
+%In this last exercise of the semester, you will study {\it transmissions} -- the assemblages of gears that transmit torque from a motor to the machine that it turns. For instance, the motor might be the engine of a car or the legs of a cyclist; the ``machine'' is the drive wheel applying traction to the ground. This works the same for all sorts of machines that use rotary motion to transmit power.
+%
+%In all of these cases, the motor applies a torque to the driveshaft, which is connected to a machine that applies an equal and opposite torque. Thus, the motor delivers power to the machine. For this problem, the motor will always be spinning at a constant angular velocity, so $\sum \tau = 0$.
+%
+%Motors have two limitations: 
+%
+%\begin{itemize}
+%	\item They are limited in the torque that they can apply. For instance, for a human riding a bicycle, there is only so much force they can apply to the pedals.
+%	\item They are limited in their angular velocity. For instance, a person riding a bicycle can only spin their legs so fast.
+%\end{itemize}
+%
+%We will see how we can partially overcome these limitations using gears. Let's think about this in an idealized case of an electric motor spinning a machine, and then apply it to a person riding a bike. Suppose that the motor can apply a maximum torque $\tau_{\rm {max}}=100~\rm N \cdot \rm m$ to the driveshaft, but it has a maximum angular velocity $\omega_{\rm max} = 50$ rad/sec.
+%
+%\bigskip
+%
+%\begin{enumerate}
+%
+%\item What is the maximum power that the motor can deliver to the machine? \textit{(Hint: For translational motion, $P = \vec F \cdot \vec v$. What is the analogous formula for rotation?)}
+%	
+%	
+%	\vspace{1in}
+%	
+%\item However, in general, machines need to run at different speeds; for instance, cars can drive at many different speeds. Suppose that the operator of the machine wants to run it at low speed -- say, at 25~$\rm s^{-1}$. Can the motor still deliver its full power in this case? If not, how much power can it deliver?
+%	
+%\vspace{1.5in}
+%\newpage
+%
+%
+%
+% The motor is simply {\it unable} to rotate any faster than 50 rad/sec. Since the machine operator may want to run the machine at any speed, and will likely want the full power from the motor at {\it any} speed, they construct a transmission out of gears.
+%\medskip
+%
+%\begin{minipage}{0.4\textwidth}
+%	
+%	In this figure, the motor is connected to the red gear with $r_{in}=10$ cm; the machine is connected to the blue gear. We will first think about how this transmission works using
+%	a single blue gear with a radius of $R_{out}=20$~cm in order to understand the principles at work here; then, we will think about the advantages of {\it shifting} gears,
+%	as in a bicycle or car transmission.
+%	
+%\end{minipage}
+%\begin{minipage}{0.49\textwidth}
+%	\begin{center}
+%		\includegraphics[width=0.8\textwidth]{Gears.png}
+%	\end{center}
+%\end{minipage}
+%\medskip
+%
+%Here everything is rotating at a constant angular velocity. This means that the motor applies a clockwise torque to the red gear; the blue gear applies an equal and opposite counterclockwise torque to it.
+%
+%\item Newton's third law applies to the forces that the two gears exert on each other: the teeth of the two gears push on each other with equal and opposite forces. Given this, determine the relationship between $\tau_{\rm {motor}}$ (the torque the motor applies to the red gear) and $\tau_{\rm {machine}}$ (the torque the blue gear applies to the machine) in terms of $r_{in}$ and $R_{out}$. Record this formula on the back page.
 %
 %\vspace{2in}
 %
-%\item Suppose that the wind force is larger than this, so that the ball {\it skids}. Calculate both its angular
-%acceleration and its translational acceleration.
+%\item The velocities of the gears' teeth must also be the same as they turn. Given this, determine the relationship between $\omega_{\rm {motor}}$ (the speed at which the motor and red gear turn) and $\omega_{\rm {machine}}$ (the speed at which the blue gear and the machine turn). Again, you should have a result in terms of $r_{in}$ and $R_{out}$. Record this formula on the back page; call your coach or TA over to check your result so far.
+%\newpage
+%
+%\vspace{2in}
+%
+%\item  Suppose that the motor is running at its maximum angular velocity and torque, and the output (blue) gear has $R=20$ cm. Calculate the angular velocity, torque supplied to the machine, and power supplied to the machine. 
+%
+%{\large
+%\begin{itemize}
+%	\item Angular velocity of machine (blue gear) = \underline{\hspace{2in}} rad/s
+%	\item Torque applied to machine = \underline{\hspace{2in}} $\rm N \cdot \rm m$
+%	\item Power applied to machine = \underline{\hspace{2in}} W
+%\end{itemize}
+%}
+%
+%\item How does this power compare to the maximum power that the motor could deliver to the machine at this angular velocity without the transmission?
+%
+%
+%\vspace{1.5in}
+%
+%
+%\item Suppose that the engineer designing the machine wants to be able to run the machine at an angular velocity of $\omega = 200$ rad/s. This would be simply impossible without a transmission, since the motor can only turn at 50 rad/s. What radius should the output gear have so the machine can spin at $\omega = 200$ rad/s?
+%
+%
+%\vspace{3in}
+%
+%\newpage
+%
+%
+%\item A bicycle uses a chain to connect the input and output gears, but the principle is the same: the rider's legs are limited in both their torque and their angular velocity. They want to be able to apply maximum power to the output gear (connected to the rear wheel) for a range of angular velocities -- whether this is to climb a steep hill at low speed, or to go as fast as possible on flat ground. 
+%
+%On a bicycle, the rider can change the radius of both input and output gears. Discuss how this allows the rider to deliver maximum power to the bicycle's wheel at any speed. What combination of gears does a rider want when they are climbing a steep hill at low speed? What combination do they want when they are going very fast on flat ground?
+%
+%\vspace{3in}
+%
+%
+%\item As you've seen, with appropriate choice of gear sizes, a transmission lets a motor (or a human) produce either extremely large torque or extremely high angular velocity. Is a transmission able to increase the amount of {\it power} that a motor (or cyclist) can produce? Why or why not?
+%
 %\end{enumerate}
 %
 %\newpage
 %
-%\begin{minipage}{0.5\textwidth}
-%A table has a mass $m$, and its height is $2/3$ of its width. The legs of the table are very light; all of the mass is in the top.
-%The legs of the table are located at the ends, and a rope is tied to one side; a tension $T$ is applied to the rope. Assume that the coefficient of friction between
-%the legs and the ground is very large, so that the table does not slide.
-%\end{minipage}
-%\begin{minipage}{0.5\textwidth}
-%\begin{center}
-%\includegraphics[width=0.7\textwidth]{table-crop.pdf}
-%\end{center}
-%\end{minipage}
 %
-%In this problem, you will calculate the required tension $T$ to tip the table.
 %
-%\begin{enumerate}
-%
-%\item Draw a force diagram for the table. Indicate your choice of pivot.
-%
-%\newpage
-%
-%\item What tension force $T$ is required to tip the table (so that the back legs come off the ground)?
-%(Hint: What is true about the normal forces on the table when it begins to tip?)
-%
-%\vspace {4in}
-%
-%\item What coefficient of static friction between the legs and the floor is
-%required so that the table tips, rather than sliding?
-%
-%\end{enumerate}
+%%Consider a Ping-Pong ball resting on a smooth table. (Since this is a hollow shell, its moment of inertia is 
+%%$I=\frac{2}{3}mr^2$.) The coefficient of static friction between the ball and the table is $\mu_s$, 
+%%the coefficient of kinetic friction is $\mu_k$, and the 
+%%ball has a mass $m$ and radius $r$.
+%%
+%%A gentle breeze begins to blow, exerting a force $F_w$ on the ball that is much less than $mg$. (Since this force is spread out uniformly over the ball,
+%%you may treat it as acting at the center of the ball.)
+%%
+%%\begin{enumerate}
+%%
+%%\item Draw an extended force diagram for the ball.
+%%
+%%\vspace{4in}
+%%
+%%\newpage
+%%
+%%\item How large will the frictional force between the ball and the table be? (Note that $\mu_s F_N$ is only the 
+%%{\it maximum} force of static friction.)
+%%
+%%\vspace{3in}
+%%
+%%\item Now, suppose that a gust of wind strikes the ball, so that $F_w$ becomes larger. How large can the wind force
+%%be so that the ball rolls without slipping, instead of skidding?
+%%
+%%\vspace{2in}
+%%
+%%\item Suppose that the wind force is larger than this, so that the ball {\it skids}. Calculate both its angular
+%%acceleration and its translational acceleration.
+%%\end{enumerate}
+%%
+%%\newpage
+%%
+%%\begin{minipage}{0.5\textwidth}
+%%A table has a mass $m$, and its height is $2/3$ of its width. The legs of the table are very light; all of the mass is in the top.
+%%The legs of the table are located at the ends, and a rope is tied to one side; a tension $T$ is applied to the rope. Assume that the coefficient of friction between
+%%the legs and the ground is very large, so that the table does not slide.
+%%\end{minipage}
+%%\begin{minipage}{0.5\textwidth}
+%%\begin{center}
+%%\includegraphics[width=0.7\textwidth]{table-crop.pdf}
+%%\end{center}
+%%\end{minipage}
+%%
+%%In this problem, you will calculate the required tension $T$ to tip the table.
+%%
+%%\begin{enumerate}
+%%
+%%\item Draw a force diagram for the table. Indicate your choice of pivot.
+%%
+%%\newpage
+%%
+%%\item What tension force $T$ is required to tip the table (so that the back legs come off the ground)?
+%%(Hint: What is true about the normal forces on the table when it begins to tip?)
+%%
+%%\vspace {4in}
+%%
+%%\item What coefficient of static friction between the legs and the floor is
+%%required so that the table tips, rather than sliding?
+%%
+%%\end{enumerate}
  \end{document}

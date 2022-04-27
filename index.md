@@ -9,6 +9,11 @@ title: Announcements
 
 <a href="hw/hw9/hw9.pdf">Homework 9</a> is due Wednesday, May 4, at the start of recitation.
 
+### Current recitation materials
+
+<a href="recitation/week11/recitation-torque-week2-wednesday.pdf">Wednesday</a>
+Friday: to be posted
+
 
 ### Current slides
 
