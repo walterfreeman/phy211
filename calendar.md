@@ -42,7 +42,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 19 April    | <a href="slides/lec20/lecture20.pdf">Torque; static equilibrium"</a>                                                                                     | 10.6-10.7                      |
 | 21 April    | <a href="slides/lec21/lecture21.pdf">Torque; rotational dynamics</a>                                                                                       | 10.8                           |
 | 26 April    | <a href="slides/lec22/lec22.pdf">Angular momentum; combining rotation and translation</a>                                                                                  |                                |
-| 28 April    | Combining rotation and translation                                                                               |                                | 
+| 28 April    | <a href="slides/lec23/lecture23.pdf">Angular momentum review; work and power in rotation</a>                                                                               |                                | 
 | 3  May      | Flexible time; course retrospective and closing                                                                  |                                |
 | 11 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+

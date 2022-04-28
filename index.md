@@ -17,7 +17,7 @@ Friday: to be posted
 
 ### Current slides
 
-<a href="slides/lec22/lec22.pdf">Combining rotation and translation; angular momentum</a>
+<a href="slides/lec23/lecture23.pdf">Angular momentum; energy, work, and power in rotation (again)</a>
 
 ### Review materials
 
