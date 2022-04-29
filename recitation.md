@@ -50,7 +50,8 @@ use_math: true
 <a href="recitation/week10/recitation-torque-2.pdf">Week 10 Friday: Torque and rotational dynamics</a><br><br>
 
 
-<a href="recitation/week11/recitation-torque-week2-wednesday.pdf">Week 11 Wednesday: combining rotation and translation; angular momentum</a>
+<a href="recitation/week11/recitation-torque-week2-wednesday.pdf">Week 11 Wednesday: combining rotation and translation; angular momentum</a><br>
+<a href="recitation/week11/recitation-torque-week2-friday.pdf">Week 11 Friday: transmissions</a>
 
 
 

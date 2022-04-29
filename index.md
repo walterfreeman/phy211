@@ -11,8 +11,8 @@ title: Announcements
 
 ### Current recitation materials
 
-<a href="recitation/week11/recitation-torque-week2-wednesday.pdf">Wednesday</a>
-Friday: to be posted
+* <a href="recitation/week11/recitation-torque-week2-wednesday.pdf">Wednesday</a>
+* <a href="recitation/week11/recitation-torque-week2-friday.pdf">Friday</a>
 
 
 ### Current slides
