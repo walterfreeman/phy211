@@ -55,7 +55,7 @@ you know everything you will need to know.
 * Unit 2
   * **Analyze the relation between the acceleration of objects and the forces that act on them**
     * <a href="https://walterfreeman.github.io/phy211/hw/hw3/homework3.pdf">Homework 3</a>, #5
-    * <a href="https://walterfreeman.github.io/phy211/hw/hw4/homework4.pdf">Homework 4</a>, #1 and #5 (#5 is difficult but great practice)
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw4/hw4.pdf">Homework 4</a>, #1 and #5 (#5 is difficult but great practice)
     * <a href="https://walterfreeman.github.io/phy211/recitation/week5/recitation-forces2.pdf">Recitation Week 5 Wednesday</a>, the "masses and pulley" question
     * <a href="https://walterfreeman.github.io/phy211/recitation/week5/recitation-forces3.pdf">Recitation Week 5 Friday</a>, the question with the cats
     * <a href="exam2-formA.pdf">Exam 2</a> Question 4 (the sliding table)
@@ -71,7 +71,7 @@ you know everything you will need to know.
 * Unit 3
   * **Use conservation of momentum to relate the velocities before and after a collision/explosion in which things move in two dimensions**
     * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #2 (#3 is also good practice)
-    * <a href="exam3-formA.pdf"</a>Exam 3</a>, #2 (the spacecraft maneuvering to dock)
+    * <a href="exam3-formA.pdf">Exam 3</a>, #2 (the spacecraft maneuvering to dock)
   * **Use the work-energy theorem to relate the forces that act on an object during a motion to the starting and ending velocities and/or how far the object travels before coming to a stop (Unit 3)**
     * <a href="https://walterfreeman.github.io/phy211/hw/hw6/hw6.pdf">Homework 6</a>, #4
     * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #7
