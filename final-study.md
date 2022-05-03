@@ -6,6 +6,7 @@ category: top
 use_math: true
 ---
 
+### Exams
 Our exams this semester:
 
 * <a href="practice-exam-1.pdf">Practice Exam 1</a> and its <a href="practice-exam-1-solutions.pdf">solutions</a>
@@ -16,116 +17,99 @@ Our exams this semester:
   * <a href="group-exam-2-form3.pdf">Form 3</a> and its <a href="group-exam-2-form3-solutions.pdf">solutions</a>
   * <a href="group-exam-2-form4.pdf">Form 4</a> and its <a href="group-exam-2-form4-solutions.pdf">solutions</a>
 * <a href="exam2-formA.pdf">Exam 2</a>
-
+* <a href="practice-exam-3.pdf">Practice Exam 3</a> and the <a href="practice-exam-3-guide.pdf">solution guide</a>
 * <a href="exam3-formA.pdf">Exam 3</a>
 
 
+### "Textbook-style" summaries of Units 3 and 4
 
-Here are the things I will ask you to do on the final exam, and some example questions during the semester involving those skills:
-
-
-* Analyze the motion of an object with constant acceleration (such as free fall) moving in two dimensions
-  * Homework 2, #2
-  * Homework 2, #3
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week3/recitation-2D-motion.pdf">Recitation Week 3 Wednesday</a>, #2 and #3
-  * <a href="exam1-formA.pdf">Exam 1</a> Question 3 (with the snowball-thrower)
-* Create or interpret position, velocity, and acceleration graphs
-  * Homework 1, #4
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week2/recitation-1D-motion-2.pdf">Recitation Week 2 Wednesday</a>, the rocket question
-* Analyze the motion of an object moving with piecewise constant acceleration
-  * Homework 1, #4
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week2/recitation-1D-motion-2.pdf">Recitation Week 2 Wednesday</a>, the rocket question
-  * <a href="exam1-formA.pdf">Exam 1</a> Question 2 (with the dog)
-* Analyze the relation between the acceleration of objects and the forces that act on them
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw3/homework3.pdf">Homework 3</a>, #5
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw4/homework4.pdf">Homework 4</a>, #1 and #5 (#5 is difficult but great practice)
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week5/recitation-forces2.pdf">Recitation Week 5 Wednesday</a>, the "masses and pulley" question
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week5/recitation-forces3.pdf">Recitation Week 5 Friday</a>, the question with the cats
-  * <a href="exam2-formA.pdf">Exam 2</a> Question 4 (the sliding table)
-* Analyze the relation between an object's circular motion and the forces that make it move in that way
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week6/recitation-uniform-circular-motion-1.pdf">Recitation Week 6 Wednesday</a>, both questions
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw5/hw5.pdf">Homework 5</a>, #2 and #3
-  * <a href="exam2-formA.pdf">Exam 2</a> Question 3b (the space station)
-* Interpret the experiences of a person inside an accelerating box (such as an elevator or a vehicle)
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week4/recitation-forces.pdf">Recitation Week 4 Friday</a>, the astronaut question
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week6/recitation-uniform-circular-motion-1.pdf">Recitation Week 6 Wednesday</a>, "why doesn't the frog fall out of the bucket"
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw5/hw5.pdf">Homework 5</a>, #2b
-  * <a href="exam2-formA.pdf">Exam 2</a> Question 3a (the space station)
-* Use conservation of momentum to relate the velocities before and after a collision/explosion in which things move in two dimensions
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #2 (#3 is also good practice)
-* Use the work-energy theorem to relate the forces that act on an object during a motion to the starting and ending velocities and/or how far the object travels before coming to a stop (Unit 3)
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw6/hw6.pdf">Homework 6</a>, #4
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #7
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week7/recitation-energy-1.pdf">Recitation Week 7 Wednesday</a>, #2
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week8/recitation-springs.pdf">Recitation Week 8 Friday</a>, the rock climber
-* Use conservation of momentum, energy methods, and/or kinematics to analyze motion that happens in different steps
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #4 (energy plus momentum)
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week8/recitation-springs.pdf">Recitation Week 8 Friday</a>, the slingshot question (energy plus kinematics)
-* Use the idea of torque to determine the forces required to keep an object balanced
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw8/hw8.pdf">Homework 8</a> #1
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw9/hw9.pdf">Homework 9</a> #3 and #4
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week10/recitation-torque-1.pdf">Recitation Week 10 Wednesday</a>, #1 and #2
-* Analyze the motion of an object that both translates and rotates, using the "no-slip condition" $$v=\omega r$$ to relate the translational and rotational motion 
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week9/recitation-rotational-energy.pdf">Recitation Week 9 Friday</a>, #2 (using rotational energy)
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw8/hw8.pdf">Homework 8</a>, #2 (using rotational energy)
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week10/recitation-torque-2.pdf">Recitation Week 10 Friday</a>, #2 (using dynamics and torque)
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week11/recitation-torque-week2-wednesday.pdf">Recitation Week 11 Wednesday</a>, #1 (using dynamics and torque)
-* Use the conservation of angular momentum to relate the rate of rotation of an object to collisions, changes in its moment of inertia, or exchanges with another object 
-  * <a href="https://walterfreeman.github.io/phy211/recitation/week11/recitation-torque-week2-wednesday.pdf">Recitation Week 11 Wednesday</a>, #2
-  * <a href="https://walterfreeman.github.io/phy211/hw/hw9/hw9.pdf">Homework 9</a> #5 and #7
-  
+* <a href="unit-3-review.pdf">Unit 3 review</a>
+* <a href="unit-4-review.pdf">Unit 4 review</a>
 
 
+### Final exam guidebook
+Here are the things I will ask you to do on the final exam, and some example questions during the semester involving those skills. See below for how I would recommend to use this to study.
+
+* Unit 1
+  * **Analyze the motion of an object with constant acceleration (such as free fall) moving in two dimensions**
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw2/hw2.pdf">Homework 2</a>, #2 and #3
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week3/recitation-2D-motion.pdf">Recitation Week 3 Wednesday</a>, #2 and #3
+    * <a href="exam1-formA.pdf">Exam 1</a> Question 3 (with the snowball-thrower)
+  * **Create or interpret position, velocity, and acceleration graphs**
+    * <a href="https://walterfreeman.github.io/phy111/hw/hw1/hw1.pdf">Homework 1</a>, #4
+    * <a href="exam1-formA.pdf">Exam 1</a> Question 2 (with the dog)
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week2/recitation-1D-motion-2.pdf">Recitation Week 2 Wednesday</a>, the rocket question
+  * **Analyze the motion of an object moving with piecewise constant acceleration**
+    * <a href="https://walterfreeman.github.io/phy111/hw/hw1/hw1.pdf">Homework 1</a>, #4
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week2/recitation-1D-motion-2.pdf">Recitation Week 2 Wednesday</a>, the rocket question
+    * <a href="exam1-formA.pdf">Exam 1</a> Question 2 (with the dog)
+* Unit 2
+  * **Analyze the relation between the acceleration of objects and the forces that act on them**
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw3/homework3.pdf">Homework 3</a>, #5
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw4/homework4.pdf">Homework 4</a>, #1 and #5 (#5 is difficult but great practice)
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week5/recitation-forces2.pdf">Recitation Week 5 Wednesday</a>, the "masses and pulley" question
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week5/recitation-forces3.pdf">Recitation Week 5 Friday</a>, the question with the cats
+    * <a href="exam2-formA.pdf">Exam 2</a> Question 4 (the sliding table)
+  * **Analyze the relation between an object's circular motion and the forces that make it move in that way**
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week6/recitation-uniform-circular-motion-1.pdf">Recitation Week 6 Wednesday</a>, both questions
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw5/hw5.pdf">Homework 5</a>, #2 and #3
+    * <a href="exam2-formA.pdf">Exam 2</a> Question 3b (the space station)
+  * **Interpret the experiences of a person inside an accelerating box (such as an elevator or a vehicle)**
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week4/recitation-forces.pdf">Recitation Week 4 Friday</a>, the astronaut question
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week6/recitation-uniform-circular-motion-1.pdf">Recitation Week 6 Wednesday</a>, "why doesn't the frog fall out of the bucket"
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw5/hw5.pdf">Homework 5</a>, #2b
+    * <a href="exam2-formA.pdf">Exam 2</a> Question 3a (the space station)
+* Unit 3
+  * **Use conservation of momentum to relate the velocities before and after a collision/explosion in which things move in two dimensions**
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #2 (#3 is also good practice)
+    * <a href="exam3-formA.pdf"</a>Exam 3</a>, #2 (the spacecraft maneuvering to dock)
+  * **Use the work-energy theorem to relate the forces that act on an object during a motion to the starting and ending velocities and/or how far the object travels before coming to a stop (Unit 3)**
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw6/hw6.pdf">Homework 6</a>, #4
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #7
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week7/recitation-energy-1.pdf">Recitation Week 7 Wednesday</a>, #2
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week8/recitation-springs.pdf">Recitation Week 8 Friday</a>, the rock climber
+  * **Use conservation of momentum, energy methods, and/or kinematics to analyze motion that happens in different steps, and recognize when you need which method**
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #4 (energy plus momentum)
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week8/recitation-springs.pdf">Recitation Week 8 Friday</a>, the slingshot question (energy plus kinematics)
+    * <a href="exam3-formA.pdf"</a>Exam 3</a>, #3 (the person with the swing and dog)
+* Unit 4
+  * **Use the idea of torque to determine the forces required to keep an object balanced**
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw8/hw8.pdf">Homework 8</a> #1
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw9/hw9.pdf">Homework 9</a> #3 and #4
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week10/recitation-torque-1.pdf">Recitation Week 10 Wednesday</a>, #1 and #2
+  * **Analyze the motion of an object that both translates and rotates, using the "no-slip condition" $$v=\omega r$$ to relate the translational and rotational motion**
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week9/recitation-rotational-energy.pdf">Recitation Week 9 Friday</a>, #2 (using rotational energy)
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw8/hw8.pdf">Homework 8</a>, #2 (using rotational energy)
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week10/recitation-torque-2.pdf">Recitation Week 10 Friday</a>, #2 (using dynamics and torque)
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week11/recitation-torque-week2-wednesday.pdf">Recitation Week 11 Wednesday</a>, #1 (using dynamics and torque)
+  * **Use the conservation of angular momentum to relate the rate of rotation of an object to collisions, changes in its moment of inertia, or exchanges with another object** 
+    * <a href="https://walterfreeman.github.io/phy211/recitation/week11/recitation-torque-week2-wednesday.pdf">Recitation Week 11 Wednesday</a>, #2
+    * <a href="https://walterfreeman.github.io/phy211/hw/hw9/hw9.pdf">Homework 9</a> #5 and #7
+    
+I will also ask you a set of basic questions that will require only very brief calculations (i.e. one step). To do these, you will need only to know the definitions and dimensions of the things we've studied this semester.
+
+You should be familiar with the *dimensions of*, and the *meaning of*, the following ideas:
+
+* Position, velocity, acceleration
+* Force
+* Kinetic energy, work, power (rotational and translational)
+* Moment of inertia
+* Angular momentum
+* Torque
 
 
+### Study advice
 
+So, how should you study for the final exam?
 
+There are lots of ways to study. You may have your own preferred approach, which I'd advise you to first look at the above list of ideas and see if there are any that you feel you need to review. Note that I've divided the list of skills into Units 1-4, and then
+again by the different skills you'll need. Once you've figured out what you want to focus on, take a look at each of the example problems I've suggested. Make sure you know the solutions to all of them; if you don't, come to the Physics Clinic or one of my review
+sessions and ask.
 
-<a href="recitation/week1/recitation-units-motion.pdf">Week 1 Wednesday: Fermi problems</a><br>
-<a href="recitation/week1/recitation-1D-motion-1.pdf">Week 1 Friday: 1D motion, part 1</a>
+Then, ask yourself two questions about that set of examples:
 
-<br><br>
-
-<a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a><br>
-<a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
-<br>
-
-<a href="recitation/week3/recitation-2D-motion.pdf">Week 3 Wednesday: 2D motion</a><br>
-<a href="group-exam-1/exam1.pdf">Week 3 Friday: 8:25 or 9:30 sections</a><br>
-<a href="group-exam-1/exam2.pdf">Week 3 Friday: 10:35 or 11:40 sections</a><br>
-<a href="group-exam-1/exam3.pdf">Week 3 Friday: 12:45 or 1:40 sections</a><br>
-<a href="group-exam-1/exam4.pdf">Week 3 Friday: 3:45 or 5:15 sections</a><br>
-<br>
-
-<a href="recitation/week4/recitation-forces.pdf">Week 4 Friday: Forces in One Dimension</a><br>
-<br>
-
-<a href="recitation/week5/recitation-forces2.pdf">Week 5 Wednesday: Forces in Two Dimensions; The Atwood Machine</a><br>
-<a href="recitation/week5/recitation-forces3.pdf">Week 5 Friday: Friction</a><br>
-<br>
-
-<a href="recitation/week6/recitation-uniform-circular-motion-1.pdf">Week 6 Wednesday: Uniform Circular Motion</a><br>
-<a href="recitation/week6/recitation-gravity.pdf">Week 6 Friday: Universal Gravitation</a><br>
-<br>
-
-
-<a href="recitation/week7/recitation-energy-1.pdf">Week 7 Wednesday: The work-energy theorem</a><br>
-<a href="recitation/week7/recitation-potential-energy.pdf">Week 7 Friday: Potential energy and work</a><br>
-<br>
-
-
-<a href="recitation/week8/recitation-springs.pdf">Week 8 Wednesday: The elastic force</a><br>
-<a href="recitation/week8/recitation-momentum-1.pdf">Week 8 Friday: Conservation of momentum (I)</a><br>
-
-
-<a href="recitation/week9/recitation-rotational-energy.pdf">Week 9 Friday: Rotational kinetic energy</a><br>
-
-<a href="recitation/week10/recitation-torque-1.pdf">Week 10 Wednesday: Torque in static and dynamic equilibrium</a><br>
-<a href="recitation/week10/recitation-torque-2.pdf">Week 10 Friday: Torque and rotational dynamics</a><br><br>
-
-
-<a href="recitation/week11/recitation-torque-week2-wednesday.pdf">Week 11 Wednesday: combining rotation and translation; angular momentum</a><br>
-<a href="recitation/week11/recitation-torque-week2-friday.pdf">Week 11 Friday: transmissions</a>
+* What did they all have in common? What is the common approach you used to solve them all?
+* What are the differences? What aspect of each problem makes it unique, challenging, or different from the others?
 
 
 
