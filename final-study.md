@@ -30,8 +30,17 @@ Our exams this semester:
 ### Final exam guidebook
 Here are the things I will ask you to do on the final exam, and some example questions during the semester involving those skills. See below for how I would recommend to use this to study.
 
+This may look like a lot of material, but it's not! The headers in boldface are the skills you will need; the example questions are ones where you can practice that skills. *You can approach
+them all in the same way* -- for instance, if there are five examples under one skill, the approach to all five will be similar. You don't need to redo all five when you're studying; just 
+make sure that you are familiar with the approach you would use for each.
+
+The final exam will involve eight questions that cover these twelve skills -- two from each unit. These skills should give you a "checklist" you can use while you're studying to make sure
+you know everything you will need to know. 
+
+*Note:* The questions on the exam will be mathematically easier than many of these examples. There will be no complicated or messy algebra or lengthy calculation on the final.
+
 * Unit 1
-  * **Analyze the motion of an object with constant acceleration (such as free fall) moving in two dimensions**
+  * **Analyze the motion of an object with constant acceleration moving in two dimensions**
     * <a href="https://walterfreeman.github.io/phy211/hw/hw2/hw2.pdf">Homework 2</a>, #2 and #3
     * <a href="https://walterfreeman.github.io/phy211/recitation/week3/recitation-2D-motion.pdf">Recitation Week 3 Wednesday</a>, #2 and #3
     * <a href="exam1-formA.pdf">Exam 1</a> Question 3 (with the snowball-thrower)
