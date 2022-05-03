@@ -71,7 +71,7 @@ Here are the things I will ask you to do on the final exam, and some example que
   * **Use conservation of momentum, energy methods, and/or kinematics to analyze motion that happens in different steps, and recognize when you need which method**
     * <a href="https://walterfreeman.github.io/phy211/hw/hw7/hw7.pdf">Homework 7</a>, #4 (energy plus momentum)
     * <a href="https://walterfreeman.github.io/phy211/recitation/week8/recitation-springs.pdf">Recitation Week 8 Friday</a>, the slingshot question (energy plus kinematics)
-    * <a href="exam3-formA.pdf"</a>Exam 3</a>, #3 (the person with the swing and dog)
+    * <a href="exam3-formA.pdf">Exam 3</a>, #3 (the person with the swing and dog)
 * Unit 4
   * **Use the idea of torque to determine the forces required to keep an object balanced**
     * <a href="https://walterfreeman.github.io/phy211/hw/hw8/hw8.pdf">Homework 8</a> #1
