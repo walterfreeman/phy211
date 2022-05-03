@@ -1,6 +1,5 @@
 ---
 layout: page 
-category: top
 permalink: exam3review.html
 use_math: true
 title: Exam 3 Review Material
