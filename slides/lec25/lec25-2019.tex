@@ -1,5 +1,3 @@
-% DPF 09 talk on strangeness in nucleon
-
 \documentclass[10pt]{beamer}
 \usefonttheme{professionalfonts} % using non standard fonts for beamer
 \usefonttheme{serif} % default family is serif
@@ -70,6 +68,7 @@
 \definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
 \definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
 \definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Orange}           {rgb}{1,0.4,0}
 \definecolor{Grey}           {cmyk}{.7,.7,.7,0}
 \definecolor{Lg}           {cmyk}{.4,.4,.4,0}
 \definecolor{Blue}          {cmyk}{1,1,0,0}
@@ -119,21 +118,17 @@
   \Large
 Extra office hours and reviews ahead of the exam:
 \BI
-\item Today, 4-8, Physics 208
-\item Tomorrow, 10-3, Physics 106 
-\item Friday, 10-4, Link 114 
-\BI
-\item Note: I am sick and have to sing a concert this weekend. If my voice gives out this review may be led by someone else or rescheduled; I'll do my best!
-\EI
-\item This is a large amount of extra help for you -- please use it!
+\item Thursday, 9:00-2:00, room to be announced
+\item Saturday, 12:00-5:00, room to be announced
+\item Monday, 10-3, room to be announced
 \EI
 \BS
 \BS
-Homework 9 due today; no late penalties until Thursday.
+Homework 9 due tomorrow
 
 \BS
 
-If you forgot to turn in your paper, get on that :)
+
 }
 
 
@@ -141,37 +136,53 @@ If you forgot to turn in your paper, get on that :)
 \frame{\frametitle{\textbf{Final exam format}}
   \Large
 \BI
-\item Biased toward Units 3 (conservation laws) and 4 (torque)
-\item Expect a focus on broad concepts, especially from Units 1 and 2
-\item Expect things like:
-\BI
-\large
-\item Sometimes/always/never questions
-\item Positive/negative/zero questions
-\item ``I give you the solution; you point out the error''
-\item Dimensional analysis/reasoning with units
-\item Fermi problem
-\EI
-\pause\BS
-\item We will provide you the reference sheet for the exam; if there's anything you want on it, let me know!
+\item Covers the whole semester
+\item Expect less messy mathematics
+\item Likely 8 questions plus a short set of multiple choice questions about the dimensions of things
 \EI
 }
 
-\frame{\frametitle{\textbf{Kinematics concepts}}
+\frame{\frametitle{\textbf{Unit 1: Kinematics}}
   \large
   \BI
 \item{First derivative of position is velocity; second derivative is acceleration}
 \item{Kinematics lets us connect acceleration, velocity, position, and time}
+\BS\pause
+\item Slope of position graph is velocity; slope of velocity graph is acceleration
+\item Area under acceleration graph is change in velocity; area under velocity graph is change in position
+\BS
 \item{If $\vec a$ is constant:}
 
   \begin{align*}
-    s(t) =& s_0 + v_0 t + \frac{1}{2} a t^2 \\
-    v(t) =& v_0 + at \\
+    \vec s(t) =& \vec s_0 + \vec v_0 t + \frac{1}{2} \vec a t^2 \\
+    \vec v(t) =& \vec v_0 + \vec at \\
     v_f^2 - v_0^2 =& 2a\Delta x
   \end{align*}
 
 \item{These relations hold separately and independently in $x$ and $y$}
 \item{Acceleration is $g$ downwards {\bf if and only if} an object is in freefall}
+\EI
+}
+
+\frame{\frametitle{\textbf{Problem-solving guide: kinematics}}
+	\large
+	
+	\BI
+	\item Draw a clear diagram and choose your coordinate system (where is the origin?)
+	\BS
+	\item Write down the kinematics relations for $x(t)$, $y(t)$, $v_x(t)$, $v_y(t)$
+	\BI
+	\item You'll need to think about what $a$, $v_0$, and $x_0$, etc., are
+	\item You may need to decompose a vector into x and y components
+	\EI
+	\BS
+	\item Determine what instant in time you care about, and write down a sentence like:
+	
+\begin{center}
+	\color{Red}``What is the value of $x$ at the time that $y=-h$?''
+\end{center}
+\BS
+\item Substitute in what you know and do the algebra your sentence directs you to do
 \EI
 }
 
@@ -190,12 +201,14 @@ A ball rolls off of a table of height $h$ at speed $v$. How far does it go?
 
 }
 
-\frame{\frametitle{\textbf{Force concepts and Newton's second law}}
+\frame{\frametitle{\textbf{Unit 2: Force concepts and Newton's second law}}
     \large
     \BI
   \item{Newton's second law relates the net force $\sum \vec F$ to the acceleration $\vec a$ of the center of mass of an object}
+  \BS
   \item{If an object both rotates and moves, $\vec F=m\vec a$ gives you $\vec a$ of the center of mass}
   \item{Newton's third law: forces come in pairs}
+  \BS\pause
   \item{Some forces you should know about:}
     \BI
   \item{Normal forces: as big as they need to be}
@@ -207,6 +220,10 @@ vehicle}
   \item{Gravity (general): $F=\frac{Gm_1m_2}{r^2}$}
   \item{Tension: A rope pulls on both ends}
     \EI
+    \BS
+    \pause
+    
+    \item Often tension and normal forces are {\color{Red}unknowns you solve for along the way}
     \EI
   }
 
@@ -236,12 +253,12 @@ vehicle}
   }
 
 
-  \frame{\frametitle{\textbf{Sample problem: the eraser in the tube}}
+  \frame{\frametitle{\textbf{Sample problem: Car driving around a curve}}
     \Large
-What angular frequency is required to make the eraser not fall?
+How fast can a car drive around a curve with a radius of curvature $R$?
   }
 
-  \frame{\frametitle{\textbf{The work-energy theorem and conservation of energy}}
+  \frame{\frametitle{\textbf{Unit 3a: The work-energy theorem and conservation of energy}}
     \large
     \BI
   \item{Work-energy theorem comes from the third kinematics relation}
@@ -252,6 +269,7 @@ What angular frequency is required to make the eraser not fall?
     \EI
   \item{Draw {\it clear} before and after snapshots}
   \item{Figure out work done in going from one to the other}
+  \item {\color{Green} Add in rotational kinetic energy if things rotate}
   \item{Work = $\vec F \cdot d\vec s$}
     \EI
   }
@@ -272,7 +290,7 @@ How fast is it moving at the
 edge of the table?    
 }
 
-  \frame{\frametitle{\textbf{Conservation of momentum}}
+  \frame{\frametitle{\textbf{Unit 3b: Conservation of momentum}}
       \BI
     \item{In the absence of external forces, $\vec p = m\vec v$ is conserved}
     \item{This is a consequence of Newton's third law}
@@ -287,6 +305,8 @@ edge of the table?
       \item{You have a collision or explosion and need to connect the velocities before to the velocities after}
         \EI
       }
+
+
 
    \frame{\frametitle{\textbf{Rotation}}
           \Large
@@ -305,39 +325,42 @@ edge of the table?
 
 \frame{\frametitle{\textbf{Static equilibrium problems}}
   \Large
+  
+  Often we need to know the conditions for something to be balanced, and neither rotate nor translate:
+  
   \BI
 \item{Net torque is zero about any pivot}
 \item{Net force is zero (you may not need this)}
 \item{Torque due to any force applied {\bf at} the pivot is zero}
 \EI
 }
-
-\frame{\frametitle{\textbf{The process of science}}
-\Large
-
-Properties of scientific thought:
-\normalsize
-\BI
-\item Empiricism: science relies on the natural world itself as the only true authority
-\item Self-skepticism: people making scientific claims should search for and engage with potentially refuting evidence
-\item Universality: the laws of nature apply everywhere and everywhen, and to all things equally
-\item Objectivity: scientific ideas are independent of any particular human perspective
-\EI
-
-\BS
-\Large
-Ways that this can go wrong:
-\normalsize
-\BI
-\item Cherry-picking
-\item Arguments ad hominem (``they're wrong because they're ugly'') or from authority (``they're right because they have a fancy degree'')
-\item Bad statistics / publication bias
-\item Ignoring refuting evidence 
-\item Manufactured controversy
-\item Arguments from sensationalism (``XYZ is true {\it because} it's exciting'')
-\item ... and others
-\EI
-}
+%
+%\frame{\frametitle{\textbf{The process of science}}
+%\Large
+%
+%Properties of scientific thought:
+%\normalsize
+%\BI
+%\item Empiricism: science relies on the natural world itself as the only true authority
+%\item Self-skepticism: people making scientific claims should search for and engage with potentially refuting evidence
+%\item Universality: the laws of nature apply everywhere and everywhen, and to all things equally
+%\item Objectivity: scientific ideas are independent of any particular human perspective
+%\EI
+%
+%\BS
+%\Large
+%Ways that this can go wrong:
+%\normalsize
+%\BI
+%\item Cherry-picking
+%\item Arguments ad hominem (``they're wrong because they're ugly'') or from authority (``they're right because they have a fancy degree'')
+%\item Bad statistics / publication bias
+%\item Ignoring refuting evidence 
+%\item Manufactured controversy
+%\item Arguments from sensationalism (``XYZ is true {\it because} it's exciting'')
+%\item ... and others
+%\EI
+%}
 
 \frame{\frametitle{\textbf{Final reminders}}
   \large
@@ -350,25 +373,79 @@ Ways that this can go wrong:
 
 \frame{\frametitle{\textbf{The power of mechanics}}
 \large
-The things we've studied in this class are more powerful than you think. 
+The things we've studied in this class are more powerful than you think: mechanics is not just blocks on ramps!
 
-If you call up a chemist, she'll tell you the approximate force law between two noble gas atoms:
+\BS
 
-$$ F(r) = \frac{\alpha}{r^{12}} - \frac{\beta}{r^6} $$
+Let's apply them to atoms in a box and see how much we can understand.
 
-Put this into a computer and let it go:
+\BS\BS
 
-\pause\bigskip
+\pause
 
-\centerline{\color{Red}We can understand freezing, melting, and boiling just with $\vec F = m \vec a!$}
+This computer program does the following:
 
-\centerline{\color{Red}... we can even get the ideal gas law for free along the way!}
+\BS\BS
+\color{Red}
+Repeat forever:
+\begin{itemize}
+	\color{Red}
+	\item Calculate the net force on each atom
+	\item Determine the acceleration on it from $\vec F=m\vec a$
+	\item Use kinematics to calculate where it is some small amount of time later
+	\item After some amount of time, calculate pressure from the average force on the walls
+	\item The temperature is just the average kinetic energy of the particles
+\end{itemize}
 }
+
+
+\frame{
+	
+\Large
+Forces involved:
+\BI
+\item The walls repel atoms that touch them (normal force) \BS \pause
+\item Atoms that get very close repel each other \BS  \pause
+\item {\color{Red}\bf Atoms that are somewhat close attract!}
+\EI
+}
+
+\frame{\frametitle{\textbf{The ideal gas law}}
+	
+	\Large
+	
+	The ``ideal gas law'' describes the pressure from a diffuse, hot gas on the container it's in:
+	\pause
+	\begin{align*}
+		{\color{Red}\text{(Pressure)}} &= \frac{{\color{Orange}\text{(Amount of gas)}} \times {\color{Blue}\text{(Temperature)}}}{\color{Green}\text{(Volume of box)}}\\
+		{\color{Red}P}{\color{Green}V} &= {\color{Orange}N} {\color{Blue}kT}
+	\end{align*}
+\pause
+Chemists have observed it, but we can show why it's true!
+
+\BS\pause
+
+What if the gas isn't diffuse or ``hot''?
+}
+
+
+\frame{\frametitle{\textbf{Cooling things down}}
+	
+	\Large
+	
+	What happens if we change the temperature?
+	
+	
+}
+
+
 
 
 \frame{\frametitle{\textbf{The rest of physics}}
 \large
 The other disciplines of physics are variants on what you've learned already:
+
+\BS
 
 \BI
 \item Electromagnetism (PHY 212) introduces a new force -- just another $\vec F$
@@ -376,13 +453,65 @@ The other disciplines of physics are variants on what you've learned already:
 \BI
 \item Light is just a particular manifestation of that force
 \EI
+\BS
+
 \item Statistical mechanics uses statistics to understand 
-$\vec F = m\vec a$ acting on a great many particles at once
+$\vec F = m\vec a$ acting on a great many particles at once {\color{Red} (We just did this!)}
+
+\BS
+
 \item Relativity mixes up space and time, changing the coordinates on us
-\item Quantum mechanics mixes up ``particle'' and ``wave''
+\item Quantum mechanics mixes up ``particle'' and ``wave'' and gives a new lens on mechanics
+\EI
+}
+
+\frame{\frametitle{\textbf{Research at Syracuse Physics}}
+
+We apply the ideas of physics to all kinds of things:
+
+\BI
+\item Astrophysics
+\BI
+\item How do black holes and neutron stars shake the fabric of spacetime when they collide?
+\item How do extreme tidal forces rip apart objects that get too close to stars?
+\item How can we reconcile quantum mechanics with gravity to understand the Big Bang? (my work)
+\EI
+\BS
+
+\item Biophysics
+\BI
+\item What are the dynamics of the microtubules inside our cells?
+\item Can we build better sensors to detect minute amounts of things in blood?
+\item How does cognition in primitive brains work?
 \EI
 
-Each of these disciplines is supported by a ``three-legged stool'':
+\BS
+
+\item Soft and active matter 
+\BI
+\item Can we model people in a mosh pit? (really!)
+\item How do grains of sand ``jam up''?
+\item Much more stuff I don't quite understand/know about :)
+\EI
+
+\BS
+
+\item Particle physics
+\BI
+\item What are the elementary particles and forces in nature?
+\item How do we make the LHC and other detectors work even better?
+\item How do we detect ``ghost particles'' (neutrinos)?
+\EI
+\BS
+\item Quantum computing, nuclear physics, advanced imaging...
+\EI
+}
+
+\frame{\frametitle{\textbf{Approaches}}
+	
+	\large
+	
+Each of these fields is supported by a ``three-legged stool'':
 
 \BI
 \item Theory: understanding principles and using pen and paper to study them in simple situations (this class)
@@ -410,6 +539,7 @@ You could get a {\color{Red}physics minor}. This involves:
 \item Modern physics (quantum mechanics, relativity, atoms)
 \item Waves and vibrations: light and sound
 \item Advanced laboratory 
+\item Physics education (how do we teach physics?)
 \item ... and others I'm forgetting!
 \EI
 \EI
@@ -491,8 +621,13 @@ Come talk to us!
 
 \frame{\frametitle{\textbf{And, finally...}}
   \Large
-... thank you all; you have been an absolutely wonderful class. You've done challenging things, learned a vast 
-amount, and I'm proud of all of you.
+... thank you all; you have been an absolutely wonderful class. We're just getting back from the pandemic; we have hit the ground running,
+and you all have learned a vast amount since January. You've done challenging things, learned a vast 
+amount, and I'm proud of all of you. 
+
+\BS
+
+Think about how far you've come since January!
 
 \pause
 \bigskip
@@ -513,22 +648,22 @@ amount, and I'm proud of all of you.
 
 \centerline{``All science is either physics or stamp collecting.'' (E. Rutherford)}
 }
-\frame{\frametitle{\textbf{I leave you with two quotes...}}
-\pause
-``A poet once said, 'The whole universe is in a glass of wine.'...  [I]f we look at a glass of wine closely enough we see the entire universe. 
-There are the things of physics: the twisting liquid which evaporates depending on the wind and weather, the reflection in the glass; and our imagination adds atoms. 
-The glass is a distillation of the earth's rocks, and in its composition we see the secrets of the universe's age, and the evolution of stars. 
-What strange array of chemicals are in the wine? 
-How did they come to be?... 
-If our small minds, for some convenience, divide this glass of wine, this universe, into parts -- physics, biology, geology, astronomy, psychology, 
-and so on -- remember that nature does not know it! So let us put it all back together, not forgetting ultimately what it is for. Let it give us one more final pleasure; drink it and forget it all!''
+\frame{\frametitle{\textbf{Three reminders...}}
+%\pause
+%``A poet once said, `The whole universe is in a glass of wine.'...  [I]f we look at a glass of wine closely enough we see the entire universe. 
+%There are the things of physics: the twisting liquid which evaporates depending on the wind and weather, the reflection in the glass; and our imagination adds atoms. 
+%The glass is a distillation of the earth's rocks, and in its composition we see the secrets of the universe's age, and the evolution of stars. 
+%What strange array of chemicals are in the wine? 
+%How did they come to be?... 
+%If our small minds, for some convenience, divide this glass of wine, this universe, into parts -- physics, biology, geology, astronomy, psychology, 
+%and so on -- remember that nature does not know it! So let us put it all back together, not forgetting ultimately what it is for. Let it give us one more final pleasure; drink it and forget it all!''
 
 \bigskip
 \bigskip
 
 \pause
 
-``Poets say science takes away from the beauty of the stars -- mere globs of gas atoms. Nothing is "mere". I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination -- stuck on this carousel my little eye can catch one-million-year-old light. A vast pattern -- of which I am a part... What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined!''
+``Poets say science takes away from the beauty of the stars -- mere globs of gas atoms. Nothing is ``mere". I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination -- stuck on this carousel my little eye can catch one-million-year-old light. A vast pattern -- of which I am a part... What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined!''
 
 \bigskip
 
