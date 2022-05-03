@@ -43,7 +43,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 21 April    | <a href="slides/lec21/lecture21.pdf">Torque; rotational dynamics</a>                                                                                       | 10.8                           |
 | 26 April    | <a href="slides/lec22/lec22.pdf">Angular momentum; combining rotation and translation</a>                                                                                  |                                |
 | 28 April    | <a href="slides/lec23/lecture23.pdf">Angular momentum review; work and power in rotation</a>                                                                               |                                | 
-| 3  May      | Flexible time; course retrospective and closing                                                                  |                                |
+| 3  May      | <a href="slides/lec25/lec25-2022.pdf">Course retrospective and closing</a>                                                                  |                                |
 | 11 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
 

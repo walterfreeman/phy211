@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  3 MAY 2022 01:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  3 MAY 2022 01:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lec25-2019.tex
-(./lec25-2019.tex
+**lec25-2022.tex
+(./lec25-2022.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -854,8 +854,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 109.
 
-(./lec25-2019.aux)
-\openout1 = `lec25-2019.aux'.
+(./lec25-2022.aux)
+\openout1 = `lec25-2022.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
@@ -949,9 +949,9 @@ LaTeX Info: Redefining \ref on input line 113.
 LaTeX Info: Redefining \pageref on input line 113.
 LaTeX Info: Redefining \nameref on input line 113.
 
-(./lec25-2019.out) (./lec25-2019.out)
+(./lec25-2022.out) (./lec25-2022.out)
 \@outlinefile=\write5
-\openout5 = `lec25-2019.out'.
+\openout5 = `lec25-2022.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -977,7 +977,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./lec25-2019.nav) [1
+) (./lec25-2022.nav) [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 
@@ -2342,16 +2342,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 \tf@nav=\write6
-\openout6 = `lec25-2019.nav'.
+\openout6 = `lec25-2022.nav'.
 
 \tf@toc=\write7
-\openout7 = `lec25-2019.toc'.
+\openout7 = `lec25-2022.toc'.
 
 \tf@snm=\write8
-\openout8 = `lec25-2019.snm'.
+\openout8 = `lec25-2022.snm'.
 
- (./lec25-2019.aux)
-Package rerunfilecheck Info: File `lec25-2019.out' has not changed.
+ (./lec25-2022.aux)
+Package rerunfilecheck Info: File `lec25-2022.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
@@ -2383,7 +2383,7 @@ blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb>
-Output written on lec25-2019.pdf (47 pages, 296895 bytes).
+Output written on lec25-2022.pdf (47 pages, 296895 bytes).
 PDF statistics:
  437 PDF objects out of 1000 (max. 8388607)
  347 compressed objects within 4 object streams

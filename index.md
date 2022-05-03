@@ -11,13 +11,11 @@ title: Announcements
 
 ### Current recitation materials
 
-* <a href="recitation/week11/recitation-torque-week2-wednesday.pdf">Wednesday</a>
-* <a href="recitation/week11/recitation-torque-week2-friday.pdf">Friday</a>
-
+* Wednesday: (to be posted)
 
 ### Current slides
 
-<a href="slides/lec23/lecture23.pdf">Angular momentum; energy, work, and power in rotation (again)</a>
+<a href="slides/lec25/lec25-2022.pdf">Course retrospective and closing</a> 
 
 ### Review materials
 
