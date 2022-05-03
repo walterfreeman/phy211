@@ -111,7 +111,15 @@ Then, ask yourself two questions about that set of examples:
 * What did they all have in common? What is the common approach you used to solve them all?
 * What are the differences? What aspect of each problem makes it unique, challenging, or different from the others?
 
+The idea here is to work toward a point where you are able to see all of the different examples as just different manifestations of the same basic principle. Remember the axiom "If you ever feel like you're doing the same thing over and over again, then that means you understand."
 
+This process -- of seeing the things we've done as variations on a few basic themes -- will give you a flexible and enduring understanding of the material that will serve you well on the final and beyond.
+
+If you come to one of the reviews that I'm doing, I will go through this process with you -- if, for instance, you say "Let's do all of Unit 1", I will work through it with you. 
+
+It is also a good idea to do this with friends. Sit down with them over lunch or dinner, choose a topic, and talk through what the examples have in common and how you approached them.
+
+Then, once you're done, go back and look at the practice exams for units 1-3. Look at each question and classify it: "Which skills do I need here, and how is this problem similar to the other examples? How is it different?"
 
 <!--
 S2021
