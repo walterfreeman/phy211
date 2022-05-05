@@ -9,19 +9,10 @@ use_math: true
 
 Our coach Sydney Jud has been making video solutions to recitation problems on her YouTube channel "Sydney Explains Stuff".
 
-To see our Stuff Explainer's solutions, click below:
+A link to her YouTube channel with all of her videos is at <https://www.youtube.com/channel/UCRI8Qa_rVT3aRal4vP4acNQ>; there you can find links for all 
+of the recitations with her explanations. Thanks so much to Sydney for making these!
 
-* Week 1 Friday (1D kinematics part 1): <https://www.youtube.com/watch?v=7Sj_Pt1HUsA>
-* Week 2 Wednesday (1D kinematics part 2): <https://www.youtube.com/watch?v=tkz12vy5tGc>
-* Week 2 Friday (Vectors): <https://www.youtube.com/watch?v=6_-hPlO6yag>
-* Week 3 Wednesday: <https://youtu.be/9GP2jFM7wn8>
-* Week 4 Friday: <https://www.youtube.com/watch?v=OpLJnEZ_njw>
-* Week 5 Wednesday: <https://www.youtube.com/watch?v=2fzoGFiGe28>
-* Week 5 Friday: <https://www.youtube.com/watch?v=6lGkZcO9u2Y>
-* Week 6 Wednesday: <https://www.youtube.com/watch?v=bp80Kwc15tI>
-* Week 7 Wednesday: <https://youtu.be/eeYPxlfYPPE>
-* Week 7 Friday: <https://youtu.be/rDhKZ2AE5dw>
-* Discussion of the dot product: <https://youtu.be/okCdIOfH6nw>
+
 
 ### Homework Solutions
 
