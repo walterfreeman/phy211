@@ -20,4 +20,4 @@ of the recitations with her explanations. Thanks so much to Sydney for making th
 <a href="hw/hw2-solutions.pdf">Homework 2 Solutions</a> (by Jonathan Collard de Beaufort)
 <a href="hw/hw3-solutions.pdf">Homework 3 Solutions</a> (by Patrick Adams)
 <a href="hw/hw4-solutions.pdf">Homework 4 Solutions</a> (by Jonathan Collard de Beaufort)
-
+<a href="hw9-solution.pdf">Homework 9 Solutions</a> (by Adil Ghaznavi).

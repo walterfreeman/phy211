@@ -26,6 +26,21 @@ Our exams this semester:
 * <a href="unit-3-review.pdf">Unit 3 review</a>
 * <a href="unit-4-review.pdf">Unit 4 review</a>
 
+### Solutions to HW9
+
+Our TA Adil wrote some <a href="hw9-solution.pdf">solutions for HW9</a>.
+
+### Recitation explanations
+
+Our coach Sydney Jud has made YouTube videos that discuss all of the recitation material from the whole semester. You can find links to them on her channel "Sydney Explains Stuff", at <https://www.youtube.com/channel/UCRI8Qa_rVT3aRal4vP4acNQ>.
+
+### Comprehensive notes from a student
+
+Our coach AJ Bekoe has a comprehensive set of notes that she wrote last year as a study guide (when she was a student). She's revised them this year a little bit, and asked me to provide them to you in
+case you'd like to look at them.
+
+**A word of warning:** These are ultimately AJ's notes that she created for herself based on the way that    physics makes sense to her. 
+
 
 ### Final exam guidebook
 Here are the things I will ask you to do on the final exam, and some example questions during the semester involving those skills. See below for how I would recommend to use this to study.
