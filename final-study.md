@@ -36,7 +36,7 @@ Our coach Sydney Jud has made YouTube videos that discuss all of the recitation 
 
 ### Comprehensive notes from a student
 
-Our coach AJ Bekoe has a comprehensive set of notes that she wrote last year as a study guide (when she was a student). She's revised them this year a little bit, and asked me to provide them to you in
+Our coach AJ Bekoe has a <a href="AJ-notes.pdf">comprehensive set of notes that she wrote last year as a study guide</a> (when she was a student). She's revised them this year a little bit, and asked me to provide them to you in
 case you'd like to look at them.
 
 **A word of warning:** These are ultimately AJ's notes that she created for herself based on the way that    physics makes sense to her. 
