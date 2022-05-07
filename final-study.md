@@ -39,7 +39,9 @@ Our coach Sydney Jud has made YouTube videos that discuss all of the recitation 
 Our coach AJ Bekoe has a <a href="AJ-notes.pdf">comprehensive set of notes that she wrote last year as a study guide</a> (when she was a student). She's revised them this year a little bit, and asked me to provide them to you in
 case you'd like to look at them.
 
-**A word of warning:** These are ultimately AJ's notes that she created for herself based on the way that    physics makes sense to her. 
+**A word of warning:** These are ultimately AJ's notes that she created for herself based on the way that physics makes sense to her. Since an understanding of physics is very personal, don't just memorize what she has written
+for her own use, since you will likely have different ways of understanding things than she does. Whether you're using her notes or mine or anyone else's, you should use them as a reference to build your own understanding,
+not as a corpus of stuff to memorize.
 
 
 ### Final exam guidebook
