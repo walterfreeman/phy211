@@ -51,8 +51,7 @@ or find more stuff for you to do. T
 
 ### Interacting With Students
 
-* This year is hard on everyone -- me, you, and our students. Everyone will have things on their mind other than physics right now, 
-and we need to strike a good balance between ensuring our students work hard to learn physics and recognizing that sometimes other things will intrude on our classroom. 
+University life can be hard, and we need to strike a good balance between ensuring our students work hard to learn physics and recognizing that sometimes other things will intrude on our classroom. 
 Most students are at the age where psychological problems like depression and anxiety naturally manifest. If you notice any of our students showing signs of emotional distress, 
 or disengaging from class (not attending, showing up but not working), please let Walter know. We'll contact the student and see what kind of support they need.
 
@@ -87,9 +86,9 @@ Coaches earn one hour of sick time for every thirty hours worked. This means tha
 
 Note:
 
-* time spent getting a COVID vaccine, traveling to a vaccination site, or recuperating from its effects counts -- if you have to miss a shift because you are getting your COVID vaccine, claim it as sick time!
+* time spent getting a COVID vaccine, traveling to a vaccination site, or recuperating from its effects counts -- if you have to miss a shift because you are getting your COVID booster shot, claim it as sick time!
 * mental illness, or things necessary for your mental wellbeing, count
-* take your sick time; you are entitled to it by law.
+* take your sick time; you are entitled to it by law, and it does _not_ cost the Physics Department any extra for you to take it. (It's already been paid for.)
 
 
 #### Backups, coverage, and support
@@ -103,24 +102,20 @@ section, get you some backup in grading, or whatever it is that you need. I can'
 
 If you are going to miss a recitation section and have advance warning, swap with another TA; that's not a problem. If you are in isolation with COVID, this is how we will handle it.
 
-However, if you're going to miss a recitation section without much warning -- you missed your bus, you overslept, you have a computer failure,
+However, if you're going to miss a recitation section without much warning -- you missed your bus, you overslept, 
 you have a medical emergency -- then your first priority should be to *get someone to the classroom* (real or virtual) to cover for you.
 
 You should do the following:
 
-* Send a message to #phy211staff on Slack asking someone to cover for you. If there's no answer in two minutes...
-* Call Walter at (520) 409 3766 and then the head TA at (xxx) xxx xxxx in that order. If you can't get them...
+* Send a message to #phy211staff on Slack and ping @channel asking someone to cover for you. If there's no answer in two minutes...
+* Call Walter at (520) 409 3766.  If you can't get him...
 * Call the Physics Department office at (315) 443 3901 if it's between 8am and 6pm
 * If it becomes apparent you're going to be more than five minutes late and nobody can cover, email your students.
 
 If you have a student who is being disruptive and doesn't stop, ask them to leave your class.
 If a student is being *extremely* disruptive to the point where it jeopardizes the wellbeing of the other folks in the room, 
-please do whatever you need to do to protect your safety and the safety of your students, including 
-dismissing your class or calling the Department of Public Safety at (315) 443 2224. (This is very rare but I had to do it in the fall). 
-
-If a student is not wearing a mask that covers their mouth and nose, offer them one from the classroom supply or ask them to fix theirs. If they don't put it on, ask them to leave. 
-If they are unwilling to do this and become confrontational, do whatever you need to protect yourself and the class, and call for backup (ping @channel in #phy211staff and/or call
-the Physics Department office or Public Safety.
+or doesn't leave when you ask them to, do whatever you need to do to protect your safety and the safety of your students including 
+dismissing your class or calling the Department of Public Safety at (315) 443 2224. (This is very rare but I had to do it in F2021). 
 
 **Coaches**: If your TA does not show up, and you are the only person there, send a quick message to Slack and ping @channel, and go on teaching. If there are multiple coaches, the most junior coach should try to contact someone while the rest teach.
 
@@ -129,34 +124,18 @@ the Physics Department office or Public Safety.
 
 First, the schedule. A typical week in PHY211 will go like this:
 
-* Monday: TA's and coaches finish preparing for recitation exercises. Adam prints copies of recitation materials as needed. Staff meetings possibly Monday afternoon.
-* Tuesday: Walter teaches lecture in the morning. Staff meetings in the afternoon.
-* Wednesday: TAs teach recitation with coaches. Homework due.
+* Monday: TA's and coaches finish preparing for recitation exercises. Mingwei prints copies of recitation materials as needed. Staff meetings in afternoon.
+* Tuesday: Walter teaches lecture in the morning. Another option for staff meetings. TA's and coaches teach recitation in the evenings.
+* Wednesday: TAs teach recitation with coaches. 
 * Thursday: Walter teaches lecture in the morning. Recitation materials for the next week planned out.
-* Friday: TA's teach recitation with coaches. Homework (sometimes) due. Walter sends out a draft of recitation materials for the next week to TA's and coaches.
+* Friday: TA's teach recitation with coaches. Walter sends out a draft of recitation materials for the next week to TA's and coaches.
 * Weekend: TA's and coaches begin preparing for the next week's recitation exercises. Walter revises recitation materials if needed.
-
-On weeks when we have an exam in class, Tuesday and Wednesday are modified in one of two ways:
-
-* Preceding Friday: Group exam during recitation. Coaches not needed in recitation.
-* Weekend: Walter writes exam.
-* Monday: Exam printing and sorting. I will need help putting stickers on exams.
-* Tuesday: Exam during class. TA's help proctor. Grade exam during afternoon. *(These will be long days for all of us.)* 
-* Wednesday: Recitation held as normal. Finish grading exams. Recitation may run with coaches only to get quiz grading done.
-
--- or --
-
-* Tuesday: Exam during class. TA's help proctor. Staff meeting cancelled.
-* Wednesday: Recitation cancelled. Grade exams.
-* Thursday: Class as normal
-* Friday: Recitation as normal; return exams.
-
 
 ## TA and coach duties in detail
 
 ### Recitation Sections
 
-Your chief responsibility will be to lead recitation sections. Each Wednesday and Friday, about twenty students will come to your classroom (real or virtual) to hone and practice the skills they have learned in lecture. 
+Your chief responsibility will be to lead recitation sections. Each recitation, about twenty students will come to your classroom (real or virtual) to hone and practice the skills they have learned in lecture. 
 Since physics is a particular perspective on the world and a set of analytical and mathematical skills, rather than a list of facts, 
 students _cannot_ learn the essence of physics without lots of practice -- and without a skilled guide by their side. 
 Learning physics is like learning to play the piano: all the teacher can do is provide advice, but it's up to the 
@@ -169,7 +148,7 @@ responding to their questions, and asking them leading questions of your own des
 #### Recitation feedback
 
 After each recitation section, I'd like you to take just a few minutes to provide some feedback about how the students are doing. This may seem like a silly bit of paperwork,
-but it is essential for us to keep tabs on how things are going and make changes as needed. We will keep a slack channel for this.
+but it is essential for us to keep tabs on how things are going and make changes as needed.
 
 #### Group work
 

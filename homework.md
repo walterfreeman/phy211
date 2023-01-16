@@ -7,7 +7,15 @@ use_math: true
 ---
 
 
+<a href="FIXME">Homework 0</a> is your math pre-assessment. It is the only online thing we'll do this semester, and is due at noon, January 23.<br>
+
+
 <a href="hw/hw1/hw1.pdf">Homework 1</a>, due Friday, February 4, at the start of recitation<br>
+
+
+<!---
+
+
 <a href="hw/hw1/hw1-companion.pdf">Homework 1 Companion</a>, with hints and a discussion of what we hope you learn from these exercises
 
 <br><br>
@@ -27,3 +35,6 @@ use_math: true
 <a href="hw/hw8/hw8.pdf">Homework 8</a> is due Friday, April 22, at the start of recitation -- note that you should also redo <a href="exam3-formA.pdf">Exam 3</a> as part of this homework set.
 <br>
 <a href="hw/hw9/hw9.pdf">Homework 9</a> is due Wednesday, May 4, at the start of recitation.
+
+
+-->

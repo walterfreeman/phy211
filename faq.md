@@ -20,7 +20,6 @@ use_math: true
 * [What if there is an issue with my grades?](#gradecorrection)
 * [How will homework be graded?](#hwgrades)
 * [How will recitation participation be graded?](#recgrades)
-* [How do these checkins work?](#checkins)
 * [Do we have lab this week?, and other lab questions](#lab) 
 * [When are our exams?](#exams)
 * [Do I need a calculator for the exams? What kind?](#calculator)
@@ -59,12 +58,9 @@ Give it to your recitation TA at the beginning of recitation. Make sure that:
 * you have stapled it
 * you have done each problem on a separate side of paper (so two problems are on each sheet of paper, one front and one back)
 
-<<<<<<< HEAD
-We won't accept homework submitted by email.
-=======
 We won't accept homework submitted by email. If you must miss recitation for a good reason (perhaps if you are
 in isolation for COVID-19), make arrangements with your TA to turn in your homework when you return.
->>>>>>> 4320e5f239eb6581b832432096cc8e1d003a67ff
+
 
 <a id="clinic"></a>
 
@@ -114,8 +110,7 @@ Talk to the undergraduate coaches if:
 
 The book is *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. This is an open-access textbook available to anyone under the terms of the CC-BY 4.0 license and can be <a href="https://openstax.org/details/books/university-physics-volume-1">downloaded for free</a>. 
 
-You'll need the book; we want you to read it ahead of class to ensure you're familiar with the concepts beforehand, and we'll ask you some short questions on Blackboard before lecture. We will skip around
-in the book in order to present things in an order that makes things easier to learn.
+We won't be using it extensively but it is a good reference.
 
 ---
 <a id="math"></a>
@@ -127,8 +122,6 @@ You'll need to know how to:
 * use the quadratic formula
 * deduce missing angles/sides from right triangles using trigonometry
 * solve a system of equations using substitution
-
-That's it.
 
 ---
 <a id="firstphysics"></a>
@@ -190,12 +183,11 @@ The various parts of the course count as follows:
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
 | Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
-| Exam 1                       | 15 February               |             100   |
-| Exam 2                       | 10 March                  |             100   |
-| Exam 3                       | 12 April                  |             100   |
-| Final Exam                   | 11 May, 3PM-5PM           |             160   |
+| Exam 1                       | FIXME              |             100   |
+| Exam 2                       | FIXME                     |             100   |
+| Exam 3                       | FIXME                     |             100   |
+| Final Exam                   | FIXME                     |             100   |
 | Recitation participation     | Throughout the semester   |              5 each; around 140 in total   |
-| Weekly checkins              | After each week           |      5 each; around 70 in total |
 | Group practice exams         | Prior to each exam        |              50 each; 150 in total  |
 
 * The first time you miss a group practice exam, its grade will be replaced with the same percentage you earn on the corresponding individual exam, if you
@@ -203,12 +195,7 @@ missed the group practice exam for an excused reason.
 To do this, you must tell your TA why you missed the group exam, and do so in advance if possible. You must also
 tell your group that you will be absent -- this is a professional courtesy to them!
 
-* Your lowest homework set grade, your lowest weekly check-in, and your four lowest recitation participation days will be dropped.  
-
-Note however that students with an unusually low recitation participation grade for any given unit, or
-who demonstrate that they don't understand this material on the final, will not be eligible to drop the
-corresponding exam at our discretion. (Basically: if you bomb an exam, it won't count against you
-*if and only if* you make sure you learn that material before the final.)
+* Half of your final exam will be a second chance to demonstrate knowledge of stuff you didn't know earlier.
 
 At the end of the term, we will assign you a letter grade based on the percentage you have earned, as follows:
 
@@ -250,7 +237,8 @@ are not subject to appeal.
 <a id="hwgrades"></a>
 #### [How will homework be graded?](#hwgrades)
 
-We'll choose two problems out of each homework set. These will be graded fully, out of ten points, for correctness. 
+We'll choose two problems out of each homework set. These will be graded fully, out of ten points, for correctness. Any extra problems we've given you as part of the
+focused assistance program will also be graded (this means that you can earn extra credit for them).
 
 Note that you must *explain your reasoning* in solving the homework problems. Solutions consisting only of algebra that isn't self-explanatory will not get full credit even if they are correct.
 
@@ -262,28 +250,18 @@ The other problems will be graded simply for completeness, quickly getting a gra
 <a id="recgrades"></a>
 #### [How will recitation participation be graded?](#recgrades)
 
-Each day your TA will give you a grade from 0 to 3:
-
+Each day someone will record whether you're in recitation and whether you're working to learn physics with your group. This will be translated
+roughly to a number as follows:
+ 
 * 0: absent or not working to learn physics during most of recitation
 * 1: present, but not working to learn physics during a large portion of recitation
-* 2: present and working to learn physics, but not working with your group
-* 3: present and working with your group so that both you and they learn the material
+* 3: present and working to learn physics, but not working with your group
+* 5: present and working with your group so that both you and they learn the material
 
-Your lowest four recitation grades will be dropped. If you miss more than four recitations, you should come talk
-to me about broader accommodations. 
+These grades will be scaled so that people who miss a usual number of recitations won't lose substantial credit.
 
 Remember that the most important aspect of recitation is your learning of physics, not the participation grade itself.
  
-
----
-<a id="checkins"></a>
-#### [How do these checkins work?](#checkins)
-
-Every week on Friday I will post a Google Form with some questions checking in on you to see how you're doing.
-After your recitation on Friday, 
-please answer them before Monday at noon (it should take you five minutes at most). There are no correct or
-incorrect answers here -- this is a way for you to give us feedback about how the course is going. Give us 
-useful feedback to earn your credit.
 
 ---
 <a id="lab"></a>
@@ -314,17 +292,15 @@ have a couple of weeks to write it. If it's good, you'll get a high grade. If it
 #### [When are our exams?](#exams)
 
 |------------------------------|:-------------------------:|
-| Group Exam 1                 |    11 February            |
-| Exam 1                       |    15 February            |
-| Group Exam 2                 |    4 March                |
-| Exam 2                       |    10 March               |
-| Group Exam 3                 |    8 April                |
-| Exam 3                       |    12 April               |
-| Final Exam                   |    11 May, 3PM-5PM        |
+| Group Exam 1                 |    FIXME                  |
+| Exam 1                       |    FIXME                  |
+| Group Exam 2                 |    FIXME                  |
+| Exam 2                       |    FIXME                  |
+| Group Exam 3                 |    FIXME                  |
+| Exam 3                       |    FIXME                  |
+| Final Exam                   |    FIXME                  |
 
 The final exam will be held on 11 May; you may not take it earlier or remotely. Please plan to stay in Syracuse until 11 May. 
-
-Students 
 
 ---
 <a id="calculator"></a>
@@ -335,13 +311,17 @@ You may use a calculator to do arithmetic, evaluate trigonometric functions, and
 "scientific" or "graphing" calculator, but may not use a calculator that will do symbolic manipulation (i.e. do
 algebra for you).
 
+A calculator may be helpful but you don't absolutely need one. 
 If you do not have a calculator, you may leave your answers in symbolic form (i.e. "10 meters * cos 20 degrees").
 
 ---
 <a id="cdr"></a>
 #### [I take my exams at CDR. What do I need to do?](#ods)
 
-Register with ODS to take your exam there. We'll send a PDF over. (You don't need to notify us. We do this all the time.)
+Register with CDR to take your exam there. We'll send a PDF over. (You don't need to notify us. We do this all the time.)
+
+Alternately, if your accommodations are extra time, a semiprivate room with fewer distractions, or alternate format, we can likely accommodate that
+in the Physics Building. Come talk to me about that.
 
 Most students with disabilities should still be able to take their *group exams* in recitation, since most disabilities can be accommodated by the presence of other group members. If 
 this for some reason doesn't work for you, please let us and ODS know.
@@ -356,18 +336,15 @@ Tell your recitation TA why you need an extension and when you'll have it done b
 then they'll make arrangements with you to turn it in late. Don't turn your homework in to your TA's mailbox
 unless they tell you to.
 
+Don't skip recitation to finish your homework. If you haven't finished your homework by the time recitation starts,
+go to recitation, tell your TA you haven't quite finished yet, and ask for another day to finish up. We'll be
+understanding especially if you have a Tuesday/Thursday recitation.
+
 ---
 <a id="absenceclass"></a>
 #### [I need to miss a lecture. What do I need to do?](#absenceclass)
 
-If you are in COVID isolation, we will make arrangements based on how many other students are in isolation. 
-This may include making recordings of elements of class and sending them to you or arranging for alternative
-means for you to learn the material. 
-
-The most important thing to stay caught up with is the _recitations_, not the lectures. If you are in isolation,
-download the recitation materials yourself and work on them during your recitation period along with any other
-students who are in isolation over Discord. Ask for help; we will arrange for our coaches and TA's to help you
-over Discord.
+Look at the slides I've posted for announcements and some of the material. You can catch up in recitation.
 
 ---
 <a id="absencerec"></a>
@@ -375,22 +352,8 @@ over Discord.
 
 Let your TA know in advance if possible. 
 Make arrangements to make up the practice you'll miss (we post all the recitation material).
-If you are in COVID isolation, do the recitation problems on your own at home and ask questions
-on Discord. There will almost certainly be someone available to help you.
-
-<<<<<<< HEAD
-<br><br>
-If you are going to be absent for an *unexcused reason*:
-
-* An athletic competition (as an athlete or a spectator)
-* A Greek Life event (other than a purely academic organization's academic event)
-* Anything else related to recreation 
-* Weather (unless campus is closed). 
-
-... let your TA know out of courtesy, and remember we drop your four lowest participation grades.
-=======
-Let your group know out of courtesy, and remember we drop your four lowest participation grades.
->>>>>>> 4320e5f239eb6581b832432096cc8e1d003a67ff
+The best way is to visit Chandler in the Physics Clinic on Monday; that way you can get
+participation credit if your absence was for a good reason.
 
 ---
 <a id="absencegroup"></a>
