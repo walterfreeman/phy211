@@ -23,7 +23,7 @@ use_math: true
 * [Do we have lab this week?, and other lab questions](#lab) 
 * [When are our exams?](#exams)
 * [Do I need a calculator for the exams? What kind?](#calculator)
-* [I take my exams at CDR. What do I need to do?](#ods)
+* [I take my exams at CDR. What do I need to do?](#cdr)
 * [I'll be late turning in my homework. What do I need to do?](#latehomework)
 * [I need to miss a lecture. What do I need to do?](#absenceclass)
 * [I need to miss recitation. What do I need to do?](#absencerec)
@@ -258,7 +258,7 @@ roughly to a number as follows:
 * 3: present and working to learn physics, but not working with your group
 * 5: present and working with your group so that both you and they learn the material
 
-These grades will be scaled so that people who miss a usual number of recitations won't lose substantial credit.
+These grades will be scaled so that people who miss a reasonable number of recitations won't lose credit.
 
 Remember that the most important aspect of recitation is your learning of physics, not the participation grade itself.
  
@@ -292,15 +292,15 @@ have a couple of weeks to write it. If it's good, you'll get a high grade. If it
 #### [When are our exams?](#exams)
 
 |------------------------------|:-------------------------:|
-| Group Exam 1                 |    FIXME                  |
-| Exam 1                       |    FIXME                  |
-| Group Exam 2                 |    FIXME                  |
-| Exam 2                       |    FIXME                  |
-| Group Exam 3                 |    FIXME                  |
-| Exam 3                       |    FIXME                  |
-| Final Exam                   |    FIXME                  |
+| Group Exam 1                 |    3 February             |
+| Exam 1                       |    7 February             |
+| Group Exam 2                 |    24 February            |
+| Exam 2                       |    28 February            |
+| Group Exam 3                 |    31 March               |
+| Exam 3                       |    4 April                |
+| Final Exam                   |    8 May, 3pm-5pm         |
 
-The final exam will be held on 11 May; you may not take it earlier or remotely. Please plan to stay in Syracuse until 11 May. 
+The final exam will be held on 8  May; you may not take it earlier or remotely. Please plan to stay in Syracuse until 8  May. 
 
 ---
 <a id="calculator"></a>
@@ -316,7 +316,7 @@ If you do not have a calculator, you may leave your answers in symbolic form (i.
 
 ---
 <a id="cdr"></a>
-#### [I take my exams at CDR. What do I need to do?](#ods)
+#### [I take my exams at CDR. What do I need to do?](#cdr)
 
 Register with CDR to take your exam there. We'll send a PDF over. (You don't need to notify us. We do this all the time.)
 
@@ -329,7 +329,7 @@ this for some reason doesn't work for you, please let us and ODS know.
 If you need an alternate format exam (large print, etc.), please let us know in advance.
 
 ---
-<a id="latehomework"</a>
+<a id="latehomework"></a>
 #### [I'll be late turning in my homework. What do I need to do?](#latehomework)
 
 Tell your recitation TA why you need an extension and when you'll have it done by. If they are okay with this,
@@ -338,7 +338,8 @@ unless they tell you to.
 
 Don't skip recitation to finish your homework. If you haven't finished your homework by the time recitation starts,
 go to recitation, tell your TA you haven't quite finished yet, and ask for another day to finish up. We'll be
-understanding especially if you have a Tuesday/Thursday recitation.
+understanding especially if you have a Tuesday/Thursday recitation. We tend to be lenient for short extensions
+on homework if you have it mostly completed and are working hard to learn.
 
 ---
 <a id="absenceclass"></a>
@@ -352,14 +353,14 @@ Look at the slides I've posted for announcements and some of the material. You c
 
 Let your TA know in advance if possible. 
 Make arrangements to make up the practice you'll miss (we post all the recitation material).
-The best way is to visit Chandler in the Physics Clinic on Monday; that way you can get
+The best way is to visit Chandler in the Physics Clinic on Monday from 1pm-4pm; that way you can get
 participation credit if your absence was for a good reason.
 
 ---
 <a id="absencegroup"></a>
 #### [I need to miss a group exam. What do I need to do?](#absencegroup)
 
-If your absence is for a good reason, let your TA know. We'll give you the same grade you get on the main exam for your group exam, as well.
+If your absence is for a good reason, let your TA know. We'll give you the same grade you get on the main exam for your group exam as well.
 
 ---
 <a id="absenceexam"></a>
