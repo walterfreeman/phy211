@@ -19,7 +19,7 @@ It will take you about half an hour to complete. The
 ### Current recitation materials
 
 * Day 1 (Tuesday evening or Wednesday): <a href="recitation/week1/recitation-units-motion.pdf">Dimensional analysis and units</a>
-* Day 2 (Thursday evening or Friday): <a href="recitation-1D-motion-1.pdf">Motion in one dimension (1)</a>
+* Day 2 (Thursday evening or Friday): <a href="recitation/week1/recitation-1D-motion-1.pdf">Motion in one dimension (1)</a>
 
 ### Current slides
 
