@@ -1,6 +1,7 @@
 ---
 layout: page 
 permalink: cards.html
+category: top
 use_math: true
 title: ABCD cards
 ---

@@ -1,6 +1,5 @@
 ---
 layout: page
-category: top
 title: Questions
 permalink: cq.html
 use_math: true

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  24 JAN 2022 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  16 JAN 2023 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,42 +883,42 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 164
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<discord-qr.png, id=42, 200.75pt x 200.75pt>
+<discord-qr.png, id=42, 99.37125pt x 99.37125pt>
 File: discord-qr.png Graphic file (type png)
 <use discord-qr.png>
 Package pdftex.def Info: discord-qr.png  used on input line 164.
-(pdftex.def)             Requested size: 174.09496pt x 174.10582pt.
+(pdftex.def)             Requested size: 174.09496pt x 174.11456pt.
  [3
 
  <./discord-qr.png>] [4
 
 ]
-<sun.jpg, id=60, 693.59125pt x 693.59125pt>
+<sun.jpg, id=59, 693.59125pt x 693.59125pt>
 File: sun.jpg Graphic file (type jpg)
 <use sun.jpg>
 Package pdftex.def Info: sun.jpg  used on input line 196.
 (pdftex.def)             Requested size: 117.51775pt x 117.51736pt.
-<rocket.jpg, id=61, 858.20625pt x 858.20625pt>
+<rocket.jpg, id=60, 858.20625pt x 858.20625pt>
 File: rocket.jpg Graphic file (type jpg)
 <use rocket.jpg>
 Package pdftex.def Info: rocket.jpg  used on input line 196.
 (pdftex.def)             Requested size: 117.51775pt x 117.51593pt.
-<crab-nebula.jpg, id=62, 1027.84pt x 1027.84pt>
+<crab-nebula.jpg, id=61, 1027.84pt x 1027.84pt>
 File: crab-nebula.jpg Graphic file (type jpg)
 <use crab-nebula.jpg>
 Package pdftex.def Info: crab-nebula.jpg  used on input line 196.
 (pdftex.def)             Requested size: 117.51775pt x 117.51688pt.
-<lightning.jpg, id=63, 264.5082pt x 264.5082pt>
+<lightning.jpg, id=62, 264.5082pt x 264.5082pt>
 File: lightning.jpg Graphic file (type jpg)
 <use lightning.jpg>
 Package pdftex.def Info: lightning.jpg  used on input line 196.
 (pdftex.def)             Requested size: 117.51775pt x 117.51808pt.
-<snowflake.jpg, id=64, 217.9608pt x 217.9608pt>
+<snowflake.jpg, id=63, 217.9608pt x 217.9608pt>
 File: snowflake.jpg Graphic file (type jpg)
 <use snowflake.jpg>
 Package pdftex.def Info: snowflake.jpg  used on input line 196.
 (pdftex.def)             Requested size: 117.51775pt x 117.5208pt.
-<hurricane.jpg, id=65, 1027.84pt x 1027.84pt>
+<hurricane.jpg, id=64, 1027.84pt x 1027.84pt>
 File: hurricane.jpg Graphic file (type jpg)
 <use hurricane.jpg>
 Package pdftex.def Info: hurricane.jpg  used on input line 196.
@@ -926,9 +926,15 @@ Package pdftex.def Info: hurricane.jpg  used on input line 196.
  [5
 
  <./sun.jpg> <./rocket.jpg> <./crab-nebula.jpg> <./lightning.jpg> <./snowflake.
-jpg> <./hurricane.jpg>] [6
+jpg> <./hurricane.jpg>]
+<orbitals.png, id=72, 2810.5pt x 1606.0pt>
+File: orbitals.png Graphic file (type png)
+<use orbitals.png>
+Package pdftex.def Info: orbitals.png  used on input line 207.
+(pdftex.def)             Requested size: 348.19656pt x 198.9606pt.
+ [6
 
-] [7
+ <./orbitals.png>] [7
 
 ] [8
 
@@ -938,68 +944,68 @@ jpg> <./hurricane.jpg>] [6
 
 ] [11
 
-] [12
+]
+[12
 
 ] [13
 
 ] [14
 
-]
-[15
+] [15
+
+] [16
 
 ]
-<trollface.png, id=143, 642.4pt x 522.753pt>
+<trollface.png, id=151, 642.4pt x 522.753pt>
 File: trollface.png Graphic file (type png)
 <use trollface.png>
-Package pdftex.def Info: trollface.png  used on input line 422.
+Package pdftex.def Info: trollface.png  used on input line 432.
 (pdftex.def)             Requested size: 130.57454pt x 106.25572pt.
- [16
+ [17
 
  <./trollface.png>]
 File: trollface.png Graphic file (type png)
 <use trollface.png>
-Package pdftex.def Info: trollface.png  used on input line 422.
-(pdftex.def)             Requested size: 130.57454pt x 106.25572pt.
- [17
-
-]
-File: trollface.png Graphic file (type png)
-<use trollface.png>
-Package pdftex.def Info: trollface.png  used on input line 422.
+Package pdftex.def Info: trollface.png  used on input line 432.
 (pdftex.def)             Requested size: 130.57454pt x 106.25572pt.
  [18
 
 ]
 File: trollface.png Graphic file (type png)
 <use trollface.png>
-Package pdftex.def Info: trollface.png  used on input line 422.
+Package pdftex.def Info: trollface.png  used on input line 432.
 (pdftex.def)             Requested size: 130.57454pt x 106.25572pt.
  [19
 
 ]
 File: trollface.png Graphic file (type png)
 <use trollface.png>
-Package pdftex.def Info: trollface.png  used on input line 422.
+Package pdftex.def Info: trollface.png  used on input line 432.
 (pdftex.def)             Requested size: 130.57454pt x 106.25572pt.
  [20
 
 ]
 File: trollface.png Graphic file (type png)
 <use trollface.png>
-Package pdftex.def Info: trollface.png  used on input line 422.
+Package pdftex.def Info: trollface.png  used on input line 432.
 (pdftex.def)             Requested size: 130.57454pt x 106.25572pt.
  [21
 
-] [22
+]
+File: trollface.png Graphic file (type png)
+<use trollface.png>
+Package pdftex.def Info: trollface.png  used on input line 432.
+(pdftex.def)             Requested size: 130.57454pt x 106.25572pt.
+ [22
 
-] [23
+]
+[23
 
 ] [24
 
 ] [25
 
-]
-[26
+] [26
 
 ] [27
 
@@ -1023,17 +1029,12 @@ Package pdftex.def Info: trollface.png  used on input line 422.
 
 ] [37
 
-] [38
-
 ]
-<celebration.jpg, id=289, 4047.12pt x 3035.34pt>
-File: celebration.jpg Graphic file (type jpg)
-<use celebration.jpg>
-Package pdftex.def Info: celebration.jpg  used on input line 596.
-(pdftex.def)             Requested size: 261.14908pt x 195.82193pt.
- [39
+[38
 
- <./celebration.jpg>] [40
+] [39
+
+] [40
 
 ] [41
 
@@ -1045,13 +1046,31 @@ Package pdftex.def Info: celebration.jpg  used on input line 596.
 
 ] [45
 
-] [46
+]
+<growth-mindset-meme.jpg, id=335, 561.09625pt x 448.67625pt>
+File: growth-mindset-meme.jpg Graphic file (type jpg)
+<use growth-mindset-meme.jpg>
+Package pdftex.def Info: growth-mindset-meme.jpg  used on input line 605.
+(pdftex.def)             Requested size: 348.19656pt x 278.4297pt.
+ [46
 
-] [47
+ <./growth-mindset-meme.jpg>]
+[47
 
-] [48
+]
+<celebration.jpg, id=348, 4047.12pt x 3035.34pt>
+File: celebration.jpg Graphic file (type jpg)
+<use celebration.jpg>
+Package pdftex.def Info: celebration.jpg  used on input line 649.
+(pdftex.def)             Requested size: 261.14908pt x 195.82193pt.
+ [48
 
-] [49
+ <./celebration.jpg>]
+File: celebration.jpg Graphic file (type jpg)
+<use celebration.jpg>
+Package pdftex.def Info: celebration.jpg  used on input line 649.
+(pdftex.def)             Requested size: 261.14908pt x 195.82193pt.
+ [49
 
 ] [50
 
@@ -1059,58 +1078,88 @@ Package pdftex.def Info: celebration.jpg  used on input line 596.
 
 ] [52
 
+] [53
+
+] [54
+
+] [55
+
+] [56
+
+] [57
+
 ]
-<falling-crop.pdf, id=378, 474.77374pt x 314.17375pt>
+[58
+
+] [59
+
+]
+<metric-sign.jpg, id=425, 1339.0025pt x 2007.5pt>
+File: metric-sign.jpg Graphic file (type jpg)
+<use metric-sign.jpg>
+Package pdftex.def Info: metric-sign.jpg  used on input line 855.
+(pdftex.def)             Requested size: 139.27649pt x 208.78732pt.
+ [60
+
+ <./metric-sign.jpg>]
+File: metric-sign.jpg Graphic file (type jpg)
+<use metric-sign.jpg>
+Package pdftex.def Info: metric-sign.jpg  used on input line 855.
+(pdftex.def)             Requested size: 139.27649pt x 208.78732pt.
+ [61
+
+]
+<falling-crop.pdf, id=440, 474.77374pt x 314.17375pt>
 File: falling-crop.pdf Graphic file (type pdf)
 <use falling-crop.pdf>
-Package pdftex.def Info: falling-crop.pdf  used on input line 826.
+Package pdftex.def Info: falling-crop.pdf  used on input line 903.
 (pdftex.def)             Requested size: 152.33475pt x 100.8061pt.
-
-[53
+ [62
 
  <./falling-crop.pdf>]
-<constant-v-crop.pdf, id=389, 444.66125pt x 443.6575pt>
+<constant-v-crop.pdf, id=451, 444.66125pt x 443.6575pt>
 File: constant-v-crop.pdf Graphic file (type pdf)
 <use constant-v-crop.pdf>
-Package pdftex.def Info: constant-v-crop.pdf  used on input line 848.
+Package pdftex.def Info: constant-v-crop.pdf  used on input line 925.
 (pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
- [54
+ [63
 
  <./constant-v-crop.pdf>]
 File: constant-v-crop.pdf Graphic file (type pdf)
 <use constant-v-crop.pdf>
-Package pdftex.def Info: constant-v-crop.pdf  used on input line 848.
+Package pdftex.def Info: constant-v-crop.pdf  used on input line 925.
 (pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
- [55
+ [64
 
 ]
 File: constant-v-crop.pdf Graphic file (type pdf)
 <use constant-v-crop.pdf>
-Package pdftex.def Info: constant-v-crop.pdf  used on input line 848.
+Package pdftex.def Info: constant-v-crop.pdf  used on input line 925.
 (pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
- [56
+ [65
 
 ]
-<constant-v-2-crop.pdf, id=414, 444.66125pt x 443.6575pt>
+<constant-v-2-crop.pdf, id=475, 444.66125pt x 443.6575pt>
 File: constant-v-2-crop.pdf Graphic file (type pdf)
 <use constant-v-2-crop.pdf>
-Package pdftex.def Info: constant-v-2-crop.pdf  used on input line 872.
+Package pdftex.def Info: constant-v-2-crop.pdf  used on input line 949.
 (pdftex.def)             Requested size: 174.09496pt x 173.70268pt.
- [57
+ [66
 
- <./constant-v-2-crop.pdf>] [58
+ <./constant-v-2-crop.pdf>] [67
 
-] [59
+] [68
 
-] [60
+] [69
 
-] [61
+]
+[70
 
-] [62
+] [71
 
-] [63
+] [72
 
-] [64
+] [73
 
 ]
 \tf@nav=\write6
@@ -1122,22 +1171,23 @@ Package pdftex.def Info: constant-v-2-crop.pdf  used on input line 872.
 \tf@snm=\write8
 \openout8 = `lecture1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 932.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 932.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1009.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1009.
  (./lecture1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 932.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 932.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1009.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1009.
+
 Package rerunfilecheck Info: File `lecture1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19160 strings out of 481239
- 364340 string characters out of 5920376
- 618728 words of memory out of 5000000
- 33803 multiletter control sequences out of 15000+600000
- 549893 words of font info for 92 fonts, out of 8000000 for 9000
+ 19185 strings out of 481239
+ 364633 string characters out of 5920376
+ 618813 words of memory out of 5000000
+ 33806 multiletter control sequences out of 15000+600000
+ 545903 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,845b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,15n,67p,845b,709s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
@@ -1152,13 +1202,14 @@ msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on lecture1.pdf (64 pages, 7152271 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb>
+Output written on lecture1.pdf (73 pages, 8621293 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 438 compressed objects within 5 object streams
- 129 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

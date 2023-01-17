@@ -7,13 +7,14 @@ use_math: true
 ---
 
 
-<a href="FIXME">Homework 0</a> is your math pre-assessment. It is the only online thing we'll do this semester, and is due at noon, January 23.<br>
-
-
-<a href="hw/hw1/hw1.pdf">Homework 1</a>, due Friday, February 4, at the start of recitation<br>
-
+<a href="https://docs.google.com/forms/d/1L2nFRb4D2kwFbkUouQQsEbjN9ZMbEogMW5NICYUluqU/">Homework 0</a> is your math pre-assessment. It is the only online thing we'll do this semester, and is due by **3pm, Monday January 23**.<br>
 
 <!---
+
+<a href="hw/hw1/hw1.pdf">Homework 1</a>, due at the start of your recitation on January 26 or 27.<br>
+
+
+
 
 
 <a href="hw/hw1/hw1-companion.pdf">Homework 1 Companion</a>, with hints and a discussion of what we hope you learn from these exercises

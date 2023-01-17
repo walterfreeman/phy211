@@ -45,7 +45,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 20 April    | The physics of musical instruments (1)                                                                           |                                | 
 | 25 April    | The physics of musical instruments (2)                                                                           |                                |
 | 27 April    | The physics of musical instruments (3); course retrospective and closing                                         |                                |
-| 11 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |
+| 8 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
 
 

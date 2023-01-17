@@ -1,6 +1,5 @@
 ---
 layout: page
-category: top
 title: Solutions
 permalink: solutions.html
 use_math: true

@@ -6,6 +6,10 @@ permalink: syllabus.html
 use_math: true
 ---
 
+This syllabus should be considered a draft until this notice is removed.
+
+Please see the course calendar (linked above) for details about what topics we plan to cover when.
+
 ##### Quick links: <a id="top"></a>
 
 * [Contact Information](#contact)
@@ -46,7 +50,7 @@ use_math: true
 - Focused assistance program director: Brendan Parlee, <bhparlee@syr.edu>
  
 Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:30, Tuesdays and Thursdays
--   Help sessions (office hours): Friday 9:00-11:00; others TBA
+-   Help sessions (office hours): Friday 9:00-11:00; Tuesdays 
 -   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
 -   Course Discord server: See the QR codes in the hallway or Blackboard for a link. 
     * (We are not posting the invite on a public website because of past trollery.)
@@ -276,7 +280,6 @@ Show us what you are thinking and why you are doing what you're doing; this will
 **If you do not describe what you are doing and why, you will not get full credit for a solution, even if it is correct.**
 
 Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. 
-Your lowest homework set grade will be dropped.
 
 <a id="labs"></a>
 #### Labs
@@ -309,10 +312,10 @@ If you have questions or suggestions, need help with your homework or with study
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
 | Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
-| Exam 1                       | 15 February               |             100   |
-| Exam 2                       | 10 March                  |             100   |
-| Exam 3                       | 12 April                  |             100   |
-| Final Exam                   | 11 May, 3PM-5PM           |             100 plus extra credit   |
+| Exam 1                       | 7 February                |             100   |
+| Exam 2                       | 28 February               |             100   |
+| Exam 3                       | 4 April                   |             100   |
+| Final Exam                   | 8 May, 3PM-5PM            |             100 plus extra credit   |
 | Recitation participation     | Throughout the semester   |  5 each; around 125 in total   |
 | Group practice exams         | Prior to each exam        | 50 each; 150 in total  |
 
@@ -417,7 +420,7 @@ receive a grade. In general, any student who is unable to meaningfully participa
 is eligible to take an incomplete in the course. If you think that you may need to take an incomplete, please contact us as soon as possible. We will
 ask for documentation of your situation.
 
-In general, students may *only* take an incomplete if they have finished a substantial portion of the course (two of the four units) with a grade of C+ or better. 
+In general, students may *only* take an incomplete if they have finished a substantial portion of the course (two of the four units) with a grade of B- or better. 
 
 <a id="policy"></a>
 
@@ -426,22 +429,27 @@ In general, students may *only* take an incomplete if they have finished a subst
 ### Academic integrity
 
 While you are encouraged to discuss your homework with your peers and collaborate with them on solving our problems, 
-all work you submit must reflect your own understanding and be a product of your own effort. Submitting any work that you do not understand and cannot explain, or that
+all work you submit must reflect your own understanding and be a product of your own effort. 
+Submitting any work that you do not understand and cannot explain, or that
 is a result of wholesale copying, will be considered academic dishonesty. Please don't let this discourage you from working on your homework with your peers.
 That is exactly what you *should* do! But *copying someone's work* is different than *working together with them*. 
 
-Additionally, you are not allowed to post solutions to the homework on the Internet or solicit them in exchange for money. In particular
-posting solutions to or copying solutions from Chegg, Bartleby, or any other websites that charge students a fee or otherwise monetize access to that material
-is an extremely serious breach of the Academic Integrity Policy and may result in your suspension or expulsion from SU. 
+You are not allowed to post solutions to the homework on the Internet or solicit them in exchange for money. In particular
+posting solutions to or copying solutions from Chegg, Bartleby, StudyX or any other websites that charge students a fee 
+or otherwise monetize access to that material is an extremely serious breach of the Academic Integrity Policy and may 
+result in your suspension or expulsion from SU. 
 
 In general:
 
-* for **homework assignments**, you may consult any general references and people you like, so long as you are not soliciting solutions to copy. Your solution must be your own work, and you must understand everything you submit. If you submit homework solutions that you have copied and don't understand, 
+* for **homework assignments**, you may consult any general references and people you like, so long as you are not soliciting solutions to copy. 
+Your solution must be your own work, and you must understand everything you submit. If you submit homework solutions that you have copied and don't understand, 
 it will probably _lower_ your grade in the end, since we won't be able to get you extra help through the focused assistance program.
-* for **group exams**, you may work with the other members in your group. You must understand everything you
+* for **group exams**, you may work with the other members in your group. You must understand and be able to explain everything you
 submit. Teaching staff (coaches and TA's) will often provide assistance during your recitation if you forget something;
 we will, for instance, tell you what the quadratic formula is if you forget.
-* for **exams**, you may bring one page of handwritten notes, plus a calculator that doesn't do algebra for you. You may not use any other electronic devices (smartphones, smartwatches, earphones), may not look at other students' work, and may not consult or collaborate with anyone other than teaching staff during the exam.
+* for **exams**, you may bring one page of handwritten notes, plus a calculator that doesn't do algebra for you. 
+You may not use any other electronic devices (smartphones, smartwatches, earphones), may not look at other students' work, 
+and may not consult or collaborate with anyone other than teaching staff during the exam.
 
 
 <!--
@@ -495,21 +503,21 @@ importance to your education, your family, stewardship of your health and the he
 religious faith or life stance, or your participation in the democratic process or civic discourse. You might also 
 miss class due to an unexpected emergency such as a car accident.
 
-If you will have regular Friday absences (for instance, if you are an athlete-student), you should be in a Tuesday/Thursday recitation section. We will
-not excuse any absences for athletic travel on Fridays. 
+If you will have regular Friday absences (for instance, if you are an athlete-student), you should be in a Tuesday/Thursday recitation section; if you are not, contact <phyacademics@syr.edu> to transfer to one.
+We will not excuse any absences for athletic travel on Fridays.
 
 **If you miss an isolated lecture class**, you may be able to catch up during the recitation immediately following the class you miss. You are always welcome to come to 
 my office hours for help (and should do so). 
 
 **If you miss recitation**, send a note to your recitation TA and to Chandler Martin explaining your absence. You may come visit Chandler in the Physics 
-Clinic the following Monday to work through the recitation exercise with him; he will give you credit for recitation attendance and participation, so long
-as you don't abuse this system.
+Clinic the following Monday from 1-4 PM to work through the recitation exercise with him; he will give you credit for recitation attendance and participation, so long as you don't abuse this system.
 
 **If you are late turning in a homework assignment**, you should describe the reason it is late to your TA and get their permission to turn it in late. 
-(We will generally grant homework extensions for the reasons outlined above or in other situations where granting a homework extension will help you learn
-physics.) Everyone may turn in *one* homework assignment up to a week late without giving a reason
+(We will generally grant homework extensions for the reasons outlined above or in other situations where granting a homework extension will help you learn physics.) 
+Everyone may turn in *one* homework assignment up to a week late without giving a reason
 by writing on the top of it "This is my one late submission" and turning it in at the next
-recitation. Otherwise, we won't accept late homework without a reason (and won't accept homework more than three days late without a *very* good reason).
+recitation. 
+Otherwise, we won't accept late homework without a reason (and won't accept homework more than three days late without a compelling reason).
 
 **If you miss a group quiz** for a good reason (detailed above), we will replace its grade with the grade you get on the corresponding exam held the next week.
 To be eligible to do this, unless the situation is an emergency, you must contact your GTA and Walter and explain the reason for your absence and get it approved ahead of time, and then

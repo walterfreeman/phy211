@@ -5,4 +5,5 @@ title: Clinic Schedule
 permalink: clinic-schedule.html
 use_math: true
 ---
-Clinic schedule coming soon...
+
+<img src="clinic-schedule.png" align=center>
