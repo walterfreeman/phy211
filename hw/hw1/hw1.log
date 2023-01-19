@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  1 FEB 2022 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  18 JAN 2023 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,54 +369,30 @@ e
 ))
 [1
 
-{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): ambiguous entry for `UniClass[letter]': font file pr
-esent but not included, will be treated as font file not present
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrb8y' already exists, duplicate
-s ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrbo8y' already exists, duplicat
-es ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrr8y' already exists, duplicate
-s ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrro8y' already exists, duplicat
-es ignored
-}]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
- been already used, duplicate ignored
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warnin
+g (ext4): destination with the same identifier (name{page.}) has been already u
+sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.153 \item    T
-                he quadratic formula gives you two solutions to the quadrati...
+l.152 S
+       he slams on her brakes, and the sound of squealing brakes alerts the ...
 [2]pdfTeX warning (ext4): destination with the same identifier (name{page.}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \end{document}
+l.191 \end{document}
                      [3] (./hw1.aux)
 Package rerunfilecheck Info: File `hw1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8932 strings out of 478862
- 130324 string characters out of 5858945
- 442922 words of memory out of 6000000
- 26442 multiletter control sequences out of 15000+600000
+ 8934 strings out of 478855
+ 130338 string characters out of 5858635
+ 442962 words of memory out of 6000000
+ 26443 multiletter control sequences out of 15000+600000
  407956 words of font info for 43 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 60i,4n,63p,344b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,5n,63p,339b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
@@ -424,10 +400,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on hw1.pdf (3 pages, 78999 bytes).
+Output written on hw1.pdf (3 pages, 80322 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

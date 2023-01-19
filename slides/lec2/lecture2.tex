@@ -1,4 +1,4 @@
-% DPF 09 talk on strangeness in nucleon
+ % DPF 09 talk on strangeness in nucleon
 
 \documentclass[10pt]{beamer}
 \usefonttheme{professionalfonts} % using non standard fonts for beamer
@@ -110,7 +110,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University\\Walter Freeman}
 
 \date{\today}
 
@@ -137,6 +137,12 @@ stand to one another {\bf in the same ratio as the odd numbers beginning with un
 --Galileo Galilei, {\it Dialogues and Mathematical Demonstrations Concerning Two New Sciences}, 1638 (translated into English by some old dead guy)
 }
 
+\frame{
+	
+	\centerline{\includegraphics[width=0.9\textwidth]{pisa.jpg}}
+
+}
+
 \frame{\frametitle{\textbf{The beginning: Free fall}}
 	\large
 	\begin{center}
@@ -156,23 +162,46 @@ stand to one another {\bf in the same ratio as the odd numbers beginning with un
 	--Galileo Galilei, {\it Dialogues and Mathematical Demonstrations Concerning Two New Sciences}, 1638 (in modern English)
 }
 
+\frame{\frametitle{\textbf{Empiricism}}
+	
+	\large
+	
+	
+	The highest authority in science is what we measure.
+	
+	\BS
+	
+	If we're seeking truth about nature, the starting point {\it must be} what we see.
+	
+	\BS
+	
+	Galileo made this observation about falling objects. He {\it didn't} know why.
+	
+	\BS\BS\pause
+	
+	Our job for today:
+	
+	\BI
+	\item Come up with a {\color{Red} model} that might explain falling
+	\item Use mathematics to explore the things that our model {\color{Green}predicts}
+	\BI
+	\item Does our model predict Galileo's observation?
+	\EI
+	\item See what else our model could also explain besides falling objects
+	\EI	
+}
+
 
 \frame{\frametitle{\textbf{Reminders:}}
 \Large
 \begin{itemize}
-\item Webpage: {https://walterfreeman.github.io/phy211/}
+\item Webpage: \url{https://walterfreeman.github.io/phy211/}
 \BI
 \large
 \item Syllabus, homework, etc. are all there
 \EI
-\item The first homework is due next Friday
-\item Your first weekly ``check-in'':
-\BI
-\item A brief Google form to gather feedback from you and see how you're doing
-\item This first one will include a bit of a survey on who you are
-\item Sent out tomorrow, due Monday by noon
-\item No ``physics questions''
-\EI
+\item Homework 0 is a brief survey including about your math skills
+\item Homework 1 will be posted today and will be due next Thursday or Friday in recitation
 \EI
 }
 
@@ -190,19 +219,21 @@ If you've got questions you'd like me to address, send them in and I'll answer t
 \normalsize
 \BI
 \item What are gravity waves?
-\item How is physics used in medicine?
+\item Is there a smallest distance in the universe? {\it (This is my research actually!)}
+\item How is physics used in medicine? Or computer design? Or environmental science? Or the military?
 \item{What's the Large Hadron Collider for?}
 \item{How does a touchscreen work?}
 \item{How do 3D movies work?}
 \item{What is the Higgs boson?}
 \item{How is physics used in video games?}
 \item{How does a nuclear reactor work?}
-\item{How does a supercomputer work?}
+\item How do we simulate physics using computers?
+\item{How does a supercomputer work (and do this faster)?}
 \EI
 }
 
 \frame{\frametitle{\textbf{Homework tips}}
-\centerline{\Large Your first homework assignment is due next Friday.}
+\centerline{\Large Your first ``real'' homework assignment is due next Friday.}
 
 \bigskip
 \bigskip
@@ -228,29 +259,26 @@ If you've got questions you'd like me to address, send them in and I'll answer t
 \EI
 \EI
 }
-
-\frame{\frametitle{\textbf{The course webpage and Discord server}}
-\large
-\BI
-\item{All notes, etc., will be posted on the course website (not Blackboard)}
-\item{I will also post course announcements there}
-\item{The syllabus is posted there}
-\item{You really should read the section on the course philosophy}
-\EI
-\bigskip
-\bigskip
-\BI
-\item{There is also a course Discord server at \url{https://discord.gg/bngYwjZRHk}}
-\item{This is a great place to ask questions, get advice, and collaborate with your classmates, teaching staff, and me}
-\EI
-}
+%
+%\frame{\frametitle{\textbf{The course webpage}}
+%\large
+%\BI
+%\item{All notes, etc., will be posted on the course website (not Blackboard)}
+%\item{I will also post course announcements there}
+%\item{The syllabus is posted there}
+%\EI
+%
+%\BS\BS
+%
+%
+%}
 
 \frame{\frametitle{\textbf{Office hours}}
 \Large
 In the Physics Clinic:
 \BI
-\item{Tuesdays: 2:00-3:50 PM}
-\item{Fridays: 11:00 AM-1:00 PM (may change)}
+\item{Tuesdays: 2:00-4:00 PM}
+\item{Fridays: 9:00 AM-11:00 AM (may change)}
 \item Other times announced (if homework is due Friday, I may hold Thursday office hours)
 \EI
 
@@ -260,144 +288,6 @@ or by appointment.
 
 Outside these times you might find me in the Clinic or in my office in room 215.
 }
-%
-%\frame{\frametitle{\textbf{Dimensions}}
-%\large
-%Things in nature aren't just described by numbers; they have an associated {\it dimension},
-%and we measure them using a {\it system of units}.
-%
-%\BS
-%
-%We have three different kinds of dimension:
-%
-%\Large
-%
-%\BI
-%\item {\bf Length}: usually measured in {\bf meters}; also inches, miles, light-years...
-%\item {\bf Mass}: usually measured in {\bf kilograms}; also grams, tonnes...
-%\item {\bf Time}: usually measured in {\bf seconds}; also hours, days...
-%\EI
-%
-%\pause
-%
-%For the Americans: the pound measures {\it force}, not mass. The word 
-%``weight'' means ``force due to gravity''; an object with a mass of
-%one kilogram weighs 2.2 pounds on Earth.
-%}
-%
-%\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
-%\Large
-%
-%\BC ``It is two hours from Syracuse to Adirondack State Park'' \EC
-%
-%\BS
-%
-%Does this statement make sense?
-%
-%\Huge
-%
-%\color{A}A: Yes\\
-%\color{B}B: No\\
-%\pause
-%\color{C}C: Only if I tell you something else, too\\
-%
-%\pause
-%
-%\Large
-%\color{Black}
-%\BS
-%\BC
-%I've got to also tell you the car's velocity!
-%\EC
-%}
-%
-%\frame{\frametitle{\textbf{Math, physics-style, I: working with dimensions}}
-%
-%\Large
-%
-%\BC
-%
-%``The distance from Syracuse to the Adirondacks is two hours''
-%
-%
-%$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time}$$
-%
-%
-%{\bf This statement makes no sense!}
-%
-%\BS\BS\BS\pause
-%
-%\large
-%``The distance from 'Cuse to the Adirondacks is two hours at 100 km per hour''
-%\Large
-%$$\color{Red} {\rm Distance} \color{Black} = \color{Green} {\rm Time} \times \frac{\rm \color{Red} Distance}{\rm \color{Green}Time}$$
-%
-%
-%Here the dimensions match on both sides; this is a valid statement.
-%\EC
-%}
-%
-%\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
-%
-%\large
-%Units of measure (km, hours) follow the rules of algebra.
-%
-%\Large
-%\begin{align*}
-%s &= (2 \,{\rm \color{Red}hr}) \times \frac{100\, \rm km}{1\, \rm \color{Red} hr}\\
-%s &= 200 \rm\, km
-%\end{align*}
-%
-%\BS
-%
-%Velocity is thus a length divided by a time: km/hr, m/s, etc. What about acceleration?
-%
-%}
-%
-%\frame{\frametitle{\textbf{Math, physics-style, II: working with units}}
-%\BC
-%\large
-%``A falling object's speed increases by 10 meters per second every second.''
-%
-%\BS
-%
-%$$
-%10 \frac{\frac{\rm meter}{\rm second}}{\rm second}
-%$$
-%
-%This is really awkward to write...
-%
-%\BS
-%
-%$$
-%10 \frac{\frac{\rm meter}{\rm second}}{\rm second} = 10 \rm m/\rm s^2
-%$$
-%
-%Much better! Even though nobody's ever seen a ``squared second'', this still makes
-%sense mathematically. We can build all kinds of compound units this way.
-%\EC
-%}
-%
-%\frame{\frametitle{\textbf{Math, physics-style, III: compound units}}
-%
-%\Large Newton's second law says that force is equal to mass times acceleration. In 
-%symbols, $F=ma$. What units could you measure force in?
-%
-%\BS
-%\Huge
-%\color{A}A: $\rm kg\, m/s$\\
-%\color{B}B: $\rm kg\, m/s^2$\\
-%\color{C}C: $\rm m/s^2$\\
-%\color{D}D: $\rm kg\, m$\\
-%\Large
-%
-%\pause\color{Black}
-%
-%\BS
-%
-%This gets awkward to keep writing, so we define: $1 \, \rm kg\, m/s^2 = 1\, newton$, 
-%abbreviated $\rm N$.
-%}
 
 \frame{\frametitle{\textbf{The beginning: describing motion (1-D)}}
 \large
@@ -467,7 +357,7 @@ a ball off a building, putting the origin at the ground and calling ``up'' the p
 \column{0.5\textwidth}
 \color{Blue}
 $$y(t) = (40 \,{\mathrm m}) - C t^2$$ \\
-(C is some number; we'll learn what it is Thursday)
+(C is some number; we'll learn what it is in a bit)
 
 \end{columns}
 
@@ -729,6 +619,13 @@ What's the area of the shaded region?
 
 
 \frame{\frametitle{\textbf{A calculus review}}
+
+\BC
+
+What if the velocity is more complicated?
+
+\EC
+
 
 \centerline{\includegraphics[width=0.6\textwidth]{integral-curve-coarse-crop.pdf}}
 
