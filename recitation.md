@@ -7,11 +7,12 @@ use_math: true
 ---
 
 
-<a href="recitation/week1/recitation-units-motion.pdf">Week 1 Wednesday: Fermi problems</a><br>
-<a href="recitation/week1/recitation-1D-motion-1.pdf">Week 1 Friday: 1D motion, part 1</a>
+<a href="recitation/week1/recitation-units-motion.pdf">Week 1 Day 1: Mathematics with dimensions and units </a><br>
+<a href="recitation/week1/recitation-1D-motion-1.pdf">Week 1 Day 2: 1D motion, part 1</a>
 
 <br><br>
-
+<!--
+S2022
 <a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a><br>
 <a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
 <br>
@@ -55,7 +56,6 @@ use_math: true
 
 
 
-<!--
 S2021
 Week 12 Wednesday: <a href="recitation/week12/recitation-oscillations.pdf">Standing waves and harmonic series</a>
 
