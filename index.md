@@ -7,7 +7,7 @@ title: Announcements
 
 ### Current homework 
 
-<a href="homework/hw1/hw1.pdf">Homework 1</a> (your first "proper" homework set) is due Thursday night or Friday in recitation. 
+<a href="hw/hw1/hw1.pdf">Homework 1</a> (your first "proper" homework set) is due Thursday night or Friday in recitation. 
 
 Your 0th homework assignment is to answer a short set of questions about your math background.
 This will let us help you better in our class, both in general and as part of the focused assistance
