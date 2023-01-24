@@ -9,26 +9,14 @@ title: Announcements
 
 <a href="hw/hw1/hw1.pdf">Homework 1</a> (your first "proper" homework set) is due Thursday night or Friday in recitation. 
 
-Your 0th homework assignment is to answer a short set of questions about your math background.
-This will let us help you better in our class, both in general and as part of the focused assistance
-program.
-
-Optionally, you may tell us a little about yourself.
-
-The typo present in Question 4 originally has been fixed. If you answered the survey before we fixed
-it, don't worry about doing it again.
-
-It will take you about half an hour to complete. The 
-<a href="https://docs.google.com/forms/d/1L2nFRb4D2kwFbkUouQQsEbjN9ZMbEogMW5NICYUluqU/">survey is available as a Google Form</a>.
-
 ### Current recitation materials
 
-* Day 1 (Tuesday evening or Wednesday): <a href="recitation/week1/recitation-units-motion.pdf">Dimensional analysis and units</a>
-* Day 2 (Thursday evening or Friday): <a href="recitation/week1/recitation-1D-motion-1.pdf">Motion in one dimension (1)</a>
+* Day 1 (Tuesday evening or Wednesday): <a href="recitation/week2/recitation-1D-motion-2.pdf">1D kinematics, part 2</a>
+* Day 2 (Thursday evening or Friday): <a href="recitation/week2/recitation-vectors.pdf">Vectors</a>
 
 ### Current slides
 
-<a href="slides/lec2/lecture2.pdf">The beginning: Free fall and constant acceleration</a> 
+<a href="slides/lec3/lecture3.pdf">Solving problems using one-dimensional kinematics</a> (Note: The 11:00 class will go back to Lecture 2's slides to finish up.)
 
 
 ### Information

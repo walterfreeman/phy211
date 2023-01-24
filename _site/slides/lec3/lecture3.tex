@@ -20,7 +20,7 @@
 \def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
 \def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
 \def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
-
+\def\BS{\bigskip}
 \def\rightpartial{{\overrightarrow\partial}}
 \def\leftpartial{{\overleftarrow\partial}}
 \def\diffpartial{\buildrel\leftrightarrow\over\partial}
@@ -123,7 +123,7 @@ Inexperienced students make guesses that are very complicated, $[$but$]$ the tru
 
 \end{center}
 \bigskip
---Richard Feynman, quoted by K. C. Cole, in {\it Sympathetic Vibrations: Reflections on Physics as a Way of Life (1985)}
+--Richard Feynman, quoted by K. C. Cole, in {\it Sympathetic Vibrations: Reflections on Physics as a Way of Life} (1985)
 
 \bigskip
 \bigskip
@@ -151,7 +151,7 @@ Nature uses only the longest threads to weave her patterns, so each small piece 
 \BI
 \item 2-4 PM today (Tuesday)
 \item 2:15-4 PM Wednesday
-\item 1:30-3:30 PM Thursday
+\item 1:30-3:00 PM Thursday
 \EI
 \item You can also ask your classmates and us for advice on Discord
 \EI
@@ -163,7 +163,17 @@ Nature uses only the longest threads to weave her patterns, so each small piece 
 \frame{\frametitle{\textbf{``Ask a Physicist''}}
 \Large
 
-Submit questions by email or Discord (or the weekly checkin forms)
+``Why does gravity make all objects fall at the same rate, in light of Newton's second law?''
+
+\BS\BS\pause
+
+Newton's second law: {\color{Red} \bf ``It takes more force to make more massive things accelerate''}
+
+\BS\BS\pause
+
+We should look at this backwards: {\bf \color{Blue} We observe that all objects fall at the same rate. What must the law of gravity be to make this happen?}\BS\BS\pause
+
+The law of gravity: {\color{Green} \bf ``Gravity applies more force to more massive things''}
 
 }
 
@@ -488,128 +498,128 @@ the time, then find $v$.
 	Same idea as before; see example on the document camera.
 }
 
-
-
-\frame{
-
-\begin{center}
-	Those looking at these slides later: we probably won't get to what's after this. It'll come back later in the semester. This is just here if we have extra time and you don't have questions!
-\end{center}
-
-}
-
-
-\frame{\frametitle{\textbf{Rotational kinematics}}
-\Large
-\BI
-\item{Linear motion: care about position as a function of time}
-\item{Rotational motion: care about {\color{Red}angle} as a function of time}
-\item{\bf Everything we just did translates to rotational kinematics exactly!}
-\EI
-}
-
-\frame{\frametitle{\textbf{Position, velocity, and acceleration}}
-\begin{columns}
-\column{0.125\textwidth}
-\centerline{\Large Position}
-\column{0.2\textwidth}
-\small
-{\color{Red}
-\centerline{(derivative of)}
-\centerline{rate of change of}
-\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
-{\color{Green}
-\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
-\color{Green}\centerline{area under the curve of}
-\color{Green}\centerline{(integral of)}
-\column{0.125\textwidth}
-\centerline{\Large Velocity}
-\pause
-\column{0.2\textwidth}
-\small
-{\color{Red}
-\centerline{(derivative of)}
-\centerline{rate of change of}
-\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
-{\color{Green}
-\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
-\color{Green}\centerline{area under the curve of}
-\color{Green}\centerline{(integral of)}
-\column{0.15\textwidth}
-\centerline{\Large Acceleration}
-\end{columns}
-}
-
-\frame{\frametitle{\textbf{Angle, angular velocity, and angular acceleration}}
-\begin{columns}
-\column{0.125\textwidth}
-\centerline{\Large Angle}
-\column{0.2\textwidth}
-\small
-{\color{Red}
-\centerline{(derivative of)}
-\centerline{rate of change of}
-\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
-{\color{Green}
-\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
-\color{Green}\centerline{area under the curve of}
-\color{Green}\centerline{(integral of)}
-\column{0.125\textwidth}
-\begin{center}
-\Large Angular velocity ($\omega$)
-\end{center}
-\pause
-\column{0.2\textwidth}
-\small
-{\color{Red}
-\centerline{(derivative of)}
-\centerline{rate of change of}
-\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
-{\color{Green}
-\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
-\color{Green}\centerline{area under the curve of}
-\color{Green}\centerline{(integral of)}
-\column{0.15\textwidth}
-\begin{center}
-\large Angular acceleration ($\alpha$)
-\end{center}
-\end{columns}
-
-\Large
-\bigskip
-\bigskip
-\bigskip
-
-\pause
-
-$$ x(t) = x_0 + v_0 t + \frac{1}{2}at^2 $$
-
-$$ \theta(t) = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2 $$
-
-\pause
-
-\bigskip
-
-$\rightarrow$ Angular kinematics works in exactly the same way as translational kinematics!
-
-}
-
-\frame{\frametitle{\textbf{Angle, angular velocity, and angular acceleration}}
-\large
-\BI
-\item{Angle $\theta$ -- the angle through which something has turned.}
-\item{Measured in revolutions, radians, degrees...}
-\bigskip
-\bigskip
-\bigskip
-\item{Angular velocity $\omega$ (``omega'', not ``dubya'') -- the rate at which something is turning} 
-\item{Measured in revolutions per second, radians per second, degrees per second...}
-\bigskip
-\bigskip
-\bigskip
-\item{Angular acceleration $\alpha$ (``alpha'', not ``fish'') -- the rate at which something's rate of turning is changing} 
-\item{Measured in $\frac{\rm rev}{\rm s^2}$, $\frac{\rm rad}{\rm s^2}$, $\frac{\rm deg}{\rm s^2}$...}
-\EI
-}
+%
+%
+%\frame{
+%
+%\begin{center}
+%	Those looking at these slides later: we probably won't get to what's after this. It'll come back later in the semester. This is just here if we have extra time and you don't have questions!
+%\end{center}
+%
+%}
+%
+%
+%\frame{\frametitle{\textbf{Rotational kinematics}}
+%\Large
+%\BI
+%\item{Linear motion: care about position as a function of time}
+%\item{Rotational motion: care about {\color{Red}angle} as a function of time}
+%\item{\bf Everything we just did translates to rotational kinematics exactly!}
+%\EI
+%}
+%
+%\frame{\frametitle{\textbf{Position, velocity, and acceleration}}
+%\begin{columns}
+%\column{0.125\textwidth}
+%\centerline{\Large Position}
+%\column{0.2\textwidth}
+%\small
+%{\color{Red}
+%\centerline{(derivative of)}
+%\centerline{rate of change of}
+%\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+%{\color{Green}
+%\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+%\color{Green}\centerline{area under the curve of}
+%\color{Green}\centerline{(integral of)}
+%\column{0.125\textwidth}
+%\centerline{\Large Velocity}
+%\pause
+%\column{0.2\textwidth}
+%\small
+%{\color{Red}
+%\centerline{(derivative of)}
+%\centerline{rate of change of}
+%\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+%{\color{Green}
+%\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+%\color{Green}\centerline{area under the curve of}
+%\color{Green}\centerline{(integral of)}
+%\column{0.15\textwidth}
+%\centerline{\Large Acceleration}
+%\end{columns}
+%}
+%
+%\frame{\frametitle{\textbf{Angle, angular velocity, and angular acceleration}}
+%\begin{columns}
+%\column{0.125\textwidth}
+%\centerline{\Large Angle}
+%\column{0.2\textwidth}
+%\small
+%{\color{Red}
+%\centerline{(derivative of)}
+%\centerline{rate of change of}
+%\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+%{\color{Green}
+%\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+%\color{Green}\centerline{area under the curve of}
+%\color{Green}\centerline{(integral of)}
+%\column{0.125\textwidth}
+%\begin{center}
+%\Large Angular velocity ($\omega$)
+%\end{center}
+%\pause
+%\column{0.2\textwidth}
+%\small
+%{\color{Red}
+%\centerline{(derivative of)}
+%\centerline{rate of change of}
+%\centerline{$\xleftarrow{\makebox[\textwidth]{}}$}}
+%{\color{Green}
+%\color{Green}\centerline{$\xrightarrow{\makebox[\textwidth]{}}$}}
+%\color{Green}\centerline{area under the curve of}
+%\color{Green}\centerline{(integral of)}
+%\column{0.15\textwidth}
+%\begin{center}
+%\large Angular acceleration ($\alpha$)
+%\end{center}
+%\end{columns}
+%
+%\Large
+%\bigskip
+%\bigskip
+%\bigskip
+%
+%\pause
+%
+%$$ x(t) = x_0 + v_0 t + \frac{1}{2}at^2 $$
+%
+%$$ \theta(t) = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2 $$
+%
+%\pause
+%
+%\bigskip
+%
+%$\rightarrow$ Angular kinematics works in exactly the same way as translational kinematics!
+%
+%}
+%
+%\frame{\frametitle{\textbf{Angle, angular velocity, and angular acceleration}}
+%\large
+%\BI
+%\item{Angle $\theta$ -- the angle through which something has turned.}
+%\item{Measured in revolutions, radians, degrees...}
+%\bigskip
+%\bigskip
+%\bigskip
+%\item{Angular velocity $\omega$ (``omega'', not ``dubya'') -- the rate at which something is turning} 
+%\item{Measured in revolutions per second, radians per second, degrees per second...}
+%\bigskip
+%\bigskip
+%\bigskip
+%\item{Angular acceleration $\alpha$ (``alpha'', not ``fish'') -- the rate at which something's rate of turning is changing} 
+%\item{Measured in $\frac{\rm rev}{\rm s^2}$, $\frac{\rm rad}{\rm s^2}$, $\frac{\rm deg}{\rm s^2}$...}
+%\EI
+%}
 \end{document}
 
