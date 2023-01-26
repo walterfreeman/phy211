@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  3 FEB 2022 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  26 JAN 2023 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,13 +853,13 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] [7
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 208
+LaTeX Font Info:    Trying to load font information for U+msa on input line 235
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 208
+LaTeX Font Info:    Trying to load font information for U+msb on input line 235
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -870,12 +870,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <vector-angle-crop.pdf, id=85, 317.185pt x 316.18124pt>
 File: vector-angle-crop.pdf Graphic file (type pdf)
 <use vector-angle-crop.pdf>
-Package pdftex.def Info: vector-angle-crop.pdf  used on input line 225.
+Package pdftex.def Info: vector-angle-crop.pdf  used on input line 252.
 (pdftex.def)             Requested size: 152.33475pt x 151.85693pt.
 <vector-components-crop.pdf, id=86, 317.185pt x 316.18124pt>
 File: vector-components-crop.pdf Graphic file (type pdf)
 <use vector-components-crop.pdf>
-Package pdftex.def Info: vector-components-crop.pdf  used on input line 225.
+Package pdftex.def Info: vector-components-crop.pdf  used on input line 252.
 (pdftex.def)             Requested size: 152.33475pt x 151.85693pt.
  [9
 
@@ -884,14 +884,14 @@ Package pdftex.def Info: vector-components-crop.pdf  used on input line 225.
 ]
 File: vector-angle-crop.pdf Graphic file (type pdf)
 <use vector-angle-crop.pdf>
-Package pdftex.def Info: vector-angle-crop.pdf  used on input line 257.
+Package pdftex.def Info: vector-angle-crop.pdf  used on input line 284.
 (pdftex.def)             Requested size: 152.33475pt x 151.85693pt.
  [11
 
 ]
 File: vector-angle-crop.pdf Graphic file (type pdf)
 <use vector-angle-crop.pdf>
-Package pdftex.def Info: vector-angle-crop.pdf  used on input line 278.
+Package pdftex.def Info: vector-angle-crop.pdf  used on input line 305.
 (pdftex.def)             Requested size: 152.33475pt x 151.85693pt.
  [12
 
@@ -899,7 +899,7 @@ Package pdftex.def Info: vector-angle-crop.pdf  used on input line 278.
 <vector-ang2comp-crop.pdf, id=121, 345.29pt x 280.04625pt>
 File: vector-ang2comp-crop.pdf Graphic file (type pdf)
 <use vector-ang2comp-crop.pdf>
-Package pdftex.def Info: vector-ang2comp-crop.pdf  used on input line 284.
+Package pdftex.def Info: vector-ang2comp-crop.pdf  used on input line 311.
 (pdftex.def)             Requested size: 261.14908pt x 211.80751pt.
  [13
 
@@ -907,7 +907,7 @@ Package pdftex.def Info: vector-ang2comp-crop.pdf  used on input line 284.
 <vector-comp2ang-crop.pdf, id=133, 280.04625pt x 280.04625pt>
 File: vector-comp2ang-crop.pdf Graphic file (type pdf)
 <use vector-comp2ang-crop.pdf>
-Package pdftex.def Info: vector-comp2ang-crop.pdf  used on input line 288.
+Package pdftex.def Info: vector-comp2ang-crop.pdf  used on input line 315.
 (pdftex.def)             Requested size: 261.14908pt x 261.15819pt.
  [14
 
@@ -916,14 +916,10 @@ Package pdftex.def Info: vector-comp2ang-crop.pdf  used on input line 288.
 ] [16
 
 ]
-<vshow-crop.pdf, id=156, 169.63374pt x 141.52875pt>
+<vshow-crop.pdf, id=157, 169.63374pt x 141.52875pt>
 File: vshow-crop.pdf Graphic file (type pdf)
 <use vshow-crop.pdf>
-Package pdftex.def Info: vshow-crop.pdf  used on input line 329.
-(pdftex.def)             Requested size: 130.57454pt x 108.94507pt.
-File: vshow-crop.pdf Graphic file (type pdf)
-<use vshow-crop.pdf>
-Package pdftex.def Info: vshow-crop.pdf  used on input line 329.
+Package pdftex.def Info: vshow-crop.pdf  used on input line 356.
 (pdftex.def)             Requested size: 130.57454pt x 108.94507pt.
  [17
 
@@ -934,12 +930,12 @@ Package pdftex.def Info: vshow-crop.pdf  used on input line 329.
 ]
 File: vshow-crop.pdf Graphic file (type pdf)
 <use vshow-crop.pdf>
-Package pdftex.def Info: vshow-crop.pdf  used on input line 372.
+Package pdftex.def Info: vshow-crop.pdf  used on input line 399.
 (pdftex.def)             Requested size: 130.57454pt x 108.94507pt.
-<vadd-crop.pdf, id=181, 169.63374pt x 196.735pt>
+<vadd-crop.pdf, id=182, 169.63374pt x 196.735pt>
 File: vadd-crop.pdf Graphic file (type pdf)
 <use vadd-crop.pdf>
-Package pdftex.def Info: vadd-crop.pdf  used on input line 372.
+Package pdftex.def Info: vadd-crop.pdf  used on input line 399.
 (pdftex.def)             Requested size: 130.57454pt x 151.44136pt.
  [20
 
@@ -947,15 +943,15 @@ Package pdftex.def Info: vadd-crop.pdf  used on input line 372.
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 378.
+(amsmath)                 on input line 405.
 
 [21
 
 ]
-<vaddc-crop.pdf, id=199, 337.26pt x 337.26pt>
+<vaddc-crop.pdf, id=200, 337.26pt x 337.26pt>
 File: vaddc-crop.pdf Graphic file (type pdf)
 <use vaddc-crop.pdf>
-Package pdftex.def Info: vaddc-crop.pdf  used on input line 391.
+Package pdftex.def Info: vaddc-crop.pdf  used on input line 424.
 (pdftex.def)             Requested size: 174.09496pt x 174.0948pt.
  [22
 
@@ -996,20 +992,20 @@ Package pdftex.def Info: vaddc-crop.pdf  used on input line 391.
 \tf@snm=\write8
 \openout8 = `lecture4.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 585.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 585.
  (./lecture4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 585.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 585.
 Package rerunfilecheck Info: File `lecture4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18862 strings out of 481239
- 360661 string characters out of 5920376
- 608753 words of memory out of 5000000
- 33585 multiletter control sequences out of 15000+600000
- 547059 words of font info for 81 fonts, out of 8000000 for 9000
+ 18864 strings out of 481239
+ 360678 string characters out of 5920376
+ 608750 words of memory out of 5000000
+ 33586 multiletter control sequences out of 15000+600000
+ 547364 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,67p,795b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1026,11 +1022,12 @@ mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on lecture4.pdf (35 pages, 240407 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on lecture4.pdf (35 pages, 248471 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
+ 364 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
  71 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

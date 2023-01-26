@@ -16,7 +16,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lec3/lecture3.pdf">Solving problems using one-dimensional kinematics</a> (Note: The 11:00 class will go back to Lecture 2's slides to finish up.)
+<a href="slides/lec4/lecture4.pdf">Vectors</a>
 
 
 ### Information
