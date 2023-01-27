@@ -7,7 +7,8 @@ title: Announcements
 
 ### Current homework 
 
-<a href="hw/hw1/hw1.pdf">Homework 1</a> (your first "proper" homework set) is due Thursday night or Friday in recitation. 
+* <a href="hw/hw1/hw1.pdf">Homework 1</a> (your first "proper" homework set) is due today.
+* <a href="hw/hw2/hw2.pdf">Homework 2</a> is due Thursday or Friday, 2 or 3 February, in recitation.
 
 ### Current recitation materials
 

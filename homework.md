@@ -11,6 +11,9 @@ use_math: true
 
 <a href="hw/hw1/hw1.pdf">Homework 1</a>, due at the start of your recitation on January 26 or 27.<br>
 
+<a href="hw/hw2/hw2.pdf">Homework 2</a> is due Thursday or Friday, 2 or 3 February, in recitation.<br>
+
+
 <!---
 
 
