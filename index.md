@@ -12,8 +12,8 @@ title: Announcements
 
 ### Current recitation materials
 
-* Day 1 (Tuesday evening or Wednesday): <a href="recitation/week2/recitation-1D-motion-2.pdf">1D kinematics, part 2</a>
-* Day 2 (Thursday evening or Friday): <a href="recitation/week2/recitation-vectors.pdf">Vectors</a>
+* Day 1 (Tuesday evening or Wednesday): <a href="recitation/week3/recitation-2D-motion.pdf">2D kinematics</a>
+* Day 2 (Thursday evening or Friday): Group Exam 1
 
 ### Current slides
 

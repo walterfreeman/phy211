@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.5)  27 JAN 2023 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.5)  27 JAN 2023 09:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,8 +379,9 @@ Overfull \hbox (31.98576pt too wide) in paragraph at lines 73--93
 
 [1
 
-{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<teddy.jpg, id=19, 3035.34pt x 4047.12pt>
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./walter.jpg
+>]
+<teddy.jpg, id=25, 3035.34pt x 4047.12pt>
 File: teddy.jpg Graphic file (type jpg)
 <use teddy.jpg>
 Package pdftex.def Info: teddy.jpg  used on input line 114.
@@ -390,13 +391,7 @@ Overfull \hbox (31.98576pt too wide) in paragraph at lines 100--117
 []$[]$ $[]$ 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 \begin{minipage}{0.45\textwidth}
-                                       [2 <./walter.jpg> <./teddy.jpg>]
-<mary1.jpg, id=33, 1079.03125pt x 1445.4pt>
+<mary1.jpg, id=26, 1079.03125pt x 1445.4pt>
 File: mary1.jpg Graphic file (type jpg)
 <use mary1.jpg>
 Package pdftex.def Info: mary1.jpg  used on input line 127.
@@ -411,23 +406,24 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.136 \newpage
-               [3 <./mary1.jpg>]pdfTeX warning (ext4): destination with the sam
-e identifier (name{page.}) has been already used, duplicate ignored
+               [2 <./teddy.jpg> <./mary1.jpg>]pdfTeX warning (ext4): destinatio
+n with the same identifier (name{page.}) has been already used, duplicate ignor
+ed
 <to be read again> 
                    \relax 
 l.196 \end{document}
-                     [4] (./hw2.aux)
+                     [3] (./hw2.aux)
 Package rerunfilecheck Info: File `hw2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  8954 strings out of 478855
  130615 string characters out of 5858635
- 442092 words of memory out of 6000000
+ 443092 words of memory out of 6000000
  26461 multiletter control sequences out of 15000+600000
  408139 words of font info for 43 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 60i,6n,63p,486b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,63p,486b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
@@ -437,10 +433,10 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti8.pfb>
-Output written on hw2.pdf (4 pages, 2618116 bytes).
+Output written on hw2.pdf (3 pages, 2618439 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  24 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
