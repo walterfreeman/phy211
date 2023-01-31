@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  7 FEB 2022 22:03
-=======
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  31 JAN 2023 00:14
->>>>>>> 8c055e0 (asdf)
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,66 +940,11 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./lecture5.nav) [1
 
-<<<<<<< HEAD
-{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): ambiguous entry for `UniClass[letter]': font file pr
-esent but not included, will be treated as font file not present
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrb8y' already exists, duplicate
-s ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrbo8y' already exists, duplicat
-es ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrr8y' already exists, duplicate
-s ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `pcrro8y' already exists, duplicat
-es ignored
-}] [2
-
-]
-<cyclist-histogram.pdf, id=50, 420.57124pt x 293.095pt>
-File: cyclist-histogram.pdf Graphic file (type pdf)
-<use cyclist-histogram.pdf>
-Package pdftex.def Info: cyclist-histogram.pdf  used on input line 142.
-(pdftex.def)             Requested size: 174.09496pt x 121.32803pt.
-<roadrunner-histogram.pdf, id=51, 420.57124pt x 293.095pt>
-File: roadrunner-histogram.pdf Graphic file (type pdf)
-<use roadrunner-histogram.pdf>
-Package pdftex.def Info: roadrunner-histogram.pdf  used on input line 142.
-(pdftex.def)             Requested size: 174.09496pt x 121.32803pt.
-<vectors-histogram.pdf, id=52, 420.57124pt x 293.095pt>
-File: vectors-histogram.pdf Graphic file (type pdf)
-<use vectors-histogram.pdf>
-Package pdftex.def Info: vectors-histogram.pdf  used on input line 142.
-(pdftex.def)             Requested size: 174.09496pt x 121.32803pt.
-<hw1-histo.pdf, id=53, 420.57124pt x 299.1175pt>
-File: hw1-histo.pdf Graphic file (type pdf)
-<use hw1-histo.pdf>
-Package pdftex.def Info: hw1-histo.pdf  used on input line 142.
-(pdftex.def)             Requested size: 174.09496pt x 123.82108pt.
- [3
-
- <./cyclist-histogram.pdf> <./roadrunner-histogram.pdf> <./vectors-histogram.pd
-f> <./hw1-histo.pdf>] [4
-=======
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3
 
 ] [4
->>>>>>> 8c055e0 (asdf)
 
 ] [5
 
@@ -1019,24 +960,6 @@ f> <./hw1-histo.pdf>] [4
 
 ] [11
 
-<<<<<<< HEAD
-] [12
-
-] [13
-
-]
-[14
-
-] [15
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 259
-.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 259
-=======
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 286
 .
@@ -1045,14 +968,10 @@ LaTeX Font Info:    Trying to load font information for U+msa on input line 286
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 286
->>>>>>> 8c055e0 (asdf)
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-<<<<<<< HEAD
-) [16
-=======
 ) [12
 
 ] [13
@@ -1063,18 +982,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [15
 
 ] [16
->>>>>>> 8c055e0 (asdf)
 
 ] [17
 
 ] [18
 
-<<<<<<< HEAD
-]
-[19
-=======
 ] [19
->>>>>>> 8c055e0 (asdf)
 
 ] [20
 
@@ -1096,12 +1009,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [29
 
-<<<<<<< HEAD
-] [30
-=======
 ]
 [30
->>>>>>> 8c055e0 (asdf)
 
 ] [31
 
@@ -1109,12 +1018,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [33
 
-<<<<<<< HEAD
-]
-[34
-=======
 ] [34
->>>>>>> 8c055e0 (asdf)
 
 ] [35
 
@@ -1136,12 +1040,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [44
 
-<<<<<<< HEAD
-] [45
-=======
 ]
 [45
->>>>>>> 8c055e0 (asdf)
 
 ] [46
 
@@ -1149,22 +1049,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [48
 
-<<<<<<< HEAD
-]
-[49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-] [54
-=======
 ] [49
->>>>>>> 8c055e0 (asdf)
 
 ]
 \tf@nav=\write6
@@ -1181,35 +1066,6 @@ Package rerunfilecheck Info: File `lecture5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 21702 strings out of 478862
- 402881 string characters out of 5858945
- 696832 words of memory out of 6000000
- 38752 multiletter control sequences out of 15000+600000
- 413511 words of font info for 66 fonts, out of 8000000 for 9000
- 1137 hyphenation exceptions out of 8191
- 128i,15n,126p,432b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on lecture5.pdf (54 pages, 272229 bytes).
-PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
- 109 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
  21667 strings out of 478855
  402045 string characters out of 5858635
  691946 words of memory out of 6000000
@@ -1241,5 +1097,4 @@ PDF statistics:
  342 compressed objects within 4 object streams
  100 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 8c055e0 (asdf)
 

@@ -13,19 +13,11 @@ title: Announcements
 ### Current recitation materials
 
 * Day 1 (Tuesday evening or Wednesday): <a href="recitation/week3/recitation-2D-motion.pdf">2D kinematics</a>
-<<<<<<< HEAD
 * Day 2 (Thursday evening or Friday): Group Exam 1
 
 ### Current slides
 
-<a href="slides/lec4/lecture4.pdf">Vectors</a>
-=======
-* Day 2 is your group exam.
-
-### Current slides
-
 <a href="slides/lec5/lecture5.pdf">Motion in 2D: problem-solving strategies</a>
->>>>>>> 8c055e0 (asdf)
 
 
 ### Information
