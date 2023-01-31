@@ -293,10 +293,10 @@ If you have questions or suggestions, need help with your homework or with study
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
 | Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
-| Exam 1                       | 15 February               |             100   |
-| Exam 2                       | 10 March                  |             100   |
-| Exam 3                       | 12 April                  |             100   |
-| Final Exam                   | 11 May, 3PM-5PM           |             100, and see below   |
+| Exam 1                       | 7 February               |             100   |
+| Exam 2                       | 28 February                  |             100   |
+| Exam 3                       | 4 April                  |             100   |
+| Final Exam                   | 8 May, 3PM-5PM           |             100, and see below   |
 | Recitation participation     | Throughout the semester   |  5 each; around 140 in total   |
 | Group practice exams         | Prior to each exam        | 50 each; 150 in total  |
 
