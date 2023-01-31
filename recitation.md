@@ -11,7 +11,6 @@ use_math: true
 <a href="recitation/week1/recitation-1D-motion-1.pdf">Week 1 Day 2: 1D motion, part 1</a>
 
 <br><br>
-<<<<<<< HEAD
 <a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Day 1: 1D motion, part 2</a><br>
 <a href="recitation/week2/recitation-vectors.pdf">Week 2 Day 2: Vectors</a><br>
 <br>
@@ -20,8 +19,6 @@ use_math: true
 
 <!--
 
-=======
-<!--
 S2022
 <a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a><br>
 <a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
