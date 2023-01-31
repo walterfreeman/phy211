@@ -11,6 +11,7 @@ use_math: true
 <a href="recitation/week1/recitation-1D-motion-1.pdf">Week 1 Day 2: 1D motion, part 1</a>
 
 <br><br>
+<<<<<<< HEAD
 <a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Day 1: 1D motion, part 2</a><br>
 <a href="recitation/week2/recitation-vectors.pdf">Week 2 Day 2: Vectors</a><br>
 <br>
@@ -19,6 +20,15 @@ use_math: true
 
 <!--
 
+=======
+<!--
+S2022
+<a href="recitation/week2/recitation-1D-motion-2.pdf">Week 2 Wednesday: 1D motion, part 2</a><br>
+<a href="recitation/week2/recitation-vectors.pdf">Week 2 Friday: Vectors</a><br>
+<br>
+
+<a href="recitation/week3/recitation-2D-motion.pdf">Week 3 Wednesday: 2D motion</a><br>
+>>>>>>> 8c055e0 (asdf)
 <a href="group-exam-1/exam1.pdf">Week 3 Friday: 8:25 or 9:30 sections</a><br>
 <a href="group-exam-1/exam2.pdf">Week 3 Friday: 10:35 or 11:40 sections</a><br>
 <a href="group-exam-1/exam3.pdf">Week 3 Friday: 12:45 or 1:40 sections</a><br>

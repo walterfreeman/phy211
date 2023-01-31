@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.5)  30 JAN 2023 09:51
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.23)  8 FEB 2022 14:38
+>>>>>>> 8c055e0 (asdf)
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,6 +216,7 @@ e
 
 [1
 
+<<<<<<< HEAD
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 [3] [4] [5] [6] [7] [8] (./recitation-2D-motion.aux) ) 
 Here is how much of TeX's memory you used:
@@ -237,6 +242,57 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/cm-super/sfrm1200.pfb>
 Output written on recitation-2D-motion.pdf (8 pages, 148644 bytes).
+=======
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `UniClass[letter]': font file pr
+esent but not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `pcrb8y' already exists, duplicate
+s ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `pcrbo8y' already exists, duplicat
+es ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `pcrr8y' already exists, duplicate
+s ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `pcrro8y' already exists, duplicat
+es ignored
+}] [2] [3] [4] [5] [6] [7] [8] (./recitation-2D-motion.aux) ) 
+Here is how much of TeX's memory you used:
+ 2430 strings out of 478862
+ 34005 string characters out of 5858945
+ 338760 words of memory out of 6000000
+ 20067 multiletter control sequences out of 15000+600000
+ 410064 words of font info for 50 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 55i,8n,62p,488b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on recitation-2D-motion.pdf (8 pages, 149868 bytes).
+>>>>>>> 8c055e0 (asdf)
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
