@@ -21,7 +21,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 24 January  | <a href="slides/lec3/lecture3.pdf">Motion in one dimension</a>                                                                                          | 3.5-3.6                        |
 | 26 January  | <a href="slides/lec4/lecture4.pdf">Describing things with direction: Vectors.</a>                                                                       | 2.1-2.3                        |
 | 31 January  | <a href="slides/lec5/lecture5.pdf">Motion in two dimensions with constant acceleration</a>                                                                                                | 4.1-4.3                        |
-| 2  February | Review for Exam 1                                                                                                |                                |
+| 2  February | <a href="slides/lec6/lecture6.pdf">Review for Exam 1</a>                                                                                                |                                |
 | 7  February | **Exam 1**                                                                                                       | 5.1-5.3                        |
 | 9  February | Introduction to Newton's laws                                                                              | 5.4-5.7; 6.1                   |
 | 14 February | Friction; practice solving problems with Newton's laws                                                           |                                |
