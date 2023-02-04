@@ -5,6 +5,10 @@ use_math: true
 title: Announcements
 ---
 
+### Practice Exam 1
+
+* Here is <a href="practice-exam-1-all.pdf">Practice Exam 1.</a>. I will post solutions Saturday night or Sunday morning.
+
 ### Current homework 
 
 * <a href="hw/hw1/hw1.pdf">Homework 1</a> (your first "proper" homework set) is due today.
