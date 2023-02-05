@@ -7,7 +7,7 @@ title: Announcements
 
 ### Practice Exam 1
 
-* Here is <a href="practice-exam-1-all.pdf">Practice Exam 1.</a>. I will post solutions Saturday night or Sunday morning.
+* Here is <a href="practice-exam-1-all.pdf">Practice Exam 1.</a> and its <a href="practice-exam-1-solutions.pdf">solutions</a>.
 
 ### Current homework 
 
