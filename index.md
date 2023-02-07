@@ -5,6 +5,11 @@ use_math: true
 title: Announcements
 ---
 
+### Exam 1 seating charts
+
+* <a href="chart-secM001.pdf">9:30 Section</a>
+* <a href="chart-secM002.pdf">11:00 Section</a>
+
 ### Practice Exam 1
 
 * Here is <a href="practice-exam-1-all.pdf">Practice Exam 1.</a> and its <a href="practice-exam-1-solutions.pdf">solutions</a>.
