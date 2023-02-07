@@ -183,10 +183,10 @@ The various parts of the course count as follows:
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
 | Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
-| Exam 1                       | FIXME              |             100   |
-| Exam 2                       | FIXME                     |             100   |
-| Exam 3                       | FIXME                     |             100   |
-| Final Exam                   | FIXME                     |             100   |
+| Exam 1                       | February 7         |             100   |
+| Exam 2                       | February 28               |             100   |
+| Exam 3                       | April 4                   |             100   |
+| Final Exam                   | May 8                     |             100   |
 | Recitation participation     | Throughout the semester   |              5 each; around 140 in total   |
 | Group practice exams         | Prior to each exam        |              50 each; 150 in total  |
 
