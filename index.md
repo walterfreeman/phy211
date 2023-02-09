@@ -5,28 +5,17 @@ use_math: true
 title: Announcements
 ---
 
-### Exam 1 seating charts
-
-* <a href="chart-secM001.pdf">9:30 Section</a>
-* <a href="chart-secM002.pdf">11:00 Section</a>
-
-### Practice Exam 1
-
-* Here is <a href="practice-exam-1-all.pdf">Practice Exam 1.</a> and its <a href="practice-exam-1-solutions.pdf">solutions</a>.
-
 ### Current homework 
 
-* <a href="hw/hw1/hw1.pdf">Homework 1</a> (your first "proper" homework set) is due today.
-* <a href="hw/hw2/hw2.pdf">Homework 2</a> is due Thursday or Friday, 2 or 3 February, in recitation.
+* Homework 3 coming today
 
 ### Current recitation materials
 
-* Day 1 (Tuesday evening or Wednesday): <a href="recitation/week3/recitation-2D-motion.pdf">2D kinematics</a>
-* Day 2 (Thursday evening or Friday): Group Exam 1
+* Day 2 (Thursday evening or Friday): <a href="recitation/week4/recitation-forces.pdf">Forces</a>
 
 ### Current slides
 
-<a href="slides/lec6/lecture6.pdf">Exam 1 review</a>
+<a href="slides/lec7/lecture7.pdf">Newton's laws of motion
 
 
 ### Information

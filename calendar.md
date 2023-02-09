@@ -23,7 +23,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 31 January  | <a href="slides/lec5/lecture5.pdf">Motion in two dimensions with constant acceleration</a>                                                                                                | 4.1-4.3                        |
 | 2  February | <a href="slides/lec6/lecture6.pdf">Review for Exam 1</a>                                                                                                |                                |
 | 7  February | **Exam 1**                                                                                                       | 5.1-5.3                        |
-| 9  February | Introduction to Newton's laws                                                                              | 5.4-5.7; 6.1                   |
+| 9  February | <a href="slides/lec7/lecture7.pdf">Introduction to Newton's laws</a>                                                                              | 5.4-5.7; 6.1                   |
 | 14 February | Friction; practice solving problems with Newton's laws                                                           |                                |
 | 16 February | Acceleration in circular motion                                                                                  | 6.2                            |
 | 21 February | Circular motion continued; universal gravitation                                                                 | 4.4; 6.3                       |
