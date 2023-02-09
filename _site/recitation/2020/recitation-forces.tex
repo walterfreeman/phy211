@@ -1,0 +1,132 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMCX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BC}{\begin{center}}
+\newcommand{\EC}{\end{center}}
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+\newcommand{\BS}{\bigskip}
+\newcommand{\vsi}{\vspace{1in}}
+\newcommand{\vshi}{\vspace{0.6in}}
+\newcommand{\mss}{$\rm m/\rm s^2$}
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Physics 211 Recitation}}
+
+\normalsize
+\centerline{\sc{February 8}}
+
+\medskip
+
+\BC
+{\Large Forces and Force Diagrams} 
+\EC
+
+In this next unit you're going to begin dealing with the left-hand side of Newton's second law $\vec F = m \vec a$.
+
+The first and most important step of any of these problems is drawing a {\it force diagram}, also called a {\it free-body diagram}, for 
+each object of interest in the problem. Here are some principles for doing this:
+
+\BI
+\item Represent the object as a dot
+\item Represent forces acting {\it on} that object as arrows pointing {\it away} from the dot. So, if a person is pushing on the left side of a 
+  table, this force would be represented as an arrow starting at the dot and going rightward, since that's the direction it is being pushed.
+\item Label each arrow with the force it represents or the algebraic symbol you will use for it: ``friction'', ``weight'', ``$T_2$'', etc.
+\item Only draw forces on the force diagram. Forces are real things -- real physical pushes and pulls. Velocity is not a force; acceleration is not
+  a force; ``the centripetal force'' is not a force. 
+\item If you know the relative sizes of any of the forces, go ahead and make their arrows longer or shorter, representing all the information
+  you have in your diagram. If you don't, just draw the arrows the same length.
+\EI
+
+\newpage
+
+
+\begin{enumerate}
+
+  \item A person of mass 100 kg is standing in an elevator car. Consider three situations:
+    \begin{enumerate}
+      \item The elevator car is moving upward, and its speed is increasing at a rate of 1 \mss.
+      \item The elevator car is moving downward, and its speed is increasing at a rate of 1 \mss.
+      \item The elevator car is moving downward, and its speed is {\it decreasing} at a rate of 1 \mss.
+    \end{enumerate}
+
+    Each of you should lead a discussion in your group for a different one of the three scenarios. Draw a force diagram below. Then, using Newton's second law
+    $\sum \vec F = m \vec a$, calculate how big each of your forces are.
+
+\vsi\vsi\vsi\vsi
+
+    When you've finished, call a coach or TA over, and talk about similarities and differences between the three situations. 
+\newpage
+
+\item Three books, each weighing 10 pounds, sit in a stack on a table. From the bottom up, they are:
+  \BI
+\item {\it Advanced Computer Programming}, by Grace Hopper
+\item {\it Beginning Rocket Science}, by Elon Musk
+\item {\it Cats as Laboratory Apparatus}, by Erwin Schr\"odinger
+  \EI
+     
+     You should just call them A, B, and C. 
+
+     Draw force diagrams for each of the three books, including all normal forces and gravitational forces that act on them. As a convenient notation, you might label ``the normal force of book A pushing on book B'' as $\vec F_{AB}$.
+Once you have drawn your diagrams, discuss them with your group and check them for errors, making sure that all the arrows you've drawn correspond to real forces, and that you've not forgotten any. Call your TA or coach over to 
+join in the discussion.
+
+\vsi\vsi\vsi
+
+\item Newton's second law says that the sum of all the forces on an object is equal to its mass times its acceleration. Since none of the objects in this problem move, each of these objects has $\sum \vec F = 0$. Write this down
+for each object, listing all of the forces in turn. Since the only forces here are in the vertical direction, you don't need to mess with vector components; just choose one direction to be positive and one to be negative. Call a 
+TA or coach over to check your group's work when you're done.
+
+\vsi\vsi
+
+\item This will give you three equations. How many unknowns do you have? 
+
+\vsi
+
+\item Some of the forces you will have drawn are Newton's third law pairs. The formulation of Newton's third law that I prefer is: ``If object 1 pushes on object 2 with a force $F_{12}$, object 2 pushes back on it with a force of 
+equal magnitude and in the opposite direction; that is, $\vec F_{12} = - \vec F_{21}$.'' (Note that their magnitudes are equal: $F_{12}=F_{21}$.)  
+Identify all Newton's third law pairs present in your problem. Does this give you enough information to solve the system of equations? If so, solve it; if not, call over a TA or coach to discuss your work.
+
+\vsi\vsi\vsi\vsi
+
+\item Now you should have figured out how big all the forces involved are. How much force does the table exert on the bottom book? Is this what you expect it to be?
+
+\vsi
+\newpage
+
+\item This is an easy problem, and we could have guessed the answers. However, the procedure you've followed here is exactly the same as what you will do for less obvious problems -- and it has the same pitfalls. With your 
+group, take turns thinking of mistakes that you might have made in solving this problem. What sorts of errors could you have made, and how would you have known not to make them -- or how could you have caught them after the
+fact once you made them? Call a TA or coach over to join in your discussion.
+
+\end{enumerate}
+\end{document}

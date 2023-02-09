@@ -1,0 +1,192 @@
+
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation: Mathematics With Units}}
+
+\normalsize
+\centerline{\sc{Week 1, Day 1}}
+
+
+{\bf Before you do any physics, spend ten minutes meeting the other people in your group. Learn their names and a little about them. You should also exchange
+contact information (email addresses, Discord handles, phone numbers, whatever you are comfortable with) so you can work together on your homework later.
+
+You should also learn your TA's name, along with the undergraduate coaches. They will be with you all semester and will be one of your greatest resources in learning physics!
+}
+
+
+
+
+
+
+
+This material is designed to get you familiar with the way that physicists think about {\it units of measure}
+and how to do mathematics with them. There are three principles you need to know:
+
+\BI
+\item Some quantities bear {\it dimensions} -- various types of things that you measure. One example, for instance, is {\it time},
+which can be measured in many different units (seconds, minutes, hours...)
+
+\item Any numeric value that describes something with dimensions must always be attached in the units that it is measured in.
+
+\item {\bf You may multiply and divide by units just like any other variable when doing algebra.}
+For instance, we know that
+
+$$
+1 \,{\rm minute} = 60 \,{\rm seconds}.
+$$
+\EI
+
+\begin{enumerate}
+
+
+\item What do you get if you divide both sides of this equation by ``1 minute''?
+
+
+
+\vspace{1in}
+
+\item How far is it from Syracuse to Albany along I-90? Give your answer in as many different ways as you can think of
+(at least three). It's okay to give an informal answer; for instance, how do drivers talk about distances between cities?
+If you're having trouble thinking of different ways to answer the question, you might ask:
+
+\BI
+\item an American student (if you are international)
+\item an international student (if you are American)
+\item someone who has driven from Syracuse to Albany who knows how long it takes
+\EI
+
+\vspace{3in}
+
+
+\newpage
+
+\item Drivers measure distances in ``hours'' frequently. For instance, I might say that it is six hours' drive 
+from Syracuse to Baltimore. However, this is not a dimensionally-correct way to describe distance, since an hour
+is a measure of time, not distance. What other piece of information do you need for this to make sense?
+
+\vspace{2in}
+
+\item What are the dimensions of this piece of information, and what units would you measure it in? Write your answer both in
+words and as a fraction. (What mathematical operation does ``per'' suggest?)
+
+\vspace{1in}
+
+
+\item Use a satellite navigation app on a smartphone to get the distance to Albany, plus the the time that it will take.
+From this, calculate how fast the app thinks you will be driving on average. Show your work to a TA or coach when you are done.
+
+\vspace{2in}
+
+\item In physics we generally measure this quantity in meters per second instead. 
+Convert your result to meters per second from the units you have measured it in. As you do your conversion, write out all of the 
+steps; the point is to ensure that you get comfortable doing algebra with units and numbers together. Show your work to a TA
+or coach when you are done.
+
+\vspace{3in}
+
+\newpage
+
+
+\item People who make fast cars often brag about how quickly they can accelerate. For instance, Tesla Motors claims that
+their upcoming Roadster can accelerate from 0 to 60 miles per hour in 1.9 seconds. 
+
+You will study acceleration in more detail tomorrow, but for now, just know that
+
+$$
+{\rm acceleration} = \frac{\rm change\, in\, velocity}{\rm time}.
+$$
+
+What is the average acceleration of this (ludicrously fast) car as it goes from zero to 60 miles per hour? Write out all of the
+steps in your calculation, making sure to treat units (like hours, seconds, and miles) like variables when manipulating fractions.
+What are the units of your answer? Do they have the right dimensions?
+
+\vspace{1.2in}
+
+\item In physics, we like to measure distances in meters and time in seconds. Convert your answer to the previous into these
+units, and simplify as much as possible. Call a TA or coach over to check your work when you are done.
+
+\vspace{2in}
+
+\item What does it mean that acceleration can be measured in ``meters per second squared''? I've never seen a ``squared second'';
+does this make sense?
+
+\vspace{1in}
+
+\item The volume of a cube 10 cm on a side is equal to one liter. How many cubic centimeters (${\rm cm}^3$) are in a liter?
+Make sure you doublecheck your answer with your common sense!
+
+
+\newpage
+
+\item Finally, let's meet some of the other quantities that we will work with in our class later in the semester.
+
+The most important quantity this semester will be {\bf force}. Newton's law of motion says:
+
+$$
+\frac{\text{(force on an object)}}{\text{(mass of that object)}} = \text{(resulting acceleration of that object)}
+$$
+
+What are the dimensions of force? (What dimensions must it have to make this equation have the same dimensions on both sides?)
+
+
+\vspace{1in}
+
+ What units might it be measured in? We call this a ``newton'' for short, but that's just a shorthand for something else.
+
+\vspace{1in}
+
+\item Another quantity we'll meet this semester is {\it energy}. One way to transfer energy is mechanically, by pushing on something.
+
+We'll learn that:
+
+$$
+\text{(amount of energy transferred by a force)} = \text{(size of that force)} \times \text{(distance the object moves)}
+$$
+
+From this, deduce the units and dimensions of energy. (This unit of energy -- a combination of kilograms, meters, and seconds -- is called the {\it joule}, but that's just shorthand.)
+
+
+
+
+\end{enumerate}
+
+\end{document}
+

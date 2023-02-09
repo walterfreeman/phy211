@@ -1,0 +1,386 @@
+% DPF 09 talk on strangeness in nucleon
+
+\documentclass[10pt]{beamer}
+\usepackage{amsmath}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif\
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+\usepackage{ulem}
+\usepackage{array}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+\def\BS{\bigskip}
+\def\BC{\begin{center}}
+\def\EC{\end{center}}
+\def\BCC{\begin{columns}}
+\def\ECC{\end{columns}}
+\def\HC{\column{0.5\textwidth}}
+\newcommand{\map}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[height=0.86\paperheight]{../../map/#1.png}}}}
+\newcommand{\wmap}[1]{\frame{\frametitle{\textbf{Course map}}
+\centerline{\includegraphics[width=0.96\paperwidth]{../../map/#1.png}}}}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+
+\definecolor{A}{rgb}{0.8,0.0,0.0}
+\definecolor{B}{rgb}{0.0,0.6,0.0}
+\definecolor{C}{rgb}{0.4,0.4,0.0}
+\definecolor{D}{rgb}{0.0,0.0,0.5}
+\definecolor{E}{rgb}{0.4,0.4,0.4}
+
+
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Lg}           {cmyk}{.4,.4,.4,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title{
+  \textbf {Exam 3 review}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2017\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\BI
+\item{HW8 is due next Tuesday}
+\item \bf Group exam 3: Friday during recitation. You may bring a reference sheet.
+\item \bf Exam 3: Tuesday during the normal time
+\pause
+\item{Alternate date/time for Exam 3: {\bf Wednesday, 7:30 PM}}
+\item Review sessions:
+\BI
+\item Monday, 2PM-5PM: Physics Clinic (Walter)
+\item Saturday or Sunday: reviews run by coaches (will announce this by email)
+\EI
+\EI
+}
+
+\frame{\frametitle{\textbf{Homework questions?}}}
+
+\frame{\frametitle{\textbf{Angular momentum of a single object}}
+
+\large
+
+A single object moving in a straight line also has angular momentum.
+\Huge
+$$L = mv_\perp r = mvr_\perp$$
+\large
+
+\BS
+\BS
+\BS
+
+\BCC
+\HC
+If we are to trust this relation, then the angular momentum of an object moving 
+with constant $\vec v$ should be constant!
+
+\BS
+
+Is the angular momentum the same at points A and B?
+\HC
+\BC
+\includegraphics[width=0.8\textwidth]{angmombare-crop.pdf}
+\EC
+\ECC
+}
+
+
+\frame{\frametitle{\textbf{Angular momentum of a single object}}
+
+\large
+
+A single object moving in a straight line also has angular momentum.
+\Huge
+$$L = \color{Lg}mv_\perp r =\color{Red} mvr_\perp$$
+\large
+
+\BS
+\BS
+\BS
+
+\BCC
+\HC
+Is the angular momentum the same at points A and B?
+
+\BS
+
+\color{Red}
+Yes: $r_\perp$ (and $v$) are the same at both points.
+
+\HC
+\BC
+\includegraphics[width=0.8\textwidth]{angmom-crop.pdf}
+\EC
+\ECC
+}
+
+\frame{\frametitle{\textbf{An example problem}}
+\Large
+A child of mass $m$ runs at speed $v$ straight east and jumps onto a merry-go-round of mass $M$ and radius $R$,
+landing $2/3$ of the way toward the outside. If she lands on the south edge,
+how fast will it be turning once she lands?
+
+\BS
+
+We'll do this together on the document camera.
+
+\pause
+
+\BS\BS
+\BC\it\normalsize
+
+(The solution is on the next slide, for those studying these notes later)
+\EC
+}
+
+\frame{\frametitle{\textbf{The solution to our example}}
+\large
+
+We use conservation of angular momentum:
+
+\begin{align*}
+\sum L_i &= \sum L_f \\
+L_{\rm child,\it i}  &= L_{\rm child+disk,\it f}
+\end{align*}
+
+Model the child as a point object moving at a constant velocity:
+$$L_{\rm child,\it i} = mv_\perp r = \frac{2}{3} mvR$$
+
+This gives us $\frac{2}{3}mvR = I_{\rm total} \omega_f$. We now need $I_{\rm total}$.
+
+\medskip
+
+After the child jumps on, $I_{\rm total} = I_{\rm disk} + I_{\rm child} = \frac{1}{2}MR^2 + \frac{2}{3}mR^2$. Thus,
+
+$$\frac{2}{3}mvR = \left(\frac{1}{2}MR^2 + \frac{2}{3}mR^2\right) \omega_f$$
+
+Solve for $\omega_f$:
+
+$$
+\omega_f = \frac{\frac{2}{3}mvR}{\left(\frac{1}{2}MR^2 + \frac{2}{3}mR^2\right)}
+$$
+
+}
+
+
+\frame{\frametitle{\textbf{Angular momentum demonstrations}}
+
+\Large
+
+What happens to the person on the platform if they catch the ball?
+
+\pause
+
+What happens when they throw it?
+
+}
+
+\frame{\frametitle{\textbf{Review: The work-energy theorem}}
+
+\Large
+\BI
+
+\item Translational work-energy theorem: $\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = \vec F \cdot \vec d = F d \cos \theta$ (if this is constant)
+
+\item Rotational work-energy theorem: $\frac{1}{2}I\omega_f^2 - \frac{1}{2}I\omega_i^2 = \tau \Delta \theta$
+
+\EI
+
+
+\BS\BS
+
+Potential energy is an alternate way of keeping track of the work done by conservative forces:
+
+\BI
+\item $PE_{\rm grav} = mgh$
+\item $PE_{\rm spring} = \frac{1}{2}kx^2$
+\EI
+
+
+
+}
+
+
+\frame{\frametitle{\textbf{Review: Conservation of energy}}
+
+\BC
+\begin{tabular}{ccccccccc}
+\large $\color{Blue}{\large \rm PE_i} $
+&\large+&\large$\color{Red} \frac{1}{2}mv_i^2 + \frac{1}{2}I\omega_i^2$
+&\large+&\large$ W_{\rm other} $
+&\large=&\large$\color{Blue}{\rm PE_f} $
+&\large+&\large$\color{Red} \frac{1}{2}mv_f^2 + \frac{1}{2}I\omega_f^2$ \\
+\pause
+\\
+\color{Blue}(initial PE) &+& \color{Red} (initial KE) &+& (other work) &=&\color{Blue} (final PE) &+&\color{Red}(final KE) \\
+\pause
+\\
+\multicolumn{3}{c}{(total initial mechanical energy)}  &+& (other work) &=& \multicolumn{3}{c}{(total final mechanical energy)} \\
+%&+& (other work) &=& \multicolumn{3}{c}{(total final mechanical energy)}\\
+\end{tabular}
+
+\BS
+\BS
+\pause
+
+\Large Since conservation of energy is the broadest principle in science, it's no surprise that we can do this!
+
+\EC
+}
+
+\frame{\frametitle{\textbf{Review: rotational motion}}
+
+\begin{center}
+\begin{tabular}{l | l}
+
+ \multicolumn{1}{c|}{\Large Translation} & \multicolumn{1}{c}{\Large Rotation} \\
+ \\
+\hline
+\hline
+ & \\
+Position $\vec s$ & Angle $\theta$ \\
+Velocity $\vec v$ & Angular velocity $\omega$ \\
+Acceleration $\vec a$ & Angular acceleration $\alpha$ \\
+ & \\
+\hline
+\hline
+ & \\
+Kinematics: $\vec s(t)\frac{1}{2}\vec at^2 + \vec v_0 t + \vec s_0$ & $\theta(t) = \frac{1}{2}\alpha t^2 + \omega_0 t + \theta_0$ \\
+ & \\
+\hline
+\hline
+
+ & \\
+Force $\vec F$ & Torque $\tau$ \\
+Mass $m$ & Rotational inertia $I$ \\
+Newton's second law $\vec F = m \vec a$ & Newton's second law for rotation $\tau = I \alpha$ \\
+ & \\
+
+\hline
+\hline
+
+ & \\
+Kinetic energy $KE=\frac{1}{2}mv^2$ & Kinetic energy $KE=\frac{1}{2}I\omega^2$ \\
+Work $W = \vec F \cdot \Delta \vec s$ & Work $W = \tau \Delta \theta$ \\
+Power $P = \vec F \cdot \vec v$ & Power $P = \tau \omega$ \\
+ & \\
+
+\hline
+\hline
+
+ & \\
+Momentum $\vec p = m \vec v$ & Angular momentum $L = I\omega$\\
+ & \\
+
+\hline
+\end{tabular}
+\end{center}
+}
+
+\frame{\frametitle{\textbf{Review: computing torques and static equilbrium}}
+
+\Large
+
+``Signpost problem'' from recitation
+}
+
+\frame{\frametitle{\textbf{Review: combining translational and rotational motion}}
+
+\Large
+
+``Yo-yo problem'' from recitation}
+
+\frame{
+
+\Huge
+\BC
+What would you like to talk about?
+\EC
+}
+
+\end{document}
+

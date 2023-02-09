@@ -1,0 +1,187 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\usepackage[left=2cm, right=2cm, top=1.5cm, bottom=1cm]{geometry}
+%\usepackage[margin=0.5in, paperwidth=13.5in, paperheight=8.4375in]{geometry}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\def\BS{\bigskip}
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{Week 3, Day 1}}
+
+\it These recitation problems, along with those on your homework, will prepare you very well for the group exam in your second recitation this week and the exam on Tuesday. In these problems you will practice:
+
+\rm
+
+\BI
+\item Working with vector quantities as separate $x-$ and $y-$components
+\item Writing down the equations of motion that describe an object's motion in two dimensions
+\item Interpreting statements in words about motion in two dimensions as statements about algebraic variables
+\item Solving those equations algebraically as directed by your statements
+\EI
+
+
+
+\newpage
+
+\rm 
+
+
+\centerline{\Large Question 1: a hiker\footnote{\noindent This problem is based on a true story; the hiker was a long-time PHY211 coach who graduated from ESF in 2018. Yes, she really threw a boot into a stream.} crosses a stream}     
+A hiker in the Adirondacks encounters a stream that is too wide to jump across. So she doesn't get her boots wet, she takes them off and throws them across before walking barefoot through the water. 
+
+Suppose that the stream is 12 m across, and she throws her boot from
+ground level at an angle $\theta = 35^\circ$ above the horizontal.
+
+First, you will calculate the minimum velocity she must throw the boot with to get it across the stream. Then you'll figure out what happens if she throws it at this speed but at a different angle than she intended to.
+
+\begin{enumerate}
+
+\item Draw a diagram of the boot's path in the air. Choose a coordinate system: what point are you considering ($x=0, y=0$), and which directions are positive? {\it (This is important because it gives you a picture that orients you to how the boot moves, and the coordinate system lets you translate the picture into mathematics.)}
+
+\vspace{2in}
+\item You know the initial velocity vector $\vec v_0$ as a magnitude and direction, but to do your calculations you will need to know its $x-$ and $y-$components. By doing trigonometry,
+determine $v_{x,0}$ and $v_{y,0}$ in terms of $v_0$, $\sin \theta$, and $\cos \theta$. {\it (Since it is easiest to work with $x-$ and $y-$ components, you will want to convert any vectors given to you in magnitude/direction form to components first.)}
+
+\vspace{2in}
+\newpage
+
+\item Write expressions for the $x-$ and $y-$components of its position and velocity as a function of time. These expressions will have lots of variables in them ($a_x$, $a_y$, $v_{x,0}$, $v_{y,0}$, $x_0$, and $y_0$) -- that's okay. {\it (It is always a good idea to work from ``general'' to ``specific''; writing down the equations of motion in the most general way and then substituting in what you know will make sure you don't go astray.)}
+
+\vspace{3in}
+\
+
+\item Do you know anything about any of those variables? If so, which ones? {\it (It is always a good idea to keep track of things you know and things you want to find. Here, you know som+ething about the starting velocity and the acceleration.)}
+
+\vspace{1in}
+
+\item With what initial velocity $v_0$ must she throw her boot in order to get it across the stream? {\it (I've skipped some steps here for you: you will want to write down a sentence in terms of your algebraic variables that answers the question, then do the algebra.)}
+
+\vspace{3in}
+
+\item Suppose that she accidentally throws her second boot with the same initial velocity $v_0$ but at an angle $\theta = 65^\circ$ above the horizontal. Where will it land?
+
+\vspace{2in}
+
+\end{enumerate}
+
+\newpage
+
+\centerline{\Large Question 2: a prankster}     
+
+\footnotesize
+
+\it \begin{center} The students in the next two problems are based on two more of our past PHY211 coaches.\end{center}
+
+\normalsize \bigskip\rm
+
+A mischievous SUOC student has climbed on the roof of a snow-covered building and is trying to hit her friend with snowballs as he walks through the Quad. 
+She throws them at an angle of $\theta$ above the horizontal at a speed of $v_0$. 
+The building has a height $h$. {\it (In this problem, you will think about how to solve for various things, but not actually do the algebra. As with any problem where some variables are specified in the statement, you can use
+	those variables in your answer -- if you were doing the math on this problem, you would have $v_0$'s, $\theta$'s, $h$'s, and $g$'s in your answer.)}
+
+\begin{enumerate}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and
+labelling interesting things.
+
+\vspace{2in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, substituting in variables that you know. {\it (Some will be zero; $v_0$, $\sin \theta$, $\cos \theta$, $h$, and $g$ will make an appearance.)}
+
+
+\newpage
+\item Write sentences in terms of your algebraic variables that allow you to answer the following. You  
+will need to incorporate vector language at times: for instance, you may need to use terms like ``the magnitude of the
+velocity vector'' (which will require you to solve for both $v_x$ and $v_y$.)
+
+\BI
+\item How much time does it take for the snowballs to hit the Quad?
+
+\vspace{1.5in}
+
+\item Where do the snowballs land on the Quad?
+
+\vspace{1.5in}
+\item How fast are the snowballs traveling when they hit the Quad?
+
+\vspace{1.5in}
+\item In what direction are they moving when they land on the Quad?
+\EI
+\end{enumerate}
+
+\newpage
+
+\centerline{\Large Question 3: retaliation!}     
+
+He decides to throw a snowball back at her. He's standing a distance $d$ from the side of the building, and 
+throws a snowball at an angle $\theta$ above the horizontal at a speed $v_0$. However, the snowball slips out of his hand when he throws it,
+and it doesn't go very fast -- instead of hitting her on top of the building, it hits the side of the building.
+
+\begin{enumerate}
+
+\item Draw a cartoon of the problem, making clear your coordinate system and origin, and
+labelling interesting things.
+
+\vspace{2in}
+
+\item Write expressions for $x(t)$, $y(t)$, $v_x(t)$, and $v_y(t)$, substituting in variables that you know.
+
+\vspace{1.5in}
+
+\item Write a sentence in terms of your algebraic variables that will let you figure out how far above the ground 
+the snowball hits the side of the building.
+
+\newpage
+
+\item Based on your sentence, figure out how far above the ground the snowball hits the building. Your answer should be 
+in terms of $v_0$, $\theta$, $d$, and $g$.
+
+\vspace{3in}
+
+\item He doesn't give up, though, and throws another snowball at her -- again at an angle $\theta$ above the horizontal.
+He throws this one harder, and it hits her feet as she stands on the edge of the building. Write a sentence in terms of your algebraic variables that will let you figure out how fast he had to throw it. 
+
+\vspace{1in}
+
+\item Now, based on your previous sentence, figure out the initial speed of the second snowball he threw. {\it (Your answer will have $h$, $g$, $v_0$, $d$, and $\theta$ in it, since those variables are given to you in the problem.)}
+
+\end{enumerate}
+
+\end{document}

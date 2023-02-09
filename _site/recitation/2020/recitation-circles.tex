@@ -1,0 +1,229 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{20 February}}
+
+\medskip
+
+\centerline{\Large Question 1: frogs in a bucket}
+
+You have a collection of standard-issue Physics 211 bullfrogs of mass 500 grams each in a bucket.\footnote{We found them in the basement of Illick Hall. They got this fat by eating all the other critters running around there.}
+You spin this bucket at arm's length in a vertical circle. (You'll need to estimate the radius of the circle.)
+
+a) At what angular velocity must you spin the bucket so that the frogs don't fall out at the top of the circle?
+
+\vspace{3in}
+
+b) At the top of the circle, is there an upward force that holds the frogs in the bucket so they don't fall out? If so, what is that force? If not, why don't they fall out even though the only forces on them point downward? You don't have to write anything down here, but call your coach/TA over and have them join your conversation.
+
+\newpage
+
+c) Suppose that the bucket is a bit rusty, and will break if its bottom must support more than 30 newtons. How many frogs can you do this with before the bottom falls out of the bucket? (Use the same angular velocity as you calculated in a). )
+
+
+\newpage
+
+\centerline{\Large Question 2: a curvy road}
+
+Suppose that a car is driving around a flat highway curve with a radius of curvature of $r=100$ meters (that is, it is a segment of a circle whose
+radius is 100 m), and that
+the coefficient of friction between the car's wheels and the pavement is $\mu_s=0.8$.
+
+a) What force is responsible for the centripetal acceleration of the car, bringing it around the curve?
+
+\vspace{1in}
+
+
+b) Draw a force diagram for the car. It is most convenient to draw the forces as seen from the rear/front, not the top/bottom.
+
+\vspace{3in}
+
+c) What is the fastest that the car can drive around the curve? How would this change if the highway
+was covered in snow with $\mu_s=0.2$?
+
+\vspace{2in}
+
+\newpage
+
+\centerline{\Large Question 3: a banked, curvy road}
+
+As you know, highway curves are ``banked'' inward, so that gravity assists the car's traction in 
+carrying it around the curve. Suppose another highway curve has a radius of curvature of 500 meters. 
+It is banked so that traffic moving at 30 m/s can travel around the curve without
+needing any help from friction.
+
+a) Draw a force diagram for a car traveling around this curve at a constant speed. Draw the
+diagram so that you are looking at the rear of the car. Hint: Do not tilt your coordinate axes for
+this problem: you want them to be aligned with the acceleration vector, which is horizontally inward.
+
+\vspace{3in}
+
+b) What is the acceleration of the car in the x-direction? What about the y-direction?
+
+\vspace{1in}
+
+c) Write down two copies of Newton's second law in the $x-$ and $y-$directions.
+
+\vspace{2in}
+
+d) Solve the resulting system of two equations to determine the banking angle of the curve.
+
+\vspace{3in}
+
+e) If the car is driving faster than 30 m/s, which way will traction point on your force diagram?
+What if it is driving slower than 30 m/s? 
+
+\newpage
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{22 February}}
+
+\medskip
+
+
+\centerline{\Large Question 1: geostationary orbit}
+
+It is sometimes useful to place satellites in orbit so that they stay in a fixed position relative to the
+Earth; that is, their orbits are synchronized with the Earth's rotation so that a satellite might stay
+above the same point on Earth’s surface all the time.
+
+What is the altitude of such an orbit? Note that it is high enough that you need to use $F_g=\frac{GMm}{r^2}$
+rather than just $F_g = mg$.
+
+{\sc Hint 1:} If this orbit is synchronized with Earth's rotation, then you should be able to figure out its
+angular velocity.
+
+{\sc Hint 2:} If you do this problem as we have guided you, by waiting to substitute numbers in until the 
+very end, you will arrive at an expression relating the radius $R$ of a circular orbit with the mass $M$ of the 
+planet being orbited and the angular velocity $\omega$ of the orbit. This question will be on HW5, and is related
+to the derivation of Kepler's third law that you will do there.
+
+\newpage
+
+\centerline{\Large Question 2: variation of apparent weight with latitude}
+
+\medskip
+
+\it For this problem, carry all calculations to five significant digits. Some figures that will be useful:
+
+\rm
+\BI
+\item Mass of Earth: $5.9722\times 10^{24}$ kg
+\item Radius of Earth: $ 6.3710 \times 10^6$ m (assume it is spherical)
+\item Gravitational constant (G): $6.6741 \times 10^{-11} \rm N\cdot \rm m^2/{\rm kg}^2$
+\item Length of one day: $8.64 \times 10^4$ s
+\EI
+
+
+a) What is the force of gravity on a 1 kg mass resting on the surface of the Earth? Are you surprised by this figure?
+
+
+\vspace{2in}
+
+b) Suppose this mass were resting on a scale sitting on the North Pole owned by Santa Claus. Recall that scales measure
+the normal force that they exert. What value would Santa's scale read? What would Santa conclude the value of $g$ is?
+
+\vspace{2in}
+\newpage
+c) Suppose that an identical 1 kg mass were resting on a scale sitting on the Equator, somewhere in Kenya. What would {\it this} scale read? (Hint: What is the acceleration of the mass?) What would our Kenyan physicist conclude about $g$?
+
+\vspace{2in}
+
+d) This problem shows that your apparent weight depends on your location on Earth. 
+Does it make sense to define $g$ as $F_g/m$ 
+(the strength of the gravitational force divided by an object's mass) or
+$F_N/m$ (the strength of the normal force, and thus the scale reading, divided by mass)? Call your TA/coach over to join your conversation.
+
+\vspace{3in}
+
+e) Is this distinction likely to be relevant to the sort of engineering or science you will do during your
+career? (The answer will depend on what you will do, of course!)
+
+
+%\newpage
+%
+%\centerline{\Large Question 4: universal gravitation and the Sun's mass}
+%
+%In this problem, you will compute the mass of the Sun. The Earth’s orbit is very nearly circular,
+%and the earth is 150 million km from the Sun.
+%
+%a) What is the angular velocity of the Earth in its orbit?
+%
+%\vspace{2in}
+%
+%b) What is the tangential velocity of the Earth? 
+%
+%\vspace{1in}
+%
+%c) What is the radial acceleration of the Earth?
+%
+%\vspace{1in}
+%
+%d) What is the mass of the Sun?
+%
+%\newpage
+%
+\newpage
+\centerline{\Large Question 3: Weightlessness}
+
+Astronauts in orbit around the Earth are not ``so far away that they don't feel Earth's gravity'';
+actually, they’re quite close to the surface. However, we’ve all seen the videos of astronauts drifting
+around ``weightlessly'' in the International Space Station.
+
+a) Explain how an astronaut can be under the influence of Earth's gravity, and yet exert no normal
+force on the surface of the spacecraft she is standing in.
+
+\vspace{2in}
+
+b) Draw a force diagram for the astronaut floating in the middle of the Space Station, not touching
+any of the walls or floor. How do you reconcile your diagram with the fact that the astronaut
+doesn't seem to fall?
+
+\vspace{2in}
+
+c) Is this astronaut truly ``weightless''? What does ``weightless'' mean?
+
+\newpage
+
+\end{document}

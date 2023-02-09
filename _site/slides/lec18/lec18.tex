@@ -1,0 +1,435 @@
+\documentclass[10pt]{beamer}
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+\def\BC{\begin{center}}
+	\def\EC{\end{center}}
+\def\BCC{\begin{columns}}
+	\def\ECC{\end{columns}}
+\def\HC{\column{0.5\textwidth}}
+
+\def\BS{\bigskip}
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Momentum]{
+  \textbf {Momentum}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\BI
+\large
+\item Group Exam 3 tomorrow; Exam 3 next Tuesday
+\item Review notes posted on the website
+\item{Extra homework help hours today: 9:45-10:45}
+\item HW7 due Friday
+
+\EI
+}
+
+
+\frame{\frametitle{\textbf{Extra exam review session}}
+	Extra exam review session will be held {\bf Monday afternoon or evening}. We are still getting a time/place. (I am sadly booked all weekend.)
+	
+	
+	\BS
+	
+	This will be a little more scripted than the last one, but I expect it should prepare everyone for the exam -- instead of ``cramming'' on your own, come work with us.
+	
+	
+	\BS
+	
+	To get the maximum benefit out of this, you should:
+	
+	\BI
+	\item Have done all your homework
+	\item Go to the Physics Clinic after the group exam Friday and ask the coaches to help you with anything you couldn't do
+	\item Be familiar with most of the recitation exercises we have done
+	\item Have already attempted the practice exam over the weekend, and have looked at the solutions (posted Friday or Saturday)
+	\EI
+	
+}
+	
+
+
+\frame{\frametitle{\textbf{Recitation or homework questions?}}
+	
+	\pause
+
+Shall we talk about the ``one with the truck''?
+
+}
+
+
+
+
+\frame{\frametitle{\textbf{Exam 3 Review}}
+
+This unit is about {\it conservation laws}.
+
+\BS
+
+We have met two of them: {\it conservation of momentum} and the {\it work-energy theorem}.
+
+\BS
+
+These techniques let you analyze systems where you know something about ``before'' and ``after'' states.
+
+\BS
+
+General problem-solving techniques:
+%
+\begin{itemize}
+
+\item {\bf Draw cartoons} for critical parts of the motion (``before'', ``after'', and ``in between'')\pause
+\item {\bf Choose a technique} to relate the things in each cartoon to the next\pause
+\item {\bf Think carefully} about the terms (momentum, energy, work, etc.) that apply to each technique\pause
+\item {\bf Write down the equations} for the work-energy theorem or conservation of momentum and do math\pause
+\end{itemize}
+
+}
+
+\frame{\frametitle{\textbf{Review: energy methods}}
+	\large
+	
+	Use energy methods when:
+	\BI
+	\item You have clear before and after states (draw your cartoons, dammit!)
+	\item You can calculate the work done by the forces between them {\bf (not collisions/explosions!)}
+	\item You don't care about time
+	\pause
+	\color{Green}
+	\item {\it Be careful with projectile motion!}
+	\BI
+	\item Energy methods can tell you ``how fast'' or ``how high''
+	\item They cannot tell you ``where does it land?''
+	\EI
+	
+	\EI
+}
+
+
+
+\frame{\frametitle{\textbf{Review: The work-energy theorem}}
+	
+	\Large
+	
+	
+	Work-energy theorem: $\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = \vec F \cdot \vec d = F d \cos \theta$ (if this is constant)
+	
+
+	
+	
+	\BS\BS
+	
+	Potential energy is an alternate way of keeping track of the work done by conservative forces:
+	
+	\BI
+	\item $PE_{\rm grav} = mgh$
+	\item $PE_{\rm spring} = \frac{1}{2}kx^2$
+	\EI
+	
+	
+	
+}
+
+
+\frame{\frametitle{\textbf{Review: Conservation of energy}}
+	
+	\BC
+	\begin{tabular}{ccccccccc}
+		\large $\color{Blue}{\large \rm PE_i} $
+		&\large+&\large$\color{Red} \frac{1}{2}mv_i^2 $
+		&\large+&\large$ W_{\rm other} $
+		&\large=&\large$\color{Blue}{\rm PE_f} $
+		&\large+&\large$\color{Red} \frac{1}{2}mv_f^2 $ \\
+		\pause
+		\\
+		\color{Blue}(initial PE) &+& \color{Red} (initial KE) &+& (other work) &=&\color{Blue} (final PE) &+&\color{Red}(final KE) \\
+		\pause
+		\\
+		\multicolumn{3}{c}{(total initial mechanical energy)}  &+& (other work) &=& \multicolumn{3}{c}{(total final mechanical energy)} \\
+		%&+& (other work) &=& \multicolumn{3}{c}{(total final mechanical energy)}\\
+	\end{tabular}
+	
+	\BS
+	\BS
+	\pause
+	
+	\Large Since conservation of energy is the broadest principle in science, it's no surprise that we can do this!
+	
+	\EC
+}
+
+\frame{\frametitle{\textbf{Review: Conservation of momentum}}
+	\large
+	
+	Use conservation of momentum when: \pause
+	\BI
+	\item You have a collision (two objects collide and exchange forces for a brief time)
+	\item You have an explosion (one object separates into two)
+	\item Two objects exchange forces {\it only with each other}
+	\EI
+	
+	\pause
+	
+	(that's it -- the last one doesn't come up much, but sometimes it does: why does the Earth wobble?)
+}
+
+\frame{\frametitle{\textbf{Review: Conservation of momentum}}
+
+	
+	To use conservation of momentum:
+	
+	\BI
+	\item Make sure you have your clear before/after cartoons
+	\item $\sum \vec p_i = \sum \vec p_f$\pause
+	\item {\bf Momentum is a vector!}\pause
+	\item If you have motion in two dimensions, momentum in each direction is conserved separately:
+	
+	\vspace{0.5in}
+	
+	\BCC
+	\HC
+	$$\sum p_{x_i} = \sum p_{x_f}$$
+	\HC
+	$$\sum p_{y_i} = \sum p_{y_f}$$
+	\ECC
+	
+	\BS
+	
+	\BC
+	\color{Red} Do not get lazy with your subscripts!
+	\EC
+	\EI
+}
+
+
+
+\frame{\frametitle{\textbf{Sample problems: an excited dog}}
+	
+	\Large
+	
+	A person of mass $m$ is sitting in a tire swing with a string of length $L$ when their dog (mass $M$) runs and jumps horizontally into their lap.
+	
+	\bigskip
+	
+	If they swing up to an angle $\theta$ above the horizontal, how fast was their dog running?
+}
+
+
+\frame{\frametitle{\textbf{What about ``bouncing''?}}
+	
+	Just knowing that momentum is conserved doesn't fully tell you what happens after a collision.
+	
+	\bigskip
+	
+	You also need to know how ``sticky'' or ``bouncy'' the objects are.
+	
+	\pause\bigskip
+	
+	One way to describe this: {\it how does the total kinetic energy change?}
+	
+	\begin{itemize}
+		\item Objects stick together: most kinetic energy lost (``inelastic collision'') \pause
+		\item Objects bounce a bit: some kinetic energy lost (``partially inelastic'') \pause
+		\item Objects bounce ``fully'': no kinetic energy lost (``elastic collision'') \pause
+		\item Kinetic energy {\it increases}: only possible with some energy source! \pause
+	\end{itemize}
+}
+
+	
+\frame{\frametitle{\textbf{An application: neutron moderators}}
+
+The only truly elastic collisions in nature are between particles. If we want {\it totally} elastic collisions, we should look to nuclear physics!
+
+\bigskip
+{\color{Blue}
+A note: this calculation we are going to do here demonstrates two things:
+
+\BI
+\color{Blue}
+\item How elastic collisions work
+\item ... and how {\it the art of approximation} is used in physics and engineering!
+\EI
+}
+
+\bigskip
+
+Recall how a nuclear reactor works:
+
+\BI
+\item $\null^{235}U$ fissions when struck by neutrons with low energy (600 times more likely at low energy, less than 0.1 eV)
+\item When $\null^{235}U$ fissions, it produces neutrons with 2 MeV of kinetic energy ($v \approx$ 20 million m/s)
+\EI
+
+\bigskip\bigskip
+
+\begin{center}
+
+\color{Red}
+
+How do we make these neutrons go from 2 million eV to 0.1 eV of kinetic energy so they can produce more fissions?
+
+\end{center}
+
+}
+
+\frame{\frametitle{\textbf{Bounce it off of other atoms!}}
+
+Compared to a neutron moving at $2 \times 10^6$ m/s, other atoms appear to be holding still!
+
+\bigskip
+
+This leads us directly to something we know how to do:
+
+
+\bigskip\pause
+
+\large
+
+\color{Red}
+\begin{center}
+A neutron of mass $m$ and kinetic energy $E_0$ strikes another atom of mass $M$. They collide elastically. What is the neutron's energy after the collision?
+\end{center}
+
+\pause
+
+$$v_f = -v_0 \frac{M-m}{m+M}$$
+
+\pause
+
+How much kinetic energy is lost?
+
+\pause
+\bigskip
+
+The fraction of kinetic energy lost is $$4 \frac{m}{M}.$$
+
+}
+
+
+\frame{\frametitle{\textbf{So what atoms can we use as moderators?}}
+	
+	\large
+	
+	They have to scatter neutrons more readily than they absorb them (hydrogen so-so, oxygen/carbon/heavy hydrogen great)
+	
+	\bigskip
+	
+	They have to be lightweight (that's what we just found)
+	 
+	\bigskip
+	
+	They have to not be chemically grouchy (no hydrogen or oxygen by themselves!)
+	
+	\begin{itemize}
+		\item $\rm H_2 \rm O$ (light water: most of the world, not the best moderator)
+		\item $\rm D_2 \rm O$ (heavy water: Canadians)
+		\item $\rm C \rm O_2$ (carbon dioxide: British)
+		\item Pure carbon (Graphite: Soviets)
+	\end{itemize}
+
+
+}
+
+
+
+
+
+
+
+\end{document}
+
+
+

@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+%\usepackage[left=2cm, right=2cm, top=1.5cm, bottom=1cm]{geometry}
+\usepackage[margin=0.5in, paperwidth=13.5in, paperheight=8.4375in]{geometry}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BI}{\begin{itemize}}
+\newcommand{\EI}{\end{itemize}}
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\def\BS{\bigskip}
+
+\begin{document}
+\pagenumbering{gobble}
+\Large
+\centerline{\sc{Recitation Questions}}
+\normalsize
+\centerline{\sc{26 February}}
+
+\it These recitation problems are designed to build a bridge between the things we have learned so far and things we will learn later in the semester.
+
+\rm
+
+There is no recitation evaluation today.
+
+
+
+\begin{center}
+\Large
+Part 1: the ``third kinematics equation''
+\end{center}
+
+Sometimes we are not interested in the {\it time} motion takes. For instance, consider the following problem:
+
+\begin{center}
+	\it A car is driving at 30 m/s. The driver wants to slow down to 20 m/s. How far will the car travel before it slows down to 20 m/s?
+\end{center}
+
+Our current process for solving this problem is the following:
+
+\BI
+\item Interpret the question as a question about algebraic variables: ``What is the value of position at the time when the velocity is equal to 20 m/s?''
+\item Use the velocity relation $v(t) = v_0 + at$ to solve for the time when $v = 20 \rm m/\rm s$
+\item Use the position relation $x(t) = x_0 + v_0 t + \frac{1}{2}at^2$ to solve for the position at that time
+\EI
+
+Note that we had to calculate the time this motion took as an intermediate step, even though we didn't really care about it in the end. Is there a simpler way to do this?
+
+It turns out there is! The best way to do this is to solve this problem {\it without numbers} in the most general sense, then look at the result. (An outline for how to do this is on the next page.)
+\newpage
+To do this:
+
+\begin{enumerate}
+\item Write down the constant-acceleration kinematics relations above (using $x_f$ and $v_f$ to represent the position and velocity after the motion)
+\item Solve one of those equations for $t$
+\item Substitute it into the other equation
+\end{enumerate}
+
+The form we usually see this equation written in has $2a(x_f - x_0)$ on one side. What is on the other? {\it (Hint: Depending on how you do this, you may need the algebraic relation $(a - b)^2 = a^2 + b^2 - 2ab$.)}
+
+\newpage
+
+\begin{center}
+	\Large
+	Part 2: adding vectors
+\end{center}
+
+Next week, we will start studying Newton's second law. It says:
+
+\begin{center}
+	{\large The acceleration of an object is determined by the \\{\it vector sum} of all the forces acting on it.}
+\end{center}
+
+So, to use Newton's second law, we have to know how to add up a bunch of vectors. You practiced this last Friday in recitation; here we will practice more.
+
+
+
+A small boat is sitting in the middle of a lake while a breeze blows on it. Several forces are acting on it:
+	\begin{itemize}
+		\item $\vec F_{\rm wind}$, the force from the wind, has a magnitude of 50 newtons and is directed straight south
+		\item $\vec F_{\rm current}$, the force applied from water flowing past it, has a magnitude of 300 newtons and is directed 30 degrees north of east
+		\item $\vec F_{\rm row}$, the force applied from the people inside the boat rowing with oars, has a magnitude of 400 newtons and is directed 35 degrees west of north
+	\end{itemize}
+
+     Here, we would like to calculate the net force on the boat.
+
+     First, draw a picture of the forces acting on the boat. (The easiest way to do this is to draw a dot with arrows representing each force pointing away from it).
+     
+     \vspace{3in}
+     \newpage
+     Then, convert each of those vectors into $x-$ and $y-$component. To do this, draw each vector as the hypotenuse of a right triangle, then draw the $x-$ and $y-$components as legs aligned with the East-West and North-South axes. You will know one angle of each right triangle. {\it (Of course, $\vec F_{\rm wind}$ is pointing only in one direction...}
+
+     \vspace{2in}
+     
+     The sum of the forces, $\sum \vec F$, can be found by adding up the $x-$ and $y-$components of all of the forces. Do that now. What is $\sum F_x$ and $\sum F_y$?
+     
+     \vspace{2in}
+     
+     Suppose that this boat now gets stuck on a rock beneath the water, so that it cannot move. All of the other forces are still acting on it. Once it comes to rest, it is not accelerating, so the sum of all the forces $\sum \vec F = \vec F_{\rm wind} +\vec F_{\rm current} +\vec F_{\rm row} +\vec F_{\rm rock} = 0$.
+     
+     Find $\vec F_{\rm rock}$.
+ 
+
+
+\end{document}

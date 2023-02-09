@@ -1,0 +1,139 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\pagenumbering{gobble}
+
+\begin{document}
+\Large
+\centerline{\sc{Homework 3}}
+\normalsize
+\centerline{\sc{Due Friday, 25 February}}
+
+\begin{enumerate}
+
+ 	\item{A person with a mass of 60 kg stands in an elevator. Draw a force diagram for the
+ 	person, and indicate the magnitude of each of the forces acting on the person, in each
+ 	of the following situations:}
+\begin{enumerate}
+ 	\item{The elevator is at rest;}
+ 	\item{the elevator is accelerating upward at 5 $\rm m/\rm s^2$} 
+ 	\item{the elevator is accelerating downward at 5 $\rm m/\rm s^2$.}
+\end{enumerate}
+
+ 	\item{Go visit an elevator and ride it up and down. (There is one by Stolkin Auditorium in the Physics Building.) When it’s accelerating upward, do you
+ 	feel lighter or heavier? What about when it’s accelerating downward? Based on your
+ 	observations and your answers to problem 1, is there any connection between how
+ 	heavy you feel and any of the forces that you drew in your force diagrams?}
+ 	
+
+\item A locomotive with mass $2m$ pulls a train consisting of two cars, each of which has a mass of $m$. The locomotive wants to accelerate the cars forward at an acceleration $\alpha$. Each car (but not the locomotive) experiences a backward force 
+$F_f$ from friction in its wheels. The locomotive is attached to the first car; the first car is attached to the second car. You want to calculate the forces that the cars apply to each other, to make sure that the couplers 
+between the cars will not break, and calculate the traction force that the locomotive must apply.
+
+\begin{enumerate}
+\item Draw a cartoon of the situation, and label anything interesting about it. Choose a clear set of variables for the various things in the problem: you will need algebraic symbols for all of the forces that the cars exert on each other.
+\item Draw three separate force diagrams for the locomotive and the two cars.
+\item Based on your force diagrams, write down Newton's second law $\sum F = ma$ for each of the three cars. There will be five unknown forces here: the traction force on the locomotive, the force that the locomotive applies to the first car,
+the force that the first car applies to the locomotive, the force that the first car applies to the second car, and the force that the second car applies to the first car. Using Newton's third law, reduce this to three unknowns.
+\item Now you should have a system of three equations and three unknowns. Solve for the forces required. How much 
+traction does the locomotive need, and how much force must the couplers between the cars support?
+\end{enumerate} 
+
+\item{A 1 kg book sits on a horizontal frictionless table in outer space, where there is no
+ 	gravity. Someone pushes on the book with a force of 9.8 N, diagonally downward on the book; there is a 30 degree
+ 	angle between that force and the vertical.}
+
+ 	\begin{enumerate}
+\item{Draw a force diagram for the book. }
+\item{What are the components of the external force parallel to and perpendicular to
+ 	the surface? Draw a right triangle on your force diagram whose hypotenuse is the
+ 	force and the legs are the components, as we usually do.}
+\item Construct Newton's second law of motion in both directions: parallel to the surface, and perpendicular to the surface. 
+Underneath your equation, write the meaning of each term in words. Use language such as ``the component of \underline{\hspace{0.5in}} parallel to \underline{\hspace{0.5in}}.
+
+
+\item{What magnitude must the normal force have? Remember, the normal force has
+ 	whatever magnitude that it must have to stop the book from moving ``through''
+ 	the table.}
+\item{What is the acceleration of the book?}
+\end{enumerate}
+
+\item{Now, back to Earth, where there is gravity. A 1 kg book sits on a frictionless inclined
+ 	plane, tilted at an angle of $30^\circ$ above the horizontal. Hint: If you have trouble with
+ 	this problem, look at the force diagram you drew for the last problem and rotate it by
+ 	thirty degrees. }
+\begin{enumerate}
+\item{Draw a force diagram for the book. }
+\item{What are the components of the gravitational force parallel to and perpendicular
+ 	to the ramp? Draw a right triangle on your force diagram whose hypotenuse is
+ 	the book’s weight and the legs are the components, as we usually do. Note that
+ 	the components will both be diagonal relative to the horizontal/vertical axes. }
+\item Construct Newton's second law of motion in both directions: parallel to the surface, and perpendicular to the surface. 
+Underneath your equation, write the meaning of each term in words. Use language such as ``the component of \underline{\hspace{0.5in}} parallel to \underline{\hspace{0.5in}}.
+\item{What magnitude must the normal force have, and what is the acceleration of the book down the ramp? Hint: If you have done the
+ 	previous problem, this one should be easy; you do not need to show mathematics
+ 	if you can explain how your answers relate!}
+\end{enumerate}
+ 
+ \item{A 1500 kg car is driving at 20 m/s. The driver wishes to stop over a distance of 30 m. What force must the brakes apply to the car to do this? (Assume air resistance doesn't help stop the car.)}
+%\item 
+%
+%Prior to the emergence of modern mechanics in the 1600's with Newton's laws of motion, the prevailing 
+%
+%Real aircraft operate on the following principles:
+%
+%\begin{itemize}
+%\item An engine in the rear applies a large, continuous force forward (``thrust''). This counteracts the large rearward force applied by air moving over the airplane (``drag'') and keeps the airplane moving forward.
+%\item The wings of the airplane are shaped so that the air moving over the wings also applies a large force {\it upward} (``lift''), counteracting the force of gravity (``weight'').
+%\item The airplane maneuvers by changing the shape of its wings and tail, causing small forces from the air that rotate the airplane. This changes the direction of thrust and lift, and these large forces then change the airplane's velocity vector.
+%\item The airplane's velocity vector is almost always pointing forwards; it is unable to fly or maneuver in other directions because it relies on the air passing in the ``right direction'' over its wings, 
+%and so it maneuvers principally by pointing its nose in the direction it wants to travel.
+%\end{itemize}
+%
+%A popular trope in science fiction is the ``space fighter'', a small maneuverable spaceship that takes design cues from real-world aircraft.
+%They tend to have a large engine in the rear (capable of applying a force pointed forward) and wings, but these wings would be useless in space since there is no air.
+%
+%Two iconic examples of this trope are the Vipers from {\it Battlestar Galactica} and the various small craft from {\it Star Wars}. 
+%
+%
+
+\item A sled sits on the snow. Three people are pulling on it with ropes. The first rope points $45^\circ$ north of east, and a person pulls it with a force of 200 N.
+Another rope points southward, and someone pulls it with a force of 300 N. The third rope points $30^\circ$ north of west, and the last person pulls it with a force of
+100 N.
+
+You would like to stop the sled from moving. In which direction, and with what force, should you pull the fourth rope?
+
+
+\end{enumerate}
+
+\end{document}

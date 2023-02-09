@@ -1,0 +1,15 @@
+#m 2
+cl -8 -4 8 -4 2
+#m 1 cm 0
+circ 0 0 0.5
+dcirc 0 0 4
+#cm 1
+arrow 0 4 -3 4
+arrow 0 0 -3 0
+arrow 0 -4 -3 -4
+#cm 2
+-4.5 -3.2 "-v\sbtrans\eb"
+-4.5 .8 "-v\sbtrans\eb"
+-4.5 4.8 "-v\sbtrans\eb"
+#cs 1 cm 0
+;-9 -5 "Effect of translation: everywhere moves left at v\sbtrans\eb"

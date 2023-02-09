@@ -1,0 +1,287 @@
+
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqna
+		rray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+\centerline{\Large \sc{Work and Energy}}
+
+
+In this exercise, you will discover for yourself one of the most useful laws of mechanics -- the {\it work-energy theorem}. I could derive it for you, but that would be boring; this is something you can do on your own!
+
+
+
+Don't be intimidated by the fact that this is new material: everything that you will do follows logically from things that you have already learned.
+
+In this class, usually you spend most of your practice time applying the laws of physics that you have learned already. This time, you will see how the work-energy theorem is just a {\it mathematical consequence} of what you know already. 
+
+In the process, you will learn some new mathematics, too. We will explore the meaning of those new mathematics together after you're done.
+\bigskip
+\bigskip\newpage
+
+{\Large Section 1: Work and Energy in One Dimension}
+
+Consider a constant force $F$ acting on an object of mass $m$ moving only in the $x-$direction as it moves; its change in position during some interval (from ``before'' to ``after'') is $\Delta x$. (We call $\Delta x$ -- the change in the x-position during some 
+motion -- the {\it x-displacement}.)
+
+Our starting point is the ``third kinematics relation''
+
+$$ v_f^2 - v_i^2 = 2 a \Delta x$$
+
+which you worked out in recitation a while back.
+
+\begin{enumerate}
+	\item Our goal here is to rewrite the ``third kinematics equation'' above so that the right-hand side references only the {\it forces} that act on the object, rather than its acceleration. You know that $F=ma$. Multiply both sides of that equation by some factor so that the right-hand side becomes only the force multiplied by the x-displacement -- that is, $F \Delta x$.
+	
+	Two hints:
+	
+	\begin{enumerate}
+		\item Since $F=ma$, you can replace $ma$ with $F$ wherever it appears. How can you get $ma$ to appear together on the right-hand side?
+		\item If you have any numerical factors that you want to get rid of, you can multiply both sides by their inverse -- so, for instance, if the right-hand side is $3 F \Delta x$, since you want just $F \Delta x$, you can multiply by $1/3$.
+	\end{enumerate}
+	
+	
+	 What do you get? 
+	
+{\color{Red} Multiply by $\frac{1}{2}m$ to get $$\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = ma \Delta x$$ and substitute $F=ma$ to get $$\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = F \Delta x.$$}
+	
+
+	\item This equation will become a good friend in the next few weeks, so we give the terms that appear in it special meanings. There are two terms on the left, representing the final and initial {\it kinetic energy} during the motion. (Kinetic energy is a type of energy associated with motion.)
+	
+	What is the formula for the kinetic energy of something? {\it (Give only the general form -- one term, either initial or final.)}
+	
+{\color{Red} $$\frac{1}{2}mv^2.$$}
+	
+	\item The right-hand side of this equation -- force times displacement -- is also new thing we have not met before, called {\it work}. 
+	
+	In one dimension, we have two choices for our coordinate system: we can choose either right or left to be positive. Does the value of {\it work} depend on which coordinate system you choose? {\it (If you want, come up with a hypothetical situation: choose a direction for the force and the displacement, and then think about the result in each coordinate system.)}
+	
+	{\color{Red} No it doesn't: if the force and displacement are in the same direction, then multiplying either two positives or two negatives gives you a positive.}
+	
+	
+
+	\item Under what conditions is work positive? Under what conditions is it negative?
+	
+	{\color{Red}Positive if the force and displacement are in the same direction; negative if they are not.}
+	
+	
+	\item Does the formula for the {\it kinetic energy} that you found above depend on your choice of coordinate system? Why or why not?
+	
+{\color{Red} No it doesn't, because changing the coordinate system in one dimension just makes $v$ either positive or negative, and it is being squared: $(-v)^2 = v^2$.}
+	
+	\item The result you got above is called the {\it work-energy theorem}. It says in words:
+	
+	$$\text{(change in kinetic energy due to a force)} = \text{(work done by that force)}.$$
+	{
+	\color{Red}
+	
+	$$\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = F \Delta x.$$
+	
+
+}
+	
+	Write the mathematical expressions corresponding to these ideas below the words.
+	
+	{\color{Red} 	The terms are: final kinetic energy, initial kinetic energy, work done.}
+\end{enumerate}
+
+\newpage
+
+
+{\Large Section 2: Work and Energy in Two Dimensions}
+
+ Like the rest of kinematics, the ``third kinematics equation'' applies separately for $x$ and $y$ directions. Since the work-energy theorem is based on the third kinematics equation, let's see how we can modify the above result for motion in more than one dimension.
+
+\begin{enumerate}
+\item Begin by writing down the ``third kinematics equation'' in both $x$ and $y$. {\it (You will need double subscripts, such as $v_{f_y}$; that is okay. This will give you two equations.)}
+
+{\color{Red}
+	
+	$$
+	v_{f_x}^2 - 	 v_{i_x}^2 = 2 a_x  \Delta x $$
+	
+	$$v_{f_y}^2 - 	v_{i_y}^2 = 2 a_y \Delta y $$
+
+
+}
+
+\vspace{2in}
+
+\item You know that Newton's second law applies separately in $x$ and $y$; that is $\vec F = m \vec a$ implies both $F_x = m a_x$ and $F_y = m a_y$. As you did before, multiply both sides of the equations by $\frac {1}{2}m$, then substitute the force in for the right-hand side.
+
+{\color{Red}
+
+$$
+\frac{1}{2}mv_{f_x}^2 - 	\frac{1}{2}mv_{i_x}^2 = F_x \Delta x $$
+
+$$
+\frac{1}{2}mv_{f_y}^2 - 	\frac{1}{2}mv_{i_y}^2 = F_y \Delta y $$
+}
+
+\item In the past, we emphasized the fact that $x-$ and $y-$directions were independent, and we could not combine them without great care. However, we'll do that now. {\it Add the two equations} above together. (Yes, it is gross, but it won't be gross for long. It will simplify greatly in two steps!)
+
+{\color{Red}
+
+They will write the terms in some order or other, but typically:
+
+$$
+\frac{1}{2}mv_{f_x}^2 - 	\frac{1}{2}mv_{i_x}^2 + \frac{1}{2}mv_{f_y}^2 - 	\frac{1}{2}mv_{i_y}^2 = F_x \Delta x + F_y \Delta y$$
+
+
+}
+
+\vspace{1in}
+\newpage
+
+\item Group the terms on the left-hand side so that all the ``initial'' terms are together, and all the ``final'' terms are together. (In doing this, we are trying to figure out what the initial and final kinetic energy in two dimensions looks like.) 
+
+{\color{Red}
+All they need to do here is flip the order of terms. Encourage them to put parentheses around them:
+
+$$
+\left(\frac{1}{2}mv_{f_x}^2 + \frac{1}{2}mv_{f_y}^2 \right)- \left(\frac{1}{2}mv_{i_x}^2  + 	\frac{1}{2}mv_{i_y}^2\right) = F_x \Delta x + F_y \Delta y$$
+}
+
+
+\item You may see right away how to simplify the left-hand side. If you don't, think about the Pythagorean theorem; if you are still stuck, ask Walter or the coach for help. {\it (You may use the simple symbol $v$, without an arrow, for ``the magnitude of the velocity.'')} Write your simplified form of the work-energy theorem in two dimensions below. 
+
+{\color{Red} This is the hardest step here probably. They need to see that $$v_{f_x}^2 + v_{f_y}^2 = v_f^2.$$ Then the whole thing simplifies to
+	
+	$$
+	\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = F_x \Delta x + F_y \Delta y$$}
+
+
+\item In two dimensions, what is an expression for the kinetic energy? Does it depend on which coordinate system you choose, or which direction the velocity vector is pointing?
+
+{\color{Red} It is just 
+	
+	$$\text{(kinetic energy)} = \frac{1}{2}mv^2$$
+	
+	with no vector components; it doesn't depend on direction or coordinate system, only the magnitude of $v$.}
+
+
+
+\vspace{2in}
+\newpage
+
+\item Now, let's think about the right-hand side -- the ``work side''. You have found that 
+$\text{(work in two dimensions)} = F_x \Delta x + F_y \Delta y.$
+
+A moment ago, you found that the kinetic energy doesn't have a direction or depend on the coordinate system. If that is true for the left-hand side of an equation, it must also be true for the right-hand side! Here we will see why.
+
+Imagine that you have a force $\vec F$ acting 30 degrees south of east on an object that moves a distance $d$ due east. Draw arrows representing the force vector and the displacement vector below.
+\vspace{2in}
+
+
+\item Using the definition of work $W = F_x \Delta x + F_y \Delta y$, calculate the work that the force does on the object during the motion using two different coordinate systems:
+
+\begin{itemize}
+\item A coordinate system where the positive $x-$direction is pointing in the direction of the displacement
+
+\item A coordinate system where the positive $x-$direction is pointing in the direction of the force
+\end{itemize}
+
+In both cases, you should get $W = F d \cos \theta$, where $\theta$ is the angle between the force and the displacement.
+
+
+{\color{Red}In the first case for the work, things simplify because $\Delta y$ is zero:
+	
+	\begin{align*}
+	 W = F_x \Delta x +& F_y \Delta y\\
+	 W = (F \cos \theta)(d) +& (F \sin \theta)(0)
+	\end{align*}
+	
+	and only the first term survives.
+	
+	In the second case, things simplify because $F_y$ is zero:
+		\begin{align*}
+	W = F_x \Delta x +& F_y \Delta y \\ 
+	W = (F)(d \cos \theta)  +& (0)(d \sin \theta)
+	\end{align*}
+	
+	and only the first term survives, giving the same result.
+	
+}
+
+\bigskip
+\newpage
+\item Note that $\Delta x$ and $\Delta y$ are components of the displacement vector $\Delta \vec s = (\Delta x, \Delta y)$ Our form for the work $W = F_x \Delta x + F_y \Delta y$ has the form $A_x B_x + A_y B_y$. This combination occurs quite a bit in physics, so we give it a special name: the {\bf dot product.} Specifically,
+
+$$A_x B_x + A_y B_y = \vec A \cdot \vec B.$$
+
+Rewrite your version of the work-energy theorem so that the work is written in terms of a dot product between the force vector $\vec F$ and the displacement vector $\vec \Delta s$ (whose components are $\Delta x$ and $\Delta y$). Then label the three terms:
+
+\begin{itemize}
+\item work
+\item initial kinetic energy
+\item final kinetic energy
+\end{itemize}
+
+Note that {\it none} of them depend on coordinate system!
+
+{\color{Red}
+	
+	$$\frac{1}{2}mv_f^2 - \frac{1}{2}mv_0^2 = \vec F \cdot \Delta \vec s$$.
+
+\end{enumerate}
+
+\vspace{2.5in}
+
+{\Large Summary}
+
+In the previous sections, you found that
+
+\begin{align*}
+\text{(change in kinetic energy during a motion)} &= \text {(work done by all forces during that motion)} \\
+\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 \hspace{0.5in} &= \hspace{1.2in}\sum \vec F \cdot \Delta \vec s
+\end{align*}
+
+Here $\vec F \cdot \Delta \vec s$ means whichever of the following is easiest to figure out:
+
+\begin{itemize}
+\item The size of the force, multiplied by the distance moved in the direction of that force
+\item The distance moved, multiplied by the size of the force in the direction of motion
+\item The distance moved, multiplied by the size of the force, multiplied by the cosine of the angle between them
+\end{itemize}
+
+You may calculate the work done by different forces using different methods if you choose.
+\newpage
+\end{document}
