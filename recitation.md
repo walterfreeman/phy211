@@ -17,6 +17,8 @@ use_math: true
 
 <a href="recitation/week3/recitation-2D-motion.pdf">Week 3 Day 1: 2D motion</a><br>
 
+<a href="recitation/week4/recitation-forces.pdf">Week 4 Day 2: Forces in One Dimension</a><br>
+
 <!--
 
 S2022
@@ -32,7 +34,6 @@ S2022
 <a href="group-exam-1/exam4.pdf">Week 3 Friday: 3:45 or 5:15 sections</a><br>
 <br>
 
-<a href="recitation/week4/recitation-forces.pdf">Week 4 Friday: Forces in One Dimension</a><br>
 <br>
 
 <a href="recitation/week5/recitation-forces2.pdf">Week 5 Wednesday: Forces in Two Dimensions; The Atwood Machine</a><br>
