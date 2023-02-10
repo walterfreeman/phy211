@@ -7,7 +7,8 @@ title: Announcements
 
 ### Current homework 
 
-* Homework 3 coming today
+* <a href="hw/hw3/homework3.pdf">Homework 3</a>, due Thursday or Friday, 16 or 17 February, in recitation<br>
+
 
 ### Current recitation materials
 
