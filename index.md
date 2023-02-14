@@ -13,7 +13,7 @@ title: Announcements
 ### Current recitation materials
 
 * Day 1 (Tuesday evening or Wednesday): <a href="recitation/week5/recitation-forces2.pdf">Forces in two dimensions and friction</a>
-* Day 2 (Thursday evening or Friday): <a href="recitation/week5/recitation-uniform-circular-motion-1.pdf.pdf">Uniform circular motion</a>
+* Day 2 (Thursday evening or Friday): <a href="recitation/week5/recitation-uniform-circular-motion-1.pdf">Uniform circular motion</a>
 
 ### Current slides
 
