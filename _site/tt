@@ -1,16 +1,30 @@
-* [Who's teaching this class, what do they all do, and how do I contact them?](#contact)
-* [How do I get the textbook, and do I need it?](#book)
-* [What will be learning?](#objectives)
-* [How will grades be calculated?](#grades)
-* [How will homework be graded?](#hwgrades)
-* [How will recitation participation be graded?](#recgrades)
-* [How do pre-lecture questions work?](#prelecture)
-* [Do we have lab this week?, and other lab questions](#lab) 
-* [What about this paper?](#paper)
-* [When are our exams?](#exams)
-* [I take my exams at ODS. What do I need to do?](#ods)
-* [I need to miss a lecture. What do I need to do?](#absenceclass)
-* [I need to miss recitation. What do I need to do?](#absencerec)
-* [I need to miss a group exam. What do I need to do?](#absencegroup)
-* [I need to miss an exam. What do I need to do?](#absenceexam)
-* [I think there's something wrong with my homework or exam grade. What do I do?](#gradeappeal)
+rm ./recitation/2020/recitation-units-motion (ravel's conflicted copy 2020-01-12).pdf
+rm ./recitation/2020/recitation-units-motion (ravel's conflicted copy 2020-01-12).tex
+rm ./recitation/2020/recitation-1D-motion-1 (ravel's conflicted copy 2020-01-12).tex
+rm ./recitation/2020/recitation-1D-motion-1 (ravel's conflicted copy 2020-01-12).log
+rm ./recitation/2020/recitation-1D-motion-1 (ravel's conflicted copy 2020-01-12).pdf
+rm ./recitation/2020/recitation-units-motion (ravel's conflicted copy 2020-01-12).log
+rm ./recitation/week3/recitation-2D-motion.sync-conflict-20230131-165303-YVQAW2X.log
+rm ./recitation/week3/recitation-2D-motion.sync-conflict-20230131-165303-YVQAW2X.tex
+rm ./recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.aux
+rm ./recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.log
+rm ./recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.tex
+rm ./recitation/week5/recitation-forces2.synctex.sync-conflict-20230213-183811-ZBDSAJ2.gz
+rm ./recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.pdf
+rm ./_site/hw/hw3/homework3.sync-conflict-20230213-183810-D43BAKR.log
+rm ./_site/hw/hw3/homework3.synctex.sync-conflict-20230213-183810-D43BAKR.gz
+rm ./_site/hw/hw3/homework3.sync-conflict-20230213-183810-D43BAKR.pdf
+rm ./_site/hw/hw3/homework3.sync-conflict-20230213-183810-D43BAKR.tex
+rm ./_site/recitation/2020/recitation-units-motion (ravel's conflicted copy 2020-01-12).log
+rm ./_site/recitation/2020/recitation-1D-motion-1 (ravel's conflicted copy 2020-01-12).pdf
+rm ./_site/recitation/2020/recitation-1D-motion-1 (ravel's conflicted copy 2020-01-12).tex
+rm ./_site/recitation/2020/recitation-units-motion (ravel's conflicted copy 2020-01-12).pdf
+rm ./_site/recitation/2020/recitation-1D-motion-1 (ravel's conflicted copy 2020-01-12).log
+rm ./_site/recitation/2020/recitation-units-motion (ravel's conflicted copy 2020-01-12).tex
+rm ./_site/recitation/week3/recitation-2D-motion.sync-conflict-20230131-165303-YVQAW2X.tex
+rm ./_site/recitation/week3/recitation-2D-motion.sync-conflict-20230131-165303-YVQAW2X.log
+rm ./_site/recitation/week5/recitation-forces2.synctex.sync-conflict-20230213-183811-ZBDSAJ2.gz
+rm ./_site/recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.log
+rm ./_site/recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.pdf
+rm ./_site/recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.tex
+rm ./_site/recitation/week5/recitation-forces2.sync-conflict-20230213-183811-ZBDSAJ2.aux
