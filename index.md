@@ -16,7 +16,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lec7/lecture7.pdf">Newton's laws of motion
+<a href="slides/lec8/lecture8.pdf">Motion in two dimensions; friction
 
 
 ### Information
