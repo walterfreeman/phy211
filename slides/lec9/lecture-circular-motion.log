@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  15 FEB 2023 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  16 FEB 2023 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lec10.tex
-(./lec10.tex
+**lecture-circular-motion.tex
+(./lecture-circular-motion.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -815,8 +815,8 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box73
 )
-(./lec10.aux)
-\openout1 = `lec10.aux'.
+No file lecture-circular-motion.aux.
+\openout1 = `lecture-circular-motion.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
@@ -836,7 +836,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -909,10 +908,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 109.
 LaTeX Info: Redefining \pageref on input line 109.
 LaTeX Info: Redefining \nameref on input line 109.
-
-(./lec10.out) (./lec10.out)
 \@outlinefile=\write5
-\openout5 = `lec10.out'.
+\openout5 = `lecture-circular-motion.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -938,11 +935,14 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./lec10.nav) [1
+)
+No file lecture-circular-motion.nav.
+[1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] [3
+]
+[3
 
 ] [4
 
@@ -951,8 +951,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 189
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 189
@@ -974,12 +973,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [11
 
 ]
-<circle1-crop.pdf, id=107, 327.2225pt x 349.305pt>
+<circle1-crop.pdf, id=106, 327.2225pt x 349.305pt>
 File: circle1-crop.pdf Graphic file (type pdf)
 <use circle1-crop.pdf>
 Package pdftex.def Info: circle1-crop.pdf  used on input line 281.
 (pdftex.def)             Requested size: 130.57454pt x 139.38373pt.
-<circle2-crop.pdf, id=108, 327.2225pt x 349.305pt>
+<circle2-crop.pdf, id=107, 327.2225pt x 349.305pt>
 File: circle2-crop.pdf Graphic file (type pdf)
 <use circle2-crop.pdf>
 Package pdftex.def Info: circle2-crop.pdf  used on input line 281.
@@ -993,12 +992,12 @@ Package pdftex.def Info: circle2-crop.pdf  used on input line 281.
 ] [15
 
 ]
-<acc1-crop.pdf, id=143, 336.25626pt x 345.29pt>
+<acc1-crop.pdf, id=142, 336.25626pt x 345.29pt>
 File: acc1-crop.pdf Graphic file (type pdf)
 <use acc1-crop.pdf>
 Package pdftex.def Info: acc1-crop.pdf  used on input line 345.
 (pdftex.def)             Requested size: 130.57454pt x 134.083pt.
-<acc2-crop.pdf, id=144, 164.615pt x 134.5025pt>
+<acc2-crop.pdf, id=143, 164.615pt x 134.5025pt>
 File: acc2-crop.pdf Graphic file (type pdf)
 <use acc2-crop.pdf>
 Package pdftex.def Info: acc2-crop.pdf  used on input line 345.
@@ -1054,26 +1053,34 @@ Package pdftex.def Info: acc2-crop.pdf  used on input line 345.
 
 ]
 \tf@nav=\write6
-\openout6 = `lec10.nav'.
+\openout6 = `lecture-circular-motion.nav'.
 
 \tf@toc=\write7
-\openout7 = `lec10.toc'.
+\openout7 = `lecture-circular-motion.toc'.
 
 \tf@snm=\write8
-\openout8 = `lec10.snm'.
+\openout8 = `lecture-circular-motion.snm'.
 
- (./lec10.aux)
-Package rerunfilecheck Info: File `lec10.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+(./lecture-circular-motion.aux)
+
+Package rerunfilecheck Warning: File `lecture-circular-motion.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `lecture-circular-motion.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21586 strings out of 478855
- 400412 string characters out of 5858635
- 687009 words of memory out of 6000000
- 38678 multiletter control sequences out of 15000+600000
+ 21525 strings out of 478855
+ 400151 string characters out of 5858635
+ 686957 words of memory out of 6000000
+ 38625 multiletter control sequences out of 15000+600000
  413512 words of font info for 66 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 128i,15n,126p,429b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,15n,126p,447b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -1085,8 +1092,7 @@ public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-
-Output written on lec10.pdf (34 pages, 194672 bytes).
+Output written on lecture-circular-motion.pdf (34 pages, 194587 bytes).
 PDF statistics:
  329 PDF objects out of 1000 (max. 8388607)
  255 compressed objects within 3 object streams

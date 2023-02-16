@@ -17,7 +17,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lec8/lecture8.pdf">Motion in two dimensions; friction
+<a href="slides/lec9/lecture-circular-motion.pdf">Uniform circular motion</a>
 
 
 ### Information
