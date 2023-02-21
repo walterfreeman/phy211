@@ -7,18 +7,15 @@ title: Announcements
 
 ### Current homework 
 
-* <a href="hw/hw3/homework3.pdf">Homework 3</a>, due Thursday or Friday, 16 or 17 February, in recitation<br>
-
 * <a href="hw/hw4/hw4.pdf">Homework 4</a>, due Thursday or Friday, 23 or 24 February, at the start of recitation<br>
 
 ### Current recitation materials
 
-* Day 1 (Tuesday evening or Wednesday): <a href="recitation/week5/recitation-forces2.pdf">Forces in two dimensions and friction</a>
-* Day 2 (Thursday evening or Friday): <a href="recitation/week5/recitation-uniform-circular-motion-1.pdf">Uniform circular motion</a>
+* 
 
 ### Current slides
 
-<a href="slides/lec9/lecture-circular-motion.pdf">Uniform circular motion</a>
+<a href="slides/lec10/lecture-universal-gravitation.pdf">Universal gravitation</a>
 
 
 ### Information

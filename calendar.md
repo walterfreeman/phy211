@@ -26,7 +26,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 9  February | <a href="slides/lec7/lecture7.pdf">Introduction to Newton's laws</a>                                                                              | 5.4-5.7; 6.1                   |
 | 14 February | <a href="slides/lec8/lecture8.pdf">Friction; forces in two dimensions</a>                                                           |                                |
 | 16 February | <a href="slides/lec9/lecture-circular-motion.pdf">Acceleration in circular motion</a>                                                                                  | 6.2                            |
-| 21 February | Circular motion continued; universal gravitation                                                                 | 4.4; 6.3                       |
+| 21 February | <a href="slides/lec10/lecture-universal-gravitation.pdf">Universal gravitation</a>                                                                 | 4.4; 6.3                       |
 | 23 February | Review for Exam 2                                                                                                        | 13.1-13.2                      |
 | 28 February | **Exam 2**                                                                                                       |                                |
 | 2 March     | The work-energy theorem                                                                                          |                                |

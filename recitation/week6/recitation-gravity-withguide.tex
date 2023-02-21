@@ -55,7 +55,7 @@ Earth; that is, their orbits are synchronized with the Earth's rotation so that 
 above the same point on Earth’s surface all the time.
 
 What is the altitude of such an orbit? Note that it is high enough that you need to use $F_g=\frac{GMm}{r^2}$
-rather than just $F_g = mg$.
+rather than just $F_g = mg$. {\it (Are there any meaningful forces on the satellite besides Earth's gravity?)}
 
 {\sc Hint 1:} If this orbit is synchronized with Earth's rotation, then you should be able to figure out its
 angular velocity.
@@ -88,11 +88,11 @@ Note that $r$ here is the distance to Earth's {\it center}, not its {\it surface
 
 \medskip
 
-{\footnotesize Note about this exercise: This question asks you to consider what $g$ means, and how it might vary on Earth's surface. The effect you are studying here is the reduction in apparent weight because of the Earth's rotation. There is a second effect from the ``non-roundness'' of the Earth, causing a latitude dependence about half as big in the same direction. Ultimately this means that the apparent weight of a 1 kg mass is around 9.83 N at the North (or South) Pole and 9.78 N at the Equator. It is 9.81 N only in latitudes corresponding to Paris, Berlin, or Kyiv; in New York it is closer to 9.80 N, and in the tropical latitudes where many people live (most of Africa, South Asia, most of South America) it is 9.79 N or 9.78 N, to three significant digits. This means that insisting on $g=9.81\,\rm m/\rm s^2$ isn't correct for most of us (unless you are in Europe or Canada).
+{\footnotesize Note about this exercise: This question asks you to consider what $g$ means, and how it might vary on Earth's surface. The effect you are studying here is the reduction in apparent weight because of the Earth's rotation. There are smaller effects from the ``non-roundness'' of the Earth which we don't care about here. Ultimately this means that the apparent weight of a 1 kg mass is around 9.83 N at the North (or South) Pole and 9.78 N at the Equator. It is 9.81 N only in latitudes corresponding to Paris, Berlin, or Kyiv; in New York it is closer to 9.80 N, and in the tropical latitudes where many people live (most of Africa, South Asia, most of South America) it is 9.79 N or 9.78 N, to three significant digits. This means that insisting on $g=9.81\,\rm m/\rm s^2$ isn't correct for most of us (unless you are in Europe or Canada).
 }
 
 
-\it For this problem, carry all calculations to five significant digits. Some figures that will be useful:
+\it For this problem, do all calculations to five significant digits. Some figures that will be useful:
 
 \rm
 \BI
@@ -126,14 +126,19 @@ c) Suppose that an identical 1 kg mass were resting on a scale sitting on the Eq
 	
 	$$F_N - F_g = -m\omega^2 r \rightarrow F_N = F_g - m \omega^2 r.$$
 	
-	This is the critical result -- that your apparent weight goes down when you stand on the Equator.
+	This is the critical result -- that your apparent weight goes down when you stand on the Equator. The normal force is 9.78628 N.
+}
 
 d) This problem shows that your apparent weight depends on your location on Earth. 
 Does it make sense to define $g$ as $F_g/m$ 
 (the strength of the gravitational force divided by an object's mass) or
 $F_N/m$ (the strength of the normal force, and thus the scale reading, divided by mass)? Call your TA/coach over to join your conversation.
 
-\vspace{2in}
+{\color{Red}
+	
+	Either result makes sense, of course -- it's all a matter of definition. However, using the value of $g$ coming only from the Earth's gravitational force means that we will constantly need to think about the acceleration of Earth's surface. But using $g = F_N/m$, which gives the acceleration of things in freefall {\it minus the acceleration of Earth's surface} allows us to treat objects sitting on Earth's surface as not accelerating.
+}
+
 
 e) Is this distinction likely to be relevant to the sort of engineering or science you will do during your
 career? (The answer will depend on what you will do, of course!)
@@ -172,16 +177,67 @@ around ``weightlessly'' in the International Space Station.
 a) Explain how an astronaut can be under the influence of Earth's gravity, and yet exert no normal
 force on the surface of the spacecraft they are standing in.
 
+{\color{Red}Normal forces stop objects from moving through other objects, and no extra normal force is required for them to not move through the surface of the spacecraft. Under the influence of Earth's gravity alone, the spacecraft accelerates downward at the same rate that they do, so the floor doesn't have to push on them.}
+
 \vspace{2in}
 
 b) Draw a force diagram for the astronaut floating in the middle of the Space Station, not touching
 any of the walls or floor. How do you reconcile your diagram with the fact that the astronaut
 doesn't seem to fall?
 
+{\color{Red} The diagram just has gravity pointing downward. They {\it are} falling -- so is the spacecraft around them. They aren't falling {\it into the Earth} because their horizontal / tangential velocity is fast enough that they go in a circle around it. That horizontal velocity is chosen specifically to match their altitude, such that $v^2/r = g$.}
+
 \vspace{2in}
 
 c) Is this astronaut truly ``weightless''? What does ``weightless'' mean? (There are multiple correct answers to both of these questions.)
 
+{\color{Red} If you define ``weight'' as the force of gravity, then no -- they are not weightless, since Earth's gravity still acts on them and causes them to accelerate downward. If you define ``weight'' as the magnitude of the normal force pressing on your feet, and ``weightless'' as the absence of such a force (the thing that causes us to feel heavy -- think of the elevator problem in homework, then they are ``weightless'' since no normal force presses on their feet. 
+
+I prefer the definitions:
+
+\begin{itemize}
+	\item Weight: the force of gravity acting on you (not zero here)
+	\item Apparent weight: the normal force pushing on you from below (zero here)
+\end{itemize}
+
+So by my definitions, they are not weightless but ``apparent weight-less''. Note that some textbooks use ``weight'' to mean ``apparent weight''. I think this is confusing.
+
+}
+
 \newpage
+
+\newpage
+\centerline{\Large Question 4: Practice from Earlier}
+
+\begin{minipage}{0.5\textwidth}
+Consider a ball tethered to a rotating pole by two cables of equal length as shown to the right. The ball rotates along with the pole, making a horizontal circle (shown in green on the diagram). Suppose that you know the ball has a mass $m$, the pole is rotating at angular velocity $\omega$, and the radius of the circle it makes is $r$.
+
+\bigskip
+
+You want to find the relationship between $m$, $\omega$, $r$, and the tensions in the cables $T_1$ and $T_2$.
+
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+	\hspace{0.1\textwidth}
+	\includegraphics[width=0.9\textwidth]{pole-crop.pdf}
+	\end{minipage}
+
+Draw a force diagram for the ball below, and indicate your choice of coordinate system.
+
+{\color{Red} This is just for practice in case anyone gets done or wants extra practice. This is a former exam problem.}
+
+\vspace{3in}
+
+Construct Newton's laws in both $x$ and $y$ for the ball based on your force diagram, putting in what you know about $a_x$ and $a_y$. (You don't need to actually solve the system of equations, but show it to your TA/coach.)
+
+{\color{Red}
+
+\begin{align*}
+T_1 \cos \theta + T_2 \cos \theta\hspace{2.6em} &= m \omega^2 r \\
+T_1 \sin \theta - T_2 \sin \theta - mg &= 0
+\end{align*}
+
+They shouldn't feel the need to go any further than this.
+
 
 \end{document}
