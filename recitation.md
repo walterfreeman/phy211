@@ -21,5 +21,8 @@ use_math: true
 
 <a href="recitation/week5/recitation-forces2.pdf">Week 5 Day 1: Forces in two
  dimensions and friction</a><br>
-<a href="recitation/week5/recitation-uniform-circular-motion-1.pdf">Week 5 Day 2: Uniform circular motion</a>
+<a href="recitation/week5/recitation-uniform-circular-motion-1.pdf">Week 5 Day 2: Uniform circular motion</a><br>
+<br>
+
+<a href="recitation/week6/recitation-gravity.pdf">Week 6 Day 1: Gravity</a>
 
