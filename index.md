@@ -11,7 +11,8 @@ title: Announcements
 
 ### Current recitation materials
 
-* 
+* Day 1: <a href="recitation/week6/recitation-gravity.pdf">Week 6 Day 1: Gravity</a>
+* Day 2: (is your group exam) 
 
 ### Current slides
 
