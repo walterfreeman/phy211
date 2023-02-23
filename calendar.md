@@ -27,7 +27,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 14 February | <a href="slides/lec8/lecture8.pdf">Friction; forces in two dimensions</a>                                                           |                                |
 | 16 February | <a href="slides/lec9/lecture-circular-motion.pdf">Acceleration in circular motion</a>                                                                                  | 6.2                            |
 | 21 February | <a href="slides/lec10/lecture-universal-gravitation.pdf">Universal gravitation</a>                                                                 | 4.4; 6.3                       |
-| 23 February | Review for Exam 2                                                                                                        | 13.1-13.2                      |
+| 23 February | <a href="slides/lec11/lecture-exam2-review.pdf">Review for Exam 2</a>                                                                                                        | 13.1-13.2                      |
 | 28 February | **Exam 2**                                                                                                       |                                |
 | 2 March     | The work-energy theorem                                                                                          |                                |
 | 7  March    | The conservation of energy                                                                                       | 7.1-7.3                        |

@@ -16,7 +16,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lec10/lecture-universal-gravitation.pdf">Universal gravitation</a>
+<a href="slides/lec11/lecture-exam2-review.pdf">Exam 2 review</a>
 
 
 ### Information
