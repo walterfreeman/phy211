@@ -5,6 +5,10 @@ use_math: true
 title: Announcements
 ---
 
+### Practicee Exam 2
+
+* The <a href="practice-exam-2-2023.pdf">second practice exam</a> is available now. I'll post my solutions Sunday evening.
+
 ### Current homework 
 
 * <a href="hw/hw4/hw4.pdf">Homework 4</a>, due Thursday or Friday, 23 or 24 February, at the start of recitation<br>
