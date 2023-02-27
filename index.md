@@ -7,7 +7,7 @@ title: Announcements
 
 ### Practicee Exam 2
 
-* The <a href="practice-exam-2-2023.pdf">second practice exam</a> is available now. I'll post my solutions Sunday evening.
+* The <a href="practice-exam-2-2023.pdf">second practice exam</a> is available now, along with <a href="practice-exam-2-solutions.pdf">the solutions</a>.
 
 ### Current homework 
 
