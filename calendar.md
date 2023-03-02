@@ -29,13 +29,13 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 21 February | <a href="slides/lec10/lecture-universal-gravitation.pdf">Universal gravitation</a>                                                                 | 4.4; 6.3                       |
 | 23 February | <a href="slides/lec11/lecture-exam2-review.pdf">Review for Exam 2</a>                                                                                                        | 13.1-13.2                      |
 | 28 February | **Exam 2**                                                                                                       |                                |
-| 2 March     | The work-energy theorem                                                                                          |                                |
-| 7  March    | The conservation of energy                                                                                       | 7.1-7.3                        |
+| 2 March     | <a href="slides/lec12/lecture-momentum.pdf">The conservation of momentum (1)</a>                                                                                 |                                |
+| 7  March    | The conservation of momentum (2)                                                                                  | 7.1-7.3                        |
 | 9  March    | Elasticity, practice problems; power                                                                             | 7.4; 8.1-8.3                   |
 | 14+16 March | **SPRING BREAK**                                                                                                 |                                |
-| 21 March    | Conservation of momentum                                                    | 9.1-9.3                        | 
-| 23 March    | Conservation of momentum (2)                                                                   | 9.4-9.5                        |
-| 28 March    | Rotational kinetic energy      
+| 21 March    |                                                                             | 9.1-9.3                        | 
+| 23 March    |                                                                                                | 9.4-9.5                        |
+| 28 March    |                                
 | 30 March    | Review for Exam 3                                                                                                |                                |
 | 4  April    | **Exam 3**                                                                                                       |                                |
 | 6  April    | Torque; static equilibrium                                                                                       | 11.2-11.3                      |

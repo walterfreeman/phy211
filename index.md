@@ -5,22 +5,16 @@ use_math: true
 title: Announcements
 ---
 
-### Practicee Exam 2
-
-* The <a href="practice-exam-2-2023.pdf">second practice exam</a> is available now, along with <a href="practice-exam-2-solutions.pdf">the solutions</a>.
-
 ### Current homework 
 
-* <a href="hw/hw4/hw4.pdf">Homework 4</a>, due Thursday or Friday, 23 or 24 February, at the start of recitation<br>
+* Homework 5: posted later today 
 
 ### Current recitation materials
 
-* Day 1: <a href="recitation/week6/recitation-gravity.pdf">Week 6 Day 1: Gravity</a>
-* Day 2: (is your group exam) 
 
 ### Current slides
 
-<a href="slides/lec11/lecture-exam2-review.pdf">Exam 2 review</a>
+<a href="slides/lec12/lecture-momentum.pdf">The conservation of momentum</a>
 
 
 ### Information
