@@ -7,7 +7,7 @@ title: Announcements
 
 ### Current homework 
 
-* Homework 5: posted later today 
+* <a href="hw/hw5/hw5-momentum-2023.pdf">Homework 5</a> is due Friday, March 10
 
 ### Current recitation materials
 
