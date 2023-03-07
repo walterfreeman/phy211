@@ -14,7 +14,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lec12/lecture-momentum.pdf">The conservation of momentum</a>
+<a href="slides/lec13/lecture-momentum-2.pdf">The conservation of momentum, II</a>
 
 
 ### Information
