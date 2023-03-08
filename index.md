@@ -11,6 +11,8 @@ title: Announcements
 
 ### Current recitation materials
 
+* <a href="recitation/week8/recitation-momentum-2.pdf">Week 8 Day 1: Momentum (II)</a>
+ 
 
 ### Current slides
 

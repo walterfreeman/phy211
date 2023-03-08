@@ -24,5 +24,11 @@ use_math: true
 <a href="recitation/week5/recitation-uniform-circular-motion-1.pdf">Week 5 Day 2: Uniform circular motion</a><br>
 <br>
 
-<a href="recitation/week6/recitation-gravity.pdf">Week 6 Day 1: Gravity</a>
+<a href="recitation/week6/recitation-gravity.pdf">Week 6 Day 1: Gravity</a><br>
+<br>
+
+<a href="recitation/week7/recitation-momentum-1.pdf">Week 7 Day 2: Momentum (I)</a><br>
+<br>
+
+<a href="recitation/week8/recitation-momentum-2.pdf">Week 8 Day 1: Momentum (II)</a>
 
