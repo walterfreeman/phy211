@@ -16,8 +16,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lec13/lecture-momentum-2.pdf">The conservation of momentum, II</a>
-
+<a href="slides/lecture-angular-momentum/lecture-angular-momentum.pdf">Angular momentum</a>
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:20, Stolkin Auditorium 

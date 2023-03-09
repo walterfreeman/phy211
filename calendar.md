@@ -31,7 +31,8 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 28 February | **Exam 2**                                                                                                       |                                |
 | 2 March     | <a href="slides/lec12/lecture-momentum.pdf">The conservation of momentum (1)</a>                                                                                 |                                |
 | 7  March    | <a href="slides/lec13/lecture-momentum-2.pdf">The conservation of momentum (2)</a>                                  | 7.1-7.3                        |
-| 9  March    | Angular momentum                                                                                                 | 7.4; 8.1-8.3                   |
+| 9  March    | <a href="slides/lecture-angular-momentum/lecture-angular-momentum.pdf">Angular momentum</a>
+                                                                                                 | 7.4; 8.1-8.3                   |
 | 14+16 March | **SPRING BREAK**                                                                                                 |                                |
 | 21 March    |                                                                             | 9.1-9.3                        | 
 | 23 March    |                                                                                                | 9.4-9.5                        |
