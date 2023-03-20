@@ -30,5 +30,10 @@ use_math: true
 <a href="recitation/week7/recitation-momentum-1.pdf">Week 7 Day 2: Momentum (I)</a><br>
 <br>
 
-<a href="recitation/week8/recitation-momentum-2.pdf">Week 8 Day 1: Momentum (II)</a>
+<a href="recitation/week8/recitation-momentum-2.pdf">Week 8 Day 1: Momentum (II)</a><br>
+<br>
+
+<a href="recitation/week9/recitation-energy-1.pdf">Week 9 Day 1: The Work-Energy Theorem</a><br>
+<a href="recitation/week9/recitation-potential-energy.pdf">Week 9 Day 2: Work and Potential Energy</a><br>
+
 
