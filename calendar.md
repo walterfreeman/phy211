@@ -34,7 +34,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 9  March    | <a href="slides/lecture-angular-momentum/lecture-angular-momentum.pdf">Angular momentum</a>
                                                                                                  | 7.4; 8.1-8.3                   |
 | 14+16 March | **SPRING BREAK**                                                                                                 |                                |
-| 21 March    |                                                                             | 9.1-9.3                        | 
+| 21 March    | <a href="slides/lecture-work-energy-theorem/lecture-work-energy-theorem.pdf">The work-energy theorem</a>                                                                           | 9.1-9.3                        | 
 | 23 March    |                                                                                                | 9.4-9.5                        |
 | 28 March    |                                
 | 30 March    | Review for Exam 3                                                                                                |                                |

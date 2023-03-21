@@ -7,16 +7,15 @@ title: Announcements
 
 ### Current homework 
 
-* <a href="hw/hw5/hw5-momentum-2023.pdf">Homework 5</a> is due Friday, March 10
+* Homework 6 coming today, due Friday
 
 ### Current recitation materials
 
-* <a href="recitation/week8/recitation-momentum-2.pdf">Week 8 Day 1: Momentum (II)</a>
  
 
 ### Current slides
 
-<a href="slides/lecture-angular-momentum/lecture-angular-momentum.pdf">Angular momentum</a>
+<a href="slides/lecture-work-energy-theorem/lecture-work-energy-theorem.pdf">Work-energy theorem</a>
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:20, Stolkin Auditorium 
