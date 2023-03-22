@@ -7,10 +7,12 @@ title: Announcements
 
 ### Current homework 
 
-* Homework 6 coming today, due Friday
+* <a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
 
 ### Current recitation materials
 
+* <a href="recitation/week9/recitation-work-energy.pdf">Week 9 Day 1, on the work-energy theorem</a>
+* <a href="recitation/week9/recitation-potential-energy.pdf">Week 9 Day 2, further exploring the work-energy theorem and the idea of potential energy</a>
  
 
 ### Current slides

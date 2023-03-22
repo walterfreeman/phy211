@@ -36,4 +36,3 @@ use_math: true
 <a href="recitation/week9/recitation-energy-1.pdf">Week 9 Day 1: The Work-Energy Theorem</a><br>
 <a href="recitation/week9/recitation-potential-energy.pdf">Week 9 Day 2: Work and Potential Energy</a><br>
 
-

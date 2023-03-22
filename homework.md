@@ -19,7 +19,9 @@ use_math: true
 <a href="hw/hw4/hw4.pdf">Homework 4</a>, due Thursday or Friday, 23 or 24 February, at the start of recitation<br>
 <br>
 
-<a href="hw/hw5/hw5-momentum-2023.pdf">Homework 5</a> is due Friday, March 10.
+<a href="hw/hw5/hw5-momentum-2023.pdf">Homework 5</a> is due Friday, March 10.<br>
+
+<a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
 
 <!---
 
