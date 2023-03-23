@@ -17,7 +17,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lecture-work-energy-theorem/lecture-work-energy-theorem.pdf">Work-energy theorem</a>
+<a href="slides/lecture-potential-energy/lecture-potential-energy.pdf">Potential energy</a>
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:20, Stolkin Auditorium 

@@ -101,7 +101,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2022\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2023\\Walter Freeman}
 
 \date{\today}
 
@@ -110,34 +110,38 @@
 \frame{\titlepage}
 
 
-\frame{\frametitle{\textbf{Tuesday's class}}
-	\large
-	
-\BI
-\item Many of you told me that you appreciated the format on Tuesday where you did an exercise in class.
-\item ... so we can do this again in the future!
-
-\vspace{.5in}
-
-\item However:
-\BI
-\item That exercise took longer in class than I had anticipated
-\item We didn't get as far into the {\it application} of the work-energy theorem as I had hoped
-\item I didn't have a chance to revise the recitation material on Wednesday
-\item ... so we are pushing the schedule back by about half a class. (This is fine!)
-\item We have some flexibility at the end of the semester and everything will work out
-\EI
-\EI
-}
+%\frame{\frametitle{\textbf{Tuesday's class}}
+%	\large
+%	
+%\BI
+%\item Many of you told me that you appreciated the format on Tuesday where you did an exercise in class.
+%\item ... so we can do this again in the future!
+%
+%\vspace{.5in}
+%
+%\item However:
+%\BI
+%\item That exercise took longer in class than I had anticipated
+%\item We didn't get as far into the {\it application} of the work-energy theorem as I had hoped
+%\item I didn't have a chance to revise the recitation material on Wednesday
+%\item ... so we are pushing the schedule back by about half a class. (This is fine!)
+%\item We have some flexibility at the end of the semester and everything will work out
+%\EI
+%\EI
+%}
 
 
 
 
 \frame{\frametitle{\textbf{Announcements}}
 \BI
-\item{Your next homework assignment is due next Wednesday.}
-\item Please come prepared to ask questions next Tuesday
+\item{Your next homework assignment will be posted tonight or tomorrow and due next Friday.}
+\BI
+\item The first 6-7 problems will be things you can do after today's class
+\item The last few will require what we do next Tuesday
+\item Please come prepared to ask questions next Tuesday!
 \EI 
+\EI
 }
 %
 %\frame{\frametitle{\textbf{Exam 2 recap}}
@@ -213,13 +217,37 @@ We didn't talk about how we {\it measure} energy last time:
 
 \bigskip
 
-\centerline{Kinetic energy = $\frac{1}{2}mv^2$}
+\centerline{\color{Green}Kinetic energy = $\frac{1}{2}mv^2$}
 \BI
-\item{Energy has units $\rm kg\, m^2/s^2$}
+\item{Energy has units \color{Red} $\rm kg\, m^2/s^2$}
 \item{This unit is called a {\it joule}}
 \item{1 joule = the energy required to lift an apple one meter}
-\item{This is also the unit for work}
 \EI
+\pause
+
+\bigskip\bigskip
+
+\color{Green} What about the units of work? 
+
+\begin{itemize}
+	\item  Work = \color{Red} force \color{Black} $\times$ \color{Blue} distance \pause
+	\item Unit of work: {\color{Red}newton \color{Black} $\times$ \color{Blue} meter}
+\end{itemize}
+
+\pause
+\bigskip\bigskip
+
+
+	\color{Green} These are the same thing:
+	\begin{eqnarray*}
+	  \color{Black} 1\,  \color{Red} \text{newton} \color{Black} \times  \color{Blue} \text{meter} \\
+	  \color{Black} 1\,  \color{Red} \text{kg} \, \rm m/\rm s^2 \color{Black} \times  \color{Blue} \text{m} \\
+	  \color{Black} 1\,  \color{Black} \text{kg} \, \rm m^2/\rm s^2 \equiv \text {1 joule} \\
+	  \end{eqnarray*}
+
+
+}
+
 %
 %\centerline{A new idea: power, the rate of doing work}
 %
@@ -230,8 +258,23 @@ We didn't talk about how we {\it measure} energy last time:
 %\item If $W = \vec F \cdot \Delta \vec s$, then I can take derivatives of both sides to get...
 %\item $P = \vec F \cdot \vec v$
 %\item You'll need this in recitation tomorrow
-%\EI
+%\EIS}
 
+
+\frame{\frametitle{\textbf{Another new quantity: power, the rate of doing work}}
+	
+	Often we are concerned with the {\it rate} at which something can do work.
+	
+	\bigskip
+	
+	This rate is called {\bf \color{Red} power}.\pause
+	
+	\bigskip
+	
+	It is measured in joules per second or {\bf \color{Red} watts}.
+	
+	Example: my car's engine can do work at a rate of 75 kJ per second = 75 kW.
+	
 }
 
 \frame{\frametitle{\textbf{The work-energy theorem in 1D}}
@@ -302,44 +345,44 @@ What does this ``dot product'' mean?
 }
 
 
-
-
-\frame{\frametitle{\textbf{Sample problem: balls on ramps}}
-\large
-(on document camera)
-
-\pause
-\bigskip
-\bigskip
-\bigskip
-
-Strategy: compute the work done by all the forces and equate that to the change in KE.
-
-\bigskip
-
-Work done by normal force = {\bf zero}!
-
-Work done by gravity = $(F)(\Delta s)_\parallel = mg\Delta y = mg(y_0 - y_f)$
-
-\bigskip
-\bigskip
-
-\begin{align*}
-  KE_f - KE_i =& W_g \\
-  \frac{1}{2} mv_f^2 - 0 =& mg (y_0 - y_f) \\ 
-\end{align*}
-  
-\pause
-\bigskip
-
-$\rightarrow v_f = \sqrt{2g(y_0 - y_f)}$
-
-\bigskip
-\pause
-\bigskip
-
-\centerline{\color{Red}No detailed knowledge of the motion required!}
-}
+%
+%
+%\frame{\frametitle{\textbf{Sample problem: balls on ramps}}
+%\large
+%(on document camera)
+%
+%\pause
+%\bigskip
+%\bigskip
+%\bigskip
+%
+%Strategy: compute the work done by all the forces and equate that to the change in KE.
+%
+%\bigskip
+%
+%Work done by normal force = {\bf zero}!
+%
+%Work done by gravity = $(F)(\Delta s)_\parallel = mg\Delta y = mg(y_0 - y_f)$
+%
+%\bigskip
+%\bigskip
+%
+%\begin{align*}
+%  KE_f - KE_i =& W_g \\
+%  \frac{1}{2} mv_f^2 - 0 =& mg (y_0 - y_f) \\ 
+%\end{align*}
+%  
+%\pause
+%\bigskip
+%
+%$\rightarrow v_f = \sqrt{2g(y_0 - y_f)}$
+%
+%\bigskip
+%\pause
+%\bigskip
+%
+%\centerline{\color{Red}No detailed knowledge of the motion required!}
+%}
 
 
 
@@ -458,8 +501,46 @@ A short history of energy conversion:
 %}
 
 
+\frame{
+	
+	\Large
+	
+A laptop battery has a potential energy of 100 watt-hours. This means that it can deliver energy at a rate of 100 watts
+for an hour (or 10 watts for 10 hours) before being exhausted.
+
+\bigskip\bigskip
+
+How many joules is this?
+
+\begin{itemize}
+	\item A: 100 J
+	\item B: 6000 J
+	\item C: 3600 J
+	\item D: 360,000 J
+	\item E: 60 J
+\end{itemize}
+}
+
+\frame{
+	
+	\Large
+	
+	Suppose this 100 watt-hour battery was used to power a climbing robot (climbing an extremely tall mountain) with a mass of 5 kg. How high could the robot get before its battery ran out?
+	
+	\bigskip\bigskip
+	
+	\begin{itemize}
+		\item A: 360 km
+		\item B: 360 m
+		\item C: 72 km
+		\item D: 7200 m
+		\item E: 36 km
+	\end{itemize}
+}
+
+
 \frame{\frametitle{\textbf{A new force: elasticity and Hooke's law}}
-To best see how this can be useful, let's introduce a new force: elasticity.
+To best see how potential energy can be useful, let's introduce a new force: elasticity.
 
 \begin{itemize}
 

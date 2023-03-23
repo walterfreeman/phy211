@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  22 MAR 2023 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  22 MAR 2023 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lecture-work-energy-theorem.tex
-(./lecture-work-energy-theorem.tex
+**lec14.tex
+(./lec14.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -803,38 +803,38 @@ This is `epsf.tex' v2.7.4 <14 February 2011>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 105.
+(hyperref)                removing `\\' on input line 104.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 105.
+(hyperref)                removing `\\' on input line 104.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box73
 )
-(./lecture-work-energy-theorem.aux)
-\openout1 = `lecture-work-energy-theorem.aux'.
+(./lec14.aux)
+\openout1 = `lec14.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -892,7 +892,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 109.
+Package hyperref Info: Link coloring OFF on input line 108.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -905,13 +905,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count333
 )
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
-(./lecture-work-energy-theorem.out) (./lecture-work-energy-theorem.out)
+(./lec14.out) (./lec14.out)
 \@outlinefile=\write5
-\openout5 = `lecture-work-energy-theorem.out'.
+\openout5 = `lec14.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -937,40 +937,40 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./lecture-work-energy-theorem.nav) [1
+) (./lec14.nav) [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3
 
-] [4
-
-] [5
-
-] [6
-
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 217
+LaTeX Font Info:    Trying to load font information for U+msa on input line 212
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 217
+LaTeX Font Info:    Trying to load font information for U+msb on input line 212
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [7
+) [4
 
-] [8
+] [5
+
+] [6
+
+] [7
+
+]
+[8
 
 ] [9
 
 ] [10
 
-]
-[11
+] [11
 
 ] [12
 
@@ -978,9 +978,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [14
 
-] [15
+]
+<dp1-crop.pdf, id=134, 258.9675pt x 237.88875pt>
+File: dp1-crop.pdf Graphic file (type pdf)
+<use dp1-crop.pdf>
+Package pdftex.def Info: dp1-crop.pdf  used on input line 345.
+(pdftex.def)             Requested size: 130.57454pt x 119.94955pt.
+<dp2-crop.pdf, id=135, 247.92625pt x 245.91875pt>
+File: dp2-crop.pdf Graphic file (type pdf)
+<use dp2-crop.pdf>
+Package pdftex.def Info: dp2-crop.pdf  used on input line 345.
+(pdftex.def)             Requested size: 130.57454pt x 129.51828pt.
+ [15
 
-] [16
+ <./dp1-crop.pdf> <./dp2-crop.pdf>]
+[16
 
 ] [17
 
@@ -1000,34 +1012,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [25
 
-]
-[26
-
-] [27
+] [26
 
 ]
-<dp1-crop.pdf, id=211, 258.9675pt x 237.88875pt>
-File: dp1-crop.pdf Graphic file (type pdf)
-<use dp1-crop.pdf>
-Package pdftex.def Info: dp1-crop.pdf  used on input line 590.
-(pdftex.def)             Requested size: 130.57454pt x 119.94955pt.
-<dp2-crop.pdf, id=212, 247.92625pt x 245.91875pt>
-File: dp2-crop.pdf Graphic file (type pdf)
-<use dp2-crop.pdf>
-Package pdftex.def Info: dp2-crop.pdf  used on input line 590.
-(pdftex.def)             Requested size: 130.57454pt x 129.51828pt.
- [28
+<hooke.png, id=221, 300.3722pt x 234.8775pt>
+File: hooke.png Graphic file (type png)
+<use hooke.png>
+Package pdftex.def Info: hooke.png  used on input line 566.
+(pdftex.def)             Requested size: 174.09496pt x 136.13943pt.
+ [27
 
- <./dp1-crop.pdf> <./dp2-crop.pdf>]
-File: dp1-crop.pdf Graphic file (type pdf)
-<use dp1-crop.pdf>
-Package pdftex.def Info: dp1-crop.pdf  used on input line 590.
-(pdftex.def)             Requested size: 130.57454pt x 119.94955pt.
-File: dp2-crop.pdf Graphic file (type pdf)
-<use dp2-crop.pdf>
-Package pdftex.def Info: dp2-crop.pdf  used on input line 590.
-(pdftex.def)             Requested size: 130.57454pt x 129.51828pt.
- [29
+ <./hooke.png>]
+File: hooke.png Graphic file (type png)
+<use hooke.png>
+Package pdftex.def Info: hooke.png  used on input line 566.
+(pdftex.def)             Requested size: 174.09496pt x 136.13943pt.
+
+[28
+
+] [29
 
 ] [30
 
@@ -1037,8 +1040,7 @@ Package pdftex.def Info: dp2-crop.pdf  used on input line 590.
 
 ] [33
 
-]
-[34
+] [34
 
 ] [35
 
@@ -1052,45 +1054,75 @@ Package pdftex.def Info: dp2-crop.pdf  used on input line 590.
 
 ] [40
 
+] [41
+
+] [42
+
+]
+[43
+
+] [44
+
+]
+Overfull \hbox (40.00006pt too wide) in paragraph at lines 767--767
+[]  
+ []
+
+[45
+
+]
+Overfull \hbox (40.00006pt too wide) in paragraph at lines 767--767
+[]  
+ []
+
+[46
+
 ]
 \tf@nav=\write6
-\openout6 = `lecture-work-energy-theorem.nav'.
+\openout6 = `lec14.nav'.
 
 \tf@toc=\write7
-\openout7 = `lecture-work-energy-theorem.toc'.
+\openout7 = `lec14.toc'.
 
 \tf@snm=\write8
-\openout8 = `lecture-work-energy-theorem.snm'.
+\openout8 = `lec14.snm'.
 
- (./lecture-work-energy-theorem.aux)
-Package rerunfilecheck Info: File `lecture-work-energy-theorem.out' has not cha
-nged.
+ (./lec14.aux)
+Package rerunfilecheck Info: File `lec14.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21584 strings out of 478855
+ 21614 strings out of 478855
  400722 string characters out of 5858635
- 689034 words of memory out of 6000000
- 38666 multiletter control sequences out of 15000+600000
- 413165 words of font info for 65 fonts, out of 8000000 for 9000
+ 696075 words of memory out of 6000000
+ 38676 multiletter control sequences out of 15000+600000
+ 415410 words of font info for 73 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 128i,15n,126p,451b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on lecture-work-energy-theorem.pdf (40 pages, 213764 bytes).
+ 128i,15n,126p,429b,796s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti9.pfb>
+Output written on lec14.pdf (46 pages, 335144 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
