@@ -21,7 +21,9 @@ use_math: true
 
 <a href="hw/hw5/hw5-momentum-2023.pdf">Homework 5</a> is due Friday, March 10.<br>
 
-<a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
+<a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.<br>
+
+<a href="hw/hw7/hw7.pdf">Homework 7</a> is due Friday, March 31.
 
 <!---
 

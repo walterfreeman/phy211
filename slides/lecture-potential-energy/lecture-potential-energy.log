@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.5)  23 MAR 2023 09:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.5)  23 MAR 2023 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,7 +814,7 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box73
 )
-No file lecture-potential-energy.aux.
+(./lecture-potential-energy.aux)
 \openout1 = `lecture-potential-energy.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
@@ -835,6 +835,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -907,6 +908,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 108.
 LaTeX Info: Redefining \pageref on input line 108.
 LaTeX Info: Redefining \nameref on input line 108.
+
+(./lecture-potential-energy.out) (./lecture-potential-energy.out)
 \@outlinefile=\write5
 \openout5 = `lecture-potential-energy.out'.
 
@@ -934,19 +937,17 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-No file lecture-potential-energy.nav.
-[1
+) (./lecture-potential-energy.nav) [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]
-[3
+] [3
 
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 212
 .
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 212
@@ -978,12 +979,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [14
 
 ]
-<dp1-crop.pdf, id=133, 258.9675pt x 237.88875pt>
+<dp1-crop.pdf, id=134, 258.9675pt x 237.88875pt>
 File: dp1-crop.pdf Graphic file (type pdf)
 <use dp1-crop.pdf>
 Package pdftex.def Info: dp1-crop.pdf  used on input line 345.
 (pdftex.def)             Requested size: 130.57454pt x 119.94955pt.
-<dp2-crop.pdf, id=134, 247.92625pt x 245.91875pt>
+<dp2-crop.pdf, id=135, 247.92625pt x 245.91875pt>
 File: dp2-crop.pdf Graphic file (type pdf)
 <use dp2-crop.pdf>
 Package pdftex.def Info: dp2-crop.pdf  used on input line 345.
@@ -1014,7 +1015,7 @@ Package pdftex.def Info: dp2-crop.pdf  used on input line 345.
 ] [26
 
 ]
-<hooke.png, id=220, 300.3722pt x 234.8775pt>
+<hooke.png, id=221, 300.3722pt x 234.8775pt>
 File: hooke.png Graphic file (type png)
 <use hooke.png>
 Package pdftex.def Info: hooke.png  used on input line 566.
@@ -1087,21 +1088,15 @@ Overfull \hbox (40.00006pt too wide) in paragraph at lines 767--767
 \openout8 = `lecture-potential-energy.snm'.
 
  (./lecture-potential-energy.aux)
-
-Package rerunfilecheck Warning: File `lecture-potential-energy.out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lecture-potential-energy.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `lecture-potential-energy.out' has not change
+d.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21561 strings out of 478855
- 400538 string characters out of 5858635
- 695326 words of memory out of 6000000
- 38631 multiletter control sequences out of 15000+600000
+ 21616 strings out of 478855
+ 401137 string characters out of 5858635
+ 696149 words of memory out of 6000000
+ 38678 multiletter control sequences out of 15000+600000
  415410 words of font info for 73 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  128i,15n,126p,448b,796s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1125,7 +1120,7 @@ type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti9.pfb>
-Output written on lecture-potential-energy.pdf (46 pages, 335096 bytes).
+Output written on lecture-potential-energy.pdf (46 pages, 335152 bytes).
 PDF statistics:
  438 PDF objects out of 1000 (max. 8388607)
  345 compressed objects within 4 object streams

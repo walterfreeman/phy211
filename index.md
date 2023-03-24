@@ -8,6 +8,7 @@ title: Announcements
 ### Current homework 
 
 * <a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
+* <a href="hw/hw7/hw7.pdf">Homework 7</a> is due Friday, March 31.
 
 ### Current recitation materials
 
