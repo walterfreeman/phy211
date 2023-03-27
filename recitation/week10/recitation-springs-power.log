@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  27 MAR 2023 01:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  27 MAR 2023 01:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**recitation-springs.tex
-(./recitation-springs.tex
+**recitation-springs-power.tex
+(./recitation-springs-power.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-12-17>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -148,8 +148,8 @@ File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box53
 )
-(./recitation-springs.aux)
-\openout1 = `recitation-springs.aux'.
+(./recitation-springs-power.aux)
+\openout1 = `recitation-springs-power.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
@@ -225,29 +225,29 @@ e
 [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-[3] [4] (./recitation-springs.aux) )
+[3] [4] [5] (./recitation-springs-power.aux) )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 131 ({)
+### simple group (level 1) entered at line 139 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  2643 strings out of 476175
- 40767 string characters out of 5796294
+ 40833 string characters out of 5796294
  1852793 words of memory out of 6000000
  22957 multiletter control sequences out of 15000+600000
  516945 words of font info for 48 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 55i,5n,62p,482b,182s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,5n,62p,488b,188s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on recitation-springs.pdf (4 pages, 78327 bytes).
+Output written on recitation-springs-power.pdf (5 pages, 79237 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
