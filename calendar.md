@@ -36,13 +36,13 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 14+16 March | **SPRING BREAK**                                                                                                 |                                |
 | 21 March    | <a href="slides/lecture-work-energy-theorem/lecture-work-energy-theorem.pdf">The work-energy theorem</a>                                                                           | 9.1-9.3                        | 
 | 23 March    | <a href="slides/lecture-potential-energy/lecture-potential-energy.pdf">Potential energy</a>                                                                                               | 9.4-9.5                        |
-| 28 March    |                                
+| 28 March    | <a href="slides/lecture-springs-power/lecture-springs-power.pdf">Elasticity and power</a>                               
 | 30 March    | Review for Exam 3                                                                                                |                                |
 | 4  April    | **Exam 3**                                                                                                       |                                |
 | 6  April    | Torque; static equilibrium                                                                                       | 11.2-11.3                      |
 | 11 April    | Torque; rotational dynamics                                                                                      | 10.6-10.7                      |
 | 13 April    | Combining rotation and translation                                                                               | 10.8                           |
-| 18 April    | Angular momentum; work and power in rotation                                                                     |                                |
+| 18 April    | Rotational energy; work and power in rotation                                                                     |                                |
 | 20 April    | The physics of musical instruments (1)                                                                           |                                | 
 | 25 April    | The physics of musical instruments (2)                                                                           |                                |
 | 27 April    | The physics of musical instruments (3); course retrospective and closing                                         |                                |

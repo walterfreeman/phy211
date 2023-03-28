@@ -12,13 +12,11 @@ title: Announcements
 
 ### Current recitation materials
 
-* <a href="recitation/week9/recitation-work-energy.pdf">Week 9 Day 1, on the work-energy theorem</a>
-* <a href="recitation/week9/recitation-potential-energy.pdf">Week 9 Day 2, further exploring the work-energy theorem and the idea of potential energy</a>
  
 
 ### Current slides
 
-<a href="slides/lecture-potential-energy/lecture-potential-energy.pdf">Potential energy</a>
+<a href="slides/lecture-springs-power/lecture-springs-power.pdf">Elasticity; power</a>
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:20, Stolkin Auditorium 
