@@ -20,7 +20,7 @@ for it:
 
 ### Current recitation materials
 
-* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Springs and power</a>
+* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Exam 3 review</a>
 
 ### Current slides
 
