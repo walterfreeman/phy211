@@ -37,7 +37,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 21 March    | <a href="slides/lecture-work-energy-theorem/lecture-work-energy-theorem.pdf">The work-energy theorem</a>                                                                           | 9.1-9.3                        | 
 | 23 March    | <a href="slides/lecture-potential-energy/lecture-potential-energy.pdf">Potential energy</a>                                                                                               | 9.4-9.5                        |
 | 28 March    | <a href="slides/lecture-springs-power/lecture-springs-power.pdf">Elasticity and power</a>                               
-| 30 March    | Review for Exam 3                                                                                                |                                |
+| 30 March    | <a href="slides/lecture-exam-3-review/lecture-exam-3-review.pdf">Exam 3 review</a>                                                                                                |                                |
 | 4  April    | **Exam 3**                                                                                                       |                                |
 | 6  April    | Torque; static equilibrium                                                                                       | 11.2-11.3                      |
 | 11 April    | Torque; rotational dynamics                                                                                      | 10.6-10.7                      |

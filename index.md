@@ -5,6 +5,14 @@ use_math: true
 title: Announcements
 ---
 
+### Theoretical review of Unit 3
+
+This writeup doesn't include *any* details of problem-solving strategies;
+it is just a presentation of the material, since some students have asked
+for it:
+
+<a href="unit-3-review.pdf">Unit 3 notes</a>
+
 ### Current homework 
 
 * <a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
@@ -12,11 +20,11 @@ title: Announcements
 
 ### Current recitation materials
 
- 
+* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Springs and power</a>
 
 ### Current slides
 
-<a href="slides/lecture-springs-power/lecture-springs-power.pdf">Elasticity; power</a>
+<a href="slides/lecture-exam-3-review/lecture-exam-3-review.pdf">Elasticity; power</a>
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:20, Stolkin Auditorium 

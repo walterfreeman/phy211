@@ -1,0 +1,283 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{lscape}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\pagenumbering{gobble}
+
+\begin{document}
+\Large
+\centerline{\sc{Recitation Exercises}}
+\normalsize
+\centerline{\sc{Week 10, Day 1}}
+
+
+
+{A rock climber of mass 70 kg is climbing a cliff face when she slips and falls. She is two meters above her last anchor, so she will undergo free fall for 4 meters before the rope begins to arrest her fall. If the stiffness in her rope is 1400 N/m, then:}
+\begin{enumerate}
+	\item You'd like to find out how far she will fall. Draw a cartoon showing the moment that she slips and another cartoon showing her at the lowest point she falls to; indicate your choice of origin (the point that counts as $y=0$) on your cartoons.
+	
+	{\color{red} The nuance here is that there is no clear ``best coordinate system'', since the lowest point is not known yet. You can leave it as a variable (which is fine) or choose the point at which the rope begins to stretch as $y=0$. This is here to get students to think clearly about work done by gravity / gravitational potential energy, and consider whether GPE can be negative.}
+	
+
+	\item Write down an expression of the conservation of energy during this process. Label each term in your equation with what it represents in words.
+	
+	{\color{red} Using GPE for gravitational potential energy and EPE for elastic potential energy, using $h = 4$ m and $\Delta x$ for the stretch distance (past 4 meters of fall), something like:
+	
+	\begin{minipage}{3in}
+\begin{align*}
+GPE_i &=& GPE_f &+& EPE_f \\
+mgh &=& mg(-\Delta x) &+& \frac{1}{2}k (\Delta x)^2
+\end{align*}
+\end{minipage}
+}
+	
+	\item{How far will she fall in total?}
+	
+{	\color{red}
+	This is actually a quadratic in $\Delta x$. We have:
+	
+	$$\frac{1}{2}k (\Delta x) - mg\Delta x - mgh = 0$$
+	
+	which has solutions
+	
+	$$\Delta x = \frac{-mg \pm \sqrt{m^2g^2 + 2kmgh}}{k}$$
+	
+	The positive solution here is the correct one (negative would be in an imaginary situation where she is attached to a spring once the rope catches her that also stretches on the way back up...)
+	
+	This comes out to 2.56 m for $\Delta x$; she falls 4m before the rope catches, so 6.56 m in total. 
+}
+
+
+
+\item{What is the maximum force that her rope will exert on her as it arrests her fall?}
+{\color{red}This happens when she is at the bottom of her fall: $F_{\rm max} = k \Delta x = (2.56 m) \times (1400 N/m) = 3584 N$. This is a large force but it won't severely injure you. 
+
+Here we are trying to teach them that sometimes the {\it force}, not just the energy, is relevant when thinking about elasticity.
+}
+	
+	\item When would it be desirable for a rock climber to use a rope with a large spring constant? What about a smaller spring constant? You'll need to think about 
+	the engineering reasons for climbers to use ropes at all: the goal is to minimize the forces involved in arresting a climber's fall.
+	
+	
+	{\color{red}Here we'd like the students to think about the connection between mathematical concepts in physics and their real-world consequences, and get experience talking about physical concepts with precision but in ways that don't involve calculating anything. 
+		
+	The goal of a rope is to arrest a climber's fall without exposing them to large enough forces to injure them. A spring with a higher spring constant will create a larger force while arresting their fall, but will stop them over a shorter distance. A spring with a lower spring constant will create a smaller force, but they will fall further in total and risk hitting the ground.}
+\end{enumerate}
+
+
+
+An archer is shooting arrows horizontally at a target. (The arrows are traveling fast enough that their path is mostly flat.) In order to measure how fast their arrows are traveling, they connect the target to a spring with a spring constant $k$. Suppose that the target has a mass of $m_t$, while the arrows have a mass $m_a$.
+
+They shoot an arrow into their target. The arrow sticks into the target, and the impact compresses the spring by a maximum distance $d$ before it bounces back. From this, you would like to determine the velocity $v_a$ that the arrow was moving when it hit the target.
+
+\begin{enumerate}
+	\item In the space below, draw three cartoons representing critical moments in the motion: right before the arrow hits the target, right after the arrow sticks in the target, and the point where the spring has reached its maximum compression.
+
+	
+	\item You will need two different techniques (principles of physics) to analyze this motion. What principle will you use to relate the first cartoon to the second, and what principle will you use to relate the second cartoon to the third?
+{\color{red} Between the first pair of cartoons, there is a collision, so conservation of momentum is appropriate; between the second pair, a spring is being compressed (and it is the only force doing work), so you should use conservation of energy.}
+
+	
+	\item Write an equation representing each of these principles -- one relating the quantities in the first cartoon to those in the second, and one relating the quantities in the second cartoon to those in the third. {\it (You will need to introduce a new variable for something in the second cartoon -- that is okay!)}
+	
+{\color{red}
+	
+	\begin{itemize}
+		\item Conservation of momentum: $m_a v_a = (m_a + m_t) v_t$, where $v_t$ is the ``new variable'' -- the velocity of the target after the arrow hits it.
+		
+		\item Conservation of energy: $\frac{1}{2}(m_a + m_t) v_t^2 = \frac{1}{2}kd^2$
+	\end{itemize}
+}
+	\item Determine the velocity of the arrow in terms of $m_a$, $m_t$, and $k$.
+
+{\color{red}(solve the energy equation for $v_t$ and substitute it into the momentum equation to find $v_a$)}	
+		
+
+\end{enumerate}
+
+
+
+
+
+
+%The dread pirate captain Piarrrr Squared has a problem: the cannons on the deck of his ship slide back after they are fired, and his crewmembers are tired of hauling them back into place. They propose instead to mount them on a spring-loaded carriage that will absorb their recoil and push them back into place.
+%
+%Piarrrr agrees with this idea. He notes that the cannons have room to slide back a distance $b$; the spring has to arrest them within this distance. 
+%
+%He asks the crew's engineer (conveniently named Jim) to determine how stiff the spring must be to achieve this. Jim makes some measurements and test-fires the cannon. They note:
+%
+%\begin{itemize}
+%	\item The deck of the ship is a height $h$ above the water
+%	\item When fired horizontally, the cannonball lands a distance $d$ away from the ship
+%	\item The cannonball has a mass $m$ and the cannon itself has a mass $M$
+%\end{itemize}
+%\newpage
+%
+%Jim does the following calculations to determine $k$ in terms of $m$, $M$, $h$, and $d$. 
+%
+%\begin{align}
+%y_c(t) =& h - \frac{1}{2}gt^2\\
+%t_{y=0} =& \sqrt{\frac{2h}{g}}\\
+%x_c(t) =& v_b t\\
+%d =& v_b \sqrt{\frac{2h}{g}}\\ 
+%v_b =& d \sqrt{\frac{g}{2h}}
+%\end{align}
+%\vspace{1em}
+%\begin{align}
+%0 =& m v_b - M v_c \\
+%v_c =& \frac{m}{M} v_b \\
+%\end{align}
+%\vspace{1em}
+%\begin{align}
+%\frac{1}{2}M v_c^2 =& \frac{1}{2}kx^2
+%\end{align}
+%\vspace{1em}
+%\begin{align}
+%k =& M \frac{v_c^2}{x^2}\\
+%k =& M \frac{m^2}{M^2}\frac{v_b^2}{x^2} \\
+%k =& \frac{m^2}{M}\frac{d^2}{x^2}\frac{g}{2h}
+%\end{align}
+
+% \item{A laptop battery says it has a capacity of 70 ``watt-hours''.}
+%   \begin{enumerate}
+%     \item{What are the dimensions of this odd unit ``watt-hour'', and what does it measure? What is 70 watt-hours in more familiar units?}
+%
+%\vspace{2.5in}
+%
+%     \item{If this battery were used to power an electric motor, how high could it lift the battery? Assume the battery has a mass of 300 grams.}
+%\vspace{2.5in}
+%   \end{enumerate}
+%
+%\newpage
+%
+\newpage
+
+
+A cyclist along with their bicycle has a mass of $m=60$ kg. They are capable of generating a power $P=150$ watts for a long time. (This means that they can do work on the pedals of their bicycle at a rate of 150 watts, and thus the bicycle's traction can do work on the bicycle at the same rate.)
+
+\begin{enumerate}
+\item Let's imagine this cyclist riding on a flat road. On flat terrain, the main force doing negative work on the cyclist is air resistance.
+
+The magnitude of the force from air resistance has the form $F_{\rm drag} = \gamma v^2$; it points opposite the cyclist's motion through the air. (This symbol is the lowercase Greek letter gamma.) $\gamma$ is a constant that depends on the cyclist's shape and size.
+
+If the cyclist (with their maximum power output of 150 W) can sustain a top speed of 9 m/s (about 20 mph) on flat ground, what is the value of $\gamma$? {\it (This value, once you find it, is a constant for the cyclist no matter where they go.)}
+
+{\color{red}They should realize here that if the cyclist is riding at a constant speed, the net power is zero:
+	
+$$
+	P_{\rm{trac}} + P_{\rm {drag}} = 0
+$$
+
+$P_{\rm{trac}}$ is limited to 150 W, and 
+
+$$P_{\rm {drag}} =  \vec F_{\rm {drag}} \cdot \vec v = -(\gamma v^2) v = \gamma v^3.$$
+
+This gives
+
+$$\gamma = \frac{P}{v^3} \approx 0.6.$$
+}
+
+\item Suppose they now travel to a steep mountain road, angled at $\theta=8^\circ$, and coast downhill. (They are not pedaling.) They will travel faster and faster until they reach a speed where the sum of the forces on them is zero and they don't accelerate any more. What top speed will they attain? 
+
+{\color{red}Thinking only about forces, we know the drag force is equal and opposite to the component of gravity down the slope:
+	
+	$$
+	mg \sin \theta = \gamma v^2 \rightarrow v = \sqrt{mg \sin \theta / \gamma}.
+	$$
+	
+}
+
+
+\item This speed can be quite dangerous for a cyclist! Suppose that they don't want to go this fast, and want to use their brakes to slow themselves down and travel at a constant speed of 8 m/s.
+
+Brakes use friction to do negative work on the wheel, slowing the bicycle down. However, since energy is conserved, the kinetic energy removed from the wheel by friction is converted to heat. At what rate will the bicycle's brakes build up heat going down the hill?
+
+{\color{red}
+Now we have three forces -- gravity, drag, and the brakes. But that's fine --
+$$
+P_{\rm{grav}} + P_{\rm {drag}} + P_{\rm {brake}} = 0
+$$
+
+What is $P_{\rm{grav}}$? Power is $\vec F \cdot \vec v$, and this is easiest to find as $F_{\rm grav}$ times the component of velocity in the direction of gravity (downward):
+
+$$P_{\rm{grav}} = (mg) (v \sin \theta)$$.
+
+Then we get
+
+$$
+mgv \sin \theta - \gamma v^3 + P_{\rm {brake}} = 0 \rightarrow P_{\rm {brake}} =  \gamma v^3 - mgv \sin \theta
+$$
+
+where we expect $P_{\rm brake}$ to come out negative -- it applies a negative power to the bike. But its magnitude is the rate at which the brakes accumulate heat.
+
+}
+\item The value of $\gamma$ is roughly the same for racing cyclists of different body types. Cycling races like the Tour de France have both uphill and downhill stages. Cyclists with smaller bodies -- who have much less mass but somewhat lower maximum power output~-- have an advantage on uphill segments of the race. However, more muscular cyclists, with more mass and higher maximum power output, have an advantage on downhill segments. 
+
+Discuss with your group why this might be.
+
+{\color{red} Uphill, drag isn't really a factor since you are going much slower -- the main force doing negative work on you is gravity. So your top speed is primarily set by your power to weight ratio, and there is thus a large incentive for ``climbing specialists'' to be as light as possible while still maintaining power output.
+	
+	On flat terrain, weight doesn't work against you; the force doing negative work against you is drag, so cyclists who have a higher total power output and higher mass will do better.
+	
+	On downhills, weight actually {\it helps} you; a heavier person who is stronger has both the advantage that their added gravity pulls them against the wind {\it and} that they are stronger (since their added mass also comes with a higher power output).
+	
+	This question is here so students get practice having conversations around these ideas -- force, power, energy, work -- without calculating anything, and thus gain fluency in describing physics ideas clearly in words.
+}
+
+\end{enumerate}
+
+\vfill
+
+\begin{center}\underline{\hspace{3in}}\end{center}
+
+
+
+
+
+
+
+{\it If you finish all of the above, take a look at Problem 4 on your homework with your group. It's a good one for you to work on together, since it should provoke some discussion!
+	
+	{\color{red}\rm
+	
+	This question is nuanced since you have to think very carefully about whether at each point the {\it force} or the {\it kinetic energy} is zero.
+	
+	In part (a), the mass is at rest so the total force is zero. There is no motion, no before-and-after, so work/energy methods aren't helpful. Here the mass hangs down a distance $mg/k$.
+	
+	In part (b), we have a clear before and after picture, and the kinetic energy at the bottom is zero (at the lowest point, the masses are not moving). So for this part you must use energy methods. The mass {\it is} accelerating here -- back up -- so the sum of the forces is not zero. The lowest point the masses reach is $3mg/k$.
+	
+	In part (c), the mass has oscillated for a long time and slowly been brought to rest by frictional forces -- and we have no clear way to calculate the work they have done. But we are back to a situation where the mass is not accelerating -- so now we again can say that the total {\it force} is zero. Now since the hanging mass is $2m$ it hangs down a distance of $2mg/k$.
+ \end{document}

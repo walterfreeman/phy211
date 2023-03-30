@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  29 MAR 2023 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.15)  29 MAR 2023 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lecture19.tex
-(./lecture19.tex
+**lecture-exam-3-review.tex
+(./lecture-exam-3-review.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -653,43 +653,21 @@ Package: amsthm 2017/10/31 v2.20.4
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfont
 s.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty
-) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box73
-\UL@hyphenbox=\box74
-\UL@skip=\skip63
-\UL@hook=\toks43
-\UL@height=\dimen277
-\UL@pe=\count311
-\UL@pixel=\dimen278
-\ULC@box=\box75
-Package: ulem 2019/11/18
-\ULdepth=\dimen279
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen280
-\ar@mcellbox=\box76
-\extrarowheight=\dimen281
-\NC@list=\toks44
-\extratabsurround=\skip64
-\backup@length=\skip65
-\ar@cellbox=\box77
-)
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count312
-\calc@Bcount=\count313
-\calc@Adimen=\dimen282
-\calc@Bdimen=\dimen283
-\calc@Askip=\skip66
-\calc@Bskip=\skip67
+\calc@Acount=\count311
+\calc@Bcount=\count312
+\calc@Adimen=\dimen277
+\calc@Bdimen=\dimen278
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count314
-\calc@Cskip=\skip68
+\calc@Ccount=\count313
+\calc@Cskip=\skip65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -698,27 +676,27 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count315
-\l_MT_multwidth_dim=\dimen284
-\origjot=\skip69
-\l_MT_shortvdotswithinadjustabove_dim=\dimen285
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen286
-\l_MT_above_intertext_sep=\dimen287
-\l_MT_below_intertext_sep=\dimen288
-\l_MT_above_shortintertext_sep=\dimen289
-\l_MT_below_shortintertext_sep=\dimen290
+\g_MT_multlinerow_int=\count314
+\l_MT_multwidth_dim=\dimen279
+\origjot=\skip66
+\l_MT_shortvdotswithinadjustabove_dim=\dimen280
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen281
+\l_MT_above_intertext_sep=\dimen282
+\l_MT_below_intertext_sep=\dimen283
+\l_MT_above_shortintertext_sep=\dimen284
+\l_MT_below_shortintertext_sep=\dimen285
 )
 (/usr/share/texlive/texmf-dist/tex/generic/epsf/epsf.sty
 This is `epsf.tex' v2.7.4 <14 February 2011>
 \epsffilein=\read3
-\epsfframemargin=\dimen291
-\epsfframethickness=\dimen292
-\epsfrsize=\dimen293
-\epsftmp=\dimen294
-\epsftsize=\dimen295
-\epsfxsize=\dimen296
-\epsfysize=\dimen297
-\pspoints=\dimen298
+\epsfframemargin=\dimen286
+\epsfframethickness=\dimen287
+\epsfrsize=\dimen288
+\epsftmp=\dimen289
+\epsftsize=\dimen290
+\epsfxsize=\dimen291
+\epsfysize=\dimen292
+\pspoints=\dimen293
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
@@ -726,36 +704,36 @@ This is `epsf.tex' v2.7.4 <14 February 2011>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 112.
+(hyperref)                removing `\\' on input line 101.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 112.
+(hyperref)                removing `\\' on input line 101.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count316
-\l__pdf_internal_box=\box78
+\l__kernel_color_stack_int=\count315
+\l__pdf_internal_box=\box73
 )
-(./lecture19.aux)
-\openout1 = `lecture19.aux'.
+(./lecture-exam-3-review.aux)
+\openout1 = `lecture-exam-3-review.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -793,17 +771,17 @@ LaTeX Font Info:    ... okay on input line 116.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen299
-\scratchbox=\box79
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen300
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count316
+\scratchdimen=\dimen294
+\scratchbox=\box74
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen295
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -814,8 +792,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring OFF on input line 116.
+\AtBeginShipoutBox=\box75
+Package hyperref Info: Link coloring OFF on input line 105.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -826,15 +804,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count323
+\c@section@level=\count322
 )
-LaTeX Info: Redefining \ref on input line 116.
-LaTeX Info: Redefining \pageref on input line 116.
-LaTeX Info: Redefining \nameref on input line 116.
+LaTeX Info: Redefining \ref on input line 105.
+LaTeX Info: Redefining \pageref on input line 105.
+LaTeX Info: Redefining \nameref on input line 105.
 
-(./lecture19.out) (./lecture19.out)
+(./lecture-exam-3-review.out) (./lecture-exam-3-review.out)
 \@outlinefile=\write5
-\openout5 = `lecture19.out'.
+\openout5 = `lecture-exam-3-review.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -860,11 +838,23 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./lecture19.nav) [1
+) (./lecture-exam-3-review.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] [3
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 154
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 154
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3
 
 ] [4
 
@@ -872,7 +862,8 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] [6
 
-] [7
+]
+[7
 
 ] [8
 
@@ -888,14 +879,29 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] [14
 
-] [15
+]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 286.
+
+[15
 
 ]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 286.
+
 [16
 
-] [17
+]
 
-] [18
+LaTeX Font Warning: Command \large invalid in math mode on input line 286.
+
+[17
+
+]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 286.
+
+[18
 
 ] [19
 
@@ -907,26 +913,13 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] [23
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 328
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 328
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [24
+] [24
 
 ] [25
 
 ] [26
 
-]
-[27
+] [27
 
 ] [28
 
@@ -938,140 +931,56 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [32
 
-] [33
-
-] [34
-
-] [35
-
-] [36
-
-]
-<moment-table.png, id=260, 744.53156pt x 555.57562pt>
-File: moment-table.png Graphic file (type png)
-<use moment-table.png>
-Package pdftex.def Info: moment-table.png  used on input line 646.
-(pdftex.def)             Requested size: 304.6695pt x 227.35512pt.
- [37
-
- <./moment-table.png>]
-File: moment-table.png Graphic file (type png)
-<use moment-table.png>
-Package pdftex.def Info: moment-table.png  used on input line 646.
-(pdftex.def)             Requested size: 304.6695pt x 227.35512pt.
-
-[38
-
-]
-Overfull \vbox (43.27089pt too high) detected at line 740
- []
-
-[39
-
-] [40
-
-] [41
-
-] [42
-
-] [43
-
-] [44
-
-] [45
-
-] [46
-
-] [47
-
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-]
-[54
-
-] [55
-
-]
-<roll-crop.pdf, id=387, 313.17pt x 179.67125pt>
-File: roll-crop.pdf Graphic file (type pdf)
-<use roll-crop.pdf>
-Package pdftex.def Info: roll-crop.pdf  used on input line 913.
-(pdftex.def)             Requested size: 139.28128pt x 79.91095pt.
-<roll2-crop.pdf, id=388, 313.17pt x 179.67125pt>
-File: roll2-crop.pdf Graphic file (type pdf)
-<use roll2-crop.pdf>
-Package pdftex.def Info: roll2-crop.pdf  used on input line 913.
-(pdftex.def)             Requested size: 139.28128pt x 79.91095pt.
-<roll3-crop.pdf, id=389, 313.17pt x 191.71625pt>
-File: roll3-crop.pdf Graphic file (type pdf)
-<use roll3-crop.pdf>
-Package pdftex.def Info: roll3-crop.pdf  used on input line 913.
-(pdftex.def)             Requested size: 139.28128pt x 85.26811pt.
- [56
-
- <./roll-crop.pdf> <./roll2-crop.pdf> <./roll3-crop.pdf>] [57
-
-]
-[58
-
 ]
 \tf@nav=\write6
-\openout6 = `lecture19.nav'.
+\openout6 = `lecture-exam-3-review.nav'.
 
 \tf@toc=\write7
-\openout7 = `lecture19.toc'.
+\openout7 = `lecture-exam-3-review.toc'.
 
 \tf@snm=\write8
-\openout8 = `lecture19.snm'.
+\openout8 = `lecture-exam-3-review.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 944.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 944.
- (./lecture19.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 944.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 944.
-Package rerunfilecheck Info: File `lecture19.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 560.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
+
+(./lecture-exam-3-review.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 560.
+Package rerunfilecheck Info: File `lecture-exam-3-review.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19052 strings out of 481239
- 362282 string characters out of 5920376
- 613721 words of memory out of 5000000
- 33719 multiletter control sequences out of 15000+600000
- 548719 words of font info for 88 fonts, out of 8000000 for 9000
+ 18788 strings out of 481239
+ 359373 string characters out of 5920376
+ 608465 words of memory out of 5000000
+ 33520 multiletter control sequences out of 15000+600000
+ 544318 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,846b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,15n,67p,820b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on lecture19.pdf (58 pages, 411979 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti9.pfb>
+Output written on lecture-exam-3-review.pdf (32 pages, 268464 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 117 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
