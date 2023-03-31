@@ -20,11 +20,11 @@ for it:
 
 ### Current recitation materials
 
-* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Exam 3 review</a>
+* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Elasticity; power</a>
 
 ### Current slides
 
-<a href="slides/lecture-exam-3-review/lecture-exam-3-review.pdf">Elasticity; power</a>
+<a href="slides/lecture-exam-3-review/lecture-exam-3-review.pdf">Unit 3 Review</a>
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:20, Stolkin Auditorium 
