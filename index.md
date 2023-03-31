@@ -5,6 +5,11 @@ use_math: true
 title: Announcements
 ---
 
+### Practice Exam 3
+
+Here is <a href="practice-exam-3-2023.pdf">practice exam 3</a>. I will post the solutions after the
+review session Sunday (most likely after I get home from rehearsal afterward, so around 9 pm).
+
 ### Theoretical review of Unit 3
 
 This writeup doesn't include *any* details of problem-solving strategies;
