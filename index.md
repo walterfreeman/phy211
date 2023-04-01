@@ -7,8 +7,7 @@ title: Announcements
 
 ### Practice Exam 3
 
-Here is <a href="practice-exam-3-2023.pdf">practice exam 3</a>. I will post the solutions after the
-review session Sunday (most likely after I get home from rehearsal afterward, so around 9 pm).
+Here is <a href="practice-exam-3-2023.pdf">practice exam 3 part 1</a> and <a href="practice-exam-3-2023-part2.pdf">part 2</a>. I will post the solutions after the review session Sunday (most likely after I get home from rehearsal afterward, so around 9 pm).
 
 ### Theoretical review of Unit 3
 
@@ -61,5 +60,4 @@ Class meeting: Tuesdays and Thursdays, 9:30-10:60 or 11:00-12:30, Tuesdays and T
 ### Materials
 
 Our textbook is the open-access book *University Physics Volume 1* (W. Moebs, S. Ling, J. Sanny, et al.), published by OpenStax. <a href="https://openstax.org/details/books/university-physics-volume-1">You may access the textbook online or download it for free here</a>. 
-
 
