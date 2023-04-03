@@ -8,7 +8,7 @@ title: Announcements
 ### Practice Exam 3
 
 * Here is <a href="practice-exam-3-2023.pdf">practice exam 3 part 1</a> and <a href="practice-exam-3-2023-part2.pdf">part 2</a>. 
-* Here are<a href="practice-exam-3-solutions.pdf">the solutions to Practice Exam 3</a>.
+* Here are<a href="practice-exam-3-solutions-2.pdf">the solutions to Practice Exam 3</a>.
 
 ### Theoretical review of Unit 3
 
