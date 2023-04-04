@@ -5,6 +5,10 @@ use_math: true
 title: Announcements
 ---
 
+### Seating chart for M002
+
+Here's the <a href="chart-secM002.pdf">seating chart for the 11am section</a>.
+
 ### Practice Exam 3
 
 * Here is <a href="practice-exam-3-2023.pdf">practice exam 3 part 1</a> and <a href="practice-exam-3-2023-part2.pdf">part 2</a>. 
