@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  26 MAR 2023 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  4 APR 2023 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -384,12 +384,12 @@ Package rerunfilecheck Info: File `second-chance-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9332 strings out of 478126
- 146060 string characters out of 5842810
+ 9332 strings out of 476175
+ 146060 string characters out of 5796294
  1858793 words of memory out of 6000000
- 29284 multiletter control sequences out of 15000+600000
+ 29539 multiletter control sequences out of 15000+600000
  516813 words of font info for 48 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 1137 hyphenation exceptions out of 8191
  72i,5n,77p,333b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar

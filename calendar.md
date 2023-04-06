@@ -39,13 +39,14 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 28 March    | <a href="slides/lecture-springs-power/lecture-springs-power.pdf">Elasticity and power</a>                               
 | 30 March    | <a href="slides/lecture-exam-3-review/lecture-exam-3-review.pdf">Exam 3 review</a>                                                                                                |                                |
 | 4  April    | **Exam 3**                                                                                                       |                                |
-| 6  April    | Torque; static equilibrium                                                                                       | 11.2-11.3                      |
-| 11 April    | Torque; rotational dynamics                                                                                      | 10.6-10.7                      |
-| 13 April    | Combining rotation and translation                                                                               | 10.8                           |
-| 18 April    | Rotational energy; work and power in rotation                                                                     |                                |
-| 20 April    | The physics of musical instruments (1)                                                                           |                                | 
-| 25 April    | The physics of musical instruments (2)                                                                           |                                |
-| 27 April    | The physics of musical instruments (3); course retrospective and closing                                         |                                |
+| 6  April    | <a href="slides/lecture-rotational-kinetic-energy/lecture-rotational-kinetic-energy.pdf">Rotational kinetic energy</a>
+                                                                                       | 11.2-11.3                      |
+| 11 April    |                                  | 10.6-10.7                      |
+| 13 April    |                                  | 10.8                           |
+| 18 April    |                                   |                                |
+| 20 April    |                                  |                                | 
+| 25 April    |                                  |                                |
+| 27 April    |                                  |                                |
 | 8 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
 

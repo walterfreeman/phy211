@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  26 MAR 2023 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  4 APR 2023 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,7 +371,7 @@ Overfull \hbox (17.73459pt too wide) in paragraph at lines 63--64
  []
 
 
-Overfull \hbox (27.94339pt too wide) in paragraph at lines 69--70
+Overfull \hbox (27.94339pt too wide) in paragraph at lines 71--72
 []\OT1/cmr/m/n/12 The first prac-tice exam is here: []$\OT1/cmtt/m/n/12 https :
  / / walterfreeman . github . io / phy211 / practice-[]exam-[]1 .
  []
@@ -385,9 +385,9 @@ Package rerunfilecheck Info: File `second-chance-football.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9333 strings out of 476175
- 146083 string characters out of 5796294
- 1859793 words of memory out of 6000000
+ 9334 strings out of 476175
+ 146089 string characters out of 5796294
+ 1861793 words of memory out of 6000000
  29539 multiletter control sequences out of 15000+600000
  516813 words of font info for 48 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
@@ -396,10 +396,10 @@ Here is how much of TeX's memory you used:
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on second-chance-football.pdf (1 page, 55877 bytes).
+Output written on second-chance-football.pdf (1 page, 56986 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 47 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

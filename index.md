@@ -5,9 +5,19 @@ use_math: true
 title: Announcements
 ---
 
-### Seating chart for M002
 
-Here's the <a href="chart-secM002.pdf">seating chart for the 11am section</a>.
+### Current homework 
+
+* <a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
+* <a href="hw/hw7/hw7.pdf">Homework 7</a> is due Friday, March 31.
+
+### Current recitation materials
+
+* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Elasticity; power</a>
+
+### Current slides
+
+<a href="slides/lecture-rotational-kinetic-energy/lecture-rotational-kinetic-energy.pdf">Rotational kinetic energy</a>
 
 ### Practice Exam 3
 
@@ -22,18 +32,6 @@ for it:
 
 <a href="unit-3-review.pdf">Unit 3 notes</a>
 
-### Current homework 
-
-* <a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
-* <a href="hw/hw7/hw7.pdf">Homework 7</a> is due Friday, March 31.
-
-### Current recitation materials
-
-* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Elasticity; power</a>
-
-### Current slides
-
-<a href="slides/lecture-exam-3-review/lecture-exam-3-review.pdf">Unit 3 Review</a>
 
 ### Information
 - Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:20, Stolkin Auditorium 
