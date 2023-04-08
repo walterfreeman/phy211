@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  15 FEB 2023 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.29)  16 FEB 2023 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1069,7 +1069,7 @@ Package rerunfilecheck Info: File `lec10.out' has not changed.
 Here is how much of TeX's memory you used:
  21586 strings out of 478855
  400412 string characters out of 5858635
- 687009 words of memory out of 6000000
+ 687007 words of memory out of 6000000
  38678 multiletter control sequences out of 15000+600000
  413512 words of font info for 66 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
@@ -1086,7 +1086,7 @@ msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 
-Output written on lec10.pdf (34 pages, 194672 bytes).
+Output written on lec10.pdf (34 pages, 194639 bytes).
 PDF statistics:
  329 PDF objects out of 1000 (max. 8388607)
  255 compressed objects within 3 object streams

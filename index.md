@@ -8,12 +8,12 @@ title: Announcements
 
 ### Current homework 
 
-* <a href="hw/hw6/hw6.pdf">Homework 6</a> is due Friday, March 24.
-* <a href="hw/hw7/hw7.pdf">Homework 7</a> is due Friday, March 31.
+* <a href="hw/hw8/hw8.pdf">Homework 8</a> is due Friday, April 14.
+* The <a href="second-chances.html">second chance homework assignments</a> (for an extra homework grade and to prepare you for the second chance questions on the day of the final) are due on the last recitation of the semester.
 
 ### Current recitation materials
 
-* Day 1: <a href="recitation/week10/recitation-springs-power.pdf">Elasticity; power</a>
+* (to be posted)
 
 ### Current slides
 

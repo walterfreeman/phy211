@@ -1,0 +1,117 @@
+
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+	\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+	\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+	\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+\begin{document}
+	\pagenumbering{gobble}
+	\Large
+	\centerline{\sc{Homework 5}}
+	
+	\normalsize
+	\centerline{\sc{Due Friday, March 10}}
+	
+	
+	\begin{enumerate}
+		
+
+	
+	\item Suppose that two small spacecraft, each with a mass of 2000 kg, are drifting next to each other. One of them has an astronaut on board; with her equipment, she has a mass of 200 kg.
+	
+		Both craft are moving in the $x-$direction at a velocity of $\vec v_i = (0.5~\rm m/\rm s, 0)$. An astronaut wants to travel from one to the other. She pushes off of one spacecraft and jumps onto the other craft; as she floats through the air, she travels in the $y-$direction with a velocity of $\vec v_a = (0, 1) ~\rm m/\rm s$. (This means that her velocity is 1 meter per second in the y-direction.) Note that when she moves through the air, she is moving {\it only} in the y-direction.
+	
+	
+	\begin{enumerate}
+		\item What will the velocity of the first spacecraft be after she jumps off of it? {\it (Velocity is a vector; you can give its components.)}
+		
+		
+		\item What will the velocity of the second spacecraft be after she lands on it?
+		
+		
+		\item Explain in words why the $y-$components of their final velocities are {\it almost} equal and opposite, but are not quite the same magnitude.
+		
+		\item Explain in words why the $x-$components of their final velocities are {\it almost} equal.
+	\end{enumerate}
+	
+	\bigskip
+	
+	
+	
+\item Two people, Alice and Bob, are sitting on sleds on a frozen lake; one of them carries a heavy puck with them. They are separated by a distance $d$. The people plus their sleds each have a mass $m_1$; the puck has a mass $m_2$.
+
+Suppose that the coefficient of kinetic friction between the objects and the lake is $\mu_k$.
+
+If Alice slides the puck to Bob at a velocity $v_0$, and Bob picks it up, how far will Bob drift before coming to rest?
+
+{\bf Hint 1:} The ``third kinematics relation'' $v_f^2 - v_0^2 = 2a\Delta x$ that you derived back in February will be very useful here, since you are never interested in the {\it time} these motions take, but care about relating the change in velocity to the distance traveled and the acceleration.
+
+{\bf Hint 2:} There are multiple things that happen here. Conservation of momentum will help you understand some of them, but not others. First, draw four cartoons, and identify which method you can use to understand how to connect each cartoon to the next:
+
+\begin{itemize}
+	\item Right after Alice slides the puck to Bob
+	\item Right before Bob picks up the puck
+	\item Right after Bob picks up the puck
+	\item When Bob comes to rest
+\end{itemize}
+
+
+\bigskip \newpage
+
+\item A professor from Syracuse University's Department of Mad Science wants to remove a boulder from the surface of a frozen lake so they can use it as a large low-friction surface for testing mad-scientific inventions. 
+
+Being a mad scientist, they decide to blow it up.
+
+They use a bit of dynamite to blast the rock into two pieces. The big piece has three times the mass of the little piece. Both slide along the ice (with the same coefficient of kinetic friction) before finally coming to a stop.
+
+If the little piece slides 90 meters before coming to a stop, how far does the big piece slide?
+
+{\it (It may seem like you don't have enough information to figure this out, but you do! This was a previous exam question from years ago.)}
+
+\bigskip
+
+\item Consider the demo from class on Thursday: a person stands on a platform that is free to rotate. They are initially not rotating. You can approximate the person as a cylinder (with radius $r_p$ and mass $m_p$) in calculating their moment of inertia.
+
+Someone hands the person a horizontal wheel of radius $r_w$ of mass $m_w$ that is rotating rapidly (clockwise) around its vertical axis at angular velocity $\omega_0$.
+
+\begin{enumerate}
+	\item When the person turns the bicycle wheel over (so it is rotating counterclockwise as seen from above rather than clockwise, for instance), how quickly and in which direction will they begin to rotate?
+	
+	\item In class, the bicycle wheel was filled with concrete; its mass was likely around $m_w = 5$ kg. Estimate $r_p$ and $m_p$ for an average person, and estimate $r_w$. Is your result for the final angular velocity of the person reasonable? {\it (The moment of inertia of a thin ring, like the wheel, is $MR^2$; the moment of inertia of a cylinder is $\frac{1}{2}MR^2$.)}
+\end{enumerate}
+
+
+
+\end{enumerate}
+\end{document}

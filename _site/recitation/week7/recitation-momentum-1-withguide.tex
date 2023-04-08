@@ -1,0 +1,186 @@
+
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+	\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+	\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+	\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+
+
+\begin{document}
+	\pagenumbering{gobble}
+	\Large
+	\centerline{\sc{Recitation Exercises}}
+	
+	\normalsize
+	\centerline{\sc{Week 7 Day 2}}
+	
+			
+		%\item A train car of mass $m_1$ is traveling along a railway at a speed of $v_0$ when it encounters another train car of mass $m_2$. The two cars couple together when
+		%they collide. How fast are they traveling after the collision?
+		
+Remember that the conservation of momentum says that, in any situation where forces are exchanged only between objects within a system, that
+
+$$\text{total momentum before an event} = \text {total momentum after event}$$
+
+In a collision or explosion, generally the forces involved are so much larger than other forces during that brief instant that those other forces can be ignored. Thus, conservation of momentum is an excellent technique for understanding collisions and explosions.
+
+In symbols, momentum $\vec p = m \vec v$.
+
+As we saw in class, conservation of momentum for two objects means that
+
+$$m_A \vec v_{A_i} + m_B \vec v_{B_i} = m_A \vec v_{A_f} + m_B \vec v_{B_f}$$
+
+Since velocity is a vector, if you need to think about objects moving in two dimensions, this equation
+separates into x- and y-directions as expected:
+
+$$m_A v_{A_{x,i}} + m_B v_{B_{x,i}} = m_A v_{A_{x,f}} + m_B v_{B_{x,f}}$$
+$$m_A v_{A_{y,i}} + m_B v_{B_{y,i}} = m_A v_{A_{y,f}} + m_B v_{B_{y,f}}$$
+
+
+To figure out situations involving conservation of momentum:
+
+\begin{enumerate}
+	\item Draw clear cartoons of your ``before'' and ``after'' states -- usually, immediately before and immediately after the collision or explosion
+	\item Write down a version of the above statement of conservation of momentum (modified for your particular situation) that means ``total momentum before = total momentum after''.
+	\begin{itemize}
+		\item This equation assumes that there are two separate objects both before and after the event. If this is not true, then you will have a different number of terms on the left or the right.
+		\item If the situation involves motion in two dimension, decompose vectors into components; you will have separate equations for the $x-$ and $y-$directions.	\end{itemize}
+	\item Substitute in things you know (are some of the terms zero? Are some of the velocities equal?) and solve for what you want to find.
+\end{enumerate}
+
+
+\newpage
+
+\begin{enumerate}
+	
+	\item Suppose an astronaut along with their equipment has a mass of 200 kg. Their tether has broken and they are drifting away from their spacecraft at 0.5 m/s; they need to do something drastic in order to make it home.
+	
+	Thankfully, for emergencies like this, NASA provides astronauts with a small emergency jet pack that can eject puffs of nitrogen gas. They engage the jet pack and exhaust nitrogen away from their spacecraft until they are moving back {\it toward} their spacecraft at 0.5 m/s.
+	
+	If their jet pack is capable of ejecting nitrogen gas at 100 m/s, how much nitrogen must they release in order to do this?
+	
+
+{\color{red}
+
+We should encourage them to draw clear cartoons of before and after scenarios here, since this is invaluable when dealing with more complex situations. 
+
+They can do this in two ways:
+
+\begin{enumerate}
+	\item Assume that the mass of the nitrogen is small compared to the mass of the astronaut, and do
+	
+	$$
+	m_A \times (0.5\, m/s) = m_A \times (-0.5\, m/s) + m_g \times (100\, m/s)
+	$$
+	
+	\item Recognize that the astronaut must have been carrying this gas with them, leading to 
+
+	$$
+(m_A + m_g) \times (0.5\, m/s) = m_A \times (-0.5\, m/s) + m_g \times (100\, m/s)
+$$
+
+	Either approach is valid, but if they do the first thing, they should be {\it aware} that they are making an approximation.
+\end{enumerate}
+
+
+}
+
+
+		\newpage
+		
+		\item{The driver of a Mini Cooper (mass 1200 kg) is traveling at 10 m/s westward when he runs a stop sign and collides with a Toyota Camry (mass 2000 kg), traveling at 15 m/s northward. The two cars stick together after the collision. In this exercise, you're going to find the velocity of the cars after the collision.}
+		
+		\vspace{2in}
+		
+		
+		\begin{enumerate}
+			\item What is the sum of the two cars' momentum before the collision? (Will your answer be one value or two? Remember momentum is a vector.)
+{\color{red} Two values -- one in $x$ and one in $y$.}
+			\item How does the total momentum after the collision compare to the total momentum before the collision?
+			
+			{\color{red} They're the same -- that's how conservation of momentum works.}
+			\newpage
+			
+			\vspace{2.5in}
+			\item{What are the speed and direction of the cars after the collision? As with most vectors, it is easiest to first calculate the $x-$ and $y-$components of the cars' velocity and then convert this vector to the magnitude-and-direction form.\footnote{This happened to me in 2010; I was on the sidewalk and had to jump out of the way of the cars! Thankfully neither driver was badly hurt, although the Camry was in bad shape.}}
+			
+						{\color{red} They should use conservation of momentum in both directions to find $p_{x,f}$ and $p_{y,f}$. Setting up the conservation of momentum equations will require them to be careful with subscripts -- ask them questions about notation. This leads to:
+						
+		\begin{align*}
+			m_1 v_{1,x,i} {\color{gray} + m_2 v_{2,x,i}} =& (m_1 + m_2) v_{x,f} \\
+			{\color{gray}m_1 v_{1,y,i}} + m_2 v_{2,y,i} =& (m_1 + m_2) v_{y,f} \\
+		\end{align*}			
+				
+			
+			where the terms in gray are zero since the initial velocities are aligned with the coordinate system.
+			
+		}
+						
+			
+			
+	
+			
+			\item{If the coefficient of kinetic friction between the cars' tires and the pavement is 0.6, how far do they skid before coming to rest?}
+			
+						{\color{red} They don't know work-energy yet, but they can use what they know about forces to find $a$ and then use $v_f^2 - v_0^2 = 2a\Delta x$.}
+			\vfill
+		
+			
+		\end{enumerate}
+		
+		\newpage
+		
+		
+		\item{A 5 kg box is sitting on a table; the coefficient of kinetic friction between the box and the table is 0.5.
+			Two people throw things at it: a lump of clay and a rubber ball. Both objects have a mass of 500 g and strike the box at a speed of 4 m/s. The lump of clay collides inelastically (sticking to the box), while the ball bounces back at a speed of 2 m/s.}
+		\begin{enumerate}
+			\item{Without doing any mathematics, which object will knock the box further? How do you know? Hint: In the collision, the change of the box's momentum is equal and opposite to the change in the ball's momentum.}
+			
+{			\color{red} This is a very valuable conversation and it is worth spending time with them on it. The logic is that the rubber ball changes velocity more (+4 m/s $\rightarrow$ -2 m/s compared to +4 m/s $\rightarrow$ 0); this means that since its momentum changed by more, and momentum is conserved, it delivered more momentum to the box in return. This is counterintuitive to a lot of students, so work with them 
+	until they understand how it goes.}
+	
+
+			
+			\vspace{2in}
+			\item{Calculate how far each object knocks the box.}
+			
+			{\color{red} This is a two-part calculation, where momentum lets them relate the state right before the collision to the state right after, and then $\vec F = m \vec a$ plus kinematics lets them relate the state right after the collision to the state after it comes to rest.
+				
+				Encourage them to draw {\it three} cartoons: state right before collision, state right after collision, state after box is at rest. Then have them think of what technique they will use to relate the first picture to the second, and then the second to the third.}
+			
+		\end{enumerate}
+	\end{enumerate}
+	
+\end{document}
+

@@ -1,0 +1,366 @@
+\documentclass[10pt]{beamer}
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\documentclass[12pt]{beamerthemeSam.sty}
+\usepackage{epsf}
+%\usepackage{pstricks}
+%\usepackage[orientation=portrait,size=A4]{beamerposter}
+\geometry{paperwidth=160mm,paperheight=120mm}
+%DT favorite definitions
+\def\LL{\left\langle}	% left angle bracket
+\def\RR{\right\rangle}	% right angle bracket
+\def\LP{\left(}		% left parenthesis
+\def\RP{\right)}	% right parenthesis
+\def\LB{\left\{}	% left curly bracket
+\def\RB{\right\}}	% right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+
+\def\rightpartial{{\overrightarrow\partial}}
+\def\leftpartial{{\overleftarrow\partial}}
+\def\diffpartial{\buildrel\leftrightarrow\over\partial}
+
+\def\BI{\begin{itemize}}
+\def\EI{\end{itemize}}
+\def\BE{\begin{displaymath}}
+\def\EE{\end{displaymath}}
+\def\BEA{\begin{eqnarray*}}
+\def\EEA{\end{eqnarray*}}
+\def\BNEA{\begin{eqnarray}}
+\def\ENEA{\end{eqnarray}}
+\def\EL{\nonumber\\}
+
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\gbeta}{6/g^2}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\atantwo}{{\rm atan2}}
+\newcommand{\Tr}{{\rm Tr}}
+\newcommand{\dt}{\Delta t}
+\newcommand{\op}{{\cal O}}
+\newcommand{\BS}{\bigskip}
+\newcommand{\msbar}{{\overline{\rm MS}}}
+\def\chpt{\raise0.4ex\hbox{$\chi$}PT}
+\def\schpt{S\raise0.4ex\hbox{$\chi$}PT}
+\def\MeV{{\rm Me\!V}}
+\def\GeV{{\rm Ge\!V}}
+
+%AB: my color definitions
+%\definecolor{mygarnet}{rgb}{0.445,0.184,0.215}
+%\definecolor{mygold}{rgb}{0.848,0.848,0.098}
+%\definecolor{myg2g}{rgb}{0.647,0.316,0.157}
+\definecolor{abtitlecolor}{rgb}{0.0,0.255,0.494}
+\definecolor{absecondarycolor}{rgb}{0.0,0.416,0.804}
+\definecolor{abprimarycolor}{rgb}{1.0,0.686,0.0}
+\definecolor{Red}           {cmyk}{0,1,1,0}
+\definecolor{Grey}           {cmyk}{.7,.7,.7,0}
+\definecolor{Blue}          {cmyk}{1,1,0,0}
+\definecolor{Green}         {cmyk}{1,0,1,0}
+\definecolor{Brown}         {cmyk}{0,0.81,1,0.60}
+\definecolor{Black}         {cmyk}{0,0,0,1}
+
+\usetheme{Madrid}
+
+
+%AB: redefinition of beamer colors
+%\setbeamercolor{palette tertiary}{fg=white,bg=mygarnet}
+%\setbeamercolor{palette secondary}{fg=white,bg=myg2g}
+%\setbeamercolor{palette primary}{fg=black,bg=mygold}
+\setbeamercolor{title}{fg=abtitlecolor}
+\setbeamercolor{frametitle}{fg=abtitlecolor}
+\setbeamercolor{palette tertiary}{fg=white,bg=abtitlecolor}
+\setbeamercolor{palette secondary}{fg=white,bg=absecondarycolor}
+\setbeamercolor{palette primary}{fg=black,bg=abprimarycolor}
+\setbeamercolor{structure}{fg=abtitlecolor}
+
+\setbeamerfont{section in toc}{series=\bfseries}
+
+%AB: remove navigation icons
+\beamertemplatenavigationsymbolsempty
+\title[Momentum (II)]{
+  \textbf {Momentum in combination; impulse}\\
+%\centerline{}
+%\centering
+%\vspace{-0.0in}
+%\includegraphics[width=0.3\textwidth]{propvalues_0093.pdf}
+%\vspace{-0.3in}\\
+%\label{intrograph}
+}
+
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2023\\Walter Freeman}
+
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\frametitle{\textbf{Announcements}}
+\BI
+\large
+\item{Upcoming office hours:}
+\BI
+\item Today, 3-5 PM
+\item Next Wednesday, 3-5 PM
+\item Next Thursday, 3-5 PM
+\EI
+\item One question on HW5 will involve the material from Thursday
+\item We usually don't do this, but the alternative is homework over break (which I don't ever do)
+\EI
+}
+
+\frame{
+
+\begin{center}
+	
+	
+	\huge
+	
+	There is no recitation Thursday/Friday. 
+	
+	\bigskip \Large
+	
+	You may turn your homework in to your TA's mailbox.
+\end{center}
+}
+
+
+\frame{\frametitle{\textbf{Problem solving: momentum in combination}}
+	
+	\begin{center}
+	\Large
+	Conservation of momentum is our best tool for understanding {\color{Red}\bf collisions and explosions}.
+	\end{center}
+
+\bigskip
+\normalsize
+
+
+How do we deal with situations that involve a collision or an explosion {\color{Green}and something else}?
+\BS\BS
+
+\normalsize
+
+\BI
+\item Draw cartoons at critical moments in the motion
+\BI
+\item Right before the collision/explosion
+\item Right after the collision/explosion
+\item Any others you know about
+\EI
+\pause \bigskip
+\item Label the quantities you know {\it and don't know} in each
+\BI
+\item Make sure you choose notation that is clear
+\item Beware of ``initial'' and ``final''
+\EI
+\pause\bigskip
+\item Determine {\it what physical principle} lets you relate each snapshot to the next one
+\BI
+\item Conservation of momentum for collisions/explosions
+\item Something else for others
+\EI
+\pause\bigskip
+\item Translate those physical principles into equations relating quantities
+\pause\bigskip
+\item Solve the equations for what you need
+\EI
+}
+
+\frame{\frametitle{\textbf{Easy example: the ``knock the box'' question from recitation}}
+}
+
+\frame{\frametitle{\textbf{A harder example: a parking brake failure}}
+	A Toyota Yaris (mass 1000 kg) is parked on a hill inclined at $10^\circ$. The driver forgot to set the parking brake, and sometime later
+	the car pops into neutral and rolls without friction down the slope.
+	
+	\bigskip
+	
+	It rolls into a parked Ford Explorer that has its parking brake set. The coefficient of friction between the Ford and the pavement is $\mu_k=0.6$. If the cars roll
+	a further 5 meters before they come to rest again, where was the Toyota parked?
+	
+	\BS\BS\pause
+	
+	{\bf \color{Red} What cartoons of critical moments do I need?}
+		\pause
+		\BI
+		\item (1) As soon as the Toyota starts rolling
+		\item (2) Right before the Toyota hits the Ford
+		\item (3) Right after the Toyota hits the Ford
+		\item (4) When the two cars come to rest again
+		\EI
+}
+
+\frame{
+		
+		\Large
+		
+		What techniques do I need to relate picture (1) to picture (2) and find a relationship between the {\color{Red}starting distance between the cars $d$} and the {\color{Green}velocity that the Toyota has right before the collision $v_2$}?
+		
+		\BS\BS
+		
+		\begin{itemize}
+			\item A: conservation of momentum
+			\item B: kinematics in one dimension
+			\item C: kinematics in two dimensions
+			\item D: force diagrams and $\vec F = m \vec a$
+		\end{itemize}
+}
+
+\frame{
+	
+	\Large
+	
+	What techniques do I need to relate picture (2) to picture (3) and find a relationship between the {\color{Green}velocity of the Toyota right before the collision $v_2$} and the {\color{Blue}velocity of the cars right after the collision $v_3$}?
+	
+	\BS\BS
+	
+	\begin{itemize}
+		\item A: conservation of momentum
+		\item B: kinematics in one dimension
+		\item C: kinematics in two dimensions
+		\item D: force diagrams and $\vec F = m \vec a$
+	\end{itemize}
+}
+
+\frame{
+	
+	\Large
+	
+	What techniques do I need to relate picture (3) to picture (4) and find a relationship between the {\color{Blue}velocity of the cars right after the collision $v_3$} and the {\color{Red}distance they slide before coming to rest $b$}?
+	
+	\BS\BS
+	
+	\begin{itemize}
+		\item A: conservation of momentum
+		\item B: kinematics in one dimension
+		\item C: kinematics in two dimensions
+		\item D: force diagrams and $\vec F = m \vec a$
+	\end{itemize}
+}
+
+
+\frame{\frametitle{\textbf{A harder example: piracy}}
+	The dread pirate captain Piarrrrr Squared has a cannon on his ship, mounted on a deck a height $h$ above the waterline. The cannon's mass is a hundred times as large as the cannonballs it fires.
+	
+	\bigskip
+	
+	When the cannon fires, it slides back on the deck until friction brings it to rest. If the coefficient of kinetic friction is $\mu_k$, determine how far away from the ship the cannonball will land.
+	
+	
+}
+
+
+\frame{\frametitle{\textbf{Impulse and momentum}}
+  \large
+
+We saw last time that another way to write Newton's law of motion $\vec F = m \vec a$ is:
+
+$$\vec F = \frac{d\vec p}{dt}$$
+
+In words:
+
+\begin{center}
+	\color{Red}The force on an object is equal to the rate of change of its momentum.
+\end{center}
+
+\pause
+
+We can take integrals of both sides to get an equivalent statement:
+
+
+$$\int \vec F\, dt = \Delta \vec p$$
+
+Or, if the force is constant:
+
+$$\vec F t = \Delta \vec p$$
+
+\begin{center}
+	\color{Green}A force $\vec F$ acting on an object for a time $t$ causes a change in its momentum $\vec F t$.
+\end{center}
+
+
+}
+\frame{\frametitle{\textbf{Impulse and momentum}}
+
+\large
+
+The quantity $\int \vec F\, dt$ or $\vec F t$ is called {\it impulse}; we use the symbol $\vec J$ for it.
+
+\bigskip
+
+So we can say:
+
+\begin{center}
+	\color{Green}The impulse applied to an object is equal to the change in its momentum.
+\end{center}
+
+}
+
+
+\frame{\frametitle{\textbf{Understanding rockets}}
+	
+Let's apply the impulse-momentum theorem to a rocket.
+
+\bigskip\bigskip
+
+A rocket is a machine that continuously propels gas backwards at a constant exhaust velocity at a constant rate.
+
+\begin{center}
+	{\color{Red}(magnitude of force exhaust exerts on rocket)} = {\color{Green}(magnitude force rocket exerts on exhaust)}
+	
+	\bigskip
+	(Newton's 3rd law)
+	\bigskip
+	\bigskip\pause
+	
+	{\color{Green}force rocket exerts on exhaust} = {\color{Blue}rate at which exhaust's momentum changes}
+	\bigskip
+	
+(impulse-momentum theorem)
+\bigskip
+\bigskip\pause
+
+	{\color{Blue}rate at which exhaust's momentum changes} = {\color{Red} rate of mass $\times$ velocity of exhaust}
+	
+		\bigskip
+	
+	(definition of momentum)
+	\bigskip
+	\bigskip\pause
+	
+{\color{Red} rate of mass $\times$ velocity of exhaust} = 	{\color{Green}rate of exhausting mass $\times$ exhaust velocity}
+
+	\bigskip
+
+(how a rocket works -- continuous flow of gas at constant velocity)
+	
+	
+\end{center}
+
+	
+	
+}
+
+\frame{\frametitle{\textbf{Understanding rockets}}
+
+\large
+
+Putting all this together, we have:
+
+\begin{center}
+	(thrust force on a rocket) = (mass flow rate) $\times$ (exhaust velocity)
+\end{center}
+
+}
+
+\end{document}
+
+
+
