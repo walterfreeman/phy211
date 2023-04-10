@@ -67,7 +67,7 @@ They reference <a href="practice-exam-3-2023.pdf">Practice Exam 3 Part 1</a> and
   * Tuesday, April 11, 1:00-2:00 in the Physics Clinic (subject to change) with Brendan Parlee
   * Wednesday, April 12 11:00-12:00 in the Physics Clinic with Chandler Martin
 * <a href="hw/second-chance/second-chance-astronaut.pdf">Exam 3 "Astronaut Problem"</a>: Conservation of momentum in two dimensions 
-  * Monday, April 10 4:00-5:00 in room B129E with Chandler Martin
+  * Monday, April 10 3:00-4:00 in room B129E with Chandler Martin
   * Wednesday, April 12 2:00-3:00 in the Physics Clinic (subject to change) with Chandler Martin
   * Thursday, April 13, 3:00-4:00 in room B129E with Walter Freeman
   * Thursday, April 13, 1:00-2:00 in the Physics Clinic (subject to change) with Brendan Parlee
