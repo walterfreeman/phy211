@@ -36,4 +36,7 @@ use_math: true
 <a href="recitation/week9/recitation-energy-1.pdf">Week 9 Day 1: The Work-Energy Theorem</a><br>
 <a href="recitation/week9/recitation-potential-energy.pdf">Week 9 Day 2: Work and Potential Energy</a><br>
 
-<a href="recitation/week10/recitation-springs-power.pdf">Week 10 Day 1: Springs and power</a>
+<a href="recitation/week10/recitation-springs-power.pdf">Week 10 Day 1: Springs and power</a><br>
+
+<a href="recitation/week12/recitation-rotational-energy.pdf">Week 12 Day 1: Rotational Energy</a><br>
+<a href="recitation/week12/recitation-torque-1.pdf">Week 12 Day 2: Torque</a>

@@ -9,6 +9,9 @@ title: Announcements
 ### Current homework 
 
 * <a href="hw/hw8/hw8.pdf">Homework 8</a> is due Friday, April 14.
+* Here is a <a href="hw/hw8/exam3-blank.pdf">blank copy of Exam 3</a> for your homework, or you can pick one up in the Physics Clinic.
+* Here is the <a href="hw/hw8/recitation-exam-guide.pdf">guide to Exam 3</a> you got in recitation.
+
 * The <a href="second-chances.html">second chance homework assignments</a> (for an extra homework grade and to prepare you for the second chance questions on the day of the final) are due on the last recitation of the semester.
 
 ### Current recitation materials
