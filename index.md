@@ -17,7 +17,7 @@ title: Announcements
 
 ### Current slides
 
-<a href="slides/lecture-rotational-kinetic-energy/lecture-rotational-kinetic-energy.pdf">Rotational kinetic energy</a>
+<a href="slides/lecture-rotational-kinetic-energy-2/lecture-rotational-kinetic-energy-2.pdf">Rotational kinetic energy, part 2</a>
 
 ### Practice Exam 3
 

@@ -41,7 +41,8 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 4  April    | **Exam 3**                                                                                                       |                                |
 | 6  April    | <a href="slides/lecture-rotational-kinetic-energy/lecture-rotational-kinetic-energy.pdf">Rotational kinetic energy</a>
                                                                                        | 11.2-11.3                      |
-| 11 April    |                                  | 10.6-10.7                      |
+| 11 April    | <a href="slides/lecture-rotational-kinetic-energy-2/lecture-rotational-kinetic-energy-2.pdf">Rotational kinetic energy (2)</a>
+                                 | 10.6-10.7                      |
 | 13 April    |                                  | 10.8                           |
 | 18 April    |                                   |                                |
 | 20 April    |                                  |                                | 

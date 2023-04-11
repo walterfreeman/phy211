@@ -1,0 +1,19 @@
+#m 2
+cl -8 -4 8 -4 2
+#m 1 cm 0
+circ 0 0 0.5
+dcirc 0 0 4
+#cm 1
+arrow 0 0 -3 0
+circ 0 -4 0.3
+circ 0 -4 0.2
+circ 0 -4 0.1
+circ 0 -4 0.05
+arrow 0 4 -6 4
+#cm 2
+-6.5 5.1 "v\sbtop\eb=-2\gwr"
+-0.8 -3.0 "v\sbbot\eb=0"
+-3.0 1.1 "v\sbc\eb=-\gwr"
+
+#cs 1 cm 0
+;-10 -5 "Effect of both rotation at \gw and translation at v\sbc\eb=-\gwr together"
