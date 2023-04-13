@@ -16,11 +16,12 @@ title: Announcements
 
 ### Current recitation materials
 
-* (to be posted)
+* <a href="recitation/week12/recitation-rotational-energy.pdf">Week 12 Day 1: Rotational Energy</a><br>
+* <a href="recitation/week12/recitation-torque-1.pdf">Week 12 Day 2: Torque</a>
 
 ### Current slides
 
-<a href="slides/lecture-rotational-kinetic-energy-2/lecture-rotational-kinetic-energy-2.pdf">Rotational kinetic energy, part 2</a>
+<a href="slides/lecture-torque/lecture-torque.pdf">Torque</a>
 
 ### Practice Exam 3
 
