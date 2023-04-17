@@ -1,0 +1,194 @@
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{pdflscape}
+\usepackage{color}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\pagenumbering{gobble}
+
+\begin{document}
+\Large
+\centerline{\sc{Week 13 Day 1 Instructor Notes}}
+\normalsize
+
+
+
+\centerline{\large Question 1: on rotational dynamics}
+A flywheel (a large, spinning disc) of mass $m$ and radius $r$ is rotating
+at angular velocity $\omega$. The machine operator wishes to bring it to rest using a friction brake. When the brake
+is engaged, two brake pads on either side of the disc are pressed against it from either side, two-thirds
+of the way from the center to the outer edge; each brake pad
+exerts a normal force $F_N$.
+
+If the coefficient of friction between the brake pads and the disc is $\mu_k$, how long does it take the
+brake to bring the flywheel to a stop?
+
+{\color{red}
+
+This is a pretty simple example : the path to solve it is straight-ahead, but it involves tying together a lot of different things.
+
+This is a two-step process: first we find the $\alpha$ that results from the torque from friction, then we find the time it takes to stop with that angular acceleration.
+
+We know 
+
+$$\tau = I \alpha$$
+
+Here we know $$I=\frac{1}{2}mr^2$$ and $$\tau = F_\perp r = (2 \mu_k F_N)(2/3 r)$$
+
+Substituting gives
+
+$$\frac{4}{3} \mu_k F_N r = \frac{1}{2}mr^2 \alpha \rightarrow \alpha = \frac{8\mu_k F_N}{3mr}$$
+
+Then they need to use some rotational kinematics  to find the time. They know that
+	
+	$$\theta(t) = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2$$
+	
+	and
+	
+	$$\omega(t) = \omega_0 + \alpha t.$$
+	
+The second equation is what we want. Set $\omega(t)=0$ and solve for $t$ to get
+
+$$t = \frac{3mr\omega_0}{8\mu_k F_N}.$$
+
+}
+	
+	
+	
+
+\newpage
+\centerline{\large Question 2: on linked objects}
+
+A bucket of mass $m$ hangs from a string wound around a pulley
+(a solid cylinder) with mass $M$ and radius $r$. When the bucket is
+released, it falls, unwinding the string.
+
+\begin{enumerate}
+
+\item Draw force diagrams for the bucket and the pulley. Note that since the pulley rotates, you will need
+to draw an extended force diagram for it, drawing the object and labeling where each force acts.
+
+
+{\color{red}
+Force diagram for pulley: tension points straight downward from the outside. Optionally: a support force from the axle points straight up, the pulley's own weight points down. These don't matter since the pulley will only rotate, not translate, and thus forces acting at the axle are irrelevant since they apply no torque. Force diagram for bucket: tension points up, gravity points down.}
+
+
+\item In terms of the forces in your force diagrams, write an expression for the net torque on the pulley.
+
+
+{\color{red}
+Here the only force applying a torque is the rope, so
+
+$$\tau = \pm Tr.$$
+
+Note that this will be either positive or negative depending on which side they've drawn the string on. THIS IS IMPORTANT -- they need to be consistent with their coordinate system.
+
+}
+\vspace{1in}
+
+\item Write down Newton's laws of motion -- $\sum \vec F = m \vec a$ for translation, and $\sum \tau = I \alpha$
+-- for each object. (One object moves, and the other turns...)
+
+
+{\color{red}
+For the bucket:
+
+$$T - mg = ma$$
+
+For the pulley, for instance (using a coordinate system where CCW is positive and the rope pulls on the right):
+
+$$\tau = I \alpha \rightarrow -Tr = I \alpha \rightarrow -Tr = \frac{1}{2}Mr^2 \alpha$$
+
+
+}
+
+\vspace{2in}
+
+
+\newpage
+
+\item What is the relationship between the angular acceleration $\alpha$ of the pulley and the linear acceleration
+$a$ of the bucket? (The answer may be different depending on how you have drawn your pictures and your choice of
+coordinate system.)
+
+
+{\color{red}
+
+For my choice, the spool rotates CW (negative) while the bucket falls down (negative). So $a = \alpha r$. {\bf Depending on their choices}, it may be the other way around. There will be a negative sign either here or in the value of torque.
+
+}
+
+\vspace{1in}
+
+\item Calculate the acceleration of the bucket in terms of $m$ and $M$.
+
+
+{\color{red}
+
+System of two equations. First we fix up the rotation equation a little bit:
+
+$$-Tr = \frac{1}{2}Mr^2 \alpha \rightarrow -T = \frac{1}{2}Mr\alpha \rightarrow T = -\frac{1}{2}Ma$$
+
+where we've cancelled an $r$ and then substituted the constraint $a = \alpha r$ in.
+
+Then we substitute this into the translation equation:
+
+$$-\frac{1}{2}Ma - mg = ma  \rightarrow a = \frac{-mg}{m+\frac{1}{2}M}$$
+
+
+
+
+
+}
+
+
+
+\item Suppose that the pulley were a hollow cylinder with the same mass. How would this acceleration change?
+
+ 
+ {\color{red}
+This only changes $I$. Here the cylindrical nature was encoded in the factor of 1/2 in $I$. Repeating the above generically for $I=\lambda mr^2$ and following everything through gives
+
+
+ $$a = \frac{-mg}{m+\lambda M}$$
+ 
+ and putting in $\lambda=1$ (hollow cylinder) gives
+ 
+ $$a = \frac{-mg}{m+M}$$
+}
+ 
+
+
+\end{enumerate}
+\end{document}
