@@ -42,7 +42,7 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 6  April    | <a href="slides/lecture-rotational-kinetic-energy/lecture-rotational-kinetic-energy.pdf">Rotational kinetic energy</a>                                                                                       | 11.2-11.3                      |
 | 11 April    | <a href="slides/lecture-rotational-kinetic-energy-2/lecture-rotational-kinetic-energy-2.pdf">Rotational kinetic energy (2)</a>                                 | 10.6-10.7                      |
 | 13 April    | <a href="slides/lecture-torque/lecture-torque.pdf">Torque</a>                                 | 10.8                           |
-| 18 April    |                                   |                                |
+| 18 April    | <a href="slides/lecture-rotational-dynamics-1/lecture-rotational-dynamics-1.pdf">Rotational dynamics (1)</a>                                  |                                |
 | 20 April    |                                  |                                | 
 | 25 April    |                                  |                                |
 | 27 April    |                                  |                                |

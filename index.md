@@ -16,17 +16,12 @@ title: Announcements
 
 ### Current recitation materials
 
-* <a href="recitation/week12/recitation-rotational-energy.pdf">Week 12 Day 1: Rotational Energy</a><br>
-* <a href="recitation/week12/recitation-torque-1.pdf">Week 12 Day 2: Torque</a>
+* <a href="recitation/week13/recitation-torque-2.pdf">Week 13 Day 1: Rotational dynamics (1)</a><br>
+* <a href="recitation/week13/recitation-torque-3.pdf">Week 13 Day 2: Rotational dynamics (2)</a>
 
 ### Current slides
 
-<a href="slides/lecture-torque/lecture-torque.pdf">Torque</a>
-
-### Practice Exam 3
-
-* Here is <a href="practice-exam-3-2023.pdf">practice exam 3 part 1</a> and <a href="practice-exam-3-2023-part2.pdf">part 2</a>. 
-* Here are<a href="practice-exam-3-solutions-2.pdf">the solutions to Practice Exam 3</a>.
+* <a href="slides/lecture-rotational-dynamics-1/lecture-rotational-dynamics-1.pdf">Rotational dynamics (1)</a>
 
 ### Theoretical review of Unit 3
 
