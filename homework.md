@@ -25,11 +25,12 @@ use_math: true
 
 <a href="hw/hw7/hw7.pdf">Homework 7</a> is due Friday, March 31.
 
-* <a href="hw/hw8/hw8.pdf">Homework 8</a> is due Friday, April 14.
+<a href="hw/hw8/hw8.pdf">Homework 8</a> is due Friday, April 14.
 * Here is a <a href="hw/hw8/exam3-blank.pdf">blank copy of Exam 3</a> for your homework, or you can pic
 k one up in the Physics Clinic.
 * Here is the <a href="hw/hw8/recitation-exam-guide.pdf">guide to Exam 3</a> you got in recitation.
 
+* <a href="hw/hw9/hw9.pdf">Homework 9</a> is due Wednesday, April 26.
 
 <!---
 
