@@ -43,7 +43,8 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 11 April    | <a href="slides/lecture-rotational-kinetic-energy-2/lecture-rotational-kinetic-energy-2.pdf">Rotational kinetic energy (2)</a>                                 | 10.6-10.7                      |
 | 13 April    | <a href="slides/lecture-torque/lecture-torque.pdf">Torque</a>                                 | 10.8                           |
 | 18 April    | <a href="slides/lecture-rotational-dynamics-1/lecture-rotational-dynamics-1.pdf">Rotational dynamics (1)</a>                                  |                                |
-| 20 April    |                                  |                                | 
+| 20 April    | <a href="slides/lecture-rotational-work/lecture-rotational-work.pdf">Rotational dynamics (2)</a>
+                                 |                                | 
 | 25 April    |                                  |                                |
 | 27 April    |                                  |                                |
 | 8 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |

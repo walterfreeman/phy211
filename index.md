@@ -21,7 +21,7 @@ title: Announcements
 
 ### Current slides
 
-* <a href="slides/lecture-rotational-dynamics-1/lecture-rotational-dynamics-1.pdf">Rotational dynamics (1)</a>
+* <a href="slides/lecture-rotational-work/lecture-rotational-work.pdf">Rotational dynamics (2)</a>
 
 ### Theoretical review of Unit 3
 

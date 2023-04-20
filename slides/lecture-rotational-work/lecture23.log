@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  20 APR 2023 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  20 APR 2023 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lecture-rotational-kinetic-energy-2.tex
-(./lecture-rotational-kinetic-energy-2.tex
+**lecture23.tex
+(./lecture23.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-12-17>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -705,109 +705,109 @@ Package: amsthm 2020/05/29 v2.20.6
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfont
 s.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty
-) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box76
-\UL@hyphenbox=\box77
-\UL@skip=\skip64
-\UL@hook=\toks45
-\UL@height=\dimen294
-\UL@pe=\count334
-\UL@pixel=\dimen295
-\ULC@box=\box78
-Package: ulem 2019/11/18
-\ULdepth=\dimen296
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen297
-\ar@mcellbox=\box79
-\extrarowheight=\dimen298
-\NC@list=\toks46
-\extratabsurround=\skip65
-\backup@length=\skip66
-\ar@cellbox=\box80
-)
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count335
-\calc@Bcount=\count336
-\calc@Adimen=\dimen299
-\calc@Bdimen=\dimen300
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
+\calc@Acount=\count334
+\calc@Bcount=\count335
+\calc@Adimen=\dimen294
+\calc@Bdimen=\dimen295
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count337
-\calc@Cskip=\skip69
+\calc@Ccount=\count336
+\calc@Cskip=\skip66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count338
-\l_MT_multwidth_dim=\dimen301
-\origjot=\skip70
-\l_MT_shortvdotswithinadjustabove_dim=\dimen302
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen303
-\l_MT_above_intertext_sep=\dimen304
-\l_MT_below_intertext_sep=\dimen305
-\l_MT_above_shortintertext_sep=\dimen306
-\l_MT_below_shortintertext_sep=\dimen307
-\xmathstrut@box=\box81
-\xmathstrut@dim=\dimen308
+\g_MT_multlinerow_int=\count337
+\l_MT_multwidth_dim=\dimen296
+\origjot=\skip67
+\l_MT_shortvdotswithinadjustabove_dim=\dimen297
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen298
+\l_MT_above_intertext_sep=\dimen299
+\l_MT_below_intertext_sep=\dimen300
+\l_MT_above_shortintertext_sep=\dimen301
+\l_MT_below_shortintertext_sep=\dimen302
+\xmathstrut@box=\box76
+\xmathstrut@dim=\dimen303
 )
 (/usr/share/texlive/texmf-dist/tex/generic/epsf/epsf.sty
 This is `epsf.tex' v2.7.4 <14 February 2011>
 \epsffilein=\read3
-\epsfframemargin=\dimen309
-\epsfframethickness=\dimen310
-\epsfrsize=\dimen311
-\epsftmp=\dimen312
-\epsftsize=\dimen313
-\epsfxsize=\dimen314
-\epsfysize=\dimen315
-\pspoints=\dimen316
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
+\epsfframemargin=\dimen304
+\epsfframethickness=\dimen305
+\epsfrsize=\dimen306
+\epsftmp=\dimen307
+\epsftsize=\dimen308
+\epsfxsize=\dimen309
+\epsfysize=\dimen310
+\pspoints=\dimen311
+) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box77
+\UL@hyphenbox=\box78
+\UL@skip=\skip68
+\UL@hook=\toks45
+\UL@height=\dimen312
+\UL@pe=\count338
+\UL@pixel=\dimen313
+\ULC@box=\box79
+Package: ulem 2019/11/18
+\ULdepth=\dimen314
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen315
+\ar@mcellbox=\box80
+\extrarowheight=\dimen316
+\NC@list=\toks46
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box81
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 112.
+(hyperref)                removing `\\' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 112.
+(hyperref)                removing `\\' on input line 115.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count339
 \l__pdf_internal_box=\box82
 )
-(./lecture-rotational-kinetic-energy-2.aux)
-\openout1 = `lecture-rotational-kinetic-energy-2.aux'.
+(./lecture23.aux)
+\openout1 = `lecture23.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -865,12 +865,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 116.
+Package hyperref Info: Link coloring OFF on input line 119.
 
-(./lecture-rotational-kinetic-energy-2.out)
-(./lecture-rotational-kinetic-energy-2.out)
+(./lecture23.out) (./lecture23.out)
 \@outlinefile=\write5
-\openout5 = `lecture-rotational-kinetic-energy-2.out'.
+\openout5 = `lecture23.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -896,38 +895,15 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./lecture-rotational-kinetic-energy-2.nav) [1
+) (./lecture23.nav) [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 744
-.
+] [3
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 744
-.
+] [4
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
-
-]
-<moment-table.png, id=55, 744.53156pt x 555.57562pt>
-File: moment-table.png Graphic file (type png)
-<use moment-table.png>
-Package pdftex.def Info: moment-table.png  used on input line 756.
-(pdftex.def)             Requested size: 304.6695pt x 227.35512pt.
- [4
-
- <./moment-table.png>]
-File: moment-table.png Graphic file (type png)
-<use moment-table.png>
-Package pdftex.def Info: moment-table.png  used on input line 756.
-(pdftex.def)             Requested size: 304.6695pt x 227.35512pt.
- [5
+] [5
 
 ] [6
 
@@ -935,53 +911,76 @@ Package pdftex.def Info: moment-table.png  used on input line 756.
 
 ] [8
 
-] [9
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 214
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 214
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [9
 
 ] [10
 
 ] [11
 
-] [12
+]
+[12
 
-] [13
+]
+<yoyo-diagram-crop.pdf, id=115, 158.5925pt x 235.88126pt>
+File: yoyo-diagram-crop.pdf Graphic file (type pdf)
+<use yoyo-diagram-crop.pdf>
+Package pdftex.def Info: yoyo-diagram-crop.pdf  used on input line 510.
+(pdftex.def)             Requested size: 87.04747pt x 129.47234pt.
+ [13
 
-] [14
+ <./yoyo-diagram-crop.pdf>]
+<yoyo-diagram-forces-crop.pdf, id=127, 158.5925pt x 275.0275pt>
+File: yoyo-diagram-forces-crop.pdf Graphic file (type pdf)
+<use yoyo-diagram-forces-crop.pdf>
+Package pdftex.def Info: yoyo-diagram-forces-crop.pdf  used on input line 535.
+(pdftex.def)             Requested size: 87.04747pt x 150.95923pt.
+ [14
 
-] [15
+ <./yoyo-diagram-forces-crop.pdf>]
+File: yoyo-diagram-forces-crop.pdf Graphic file (type pdf)
+<use yoyo-diagram-forces-crop.pdf>
+Package pdftex.def Info: yoyo-diagram-forces-crop.pdf  used on input line 535.
+(pdftex.def)             Requested size: 87.04747pt x 150.95923pt.
 
-] [16
+[15
 
-] [17
+]
+File: yoyo-diagram-forces-crop.pdf Graphic file (type pdf)
+<use yoyo-diagram-forces-crop.pdf>
+Package pdftex.def Info: yoyo-diagram-forces-crop.pdf  used on input line 535.
+(pdftex.def)             Requested size: 87.04747pt x 150.95923pt.
+ [16
+
+]
+File: yoyo-diagram-forces-crop.pdf Graphic file (type pdf)
+<use yoyo-diagram-forces-crop.pdf>
+Package pdftex.def Info: yoyo-diagram-forces-crop.pdf  used on input line 566.
+(pdftex.def)             Requested size: 65.28726pt x 113.22362pt.
+ [17
 
 ] [18
 
-]
-[19
+] [19
 
-]
-<roll-crop.pdf, id=165, 313.17pt x 179.67125pt>
-File: roll-crop.pdf Graphic file (type pdf)
-<use roll-crop.pdf>
-Package pdftex.def Info: roll-crop.pdf  used on input line 925.
-(pdftex.def)             Requested size: 139.28128pt x 79.91095pt.
-<roll2-crop.pdf, id=166, 313.17pt x 179.67125pt>
-File: roll2-crop.pdf Graphic file (type pdf)
-<use roll2-crop.pdf>
-Package pdftex.def Info: roll2-crop.pdf  used on input line 925.
-(pdftex.def)             Requested size: 139.28128pt x 79.91095pt.
-<roll3-crop.pdf, id=167, 313.17pt x 191.71625pt>
-File: roll3-crop.pdf Graphic file (type pdf)
-<use roll3-crop.pdf>
-Package pdftex.def Info: roll3-crop.pdf  used on input line 925.
-(pdftex.def)             Requested size: 139.28128pt x 85.26811pt.
- [20
+] [20
 
- <./roll-crop.pdf> <./roll2-crop.pdf> <./roll3-crop.pdf>] [21
+] [21
 
 ] [22
 
-]
-[23
+] [23
 
 ] [24
 
@@ -991,50 +990,92 @@ Package pdftex.def Info: roll3-crop.pdf  used on input line 925.
 
 ] [27
 
-] [28
+]
+<hill-crop.pdf, id=224, 314.17375pt x 258.9675pt>
+File: hill-crop.pdf Graphic file (type pdf)
+<use hill-crop.pdf>
+Package pdftex.def Info: hill-crop.pdf  used on input line 700.
+(pdftex.def)             Requested size: 174.09828pt x 143.5034pt.
+ [28
+
+ <./hill-crop.pdf>]
+File: hill-crop.pdf Graphic file (type pdf)
+<use hill-crop.pdf>
+Package pdftex.def Info: hill-crop.pdf  used on input line 700.
+(pdftex.def)             Requested size: 174.09828pt x 143.5034pt.
+ [29
+
+]
+File: hill-crop.pdf Graphic file (type pdf)
+<use hill-crop.pdf>
+Package pdftex.def Info: hill-crop.pdf  used on input line 725.
+(pdftex.def)             Requested size: 174.09828pt x 143.5034pt.
+ [30
+
+]
+<hill-2-crop.pdf, id=247, 314.17375pt x 258.9675pt>
+File: hill-2-crop.pdf Graphic file (type pdf)
+<use hill-2-crop.pdf>
+Package pdftex.def Info: hill-2-crop.pdf  used on input line 760.
+(pdftex.def)             Requested size: 174.09828pt x 143.5034pt.
+ [31
+
+ <./hill-2-crop.pdf>]
+<mu-table.png, id=259, 323.70938pt x 327.47343pt>
+File: mu-table.png Graphic file (type png)
+<use mu-table.png>
+Package pdftex.def Info: mu-table.png  used on input line 786.
+(pdftex.def)             Requested size: 174.09828pt x 176.12347pt.
+ [32
+
+ <./mu-table.png>] [33
+
+] [34
 
 ]
 \tf@nav=\write6
-\openout6 = `lecture-rotational-kinetic-energy-2.nav'.
+\openout6 = `lecture23.nav'.
 
 \tf@toc=\write7
-\openout7 = `lecture-rotational-kinetic-energy-2.toc'.
+\openout7 = `lecture23.toc'.
 
 \tf@snm=\write8
-\openout8 = `lecture-rotational-kinetic-energy-2.snm'.
+\openout8 = `lecture23.snm'.
 
- (./lecture-rotational-kinetic-energy-2.aux)
-Package rerunfilecheck Info: File `lecture-rotational-kinetic-energy-2.out' has
- not changed.
+
+(./lecture23.aux)
+Package rerunfilecheck Info: File `lecture23.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22969 strings out of 476175
- 449664 string characters out of 5796294
- 1861793 words of memory out of 6000000
- 42726 multiletter control sequences out of 15000+600000
- 527667 words of font info for 93 fonts, out of 8000000 for 9000
+ 22965 strings out of 476175
+ 448568 string characters out of 5796294
+ 1864793 words of memory out of 6000000
+ 42709 multiletter control sequences out of 15000+600000
+ 528126 words of font info for 93 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 128i,15n,122p,509b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on lecture-rotational-kinetic-energy-2.pdf (28 pages, 320721 byt
-es).
+ 128i,15n,122p,433b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on lecture23.pdf (34 pages, 310850 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
