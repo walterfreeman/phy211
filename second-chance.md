@@ -16,6 +16,8 @@ We suggest that you do the three corresponding to your lowest three exam questio
 are the topics that you will see again on the day of the final. You can see what your lowest three
 exam questions are by looking at the exams you have gotten back or on Blackboard.
 
+**Note:** These exercises are due on the day of the final, not the last recitation (as stated here).
+
 ### Exercises
 
 **Exam 1 Second Chance Exercises**
@@ -54,27 +56,24 @@ They reference <a href="practice-exam-3-2023.pdf">Practice Exam 3 Part 1</a> and
 
 | Time            	| Tutor    	| Place  	| Topic                           	|
 |-----------------	|----------	|--------	|---------------------------------	|
-| Monday          	|          	|        	|                                 	|
-| Monday 1-2      	| Chandler 	| B129E  	| Exam 1: "dog problem" (#1)      	|
-| Monday 2-3      	| Chandler 	| B129E  	| Exam 1: "football problem" (#4) 	|
-| Monday 3-4      	| Chandler 	| B129E  	| Exam 2: "cow problem" (#1)      	|
-| Monday 4-5      	| Chandler 	| B129E  	| Exam 2: "planet problem" (#3)   	|
+| Monday 1-2      	| Chandler 	| B129E  	| Exam 3: "dog and boat" (#1)      	|
+| Monday 2-3      	| Chandler 	| B129E  	| Exam 3: "car problem" (#2)    	|
+| Monday 3-4      	| Chandler 	| B129E  	| Exam 3: "skateboard problem" (#3)	|
+| Monday 4-5      	| Chandler 	| B129E  	| Exam 3: "astronaut problem"(#4) 	|
 |                 	|          	|        	|                                 	|
-| Tuesday 12-1    	| Sydney   	| Clinic 	| Exam 1: "soccer problem" (#3)   	|
-| Tuesday 1-2     	| Sydney   	| Clinic 	| Exam 2: "truck problem" (#2)    	|
-| Tuesday 2-3     	| Brendan  	| B129E  	| Exam 1: "goose problem" (#2)    	|
-| Tuesday 3-4     	| Brendan  	| B129E  	| Exam 2: "cow problem (#1)"      	|
-| Tuesday 4-5     	| Brendan  	| B129E  	| Exam 1: "soccer problem (#3)"   	|
+| Tuesday 2-3     	| Brendan  	| Clinic 	| Exam 1: "football problem" (#4)  	|
+| Tuesday 3-4     	| Brendan  	| B129E  	| Exam 3: "planet problem (#3)"	|
+| Tuesday 3-6       | Walter    | Clinic    | Homework or general help
 |                 	|          	|        	|                                 	|
-| Wednesday 11-12 	| Chandler 	| Clinic 	| Exam 2: "cow problem (#1)"      	|
+| Wednesday 11-12 	| Chandler 	| Clinic 	| Exam 1: "goose problem" (#2)    	|
+| Wednesday 2:30-3:30|Sydney    | B129E     | Exam 1: "dog problem" (#1)        |
 | Wednesday 3-5   	| Walter   	| Clinic 	| Homework or general help        	|
 |                 	|          	|        	|                                 	|
-| Thursday 12-1   	| Sydney   	| Clinic 	| Exam 1: "dog problem" (#1)      	|
-| Thursday 1-2    	| Sydney   	| Clinic 	| Exam 1: "football problem" (#4) 	|
-| Thursday 2-3    	| Brendan  	| B129E  	| Exam 2: "planet problem" (#3)   	|
-| Thursday 3-4    	| Brendan  	| B129E  	| Exam 2: "truck problem" (#2)    	|
-| Thursday 4-5    	| Brendan  	| B129E  	| Exam 1: "goose problem" (#2)    	|
-| Thursday 3-5    	| Walter   	| Clinic 	| Homework or general help        	|
+| Thursday 12-1   	| Sydney   	| Clinic 	| Exam 1: "soccer problem" (#3)    	|
+| Thursday 1-2    	| Sydney   	| Clinic 	| Exam 2: "truck problem" (#2)   	|
+| Thursday 2-3    	| Brendan  	| B129E  	| Exam 2: "cow problem" (#1)   	    |
+| Thursday 3-6    	| Brendan and Walter  	| Clinic 	| Homework or general help      	|
 |                 	|          	|        	|                                 	|
-| Friday 10-11    	| Walter   	| Clinic 	| Homework or general help        	|
-| Friday 11-12    	| Chandler 	| Clinic 	| Exam 3: any of the problems     	|
+| Friday 10-11    	| Walter   	| Clinic 	| Any of the second chance problems|
+| Friday 11-12    	| Chandler 	| Clinic 	| Any of the second chance problems|
+| Friday 12:30-1:30 | Walter    | Clinic    | Any of the second chance problems |
