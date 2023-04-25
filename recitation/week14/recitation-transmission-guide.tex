@@ -244,6 +244,8 @@ Suppose our motor's limits are as follows:
 Let's imagine a situation where the motor is always applying maximum torque, and see what happens to the machine the motor is driving.
 
 \bigskip
+\newpage
+
 
 \begin{enumerate}
 
@@ -252,18 +254,27 @@ Let's imagine a situation where the motor is always applying maximum torque, and
 Fill in the first row of the table on the back; note that since the motor and machine are connected directly, the torque and angular velocity of the motor are the same as those of the machine.
 	
 	
-\vspace{0.8in}
+{	\color{red} Since $P = \tau \omega$, we know $P_{max} = \tau_{max} \omega_{max} = 5000$ W.
+
+\color{blue}	
+	The key idea of this whole module is that we only get maximum power from the motor when it is applying its maximum torque at its maximum angular velocity. We cannot get more torque or angular velocity than this, and we cannot get the maximum power out when the angular velocity is less than the maximum.}
+	
 \item However, in general, machines need to run at different speeds; for instance, cars can drive at many different speeds, and 
 	the driver may want high power at any speed.
 
 		Suppose that the operator of the machine wants to run it at low speed -- say, at 25 rad/s. Can the motor still deliver the same power in this case? If not, how much power can it deliver? Complete the second row of the table on the back.
+		
+		{\color{red} Here since $\omega$ is only half as much (25 rad/s), we only get 2500 W out. 
+			
+			\color{blue}
+			
+			This is simple, but the point here is to construct a baseline without a transmission that we will compare to.}
 	
-\vspace{1.5in}
 \newpage
 
 
 
-The motor is simply {\it unable} to rotate any faster than 50 rad/sec. For instance, running the machine at $\omega = 100$ rad/s is impossible with the motor alone. Since the machine operator may want to run the machine at any speed, and will likely want the most power from the motor at {\it any} speed, they construct a transmission out of gears.
+The motor is simply {\it unable} to rotate any faster than 50 rad/sec. For instance, running the machine at $\omega = 100$ rad/s is impossible with the motor alone. Since the machine operator may want to run the machine at any speed, and will likely want the most power from the motor at {\it any} speed, they construct a transmission out of gears. Transmissions like this are a constant companion to motors in engineering.
 \medskip
 
 \begin{minipage}{0.4\textwidth}
@@ -280,18 +291,53 @@ The motor is simply {\it unable} to rotate any faster than 50 rad/sec. For insta
 \end{minipage}
 \medskip
 
-Here everything is rotating at a constant angular velocity. This means that the motor applies a clockwise torque to the red gear; the blue gear applies an equal and opposite counterclockwise torque to it.
+Here everything is rotating at a constant angular velocity, although the angular velocities of the two gears aren't necessarily the same. This means that the motor applies a clockwise torque to the red gear; the blue gear applies an equal and opposite counterclockwise torque to it.
 
 \item Newton's third law applies to the forces that the two gears exert on each other: the two gears push on each other with equal and opposite forces. Given this, determine the relationship between $\tau_{\rm {motor}}$ (the torque the motor applies to the red gear) and $\tau_{\rm {machine}}$ (the torque the blue gear applies to the machine) in terms of $r_{in}$ and $R_{out}$. Record this formula on the back page. Note that the ratio between $r_{in}$ and $R_{out}$ appears in this formula: this is called the {\it gear ratio}, and is critically important here.
+
+
+{\color{red}
+	
+	This is the critical result of this whole thing and the students should spend some time thinking carefully here. The critical idea is that the {\bf force} is the same, so the {\bf torque} is the product of that force with the radii. This means:
+	
+	\begin{align*}
+		F =& \tau_{\rm motor} / r_{in} \\
+		\tau_{\rm machine} =& F R_{out} \\
+		\tau_{\rm machine} =& \tau_{motor} \frac{R_{out}}{r_{in}}
+	\end{align*}
+In other words, the larger the output gear compared to the input gear, the larger the torque delivered to the machine.
+	
+}
 
 \vspace{1.8in}
 
 \item The velocities of the gears' teeth must also be the same as they turn. Given this, determine the relationship between $\omega_{\rm {motor}}$ (the speed at which the motor and red gear turn) and $\omega_{\rm {machine}}$ (the speed at which the blue gear and the machine turn). Again, you should have a result that depends on the gear ratio. Record this formula on the back page; call your coach or TA over to check your result.
+
+{\color{red}
+	
+	This is the second critical result and the students will again need to think carefully. Since $v_T$ is the same for both gears, but $\omega = v_T / r$, using a larger radius for the output gear results in a {\it lower} output angular velocity.
+	
+	In other words,
+	
+	$$\omega_{\rm machine} = \tau_{motor} \frac{r_{in}}{R_{out}}$$
+	
+	i.e. the inverse relationship for above. You cannot get something for nothing; ``gearing down'' to increase torque also decreases angular velocity.
+}
+	
+	
 \newpage
 
 \vspace{2in}
 
 \item  Suppose that the motor is running at its maximum angular velocity and torque, and the output (blue) gear has $R=20$ cm. Calculate the angular velocity of the machine and the torque and power supplied to the machine. Enter those in your data table.
+
+{\color{red}
+	
+	The critical idea here is that the gear ratio is 2:1 -- the output gear is twice the radius of the input gear. This will increase torque by a factor of two but decrease angular velocity by a factor of two, based on the relationships they derived previously.
+	
+	So $\omega_{out} = 25$ rad/s and $\tau_{\rm {out}}=200~\rm N \cdot \rm m$ -- angular velocity goes down, torque goes up. But critically the power is unchanged -- $25$ rad/s $ \times\, 200~\rm N \cdot \rm m = 5000$ W.
+	
+}
 
 %{\large
 %\begin{itemize}
@@ -303,6 +349,11 @@ Here everything is rotating at a constant angular velocity. This means that the 
 
 \item How does this power compare to the maximum power that the motor could deliver to the machine at this angular velocity without the transmission?
 
+{\color{red}
+	
+	Now they should see the point of all this. Without using the transmission, decreasing the angular velocity by half decreases the power by half as well. But using the transmission we can still get the full 5 kW of power out of the motor even if the machine is turning at a slower speed.
+	
+}
 
 \vspace{1.5in}
 
@@ -312,10 +363,26 @@ Here everything is rotating at a constant angular velocity. This means that the 
 	gear in this case? Record these parameters in the next row of your data table.
 
 
-\vspace{3in}
+{\color{red}
+	Here, we need a {\it smaller} output gear than our input gear. If we want $\omega$ to go up by a factor of two, the output gear should be smaller by a factor of two:
+	
+	$$R_{out} = 5\,\rm{cm}$$
+	
+	But this doesn't happen for free. Here the torque goes down by a factor of two (same force pushing on a gear half the size) -- now $\tau = $ only 50 newton-meters.
+	
+}
+
+\vspace{2.5in}
 
 
 \item Suppose that you now need to use the same motor to generate an extremely large torque to run a different machine. (Perhaps you are trying to lift something extremely heavy: you are not terribly concerned with how {\it quickly} you lift it, you just need to generate a very large force.) If you need an output torque of $\tau_{\rm{machine}} = 1000 \rm N \cdot \rm m$, what radius should the output gear have? Enter this in your data table.
+
+{\color{red}
+	Now we take it to extremes just to illustrate to students the power of this whole thing. We need ten times the torque the motor can provide. How can we do that? Simple -- just use an output gear ten times as big as the input gear: $R_{out} = 100$ cm. 
+	
+	The angular velocity drops by a factor of ten to 5 rad/s, but for many engineering applications this is okay, like the one above. But the power is the same: 5 kW. This illustrates how the appropriate choice of gear ratios will let you get the maximum power out of the motor regardless of what you need the machine to do.
+	
+}
 
 
 \newpage
@@ -325,10 +392,18 @@ Here everything is rotating at a constant angular velocity. This means that the 
 
 On many bicycles the rider can change the radius of both input and output gears. Discuss how this allows the rider to deliver maximum power to the bicycle's wheel at any speed. What combination of gears does a rider want when they are climbing a steep hill at low speed? What combination do they want when they are going very fast on flat ground?
 
-\vspace{3in}
-
+{\color{red} This relates what they're doing to their own experience, if they've ridden a bike. Here the ``input gear'' is the front one connected to the pedals, and the ``output gear'' is the back one connected to the wheel. We know that a gear ratio with a large output gear and small input gear produces high torque but low angular velocity on the output gear); this is the hill climbing gear (``granny gear'', as cyclists call it), where you need maximum torque but it's okay if you don't go very fast.
+	
+Conversely a large front gear and a small back gear gives a larger output angular velocity but low output torque -- this is where you need to go as fast as possible on flat ground or downhill.}
 
 \item As you've seen, with appropriate choice of gear sizes, a transmission lets a motor (or a human) produce either extremely large torque or extremely high angular velocity. Is a transmission able to increase the amount of {\it power} that a motor (or cyclist) can produce? Why or why not?
+
+{\color{red}
+	No -- they should have gotten this earlier. Since $P = \tau \omega$, and changing the gear ratio makes $\tau$ go up and $\omega$ go down, the product stays the same. We would expect this, since energy is conserved.
+}
+	
+
+
 
 \end{enumerate}
 

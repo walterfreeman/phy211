@@ -9,19 +9,16 @@ title: Announcements
 ### Current homework 
 * <a href="hw/hw9/hw9.pdf">Homework 9</a> is due Wednesday, April 26.
 
-* Here is a <a href="hw/hw8/exam3-blank.pdf">blank copy of Exam 3</a> for your homework, or you can pick one up in the Physics Clinic.
-* Here is the <a href="hw/hw8/recitation-exam-guide.pdf">guide to Exam 3</a> you got in recitation.
-
-* The <a href="second-chances.html">second chance homework assignments</a> (for an extra homework grade and to prepare you for the second chance questions on the day of the final) are due on the last recitation of the semester -- Friday, April 28.
+* The <a href="second-chances.html">second chance homework assignments</a> (for an extra homework grade and to prepare you for the second chance questions on the day of the final) are due on the day of the final.
 
 ### Current recitation materials
 
-* <a href="recitation/week13/recitation-torque-2.pdf">Week 13 Day 1: Rotational dynamics (1)</a><br>
-* <a href="recitation/week13/recitation-torque-3.pdf">Week 13 Day 2: Rotational dynamics (2)</a>
+* <a href="recitation/week14/recitation-transmission.pdf">Week 14 Day 1: Transmissions and gears</a><br>
+* <a href="recitation/week14/recitation-normal-modes.pdf">Week 14 Day 2: Normal modes on strings; acoustics</a>
 
 ### Current slides
 
-* <a href="slides/lecture-rotational-work/lecture-rotational-work.pdf">Rotational dynamics (2)</a>
+* <a href="slides/lecture-rotational-work-and-sound/lecture-rotational-work-and-sound.pdf">Rotational work; waves</a>
 
 ### Theoretical review of Unit 3
 

@@ -45,4 +45,6 @@ use_math: true
 <a href="recitation/week13/recitation-torque-2.pdf">Week 13 Day 1: Rotational dynamics (1)</a><br>
 <a href="recitation/week13/recitation-torque-3.pdf">Week 13 Day 2: Rotational dynamics (2)</a>
 
+ <a href="recitation/week14/recitation-transmission.pdf">Week 14 Day 1: Transmissions and gears</a><br>
+ <a href="recitation/week14/recitation-normal-modes.pdf">Week 14 Day 2: Normal modes on strings; acoustics</a>
 

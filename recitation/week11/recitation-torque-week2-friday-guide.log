@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.5)  16 APR 2023 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.5)  24 APR 2023 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,21 +248,49 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+! Extra }, or forgotten $.
+l.251 ...\rm m \times 25~{\rm{rad}/{\rm s}}2500 W}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.252 	
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.252 	
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <Gears.png, id=14, 240.9pt x 217.2918pt>
 File: Gears.png Graphic file (type png)
 <use Gears.png>
-Package pdftex.def Info: Gears.png  used on input line 266.
+Package pdftex.def Info: Gears.png  used on input line 270.
 (pdftex.def)             Requested size: 212.47699pt x 191.65833pt.
  [2 <./Gears.png>] [3] [4]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 330.
+               Default added (so using `tbp') on input line 334.
 
 
-Overfull \hbox (37.13042pt too wide) in paragraph at lines 333--343
+Overfull \hbox (37.13042pt too wide) in paragraph at lines 337--347
 [][] 
  []
 
@@ -272,7 +300,7 @@ Overfull \hbox (37.13042pt too wide) in paragraph at lines 333--343
 Here is how much of TeX's memory you used:
  3049 strings out of 478855
  41592 string characters out of 5858635
- 369516 words of memory out of 6000000
+ 369507 words of memory out of 6000000
  20666 multiletter control sequences out of 15000+600000
  411036 words of font info for 53 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
@@ -291,7 +319,7 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1200.pfb>
-Output written on recitation-torque-week2-friday-guide.pdf (5 pages, 186169 byt
+Output written on recitation-torque-week2-friday-guide.pdf (5 pages, 187073 byt
 es).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)

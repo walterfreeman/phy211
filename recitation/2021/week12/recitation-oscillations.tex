@@ -3,7 +3,7 @@
 \setlength\parindent{0pt}
 \usepackage{fullpage}
 \usepackage{amsmath}
-\usepackage[margin=0.5in, paperwidth=13.5in, paperheight=8.4in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \usepackage{graphicx}
 \setlength{\parskip}{4mm}
 \def\LL{\left\langle}   % left angle bracket
@@ -40,49 +40,51 @@
 \Large
 \centerline{\sc{Recitation Exercises}}
 \normalsize
-\centerline{\sc{Wednesday, 12 May}}
+\centerline{\sc{Week 14, Day 2}}
 
 Consider a vibrating string that is 72 cm long; it is stretched so that the frequency of its fundamental mode ($n=1$) is 293 Hz. Below, I have drawn the fundamental mode of that string for you. Determine its wavelength. Then, draw the next three resonant modes, and determine their frequencies and wavelengths.
+
+Remember, you are looking to draw sine waves which have nodes (points of zero amplitude) at the ends of the string.
 \vspace{0.5in}
 
 
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.6\textwidth}
 	\begin{center}
 \Large		Vibration pattern
 	\end{center}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 	\Large \begin{center}Wavelength\end{center}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 \Large	\begin{center}Frequency\end{center}
 \end{minipage}
 
 
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.6\textwidth}
 	\begin{center}
 \includegraphics[width=0.9\textwidth]{fund-crop.pdf}
 	\end{center}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 \hspace{0.5in}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 \begin{center}
 	\Large 293 Hz
 \end{center}	
 \end{minipage}
 
 \vspace{0.5in}
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.6\textwidth}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{string-crop.pdf}
 	\end{center}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 	\hspace{0.5in}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 	\begin{center}
 
 	\end{center}	
@@ -90,15 +92,15 @@ Consider a vibrating string that is 72 cm long; it is stretched so that the freq
 
 
 \vspace{0.5in}
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.6\textwidth}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{string-crop.pdf}
 	\end{center}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 	\hspace{0.5in}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 	\begin{center}
 		
 	\end{center}	
@@ -106,15 +108,15 @@ Consider a vibrating string that is 72 cm long; it is stretched so that the freq
 
 
 \vspace{0.5in}
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}{0.6\textwidth}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{string-crop.pdf}
 	\end{center}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 	\hspace{0.5in}
 \end{minipage}
-\begin{minipage}{0.25\textwidth}
+\begin{minipage}{0.2\textwidth}
 	\begin{center}
 		
 	\end{center}	
@@ -122,7 +124,7 @@ Consider a vibrating string that is 72 cm long; it is stretched so that the freq
 
 \newpage
 
-The human hearing range extends from 20 Hz to around 20 kHz, with the upper limit declining gradually with age and exposure to loud sounds. In music, the important thing for our perception of melody and harmony is the {\it fundamental frequency} of the notes being played. The fundamental frequencies of strings on a piano range from 27.5 Hz to 8372 Hz. However, music rarely uses the notes at the edge of the piano; the fundamental frequencies of the notes most common in music range from perhaps 70 Hz (about two octaves below middle C, an extremely low note for a bass voice) to 1000 Hz (about two octaves above, a high note for a soprano voice).
+The human hearing range extends from 20 Hz to around 20 kHz, with the upper limit declining gradually with age and exposure to loud sounds. In music, the important thing for our perception of melody and harmony is the {\it fundamental frequency} of the notes being played. The fundamental frequencies of strings on a piano range from 27.5 Hz to 8372 Hz. However, music rarely uses the notes at the edge of the piano; the fundamental frequencies of the notes most common in music range from perhaps 70 Hz (about two octaves below middle C) to 1000 Hz (about two octaves above).
 
 However, small speakers have difficulty producing low frequencies. Suppose that a certain cellphone's small speaker can't produce sounds below 250 Hz.
 
@@ -143,8 +145,57 @@ A person with this sort of cellphone -- again, unable to reproduce low frequenci
 What are the fundamental frequencies of the two notes that were played? To help you, label the frequencies you hear with horizontal lines on the scale to the right, as you have seen from the spectrogram in class.
 
 In trying to figure out the two fundamental frequencies present, it may help to mark which frequency you think goes with which note on the scale below.
+\begin{center}
+\includegraphics[width=1.25in]{scale.pdf}
+\end{center}
 
-\includegraphics[width=1.1in]{scale.pdf}
+Remember: each of the frequencies listed is the multiple of {\it either one fundamental frequency or the other}. What are the two numbers that all of these are multiples of?
 
+\newpage
+
+An important concept in music is {\it consonance} -- the experience of two notes ``sounding good together''. This happens when two notes played together share some of their frequencies, which happens when their fundamental frequencies are related by the ratio of small integers. 
+
+These relations are the basis of harmony and musicians have special names for them:
+\begin{center}
+\large
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\bf Ratio & \bf Consonance name & \bf Musical example \\ \hline
+		1:2   & Octave          & C to C          \\ \hline
+		2:3   & Fifth           & C to G          \\ \hline
+		3:4   & Fourth          & C to F          \\ \hline
+		4:5   & Major third     & C to E          \\ \hline
+		5:6   & Minor third     & C to E$\null^\flat$     \\ \hline
+		5:8   & Minor sixth     & C to A$\null^\flat$     \\ \hline
+		3:5   & Major sixth     & C to A          \\ \hline
+	\end{tabular}
+
+\normalsize
+\end{center}
+For instance, two notes at 100 Hz and 150 Hz both share the frequency of 300 Hz; their fundamental frequencies are in the ratio 2:3, and the distance between them is called a ``fifth'' in music.
+
+What sort of consonance do the two notes on the previous page form? 
+
+\vfill
+
+
+
+
+\begin{center}
+	
+	\underline{\hspace{3in}}
+	
+	\vspace{1in}
+	
+	This material will be on your final exam, but not in a detailed way where we ask you to solve complex problems from scratch, since we have not done homework on this. We expect you to know the following:
+	
+	\begin{itemize}
+		\item The wave speed $v$, wavelength $\lambda$, and frequency $f$ are related by $v = \lambda f$
+		\item When a string or air in a pipe vibrates, it creates a set of sine waves that have nodes at the endpoints; these are called {\it resonant modes}
+		\item The patterns of the resonant modes (that you drew in the first page)
+		\item This set of resonant modes have frequencies that are integer multiples of the lowest one, called the {\it fundamental} -- so, if the fundamental is 100 Hz, you will get 100 Hz, 200 Hz, 300 Hz, 400 Hz, and so on.
+
+	\end{itemize}
+\end{center}
 
  \end{document}

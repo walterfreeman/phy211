@@ -1,0 +1,201 @@
+
+\documentclass[12pt]{article}
+\setlength\parindent{0pt}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{graphicx}
+\setlength{\parskip}{4mm}
+\def\LL{\left\langle}   % left angle bracket
+\def\RR{\right\rangle}  % right angle bracket
+\def\LP{\left(}         % left parenthesis
+\def\RP{\right)}        % right parenthesis
+\def\LB{\left\{}        % left curly bracket
+\def\RB{\right\}}       % right curly bracket
+\def\PAR#1#2{ {{\partial #1}\over{\partial #2}} }
+\def\PARTWO#1#2{ {{\partial^2 #1}\over{\partial #2}^2} }
+\def\PARTWOMIX#1#2#3{ {{\partial^2 #1}\over{\partial #2 \partial #3}} }
+\newcommand{\BE}{\begin{displaymath}}
+\newcommand{\EE}{\end{displaymath}}
+\newcommand{\BNE}{\begin{equation}}
+\newcommand{\ENE}{\end{equation}}
+\newcommand{\BEA}{\begin{eqnarray}}
+\newcommand{\EEA}{\nonumber\end{eqnarray}}
+\newcommand{\EL}{\nonumber\\}
+\newcommand{\la}[1]{\label{#1}}
+\newcommand{\ie}{{\em i.e.\ }}
+\newcommand{\eg}{{\em e.\,g.\ }}
+\newcommand{\cf}{cf.\ }
+\newcommand{\etc}{etc.\ }
+\newcommand{\Tr}{{\rm tr}}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\OL}[1]{\overline{#1}\ } % overline
+\newcommand{\OLL}[1]{\overline{\overline{#1}}\ } % double overline
+\newcommand{\OON}{\frac{1}{N}} % "one over N"
+\newcommand{\OOX}[1]{\frac{1}{#1}} % "one over X"
+
+\pagenumbering{gobble}
+
+\begin{document}
+\Large
+\centerline{\sc{Recitation Exercises}}
+\normalsize
+\centerline{\sc{Week 14, Day 2}}
+
+Consider a vibrating string that is 72 cm long; it is stretched so that the frequency of its fundamental mode ($n=1$) is 293 Hz. Below, I have drawn the fundamental mode of that string for you. Determine its wavelength. Then, draw the next three resonant modes, and determine their frequencies and wavelengths.
+
+Remember, you are looking to draw sine waves which have nodes (points of zero amplitude) at the ends of the string.
+\vspace{0.5in}
+
+
+\begin{minipage}{0.6\textwidth}
+	\begin{center}
+\Large		Vibration pattern
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\Large \begin{center}Wavelength\end{center}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\Large	\begin{center}Frequency\end{center}
+\end{minipage}
+
+
+\begin{minipage}{0.6\textwidth}
+	\begin{center}
+\includegraphics[width=0.9\textwidth]{fund-crop.pdf}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\hspace{0.5in}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+\begin{center}
+	\Large 293 Hz
+\end{center}	
+\end{minipage}
+
+\vspace{0.5in}
+\begin{minipage}{0.6\textwidth}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{string-crop.pdf}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\hspace{0.5in}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\begin{center}
+
+	\end{center}	
+\end{minipage}
+
+
+\vspace{0.5in}
+\begin{minipage}{0.6\textwidth}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{string-crop.pdf}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\hspace{0.5in}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\begin{center}
+		
+	\end{center}	
+\end{minipage}
+
+
+\vspace{0.5in}
+\begin{minipage}{0.6\textwidth}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{string-crop.pdf}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\hspace{0.5in}
+\end{minipage}
+\begin{minipage}{0.2\textwidth}
+	\begin{center}
+		
+	\end{center}	
+\end{minipage}
+
+\newpage
+
+The human hearing range extends from 20 Hz to around 20 kHz, with the upper limit declining gradually with age and exposure to loud sounds. In music, the important thing for our perception of melody and harmony is the {\it fundamental frequency} of the notes being played. The fundamental frequencies of strings on a piano range from 27.5 Hz to 8372 Hz. However, music rarely uses the notes at the edge of the piano; the fundamental frequencies of the notes most common in music range from perhaps 70 Hz (about two octaves below middle C) to 1000 Hz (about two octaves above).
+
+However, small speakers have difficulty producing low frequencies. Suppose that a certain cellphone's small speaker can't produce sounds below 250 Hz.
+
+Suppose a trombone player plays a note with a fundamental frequency of 100 Hz (around G below C below middle C). Trombones produce a lot of energy in many different normal modes. Imagine that you record that note on the trombone and play it back on this cellphone that cannot produce frequencies below 250 Hz. 
+
+Would someone be able to hear it? If not, describe why. If they would be able to hear it, describe some of the frequencies they would hear.
+
+\vspace{1.5in}
+
+Would this listener be able to determine that the fundamental frequency of the note was 100 Hz rather than some other value? How?
+
+\vspace{1.5in}
+
+\newpage
+
+A person with this sort of cellphone -- again, unable to reproduce low frequencies -- listens to their phone and hears what sounds like two notes being played at once. The lowest frequencies they hear are {\bf 320, 360, 480, 600, 640, 720, 800, 840, 960, 1080, 1120, and 1200 Hz}. (Keep in mind there were some other frequencies present in the original signal that the cellphone was unable to reproduce.)
+
+What are the fundamental frequencies of the two notes that were played? To help you, label the frequencies you hear with horizontal lines on the scale to the right, as you have seen from the spectrogram in class.
+
+In trying to figure out the two fundamental frequencies present, it may help to mark which frequency you think goes with which note on the scale below.
+\begin{center}
+\includegraphics[width=1.25in]{scale.pdf}
+\end{center}
+
+Remember: each of the frequencies listed is the multiple of {\it either one fundamental frequency or the other}. What are the two numbers that all of these are multiples of?
+
+\newpage
+
+An important concept in music is {\it consonance} -- the experience of two notes ``sounding good together''. This happens when two notes played together share some of their frequencies, which happens when their fundamental frequencies are related by the ratio of small integers. 
+
+These relations are the basis of harmony and musicians have special names for them:
+\begin{center}
+\large
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\bf Ratio & \bf Consonance name & \bf Musical example \\ \hline
+		1:2   & Octave          & C to C          \\ \hline
+		2:3   & Fifth           & C to G          \\ \hline
+		3:4   & Fourth          & C to F          \\ \hline
+		4:5   & Major third     & C to E          \\ \hline
+		5:6   & Minor third     & C to E$\null^\flat$     \\ \hline
+		5:8   & Minor sixth     & C to A$\null^\flat$     \\ \hline
+		3:5   & Major sixth     & C to A          \\ \hline
+	\end{tabular}
+
+\normalsize
+\end{center}
+For instance, two notes at 100 Hz and 150 Hz both share the frequency of 300 Hz; their fundamental frequencies are in the ratio 2:3, and the distance between them is called a ``fifth'' in music.
+
+What sort of consonance do the two notes on the previous page form? 
+
+\vfill
+
+
+
+
+\begin{center}
+	
+	\underline{\hspace{3in}}
+	
+	\vspace{1in}
+	
+	This material will be on your final exam, but not in a detailed way where we ask you to solve complex problems from scratch, since we have not done homework on this. We expect you to know:
+	
+	\begin{itemize}
+		\item The wave speed $v$, wavelength $\lambda$, and frequency $f$ are related by $v = \lambda f$
+		\item When a string or air in a pipe vibrates, it creates a set of sine waves that have nodes at the endpoints; these are called {\it resonant modes}
+		\item The patterns of the resonant modes (that you drew in the first page)
+		\item This set of resonant modes have frequencies that are integer multiples of the lowest one, called the {\it fundamental}
+
+	\end{itemize}
+\end{center}
+
+ \end{document}
