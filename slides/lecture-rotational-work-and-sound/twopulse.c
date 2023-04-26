@@ -7,7 +7,7 @@ int delay=200;
 double K=1;
 double T=0.02;
 double M=1;
-double dt=0.00004;
+double dt=0.000013;
 
 void va(double x, double y, double x2, double y2)
 {
