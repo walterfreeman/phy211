@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  24 APR 2023 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.26)  27 APR 2023 01:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -800,33 +800,33 @@ This is `epsf.tex' v2.7.4 <14 February 2011>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 107.
+(hyperref)                removing `\\' on input line 108.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 107.
+(hyperref)                removing `\\' on input line 108.
 
 (./lecture24.aux)
 \openout1 = `lecture24.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -884,7 +884,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 111.
+Package hyperref Info: Link coloring OFF on input line 112.
 
 (./lecture24.out) (./lecture24.out)
 \@outlinefile=\write5
@@ -924,67 +924,51 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] [5
 
+] [6
+
 ]
-<mode1-crop.pdf, id=67, 336.25626pt x 57.21375pt>
-File: mode1-crop.pdf Graphic file (type pdf)
-<use mode1-crop.pdf>
-Package pdftex.def Info: mode1-crop.pdf  used on input line 154.
-(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 154
+LaTeX Font Info:    Trying to load font information for U+msa on input line 187
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 154
+LaTeX Font Info:    Trying to load font information for U+msb on input line 187
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<mode2-crop.pdf, id=68, 336.25626pt x 57.21375pt>
-File: mode2-crop.pdf Graphic file (type pdf)
-<use mode2-crop.pdf>
-Package pdftex.def Info: mode2-crop.pdf  used on input line 154.
-(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
-<mode3-crop.pdf, id=69, 336.25626pt x 57.21375pt>
-File: mode3-crop.pdf Graphic file (type pdf)
-<use mode3-crop.pdf>
-Package pdftex.def Info: mode3-crop.pdf  used on input line 154.
-(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
-<mode4-crop.pdf, id=70, 336.25626pt x 57.21375pt>
-File: mode4-crop.pdf Graphic file (type pdf)
-<use mode4-crop.pdf>
-Package pdftex.def Info: mode4-crop.pdf  used on input line 154.
-(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
- [6
-
- <./mode1-crop.pdf> <./mode2-crop.pdf> <./mode3-crop.pdf> <./mode4-crop.pdf>] [
-7
+) [7
 
 ] [8
 
-]
-<bar-modes.png, id=109, 440.39531pt x 282.30469pt>
-File: bar-modes.png Graphic file (type png)
-<use bar-modes.png>
-Package pdftex.def Info: bar-modes.png  used on input line 210.
-(pdftex.def)             Requested size: 217.62202pt x 139.50217pt.
- [9
+] [9
 
- <./bar-modes.png>]
-File: bar-modes.png Graphic file (type png)
-<use bar-modes.png>
-Package pdftex.def Info: bar-modes.png  used on input line 210.
-(pdftex.def)             Requested size: 217.62202pt x 139.50217pt.
+]
+<mode1-crop.pdf, id=96, 336.25626pt x 57.21375pt>
+File: mode1-crop.pdf Graphic file (type pdf)
+<use mode1-crop.pdf>
+Package pdftex.def Info: mode1-crop.pdf  used on input line 215.
+(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
+<mode2-crop.pdf, id=97, 336.25626pt x 57.21375pt>
+File: mode2-crop.pdf Graphic file (type pdf)
+<use mode2-crop.pdf>
+Package pdftex.def Info: mode2-crop.pdf  used on input line 215.
+(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
+<mode3-crop.pdf, id=98, 336.25626pt x 57.21375pt>
+File: mode3-crop.pdf Graphic file (type pdf)
+<use mode3-crop.pdf>
+Package pdftex.def Info: mode3-crop.pdf  used on input line 215.
+(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
+<mode4-crop.pdf, id=99, 336.25626pt x 57.21375pt>
+File: mode4-crop.pdf Graphic file (type pdf)
+<use mode4-crop.pdf>
+Package pdftex.def Info: mode4-crop.pdf  used on input line 215.
+(pdftex.def)             Requested size: 216.81pt x 36.88991pt.
  [10
 
-]
-File: bar-modes.png Graphic file (type png)
-<use bar-modes.png>
-Package pdftex.def Info: bar-modes.png  used on input line 210.
-(pdftex.def)             Requested size: 217.62202pt x 139.50217pt.
- [11
+ <./mode1-crop.pdf> <./mode2-crop.pdf> <./mode3-crop.pdf> <./mode4-crop.pdf>]
+[11
 
 ] [12
 
@@ -994,45 +978,64 @@ Package pdftex.def Info: bar-modes.png  used on input line 210.
 
 ] [15
 
-] [16
-
 ]
-<orbitals.jpg, id=161, 803.0pt x 570.13pt>
-File: orbitals.jpg Graphic file (type jpg)
-<use orbitals.jpg>
-Package pdftex.def Info: orbitals.jpg  used on input line 267.
-(pdftex.def)             Requested size: 239.38554pt x 169.96158pt.
+<bar-modes.png, id=154, 440.39531pt x 282.30469pt>
+File: bar-modes.png Graphic file (type png)
+<use bar-modes.png>
+Package pdftex.def Info: bar-modes.png  used on input line 314.
+(pdftex.def)             Requested size: 217.62202pt x 139.50217pt.
+ [16
+
+ <./bar-modes.png>]
+File: bar-modes.png Graphic file (type png)
+<use bar-modes.png>
+Package pdftex.def Info: bar-modes.png  used on input line 314.
+(pdftex.def)             Requested size: 217.62202pt x 139.50217pt.
  [17
 
- <./orbitals.jpg>]
-File: orbitals.jpg Graphic file (type jpg)
-<use orbitals.jpg>
-Package pdftex.def Info: orbitals.jpg  used on input line 267.
-(pdftex.def)             Requested size: 239.38554pt x 169.96158pt.
+]
+File: bar-modes.png Graphic file (type png)
+<use bar-modes.png>
+Package pdftex.def Info: bar-modes.png  used on input line 314.
+(pdftex.def)             Requested size: 217.62202pt x 139.50217pt.
  [18
 
-]
-[19
+] [19
 
 ] [20
 
 ] [21
 
 ]
-<sun-spectrum.jpg, id=193, 1541.76pt x 1027.84pt>
-File: sun-spectrum.jpg Graphic file (type jpg)
-<use sun-spectrum.jpg>
-Package pdftex.def Info: sun-spectrum.jpg  used on input line 320.
-(pdftex.def)             Requested size: 391.71698pt x 261.1312pt.
- [22
+[22
 
- <./sun-spectrum.jpg>] [23
+] [23
 
-] [24
+]
+<orbitals.jpg, id=206, 803.0pt x 570.13pt>
+File: orbitals.jpg Graphic file (type jpg)
+<use orbitals.jpg>
+Package pdftex.def Info: orbitals.jpg  used on input line 373.
+(pdftex.def)             Requested size: 239.38554pt x 169.96158pt.
+ [24
 
-] [25
+ <./orbitals.jpg>]
+File: orbitals.jpg Graphic file (type jpg)
+<use orbitals.jpg>
+Package pdftex.def Info: orbitals.jpg  used on input line 373.
+(pdftex.def)             Requested size: 239.38554pt x 169.96158pt.
+ [25
 
-] [26
+]
+File: orbitals.jpg Graphic file (type jpg)
+<use orbitals.jpg>
+Package pdftex.def Info: orbitals.jpg  used on input line 379.
+(pdftex.def)             Requested size: 478.7711pt x 339.93187pt.
+
+Overfull \vbox (10.49532pt too high) detected at line 379
+ []
+
+[26
 
 ] [27
 
@@ -1041,7 +1044,24 @@ Package pdftex.def Info: sun-spectrum.jpg  used on input line 320.
 ] [29
 
 ]
-[30
+<sun-spectrum.jpg, id=244, 1541.76pt x 1027.84pt>
+File: sun-spectrum.jpg Graphic file (type jpg)
+<use sun-spectrum.jpg>
+Package pdftex.def Info: sun-spectrum.jpg  used on input line 432.
+(pdftex.def)             Requested size: 391.71698pt x 261.1312pt.
+ [30
+
+ <./sun-spectrum.jpg>] [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+] [36
 
 ]
 \tf@nav=\write6
@@ -1053,37 +1073,35 @@ Package pdftex.def Info: sun-spectrum.jpg  used on input line 320.
 \tf@snm=\write8
 \openout8 = `lecture24.snm'.
 
- (./lecture24.aux)
+
+(./lecture24.aux)
 Package rerunfilecheck Info: File `lecture24.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23464 strings out of 476175
- 461974 string characters out of 5796294
- 1860793 words of memory out of 6000000
- 43199 multiletter control sequences out of 15000+600000
- 522032 words of font info for 69 fonts, out of 8000000 for 9000
+ 23483 strings out of 476175
+ 462025 string characters out of 5796294
+ 1863793 words of memory out of 6000000
+ 43205 multiletter control sequences out of 15000+600000
+ 522685 words of font info for 71 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 128i,15n,122p,571b,652s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,571b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
 
-pdfTeX warning (dest): name{Navigation31} has been referenced but does not exis
-t, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on lecture24.pdf (30 pages, 642415 bytes).
+Output written on lecture24.pdf (36 pages, 662197 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

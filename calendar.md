@@ -45,8 +45,9 @@ Note that the textbook does not track our presentation exactly; I've chosen the 
 | 18 April    | <a href="slides/lecture-rotational-dynamics-1/lecture-rotational-dynamics-1.pdf">Rotational dynamics (1)</a>                                  |                                |
 | 20 April    | <a href="slides/lecture-rotational-work/lecture-rotational-work.pdf">Rotational dynamics (2)</a>
                                  |                                | 
-| 25 April    |                                  |                                |
-| 27 April    |                                  |                                |
+| 25 April    | <a href="slides/lecture-rotational-work-and-sound/lecture-rotational-work-and-sound.pdf">Introduction to waves</a>                                 |                                |
+| 27 April    | <a href="slides/lecture-musical-acoustics/lecture-musical-acoustics.pdf">Resonant modes; musical instruments and atoms; closing</a>
+                                 |                                |
 | 8 May      | **FINAL EXAM**: 3PM-5PM Syracuse time                                                                            |                                |
 |-------------+------------------------------------------------------------------------------------------------------------------+--------------------------------+
 

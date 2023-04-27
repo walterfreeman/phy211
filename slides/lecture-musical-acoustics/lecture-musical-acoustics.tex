@@ -48,6 +48,7 @@
 \newcommand{\ie}{{\em i.e.\ }}
 \newcommand{\eg}{{\em e.\,g.\ }}
 \newcommand{\cf}{cf.\ }
+\newcommand{\BS}{\bigskip}
 \newcommand{\etc}{etc.\ }
 \newcommand{\atantwo}{{\rm atan2}}
 \newcommand{\Tr}{{\rm Tr}}
@@ -95,7 +96,7 @@
 %AB: remove navigation icons
 \beamertemplatenavigationsymbolsempty
 \title{
-  \textbf {Resonant modes in interesting shapes}\\
+  \textbf {Resonant modes; conclusion}\\
 %\centerline{}
 %\centering
 %\vspace{-0.0in}
@@ -104,7 +105,7 @@
 %\label{intrograph}
 }
 
-\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2017\\Walter Freeman}
+\author[W. Freeman] {Physics 211\\Syracuse University, Physics 211 Spring 2023\\Walter Freeman}
 
 \date{\today}
 
@@ -115,29 +116,89 @@
 \frame{\frametitle{\textbf{Announcements}}
   \large
 \BI
-\item{Please be patient with TA's while they process exam corrections}
-\item{If they don't get to evaluate yours in person, they can look at your written version}
-\item You must be in recitation on Friday to do exam corrections 
-\item If you have a medical or emergency reason for missing recitation Friday, you can come to office hours and do them
-\pause
-\BI
-\normalsize
-\item Mayfest is not an excused absence; classes are still in session Friday
-\pause
-\item Do not show up drunk to recitation (it won't end well)
-\pause
+\item Homework 9 is due tomorrow in recitation
+\BS\BS
+\item Final exam: {\bf May 8, 3PM - 5PM}
+\BI 
+\item {\bf \color{red} 9:30 section: Watson Theater (up the hill from Bird Library)}
+\item {\bf \color{blue} 11:00 section: Life Science Building 001}
+\item Make sure you go to the right place, since you have a personalized exam
+\item {\color{orange} There will be a sign-up form for people taking the exam at CDR so I can get your exam to you}
 \EI
-\item Extra clinic hours ahead of the final exam: 
-\BI
-\normalsize
-\item 10AM-4PM next Wednesday
-\item Review sessions TBD -- probably next Thursday and Sunday, at least
-\EI
+
 \EI
 }
 
+\frame{\frametitle{\textbf{What will be on the final exam?}}
+	
+{\Large	You might see:}
 
+	\BI
+		\color{Red}
+	\item A question asking what conditions must be true for an object to not move
+	\BI	\color{Red}
+	\item ``Oranges for sale'' question from recitation (Week 12, Day 2)
+	\item ``Drawbridge'' or ``construction worker'' question from HW9
+	\EI
+	\BS\pause\color{Blue}
+	\item A question analyzing rotational and translational motion in combination
+	\BI\color{Blue}
+	\item ``Bucket and pulley'' question from recitation (Week 13, Day 1)
+	\item ``Ping-pong ball and wind'' question from recitation (Week 13, Day 2)
+	\EI
+	\BS\pause\color{orange}
+	\item A question involving rotational kinetic energy
+	\BI\color{orange}
+	\item ``Spool and meter stick'' question from HW8
+	\item ``Sliding vs. rolling'' question from HW9 (the ice vs. the basketball)
+	\EI
+	\BS\pause\color{Green}
+	\item A question involving the modes of vibration of a string (Tuesday/today; recitation Friday)
+	\BI\color{Green}
+	\item This will {\it not} be intricate or difficult since we haven't done homework on it
+	\item My expectation is that it should be easy for anyone here and in recitation tomorrow
+	\EI
+	\EI
+	
+	\BS\BS
+	\Large
+	This set of questions will count as your final exam and should take about half the time.
+}
 
+\frame{\frametitle{\textbf{What will be on the final exam?}}
+	
+	{\Large	You will also have your three ``second chance'' questions.}
+	
+	\BI
+	\item These will be similar in character to what you had before
+	\item If you have any questions about which ones these are, please contact me
+	\item They should take you the other half of your time.
+	\EI
+	
+	
+	\BS\BS\pause
+	
+	\begin{center}\large
+	You may bring two pages of notes with anything you have written on them yourself.
+	
+	\BS
+	We will give you the ``$\lambda$ values'' for moments of inertia.
+	\end{center}
+}
+
+\frame{\frametitle{\textbf{Exam review}}
+	
+	\Large
+	
+	There will be many hours of review time next week led mostly by me but also by other members of the teaching staff.
+	
+	\BS\BS
+	
+	I will confirm space availability with our office and email you an update tonight.
+	
+	
+	
+}
 \frame{\frametitle{\textbf{Standing waves, from before}}
   \Large
   \vcenteredinclude{mode1-crop.pdf} Fundamental: $f_1 = \frac{c}{2L}$\\
@@ -156,17 +217,60 @@
 \frame{\frametitle{\textbf{Musical instruments: fun with spectroscopy}}
   \large
   \BI
-\item{In general, when you excite a string or air column, you produce a combination of many standing wave modes}
+\item{In general, when you excite a string or air column, you produce a combination of many standing wave modes}\BS
 \item{The unique sound of each instrument comes mostly from the relative strengths of them}
   \BI
 \item{``Dark'' or ``pure'' sound: weak higher harmonics}
 \item{``Bright'' or ``brassy'' sound: strong higher harmonics}
   \EI
+  \BS
 \item{All of these pitched instruments have evenly-spaced frequencies}
+\BI
 \item The unique sound of each instrument is determined by which frequencies are strongest
-\item{This is necessary for something to sound like a musical note}
+\EI
+\item{This even spacing is necessary for something to sound like a musical note}
 \item{Strings and uniform tubes do this naturally}
   \EI
+ 
+}
+
+\frame{\frametitle{\textbf{The basis of harmony}}
+	\large
+	
+	A musical note consists of {\color{Red}many} different frequencies -- multiples of the fundamental.
+	
+	\BS\BS
+		
+	Notes sound ``good'' when played together if they {\color{Blue} have frequencies in common}.
+	
+	\BS\BS\pause
+	
+	For example, consider notes with fundamentals of 200 Hz, 250 Hz, and 300 Hz played together:
+	\BS
+\begin{table}[]
+	\begin{center}
+		Frequencies in Hertz:
+	\end{center}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		200  & 250  & 300  \\ \hline
+		400  & 500  & \color{Red}600  \\ \hline
+		\color{Red}600  & 750  & 900  \\ \hline
+		800  & \color{Green}1000 & \color{Red}1200 \\ \hline
+		\color{Green}1000 & 1250 & \color{Blue}1500 \\ \hline
+		\color{Red}1200 & \color{Blue}1500 & \color{Red}1800 \\ \hline
+		1400 & 1750 & 2100 \\ \hline
+		1600 & \color{Green}2000 & \color{Red}2400 \\ \hline
+		\color{Red}1800 & 2250 & 2700 \\ \hline
+		\color{Green}2000 & 2500 & \color{orange}\bf 3000 \\ \hline
+	\end{tabular}
+\end{table}
+
+\pause\BS
+\begin{center}
+	These patterns of shared frequencies are the basis of {\color{red}\bf all of harmony}.
+\end{center}
+
 }
 
 \frame{\frametitle{\textbf{Interesting shapes}}
@@ -251,6 +355,8 @@ We have a problem: the frequencies of the normal modes are {\it not harmonic!}; 
 
   \frame{\frametitle{\textbf{Quantum mechanics and the connection to chemistry}}
     \centerline{\Large\color{Red} A key idea in quantum mechanics: matter acts like a wave}
+    \BS
+    
     \large
     \BI
   \item{Are there normal modes for atoms, too?}
@@ -264,6 +370,12 @@ We have a problem: the frequencies of the normal modes are {\it not harmonic!}; 
   \bigskip
   \bigskip
   \centerline {\normalsize  Great advances in quantum mechanics were made by people thinking about violin strings!}
+}
+
+\frame{
+
+  \centerline{  \includegraphics[width=1.1\textwidth]{orbitals.jpg}}
+
 }
 
 \frame{\frametitle{\textbf{Resonance appears everywhere...}}
@@ -346,29 +458,29 @@ appear in its gas
 \EI
 }
 
-\frame{\frametitle{\textbf{The power of mechanics}}
-\large
-The things we've studied in this class are more powerful than you think. 
-
-If you call up a chemist, she'll tell you the approximate force law between two noble gas atoms:
-
-$$ F(r) = \frac{\alpha}{r^12} - \frac{\beta}{r^6} $$
-
-Put this into a computer and let it go:
-
-\pause\bigskip
-
-\centerline{\color{Red}We can understand freezing, melting, and boiling just with $\vec F = m \vec a!$}
-
-\centerline{\color{Red}... we can even get the ideal gas law for free along the way!}
-}
+%\frame{\frametitle{\textbf{The power of mechanics}}
+%\large
+%The things we've studied in this class are more powerful than you think. 
+%
+%If you call up a chemist, she'll tell you the approximate force law between two noble gas atoms:
+%
+%$$ F(r) = \frac{\alpha}{r^12} - \frac{\beta}{r^6} $$
+%
+%Put this into a computer and let it go:
+%
+%\pause\bigskip
+%
+%\centerline{\color{Red}We can understand freezing, melting, and boiling just with $\vec F = m \vec a!$}
+%
+%\centerline{\color{Red}... we can even get the ideal gas law for free along the way!}
+%}
 
 \frame{\frametitle{\textbf{The rest of physics}}
 \large
 The other disciplines of physics are variants on what you've learned already:
 
 \BI
-\item Electromagnetism (PHY 211) introduces a new force -- just another $\vec F$
+\item Electromagnetism (PHY 212) introduces a new force -- just another $\vec F$
 \BI
 \item Light is just a particular manifestation of that force
 \EI
@@ -381,9 +493,9 @@ $\vec F = m\vec a$ acting on a great many particles at once
 Each of these disciplines is supported by a ``three-legged stool'':
 
 \BI
-\item Theory: understanding principles and using pen and paper to study them in simple situations (this class)
-\item Experiment: designing tests for these principles and building machines to carry them out (221)
-\item Computation: using computers to simulate those principles in more complicated situations and study their consequences (my field and class in the fall)
+\item \color{Red}Theory: understanding principles and using pen and paper to study them in simple situations (this class)
+\item \color{Blue} Experiment: designing tests for these principles and building machines to carry them out (221)
+\item \color{Green} \bf Computation: using computers to simulate those principles in more complicated situations and study their consequences (my field and class in the fall)
 \EI
 }
 

@@ -7,7 +7,7 @@ title: Announcements
 
 
 ### Current homework 
-* <a href="hw/hw9/hw9.pdf">Homework 9</a> is due Wednesday, April 26.
+* <a href="hw/hw9/hw9.pdf">Homework 9</a> is due Friday, April 28.
 
 * The <a href="second-chances.html">second chance homework assignments</a> (for an extra homework grade and to prepare you for the second chance questions on the day of the final) are due on the day of the final.
 
@@ -18,7 +18,7 @@ title: Announcements
 
 ### Current slides
 
-* <a href="slides/lecture-rotational-work-and-sound/lecture-rotational-work-and-sound.pdf">Rotational work; waves</a>
+* <a href="slides/lecture-musical-acoustics/lecture-musical-acoustics.pdf">Resonant modes; musical instruments and atoms; closing</a>
 
 ### Theoretical review of Unit 3
 
