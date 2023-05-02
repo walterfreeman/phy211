@@ -10,7 +10,7 @@ use_math: true
 
 All held in Physics Building B129E unless we announce otherwise.
 
-* Tuesday, May 2: 10am-2pm
+* Tuesday, May 2: 10am-2pm -- room 208
 * Wednesday, May 3: 2pm-5pm
 * Thursday, May 4: 10am-2pm
 * Friday, May 5: 1pm-3pm
