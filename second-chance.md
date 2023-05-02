@@ -1,10 +1,44 @@
 ---
 layout: page
-title: Exam Second Chances 
+title: Final Exam Study Materials 
 permalink: second-chances.html
 category: top
 use_math: true
 ---
+
+### Study Session Schedule
+
+All held in Physics Building B129E unless we announce otherwise.
+
+* Tuesday, May 2: 10am-2pm
+* Wednesday, May 3: 2pm-5pm
+* Thursday, May 4: 10am-2pm
+* Friday, May 5: 1pm-3pm
+
+### Final Exam Study Advice
+
+Here is a <a href="unit-4-review.pdf">theoretical guide to Unit 4's material on rotation</a>, in 
+case someone finds it useful.
+
+The most important things to make sure you understand for the first half of the final exam (new material) are:
+
+* **Static equilibrium**, in which an object does not move, and you need to figure out what must
+be true for it to neither translate nor rotate:
+  * HW9 #4 and #5 
+  * Recitation week 12 day 2 #2 ("orange seller problem") Note the "torque chart" technique to keep organized.
+* **Rotational kinetic energy**:
+  * HW9 #6 
+  * HW8 "spool problem"
+  * Recitation week 12 day 1 #2 and #3
+* **Coupled rotational and translational dynamics**:
+  * Recitation week 13 day 1 #2 ("bucket and pulley") 
+  * Week 13 day 2 #1 
+  * Week 13 day 2 #2 ("ping-pong ball").
+  * HW9 #9 ("wheel problem")
+
+The last recitation of the semester on acoustics contains everything you need to know about that.
+
+### Second Chance Materials
 
 Here are the "exam second chance" exercises, along with copies of past exams and practice exams
 that they reference.
@@ -54,26 +88,3 @@ They reference <a href="practice-exam-3-2023.pdf">Practice Exam 3 Part 1</a> and
 
 ### Study Session Schedule
 
-| Time            	| Tutor    	| Place  	| Topic                           	|
-|-----------------	|----------	|--------	|---------------------------------	|
-| Monday 1-2      	| Chandler 	| B129E  	| Exam 3: "dog and boat" (#1)      	|
-| Monday 2-3      	| Chandler 	| B129E  	| Exam 3: "car problem" (#2)    	|
-| Monday 3-4      	| Chandler 	| B129E  	| Exam 3: "skateboard problem" (#3)	|
-| Monday 4-5      	| Chandler 	| B129E  	| Exam 3: "astronaut problem"(#4) 	|
-|                 	|          	|        	|                                 	|
-| Tuesday 2-3     	| Brendan  	| Clinic 	| Exam 1: "football problem" (#4)  	|
-| Tuesday 3-4     	| Brendan  	| B129E  	| Exam 3: "planet problem (#3)"	|
-| Tuesday 3-6       | Walter    | Clinic    | Homework or general help
-|                 	|          	|        	|                                 	|
-| Wednesday 11-12 	| Chandler 	| Clinic 	| Exam 1: "goose problem" (#2)    	|
-| Wednesday 2:30-3:30|Sydney    | B129E     | Exam 1: "dog problem" (#1)        |
-| Wednesday 3-5   	| Walter   	| Clinic 	| Homework or general help        	|
-|                 	|          	|        	|                                 	|
-| Thursday 12-1   	| Sydney   	| Clinic 	| Exam 1: "soccer problem" (#3)    	|
-| Thursday 1-2    	| Sydney   	| Clinic 	| Exam 2: "truck problem" (#2)   	|
-| Thursday 2-3    	| Brendan  	| B129E  	| Exam 2: "cow problem" (#1)   	    |
-| Thursday 3-6    	| Brendan and Walter  	| Clinic 	| Homework or general help      	|
-|                 	|          	|        	|                                 	|
-| Friday 10-11    	| Walter   	| Clinic 	| Any of the second chance problems|
-| Friday 11-12    	| Chandler 	| Clinic 	| Any of the second chance problems|
-| Friday 12:30-1:30 | Walter    | Clinic    | Any of the second chance problems |
