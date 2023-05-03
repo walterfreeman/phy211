@@ -86,5 +86,4 @@ They reference <a href="practice-exam-3-2023.pdf">Practice Exam 3 Part 1</a> and
 * <a href="hw/second-chance/second-chance-skateboarder.pdf">Exam 3 "Skateboarder Problem"</a>: The work-energy theorem; conservation of energy and conservative/nonconservative forces 
 * <a href="hw/second-chance/second-chance-astronaut.pdf">Exam 3 "Astronaut Problem"</a>: Conservation of momentum in two dimensions 
 
-### Study Session Schedule
 
