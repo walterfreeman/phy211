@@ -57,7 +57,7 @@ exam questions are by looking at the exams you have gotten back or on Blackboard
 **Exam 1 Second Chance Exercises**
 
 These exercises give you a chance to revisit questions from <a href="exam1-2023.pdf">Exam 1</a>. 
-They reference <a href="practice-exam-1-all.pdf">Practice Exam 1</a>.
+They reference <a href="practice-exam-1-all.pdf">Practice Exam 1</a>; we also have the <a href="practice-exam-1-solutions.pdf">solutions to Practice Exam 1</a>. 
 
 * <a href="hw/second-chance/second-chance-dog-1D.pdf">Exam 1 "Dog Problem"</a>: Motion in one dimension; position, velocity, and acceleration graphs
 * <a href="hw/second-chance/second-chance-soccer.pdf">Exam 1 "Soccer Problem"</a>: Motion in two dimensions; the quadratic formula
@@ -69,7 +69,7 @@ They reference <a href="practice-exam-1-all.pdf">Practice Exam 1</a>.
 **Exam 2 Second Chance Exercises**
 
 These exercises give you a chance to revisit questions from <a href="exam2-2023.pdf">Exam 2</a>. 
-They reference <a href="practice-exam-2-2023.pdf">Practice Exam 2</a>.
+They reference <a href="practice-exam-2-2023.pdf">Practice Exam 2</a>; we also have the <a href="practice-exam-2-solutions.pdf">solutions to Practice Exam 2</a>.
 
 * <a href="hw/second-chance/second-chance-cow.pdf">Exam 2 "Cow Problem"</a>: Forces in two dimensions; "backwards problem" 
 * <a href="hw/second-chance/second-chance-truck.pdf">Exam 2 "Truck Problem"</a>: Analyzing connected objects; inclined surfaces
@@ -79,7 +79,7 @@ They reference <a href="practice-exam-2-2023.pdf">Practice Exam 2</a>.
 **Exam 3 Second Chance Exercises**
 
 These exercises give you a chance to revisit questions from <a href="exam3-2023.pdf">Exam 3</a>. 
-They reference <a href="practice-exam-3-2023.pdf">Practice Exam 3 Part 1</a> and <a href="practice-exam-3-2023-part2.pdf">Part 2</a>.
+They reference <a href="practice-exam-3-2023.pdf">Practice Exam 3 Part 1</a> and <a href="practice-exam-3-2023-part2.pdf">Part 2</a>. We also have the <a href="practice-exam-3-solutions.pdf">solutions to Practice Exam 3</a>.
 
 * <a href="hw/second-chance/second-chance-dog-combination.pdf">Exam 3 "Dog and Boat Problem"</a>: Energy, momentum, and kinematics in combination 
 * <a href="hw/second-chance/second-chance-electric-car.pdf">Exam 3 "Electric Car Problem"</a>: Potential energy, work, power, and dimensional analysis 
