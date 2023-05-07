@@ -376,34 +376,6 @@ to write, you may bring one page of notes that you have prepared yourself in a w
 You may use a calculator to do arithmetic, evaluate trigonometric functions, and so on. In general, you may use any
 "scientific" or "graphing" calculator, but may not use a calculator that will do symbolic manipulation (i.e. do 
 algebra for you). 
-<!--
-For all of the exams, you may refer to
-
-* the OpenStax textbook for our class
-* any notes you have yourself prepared
-* any materials belonging to our class, such as class notes, review guides, or solution videos
-
-You may *not* use:
-
-* other materials on the internet 
-
-You may bring a double-sided page of 
-handwritten notes, a nonprogrammable calculator, and writing implements. (Calculators that graph functions
-or solve equations symbolically are not allowed.) Note that your notes must be *handwritten* by you; photocopies of 
-someone else's notes are not allowed. (If you have a disability that impairs your ability to write, then you may 
-prepare your notes yourself using means accessible to you.)
- **Cellphones,
-smartwatches, and the like may not be used during exams for any reason. Using these devices is presumptive 
-evidence of academic dishonesty. If, due to an emergency situation, you require an exception to this, notify
-me or a proctor before the exam starts.**
-
-Makeup exams will not be given except in extreme circumstances involving serious disabling illness (not just a cold),
-family emergency, or events of singular
-importance to your personal life that occur on inflexible dates (e.g. your sibling is getting married). If you
-must miss an exam for such a reason, notify one of the professors or the head TA as far in advance as possible. We may ask for
-documentation. We may either:
-
--->
 <a id="incompletes"></a>
 
 #### Incompletes
