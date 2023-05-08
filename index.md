@@ -6,8 +6,8 @@ title: Announcements
 ---
 ### Final exam seating chart
 
-* <a href="chart-secM001.pdf">Section M001 (9:30 section), in Watson Theater</a> 
-* <a href="chart-secM002.pdf">Section M002 (11:00 section), in Life Sciences 001</a> 
+* <a href="chart-finalM001.pdf">Section M001 (9:30 section), in Watson Theater</a> 
+* <a href="chart-finalM002.pdf">Section M002 (11:00 section), in Life Sciences 001</a> 
 
 
 ### Current homework 
