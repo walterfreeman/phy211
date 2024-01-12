@@ -37,15 +37,15 @@ Please see the course calendar (linked above) for details about what topics we p
 ### Contact Information
 
 -   Professors:
-    - Britton Plourde, <bplourde@syr.edu>, Physics Building XXX 
+    - Britton Plourde, <bplourde@syr.edu>, Physics Building 219
     - Walter Freeman, <wafreema@syr.edu>, Physics Building 215
 -   Recitation TA's:
     - No Chen, <nochen@syr.edu>
     - Hon Kin "Billy" Chu, <hchu05@syr.edu>
-    - Vikas Jadhav Yashavant, <vjadhavy@syr.edu>
     - Benjamin Maves, <bmaves@syr.edu>
     - Dylan Van Allen, <djvanall@syr.edu>
     - Jasmine Watt, <yhuan223@syr.edu>
+    - Vikas Jadhav Yashavant, <vjadhavy@syr.edu>
     - Haoyang "Peter" Zhou, <hzhou51@syr.edu>
 - Focused assistance program director: Brendan Parlee, <bhparlee@syr.edu>
  
@@ -150,7 +150,6 @@ If you don't have any of these skills, that's okay! You can tell us (or we'll fi
 
 As part of this philosophy of inquiry and questioning, we welcome your input. If there is some aspect of physics that inspires or fascinates you, please ask; if you have feedback for us that will help you enjoy the class more, then please let us know.
 
-<!--
 ---
 <a id="assistance"></a>
 
@@ -159,21 +158,20 @@ As part of this philosophy of inquiry and questioning, we welcome your input. If
 We believe that anyone can understand physics. It does not require any special talent or gift; it requires only hard work and persistent effort. 
 There is never shame in "not understanding something yet".
 
-Everyone's progress in learning physics is different. We all begin this journey with different background in mathematics, and we all learn physics
-skills unevenly. This class is designed to give you multiple avenues and times to learn each skill. 
+Everyone's progress in learning physics is different. We all begin this journey with different background in mathematics,
+and different physics skills will take different amounts of time for each of us to learn. 
+This class is designed to give you multiple avenues and times to learn each skill. 
 
- However, the same exercise program doesn't always
-work for everyone, and so we are trialing something new this year.
+However, the same exercise program doesn't always work for everyone, and so we are trialing something new this year.
 
 I am working with Brendan Parlee, a physics major focusing on education, to develop a program designed to identify when individual students need extra
 help to learn some skill, whether mathematical or physical, and get them that help. Much of what we do will be behind the scenes. The ways that will affect
 you are:
 
-* You'll see us taking notes during recitation (not just about things you need help with, but also things you are doing well at!)
-* We will invite people who need extra practice at particular skills to come to study sessions designed to help you learn those skills
-* We may customize homework assignments for students to focus on the skills that would benefit them the most to practice
-* Half of your final exam will consist of "second chances" at previous skills you had trouble with on prior exams
--->
+* At the beginning of the semester, we will give everyone an ungraded mathematics assessment. If there are any skills you need extra practice on, we'll contact you and offer you an opportunity to get that practice.
+* At the end of recitation, we will sometimes ask you to give a short reflection on how well you understood the things in that day's recitation and what you learned from it. We'll use what you tell us to inform what we do in future classes.
+* If you ask us for extra help on any topic, we'll have resources available to get you that help.
+
 
 ---
 
@@ -208,22 +206,7 @@ After taking this class, you will be able to:
   * Describe the relationship between the forces that act on an object and the torque they apply about any given axis
   * Describe the relationship between the torque applied to an object and its angular acceleration
   * Use both $\vec F=m\vec a$ and $\tau = I \alpha$ in tandem to predict the motion of objects that both translate and rotate
-
-<!--
-* (If we have time) Relate normal modes to acoustics:
-  * Define and relate the wavelength, wave speed, and frequency of traveling waves
-  * Quantitatively analyze the normal modes ("harmonics") of e.g. a guitar string or organ pipe
-  * Qualitatively relate these ideas to analysis of the normal modes of a 2D or 3D cavity
-
-* Engage in scientific reasoning:
-  * Describe the basics of scientific integrity and the properties of both honest scientific arguments and dishonest pseudoscientific claims
-  * Critique (pseudo)scientific claims that are made in bad faith, and describe the problems with them
-  * Critically examine sound and unsound scientific claims that seek to overturn preexisting consensus. In particular:
-    * Describe the primacy of empirical measurements in evaluating scientific claims
-    * Critique flawed arguments that fail to address empirical data 
-    * Critique flawed arguments that fail to address the broader framework of physical laws of nature
-    * Critique flawed arguments that focus on the identities of the people involved, rather than their data and logic -->
-  
+ 
 <a id="activities"></a>
 
 ---
@@ -261,7 +244,9 @@ If you have done the reading ahead of class, these presentations will serve as r
 We will also demonstrate for you the analytic processes involved in solving problems. **We will always have time
 to discuss your questions about the homework or recitation activities**. Need hints on your homework? Ask.
 
-**At any time during class, we encourage you to ask questions and make comments about physics**. If you do not understand something, ask. 
+**At any time during class, we encourage you to ask questions and make comments about physics**. If you do not understand something, ask us.
+
+
 
 <a id="homework"></a>
 #### Homework
@@ -274,11 +259,23 @@ Also, they cost money and everyone hates them.
 Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and working alongside your peers and instructors as you do it,
 is the single best thing you can do in this class.
 
-When writing your homework solutions, you must describe what you are doing in words, even if these descriptions are brief; *your solutions should not consist only of equations.* 
-Show us what you are thinking and why you are doing what you're doing; this will both help you learn and help us give you more partial credit if you understand what you're doing but mess up the math. 
-**If you do not describe what you are doing and why, you will not get full credit for a solution, even if it is correct.**
+Your homework will consist of three kinds of questions:
 
-Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. 
+* "Sneak peek" or "warmup" questions: These ask you to do one quick thing, practice a single skill, solve a single equation, or answer a short one-step question. They will all be relevant to one of the full questions that you will do later -- for instance, if we ask you to solve an equation, the same equation will be part of one of the full questions.
+* Full exercises: These are "real" physics questions. We will give you a physical situation and ask you to figure out how it works. These questions will generally have multiple parts, be quite involved, and will be the main part of your homework.
+* Retrospectives: At the end, we will ask you some questions about the homework assignment you just finished: what was easy, what was hard, how you figured things out, and so on. 
+
+When writing solutions to the full questions, you must describe what you are doing in words, even if these descriptions are brief; *your solutions should not consist only of equations.* 
+Show us what you are thinking and why you are doing what you're doing; this will both help you learn and help us give you more partial credit if you understand what you're doing but mess up the math. *If you do not describe what you are doing and why, you will not get full credit for a solution, even if it is correct.*
+
+**Homework grading:**
+
+* Each of the warmup/sneak-peek questions will be worth two points.
+* We will grade one or two of the full questions for correctness. These will be graded out of ten points. 
+* Each of the retrospective questions will be worth two points. These questions do not have right or wrong answers; we want to know what you think. (However, 
+you have to do the full exercises to earn credit for the retrospective questions.)
+
+**Homework assistance:**
 
 We do not intend for you to work on these problems by yourself without help. 
 The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well, along with 
@@ -302,10 +299,11 @@ our class will likely know the answer!
 #### Help Sessions and the Physics Clinic
 
 The Physics Clinic (room 112) is a place where you can go during the day to work with other people,
-along with professional tutors, to learn physics. We hope you'll find it a welcoming and friendly place! 
+including professional tutors, to learn physics. We hope you'll find it a welcoming and friendly place! 
 We'll be holding help sessions there ("office hours"), when you can come talk to us about anything; even when
-we am not there, there will almost always be someone on hand to help you.
-If you have questions or suggestions, need help with your homework or with studying, or just want to chat, this is a great opportunity. 
+we are not there, there will almost always be someone on hand to help you.
+
+If you have questions or suggestions, need help with your homework or with studying, or just want to chat, come visit us.
 
 <a id="grading"></a>
 
@@ -317,11 +315,11 @@ If you have questions or suggestions, need help with your homework or with study
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
 | Homework                     | Due throughout            |        Around 30 each; around 300 in total  |
-| Exam 1                       | 7 February                |             120   |
-| Exam 2                       | 28 February               |             120   |
-| Exam 3                       | 4 April                   |             120   |
-| Exam 4 (Final Exam)          | 8 May, 3PM-5PM            |             120   |
-| Recitation participation     | Throughout the semester   |  5 each; around 125 in total   |
+| Exam 1                       | 6 February                |             120   |
+| Exam 2                       | 27 February               |             120   |
+| Exam 3                       | 2 April                   |             120   |
+| Exam 4 (Final Exam)          | 6 May, 3PM-5PM            |             120   |
+| Recitation participation     | Throughout the semester   |  Around 160 in total   |
 | Group practice exams         | Prior to each exam        | 50 each; 200 in total  |
 
 We have a few leniencies that we will apply to this rubric:
@@ -330,13 +328,13 @@ We have a few leniencies that we will apply to this rubric:
 To do this, you must tell your TA why you missed the group exam, and do so in advance if possible. You must also
 tell your group that you will be absent -- this is a professional courtesy to them!
 
-* Your final exam will consist of two parts. Part 1 of your final exam will be three questions from the material we have covered since Exam 3.
-Part 2 of your final exam will consist of a "second chance" to demonstrate proficiency in topics that you didn't understand
-during an earlier exam. This will vary from student to student, so each person's final exam will be different. However, in
-each case, every student will get the same chance to earn credit back on topics they didn't understand at first.
+* We will not count your lowest homework assignment grade in computing your grade. 
 
-* We do not "drop lowest" of anything, although recitation participation will be scaled such that students with
-a few absences will not lose much credit. You may turn one homework assignment in up to a week late by writing
+* We will not count your lowest exam grade in determining your grade. For this purpose, we are treating the final exam 
+as just another exam. This means that if you are satisfied with your first three exam grades, you do not need to take the
+final. (We are aware that it is right after your calculus exams; we unfortunately can't do anything about that...)
+
+* You may turn one homework assignment in up to a week late by writing
 "This is my one late homework set" on top of it and bringing it to recitation.
 
 If you don't believe the grades on something are correct:
@@ -372,7 +370,7 @@ assigning final grades.
 <a id="exams"></a>
 #### Exams
 
-There will be three exams and a final on the dates shown on the course schedule. 
+There will be four exams on the dates shown on the course schedule. 
 
 For all of the exams, you may bring one piece of paper with anything you have handwritten on it with a pencil or pen.
 You may not bring printouts or anything someone else has written. (If you have a disability that impairs your ability
@@ -427,6 +425,18 @@ we will, for instance, tell you what the quadratic formula is if you forget.
 * for **exams**, you may bring one page of handwritten notes, plus a calculator that doesn't do algebra for you. 
 You may not use any other electronic devices (smartphones, smartwatches, earphones), may not look at other students' work, 
 and may not consult or collaborate with anyone other than teaching staff during the exam.
+
+#### Use of generative AI
+
+The authors of ChatGPT and other models like it are working toward developing "artificial general intelligence" -- computing platforms that can converse
+much like a human would. They are not there yet, and often provide hilariously incorrect responses to simple questions. However, for purposes of academic 
+integrity, we are treating ChatGPT just like we are treating a real human you might ask for help.
+
+This means that if you ask ChatGPT a question so you can better understand physics, this is perfectly fine; we encourage you to work with
+your classmates in our course! However, if you ask ChatGPT 
+to do your homework for you -- thus substituting its understanding for your own -- this constitutes academic dishonesty in the same way
+that copying a classmate's homework would. 
+
 
 
 <!--
@@ -486,35 +496,28 @@ We will not excuse any absences for athletic travel on Fridays.
 **If you miss an isolated lecture class**, you may be able to catch up during the recitation immediately following the class you miss. You are always welcome to come to 
 my office hours for help (and should do so). 
 
-**If you miss recitation**, send a note to your recitation TA and to Chandler Martin explaining your absence. You may come visit Chandler in the Physics 
-Clinic the following Monday from 1-4 PM to work through the recitation exercise with him; he will give you credit for recitation attendance and participation, so long as you don't abuse this system.
+**If you miss recitation**, send a note to your recitation TA explaining your absence. In general we will not penalize students 
+in evaluating recitation participation for occasional absences for good reasons.
 
 **If you are late turning in a homework assignment**, you should describe the reason it is late to your TA and get their permission to turn it in late. 
 (We will generally grant homework extensions for the reasons outlined above or in other situations where granting a homework extension will help you learn physics.) 
 Everyone may turn in *one* homework assignment up to a week late without giving a reason
 by writing on the top of it "This is my one late submission" and turning it in at the next
 recitation. 
-Otherwise, we won't accept late homework without a reason (and won't accept homework more than three days late without a compelling reason).
+Otherwise, we won't accept late homework without a reason (and won't accept homework more than two days late without an extremely compelling reason).
 
 **If you miss a group quiz** for a good reason (detailed above), we will replace its grade with the grade you get on the corresponding exam held the next week.
 To be eligible to do this, unless the situation is an emergency, you must contact your GTA and Walter and explain the reason for your absence and get it approved ahead of time, and then
 contact your group and let them know that you will not be able to help them with their work. _(You may do this once.)_
 
-**If you will miss an exam**, please send a note to Walter explaining the situation as far in advance
-as possible. 
-
-We may either:
-
-* Use the "second chance portion" of the final exam to evaluate you on that topic, as a makeup
-* Ask you to take a makeup exam during the last week of class, written or verbal
-* Ask you to take a makeup exam during the next day or two, written or verbal
-* Evaluate you on that material in some other way
-
+**If you will miss an exam**, please send a note to one of the professors explaining the situation as far in advance
+as possible. We may ask you to drop that exam as your lowest exam grade, offer you a makeup exam (if you do this promptly), or 
+evaluate you in some other way.
 
 **If you are falling significantly behind** -- if you have missed a week of recitation,
 if you are seriously ill, if you have personal problems that prevent you from doing work for an extended period, etc. -- we will need to
 make arrangements during office hours and design an accommodation specifically for your situation. To be eligible for this sort of thing,
-you must come talk to us promptly once you fall behind so we can help you get back on track; do not tell me in May why you were unable
+you must come talk to us promptly once you fall behind so we can help you get back on track; do not tell us in May why you were unable
 to do your homework in March. We will create a syllabus modification accommodation (including extended due dates or whatever else)
 that is appropriate to your situation. 
 
