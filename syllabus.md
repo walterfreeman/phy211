@@ -36,15 +36,23 @@ Please see the course calendar (linked above) for details about what topics we p
 
 ### Contact Information
 
--   Professor: 
+-   Professors:
+    - Britton Plourde, <bplourde@syr.edu>, Physics Building XXX 
     - Walter Freeman, <wafreema@syr.edu>, Physics Building 215
 -   Recitation TA's:
-    * TBD
+    - No Chen, <nochen@syr.edu>
+    - Hon Kin "Billy" Chu, <hchu05@syr.edu>
+    - Vikas Jadhav Yashavant, <vjadhavy@syr.edu>
+    - Benjamin Maves, <bmaves@syr.edu>
+    - Dylan Van Allen, <djvanall@syr.edu>
+    - Jasmine Watt, <yhuan223@syr.edu>
+    - Haoyang "Peter" Zhou, <hzhou51@syr.edu>
 - Focused assistance program director: Brendan Parlee, <bhparlee@syr.edu>
  
 Class meeting: Tuesdays and Thursdays, 9:30-10:50 or 11:00-12:30, Tuesdays and Thursdays
--   Help sessions (office hours): TBD
--   Course website: <https://walterfreeman.github.io/phy211/>, in addition to Blackboard
+-   Help sessions (office hours): Friday 9:00-11:00; Tuesdays 
+-   Course website: TBD, in addition to Blackboard
+-   Course Discord server: see the link posted on Blackboard
 
 ---
 
@@ -68,7 +76,7 @@ do not use them for commercial purposes, and give others the same rights you hav
 
 #### 0. Physics is simple!
 
-**This is the simplest class you will take in your university career.** It is accurate to say that the content of this class consists of Newton's law of motion $\vec F=m\vec a$, along with a little math (algebra, trigonometry, simple calculus). That's it.
+**This is the simplest class you will take in your university career.** It is accurate to say that the content of this class consists of Newton's law of motion $\vec F=m\vec a$, along with a little math (algebra, simple trigonometry, extremely simple calculus). That's it.
 
 This doesn't mean this class will be easy, of course; the difficult aspect of this course will be learning to use these simple tools -- the elementary principles governing forces and motion -- to understand situations that vary from how to drive safely on ice, how to measure the speed of a bullet, how to throw a basketball so that it goes into the hoop, how a bicycle works, and so on.
 
@@ -81,7 +89,7 @@ So, if you're stuck on a problem, think simple; that's how physics works.
 #### 1. Reasoning and skill-building, not memorization
 
 This course is emphatically not a class where you will come to lecture, sit there and listen to a presentation of some facts, and then repeat them back to us on exams. The laws of mechanics are very simple, and you could 
-memorize them in fifteen minutes if you wanted. The challenging aspect of this class is the *application* of those
+memorize them in an hour if you wanted. The challenging aspect of this class is the *application* of those
 principles to understand the motion of physical systems -- to take the principles of nature and, using mathematics
 as a tool, synthesize them into an understanding of how a particular system behaves. 
 You are not going to be learning a list of currently-accepted facts; you are going to be practicing skills and learning to see the universe as scientists see it.
@@ -92,17 +100,20 @@ Since the difficult part of the course is developing problem-solving skills, it'
 a sport or learning a musical instrument: it requires practice and the guidance of a coach. We do not expect that you will always be able to do all of the homework problems on your own; 
 it is crucial that you ask for help in doing your homework. If you're stuck on a homework problem, you can:
 
-- Come to our office hours and ask, or make an appointment, or drop by my office (room 215)
+- Come to our office hours and ask; even outside our office hours, you can come visit us in our offices and see if we are available
 - Ask on the Discord server (invite available on Blackboard) -- chances are someone will help you 
 out right away
-- Go to the Physics Clinic; you will generally find a TA, other students, and/or one of the professors there to help you.
+- Go to the Physics Clinic (room 112); you will likely find someone else working on the same thing and an instructor there to help you.
 - Ask a question in the lecture: if you're stuck on something your peers probably are too, and will welcome your question. 
 We *always* have time in lecture to answer questions about physics; don't be intimidated by the size of the class.
 - Ask your TA or coaches during recitation
 - Ask your peers for help (and insist that they help you understand how to think about the problem, not just give you the answer)
-- Write the professors, your coaches, or your TA an email.
+- Write the professors or your TA an email.
 
-Again: it is **intended that you will get stuck**, just like no pianist plays a difficult piece perfectly the first time. The problem-solving skills in this course are things you have to practice, and we expect you to have to practice in order to make progress; come ask us for help, and we'll guide you as you practice.
+Again: it is **intended that you will have questions** during the process of learning physics. 
+Just like no pianist plays a difficult piece perfectly the first time, 
+you will probably make some errors along the way. That's okay! 
+The problem-solving skills in this course are things you have to practice, and we expect you to have to practice in order to make progress; come ask us for help, and we'll guide you as you practice.
 
 #### 3. Learn from your work
 
@@ -110,9 +121,9 @@ As you look at problems -- whether you're solving them the first time or reviewi
 
 It's also not enough to know how to get the answer. Knowing how to get the answer -- looking through the solution and understanding how each step follows logically from the last -- is also not enough.
 
-Instead, you should make sure you know **how you know what to do** to solve the problem. After you complete a problem, take just a few minutes to look back over it and ask yourself: what about this problem led me to the solution? Make sure you're aware of what aspects of the problem make it solvable in a particular way. This will help you build a flexible toolkit of problem-solving skills, tools that will serve you well on the exams and in life.
+Instead, you should make sure you know how you know what to do to solve the problem. After you complete a problem, take just a few minutes to look back over it and ask yourself: what about this problem led me to the solution? Make sure you're aware of what aspects of the problem make it solvable in a particular way. This will help you build a flexible toolkit of problem-solving skills, tools that will serve you well on the exams and in life.
 
-We've chosen to give you only six to ten homework problems per week. We could give you more, and in fact if you want more practice problems there are more available in your textbook. This is because we intend for you to spend more time thinking about what each problem entails, and learning from them; our experience has shown that students who have to slog through 25 homework problems per week are less likely to actually think about the skills they've applied in each one, since homework becomes a grueling endurance challenge rather than an opportunity to learn physics. We'd much rather have you do the latter. 
+<!--We've chosen to give you onhomework problems per week. We could give you more, and in fact if you want more practice problems there are more available in your textbook. This is because we intend for you to spend more time thinking about what each problem entails, and learning from them; our experience has shown that students who have to slog through 25 homework problems per week are less likely to actually think about the skills they've applied in each one, since homework becomes a grueling endurance challenge rather than an opportunity to learn physics. We'd much rather have you do the latter. -->
 
 #### 4. This is not a math class
 In this class, you will use mathematics, but it is only a tool. Do not let yourself become a thrall to mathematics; this class is no more about mathematics than a class on Shakespeare is a class about words.
@@ -139,6 +150,7 @@ If you don't have any of these skills, that's okay! You can tell us (or we'll fi
 
 As part of this philosophy of inquiry and questioning, we welcome your input. If there is some aspect of physics that inspires or fascinates you, please ask; if you have feedback for us that will help you enjoy the class more, then please let us know.
 
+<!--
 ---
 <a id="assistance"></a>
 
@@ -148,14 +160,20 @@ We believe that anyone can understand physics. It does not require any special t
 There is never shame in "not understanding something yet".
 
 Everyone's progress in learning physics is different. We all begin this journey with different background in mathematics, and we all learn physics
-skills unevenly. This class is designed to give you multiple avenues and times to learn each skill. However, the same exercise program doesn't always
+skills unevenly. This class is designed to give you multiple avenues and times to learn each skill. 
+
+ However, the same exercise program doesn't always
 work for everyone, and so we are trialing something new this year.
 
 I am working with Brendan Parlee, a physics major focusing on education, to develop a program designed to identify when individual students need extra
 help to learn some skill, whether mathematical or physical, and get them that help. Much of what we do will be behind the scenes. The ways that will affect
 you are:
 
-* details TBD
+* You'll see us taking notes during recitation (not just about things you need help with, but also things you are doing well at!)
+* We will invite people who need extra practice at particular skills to come to study sessions designed to help you learn those skills
+* We may customize homework assignments for students to focus on the skills that would benefit them the most to practice
+* Half of your final exam will consist of "second chances" at previous skills you had trouble with on prior exams
+-->
 
 ---
 
@@ -232,8 +250,7 @@ A further set of guidelines (incorporated into this syllabus) for recitation, an
 #### Readings
 
 We will post correspondence between each day's class and textbook sections. (These may change during the semester based on our progress, but we
-will let you know at least a week ahead of time.) However, many students do very well in this class without reading the textbook; most students learn
-the material primarily from the homework and recitation exercises.
+will let you know at least a week ahead of time.) 
 
 <a id="lectures"></a>
 #### Lectures
@@ -241,7 +258,7 @@ the material primarily from the homework and recitation exercises.
 We will alternate between presentation and practice. We will first introduce you to the new ideas we are studying
 If you have done the reading ahead of class, these presentations will serve as review and enrichment. 
 
-We will also demonstrate for you the analytic processes involved in solving problems. **I will always have time
+We will also demonstrate for you the analytic processes involved in solving problems. **We will always have time
 to discuss your questions about the homework or recitation activities**. Need hints on your homework? Ask.
 
 **At any time during class, we encourage you to ask questions and make comments about physics**. If you do not understand something, ask. 
@@ -251,14 +268,8 @@ to discuss your questions about the homework or recitation activities**. Need hi
 
 Homework in this class is designed as a tool to help you develop the problem-solving skills needed to understand physical situations on your own.
 
-You will have an assignment due each week (more or less). We have found that fancy computer homework systems (Blackboard, Mastering Physics, or whatever else)
-tend not to be as useful as good old pencil and paper. Also they cost money and everyone hates them.
-
-We do not intend for you to work on these problems by yourself without help. 
-The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well, along with 
-tutors who can help you, and you can ask questions as they arise.
-
-You can also discuss the homework in #homework-discussion on Discord with your peers.
+You will have an assignment due each week (more or less). We have found that fancy computer homework systems (Blackboard, Mastering Physics, or whatever else) tend not to be as useful as good old pencil and paper. 
+Also, they cost money and everyone hates them.
 
 Doing the homework thoughtfully and with an eye toward understanding "So how did I know what to do here?", and working alongside your peers and instructors as you do it,
 is the single best thing you can do in this class.
@@ -268,6 +279,13 @@ Show us what you are thinking and why you are doing what you're doing; this will
 **If you do not describe what you are doing and why, you will not get full credit for a solution, even if it is correct.**
 
 Two problems from each set will be graded fully (out of ten points); the rest will be quickly graded for completeness out of two. 
+
+We do not intend for you to work on these problems by yourself without help. 
+The Physics Clinic is a great place to come to do your homework; you will likely find many of your peers there as well, along with 
+tutors who can help you, and you can ask questions as they arise.
+
+You can also discuss the homework in #homework-discussion on Discord with your peers.
+
 
 <a id="labs"></a>
 #### Labs
@@ -285,8 +303,8 @@ our class will likely know the answer!
 
 The Physics Clinic (room 112) is a place where you can go during the day to work with other people,
 along with professional tutors, to learn physics. We hope you'll find it a welcoming and friendly place! 
-I'll be holding help sessions there ("office hours"), when you can come talk to me about anything; even when
-I am not there, there will almost always be someone on hand to help you.
+We'll be holding help sessions there ("office hours"), when you can come talk to us about anything; even when
+we am not there, there will almost always be someone on hand to help you.
 If you have questions or suggestions, need help with your homework or with studying, or just want to chat, this is a great opportunity. 
 
 <a id="grading"></a>
@@ -298,13 +316,13 @@ If you have questions or suggestions, need help with your homework or with study
 
 | Item                         |            Date           | Points            |
 |------------------------------|:-------------------------:|------------------:|
-| Homework                     | Due throughout            |        Around 30 each; around 240 in total  |
-| Exam 1                       | 7 February                |             100   |
-| Exam 2                       | 28 February               |             100   |
-| Exam 3                       | 4 April                   |             100   |
-| Final Exam                   | 8 May, 3PM-5PM            |             100 plus extra credit   |
+| Homework                     | Due throughout            |        Around 30 each; around 300 in total  |
+| Exam 1                       | 7 February                |             120   |
+| Exam 2                       | 28 February               |             120   |
+| Exam 3                       | 4 April                   |             120   |
+| Exam 4 (Final Exam)          | 8 May, 3PM-5PM            |             120   |
 | Recitation participation     | Throughout the semester   |  5 each; around 125 in total   |
-| Group practice exams         | Prior to each exam        | 50 each; 150 in total  |
+| Group practice exams         | Prior to each exam        | 50 each; 200 in total  |
 
 We have a few leniencies that we will apply to this rubric:
 
@@ -317,9 +335,9 @@ Part 2 of your final exam will consist of a "second chance" to demonstrate profi
 during an earlier exam. This will vary from student to student, so each person's final exam will be different. However, in
 each case, every student will get the same chance to earn credit back on topics they didn't understand at first.
 
-* If you miss a midterm exam, TBD
-
-* If you must miss the final exam, TBD 
+* We do not "drop lowest" of anything, although recitation participation will be scaled such that students with
+a few absences will not lose much credit. You may turn one homework assignment in up to a week late by writing
+"This is my one late homework set" on top of it and bringing it to recitation.
 
 If you don't believe the grades on something are correct:
 
@@ -402,10 +420,7 @@ In general:
 
 * for **homework assignments**, you may consult any general references and people you like, so long as you are not soliciting solutions to copy. 
 Your solution must be your own work, and you must understand everything you submit. If you submit homework solutions that you have copied and don't understand, 
-it will probably _lower_ your grade in the end.
-  * On homework assignments, if we suspect that your submission is not an accurate reflection of your understanding, we may ask you to verbally explain the meaning of what you have written and revise your grade based on your explanation.
-
-
+it will probably _lower_ your grade in the end, since we won't be able to get you extra help through the focused assistance program.
 * for **group exams**, you may work with the other members in your group. You must understand and be able to explain everything you
 submit. Teaching staff (coaches and TA's) will often provide assistance during your recitation if you forget something;
 we will, for instance, tell you what the quadratic formula is if you forget.
@@ -469,24 +484,28 @@ If you will have regular Friday absences (for instance, if you are an athlete-st
 We will not excuse any absences for athletic travel on Fridays.
 
 **If you miss an isolated lecture class**, you may be able to catch up during the recitation immediately following the class you miss. You are always welcome to come to 
-office hours for help (and should do so if you need to catch up).
+my office hours for help (and should do so). 
 
-**If you miss recitation**, send a note to your recitation TA explaining your absence. You may come visit us in the Physics 
-Clinic the following Monday from 1-4 PM to work through the recitation exercise with us; we will give you credit for recitation attendance and participation, so long as you don't abuse this system.
+**If you miss recitation**, send a note to your recitation TA and to Chandler Martin explaining your absence. You may come visit Chandler in the Physics 
+Clinic the following Monday from 1-4 PM to work through the recitation exercise with him; he will give you credit for recitation attendance and participation, so long as you don't abuse this system.
 
-**If you are late turning in a homework assignment**, everyone may turn in *one* homework assignment up to a week late without giving a reason
-by writing on the top of it "This is my one late submission" and turning it in when you finish it.
+**If you are late turning in a homework assignment**, you should describe the reason it is late to your TA and get their permission to turn it in late. 
+(We will generally grant homework extensions for the reasons outlined above or in other situations where granting a homework extension will help you learn physics.) 
+Everyone may turn in *one* homework assignment up to a week late without giving a reason
+by writing on the top of it "This is my one late submission" and turning it in at the next
+recitation. 
+Otherwise, we won't accept late homework without a reason (and won't accept homework more than three days late without a compelling reason).
 
 **If you miss a group quiz** for a good reason (detailed above), we will replace its grade with the grade you get on the corresponding exam held the next week.
-To be eligible to do this, unless the situation is an emergency, you must contact your TA and explain the reason for your absence and get it approved ahead of time, and then
+To be eligible to do this, unless the situation is an emergency, you must contact your GTA and Walter and explain the reason for your absence and get it approved ahead of time, and then
 contact your group and let them know that you will not be able to help them with their work. _(You may do this once.)_
 
-**If you will miss an exam**, please send a note to the professors explaining the situation as far in advance
+**If you will miss an exam**, please send a note to Walter explaining the situation as far in advance
 as possible. 
 
-Depending on what you tell us, we may either:
+We may either:
 
-* Allow you to drop this exam as your lowest exam grade
+* Use the "second chance portion" of the final exam to evaluate you on that topic, as a makeup
 * Ask you to take a makeup exam during the last week of class, written or verbal
 * Ask you to take a makeup exam during the next day or two, written or verbal
 * Evaluate you on that material in some other way
